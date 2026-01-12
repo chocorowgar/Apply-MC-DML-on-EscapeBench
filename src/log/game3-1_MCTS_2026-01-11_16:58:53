@@ -1,0 +1,2396 @@
+Step: 1
+click(dagger inserted in sign) Q=1.3467803493337638, Count=49
+click(wet shipping list) Q=1.718774952959397, Count=51
+move(Go to the garbage disposal place) Q=1.6854730985433493, Count=51
+move(Explore the crane in the front) Q=1.6779537166998808, Count=51
+move(Go to the door in left corner) Q=1.126155675269326, Count=48
+Action: click(wet shipping list)
+Reward: Action executed successfully. You have just collected a wet shipping list. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 1
+
+Step: 2
+click(dagger inserted in sign) Q=0.7206678971026143, Count=49
+apply(wet shipping list, dagger inserted in sign) Q=0.7404588740856106, Count=50
+move(Go to the garbage disposal place) Q=1.1501683764096626, Count=52
+move(Explore the crane in the front) Q=0.9910332406945479, Count=51
+move(Go to the door in left corner) Q=0.5135560942971358, Count=48
+Action: move(Go to the garbage disposal place)
+Reward: Action executed successfully. Change to another scene: garbage disposal place.
+Accumulated_reward: 1
+
+Step: 3
+click(green garbage bin) Q=1.2129432005908116, Count=50
+click(hammer) Q=1.6014906986560489, Count=52
+click(diagram) Q=1.5755714012149662, Count=52
+apply(wet shipping list, green garbage bin) Q=1.188894779105323, Count=50
+apply(wet shipping list, hammer) Q=1.1781295810516232, Count=50
+apply(wet shipping list, diagram) Q=1.1007091495447512, Count=49
+move(Back to the warehouse outside) Q=0.6338169622391622, Count=47
+Action: click(hammer)
+Reward: Action executed successfully. You have just collected a hammer. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 2
+
+Step: 4
+click(green garbage bin) Q=0.607663863801888, Count=50
+click(diagram) Q=1.05582742804109, Count=52
+apply(wet shipping list, green garbage bin) Q=0.6120490780059752, Count=50
+apply(wet shipping list, diagram) Q=0.6571049321911943, Count=50
+apply(hammer, green garbage bin) Q=0.6521597404347234, Count=50
+apply(hammer, diagram) Q=0.5692465882923036, Count=50
+craft(wet shipping list, hammer) Q=0.6439121981590433, Count=50
+move(Back to the warehouse outside) Q=0.34548443686188934, Count=48
+Action: click(diagram)
+Reward: Action executed successfully. You have just collected a diagram. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 3
+
+Step: 5
+click(green garbage bin) Q=0.1293227287856389, Count=50
+apply(wet shipping list, green garbage bin) Q=0.1213907461903572, Count=50
+apply(hammer, green garbage bin) Q=0.08262983811289837, Count=50
+apply(diagram, green garbage bin) Q=0.07578137714899463, Count=50
+craft(wet shipping list, hammer) Q=0.021005461793215927, Count=50
+craft(wet shipping list, diagram) Q=0.08990269343108138, Count=50
+craft(hammer, diagram) Q=0.04894115214708053, Count=50
+move(Back to the warehouse outside) Q=0.1329751057722647, Count=50
+Action: move(Back to the warehouse outside)
+Reward: Action executed successfully. Change to another scene: warehouse outside.
+Accumulated_reward: 3
+
+Step: 6
+click(dagger inserted in sign) Q=0.15910089201658373, Count=50
+apply(wet shipping list, dagger inserted in sign) Q=0.08991780748227085, Count=50
+apply(hammer, dagger inserted in sign) Q=0.08619333859878305, Count=50
+apply(diagram, dagger inserted in sign) Q=0.1995261122757213, Count=50
+craft(wet shipping list, hammer) Q=0.2035735700120708, Count=50
+craft(wet shipping list, diagram) Q=0.20754015480308022, Count=50
+craft(hammer, diagram) Q=0.14631797887747638, Count=50
+move(Go to the garbage disposal place) Q=0.08502125508963124, Count=49
+move(Explore the crane in the front) Q=0.45184704695911004, Count=52
+move(Go to the door in left corner) Q=0.07644111641660316, Count=49
+Action: move(Explore the crane in the front)
+Reward: Action executed successfully. Change to another scene: crane overview.
+Accumulated_reward: 3
+
+Step: 7
+click(silver key) Q=1.022810303057645, Count=53
+apply(wet shipping list, silver key) Q=0.510242203972045, Count=50
+apply(hammer, silver key) Q=0.4681889879556582, Count=50
+apply(diagram, silver key) Q=0.4616567590479552, Count=49
+craft(wet shipping list, hammer) Q=0.5506974481042348, Count=50
+craft(wet shipping list, diagram) Q=0.5058947347604656, Count=50
+craft(hammer, diagram) Q=0.5434499942305755, Count=50
+move(Back to the warehouse outside) Q=0.12022622856126947, Count=48
+Action: click(silver key)
+Reward: Action executed successfully. You have just collected a silver key. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 4
+
+Step: 8
+craft(wet shipping list, hammer) Q=0.05412556355118142, Count=50
+craft(wet shipping list, diagram) Q=0.022234516772856972, Count=50
+craft(wet shipping list, silver key) Q=0.040229287666418596, Count=50
+craft(hammer, diagram) Q=0.02916581527222689, Count=50
+craft(hammer, silver key) Q=0.06349078229196925, Count=50
+craft(diagram, silver key) Q=0.0479796899269638, Count=50
+move(Back to the warehouse outside) Q=0.09602349136232574, Count=50
+Action: move(Back to the warehouse outside)
+Reward: Action executed successfully. Change to another scene: warehouse outside.
+Accumulated_reward: 4
+
+Step: 9
+click(dagger inserted in sign) Q=0.035057129930636186, Count=49
+apply(wet shipping list, dagger inserted in sign) Q=0.11236432821393133, Count=50
+apply(hammer, dagger inserted in sign) Q=0.09876762117801079, Count=50
+apply(diagram, dagger inserted in sign) Q=0.04842022025145241, Count=49
+apply(silver key, dagger inserted in sign) Q=0.16263114880576882, Count=50
+craft(wet shipping list, hammer) Q=0.14242192105385615, Count=50
+craft(wet shipping list, diagram) Q=0.08442801552389433, Count=50
+craft(wet shipping list, silver key) Q=0.23403027168155346, Count=51
+craft(hammer, diagram) Q=0.0939007176074125, Count=50
+craft(hammer, silver key) Q=0.13025601439836487, Count=50
+craft(diagram, silver key) Q=0.0938884856968899, Count=50
+move(Go to the garbage disposal place) Q=0.0, Count=49
+move(Explore the crane in the front) Q=0.06747282392724277, Count=50
+move(Go to the door in left corner) Q=0.51799757628527, Count=52
+Action: move(Go to the door in left corner)
+Reward: Action executed successfully. Change to another scene: warehouse door corner.
+Accumulated_reward: 4
+
+Step: 10
+click(electric box) Q=0.4624651483366105, Count=50
+click(warehouse door) Q=0.4455358621623692, Count=49
+apply(wet shipping list, electric box) Q=0.5163060613942597, Count=50
+apply(wet shipping list, warehouse door) Q=0.46927482101835116, Count=50
+apply(hammer, electric box) Q=0.6331684052864747, Count=51
+apply(hammer, warehouse door) Q=0.4322116146666265, Count=49
+apply(diagram, electric box) Q=0.6497713620644638, Count=51
+apply(diagram, warehouse door) Q=0.5602925992671316, Count=50
+apply(silver key, electric box) Q=1.509601723082524, Count=56
+apply(silver key, warehouse door) Q=0.411111626643322, Count=49
+craft(wet shipping list, hammer) Q=0.34054009874497926, Count=49
+craft(wet shipping list, diagram) Q=0.4020096944390744, Count=49
+craft(wet shipping list, silver key) Q=0.5981024019997685, Count=50
+craft(hammer, diagram) Q=0.43779638731669634, Count=49
+craft(hammer, silver key) Q=0.38465261342537305, Count=49
+craft(diagram, silver key) Q=0.6212680445795825, Count=51
+move(Back to the warehouse outside) Q=0.16159785728284445, Count=48
+Action: apply(silver key, electric box)
+Reward: Action executed successfully. You have successfully applied silver key to electric box. The electric box is now open, there are some switches inside
+Accumulated_reward: 5
+
+Step: 11
+click(warehouse door) Q=0.5799061338349634, Count=49
+apply(wet shipping list, warehouse door) Q=0.5237233174363627, Count=49
+apply(hammer, warehouse door) Q=0.6985013484309687, Count=50
+apply(diagram, warehouse door) Q=0.46733938958751625, Count=49
+craft(wet shipping list, hammer) Q=0.5942356589770336, Count=50
+craft(wet shipping list, diagram) Q=0.6806304982868041, Count=50
+craft(hammer, diagram) Q=0.5346798438702955, Count=49
+move(Back to the warehouse outside) Q=0.21521538998299483, Count=48
+move(Explore inside the electric box) Q=1.6467859816484425, Count=56
+Action: move(Explore inside the electric box)
+Reward: Action executed successfully. Change to another scene: electric box inside.
+Accumulated_reward: 5
+
+Step: 12
+click(switch A03) Q=2.2081394252553936, Count=53
+click(switch A09) Q=2.219251345162951, Count=53
+click(switch A12) Q=2.323790432512489, Count=54
+click(switch A13) Q=2.0518214857239765, Count=52
+apply(wet shipping list, switch A03) Q=1.4000896458243366, Count=49
+apply(wet shipping list, switch A09) Q=1.5744422467425894, Count=50
+apply(wet shipping list, switch A12) Q=1.6927929490449969, Count=50
+apply(wet shipping list, switch A13) Q=1.6992714735566685, Count=50
+apply(hammer, switch A03) Q=1.530097539178949, Count=50
+apply(hammer, switch A09) Q=1.6716927682451388, Count=50
+apply(hammer, switch A12) Q=1.6811361175406276, Count=50
+apply(hammer, switch A13) Q=1.413080367038522, Count=49
+apply(diagram, switch A03) Q=1.6644707940434988, Count=50
+apply(diagram, switch A09) Q=1.616516507950253, Count=50
+apply(diagram, switch A12) Q=1.4737906542089554, Count=49
+apply(diagram, switch A13) Q=1.4882516309854854, Count=49
+craft(wet shipping list, hammer) Q=1.399653338688778, Count=49
+craft(wet shipping list, diagram) Q=1.4652544218516057, Count=49
+craft(hammer, diagram) Q=1.495963130315688, Count=49
+move(Back to the corner of the warehouse) Q=0.6631260917691342, Count=45
+Action: click(switch A12)
+Reward: Action executed successfully. You have clicked on switch A12. Switch a12 is now green (on)
+Accumulated_reward: 6
+
+Step: 13
+click(switch A03) Q=2.03444779766657, Count=54
+click(switch A09) Q=1.9520268607697084, Count=54
+click(switch A13) Q=1.9376151302725126, Count=54
+apply(wet shipping list, switch A03) Q=1.1665241500324401, Count=49
+apply(wet shipping list, switch A09) Q=1.2213054993554595, Count=50
+apply(wet shipping list, switch A13) Q=1.2356628009759127, Count=50
+apply(hammer, switch A03) Q=1.0536691470499342, Count=49
+apply(hammer, switch A09) Q=1.1730936482676226, Count=50
+apply(hammer, switch A13) Q=1.180921545606042, Count=49
+apply(diagram, switch A03) Q=1.149645464250779, Count=49
+apply(diagram, switch A09) Q=1.0688546599397215, Count=49
+apply(diagram, switch A13) Q=1.226645882303587, Count=50
+craft(wet shipping list, hammer) Q=1.1593915913774313, Count=49
+craft(wet shipping list, diagram) Q=1.1610187209535905, Count=49
+craft(hammer, diagram) Q=1.2820350530880653, Count=50
+move(Back to the corner of the warehouse) Q=0.3784453330777154, Count=45
+Action: click(switch A03)
+Reward: Action executed successfully. You have clicked on switch A03. Switch a03 is now green (on)
+Accumulated_reward: 7
+
+Step: 14
+click(switch A09) Q=1.5155601609786988, Count=53
+click(switch A13) Q=1.4817146687504854, Count=53
+apply(wet shipping list, switch A09) Q=0.8500588100137701, Count=49
+apply(wet shipping list, switch A13) Q=0.8938866306224847, Count=50
+apply(hammer, switch A09) Q=0.9222098432018606, Count=50
+apply(hammer, switch A13) Q=0.9006690648902427, Count=50
+apply(diagram, switch A09) Q=0.8206436044978984, Count=49
+apply(diagram, switch A13) Q=0.9009471691784616, Count=50
+craft(wet shipping list, hammer) Q=0.9845897536701278, Count=50
+craft(wet shipping list, diagram) Q=1.0274345956517128, Count=50
+craft(hammer, diagram) Q=0.889263919068304, Count=49
+move(Back to the corner of the warehouse) Q=0.4009306881501579, Count=47
+Action: click(switch A09)
+Reward: Action executed successfully. You have clicked on switch A09. Switch a09 is now green (on)
+Accumulated_reward: 8
+
+Step: 15
+click(switch A13) Q=1.0227053043000662, Count=53
+apply(wet shipping list, switch A13) Q=0.5207477780493627, Count=50
+apply(hammer, switch A13) Q=0.5837915684106676, Count=50
+apply(diagram, switch A13) Q=0.4303843952673877, Count=49
+craft(wet shipping list, hammer) Q=0.5020661309486026, Count=50
+craft(wet shipping list, diagram) Q=0.5076494720581841, Count=50
+craft(hammer, diagram) Q=0.5563088500368747, Count=50
+move(Back to the corner of the warehouse) Q=0.31247892920571807, Count=48
+Action: click(switch A13)
+Reward: Action executed successfully. You have clicked on switch A13. Switch a13 is now green (on)
+Accumulated_reward: 9
+
+Step: 16
+craft(wet shipping list, hammer) Q=0.04700504349638943, Count=50
+craft(wet shipping list, diagram) Q=0.02346757025108296, Count=50
+craft(hammer, diagram) Q=0.09703484334770318, Count=50
+move(Back to the corner of the warehouse) Q=0.0505545107902034, Count=50
+Action: craft(hammer, diagram)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 9
+
+Step: 17
+craft(wet shipping list, hammer) Q=0.04277063460011103, Count=50
+craft(wet shipping list, diagram) Q=0.022166921721517928, Count=50
+craft(hammer, diagram) Q=0.024799454342921617, Count=50
+move(Back to the corner of the warehouse) Q=0.07414635844577744, Count=50
+Action: move(Back to the corner of the warehouse)
+Reward: Action executed successfully. Change to another scene: warehouse door corner.
+Accumulated_reward: 9
+
+Step: 18
+click(warehouse door) Q=0.06195059685835999, Count=50
+apply(wet shipping list, warehouse door) Q=0.10203140103135955, Count=50
+apply(hammer, warehouse door) Q=0.13258323549088136, Count=50
+apply(diagram, warehouse door) Q=0.07861178989971732, Count=50
+craft(wet shipping list, hammer) Q=0.07408492263463604, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=49
+craft(hammer, diagram) Q=0.0396258324788693, Count=50
+move(Back to the warehouse outside) Q=0.34044072577605966, Count=51
+move(Explore inside the electric box) Q=0.04189677993463825, Count=50
+Action: move(Back to the warehouse outside)
+Reward: Action executed successfully. Change to another scene: warehouse outside.
+Accumulated_reward: 9
+
+Step: 19
+click(dagger inserted in sign) Q=0.2373521838086377, Count=50
+apply(wet shipping list, dagger inserted in sign) Q=0.14283716574047728, Count=49
+apply(hammer, dagger inserted in sign) Q=0.19372315610520355, Count=50
+apply(diagram, dagger inserted in sign) Q=0.2706166127791971, Count=50
+craft(wet shipping list, hammer) Q=0.3536956915898668, Count=51
+craft(wet shipping list, diagram) Q=0.22811630373708547, Count=50
+craft(hammer, diagram) Q=0.31239630788512174, Count=50
+move(Go to the garbage disposal place) Q=0.07564320347863285, Count=49
+move(Explore the crane in the front) Q=0.6177339602883262, Count=52
+move(Go to the door in left corner) Q=0.12122363002139198, Count=49
+Action: move(Explore the crane in the front)
+Reward: Action executed successfully. Change to another scene: crane overview.
+Accumulated_reward: 9
+
+Step: 20
+click(crane) Q=1.5202454973247446, Count=55
+apply(wet shipping list, crane) Q=0.6040765404873066, Count=49
+apply(hammer, crane) Q=0.6345311038297765, Count=49
+apply(diagram, crane) Q=0.5493417590249673, Count=49
+craft(wet shipping list, hammer) Q=0.6860106492075038, Count=50
+craft(wet shipping list, diagram) Q=0.655552586210636, Count=50
+craft(hammer, diagram) Q=0.8136024125739221, Count=51
+move(Back to the warehouse outside) Q=0.2218406631648301, Count=47
+Action: click(crane)
+Reward: Action executed successfully. You have clicked on crane. The crane is on now, it is lifting up
+Accumulated_reward: 10
+
+Step: 21
+click(chisel) Q=1.0387427018818494, Count=53
+apply(wet shipping list, chisel) Q=0.5655822467628298, Count=50
+apply(hammer, chisel) Q=0.49188951584956514, Count=50
+apply(diagram, chisel) Q=0.4760750706030915, Count=50
+craft(wet shipping list, hammer) Q=0.5517742852796699, Count=50
+craft(wet shipping list, diagram) Q=0.5244493398797168, Count=50
+craft(hammer, diagram) Q=0.44209027991609495, Count=49
+move(Back to the warehouse outside) Q=0.21027621451470235, Count=48
+Action: click(chisel)
+Reward: Action executed successfully. You have just collected a chisel. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 11
+
+Step: 22
+craft(wet shipping list, hammer) Q=0.036814127323625954, Count=50
+craft(wet shipping list, diagram) Q=0.01669377972066061, Count=50
+craft(wet shipping list, chisel) Q=0.035432426065805656, Count=50
+craft(hammer, diagram) Q=0.08648175320514831, Count=50
+craft(hammer, chisel) Q=0.07111305629114345, Count=50
+craft(diagram, chisel) Q=0.03974832436045321, Count=50
+move(Back to the warehouse outside) Q=0.08030937402179311, Count=50
+Action: craft(hammer, diagram)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 11
+
+Step: 23
+craft(wet shipping list, hammer) Q=0.036177643418007215, Count=50
+craft(wet shipping list, diagram) Q=0.060530984914240485, Count=50
+craft(wet shipping list, chisel) Q=0.04492685285480654, Count=50
+craft(hammer, diagram) Q=0.05176935087545413, Count=50
+craft(hammer, chisel) Q=0.021005461793215927, Count=50
+craft(diagram, chisel) Q=0.054437854763429445, Count=50
+move(Back to the warehouse outside) Q=0.16632389866103356, Count=50
+Action: move(Back to the warehouse outside)
+Reward: Action executed successfully. Change to another scene: warehouse outside.
+Accumulated_reward: 11
+
+Step: 24
+click(dagger inserted in sign) Q=0.050015394092277954, Count=50
+apply(wet shipping list, dagger inserted in sign) Q=0.09996753751443574, Count=50
+apply(hammer, dagger inserted in sign) Q=0.015260085342022275, Count=49
+apply(diagram, dagger inserted in sign) Q=0.11439686062838356, Count=50
+apply(chisel, dagger inserted in sign) Q=0.10251913809691574, Count=50
+craft(wet shipping list, hammer) Q=0.157770104554065, Count=50
+craft(wet shipping list, diagram) Q=0.1507154675475892, Count=50
+craft(wet shipping list, chisel) Q=0.18189387153072828, Count=50
+craft(hammer, diagram) Q=0.11126168300021297, Count=50
+craft(hammer, chisel) Q=0.09294707355156964, Count=50
+craft(diagram, chisel) Q=0.13307395000332323, Count=50
+move(Go to the garbage disposal place) Q=0.0576852303576766, Count=50
+move(Explore the crane in the front) Q=0.03616125396952885, Count=49
+move(Go to the door in left corner) Q=0.4236880640380962, Count=52
+Action: move(Go to the door in left corner)
+Reward: Action executed successfully. Change to another scene: warehouse door corner.
+Accumulated_reward: 11
+
+Step: 25
+click(warehouse door) Q=0.46264838962665905, Count=50
+apply(wet shipping list, warehouse door) Q=0.5242751855328265, Count=50
+apply(hammer, warehouse door) Q=0.46435230253352927, Count=50
+apply(diagram, warehouse door) Q=0.533016159675271, Count=50
+apply(chisel, warehouse door) Q=1.382785903645406, Count=55
+craft(wet shipping list, hammer) Q=0.4450219696682582, Count=50
+craft(wet shipping list, diagram) Q=0.494727497599793, Count=50
+craft(wet shipping list, chisel) Q=0.5102901740611401, Count=50
+craft(hammer, diagram) Q=0.4563781097626805, Count=50
+craft(hammer, chisel) Q=0.40069094587370974, Count=49
+craft(diagram, chisel) Q=0.4591000367360192, Count=50
+move(Back to the warehouse outside) Q=0.07691337296347514, Count=48
+move(Explore inside the electric box) Q=0.19191723719707596, Count=48
+Action: apply(chisel, warehouse door)
+Reward: Action executed successfully. You have successfully applied chisel to warehouse door. You have stuck the chisel into the door
+Accumulated_reward: 12
+
+Step: 26
+click(warehouse door) Q=0.4051942995215692, Count=50
+apply(wet shipping list, warehouse door) Q=0.3857329688688491, Count=49
+apply(hammer, warehouse door) Q=1.0854093386597732, Count=54
+apply(diagram, warehouse door) Q=0.43698004265726764, Count=50
+craft(wet shipping list, hammer) Q=0.5260331794815294, Count=50
+craft(wet shipping list, diagram) Q=0.5062182666754842, Count=50
+craft(hammer, diagram) Q=0.43077860571224863, Count=50
+move(Back to the warehouse outside) Q=0.19029116673744909, Count=48
+move(Explore inside the electric box) Q=0.34440508686389654, Count=49
+Action: apply(hammer, warehouse door)
+Reward: Action executed successfully. You have successfully applied hammer to warehouse door. The door's lock is broken, the door is now open
+Accumulated_reward: 13
+
+Step: 27
+craft(wet shipping list, diagram) Q=0.09434395641773499, Count=50
+move(Back to the warehouse outside) Q=0.0, Count=49
+move(Explore inside the electric box) Q=0.037520454192360435, Count=50
+move(Go inside the warehouse) Q=0.16394722193673628, Count=51
+Action: move(Go inside the warehouse)
+Reward: Action executed successfully. Change to another scene: warehouse leftside overview.
+Accumulated_reward: 13
+
+Step: 28
+click(frosted glass window) Q=0.20572307009382482, Count=50
+click(card reader) Q=0.2759844758480925, Count=50
+apply(wet shipping list, frosted glass window) Q=0.1669575086872729, Count=50
+apply(wet shipping list, card reader) Q=0.10132976267605548, Count=50
+apply(diagram, frosted glass window) Q=0.27159542779089296, Count=50
+apply(diagram, card reader) Q=0.17342255862134767, Count=50
+craft(wet shipping list, diagram) Q=0.25044831302631637, Count=50
+move(Back to outside the door of the warehouse) Q=0.10298949208368097, Count=49
+move(Go to the left hall way to exit) Q=0.4406007028575128, Count=51
+move(Go to the hallway in the middle) Q=0.21785203149504156, Count=50
+Action: move(Go to the left hall way to exit)
+Reward: Action executed successfully. Change to another scene: left hallway.
+Accumulated_reward: 13
+
+Step: 29
+click(name slot) Q=0.5792579819412491, Count=50
+click(cabinet key lock) Q=0.4595392683843442, Count=49
+click(exit door) Q=0.5791265871396004, Count=50
+click(paper piece 'a') Q=1.370377361086627, Count=55
+apply(wet shipping list, name slot) Q=0.3997320637767913, Count=49
+apply(wet shipping list, cabinet key lock) Q=0.547598894655551, Count=50
+apply(wet shipping list, exit door) Q=0.5055152481316002, Count=50
+apply(wet shipping list, paper piece 'a') Q=0.5526636885091327, Count=50
+apply(diagram, name slot) Q=0.4376332795950886, Count=49
+apply(diagram, cabinet key lock) Q=0.5231029168963371, Count=50
+apply(diagram, exit door) Q=0.5259808233382961, Count=50
+apply(diagram, paper piece 'a') Q=0.5761546473439381, Count=50
+craft(wet shipping list, diagram) Q=0.5422794510592374, Count=50
+move(Back to left side of warehouse) Q=0.3159720706938274, Count=48
+Action: click(paper piece 'a')
+Reward: Action executed successfully. You have just collected a paper piece 'a'. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 14
+
+Step: 30
+click(name slot) Q=0.3697201001103486, Count=50
+click(cabinet key lock) Q=0.397929172428874, Count=50
+click(exit door) Q=0.37252136647567646, Count=50
+apply(wet shipping list, name slot) Q=0.33390668354012026, Count=50
+apply(wet shipping list, cabinet key lock) Q=0.30243030785380187, Count=49
+apply(wet shipping list, exit door) Q=0.35324860713835105, Count=50
+apply(diagram, name slot) Q=0.448404004736637, Count=50
+apply(diagram, cabinet key lock) Q=0.32400446655518084, Count=50
+apply(diagram, exit door) Q=0.4025544634582583, Count=50
+apply(paper piece 'a', name slot) Q=1.0254266399745133, Count=53
+apply(paper piece 'a', cabinet key lock) Q=0.302060319255928, Count=49
+apply(paper piece 'a', exit door) Q=0.336635262182221, Count=50
+craft(wet shipping list, diagram) Q=0.38983079916347424, Count=50
+craft(wet shipping list, paper piece 'a') Q=0.33489329829392134, Count=50
+craft(diagram, paper piece 'a') Q=0.3741447930138118, Count=50
+move(Back to left side of warehouse) Q=0.1700975385519671, Count=49
+Action: apply(paper piece 'a', name slot)
+Reward: Action executed successfully. You have successfully applied paper piece 'a' to name slot.
+However, the apply of paper piece 'a' is not enough, and name slot is still missing something else ...
+Accumulated_reward: 15
+
+Step: 31
+click(name slot) Q=0.03361638708302686, Count=50
+click(cabinet key lock) Q=0.0, Count=50
+click(exit door) Q=0.0, Count=50
+apply(wet shipping list, name slot) Q=0.015799168155428967, Count=50
+apply(wet shipping list, cabinet key lock) Q=0.024925708130555144, Count=50
+apply(wet shipping list, exit door) Q=0.01023071658804329, Count=50
+apply(diagram, name slot) Q=0.021005461793215927, Count=50
+apply(diagram, cabinet key lock) Q=0.01269793949283138, Count=50
+apply(diagram, exit door) Q=0.010796270133114115, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=50
+move(Back to left side of warehouse) Q=0.06272498475501864, Count=50
+Action: move(Back to left side of warehouse)
+Reward: Action executed successfully. Change to another scene: warehouse leftside overview.
+Accumulated_reward: 15
+
+Step: 32
+click(frosted glass window) Q=0.08225978432289408, Count=50
+click(card reader) Q=0.033334010837620394, Count=50
+apply(wet shipping list, frosted glass window) Q=0.02962935464655084, Count=50
+apply(wet shipping list, card reader) Q=0.036740378645782085, Count=50
+apply(diagram, frosted glass window) Q=0.08224046857196379, Count=50
+apply(diagram, card reader) Q=0.03130148863970157, Count=50
+craft(wet shipping list, diagram) Q=0.01269793949283138, Count=50
+move(Back to outside the door of the warehouse) Q=0.011626872153815313, Count=49
+move(Go to the left hall way to exit) Q=0.026072498104348328, Count=50
+move(Go to the hallway in the middle) Q=0.24761819355073122, Count=51
+Action: move(Go to the hallway in the middle)
+Reward: Action executed successfully. Change to another scene: middle hallway.
+Accumulated_reward: 15
+
+Step: 33
+craft(wet shipping list, diagram) Q=0.1769153634489566, Count=50
+move(Go straight to the shelves region) Q=0.3584626473841567, Count=51
+move(Go to office door overview on left side) Q=0.4515174882769003, Count=52
+move(Explore a pile of boxes beside office door) Q=0.07428995794665336, Count=49
+move(Back to left side of warehouse) Q=0.034012070233298046, Count=49
+move(Back to outside the door of the warehouse) Q=0.0, Count=49
+Action: move(Go to office door overview on left side)
+Reward: Action executed successfully. Change to another scene: office door overview.
+Accumulated_reward: 15
+
+Step: 34
+click(office door) Q=0.4721585022065698, Count=49
+click(paper piece 'k') Q=1.0611982936514364, Count=53
+apply(wet shipping list, office door) Q=0.47522982089713356, Count=50
+apply(wet shipping list, paper piece 'k') Q=0.5091565621916039, Count=50
+apply(diagram, office door) Q=0.47404498914674437, Count=50
+apply(diagram, paper piece 'k') Q=0.5294579123776826, Count=50
+craft(wet shipping list, diagram) Q=0.48168125463235145, Count=50
+move(Back to middle hallway) Q=0.21338665350045588, Count=48
+Action: click(paper piece 'k')
+Reward: Action executed successfully. You have just collected a paper piece 'k'. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 16
+
+Step: 35
+click(office door) Q=0.010796270133114115, Count=50
+apply(wet shipping list, office door) Q=0.08283741171690989, Count=50
+apply(diagram, office door) Q=0.02273764514211956, Count=50
+apply(paper piece 'k', office door) Q=0.012027746069952204, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.0, Count=50
+craft(diagram, paper piece 'k') Q=0.0, Count=50
+move(Back to middle hallway) Q=0.12572007851933611, Count=50
+Action: move(Back to middle hallway)
+Reward: Action executed successfully. Change to another scene: middle hallway.
+Accumulated_reward: 16
+
+Step: 36
+craft(wet shipping list, diagram) Q=0.03540543866175004, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.044971677769461184, Count=50
+craft(diagram, paper piece 'k') Q=0.10344209913168825, Count=50
+move(Go straight to the shelves region) Q=0.1197858990408677, Count=50
+move(Go to office door overview on left side) Q=0.010796270133114115, Count=50
+move(Explore a pile of boxes beside office door) Q=0.048312479739271046, Count=50
+move(Back to left side of warehouse) Q=0.07890380314820607, Count=50
+move(Back to outside the door of the warehouse) Q=0.022166921721517928, Count=50
+Action: move(Go straight to the shelves region)
+Reward: Action executed successfully. Change to another scene: shelves region overview.
+Accumulated_reward: 16
+
+Step: 37
+craft(wet shipping list, diagram) Q=0.23492396567358687, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.18595506346561697, Count=49
+craft(diagram, paper piece 'k') Q=0.29260903479174205, Count=50
+move(Go to the middle of all the shelves) Q=0.38315893116977706, Count=51
+move(Go to check the table) Q=0.6729258881017036, Count=52
+move(Go to check shelves on the left) Q=0.1659669813081024, Count=49
+move(Back to middle hallway) Q=0.10203242772581528, Count=49
+Action: move(Go to check the table)
+Reward: Action executed successfully. Change to another scene: shelves region table.
+Accumulated_reward: 16
+
+Step: 38
+click(alarm clock) Q=1.4716246651283065, Count=55
+apply(wet shipping list, alarm clock) Q=0.5165118738846006, Count=49
+apply(diagram, alarm clock) Q=0.6927328211976861, Count=50
+apply(paper piece 'k', alarm clock) Q=0.6737049146235193, Count=50
+craft(wet shipping list, diagram) Q=0.5271678857582537, Count=49
+craft(wet shipping list, paper piece 'k') Q=0.5991808047586861, Count=50
+craft(diagram, paper piece 'k') Q=0.5752725326254838, Count=49
+move(Back to shelves region overview) Q=0.25772604780118924, Count=48
+Action: click(alarm clock)
+Reward: Action executed successfully. You have clicked on alarm clock. The alarm closk is pushed down, there's a key below
+Accumulated_reward: 17
+
+Step: 39
+click(alarm clock) Q=0.5426974731357391, Count=50
+click(gold key with bolt sign) Q=0.9999999999999998, Count=53
+apply(wet shipping list, alarm clock) Q=0.4737023415788044, Count=50
+apply(wet shipping list, gold key with bolt sign) Q=0.34354495178622346, Count=49
+apply(diagram, alarm clock) Q=0.4581432843362028, Count=50
+apply(diagram, gold key with bolt sign) Q=0.4351691900131471, Count=50
+apply(paper piece 'k', alarm clock) Q=0.49680839351540457, Count=50
+apply(paper piece 'k', gold key with bolt sign) Q=0.5044551772593278, Count=50
+craft(wet shipping list, diagram) Q=0.4350619631049273, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.41241350404482996, Count=50
+craft(diagram, paper piece 'k') Q=0.5132836085594666, Count=50
+move(Back to shelves region overview) Q=0.1471608150231193, Count=48
+Action: click(gold key with bolt sign)
+Reward: Action executed successfully. You have just collected a gold key with bolt sign. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 18
+
+Step: 40
+click(alarm clock) Q=0.0, Count=50
+apply(wet shipping list, alarm clock) Q=0.0, Count=50
+apply(diagram, alarm clock) Q=0.0, Count=50
+apply(paper piece 'k', alarm clock) Q=0.02536461639151486, Count=50
+apply(gold key with bolt sign, alarm clock) Q=0.010796270133114115, Count=50
+craft(wet shipping list, diagram) Q=0.01023071658804329, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.01023071658804329, Count=50
+craft(wet shipping list, gold key with bolt sign) Q=0.0, Count=50
+craft(diagram, paper piece 'k') Q=0.0, Count=50
+craft(diagram, gold key with bolt sign) Q=0.0, Count=50
+craft(paper piece 'k', gold key with bolt sign) Q=0.0, Count=50
+move(Back to shelves region overview) Q=0.04950424415953193, Count=50
+Action: move(Back to shelves region overview)
+Reward: Action executed successfully. Change to another scene: shelves region overview.
+Accumulated_reward: 18
+
+Step: 41
+craft(wet shipping list, diagram) Q=0.06821600299029687, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.071199064885648, Count=50
+craft(wet shipping list, gold key with bolt sign) Q=0.07791709560302909, Count=50
+craft(diagram, paper piece 'k') Q=0.02469605009922908, Count=50
+craft(diagram, gold key with bolt sign) Q=0.03680553262068865, Count=50
+craft(paper piece 'k', gold key with bolt sign) Q=0.06216938489640399, Count=50
+move(Go to the middle of all the shelves) Q=0.18988103906366088, Count=51
+move(Go to check the table) Q=0.0, Count=50
+move(Go to check shelves on the left) Q=0.0, Count=49
+move(Back to middle hallway) Q=0.05110773959210682, Count=50
+Action: move(Go to the middle of all the shelves)
+Reward: Action executed successfully. Change to another scene: shelves region middle.
+Accumulated_reward: 18
+
+Step: 42
+click(messy wire wrapped on ceiling) Q=0.0807691544242995, Count=49
+apply(wet shipping list, messy wire wrapped on ceiling) Q=0.2635334636904741, Count=50
+apply(diagram, messy wire wrapped on ceiling) Q=0.2038673925411737, Count=50
+apply(paper piece 'k', messy wire wrapped on ceiling) Q=0.1541953357812669, Count=50
+apply(gold key with bolt sign, messy wire wrapped on ceiling) Q=0.27194338857720635, Count=50
+craft(wet shipping list, diagram) Q=0.13909644262474546, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.19184019335560376, Count=50
+craft(wet shipping list, gold key with bolt sign) Q=0.3080819375776147, Count=51
+craft(diagram, paper piece 'k') Q=0.1581864409004094, Count=50
+craft(diagram, gold key with bolt sign) Q=0.189049919104202, Count=50
+craft(paper piece 'k', gold key with bolt sign) Q=0.116857015843043, Count=49
+move(Go to explore device on pillar) Q=0.022618311162788986, Count=49
+move(Go to left side wash basin) Q=0.8230626593895742, Count=53
+move(Back to shelves region overview) Q=0.0161210990080109, Count=49
+Action: move(Go to left side wash basin)
+Reward: Action executed successfully. Change to another scene: wash basin place.
+Accumulated_reward: 18
+
+Step: 43
+click(wash basin) Q=0.7335734167229555, Count=49
+click(paper piece 'c') Q=1.5757689178897407, Count=54
+click(toilet plunger) Q=1.4943885083622879, Count=53
+click(tennis ball) Q=1.543275748674929, Count=54
+apply(wet shipping list, wash basin) Q=0.8652896809685799, Count=50
+apply(wet shipping list, paper piece 'c') Q=0.6726294344155963, Count=49
+apply(wet shipping list, toilet plunger) Q=0.9603122900520809, Count=50
+apply(wet shipping list, tennis ball) Q=0.9095298044072503, Count=50
+apply(diagram, wash basin) Q=0.841023071013657, Count=50
+apply(diagram, paper piece 'c') Q=0.7594201077185196, Count=49
+apply(diagram, toilet plunger) Q=0.8193535957470627, Count=50
+apply(diagram, tennis ball) Q=0.8051623681298381, Count=50
+apply(paper piece 'k', wash basin) Q=0.8239194849622968, Count=50
+apply(paper piece 'k', paper piece 'c') Q=0.7955280239164148, Count=50
+apply(paper piece 'k', toilet plunger) Q=0.7829138050900141, Count=50
+apply(paper piece 'k', tennis ball) Q=0.8180839595623128, Count=50
+apply(gold key with bolt sign, wash basin) Q=0.7267414146402189, Count=49
+apply(gold key with bolt sign, paper piece 'c') Q=0.8638337081488752, Count=50
+apply(gold key with bolt sign, toilet plunger) Q=0.8531874489534499, Count=50
+apply(gold key with bolt sign, tennis ball) Q=0.7814361958894801, Count=49
+craft(wet shipping list, diagram) Q=0.8479648020806043, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.7895420529233893, Count=50
+craft(wet shipping list, gold key with bolt sign) Q=0.6984922858452038, Count=49
+craft(diagram, paper piece 'k') Q=0.8326308831699557, Count=50
+craft(diagram, gold key with bolt sign) Q=0.7481697048704272, Count=49
+craft(paper piece 'k', gold key with bolt sign) Q=0.8012931492754226, Count=50
+move(Back to shelves region middle) Q=0.1418658624977991, Count=46
+Action: click(paper piece 'c')
+Reward: Action executed successfully. You have just collected a paper piece 'c'. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 19
+
+Step: 44
+click(wash basin) Q=0.49473695836205556, Count=50
+click(toilet plunger) Q=1.2121099668565403, Count=53
+click(tennis ball) Q=1.2292244385101543, Count=54
+apply(wet shipping list, wash basin) Q=0.6704522281190294, Count=51
+apply(wet shipping list, toilet plunger) Q=0.4228912398558138, Count=49
+apply(wet shipping list, tennis ball) Q=0.5719408360313036, Count=50
+apply(diagram, wash basin) Q=0.501388117210722, Count=50
+apply(diagram, toilet plunger) Q=0.456477689115372, Count=49
+apply(diagram, tennis ball) Q=0.42530084292964626, Count=49
+apply(paper piece 'k', wash basin) Q=0.47890832319780735, Count=50
+apply(paper piece 'k', toilet plunger) Q=0.38519885179677327, Count=49
+apply(paper piece 'k', tennis ball) Q=0.6041453234343568, Count=50
+apply(gold key with bolt sign, wash basin) Q=0.6655365841925691, Count=51
+apply(gold key with bolt sign, toilet plunger) Q=0.4786707039917742, Count=50
+apply(gold key with bolt sign, tennis ball) Q=0.5820798125998012, Count=50
+apply(paper piece 'c', wash basin) Q=0.5750069554532595, Count=50
+apply(paper piece 'c', toilet plunger) Q=0.5507849638924077, Count=50
+apply(paper piece 'c', tennis ball) Q=0.4994105546149083, Count=50
+craft(wet shipping list, diagram) Q=0.5467376409739101, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.5225899957182729, Count=50
+craft(wet shipping list, gold key with bolt sign) Q=0.49930775857934345, Count=50
+craft(wet shipping list, paper piece 'c') Q=0.4737766594709085, Count=50
+craft(diagram, paper piece 'k') Q=0.5200191720400287, Count=50
+craft(diagram, gold key with bolt sign) Q=0.5829984522250654, Count=50
+craft(diagram, paper piece 'c') Q=0.45332264280986956, Count=49
+craft(paper piece 'k', gold key with bolt sign) Q=0.35777432340038157, Count=49
+craft(paper piece 'k', paper piece 'c') Q=0.39290429072272837, Count=49
+craft(gold key with bolt sign, paper piece 'c') Q=0.5889236612815638, Count=50
+move(Back to shelves region middle) Q=0.189053715293373, Count=48
+Action: click(tennis ball)
+Reward: Action executed successfully. You have just collected a tennis ball. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 20
+
+Step: 45
+click(wash basin) Q=0.16985433126720678, Count=50
+click(toilet plunger) Q=0.9999999999999997, Count=54
+apply(wet shipping list, wash basin) Q=0.1653062326044098, Count=50
+apply(wet shipping list, toilet plunger) Q=0.2316357362316171, Count=50
+apply(diagram, wash basin) Q=0.16703850502584766, Count=49
+apply(diagram, toilet plunger) Q=0.18807173951634099, Count=50
+apply(paper piece 'k', wash basin) Q=0.29558422016908764, Count=50
+apply(paper piece 'k', toilet plunger) Q=0.3010995007599491, Count=50
+apply(gold key with bolt sign, wash basin) Q=0.2146006572854719, Count=50
+apply(gold key with bolt sign, toilet plunger) Q=0.18866374949705614, Count=50
+apply(paper piece 'c', wash basin) Q=0.15039571954038536, Count=49
+apply(paper piece 'c', toilet plunger) Q=0.26992834740040017, Count=50
+apply(tennis ball, wash basin) Q=0.2920738528924222, Count=50
+apply(tennis ball, toilet plunger) Q=0.2997105523452225, Count=50
+craft(wet shipping list, diagram) Q=0.23140627110453033, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.23789362992164031, Count=50
+craft(wet shipping list, gold key with bolt sign) Q=0.3260476164885221, Count=50
+craft(wet shipping list, paper piece 'c') Q=0.317265491127818, Count=50
+craft(wet shipping list, tennis ball) Q=0.23140419873274834, Count=50
+craft(diagram, paper piece 'k') Q=0.2653619901670474, Count=50
+craft(diagram, gold key with bolt sign) Q=0.351352350178851, Count=50
+craft(diagram, paper piece 'c') Q=0.2761227041678562, Count=50
+craft(diagram, tennis ball) Q=0.20546874790076453, Count=50
+craft(paper piece 'k', gold key with bolt sign) Q=0.13983884374401162, Count=49
+craft(paper piece 'k', paper piece 'c') Q=0.28941976835774774, Count=50
+craft(paper piece 'k', tennis ball) Q=0.2971269775568087, Count=50
+craft(gold key with bolt sign, paper piece 'c') Q=0.29004477359135267, Count=50
+craft(gold key with bolt sign, tennis ball) Q=0.261011666828282, Count=50
+craft(paper piece 'c', tennis ball) Q=0.3115277679822006, Count=50
+move(Back to shelves region middle) Q=0.01800198620607156, Count=49
+Action: click(toilet plunger)
+Reward: Action executed successfully. You have just collected a toilet plunger. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 21
+
+Step: 46
+click(wash basin) Q=0.0, Count=50
+apply(wet shipping list, wash basin) Q=0.0, Count=50
+apply(diagram, wash basin) Q=0.0, Count=50
+apply(paper piece 'k', wash basin) Q=0.0, Count=50
+apply(gold key with bolt sign, wash basin) Q=0.0, Count=50
+apply(paper piece 'c', wash basin) Q=0.0, Count=50
+apply(tennis ball, wash basin) Q=0.0, Count=50
+apply(toilet plunger, wash basin) Q=0.0, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.0, Count=50
+craft(wet shipping list, gold key with bolt sign) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'c') Q=0.0, Count=50
+craft(wet shipping list, tennis ball) Q=0.0, Count=50
+craft(wet shipping list, toilet plunger) Q=0.0, Count=50
+craft(diagram, paper piece 'k') Q=0.0, Count=50
+craft(diagram, gold key with bolt sign) Q=0.0, Count=50
+craft(diagram, paper piece 'c') Q=0.0, Count=50
+craft(diagram, tennis ball) Q=0.0, Count=50
+craft(diagram, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'k', gold key with bolt sign) Q=0.0, Count=50
+craft(paper piece 'k', paper piece 'c') Q=0.0, Count=50
+craft(paper piece 'k', tennis ball) Q=0.0, Count=50
+craft(paper piece 'k', toilet plunger) Q=0.0, Count=50
+craft(gold key with bolt sign, paper piece 'c') Q=0.0, Count=50
+craft(gold key with bolt sign, tennis ball) Q=0.0, Count=50
+craft(gold key with bolt sign, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'c', tennis ball) Q=0.0, Count=50
+craft(paper piece 'c', toilet plunger) Q=0.0, Count=50
+craft(tennis ball, toilet plunger) Q=0.0, Count=50
+move(Back to shelves region middle) Q=0.0, Count=50
+Action: craft(diagram, gold key with bolt sign)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 21
+
+Step: 47
+click(wash basin) Q=0.0, Count=50
+apply(wet shipping list, wash basin) Q=0.0, Count=50
+apply(diagram, wash basin) Q=0.0, Count=50
+apply(paper piece 'k', wash basin) Q=0.0, Count=50
+apply(gold key with bolt sign, wash basin) Q=0.0, Count=50
+apply(paper piece 'c', wash basin) Q=0.0, Count=50
+apply(tennis ball, wash basin) Q=0.0, Count=50
+apply(toilet plunger, wash basin) Q=0.0, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.0, Count=50
+craft(wet shipping list, gold key with bolt sign) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'c') Q=0.0, Count=50
+craft(wet shipping list, tennis ball) Q=0.0, Count=50
+craft(wet shipping list, toilet plunger) Q=0.0, Count=50
+craft(diagram, paper piece 'k') Q=0.0, Count=50
+craft(diagram, gold key with bolt sign) Q=0.0, Count=50
+craft(diagram, paper piece 'c') Q=0.0, Count=50
+craft(diagram, tennis ball) Q=0.0, Count=50
+craft(diagram, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'k', gold key with bolt sign) Q=0.0, Count=50
+craft(paper piece 'k', paper piece 'c') Q=0.0, Count=50
+craft(paper piece 'k', tennis ball) Q=0.0, Count=50
+craft(paper piece 'k', toilet plunger) Q=0.0, Count=50
+craft(gold key with bolt sign, paper piece 'c') Q=0.0, Count=50
+craft(gold key with bolt sign, tennis ball) Q=0.0, Count=50
+craft(gold key with bolt sign, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'c', tennis ball) Q=0.0, Count=50
+craft(paper piece 'c', toilet plunger) Q=0.0, Count=50
+craft(tennis ball, toilet plunger) Q=0.0, Count=50
+move(Back to shelves region middle) Q=0.0, Count=50
+Action: craft(paper piece 'k', paper piece 'c')
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 21
+
+Step: 48
+click(wash basin) Q=0.0, Count=50
+apply(wet shipping list, wash basin) Q=0.0, Count=50
+apply(diagram, wash basin) Q=0.0, Count=50
+apply(paper piece 'k', wash basin) Q=0.0, Count=50
+apply(gold key with bolt sign, wash basin) Q=0.0, Count=50
+apply(paper piece 'c', wash basin) Q=0.0, Count=50
+apply(tennis ball, wash basin) Q=0.0, Count=50
+apply(toilet plunger, wash basin) Q=0.0, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.0, Count=50
+craft(wet shipping list, gold key with bolt sign) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'c') Q=0.0, Count=50
+craft(wet shipping list, tennis ball) Q=0.0, Count=50
+craft(wet shipping list, toilet plunger) Q=0.0, Count=50
+craft(diagram, paper piece 'k') Q=0.0, Count=50
+craft(diagram, gold key with bolt sign) Q=0.0, Count=50
+craft(diagram, paper piece 'c') Q=0.0, Count=50
+craft(diagram, tennis ball) Q=0.0, Count=50
+craft(diagram, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'k', gold key with bolt sign) Q=0.0, Count=50
+craft(paper piece 'k', paper piece 'c') Q=0.0, Count=50
+craft(paper piece 'k', tennis ball) Q=0.0, Count=50
+craft(paper piece 'k', toilet plunger) Q=0.0, Count=50
+craft(gold key with bolt sign, paper piece 'c') Q=0.0, Count=50
+craft(gold key with bolt sign, tennis ball) Q=0.0, Count=50
+craft(gold key with bolt sign, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'c', tennis ball) Q=0.0, Count=50
+craft(paper piece 'c', toilet plunger) Q=0.0, Count=50
+craft(tennis ball, toilet plunger) Q=0.0, Count=50
+move(Back to shelves region middle) Q=0.0, Count=50
+Action: apply(gold key with bolt sign, wash basin)
+Reward: wash basin indeed needs a tool to apply but the current tool is wrong. You should try other tools or gather other clues first.
+Nothing happens after you apply the tool. You may want too try getting water from here
+Accumulated_reward: 21
+
+Step: 49
+click(wash basin) Q=0.0, Count=50
+apply(wet shipping list, wash basin) Q=0.0, Count=50
+apply(diagram, wash basin) Q=0.0, Count=50
+apply(paper piece 'k', wash basin) Q=0.0, Count=50
+apply(gold key with bolt sign, wash basin) Q=0.0, Count=50
+apply(paper piece 'c', wash basin) Q=0.0, Count=50
+apply(tennis ball, wash basin) Q=0.0, Count=50
+apply(toilet plunger, wash basin) Q=0.0, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.0, Count=50
+craft(wet shipping list, gold key with bolt sign) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'c') Q=0.0, Count=50
+craft(wet shipping list, tennis ball) Q=0.0, Count=50
+craft(wet shipping list, toilet plunger) Q=0.0, Count=50
+craft(diagram, paper piece 'k') Q=0.0, Count=50
+craft(diagram, gold key with bolt sign) Q=0.0, Count=50
+craft(diagram, paper piece 'c') Q=0.0, Count=50
+craft(diagram, tennis ball) Q=0.011394592646027296, Count=50
+craft(diagram, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'k', gold key with bolt sign) Q=0.0, Count=50
+craft(paper piece 'k', paper piece 'c') Q=0.0, Count=50
+craft(paper piece 'k', tennis ball) Q=0.0, Count=50
+craft(paper piece 'k', toilet plunger) Q=0.0, Count=50
+craft(gold key with bolt sign, paper piece 'c') Q=0.0, Count=50
+craft(gold key with bolt sign, tennis ball) Q=0.0, Count=50
+craft(gold key with bolt sign, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'c', tennis ball) Q=0.0, Count=50
+craft(paper piece 'c', toilet plunger) Q=0.0, Count=50
+craft(tennis ball, toilet plunger) Q=0.0, Count=50
+move(Back to shelves region middle) Q=0.0, Count=50
+Action: craft(diagram, tennis ball)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 21
+
+Step: 50
+click(wash basin) Q=0.0, Count=50
+apply(wet shipping list, wash basin) Q=0.0, Count=50
+apply(diagram, wash basin) Q=0.0, Count=50
+apply(paper piece 'k', wash basin) Q=0.0, Count=50
+apply(gold key with bolt sign, wash basin) Q=0.0, Count=50
+apply(paper piece 'c', wash basin) Q=0.0, Count=50
+apply(tennis ball, wash basin) Q=0.0, Count=50
+apply(toilet plunger, wash basin) Q=0.0, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.0, Count=50
+craft(wet shipping list, gold key with bolt sign) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'c') Q=0.0, Count=50
+craft(wet shipping list, tennis ball) Q=0.0, Count=50
+craft(wet shipping list, toilet plunger) Q=0.0, Count=50
+craft(diagram, paper piece 'k') Q=0.0, Count=50
+craft(diagram, gold key with bolt sign) Q=0.0, Count=50
+craft(diagram, paper piece 'c') Q=0.0, Count=50
+craft(diagram, tennis ball) Q=0.0, Count=50
+craft(diagram, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'k', gold key with bolt sign) Q=0.0, Count=50
+craft(paper piece 'k', paper piece 'c') Q=0.0, Count=50
+craft(paper piece 'k', tennis ball) Q=0.0, Count=50
+craft(paper piece 'k', toilet plunger) Q=0.0, Count=50
+craft(gold key with bolt sign, paper piece 'c') Q=0.0, Count=50
+craft(gold key with bolt sign, tennis ball) Q=0.0, Count=50
+craft(gold key with bolt sign, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'c', tennis ball) Q=0.0, Count=50
+craft(paper piece 'c', toilet plunger) Q=0.0, Count=50
+craft(tennis ball, toilet plunger) Q=0.0, Count=50
+move(Back to shelves region middle) Q=0.0, Count=50
+Action: apply(paper piece 'k', wash basin)
+Reward: wash basin indeed needs a tool to apply but the current tool is wrong. You should try other tools or gather other clues first.
+Nothing happens after you apply the tool. You may want too try getting water from here
+Accumulated_reward: 21
+
+Step: 51
+click(wash basin) Q=0.0, Count=50
+apply(wet shipping list, wash basin) Q=0.0, Count=50
+apply(diagram, wash basin) Q=0.0, Count=50
+apply(paper piece 'k', wash basin) Q=0.0, Count=50
+apply(gold key with bolt sign, wash basin) Q=0.0, Count=50
+apply(paper piece 'c', wash basin) Q=0.0, Count=50
+apply(tennis ball, wash basin) Q=0.0, Count=50
+apply(toilet plunger, wash basin) Q=0.0, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.0, Count=50
+craft(wet shipping list, gold key with bolt sign) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'c') Q=0.0, Count=50
+craft(wet shipping list, tennis ball) Q=0.0, Count=50
+craft(wet shipping list, toilet plunger) Q=0.0, Count=50
+craft(diagram, paper piece 'k') Q=0.0, Count=50
+craft(diagram, gold key with bolt sign) Q=0.0, Count=50
+craft(diagram, paper piece 'c') Q=0.0, Count=50
+craft(diagram, tennis ball) Q=0.0, Count=50
+craft(diagram, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'k', gold key with bolt sign) Q=0.0, Count=50
+craft(paper piece 'k', paper piece 'c') Q=0.0, Count=50
+craft(paper piece 'k', tennis ball) Q=0.0, Count=50
+craft(paper piece 'k', toilet plunger) Q=0.0, Count=50
+craft(gold key with bolt sign, paper piece 'c') Q=0.0, Count=50
+craft(gold key with bolt sign, tennis ball) Q=0.0, Count=50
+craft(gold key with bolt sign, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'c', tennis ball) Q=0.0, Count=50
+craft(paper piece 'c', toilet plunger) Q=0.0, Count=50
+craft(tennis ball, toilet plunger) Q=0.0, Count=50
+move(Back to shelves region middle) Q=0.0, Count=50
+Action: craft(wet shipping list, toilet plunger)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 21
+
+Step: 52
+click(wash basin) Q=0.0, Count=50
+apply(wet shipping list, wash basin) Q=0.0, Count=50
+apply(diagram, wash basin) Q=0.0, Count=50
+apply(paper piece 'k', wash basin) Q=0.0, Count=50
+apply(gold key with bolt sign, wash basin) Q=0.0, Count=50
+apply(paper piece 'c', wash basin) Q=0.0, Count=50
+apply(tennis ball, wash basin) Q=0.0, Count=50
+apply(toilet plunger, wash basin) Q=0.0, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.0, Count=50
+craft(wet shipping list, gold key with bolt sign) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'c') Q=0.0, Count=50
+craft(wet shipping list, tennis ball) Q=0.0, Count=50
+craft(wet shipping list, toilet plunger) Q=0.0, Count=50
+craft(diagram, paper piece 'k') Q=0.0, Count=50
+craft(diagram, gold key with bolt sign) Q=0.0, Count=50
+craft(diagram, paper piece 'c') Q=0.0, Count=50
+craft(diagram, tennis ball) Q=0.0, Count=50
+craft(diagram, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'k', gold key with bolt sign) Q=0.0, Count=50
+craft(paper piece 'k', paper piece 'c') Q=0.0, Count=50
+craft(paper piece 'k', tennis ball) Q=0.0, Count=50
+craft(paper piece 'k', toilet plunger) Q=0.0, Count=50
+craft(gold key with bolt sign, paper piece 'c') Q=0.0, Count=50
+craft(gold key with bolt sign, tennis ball) Q=0.0, Count=50
+craft(gold key with bolt sign, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'c', tennis ball) Q=0.0, Count=50
+craft(paper piece 'c', toilet plunger) Q=0.0, Count=50
+craft(tennis ball, toilet plunger) Q=0.0, Count=50
+move(Back to shelves region middle) Q=0.0, Count=50
+Action: craft(paper piece 'k', tennis ball)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 21
+
+Step: 53
+click(wash basin) Q=0.0, Count=50
+apply(wet shipping list, wash basin) Q=0.0, Count=50
+apply(diagram, wash basin) Q=0.0, Count=50
+apply(paper piece 'k', wash basin) Q=0.0, Count=50
+apply(gold key with bolt sign, wash basin) Q=0.0, Count=50
+apply(paper piece 'c', wash basin) Q=0.0, Count=50
+apply(tennis ball, wash basin) Q=0.0, Count=50
+apply(toilet plunger, wash basin) Q=0.0, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.0, Count=50
+craft(wet shipping list, gold key with bolt sign) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'c') Q=0.0, Count=50
+craft(wet shipping list, tennis ball) Q=0.0, Count=50
+craft(wet shipping list, toilet plunger) Q=0.0, Count=50
+craft(diagram, paper piece 'k') Q=0.0, Count=50
+craft(diagram, gold key with bolt sign) Q=0.0, Count=50
+craft(diagram, paper piece 'c') Q=0.0, Count=50
+craft(diagram, tennis ball) Q=0.0, Count=50
+craft(diagram, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'k', gold key with bolt sign) Q=0.0, Count=50
+craft(paper piece 'k', paper piece 'c') Q=0.0, Count=50
+craft(paper piece 'k', tennis ball) Q=0.0, Count=50
+craft(paper piece 'k', toilet plunger) Q=0.0, Count=50
+craft(gold key with bolt sign, paper piece 'c') Q=0.0, Count=50
+craft(gold key with bolt sign, tennis ball) Q=0.0, Count=50
+craft(gold key with bolt sign, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'c', tennis ball) Q=0.0, Count=50
+craft(paper piece 'c', toilet plunger) Q=0.0, Count=50
+craft(tennis ball, toilet plunger) Q=0.0, Count=50
+move(Back to shelves region middle) Q=0.0, Count=50
+Action: move(Back to shelves region middle)
+Reward: Action executed successfully. Change to another scene: shelves region middle.
+Accumulated_reward: 21
+
+Step: 54
+click(messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(wet shipping list, messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(diagram, messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(paper piece 'k', messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(gold key with bolt sign, messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(paper piece 'c', messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(tennis ball, messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(toilet plunger, messy wire wrapped on ceiling) Q=0.0, Count=50
+craft(wet shipping list, diagram) Q=0.01023071658804329, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.0, Count=50
+craft(wet shipping list, gold key with bolt sign) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'c') Q=0.0, Count=50
+craft(wet shipping list, tennis ball) Q=0.0, Count=50
+craft(wet shipping list, toilet plunger) Q=0.0, Count=50
+craft(diagram, paper piece 'k') Q=0.0, Count=50
+craft(diagram, gold key with bolt sign) Q=0.013407541439587067, Count=50
+craft(diagram, paper piece 'c') Q=0.0, Count=50
+craft(diagram, tennis ball) Q=0.0, Count=50
+craft(diagram, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'k', gold key with bolt sign) Q=0.0, Count=50
+craft(paper piece 'k', paper piece 'c') Q=0.0, Count=50
+craft(paper piece 'k', tennis ball) Q=0.0, Count=50
+craft(paper piece 'k', toilet plunger) Q=0.0, Count=50
+craft(gold key with bolt sign, paper piece 'c') Q=0.0, Count=50
+craft(gold key with bolt sign, tennis ball) Q=0.01023071658804329, Count=50
+craft(gold key with bolt sign, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'c', tennis ball) Q=0.0, Count=50
+craft(paper piece 'c', toilet plunger) Q=0.0, Count=50
+craft(tennis ball, toilet plunger) Q=0.0, Count=50
+move(Go to explore device on pillar) Q=0.0, Count=50
+move(Go to left side wash basin) Q=0.0, Count=50
+move(Back to shelves region overview) Q=0.0, Count=50
+Action: craft(diagram, gold key with bolt sign)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 21
+
+Step: 55
+click(messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(wet shipping list, messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(diagram, messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(paper piece 'k', messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(gold key with bolt sign, messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(paper piece 'c', messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(tennis ball, messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(toilet plunger, messy wire wrapped on ceiling) Q=0.0, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.0, Count=50
+craft(wet shipping list, gold key with bolt sign) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'c') Q=0.0, Count=50
+craft(wet shipping list, tennis ball) Q=0.0, Count=50
+craft(wet shipping list, toilet plunger) Q=0.0, Count=50
+craft(diagram, paper piece 'k') Q=0.0, Count=50
+craft(diagram, gold key with bolt sign) Q=0.0, Count=50
+craft(diagram, paper piece 'c') Q=0.0, Count=50
+craft(diagram, tennis ball) Q=0.0, Count=50
+craft(diagram, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'k', gold key with bolt sign) Q=0.0, Count=50
+craft(paper piece 'k', paper piece 'c') Q=0.0, Count=50
+craft(paper piece 'k', tennis ball) Q=0.0, Count=50
+craft(paper piece 'k', toilet plunger) Q=0.0, Count=50
+craft(gold key with bolt sign, paper piece 'c') Q=0.0, Count=50
+craft(gold key with bolt sign, tennis ball) Q=0.0, Count=50
+craft(gold key with bolt sign, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'c', tennis ball) Q=0.0, Count=50
+craft(paper piece 'c', toilet plunger) Q=0.0, Count=50
+craft(tennis ball, toilet plunger) Q=0.0, Count=50
+move(Go to explore device on pillar) Q=0.0, Count=50
+move(Go to left side wash basin) Q=0.0, Count=50
+move(Back to shelves region overview) Q=0.0, Count=50
+Action: craft(gold key with bolt sign, toilet plunger)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 21
+
+Step: 56
+click(messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(wet shipping list, messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(diagram, messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(paper piece 'k', messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(gold key with bolt sign, messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(paper piece 'c', messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(tennis ball, messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(toilet plunger, messy wire wrapped on ceiling) Q=0.0, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.0, Count=50
+craft(wet shipping list, gold key with bolt sign) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'c') Q=0.0, Count=50
+craft(wet shipping list, tennis ball) Q=0.0, Count=50
+craft(wet shipping list, toilet plunger) Q=0.0, Count=50
+craft(diagram, paper piece 'k') Q=0.0, Count=50
+craft(diagram, gold key with bolt sign) Q=0.0, Count=50
+craft(diagram, paper piece 'c') Q=0.0, Count=50
+craft(diagram, tennis ball) Q=0.0, Count=50
+craft(diagram, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'k', gold key with bolt sign) Q=0.0, Count=50
+craft(paper piece 'k', paper piece 'c') Q=0.0, Count=50
+craft(paper piece 'k', tennis ball) Q=0.0, Count=50
+craft(paper piece 'k', toilet plunger) Q=0.0, Count=50
+craft(gold key with bolt sign, paper piece 'c') Q=0.0, Count=50
+craft(gold key with bolt sign, tennis ball) Q=0.0, Count=50
+craft(gold key with bolt sign, toilet plunger) Q=0.01023071658804329, Count=50
+craft(paper piece 'c', tennis ball) Q=0.0, Count=50
+craft(paper piece 'c', toilet plunger) Q=0.0, Count=50
+craft(tennis ball, toilet plunger) Q=0.0, Count=50
+move(Go to explore device on pillar) Q=0.0, Count=50
+move(Go to left side wash basin) Q=0.0, Count=50
+move(Back to shelves region overview) Q=0.0, Count=50
+Action: craft(gold key with bolt sign, toilet plunger)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 21
+
+Step: 57
+click(messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(wet shipping list, messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(diagram, messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(paper piece 'k', messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(gold key with bolt sign, messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(paper piece 'c', messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(tennis ball, messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(toilet plunger, messy wire wrapped on ceiling) Q=0.0, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.0, Count=50
+craft(wet shipping list, gold key with bolt sign) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'c') Q=0.0, Count=50
+craft(wet shipping list, tennis ball) Q=0.0, Count=50
+craft(wet shipping list, toilet plunger) Q=0.0, Count=50
+craft(diagram, paper piece 'k') Q=0.0, Count=50
+craft(diagram, gold key with bolt sign) Q=0.0, Count=50
+craft(diagram, paper piece 'c') Q=0.0, Count=50
+craft(diagram, tennis ball) Q=0.0, Count=50
+craft(diagram, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'k', gold key with bolt sign) Q=0.0, Count=50
+craft(paper piece 'k', paper piece 'c') Q=0.0, Count=50
+craft(paper piece 'k', tennis ball) Q=0.0, Count=50
+craft(paper piece 'k', toilet plunger) Q=0.0, Count=50
+craft(gold key with bolt sign, paper piece 'c') Q=0.0, Count=50
+craft(gold key with bolt sign, tennis ball) Q=0.0, Count=50
+craft(gold key with bolt sign, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'c', tennis ball) Q=0.0, Count=50
+craft(paper piece 'c', toilet plunger) Q=0.0, Count=50
+craft(tennis ball, toilet plunger) Q=0.0, Count=50
+move(Go to explore device on pillar) Q=0.0, Count=50
+move(Go to left side wash basin) Q=0.0, Count=50
+move(Back to shelves region overview) Q=0.0, Count=50
+Action: craft(diagram, paper piece 'c')
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 21
+
+Step: 58
+click(messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(wet shipping list, messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(diagram, messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(paper piece 'k', messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(gold key with bolt sign, messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(paper piece 'c', messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(tennis ball, messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(toilet plunger, messy wire wrapped on ceiling) Q=0.0, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.0, Count=50
+craft(wet shipping list, gold key with bolt sign) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'c') Q=0.0, Count=50
+craft(wet shipping list, tennis ball) Q=0.0, Count=50
+craft(wet shipping list, toilet plunger) Q=0.0, Count=50
+craft(diagram, paper piece 'k') Q=0.0, Count=50
+craft(diagram, gold key with bolt sign) Q=0.0, Count=50
+craft(diagram, paper piece 'c') Q=0.0, Count=50
+craft(diagram, tennis ball) Q=0.0, Count=50
+craft(diagram, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'k', gold key with bolt sign) Q=0.0, Count=50
+craft(paper piece 'k', paper piece 'c') Q=0.0, Count=50
+craft(paper piece 'k', tennis ball) Q=0.0, Count=50
+craft(paper piece 'k', toilet plunger) Q=0.012027746069952204, Count=50
+craft(gold key with bolt sign, paper piece 'c') Q=0.0, Count=50
+craft(gold key with bolt sign, tennis ball) Q=0.0, Count=50
+craft(gold key with bolt sign, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'c', tennis ball) Q=0.0, Count=50
+craft(paper piece 'c', toilet plunger) Q=0.0, Count=50
+craft(tennis ball, toilet plunger) Q=0.0, Count=50
+move(Go to explore device on pillar) Q=0.0, Count=50
+move(Go to left side wash basin) Q=0.0, Count=50
+move(Back to shelves region overview) Q=0.0, Count=50
+Action: craft(paper piece 'k', toilet plunger)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 21
+
+Step: 59
+click(messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(wet shipping list, messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(diagram, messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(paper piece 'k', messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(gold key with bolt sign, messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(paper piece 'c', messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(tennis ball, messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(toilet plunger, messy wire wrapped on ceiling) Q=0.0, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.0, Count=50
+craft(wet shipping list, gold key with bolt sign) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'c') Q=0.0, Count=50
+craft(wet shipping list, tennis ball) Q=0.0, Count=50
+craft(wet shipping list, toilet plunger) Q=0.0, Count=50
+craft(diagram, paper piece 'k') Q=0.0, Count=50
+craft(diagram, gold key with bolt sign) Q=0.0, Count=50
+craft(diagram, paper piece 'c') Q=0.0, Count=50
+craft(diagram, tennis ball) Q=0.0, Count=50
+craft(diagram, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'k', gold key with bolt sign) Q=0.0, Count=50
+craft(paper piece 'k', paper piece 'c') Q=0.0, Count=50
+craft(paper piece 'k', tennis ball) Q=0.0, Count=50
+craft(paper piece 'k', toilet plunger) Q=0.0, Count=50
+craft(gold key with bolt sign, paper piece 'c') Q=0.0, Count=50
+craft(gold key with bolt sign, tennis ball) Q=0.0, Count=50
+craft(gold key with bolt sign, toilet plunger) Q=0.011394592646027296, Count=50
+craft(paper piece 'c', tennis ball) Q=0.0, Count=50
+craft(paper piece 'c', toilet plunger) Q=0.0, Count=50
+craft(tennis ball, toilet plunger) Q=0.0, Count=50
+move(Go to explore device on pillar) Q=0.0, Count=50
+move(Go to left side wash basin) Q=0.0, Count=50
+move(Back to shelves region overview) Q=0.0, Count=50
+Action: craft(gold key with bolt sign, toilet plunger)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 21
+
+Step: 60
+click(messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(wet shipping list, messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(diagram, messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(paper piece 'k', messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(gold key with bolt sign, messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(paper piece 'c', messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(tennis ball, messy wire wrapped on ceiling) Q=0.0, Count=50
+apply(toilet plunger, messy wire wrapped on ceiling) Q=0.0, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.0, Count=50
+craft(wet shipping list, gold key with bolt sign) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'c') Q=0.0, Count=50
+craft(wet shipping list, tennis ball) Q=0.0, Count=50
+craft(wet shipping list, toilet plunger) Q=0.0, Count=50
+craft(diagram, paper piece 'k') Q=0.0, Count=50
+craft(diagram, gold key with bolt sign) Q=0.0, Count=50
+craft(diagram, paper piece 'c') Q=0.0, Count=50
+craft(diagram, tennis ball) Q=0.0, Count=50
+craft(diagram, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'k', gold key with bolt sign) Q=0.0, Count=50
+craft(paper piece 'k', paper piece 'c') Q=0.0, Count=50
+craft(paper piece 'k', tennis ball) Q=0.0, Count=50
+craft(paper piece 'k', toilet plunger) Q=0.0, Count=50
+craft(gold key with bolt sign, paper piece 'c') Q=0.0, Count=50
+craft(gold key with bolt sign, tennis ball) Q=0.0, Count=50
+craft(gold key with bolt sign, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'c', tennis ball) Q=0.0, Count=50
+craft(paper piece 'c', toilet plunger) Q=0.0, Count=50
+craft(tennis ball, toilet plunger) Q=0.0, Count=50
+move(Go to explore device on pillar) Q=0.0, Count=50
+move(Go to left side wash basin) Q=0.0, Count=50
+move(Back to shelves region overview) Q=0.011394592646027296, Count=50
+Action: move(Back to shelves region overview)
+Reward: Action executed successfully. Change to another scene: shelves region overview.
+Accumulated_reward: 21
+
+Step: 61
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.0, Count=50
+craft(wet shipping list, gold key with bolt sign) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'c') Q=0.0, Count=50
+craft(wet shipping list, tennis ball) Q=0.010796270133114115, Count=50
+craft(wet shipping list, toilet plunger) Q=0.015799168155428967, Count=50
+craft(diagram, paper piece 'k') Q=0.0, Count=50
+craft(diagram, gold key with bolt sign) Q=0.010796270133114115, Count=50
+craft(diagram, paper piece 'c') Q=0.0, Count=50
+craft(diagram, tennis ball) Q=0.012027746069952204, Count=50
+craft(diagram, toilet plunger) Q=0.011394592646027296, Count=50
+craft(paper piece 'k', gold key with bolt sign) Q=0.0, Count=50
+craft(paper piece 'k', paper piece 'c') Q=0.0, Count=50
+craft(paper piece 'k', tennis ball) Q=0.0, Count=50
+craft(paper piece 'k', toilet plunger) Q=0.029867505159467473, Count=50
+craft(gold key with bolt sign, paper piece 'c') Q=0.0, Count=50
+craft(gold key with bolt sign, tennis ball) Q=0.0, Count=50
+craft(gold key with bolt sign, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'c', tennis ball) Q=0.012027746069952204, Count=50
+craft(paper piece 'c', toilet plunger) Q=0.0, Count=50
+craft(tennis ball, toilet plunger) Q=0.0, Count=50
+move(Go to the middle of all the shelves) Q=0.0, Count=50
+move(Go to check the table) Q=0.0, Count=50
+move(Go to check shelves on the left) Q=0.0, Count=50
+move(Back to middle hallway) Q=0.011394592646027296, Count=50
+Action: craft(paper piece 'k', toilet plunger)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 21
+
+Step: 62
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.0, Count=50
+craft(wet shipping list, gold key with bolt sign) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'c') Q=0.0, Count=50
+craft(wet shipping list, tennis ball) Q=0.014159093367747502, Count=50
+craft(wet shipping list, toilet plunger) Q=0.0, Count=50
+craft(diagram, paper piece 'k') Q=0.0, Count=50
+craft(diagram, gold key with bolt sign) Q=0.0, Count=50
+craft(diagram, paper piece 'c') Q=0.0, Count=50
+craft(diagram, tennis ball) Q=0.0, Count=50
+craft(diagram, toilet plunger) Q=0.02477249199394975, Count=50
+craft(paper piece 'k', gold key with bolt sign) Q=0.0, Count=50
+craft(paper piece 'k', paper piece 'c') Q=0.0, Count=50
+craft(paper piece 'k', tennis ball) Q=0.011394592646027296, Count=50
+craft(paper piece 'k', toilet plunger) Q=0.010796270133114115, Count=50
+craft(gold key with bolt sign, paper piece 'c') Q=0.0, Count=50
+craft(gold key with bolt sign, tennis ball) Q=0.0, Count=50
+craft(gold key with bolt sign, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'c', tennis ball) Q=0.0, Count=50
+craft(paper piece 'c', toilet plunger) Q=0.0, Count=50
+craft(tennis ball, toilet plunger) Q=0.0, Count=50
+move(Go to the middle of all the shelves) Q=0.0, Count=50
+move(Go to check the table) Q=0.0, Count=50
+move(Go to check shelves on the left) Q=0.0, Count=50
+move(Back to middle hallway) Q=0.0, Count=50
+Action: craft(diagram, toilet plunger)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 21
+
+Step: 63
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.0, Count=50
+craft(wet shipping list, gold key with bolt sign) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'c') Q=0.0, Count=50
+craft(wet shipping list, tennis ball) Q=0.0, Count=50
+craft(wet shipping list, toilet plunger) Q=0.0, Count=50
+craft(diagram, paper piece 'k') Q=0.011394592646027296, Count=50
+craft(diagram, gold key with bolt sign) Q=0.01269793949283138, Count=50
+craft(diagram, paper piece 'c') Q=0.01269793949283138, Count=50
+craft(diagram, tennis ball) Q=0.014159093367747502, Count=50
+craft(diagram, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'k', gold key with bolt sign) Q=0.0, Count=50
+craft(paper piece 'k', paper piece 'c') Q=0.011394592646027296, Count=50
+craft(paper piece 'k', tennis ball) Q=0.012027746069952204, Count=50
+craft(paper piece 'k', toilet plunger) Q=0.0, Count=50
+craft(gold key with bolt sign, paper piece 'c') Q=0.0, Count=50
+craft(gold key with bolt sign, tennis ball) Q=0.012027746069952204, Count=50
+craft(gold key with bolt sign, toilet plunger) Q=0.0, Count=50
+craft(paper piece 'c', tennis ball) Q=0.0, Count=50
+craft(paper piece 'c', toilet plunger) Q=0.0, Count=50
+craft(tennis ball, toilet plunger) Q=0.0, Count=50
+move(Go to the middle of all the shelves) Q=0.0, Count=50
+move(Go to check the table) Q=0.0, Count=50
+move(Go to check shelves on the left) Q=0.0, Count=50
+move(Back to middle hallway) Q=0.06591600486645054, Count=50
+Action: move(Back to middle hallway)
+Reward: Action executed successfully. Change to another scene: middle hallway.
+Accumulated_reward: 21
+
+Step: 64
+craft(wet shipping list, diagram) Q=0.025156365745022405, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.05258371786257541, Count=50
+craft(wet shipping list, gold key with bolt sign) Q=0.04699681674844006, Count=50
+craft(wet shipping list, paper piece 'c') Q=0.04018824508064886, Count=50
+craft(wet shipping list, tennis ball) Q=0.027529917959891508, Count=50
+craft(wet shipping list, toilet plunger) Q=0.049645835550915764, Count=50
+craft(diagram, paper piece 'k') Q=0.03740946195402305, Count=50
+craft(diagram, gold key with bolt sign) Q=0.04813253076284567, Count=50
+craft(diagram, paper piece 'c') Q=0.05365625055853003, Count=50
+craft(diagram, tennis ball) Q=0.036814127323625954, Count=50
+craft(diagram, toilet plunger) Q=0.06541620485301203, Count=50
+craft(paper piece 'k', gold key with bolt sign) Q=0.03400404434135736, Count=50
+craft(paper piece 'k', paper piece 'c') Q=0.12186903384017887, Count=50
+craft(paper piece 'k', tennis ball) Q=0.04244458253136789, Count=50
+craft(paper piece 'k', toilet plunger) Q=0.04078323281821247, Count=50
+craft(gold key with bolt sign, paper piece 'c') Q=0.05733062262518206, Count=50
+craft(gold key with bolt sign, tennis ball) Q=0.010796270133114115, Count=50
+craft(gold key with bolt sign, toilet plunger) Q=0.02761653803752263, Count=50
+craft(paper piece 'c', tennis ball) Q=0.0, Count=50
+craft(paper piece 'c', toilet plunger) Q=0.010796270133114115, Count=50
+craft(tennis ball, toilet plunger) Q=0.09297807891645131, Count=50
+move(Go straight to the shelves region) Q=0.0, Count=50
+move(Go to office door overview on left side) Q=0.0, Count=49
+move(Explore a pile of boxes beside office door) Q=0.0, Count=50
+move(Back to left side of warehouse) Q=0.2995695209518756, Count=51
+move(Back to outside the door of the warehouse) Q=0.10729586586981357, Count=50
+Action: move(Back to left side of warehouse)
+Reward: Action executed successfully. Change to another scene: warehouse leftside overview.
+Accumulated_reward: 21
+
+Step: 65
+click(frosted glass window) Q=0.2528073333205026, Count=50
+click(card reader) Q=0.24760703765325728, Count=50
+apply(wet shipping list, frosted glass window) Q=0.23976955087956298, Count=50
+apply(wet shipping list, card reader) Q=0.2767860341286694, Count=50
+apply(diagram, frosted glass window) Q=0.15744356410260307, Count=49
+apply(diagram, card reader) Q=0.2667370750472764, Count=50
+apply(paper piece 'k', frosted glass window) Q=0.2558546811296134, Count=50
+apply(paper piece 'k', card reader) Q=0.22017424283481288, Count=50
+apply(gold key with bolt sign, frosted glass window) Q=0.2567358902010145, Count=50
+apply(gold key with bolt sign, card reader) Q=0.33666220742846226, Count=50
+apply(paper piece 'c', frosted glass window) Q=0.24773615596797827, Count=50
+apply(paper piece 'c', card reader) Q=0.27948659316346874, Count=50
+apply(tennis ball, frosted glass window) Q=0.26721167120573763, Count=50
+apply(tennis ball, card reader) Q=0.3037153102196168, Count=50
+apply(toilet plunger, frosted glass window) Q=1.2307055645642337, Count=55
+apply(toilet plunger, card reader) Q=0.20252592421779828, Count=49
+craft(wet shipping list, diagram) Q=0.13953517433625576, Count=49
+craft(wet shipping list, paper piece 'k') Q=0.23145613702084183, Count=50
+craft(wet shipping list, gold key with bolt sign) Q=0.23972463539537875, Count=50
+craft(wet shipping list, paper piece 'c') Q=0.23754013499692506, Count=50
+craft(wet shipping list, tennis ball) Q=0.4144482403968132, Count=50
+craft(wet shipping list, toilet plunger) Q=0.1694986919144995, Count=49
+craft(diagram, paper piece 'k') Q=0.31466366574785753, Count=50
+craft(diagram, gold key with bolt sign) Q=0.33869880414155873, Count=50
+craft(diagram, paper piece 'c') Q=0.29008520556569517, Count=50
+craft(diagram, tennis ball) Q=0.2092566487190396, Count=49
+craft(diagram, toilet plunger) Q=0.33055529454974825, Count=50
+craft(paper piece 'k', gold key with bolt sign) Q=0.36439846400067205, Count=50
+craft(paper piece 'k', paper piece 'c') Q=0.2954098353369191, Count=50
+craft(paper piece 'k', tennis ball) Q=0.38356069436940937, Count=50
+craft(paper piece 'k', toilet plunger) Q=0.2878549113373684, Count=50
+craft(gold key with bolt sign, paper piece 'c') Q=0.4515678210388051, Count=51
+craft(gold key with bolt sign, tennis ball) Q=0.2628282823117833, Count=50
+craft(gold key with bolt sign, toilet plunger) Q=0.27028793555875835, Count=50
+craft(paper piece 'c', tennis ball) Q=0.2533393859932762, Count=50
+craft(paper piece 'c', toilet plunger) Q=0.1867236147945998, Count=49
+craft(tennis ball, toilet plunger) Q=0.3439481999573211, Count=50
+move(Back to outside the door of the warehouse) Q=0.0370629095577206, Count=49
+move(Go to the left hall way to exit) Q=0.5974226932357393, Count=52
+move(Go to the hallway in the middle) Q=0.047854572986812484, Count=49
+Action: apply(toilet plunger, frosted glass window)
+Reward: Action executed successfully. You have successfully applied toilet plunger to frosted glass window. The window is now broken open, you could see inside, there's a square key on the table
+Accumulated_reward: 22
+
+Step: 66
+click(card reader) Q=0.3749893231360972, Count=50
+click(square key) Q=1.0817729774918667, Count=54
+apply(wet shipping list, card reader) Q=0.3156772967146576, Count=50
+apply(wet shipping list, square key) Q=0.2435826738143515, Count=50
+apply(diagram, card reader) Q=0.26442015425668375, Count=50
+apply(diagram, square key) Q=0.3897244742903269, Count=50
+apply(paper piece 'k', card reader) Q=0.35196048688168297, Count=50
+apply(paper piece 'k', square key) Q=0.3563000855094879, Count=50
+apply(gold key with bolt sign, card reader) Q=0.35883784375721195, Count=50
+apply(gold key with bolt sign, square key) Q=0.2393552551687259, Count=49
+apply(paper piece 'c', card reader) Q=0.3696449029145465, Count=50
+apply(paper piece 'c', square key) Q=0.3064974051276316, Count=50
+apply(tennis ball, card reader) Q=0.3387523066575861, Count=50
+apply(tennis ball, square key) Q=0.31784333150294786, Count=50
+craft(wet shipping list, diagram) Q=0.31865304116072407, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.31809047923152767, Count=50
+craft(wet shipping list, gold key with bolt sign) Q=0.2464829305116904, Count=49
+craft(wet shipping list, paper piece 'c') Q=0.35075302228451527, Count=50
+craft(wet shipping list, tennis ball) Q=0.28710945187613934, Count=50
+craft(diagram, paper piece 'k') Q=0.2844639651122698, Count=50
+craft(diagram, gold key with bolt sign) Q=0.30679454426399105, Count=50
+craft(diagram, paper piece 'c') Q=0.30252468247850506, Count=50
+craft(diagram, tennis ball) Q=0.3278687657888576, Count=50
+craft(paper piece 'k', gold key with bolt sign) Q=0.27442989211248786, Count=50
+craft(paper piece 'k', paper piece 'c') Q=0.24388929215044186, Count=49
+craft(paper piece 'k', tennis ball) Q=0.31143003798295327, Count=50
+craft(gold key with bolt sign, paper piece 'c') Q=0.30961871141917285, Count=50
+craft(gold key with bolt sign, tennis ball) Q=0.34251257983077854, Count=50
+craft(paper piece 'c', tennis ball) Q=0.24571572739267378, Count=49
+move(Back to outside the door of the warehouse) Q=0.1375824412769279, Count=49
+move(Go to the left hall way to exit) Q=0.7553621297724821, Count=52
+move(Go to the hallway in the middle) Q=0.05499788945752533, Count=49
+Action: click(square key)
+Reward: Action executed successfully. You have just collected a square key. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 23
+
+Step: 67
+click(card reader) Q=0.10484930115368103, Count=50
+apply(wet shipping list, card reader) Q=0.1320204590105467, Count=50
+apply(diagram, card reader) Q=0.11012219102531336, Count=50
+apply(paper piece 'k', card reader) Q=0.2146717267772396, Count=50
+apply(gold key with bolt sign, card reader) Q=0.08534741739608752, Count=50
+apply(paper piece 'c', card reader) Q=0.05211918815517471, Count=50
+apply(tennis ball, card reader) Q=0.1347507960950502, Count=50
+apply(square key, card reader) Q=0.05653076822403158, Count=50
+craft(wet shipping list, diagram) Q=0.10698285730280385, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.013680801948031557, Count=49
+craft(wet shipping list, gold key with bolt sign) Q=0.04677365082641775, Count=50
+craft(wet shipping list, paper piece 'c') Q=0.16628310095402105, Count=50
+craft(wet shipping list, tennis ball) Q=0.17658661974868456, Count=50
+craft(wet shipping list, square key) Q=0.16698590892880644, Count=50
+craft(diagram, paper piece 'k') Q=0.07887697421645497, Count=50
+craft(diagram, gold key with bolt sign) Q=0.07382875370821824, Count=50
+craft(diagram, paper piece 'c') Q=0.13819001219642751, Count=50
+craft(diagram, tennis ball) Q=0.09323099879860318, Count=50
+craft(diagram, square key) Q=0.08467490862953726, Count=50
+craft(paper piece 'k', gold key with bolt sign) Q=0.07257128392071523, Count=50
+craft(paper piece 'k', paper piece 'c') Q=0.0318289485997551, Count=49
+craft(paper piece 'k', tennis ball) Q=0.08537947983455352, Count=50
+craft(paper piece 'k', square key) Q=0.10035231659665904, Count=50
+craft(gold key with bolt sign, paper piece 'c') Q=0.07140555559840936, Count=50
+craft(gold key with bolt sign, tennis ball) Q=0.14773972225531423, Count=50
+craft(gold key with bolt sign, square key) Q=0.05282844645651786, Count=50
+craft(paper piece 'c', tennis ball) Q=0.059091291770683244, Count=50
+craft(paper piece 'c', square key) Q=0.11463071151677426, Count=50
+craft(tennis ball, square key) Q=0.056234598524508746, Count=50
+move(Back to outside the door of the warehouse) Q=0.05560217751809932, Count=50
+move(Go to the left hall way to exit) Q=0.6945110329467301, Count=53
+move(Go to the hallway in the middle) Q=0.020857336787686354, Count=49
+Action: move(Go to the left hall way to exit)
+Reward: Action executed successfully. Change to another scene: left hallway.
+Accumulated_reward: 23
+
+Step: 68
+click(name slot) Q=0.3268682960189154, Count=48
+click(cabinet key lock) Q=0.5359630270942194, Count=49
+click(exit door) Q=0.5819264037430643, Count=50
+apply(wet shipping list, name slot) Q=0.6395138082625413, Count=50
+apply(wet shipping list, cabinet key lock) Q=0.6855880222700923, Count=50
+apply(wet shipping list, exit door) Q=0.5451720276024465, Count=49
+apply(diagram, name slot) Q=0.6343311959285673, Count=50
+apply(diagram, cabinet key lock) Q=0.6357826983746698, Count=50
+apply(diagram, exit door) Q=0.6361625294127564, Count=50
+apply(paper piece 'k', name slot) Q=1.5001272989166177, Count=54
+apply(paper piece 'k', cabinet key lock) Q=0.5597240474752084, Count=49
+apply(paper piece 'k', exit door) Q=0.5247599946324846, Count=49
+apply(gold key with bolt sign, name slot) Q=0.590748094944635, Count=50
+apply(gold key with bolt sign, cabinet key lock) Q=1.8617117916761703, Count=56
+apply(gold key with bolt sign, exit door) Q=0.7006922514971212, Count=50
+apply(paper piece 'c', name slot) Q=1.5353677792601068, Count=55
+apply(paper piece 'c', cabinet key lock) Q=0.7479664188738397, Count=50
+apply(paper piece 'c', exit door) Q=0.5639466497293867, Count=49
+apply(tennis ball, name slot) Q=0.6005701459521239, Count=50
+apply(tennis ball, cabinet key lock) Q=0.6743406255979956, Count=50
+apply(tennis ball, exit door) Q=0.5824381778503942, Count=50
+apply(square key, name slot) Q=0.7033348769881884, Count=50
+apply(square key, cabinet key lock) Q=0.6506346264177828, Count=50
+apply(square key, exit door) Q=0.6851230264826262, Count=50
+craft(wet shipping list, diagram) Q=0.6073000348311226, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.5401963224182001, Count=49
+craft(wet shipping list, gold key with bolt sign) Q=0.58053101957354, Count=49
+craft(wet shipping list, paper piece 'c') Q=0.4685115788725888, Count=49
+craft(wet shipping list, tennis ball) Q=0.5386912364194342, Count=49
+craft(wet shipping list, square key) Q=0.6279084016831037, Count=50
+craft(diagram, paper piece 'k') Q=0.7490169350680402, Count=50
+craft(diagram, gold key with bolt sign) Q=0.6548983176118799, Count=50
+craft(diagram, paper piece 'c') Q=0.662649869839334, Count=50
+craft(diagram, tennis ball) Q=0.6689358810171415, Count=50
+craft(diagram, square key) Q=0.7255429201479467, Count=50
+craft(paper piece 'k', gold key with bolt sign) Q=0.6962824839791281, Count=50
+craft(paper piece 'k', paper piece 'c') Q=0.7106181743168936, Count=50
+craft(paper piece 'k', tennis ball) Q=0.6236253279034438, Count=50
+craft(paper piece 'k', square key) Q=0.43168470786415714, Count=49
+craft(gold key with bolt sign, paper piece 'c') Q=0.6038997433316462, Count=50
+craft(gold key with bolt sign, tennis ball) Q=0.6489516521128136, Count=50
+craft(gold key with bolt sign, square key) Q=0.6352711392562556, Count=50
+craft(paper piece 'c', tennis ball) Q=0.6017201152970565, Count=50
+craft(paper piece 'c', square key) Q=0.6780191526486382, Count=50
+craft(tennis ball, square key) Q=0.6283275006289207, Count=50
+move(Back to left side of warehouse) Q=0.11914461391687962, Count=47
+Action: apply(gold key with bolt sign, cabinet key lock)
+Reward: Action executed successfully. You have successfully applied gold key with bolt sign to cabinet key lock. The lock is now open, there's a pile of things in the cabinet.
+Accumulated_reward: 24
+
+Step: 69
+click(name slot) Q=0.725613955466924, Count=49
+click(exit door) Q=0.8354201276246029, Count=50
+click(blue tape) Q=1.7148233061102458, Count=55
+click(blower dryer) Q=1.7898666666591203, Count=55
+apply(wet shipping list, name slot) Q=0.9631725716433541, Count=51
+apply(wet shipping list, exit door) Q=0.9063243108336744, Count=50
+apply(wet shipping list, blue tape) Q=0.6925524267868615, Count=49
+apply(wet shipping list, blower dryer) Q=0.8850210772368169, Count=50
+apply(diagram, name slot) Q=0.7512389029373616, Count=50
+apply(diagram, exit door) Q=0.7301869343879308, Count=49
+apply(diagram, blue tape) Q=0.8876396303821352, Count=50
+apply(diagram, blower dryer) Q=0.7854460104955765, Count=50
+apply(paper piece 'k', name slot) Q=1.6517332714055313, Count=54
+apply(paper piece 'k', exit door) Q=0.7989706128979894, Count=50
+apply(paper piece 'k', blue tape) Q=0.7110193759148968, Count=49
+apply(paper piece 'k', blower dryer) Q=0.9159674208533036, Count=50
+apply(paper piece 'c', name slot) Q=1.7172091500374962, Count=55
+apply(paper piece 'c', exit door) Q=0.6818250787418676, Count=49
+apply(paper piece 'c', blue tape) Q=0.729352468901006, Count=49
+apply(paper piece 'c', blower dryer) Q=0.7540611047258835, Count=49
+apply(tennis ball, name slot) Q=0.8777862702757928, Count=50
+apply(tennis ball, exit door) Q=0.7613036899693789, Count=49
+apply(tennis ball, blue tape) Q=0.6944504982238665, Count=49
+apply(tennis ball, blower dryer) Q=0.8700056230200649, Count=50
+apply(square key, name slot) Q=0.8347122419342176, Count=50
+apply(square key, exit door) Q=0.9000575918772118, Count=50
+apply(square key, blue tape) Q=0.6808974773172098, Count=49
+apply(square key, blower dryer) Q=0.9249912425782119, Count=50
+craft(wet shipping list, diagram) Q=0.7607236137979462, Count=49
+craft(wet shipping list, paper piece 'k') Q=0.8886049277140701, Count=50
+craft(wet shipping list, paper piece 'c') Q=0.7706811465518679, Count=50
+craft(wet shipping list, tennis ball) Q=0.9310575901687945, Count=50
+craft(wet shipping list, square key) Q=0.6507617721650928, Count=49
+craft(diagram, paper piece 'k') Q=0.8056998563050701, Count=50
+craft(diagram, paper piece 'c') Q=0.8752459392963139, Count=50
+craft(diagram, tennis ball) Q=0.6935452570173323, Count=49
+craft(diagram, square key) Q=0.6098651568971712, Count=49
+craft(paper piece 'k', paper piece 'c') Q=0.9443759891194892, Count=50
+craft(paper piece 'k', tennis ball) Q=0.7219397534884417, Count=49
+craft(paper piece 'k', square key) Q=0.7987664956391635, Count=50
+craft(paper piece 'c', tennis ball) Q=0.6538907242826063, Count=49
+craft(paper piece 'c', square key) Q=0.7351666399984658, Count=49
+craft(tennis ball, square key) Q=0.8235827102921998, Count=50
+move(Back to left side of warehouse) Q=0.15185953325399043, Count=47
+Action: click(blower dryer)
+Reward: Action executed successfully. You have just collected a blower dryer. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 25
+
+Step: 70
+click(name slot) Q=0.844941527622816, Count=50
+click(exit door) Q=1.0297676935595539, Count=51
+click(blue tape) Q=1.7309461182337194, Count=55
+apply(wet shipping list, name slot) Q=0.8038224874526271, Count=50
+apply(wet shipping list, exit door) Q=0.7308701738692656, Count=49
+apply(wet shipping list, blue tape) Q=0.6822558973805517, Count=49
+apply(diagram, name slot) Q=0.7259868795279517, Count=49
+apply(diagram, exit door) Q=0.7599086971765394, Count=49
+apply(diagram, blue tape) Q=0.8117680658758748, Count=50
+apply(paper piece 'k', name slot) Q=1.766871016831903, Count=55
+apply(paper piece 'k', exit door) Q=0.9399141118266853, Count=50
+apply(paper piece 'k', blue tape) Q=0.7151487235357106, Count=49
+apply(paper piece 'c', name slot) Q=1.6932653237129232, Count=54
+apply(paper piece 'c', exit door) Q=0.7478376217097525, Count=49
+apply(paper piece 'c', blue tape) Q=0.8518649160136071, Count=50
+apply(tennis ball, name slot) Q=0.8500574878149266, Count=50
+apply(tennis ball, exit door) Q=0.904645912728849, Count=50
+apply(tennis ball, blue tape) Q=0.7165570937470679, Count=49
+apply(square key, name slot) Q=0.7722026665628329, Count=50
+apply(square key, exit door) Q=0.6612208330625496, Count=49
+apply(square key, blue tape) Q=0.7406151423268177, Count=49
+apply(blower dryer, name slot) Q=0.7112825571085886, Count=49
+apply(blower dryer, exit door) Q=0.8017582519703867, Count=50
+apply(blower dryer, blue tape) Q=0.6217409704286689, Count=49
+craft(wet shipping list, diagram) Q=0.8597742164619676, Count=50
+craft(wet shipping list, paper piece 'k') Q=0.6832888981370381, Count=49
+craft(wet shipping list, paper piece 'c') Q=0.6304925811233012, Count=49
+craft(wet shipping list, tennis ball) Q=0.7433222707535346, Count=49
+craft(wet shipping list, square key) Q=0.8702186998712717, Count=50
+craft(wet shipping list, blower dryer) Q=1.5892973292846384, Count=54
+craft(diagram, paper piece 'k') Q=0.8683454170453366, Count=50
+craft(diagram, paper piece 'c') Q=0.9217175668650487, Count=50
+craft(diagram, tennis ball) Q=0.7805801410114902, Count=50
+craft(diagram, square key) Q=0.8035606616835045, Count=50
+craft(diagram, blower dryer) Q=0.8395595602810277, Count=50
+craft(paper piece 'k', paper piece 'c') Q=0.7607101059059834, Count=49
+craft(paper piece 'k', tennis ball) Q=0.8460812241085547, Count=50
+craft(paper piece 'k', square key) Q=0.8137320331044354, Count=50
+craft(paper piece 'k', blower dryer) Q=0.7937011852200003, Count=50
+craft(paper piece 'c', tennis ball) Q=0.7966174635464163, Count=50
+craft(paper piece 'c', square key) Q=0.7905941587784494, Count=50
+craft(paper piece 'c', blower dryer) Q=0.8082038048553722, Count=50
+craft(tennis ball, square key) Q=0.8576571663319768, Count=50
+craft(tennis ball, blower dryer) Q=0.6609561817197882, Count=49
+craft(square key, blower dryer) Q=0.7706436884093926, Count=50
+move(Back to left side of warehouse) Q=0.34789898072855274, Count=47
+Action: apply(paper piece 'k', name slot)
+Reward: Action executed successfully. You have successfully applied paper piece 'k' to name slot.
+However, the apply of paper piece 'k' is not enough, and name slot is still missing something else ...
+Accumulated_reward: 26
+
+Step: 71
+click(name slot) Q=0.6631918753656699, Count=49
+click(exit door) Q=0.6728605409757338, Count=49
+click(blue tape) Q=1.5399941958946, Count=54
+apply(wet shipping list, name slot) Q=0.8217347955341401, Count=50
+apply(wet shipping list, exit door) Q=0.7466597462457628, Count=50
+apply(wet shipping list, blue tape) Q=0.6068337288132785, Count=49
+apply(diagram, name slot) Q=0.7813891409069991, Count=50
+apply(diagram, exit door) Q=0.5807108129249428, Count=49
+apply(diagram, blue tape) Q=0.7631782728701187, Count=50
+apply(paper piece 'c', name slot) Q=1.570074569698629, Count=54
+apply(paper piece 'c', exit door) Q=0.8819779087075843, Count=50
+apply(paper piece 'c', blue tape) Q=0.8394918892562464, Count=50
+apply(tennis ball, name slot) Q=0.7703636701374943, Count=50
+apply(tennis ball, exit door) Q=0.7315519085946356, Count=50
+apply(tennis ball, blue tape) Q=0.7757060935670055, Count=50
+apply(square key, name slot) Q=0.6696251202800719, Count=49
+apply(square key, exit door) Q=0.7882282868177038, Count=50
+apply(square key, blue tape) Q=0.6742287375065441, Count=49
+apply(blower dryer, name slot) Q=0.6847782074844375, Count=49
+apply(blower dryer, exit door) Q=0.7344106649045123, Count=50
+apply(blower dryer, blue tape) Q=0.7701777244759898, Count=50
+craft(wet shipping list, diagram) Q=0.8896091301189866, Count=51
+craft(wet shipping list, paper piece 'c') Q=0.7618080761259116, Count=50
+craft(wet shipping list, tennis ball) Q=0.6016992507659928, Count=49
+craft(wet shipping list, square key) Q=0.7139080290916305, Count=50
+craft(wet shipping list, blower dryer) Q=1.5067605965024449, Count=54
+craft(diagram, paper piece 'c') Q=0.8669514458454245, Count=50
+craft(diagram, tennis ball) Q=0.7430878848707231, Count=50
+craft(diagram, square key) Q=0.6562490308164788, Count=49
+craft(diagram, blower dryer) Q=0.7482433672979301, Count=50
+craft(paper piece 'c', tennis ball) Q=0.6713434690872172, Count=49
+craft(paper piece 'c', square key) Q=0.7301799442000283, Count=50
+craft(paper piece 'c', blower dryer) Q=0.6924534284034592, Count=50
+craft(tennis ball, square key) Q=0.674909818036711, Count=49
+craft(tennis ball, blower dryer) Q=0.8800468238870299, Count=50
+craft(square key, blower dryer) Q=0.5964397338102857, Count=49
+move(Back to left side of warehouse) Q=0.4947411012593318, Count=49
+Action: apply(paper piece 'c', name slot)
+Reward: Action executed successfully. You have successfully applied paper piece 'c' to name slot.
+However, the apply of paper piece 'c' is not enough, and name slot is still missing something else ...
+Accumulated_reward: 27
+
+Step: 72
+click(name slot) Q=0.5868974764189595, Count=50
+click(exit door) Q=0.5605125576686633, Count=50
+click(blue tape) Q=1.2727430455119648, Count=53
+apply(wet shipping list, name slot) Q=0.7052665195286975, Count=50
+apply(wet shipping list, exit door) Q=0.592774249226026, Count=50
+apply(wet shipping list, blue tape) Q=0.49890271271791287, Count=49
+apply(diagram, name slot) Q=0.5496635164352499, Count=50
+apply(diagram, exit door) Q=0.6284372608780382, Count=50
+apply(diagram, blue tape) Q=0.6653185347936441, Count=50
+apply(tennis ball, name slot) Q=0.5277101024386243, Count=49
+apply(tennis ball, exit door) Q=0.539561851852396, Count=49
+apply(tennis ball, blue tape) Q=0.6314111523820158, Count=50
+apply(square key, name slot) Q=0.6745293480743407, Count=50
+apply(square key, exit door) Q=0.6028594903475912, Count=50
+apply(square key, blue tape) Q=0.5908940249542103, Count=50
+apply(blower dryer, name slot) Q=0.6145095681794998, Count=50
+apply(blower dryer, exit door) Q=0.6326515737246214, Count=50
+apply(blower dryer, blue tape) Q=0.5423063649694486, Count=49
+craft(wet shipping list, diagram) Q=0.6116800567706958, Count=50
+craft(wet shipping list, tennis ball) Q=0.5444901686670138, Count=49
+craft(wet shipping list, square key) Q=0.6004154228855978, Count=50
+craft(wet shipping list, blower dryer) Q=1.3485523064035603, Count=54
+craft(diagram, tennis ball) Q=0.5673702532963449, Count=50
+craft(diagram, square key) Q=0.5710768261237359, Count=50
+craft(diagram, blower dryer) Q=0.6335793326168565, Count=50
+craft(tennis ball, square key) Q=0.5448284907623033, Count=49
+craft(tennis ball, blower dryer) Q=0.5675413098687672, Count=50
+craft(square key, blower dryer) Q=0.6180458479634892, Count=50
+move(Back to left side of warehouse) Q=0.47108388504111737, Count=49
+Action: craft(wet shipping list, blower dryer)
+Reward: Action executed successfully. You have successfully crafted a blower with green color appearance and a wet shipping list with title "consignment notes" on it together.
+You get a new item: shipping list is dry now, with a large "S-16" written on the second page. It is put into your bag.
+Accumulated_reward: 28
+
+Step: 73
+click(name slot) Q=0.3091687725407516, Count=50
+click(exit door) Q=0.3194344260557758, Count=50
+click(blue tape) Q=0.9999999999999997, Count=54
+apply(wet shipping list, name slot) Q=0.3546765549393201, Count=50
+apply(wet shipping list, exit door) Q=0.3432346494696628, Count=50
+apply(wet shipping list, blue tape) Q=0.3253648199355619, Count=50
+apply(diagram, name slot) Q=0.400531672197662, Count=50
+apply(diagram, exit door) Q=0.30338125358603113, Count=50
+apply(diagram, blue tape) Q=0.24672978469435775, Count=49
+apply(tennis ball, name slot) Q=0.3382828911838559, Count=50
+apply(tennis ball, exit door) Q=0.33629095864035413, Count=50
+apply(tennis ball, blue tape) Q=0.2795187624685391, Count=50
+apply(square key, name slot) Q=0.2708542660679894, Count=50
+apply(square key, exit door) Q=0.332428023720446, Count=50
+apply(square key, blue tape) Q=0.3416346956340761, Count=50
+craft(wet shipping list, diagram) Q=0.3778082717096855, Count=50
+craft(wet shipping list, tennis ball) Q=0.2629426040518343, Count=49
+craft(wet shipping list, square key) Q=0.3494930682864579, Count=50
+craft(diagram, tennis ball) Q=0.23826272905705398, Count=49
+craft(diagram, square key) Q=0.29063935014048153, Count=50
+craft(tennis ball, square key) Q=0.28462511228518894, Count=50
+move(Back to left side of warehouse) Q=0.1078622255913414, Count=49
+Action: click(blue tape)
+Reward: Action executed successfully. You have just collected a blue tape. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 29
+
+Step: 74
+click(name slot) Q=0.0, Count=50
+click(exit door) Q=0.0, Count=50
+apply(wet shipping list, name slot) Q=0.0, Count=50
+apply(wet shipping list, exit door) Q=0.0, Count=50
+apply(diagram, name slot) Q=0.0, Count=50
+apply(diagram, exit door) Q=0.0, Count=50
+apply(tennis ball, name slot) Q=0.0, Count=50
+apply(tennis ball, exit door) Q=0.0, Count=50
+apply(square key, name slot) Q=0.0, Count=50
+apply(square key, exit door) Q=0.0, Count=50
+apply(blue tape, name slot) Q=0.0, Count=50
+apply(blue tape, exit door) Q=0.0, Count=50
+craft(wet shipping list, diagram) Q=0.010796270133114115, Count=50
+craft(wet shipping list, tennis ball) Q=0.0, Count=50
+craft(wet shipping list, square key) Q=0.0, Count=50
+craft(wet shipping list, blue tape) Q=0.0, Count=50
+craft(diagram, tennis ball) Q=0.0, Count=50
+craft(diagram, square key) Q=0.0, Count=50
+craft(diagram, blue tape) Q=0.0, Count=50
+craft(tennis ball, square key) Q=0.0, Count=50
+craft(tennis ball, blue tape) Q=0.0, Count=50
+craft(square key, blue tape) Q=0.0, Count=50
+move(Back to left side of warehouse) Q=0.02640837190355693, Count=50
+Action: move(Back to left side of warehouse)
+Reward: Action executed successfully. Change to another scene: warehouse leftside overview.
+Accumulated_reward: 29
+
+Step: 75
+click(card reader) Q=0.01023071658804329, Count=50
+apply(wet shipping list, card reader) Q=0.042405770882724486, Count=50
+apply(diagram, card reader) Q=0.011394592646027296, Count=50
+apply(tennis ball, card reader) Q=0.01023071658804329, Count=50
+apply(square key, card reader) Q=0.0141590933677475, Count=50
+apply(blue tape, card reader) Q=0.03689531450835519, Count=50
+craft(wet shipping list, diagram) Q=0.02536461639151486, Count=50
+craft(wet shipping list, tennis ball) Q=0.010796270133114115, Count=50
+craft(wet shipping list, square key) Q=0.015799168155428967, Count=50
+craft(wet shipping list, blue tape) Q=0.0, Count=50
+craft(diagram, tennis ball) Q=0.05743441263647878, Count=50
+craft(diagram, square key) Q=0.0, Count=50
+craft(diagram, blue tape) Q=0.012027746069952204, Count=50
+craft(tennis ball, square key) Q=0.01269793949283138, Count=50
+craft(tennis ball, blue tape) Q=0.022166921721517928, Count=50
+craft(square key, blue tape) Q=0.03973397070078788, Count=50
+move(Back to outside the door of the warehouse) Q=0.06743361410101088, Count=50
+move(Go to the left hall way to exit) Q=0.0, Count=50
+move(Go to the hallway in the middle) Q=0.0, Count=50
+Action: move(Back to outside the door of the warehouse)
+Reward: Action executed successfully. Change to another scene: warehouse door corner.
+Accumulated_reward: 29
+
+Step: 76
+craft(wet shipping list, diagram) Q=0.10092555881182773, Count=50
+craft(wet shipping list, tennis ball) Q=0.05589630886456641, Count=50
+craft(wet shipping list, square key) Q=0.12915864512752473, Count=50
+craft(wet shipping list, blue tape) Q=0.1973833559980685, Count=50
+craft(diagram, tennis ball) Q=0.07756697654072794, Count=50
+craft(diagram, square key) Q=0.11723326975707965, Count=50
+craft(diagram, blue tape) Q=0.13815686493142962, Count=50
+craft(tennis ball, square key) Q=0.12542087958716833, Count=50
+craft(tennis ball, blue tape) Q=0.09446048873363244, Count=50
+craft(square key, blue tape) Q=0.1327329045760297, Count=50
+move(Back to the warehouse outside) Q=0.5284521408934605, Count=52
+move(Explore inside the electric box) Q=0.03806152872439319, Count=49
+move(Go inside the warehouse) Q=0.02485766653405802, Count=49
+Action: move(Back to the warehouse outside)
+Reward: Action executed successfully. Change to another scene: warehouse outside.
+Accumulated_reward: 29
+
+Step: 77
+click(dagger inserted in sign) Q=0.5658383328797841, Count=51
+apply(wet shipping list, dagger inserted in sign) Q=0.43671557259077515, Count=50
+apply(diagram, dagger inserted in sign) Q=0.42256270831877174, Count=50
+apply(tennis ball, dagger inserted in sign) Q=1.4761172367316404, Count=56
+apply(square key, dagger inserted in sign) Q=0.3588780638882967, Count=49
+apply(blue tape, dagger inserted in sign) Q=0.47408783391297726, Count=50
+craft(wet shipping list, diagram) Q=0.29085100804256747, Count=49
+craft(wet shipping list, tennis ball) Q=0.492571637581812, Count=50
+craft(wet shipping list, square key) Q=0.450898452691601, Count=50
+craft(wet shipping list, blue tape) Q=0.4547236950948104, Count=50
+craft(diagram, tennis ball) Q=0.4400810162226778, Count=50
+craft(diagram, square key) Q=0.32224652002094756, Count=49
+craft(diagram, blue tape) Q=0.46106186047868625, Count=50
+craft(tennis ball, square key) Q=0.5443605313749097, Count=50
+craft(tennis ball, blue tape) Q=0.4320765397104922, Count=50
+craft(square key, blue tape) Q=0.4011844128340992, Count=50
+move(Go to the garbage disposal place) Q=0.5525741616474004, Count=50
+move(Explore the crane in the front) Q=0.14955646043853035, Count=48
+move(Go to the door in left corner) Q=0.08379610924724774, Count=48
+Action: apply(tennis ball, dagger inserted in sign)
+Reward: Action executed successfully. You have successfully applied tennis ball to dagger inserted in sign. The dagger falls down, you can now pick it up
+Accumulated_reward: 30
+
+Step: 78
+click(dagger) Q=1.2389488830223097, Count=54
+apply(wet shipping list, dagger) Q=0.6128148661551545, Count=50
+apply(diagram, dagger) Q=0.457973583931948, Count=50
+apply(square key, dagger) Q=0.4963535730781287, Count=50
+apply(blue tape, dagger) Q=0.513727801506732, Count=50
+craft(wet shipping list, diagram) Q=0.446528159454818, Count=50
+craft(wet shipping list, square key) Q=0.44716452418300995, Count=50
+craft(wet shipping list, blue tape) Q=0.4561479871975356, Count=50
+craft(diagram, square key) Q=0.44460372650616636, Count=49
+craft(diagram, blue tape) Q=0.4063536572984031, Count=49
+craft(square key, blue tape) Q=0.4054444793013059, Count=49
+move(Go to the garbage disposal place) Q=0.8101777716554078, Count=52
+move(Explore the crane in the front) Q=0.28758364129437447, Count=49
+move(Go to the door in left corner) Q=0.19257295731777255, Count=48
+Action: click(dagger)
+Reward: Action executed successfully. You have just collected a dagger. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 31
+
+Step: 79
+craft(wet shipping list, diagram) Q=0.13898567102431714, Count=50
+craft(wet shipping list, square key) Q=0.15346858340541178, Count=50
+craft(wet shipping list, blue tape) Q=0.17326571616891961, Count=50
+craft(wet shipping list, dagger) Q=0.12123416439054141, Count=50
+craft(diagram, square key) Q=0.0161210990080109, Count=49
+craft(diagram, blue tape) Q=0.10236271627870983, Count=50
+craft(diagram, dagger) Q=0.09710619099837511, Count=50
+craft(square key, blue tape) Q=0.1734159461302912, Count=50
+craft(square key, dagger) Q=0.10488458812666127, Count=50
+craft(blue tape, dagger) Q=0.15361300628868801, Count=50
+move(Go to the garbage disposal place) Q=0.5848457354373973, Count=52
+move(Explore the crane in the front) Q=0.0841148899401274, Count=50
+move(Go to the door in left corner) Q=0.012272917426836179, Count=49
+Action: move(Go to the garbage disposal place)
+Reward: Action executed successfully. Change to another scene: garbage disposal place.
+Accumulated_reward: 31
+
+Step: 80
+click(green garbage bin) Q=0.5990128499969323, Count=50
+apply(wet shipping list, green garbage bin) Q=0.434756251868412, Count=49
+apply(diagram, green garbage bin) Q=0.5149452126158136, Count=50
+apply(square key, green garbage bin) Q=1.4379196899383082, Count=55
+apply(blue tape, green garbage bin) Q=0.5370684342161336, Count=50
+apply(dagger, green garbage bin) Q=0.4975046285531553, Count=50
+craft(wet shipping list, diagram) Q=0.4965816783039389, Count=50
+craft(wet shipping list, square key) Q=0.49441184596395393, Count=50
+craft(wet shipping list, blue tape) Q=0.5921804511330175, Count=50
+craft(wet shipping list, dagger) Q=0.4634326106756159, Count=49
+craft(diagram, square key) Q=0.5560279692109248, Count=50
+craft(diagram, blue tape) Q=0.489724580499392, Count=50
+craft(diagram, dagger) Q=0.492361688960877, Count=50
+craft(square key, blue tape) Q=0.5606719981293278, Count=50
+craft(square key, dagger) Q=0.5512504336648775, Count=50
+craft(blue tape, dagger) Q=0.46670700543143806, Count=49
+move(Back to the warehouse outside) Q=0.16024720779477636, Count=48
+Action: apply(square key, green garbage bin)
+Reward: Action executed successfully. You have successfully applied square key to green garbage bin. The garbage bin is now open, there's a piece of paper inside
+Accumulated_reward: 32
+
+Step: 81
+click(paper piece 'J') Q=0.9999999999999998, Count=53
+apply(wet shipping list, paper piece 'J') Q=0.3840884202976716, Count=50
+apply(diagram, paper piece 'J') Q=0.45325190415367134, Count=50
+apply(blue tape, paper piece 'J') Q=0.46271017825871014, Count=50
+apply(dagger, paper piece 'J') Q=0.34104788433377675, Count=49
+craft(wet shipping list, diagram) Q=0.4038003319543167, Count=50
+craft(wet shipping list, blue tape) Q=0.4186950858793647, Count=50
+craft(wet shipping list, dagger) Q=0.39613333656479444, Count=50
+craft(diagram, blue tape) Q=0.39454658098428746, Count=50
+craft(diagram, dagger) Q=0.465963410815987, Count=50
+craft(blue tape, dagger) Q=0.38810828646004, Count=50
+move(Back to the warehouse outside) Q=0.12946065656668818, Count=48
+Action: click(paper piece 'J')
+Reward: Action executed successfully. You have just collected a paper piece 'J'. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 33
+
+Step: 82
+craft(wet shipping list, diagram) Q=0.01023071658804329, Count=50
+craft(wet shipping list, blue tape) Q=0.0, Count=50
+craft(wet shipping list, dagger) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'J') Q=0.0, Count=50
+craft(diagram, blue tape) Q=0.0, Count=50
+craft(diagram, dagger) Q=0.0, Count=50
+craft(diagram, paper piece 'J') Q=0.0, Count=50
+craft(blue tape, dagger) Q=0.0, Count=50
+craft(blue tape, paper piece 'J') Q=0.0, Count=50
+craft(dagger, paper piece 'J') Q=0.01269793949283138, Count=50
+move(Back to the warehouse outside) Q=0.012027746069952204, Count=50
+Action: craft(dagger, paper piece 'J')
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 33
+
+Step: 83
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, blue tape) Q=0.0, Count=50
+craft(wet shipping list, dagger) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'J') Q=0.0, Count=50
+craft(diagram, blue tape) Q=0.0, Count=50
+craft(diagram, dagger) Q=0.0, Count=50
+craft(diagram, paper piece 'J') Q=0.013407541439587067, Count=50
+craft(blue tape, dagger) Q=0.0, Count=50
+craft(blue tape, paper piece 'J') Q=0.0, Count=50
+craft(dagger, paper piece 'J') Q=0.0, Count=50
+move(Back to the warehouse outside) Q=0.014955324501419788, Count=50
+Action: move(Back to the warehouse outside)
+Reward: Action executed successfully. Change to another scene: warehouse outside.
+Accumulated_reward: 33
+
+Step: 84
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, blue tape) Q=0.0, Count=50
+craft(wet shipping list, dagger) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'J') Q=0.0, Count=50
+craft(diagram, blue tape) Q=0.0, Count=50
+craft(diagram, dagger) Q=0.0, Count=50
+craft(diagram, paper piece 'J') Q=0.0, Count=50
+craft(blue tape, dagger) Q=0.0, Count=50
+craft(blue tape, paper piece 'J') Q=0.0, Count=50
+craft(dagger, paper piece 'J') Q=0.0, Count=50
+move(Go to the garbage disposal place) Q=0.0, Count=50
+move(Explore the crane in the front) Q=0.0, Count=50
+move(Go to the door in left corner) Q=0.012027746069952204, Count=50
+Action: move(Go to the door in left corner)
+Reward: Action executed successfully. Change to another scene: warehouse door corner.
+Accumulated_reward: 33
+
+Step: 85
+craft(wet shipping list, diagram) Q=0.010796270133114115, Count=50
+craft(wet shipping list, blue tape) Q=0.011394592646027296, Count=50
+craft(wet shipping list, dagger) Q=0.0, Count=50
+craft(wet shipping list, paper piece 'J') Q=0.021602607244101832, Count=50
+craft(diagram, blue tape) Q=0.01023071658804329, Count=50
+craft(diagram, dagger) Q=0.02361160732194079, Count=50
+craft(diagram, paper piece 'J') Q=0.04730416119217121, Count=50
+craft(blue tape, dagger) Q=0.014955324501419788, Count=50
+craft(blue tape, paper piece 'J') Q=0.02279876336915221, Count=50
+craft(dagger, paper piece 'J') Q=0.014159093367747502, Count=50
+move(Back to the warehouse outside) Q=0.0, Count=50
+move(Explore inside the electric box) Q=0.01023071658804329, Count=50
+move(Go inside the warehouse) Q=0.10274473392761664, Count=50
+Action: move(Go inside the warehouse)
+Reward: Action executed successfully. Change to another scene: warehouse leftside overview.
+Accumulated_reward: 33
+
+Step: 86
+click(card reader) Q=0.044221513290409686, Count=50
+apply(wet shipping list, card reader) Q=0.04213402025001596, Count=50
+apply(diagram, card reader) Q=0.13074315036371106, Count=50
+apply(blue tape, card reader) Q=0.06598048792989847, Count=50
+apply(dagger, card reader) Q=0.06976267258269526, Count=50
+apply(paper piece 'J', card reader) Q=0.07280102933962049, Count=50
+craft(wet shipping list, diagram) Q=0.07142038247572581, Count=50
+craft(wet shipping list, blue tape) Q=0.04203239659006061, Count=50
+craft(wet shipping list, dagger) Q=0.03740946195402305, Count=50
+craft(wet shipping list, paper piece 'J') Q=0.04449929735593649, Count=50
+craft(diagram, blue tape) Q=0.0575208285957776, Count=50
+craft(diagram, dagger) Q=0.05284043070799369, Count=50
+craft(diagram, paper piece 'J') Q=0.08522401148084115, Count=50
+craft(blue tape, dagger) Q=0.09509079190932948, Count=50
+craft(blue tape, paper piece 'J') Q=0.03424727386163512, Count=50
+craft(dagger, paper piece 'J') Q=0.0694703335951575, Count=50
+move(Back to outside the door of the warehouse) Q=0.022234516772856972, Count=50
+move(Go to the left hall way to exit) Q=0.38853767567008296, Count=51
+move(Go to the hallway in the middle) Q=0.0, Count=49
+Action: move(Go to the left hall way to exit)
+Reward: Action executed successfully. Change to another scene: left hallway.
+Accumulated_reward: 33
+
+Step: 87
+click(name slot) Q=0.2402608931912309, Count=50
+click(exit door) Q=0.3909638608313655, Count=50
+apply(wet shipping list, name slot) Q=0.342818910852493, Count=50
+apply(wet shipping list, exit door) Q=0.3956964176726795, Count=50
+apply(diagram, name slot) Q=0.301435346868691, Count=50
+apply(diagram, exit door) Q=0.37420549089572697, Count=50
+apply(blue tape, name slot) Q=0.3992610403033124, Count=50
+apply(blue tape, exit door) Q=0.2278868781382456, Count=49
+apply(dagger, name slot) Q=0.24765712358471878, Count=50
+apply(dagger, exit door) Q=0.4075157011229222, Count=50
+apply(paper piece 'J', name slot) Q=0.9999999999999997, Count=54
+apply(paper piece 'J', exit door) Q=0.2737271021656444, Count=50
+craft(wet shipping list, diagram) Q=0.34071274875740293, Count=50
+craft(wet shipping list, blue tape) Q=0.17591874556505455, Count=49
+craft(wet shipping list, dagger) Q=0.3443018482893632, Count=50
+craft(wet shipping list, paper piece 'J') Q=0.3802307718331966, Count=50
+craft(diagram, blue tape) Q=0.2640205218010534, Count=50
+craft(diagram, dagger) Q=0.3872944738898565, Count=50
+craft(diagram, paper piece 'J') Q=0.29269692811593934, Count=50
+craft(blue tape, dagger) Q=0.345399345858091, Count=50
+craft(blue tape, paper piece 'J') Q=0.35098906835681065, Count=50
+craft(dagger, paper piece 'J') Q=0.2873864233564684, Count=50
+move(Back to left side of warehouse) Q=0.03625552400391961, Count=48
+Action: apply(paper piece 'J', name slot)
+Reward: Action executed successfully. You have successfully applied paper piece 'J' to name slot. The name slot is now fully filled, with the owner's name "jack". the digit lock is now open for input.
+Accumulated_reward: 34
+
+Step: 88
+click(digit password lock) Q=0.0, Count=50
+click(name slot) Q=0.0, Count=50
+click(exit door) Q=0.0, Count=50
+apply(wet shipping list, digit password lock) Q=0.0, Count=50
+apply(wet shipping list, name slot) Q=0.0, Count=50
+apply(wet shipping list, exit door) Q=0.0, Count=50
+apply(diagram, digit password lock) Q=0.0, Count=50
+apply(diagram, name slot) Q=0.0, Count=50
+apply(diagram, exit door) Q=0.0, Count=50
+apply(blue tape, digit password lock) Q=0.0, Count=50
+apply(blue tape, name slot) Q=0.0, Count=50
+apply(blue tape, exit door) Q=0.0, Count=50
+apply(dagger, digit password lock) Q=0.0, Count=50
+apply(dagger, name slot) Q=0.0, Count=50
+apply(dagger, exit door) Q=0.0, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, blue tape) Q=0.0, Count=50
+craft(wet shipping list, dagger) Q=0.0, Count=50
+craft(diagram, blue tape) Q=0.0, Count=50
+craft(diagram, dagger) Q=0.0, Count=50
+craft(blue tape, dagger) Q=0.0, Count=50
+move(Back to left side of warehouse) Q=0.0, Count=50
+Action: apply(dagger, name slot)
+Reward: Nothing happens after you apply the tool. You may try to get this slot fully filled
+Accumulated_reward: 34
+
+Step: 89
+click(digit password lock) Q=0.0, Count=50
+click(name slot) Q=0.0, Count=50
+click(exit door) Q=0.0, Count=50
+apply(wet shipping list, digit password lock) Q=0.0, Count=50
+apply(wet shipping list, name slot) Q=0.0, Count=50
+apply(wet shipping list, exit door) Q=0.0, Count=50
+apply(diagram, digit password lock) Q=0.0, Count=50
+apply(diagram, name slot) Q=0.0, Count=50
+apply(diagram, exit door) Q=0.0, Count=50
+apply(blue tape, digit password lock) Q=0.0, Count=50
+apply(blue tape, name slot) Q=0.0, Count=50
+apply(blue tape, exit door) Q=0.0, Count=50
+apply(dagger, digit password lock) Q=0.0, Count=50
+apply(dagger, name slot) Q=0.0, Count=50
+apply(dagger, exit door) Q=0.0, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, blue tape) Q=0.0, Count=50
+craft(wet shipping list, dagger) Q=0.0, Count=50
+craft(diagram, blue tape) Q=0.0, Count=50
+craft(diagram, dagger) Q=0.0, Count=50
+craft(blue tape, dagger) Q=0.0, Count=50
+move(Back to left side of warehouse) Q=0.0, Count=50
+Action: craft(diagram, blue tape)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 34
+
+Step: 90
+click(digit password lock) Q=0.0, Count=50
+click(name slot) Q=0.0, Count=50
+click(exit door) Q=0.0, Count=50
+apply(wet shipping list, digit password lock) Q=0.0, Count=50
+apply(wet shipping list, name slot) Q=0.0, Count=50
+apply(wet shipping list, exit door) Q=0.0, Count=50
+apply(diagram, digit password lock) Q=0.0, Count=50
+apply(diagram, name slot) Q=0.0, Count=50
+apply(diagram, exit door) Q=0.0, Count=50
+apply(blue tape, digit password lock) Q=0.0, Count=50
+apply(blue tape, name slot) Q=0.0, Count=50
+apply(blue tape, exit door) Q=0.0, Count=50
+apply(dagger, digit password lock) Q=0.0, Count=50
+apply(dagger, name slot) Q=0.0, Count=50
+apply(dagger, exit door) Q=0.0, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, blue tape) Q=0.0, Count=50
+craft(wet shipping list, dagger) Q=0.0, Count=50
+craft(diagram, blue tape) Q=0.0, Count=50
+craft(diagram, dagger) Q=0.0, Count=50
+craft(blue tape, dagger) Q=0.0, Count=50
+move(Back to left side of warehouse) Q=0.0, Count=50
+Action: apply(diagram, name slot)
+Reward: Nothing happens after you apply the tool. You may try to get this slot fully filled
+Accumulated_reward: 34
+
+Step: 91
+click(digit password lock) Q=0.0, Count=50
+click(name slot) Q=0.0, Count=50
+click(exit door) Q=0.0, Count=50
+apply(wet shipping list, digit password lock) Q=0.0, Count=50
+apply(wet shipping list, name slot) Q=0.0, Count=50
+apply(wet shipping list, exit door) Q=0.0, Count=50
+apply(diagram, digit password lock) Q=0.0, Count=50
+apply(diagram, name slot) Q=0.0, Count=50
+apply(diagram, exit door) Q=0.0, Count=50
+apply(blue tape, digit password lock) Q=0.0, Count=50
+apply(blue tape, name slot) Q=0.0, Count=50
+apply(blue tape, exit door) Q=0.0, Count=50
+apply(dagger, digit password lock) Q=0.0, Count=50
+apply(dagger, name slot) Q=0.0, Count=50
+apply(dagger, exit door) Q=0.0, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, blue tape) Q=0.0, Count=50
+craft(wet shipping list, dagger) Q=0.0, Count=50
+craft(diagram, blue tape) Q=0.0, Count=50
+craft(diagram, dagger) Q=0.0, Count=50
+craft(blue tape, dagger) Q=0.0, Count=50
+move(Back to left side of warehouse) Q=0.0, Count=50
+Action: craft(diagram, dagger)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 34
+
+Step: 92
+click(digit password lock) Q=0.0, Count=50
+click(name slot) Q=0.0, Count=50
+click(exit door) Q=0.0, Count=50
+apply(wet shipping list, digit password lock) Q=0.0, Count=50
+apply(wet shipping list, name slot) Q=0.0, Count=50
+apply(wet shipping list, exit door) Q=0.0, Count=50
+apply(diagram, digit password lock) Q=0.0, Count=50
+apply(diagram, name slot) Q=0.0, Count=50
+apply(diagram, exit door) Q=0.0, Count=50
+apply(blue tape, digit password lock) Q=0.0, Count=50
+apply(blue tape, name slot) Q=0.0, Count=50
+apply(blue tape, exit door) Q=0.0, Count=50
+apply(dagger, digit password lock) Q=0.0, Count=50
+apply(dagger, name slot) Q=0.0, Count=50
+apply(dagger, exit door) Q=0.0, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, blue tape) Q=0.0, Count=50
+craft(wet shipping list, dagger) Q=0.0, Count=50
+craft(diagram, blue tape) Q=0.0, Count=50
+craft(diagram, dagger) Q=0.0, Count=50
+craft(blue tape, dagger) Q=0.0, Count=50
+move(Back to left side of warehouse) Q=0.0, Count=50
+Action: click(exit door)
+Reward: Nothing happens after clicking on exit door. You have to find clue and solve th password.
+Accumulated_reward: 34
+
+Step: 93
+click(digit password lock) Q=0.0, Count=50
+click(name slot) Q=0.0, Count=50
+click(exit door) Q=0.0, Count=50
+apply(wet shipping list, digit password lock) Q=0.0, Count=50
+apply(wet shipping list, name slot) Q=0.0, Count=50
+apply(wet shipping list, exit door) Q=0.0, Count=50
+apply(diagram, digit password lock) Q=0.0, Count=50
+apply(diagram, name slot) Q=0.0, Count=50
+apply(diagram, exit door) Q=0.0, Count=50
+apply(blue tape, digit password lock) Q=0.0, Count=50
+apply(blue tape, name slot) Q=0.0, Count=50
+apply(blue tape, exit door) Q=0.0, Count=50
+apply(dagger, digit password lock) Q=0.0, Count=50
+apply(dagger, name slot) Q=0.0, Count=50
+apply(dagger, exit door) Q=0.0, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, blue tape) Q=0.0, Count=50
+craft(wet shipping list, dagger) Q=0.0, Count=50
+craft(diagram, blue tape) Q=0.0, Count=50
+craft(diagram, dagger) Q=0.0, Count=50
+craft(blue tape, dagger) Q=0.0, Count=50
+move(Back to left side of warehouse) Q=0.0, Count=50
+Action: apply(dagger, name slot)
+Reward: Nothing happens after you apply the tool. You may try to get this slot fully filled
+Accumulated_reward: 34
+
+Step: 94
+click(digit password lock) Q=0.0, Count=50
+click(name slot) Q=0.0, Count=50
+click(exit door) Q=0.0, Count=50
+apply(wet shipping list, digit password lock) Q=0.0, Count=50
+apply(wet shipping list, name slot) Q=0.0, Count=50
+apply(wet shipping list, exit door) Q=0.0, Count=50
+apply(diagram, digit password lock) Q=0.0, Count=50
+apply(diagram, name slot) Q=0.0, Count=50
+apply(diagram, exit door) Q=0.0, Count=50
+apply(blue tape, digit password lock) Q=0.0, Count=50
+apply(blue tape, name slot) Q=0.0, Count=50
+apply(blue tape, exit door) Q=0.0, Count=50
+apply(dagger, digit password lock) Q=0.0, Count=50
+apply(dagger, name slot) Q=0.0, Count=50
+apply(dagger, exit door) Q=0.0, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, blue tape) Q=0.0, Count=50
+craft(wet shipping list, dagger) Q=0.0, Count=50
+craft(diagram, blue tape) Q=0.0, Count=50
+craft(diagram, dagger) Q=0.0, Count=50
+craft(blue tape, dagger) Q=0.0, Count=50
+move(Back to left side of warehouse) Q=0.0, Count=50
+Action: craft(wet shipping list, dagger)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 34
+
+Step: 95
+click(digit password lock) Q=0.0, Count=50
+click(name slot) Q=0.0, Count=50
+click(exit door) Q=0.0, Count=50
+apply(wet shipping list, digit password lock) Q=0.0, Count=50
+apply(wet shipping list, name slot) Q=0.0, Count=50
+apply(wet shipping list, exit door) Q=0.0, Count=50
+apply(diagram, digit password lock) Q=0.0, Count=50
+apply(diagram, name slot) Q=0.0, Count=50
+apply(diagram, exit door) Q=0.0, Count=50
+apply(blue tape, digit password lock) Q=0.0, Count=50
+apply(blue tape, name slot) Q=0.0, Count=50
+apply(blue tape, exit door) Q=0.0, Count=50
+apply(dagger, digit password lock) Q=0.0, Count=50
+apply(dagger, name slot) Q=0.0, Count=50
+apply(dagger, exit door) Q=0.0, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, blue tape) Q=0.0, Count=50
+craft(wet shipping list, dagger) Q=0.0, Count=50
+craft(diagram, blue tape) Q=0.0, Count=50
+craft(diagram, dagger) Q=0.0, Count=50
+craft(blue tape, dagger) Q=0.0, Count=50
+move(Back to left side of warehouse) Q=0.0, Count=50
+Action: apply(blue tape, digit password lock)
+Reward: Nothing happens after you apply the tool. You may try to open this digital lock, its owner is jack
+Accumulated_reward: 34
+
+Step: 96
+click(digit password lock) Q=0.0, Count=50
+click(name slot) Q=0.0, Count=50
+click(exit door) Q=0.0, Count=50
+apply(wet shipping list, digit password lock) Q=0.0, Count=50
+apply(wet shipping list, name slot) Q=0.0, Count=50
+apply(wet shipping list, exit door) Q=0.0, Count=50
+apply(diagram, digit password lock) Q=0.0, Count=50
+apply(diagram, name slot) Q=0.0, Count=50
+apply(diagram, exit door) Q=0.0, Count=50
+apply(blue tape, digit password lock) Q=0.0, Count=50
+apply(blue tape, name slot) Q=0.03803227592722683, Count=50
+apply(blue tape, exit door) Q=0.0, Count=50
+apply(dagger, digit password lock) Q=0.0, Count=50
+apply(dagger, name slot) Q=0.0, Count=50
+apply(dagger, exit door) Q=0.0, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, blue tape) Q=0.0, Count=50
+craft(wet shipping list, dagger) Q=0.0, Count=50
+craft(diagram, blue tape) Q=0.0, Count=50
+craft(diagram, dagger) Q=0.0, Count=50
+craft(blue tape, dagger) Q=0.0, Count=50
+move(Back to left side of warehouse) Q=0.0, Count=50
+Action: apply(blue tape, name slot)
+Reward: Nothing happens after you apply the tool. You may try to get this slot fully filled
+Accumulated_reward: 34
+
+Step: 97
+click(digit password lock) Q=0.0, Count=50
+click(name slot) Q=0.0, Count=50
+click(exit door) Q=0.0, Count=50
+apply(wet shipping list, digit password lock) Q=0.0, Count=50
+apply(wet shipping list, name slot) Q=0.0, Count=50
+apply(wet shipping list, exit door) Q=0.0, Count=50
+apply(diagram, digit password lock) Q=0.0, Count=50
+apply(diagram, name slot) Q=0.0, Count=50
+apply(diagram, exit door) Q=0.0, Count=50
+apply(blue tape, digit password lock) Q=0.0, Count=50
+apply(blue tape, name slot) Q=0.0, Count=50
+apply(blue tape, exit door) Q=0.0, Count=50
+apply(dagger, digit password lock) Q=0.0, Count=50
+apply(dagger, name slot) Q=0.0, Count=50
+apply(dagger, exit door) Q=0.0, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, blue tape) Q=0.0, Count=50
+craft(wet shipping list, dagger) Q=0.0, Count=50
+craft(diagram, blue tape) Q=0.0, Count=50
+craft(diagram, dagger) Q=0.0, Count=50
+craft(blue tape, dagger) Q=0.0, Count=50
+move(Back to left side of warehouse) Q=0.0, Count=50
+Action: apply(diagram, exit door)
+Reward: Nothing happens after you apply the tool. You have to find clue and solve th password.
+Accumulated_reward: 34
+
+Step: 98
+click(digit password lock) Q=0.0, Count=50
+click(name slot) Q=0.0, Count=50
+click(exit door) Q=0.0, Count=50
+apply(wet shipping list, digit password lock) Q=0.0, Count=50
+apply(wet shipping list, name slot) Q=0.0, Count=50
+apply(wet shipping list, exit door) Q=0.0, Count=50
+apply(diagram, digit password lock) Q=0.0, Count=50
+apply(diagram, name slot) Q=0.0, Count=50
+apply(diagram, exit door) Q=0.0, Count=50
+apply(blue tape, digit password lock) Q=0.0, Count=50
+apply(blue tape, name slot) Q=0.0, Count=50
+apply(blue tape, exit door) Q=0.0, Count=50
+apply(dagger, digit password lock) Q=0.0, Count=50
+apply(dagger, name slot) Q=0.0, Count=50
+apply(dagger, exit door) Q=0.0, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, blue tape) Q=0.0, Count=50
+craft(wet shipping list, dagger) Q=0.0, Count=50
+craft(diagram, blue tape) Q=0.0, Count=50
+craft(diagram, dagger) Q=0.0, Count=50
+craft(blue tape, dagger) Q=0.0, Count=50
+move(Back to left side of warehouse) Q=0.0, Count=50
+Action: apply(wet shipping list, digit password lock)
+Reward: Nothing happens after you apply the tool. You may try to open this digital lock, its owner is jack
+Accumulated_reward: 34
+
+Step: 99
+click(digit password lock) Q=0.0, Count=50
+click(name slot) Q=0.0, Count=50
+click(exit door) Q=0.0, Count=50
+apply(wet shipping list, digit password lock) Q=0.0, Count=50
+apply(wet shipping list, name slot) Q=0.0, Count=50
+apply(wet shipping list, exit door) Q=0.0, Count=50
+apply(diagram, digit password lock) Q=0.0, Count=50
+apply(diagram, name slot) Q=0.0, Count=50
+apply(diagram, exit door) Q=0.0, Count=50
+apply(blue tape, digit password lock) Q=0.0, Count=50
+apply(blue tape, name slot) Q=0.0, Count=50
+apply(blue tape, exit door) Q=0.0, Count=50
+apply(dagger, digit password lock) Q=0.0, Count=50
+apply(dagger, name slot) Q=0.0, Count=50
+apply(dagger, exit door) Q=0.0, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, blue tape) Q=0.0, Count=50
+craft(wet shipping list, dagger) Q=0.0, Count=50
+craft(diagram, blue tape) Q=0.0, Count=50
+craft(diagram, dagger) Q=0.0, Count=50
+craft(blue tape, dagger) Q=0.0, Count=50
+move(Back to left side of warehouse) Q=0.0, Count=50
+Action: apply(dagger, digit password lock)
+Reward: Nothing happens after you apply the tool. You may try to open this digital lock, its owner is jack
+Accumulated_reward: 34
+
+Step: 100
+click(digit password lock) Q=0.0, Count=50
+click(name slot) Q=0.0, Count=50
+click(exit door) Q=0.0, Count=50
+apply(wet shipping list, digit password lock) Q=0.0, Count=50
+apply(wet shipping list, name slot) Q=0.0, Count=50
+apply(wet shipping list, exit door) Q=0.0, Count=50
+apply(diagram, digit password lock) Q=0.0, Count=50
+apply(diagram, name slot) Q=0.0, Count=50
+apply(diagram, exit door) Q=0.0, Count=50
+apply(blue tape, digit password lock) Q=0.0, Count=50
+apply(blue tape, name slot) Q=0.0, Count=50
+apply(blue tape, exit door) Q=0.0, Count=50
+apply(dagger, digit password lock) Q=0.0, Count=50
+apply(dagger, name slot) Q=0.0, Count=50
+apply(dagger, exit door) Q=0.0, Count=50
+craft(wet shipping list, diagram) Q=0.0, Count=50
+craft(wet shipping list, blue tape) Q=0.0, Count=50
+craft(wet shipping list, dagger) Q=0.0, Count=50
+craft(diagram, blue tape) Q=0.0, Count=50
+craft(diagram, dagger) Q=0.0, Count=50
+craft(blue tape, dagger) Q=0.0, Count=50
+move(Back to left side of warehouse) Q=0.03584552630780114, Count=50
+Action: move(Back to left side of warehouse)
+Reward: Action executed successfully. Change to another scene: warehouse leftside overview.
+Accumulated_reward: 34
+

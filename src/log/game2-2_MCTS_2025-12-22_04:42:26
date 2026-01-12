@@ -1,0 +1,2416 @@
+Step: 1
+click(bulletin board) Q=3.3164887848971913, Count=54
+click(entrance door) Q=2.618562523863106, Count=49
+click(mailbox) Q=2.5537458293454747, Count=49
+click(cable) Q=2.491299564222639, Count=48
+Action: click(bulletin board)
+Reward: Action executed successfully. You have clicked on bulletin board. You find a key on the bulletin board
+Accumulated_reward: 1
+
+Step: 2
+click(entrance door) Q=2.268822677446022, Count=49
+click(mailbox) Q=2.3321533321941073, Count=49
+click(entrance key) Q=2.810182388733612, Count=52
+click(cable) Q=2.445915160729736, Count=50
+Action: click(entrance key)
+Reward: Action executed successfully. You have just collected a entrance key. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 2
+
+Step: 3
+click(entrance door) Q=1.8558352954467392, Count=49
+click(mailbox) Q=1.8552611257551812, Count=49
+click(cable) Q=2.014288655022828, Count=50
+apply(entrance key, entrance door) Q=2.427560264079247, Count=53
+apply(entrance key, mailbox) Q=1.6418792284944415, Count=48
+apply(entrance key, cable) Q=2.075605291604436, Count=51
+Action: apply(entrance key, entrance door)
+Reward: Action executed successfully. You have successfully applied entrance key to entrance door. The entrance door is unlocked
+Accumulated_reward: 3
+
+Step: 4
+click(mailbox) Q=1.468858468804098, Count=49
+click(cable) Q=1.8119847602233274, Count=52
+move(Enter) Q=1.3951201886685705, Count=49
+Action: click(cable)
+Reward: Action executed successfully. You have just collected a cable. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 4
+
+Step: 5
+click(mailbox) Q=0.6722973008071786, Count=48
+apply(cable, mailbox) Q=0.8657173509460755, Count=50
+move(Enter) Q=1.1459588148633826, Count=52
+Action: move(Enter)
+Reward: Action executed successfully. Change to another scene: reception room.
+Accumulated_reward: 4
+
+Step: 6
+click(wall safe) Q=0.9796547647480995, Count=49
+click(cracked floor) Q=1.0852331067686698, Count=50
+click(pliers) Q=1.9528301478683827, Count=55
+apply(cable, wall safe) Q=0.9069959185272215, Count=49
+apply(cable, cracked floor) Q=1.0098507832497032, Count=49
+apply(cable, pliers) Q=1.0780893200720407, Count=49
+move(Back to the entrance) Q=0.8615026897676663, Count=48
+move(Go the the administration office) Q=1.3469085188605077, Count=51
+Action: click(pliers)
+Reward: Action executed successfully. You have just collected a pliers. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 5
+
+Step: 7
+click(wall safe) Q=0.9814507113369698, Count=49
+click(cracked floor) Q=0.9484222534871323, Count=49
+apply(cable, wall safe) Q=0.9881924056646713, Count=50
+apply(cable, cracked floor) Q=1.1134100498232635, Count=50
+apply(pliers, wall safe) Q=1.0536619871809674, Count=50
+apply(pliers, cracked floor) Q=0.9474135141893437, Count=49
+craft(cable, pliers) Q=1.5046745731419637, Count=53
+move(Back to the entrance) Q=0.9724300662994884, Count=49
+move(Go the the administration office) Q=1.2372704167598174, Count=51
+Action: craft(cable, pliers)
+Reward: Action executed successfully. You have successfully crafted a pair of pliers, with sharp jaws to cut things and a cable fixed on the wall, with a thick layer of insulating sheath together.
+You get a new item: a long and thin cable, with one end curved into a hook. It is put into your bag.
+Accumulated_reward: 6
+
+Step: 8
+click(wall safe) Q=0.5150163380163408, Count=49
+click(cracked floor) Q=0.3906138427876963, Count=49
+apply(cable, wall safe) Q=0.5280629867816315, Count=49
+apply(cable, cracked floor) Q=0.6085452907122336, Count=50
+move(Back to the entrance) Q=0.43681501490357366, Count=49
+move(Go the the administration office) Q=1.2177826887380465, Count=54
+Action: move(Go the the administration office)
+Reward: Action executed successfully. Change to another scene: administration office.
+Accumulated_reward: 6
+
+Step: 9
+click(air duct) Q=1.082264121367063, Count=49
+click(administration office door) Q=1.1476480353088827, Count=50
+click(printer) Q=1.1293934321212693, Count=50
+click(flashlight) Q=1.8357014468638042, Count=54
+apply(cable, air duct) Q=1.1003703296448888, Count=50
+apply(cable, administration office door) Q=1.0068762778547073, Count=49
+apply(cable, printer) Q=1.100065663694366, Count=50
+apply(cable, flashlight) Q=1.074449986989476, Count=49
+move(Back to the reception room) Q=0.5262872200213472, Count=47
+move(Go to the corner) Q=1.4242864872803211, Count=52
+Action: click(flashlight)
+Reward: Action executed successfully. You have just collected a flashlight. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 7
+
+Step: 10
+click(air duct) Q=1.0188319187882355, Count=51
+click(administration office door) Q=0.7514836489650669, Count=50
+click(printer) Q=0.7288229987664032, Count=49
+apply(cable, air duct) Q=0.9026188469089295, Count=50
+apply(cable, administration office door) Q=0.7806887701300445, Count=50
+apply(cable, printer) Q=0.7520023861644396, Count=49
+apply(flashlight, air duct) Q=1.6123313396704855, Count=54
+apply(flashlight, administration office door) Q=0.5760331609643299, Count=49
+apply(flashlight, printer) Q=0.7269481435499568, Count=49
+craft(cable, flashlight) Q=0.8830452173145721, Count=50
+move(Back to the reception room) Q=0.23947036929975607, Count=47
+move(Go to the corner) Q=1.264745706491075, Count=52
+Action: apply(flashlight, air duct)
+Reward: Action executed successfully. You have successfully applied flashlight to air duct. You light up the air duct, there seems to be a turn of direction inside, you cannnot see further what's after the turn
+Accumulated_reward: 8
+
+Step: 11
+click(air duct) Q=0.6544349633007909, Count=50
+click(administration office door) Q=0.5378345827123621, Count=49
+click(printer) Q=0.8463539500169852, Count=51
+apply(cable, air duct) Q=0.7215140357391215, Count=50
+apply(cable, administration office door) Q=0.6802640143977006, Count=50
+apply(cable, printer) Q=0.5302999821365756, Count=49
+move(Back to the reception room) Q=0.21371977298867179, Count=47
+move(Go to the corner) Q=1.4678002938329207, Count=54
+Action: move(Go to the corner)
+Reward: Action executed successfully. Change to another scene: administration office corner.
+Accumulated_reward: 8
+
+Step: 12
+click(draft) Q=1.4147242167661869, Count=49
+click(desk safe) Q=1.5073465617570028, Count=49
+click(photographic film) Q=2.101731163851281, Count=53
+click(pencil) Q=2.7169443961237714, Count=57
+click(waste paper) Q=1.9871464321654582, Count=52
+apply(cable, draft) Q=1.5182781702585806, Count=49
+apply(cable, desk safe) Q=1.6240785700661073, Count=50
+apply(cable, photographic film) Q=1.3469915814828757, Count=48
+apply(cable, pencil) Q=1.6713957784786602, Count=50
+apply(cable, waste paper) Q=1.3534291424196563, Count=48
+move(Back to the administration office) Q=0.5985737280705179, Count=45
+Action: click(pencil)
+Reward: Action executed successfully. You have just collected a pencil. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 9
+
+Step: 13
+click(draft) Q=1.5435685899199594, Count=50
+click(desk safe) Q=1.2967508246077752, Count=49
+click(photographic film) Q=1.919442507474417, Count=52
+click(waste paper) Q=1.9775624567546088, Count=53
+apply(cable, draft) Q=1.4331191363898135, Count=50
+apply(cable, desk safe) Q=1.4244132986843343, Count=50
+apply(cable, photographic film) Q=1.3788174661659978, Count=49
+apply(cable, waste paper) Q=1.5610335908514845, Count=50
+apply(pencil, draft) Q=2.320349615251832, Count=55
+apply(pencil, desk safe) Q=1.5903242276682557, Count=50
+apply(pencil, photographic film) Q=1.5382858441910685, Count=50
+apply(pencil, waste paper) Q=1.3155995978430766, Count=49
+craft(cable, pencil) Q=1.360659104270725, Count=49
+move(Back to the administration office) Q=0.388963750459062, Count=44
+Action: apply(pencil, draft)
+Reward: Action executed successfully. You have successfully applied pencil to draft. You find a note on the draft, with two letters "gb"
+Accumulated_reward: 10
+
+Step: 14
+click(desk safe) Q=1.5411686027726546, Count=50
+click(photographic film) Q=2.231536254951276, Count=54
+click(waste paper) Q=2.338412135056904, Count=55
+apply(cable, desk safe) Q=1.5187447519625956, Count=49
+apply(cable, photographic film) Q=1.3656034506504593, Count=49
+apply(cable, waste paper) Q=1.4440855307024538, Count=49
+move(Back to the administration office) Q=0.5768020630439165, Count=44
+Action: click(waste paper)
+Reward: Action executed successfully. You have just collected a waste paper. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 11
+
+Step: 15
+click(desk safe) Q=1.1859630618015258, Count=49
+click(photographic film) Q=2.3646616419812836, Count=57
+apply(cable, desk safe) Q=1.233152971706343, Count=50
+apply(cable, photographic film) Q=1.2073950057426708, Count=50
+apply(waste paper, desk safe) Q=1.192175478591146, Count=50
+apply(waste paper, photographic film) Q=1.1564876501226016, Count=49
+craft(cable, waste paper) Q=1.1803636165236928, Count=50
+move(Back to the administration office) Q=0.2740771712853277, Count=45
+Action: click(photographic film)
+Reward: Action executed successfully. You have just collected a photographic film. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 12
+
+Step: 16
+Action: input(GB24, desk safe)
+Reward: Action executed successfully. You have given an input GB24 to desk safe. The desk safe is unlocked, there is a mirror inside
+Accumulated_reward: 13
+
+Step: 17
+click(mirror) Q=1.1241869098720223, Count=53
+apply(cable, mirror) Q=0.5090338902894864, Count=50
+apply(waste paper, mirror) Q=0.49750105941900696, Count=50
+apply(photographic film, mirror) Q=0.5130067575249405, Count=50
+craft(cable, waste paper) Q=0.5548263658544811, Count=50
+craft(cable, photographic film) Q=0.5403926345778554, Count=50
+craft(waste paper, photographic film) Q=0.46036650305258053, Count=49
+move(Back to the administration office) Q=0.17894987359681871, Count=48
+Action: click(mirror)
+Reward: Action executed successfully. You have just collected a mirror. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 14
+
+Step: 18
+craft(cable, waste paper) Q=0.15822188158490796, Count=50
+craft(cable, photographic film) Q=0.17778963545450568, Count=50
+craft(cable, mirror) Q=0.24239788563161924, Count=50
+craft(waste paper, photographic film) Q=0.22314081290234802, Count=50
+craft(waste paper, mirror) Q=0.15617958222543554, Count=49
+craft(photographic film, mirror) Q=0.22986842052290163, Count=50
+move(Back to the administration office) Q=0.37257048615817473, Count=51
+Action: move(Back to the administration office)
+Reward: Action executed successfully. Change to another scene: administration office.
+Accumulated_reward: 14
+
+Step: 19
+click(air duct) Q=0.31049267732213515, Count=49
+click(administration office door) Q=0.44084785958326045, Count=50
+click(printer) Q=0.4634453955480129, Count=50
+apply(cable, air duct) Q=0.2611072977807869, Count=49
+apply(cable, administration office door) Q=0.45867574220291646, Count=50
+apply(cable, printer) Q=0.2663768530445994, Count=49
+apply(waste paper, air duct) Q=0.49770935277622763, Count=50
+apply(waste paper, administration office door) Q=0.5654065349748101, Count=51
+apply(waste paper, printer) Q=0.26574338120029944, Count=49
+apply(photographic film, air duct) Q=0.4112649977601741, Count=50
+apply(photographic film, administration office door) Q=0.38766604731113563, Count=50
+apply(photographic film, printer) Q=0.462389230480074, Count=50
+apply(mirror, air duct) Q=1.5282119948276467, Count=57
+apply(mirror, administration office door) Q=0.36028573954349963, Count=50
+apply(mirror, printer) Q=0.3557404848825348, Count=50
+craft(cable, waste paper) Q=0.23722360540129123, Count=49
+craft(cable, photographic film) Q=0.2932864406831739, Count=49
+craft(cable, mirror) Q=0.44779112731762377, Count=50
+craft(waste paper, photographic film) Q=0.4136395485563289, Count=50
+craft(waste paper, mirror) Q=0.42729797689427185, Count=50
+craft(photographic film, mirror) Q=0.42902884415078313, Count=50
+move(Back to the reception room) Q=0.14026969814383095, Count=49
+move(Go to the corner) Q=0.16676884366239966, Count=49
+Action: apply(mirror, air duct)
+Reward: Action executed successfully. You have successfully applied mirror to air duct. You put a mirror inside the air duct, and you find a golden key, but you cannot reach it
+Accumulated_reward: 15
+
+Step: 20
+click(air duct) Q=0.31745296911135124, Count=49
+click(administration office door) Q=0.40898932883080485, Count=49
+click(printer) Q=0.6318995253933795, Count=51
+apply(cable, air duct) Q=1.5811090582920952, Count=56
+apply(cable, administration office door) Q=0.45804143862637503, Count=50
+apply(cable, printer) Q=0.4966352677620705, Count=50
+apply(waste paper, air duct) Q=0.5226988720131787, Count=50
+apply(waste paper, administration office door) Q=0.5819364369753747, Count=50
+apply(waste paper, printer) Q=0.5263949966586349, Count=50
+apply(photographic film, air duct) Q=0.4439545880655987, Count=49
+apply(photographic film, administration office door) Q=0.4746283831977105, Count=50
+apply(photographic film, printer) Q=0.3539665632612275, Count=49
+craft(cable, waste paper) Q=0.7584609207889083, Count=51
+craft(cable, photographic film) Q=0.44921462316613714, Count=50
+craft(waste paper, photographic film) Q=0.38100079750322086, Count=49
+move(Back to the reception room) Q=0.1615744770408938, Count=48
+move(Go to the corner) Q=0.39798536354704694, Count=49
+Action: apply(cable, air duct)
+Reward: Action executed successfully. You have successfully applied cable to air duct. You can now get the golden key out of the air duct
+Accumulated_reward: 16
+
+Step: 21
+click(administration office door) Q=0.4547365655706713, Count=49
+click(printer) Q=0.47693930376472227, Count=49
+click(golden key) Q=1.3685618837319014, Count=55
+apply(waste paper, administration office door) Q=0.5826835580627223, Count=50
+apply(waste paper, printer) Q=0.5297068384991518, Count=50
+apply(waste paper, golden key) Q=0.658119172663982, Count=50
+apply(photographic film, administration office door) Q=0.47039655772681954, Count=49
+apply(photographic film, printer) Q=0.5281111853537643, Count=50
+apply(photographic film, golden key) Q=0.5166037288685927, Count=50
+craft(waste paper, photographic film) Q=0.5456682887411309, Count=50
+move(Back to the reception room) Q=0.19178359883880777, Count=48
+move(Go to the corner) Q=0.47057234591318564, Count=50
+Action: click(golden key)
+Reward: Action executed successfully. You have just collected a golden key. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 17
+
+Step: 22
+click(administration office door) Q=0.4439384068705867, Count=50
+click(printer) Q=0.3425456073786321, Count=49
+apply(waste paper, administration office door) Q=0.46446338480984545, Count=50
+apply(waste paper, printer) Q=0.446116745272266, Count=50
+apply(photographic film, administration office door) Q=0.48922345343506707, Count=50
+apply(photographic film, printer) Q=0.4438078072986606, Count=50
+apply(golden key, administration office door) Q=1.3095226383441463, Count=55
+apply(golden key, printer) Q=0.4286528320930729, Count=50
+craft(waste paper, photographic film) Q=0.465730303707062, Count=50
+craft(waste paper, golden key) Q=0.42947939816451947, Count=50
+craft(photographic film, golden key) Q=0.42432884060564074, Count=49
+move(Back to the reception room) Q=0.08482936208523105, Count=48
+move(Go to the corner) Q=0.28719157264260287, Count=49
+Action: apply(golden key, administration office door)
+Reward: Action executed successfully. You have successfully applied golden key to administration office door. The administration office door is unlocked
+Accumulated_reward: 18
+
+Step: 23
+click(printer) Q=0.12563389644096562, Count=50
+apply(waste paper, printer) Q=0.23947821344738646, Count=50
+apply(photographic film, printer) Q=0.2204927176584385, Count=50
+craft(waste paper, photographic film) Q=0.18308608626059622, Count=50
+move(Back to the reception room) Q=0.06435019881670626, Count=49
+move(Go to the corner) Q=0.12457776555704819, Count=49
+move(Go to the inner office) Q=0.6046321141589434, Count=52
+Action: move(Go to the inner office)
+Reward: Action executed successfully. Change to another scene: inner office.
+Accumulated_reward: 18
+
+Step: 24
+click(large mouse pad) Q=0.8313929269990947, Count=51
+click(calendary) Q=1.6177094449523062, Count=56
+click(groove) Q=0.5289708861493561, Count=49
+click(photo frame) Q=0.703092337110113, Count=50
+click(drawer) Q=0.6143853086329696, Count=50
+click(sprayer) Q=1.3450735047820797, Count=54
+apply(waste paper, large mouse pad) Q=0.7759843356767073, Count=51
+apply(waste paper, calendary) Q=0.5520945107972914, Count=49
+apply(waste paper, groove) Q=0.6423498498518475, Count=50
+apply(waste paper, photo frame) Q=0.5468271289175205, Count=49
+apply(waste paper, drawer) Q=0.625839976616424, Count=50
+apply(waste paper, sprayer) Q=0.6657285139030176, Count=50
+apply(photographic film, large mouse pad) Q=0.6243432698310319, Count=50
+apply(photographic film, calendary) Q=0.6946864447338256, Count=50
+apply(photographic film, groove) Q=0.502524645306402, Count=49
+apply(photographic film, photo frame) Q=0.5463146882382013, Count=49
+apply(photographic film, drawer) Q=0.625959413233059, Count=50
+apply(photographic film, sprayer) Q=0.47563647221536215, Count=49
+craft(waste paper, photographic film) Q=0.6676962509084461, Count=50
+move(Back to the administration office) Q=0.15670080776511802, Count=47
+move(Turn left) Q=0.4940088142223755, Count=49
+move(Turn right) Q=0.2633825342561785, Count=48
+Action: click(calendary)
+Reward: Action executed successfully. You have clicked on calendary. You find an entrance guard card on the calendary
+Accumulated_reward: 19
+
+Step: 25
+click(large mouse pad) Q=0.723436323910982, Count=50
+click(groove) Q=0.6662186782617873, Count=50
+click(photo frame) Q=0.5724012676967991, Count=50
+click(drawer) Q=0.6257475916300625, Count=50
+click(sprayer) Q=1.262241498895635, Count=53
+click(entrance guard card) Q=1.6769174512025236, Count=56
+apply(waste paper, large mouse pad) Q=0.5776057729433943, Count=49
+apply(waste paper, groove) Q=0.5097943133716216, Count=49
+apply(waste paper, photo frame) Q=0.6677334393394513, Count=50
+apply(waste paper, drawer) Q=0.5486305232163572, Count=49
+apply(waste paper, sprayer) Q=0.5810791326161953, Count=50
+apply(waste paper, entrance guard card) Q=0.5601064605473753, Count=49
+apply(photographic film, large mouse pad) Q=0.6574030221810215, Count=50
+apply(photographic film, groove) Q=0.5898362561129948, Count=50
+apply(photographic film, photo frame) Q=0.7190599816144558, Count=50
+apply(photographic film, drawer) Q=0.7162823963895995, Count=50
+apply(photographic film, sprayer) Q=0.5497764439801245, Count=49
+apply(photographic film, entrance guard card) Q=0.6752054942118559, Count=50
+craft(waste paper, photographic film) Q=0.8432167179189962, Count=51
+move(Back to the administration office) Q=0.3245080939122952, Count=48
+move(Turn left) Q=0.4380074068373756, Count=49
+move(Turn right) Q=0.37641119748486573, Count=48
+Action: click(entrance guard card)
+Reward: Action executed successfully. You have just collected a entrance guard card. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 20
+
+Step: 26
+click(large mouse pad) Q=0.4806086709858468, Count=49
+click(groove) Q=0.6827054422528739, Count=50
+click(photo frame) Q=0.5296304556926831, Count=49
+click(drawer) Q=0.5814307674238448, Count=50
+click(sprayer) Q=1.5584416199726512, Count=55
+apply(waste paper, large mouse pad) Q=0.5767990556965981, Count=50
+apply(waste paper, groove) Q=0.5983225834159505, Count=50
+apply(waste paper, photo frame) Q=0.6818475213014462, Count=50
+apply(waste paper, drawer) Q=0.7291583964202689, Count=50
+apply(waste paper, sprayer) Q=0.7225432638985655, Count=50
+apply(photographic film, large mouse pad) Q=0.7037470194440812, Count=50
+apply(photographic film, groove) Q=0.4284616063119521, Count=49
+apply(photographic film, photo frame) Q=0.7294059278210091, Count=50
+apply(photographic film, drawer) Q=0.5959734066171191, Count=50
+apply(photographic film, sprayer) Q=0.8458629045084158, Count=51
+apply(entrance guard card, large mouse pad) Q=0.5635682178468714, Count=49
+apply(entrance guard card, groove) Q=0.6788938902344814, Count=50
+apply(entrance guard card, photo frame) Q=0.6558192845674492, Count=50
+apply(entrance guard card, drawer) Q=1.6923031169491323, Count=56
+apply(entrance guard card, sprayer) Q=0.5336978535196975, Count=49
+craft(waste paper, photographic film) Q=0.4520061167097784, Count=49
+craft(waste paper, entrance guard card) Q=0.6023225112613471, Count=50
+craft(photographic film, entrance guard card) Q=0.6379204849883628, Count=50
+move(Back to the administration office) Q=0.2191990663311887, Count=48
+move(Turn left) Q=0.3717853093902055, Count=48
+move(Turn right) Q=0.28624423651015285, Count=48
+Action: apply(entrance guard card, drawer)
+Reward: Action executed successfully. You have successfully applied entrance guard card to drawer. The drawer is opened, and there is a paper with a number "1040"
+Accumulated_reward: 21
+
+Step: 27
+click(large mouse pad) Q=0.8188499252344287, Count=50
+click(groove) Q=0.9479571969494424, Count=51
+click(photo frame) Q=0.6907501416307482, Count=49
+click(sprayer) Q=2.232839848569514, Count=59
+apply(waste paper, large mouse pad) Q=0.6688115848443701, Count=49
+apply(waste paper, groove) Q=0.8722419246125712, Count=50
+apply(waste paper, photo frame) Q=0.6461368725388069, Count=49
+apply(waste paper, sprayer) Q=0.6718022873279276, Count=49
+apply(photographic film, large mouse pad) Q=0.7229205408904413, Count=50
+apply(photographic film, groove) Q=0.7458660663108931, Count=50
+apply(photographic film, photo frame) Q=0.7731257011051335, Count=50
+apply(photographic film, sprayer) Q=0.799703832992161, Count=50
+craft(waste paper, photographic film) Q=0.691191075832864, Count=50
+move(Back to the administration office) Q=0.20456594391673735, Count=47
+move(Turn left) Q=0.6584468043167205, Count=49
+move(Turn right) Q=0.45081736327474814, Count=48
+Action: click(sprayer)
+Reward: Action executed successfully. You have just collected a sprayer. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 22
+
+Step: 28
+Action: input(1040, wall safe)
+Reward: Action executed successfully. You have given an input 1040 to wall safe. The wall safe is unlocked, there is a bronze key inside
+Accumulated_reward: 23
+
+Step: 29
+click(cracked floor) Q=0.34379038915895604, Count=50
+click(bronze key) Q=0.9999999999999997, Count=54
+apply(waste paper, cracked floor) Q=0.36258388578917056, Count=50
+apply(waste paper, bronze key) Q=0.3871657050170158, Count=50
+apply(photographic film, cracked floor) Q=0.3631289670680161, Count=50
+apply(photographic film, bronze key) Q=0.38017017558048616, Count=50
+apply(sprayer, cracked floor) Q=0.26633759328276563, Count=49
+apply(sprayer, bronze key) Q=0.3963155218460322, Count=50
+craft(waste paper, photographic film) Q=0.25563167955221217, Count=49
+craft(waste paper, sprayer) Q=0.4239921462439725, Count=50
+craft(photographic film, sprayer) Q=0.3328970820096415, Count=50
+move(Back to the entrance) Q=0.21877134937187626, Count=49
+move(Go the the administration office) Q=0.10735779925334946, Count=49
+Action: click(bronze key)
+Reward: Action executed successfully. You have just collected a bronze key. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 24
+
+Step: 30
+click(cracked floor) Q=0.0, Count=50
+apply(waste paper, cracked floor) Q=0.0, Count=50
+apply(photographic film, cracked floor) Q=0.0, Count=50
+apply(sprayer, cracked floor) Q=0.01269793949283138, Count=50
+apply(bronze key, cracked floor) Q=0.010796270133114115, Count=50
+craft(waste paper, photographic film) Q=0.0, Count=50
+craft(waste paper, sprayer) Q=0.0, Count=50
+craft(waste paper, bronze key) Q=0.0, Count=50
+craft(photographic film, sprayer) Q=0.024175706315856457, Count=50
+craft(photographic film, bronze key) Q=0.0, Count=50
+craft(sprayer, bronze key) Q=0.0, Count=50
+move(Back to the entrance) Q=0.0, Count=50
+move(Go the the administration office) Q=0.01269793949283138, Count=50
+Action: craft(photographic film, sprayer)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 24
+
+Step: 31
+click(cracked floor) Q=0.0, Count=50
+apply(waste paper, cracked floor) Q=0.0, Count=50
+apply(photographic film, cracked floor) Q=0.0, Count=50
+apply(sprayer, cracked floor) Q=0.0, Count=50
+apply(bronze key, cracked floor) Q=0.0, Count=50
+craft(waste paper, photographic film) Q=0.0, Count=50
+craft(waste paper, sprayer) Q=0.0, Count=50
+craft(waste paper, bronze key) Q=0.02536461639151486, Count=50
+craft(photographic film, sprayer) Q=0.0, Count=50
+craft(photographic film, bronze key) Q=0.0, Count=50
+craft(sprayer, bronze key) Q=0.0, Count=50
+move(Back to the entrance) Q=0.0, Count=50
+move(Go the the administration office) Q=0.014955324501419788, Count=50
+Action: craft(waste paper, bronze key)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 24
+
+Step: 32
+click(cracked floor) Q=0.0, Count=50
+apply(waste paper, cracked floor) Q=0.0, Count=50
+apply(photographic film, cracked floor) Q=0.0, Count=50
+apply(sprayer, cracked floor) Q=0.0, Count=50
+apply(bronze key, cracked floor) Q=0.0, Count=50
+craft(waste paper, photographic film) Q=0.0, Count=50
+craft(waste paper, sprayer) Q=0.0, Count=50
+craft(waste paper, bronze key) Q=0.024772491993949746, Count=50
+craft(photographic film, sprayer) Q=0.0, Count=50
+craft(photographic film, bronze key) Q=0.0, Count=50
+craft(sprayer, bronze key) Q=0.0, Count=50
+move(Back to the entrance) Q=0.0, Count=50
+move(Go the the administration office) Q=0.012027746069952204, Count=50
+Action: craft(waste paper, bronze key)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 24
+
+Step: 33
+click(cracked floor) Q=0.013407541439587067, Count=50
+apply(waste paper, cracked floor) Q=0.0, Count=50
+apply(photographic film, cracked floor) Q=0.011394592646027296, Count=50
+apply(sprayer, cracked floor) Q=0.0, Count=50
+apply(bronze key, cracked floor) Q=0.024175706315856457, Count=50
+craft(waste paper, photographic film) Q=0.0, Count=50
+craft(waste paper, sprayer) Q=0.0, Count=50
+craft(waste paper, bronze key) Q=0.014955324501419788, Count=50
+craft(photographic film, sprayer) Q=0.0, Count=50
+craft(photographic film, bronze key) Q=0.012027746069952204, Count=50
+craft(sprayer, bronze key) Q=0.0, Count=50
+move(Back to the entrance) Q=0.0, Count=50
+move(Go the the administration office) Q=0.03892289027854476, Count=50
+Action: move(Go the the administration office)
+Reward: Action executed successfully. Change to another scene: administration office.
+Accumulated_reward: 24
+
+Step: 34
+click(printer) Q=0.0, Count=50
+apply(waste paper, printer) Q=0.025720299689660678, Count=50
+apply(photographic film, printer) Q=0.0, Count=50
+apply(sprayer, printer) Q=0.0341794263874463, Count=50
+apply(bronze key, printer) Q=0.025767625527617022, Count=50
+craft(waste paper, photographic film) Q=0.01269793949283138, Count=50
+craft(waste paper, sprayer) Q=0.03454395836766598, Count=50
+craft(waste paper, bronze key) Q=0.01269793949283138, Count=50
+craft(photographic film, sprayer) Q=0.014955324501419788, Count=50
+craft(photographic film, bronze key) Q=0.010796270133114115, Count=50
+craft(sprayer, bronze key) Q=0.03919506904676178, Count=50
+move(Back to the reception room) Q=0.0, Count=50
+move(Go to the corner) Q=0.0, Count=50
+move(Go to the inner office) Q=0.06837956331522489, Count=50
+Action: move(Go to the inner office)
+Reward: Action executed successfully. Change to another scene: inner office.
+Accumulated_reward: 24
+
+Step: 35
+click(large mouse pad) Q=0.1259307099044214, Count=50
+click(groove) Q=0.03689531450835519, Count=50
+click(photo frame) Q=0.06063488438742382, Count=50
+apply(waste paper, large mouse pad) Q=0.10282086707419982, Count=50
+apply(waste paper, groove) Q=0.011626872153815313, Count=49
+apply(waste paper, photo frame) Q=0.09389299906315554, Count=50
+apply(photographic film, large mouse pad) Q=0.03699967002666499, Count=50
+apply(photographic film, groove) Q=0.051973528278636966, Count=50
+apply(photographic film, photo frame) Q=0.046004346917470976, Count=50
+apply(sprayer, large mouse pad) Q=0.07214466701232417, Count=50
+apply(sprayer, groove) Q=0.1058583814759545, Count=50
+apply(sprayer, photo frame) Q=0.10617208980277007, Count=50
+apply(bronze key, large mouse pad) Q=0.16217082026833862, Count=50
+apply(bronze key, groove) Q=0.11501064379613068, Count=50
+apply(bronze key, photo frame) Q=0.08742887901438565, Count=50
+craft(waste paper, photographic film) Q=0.0964954141996853, Count=50
+craft(waste paper, sprayer) Q=0.0775964185686058, Count=50
+craft(waste paper, bronze key) Q=0.07839851053207561, Count=50
+craft(photographic film, sprayer) Q=0.11835087218958429, Count=50
+craft(photographic film, bronze key) Q=0.07492410244492838, Count=50
+craft(sprayer, bronze key) Q=0.09954461973583453, Count=50
+move(Back to the administration office) Q=0.0, Count=49
+move(Turn left) Q=0.5456605059770983, Count=52
+move(Turn right) Q=0.047215126120531026, Count=50
+Action: move(Turn left)
+Reward: Action executed successfully. Change to another scene: left side of inner office.
+Accumulated_reward: 24
+
+Step: 36
+click(left inner office door) Q=0.43318424812856343, Count=49
+click(bookshelf safe) Q=0.5655130001324761, Count=50
+click(cart safe) Q=0.6395924790279037, Count=50
+click(wooden door) Q=0.49372092391162686, Count=50
+click(scissors) Q=1.2704793978172055, Count=54
+apply(waste paper, left inner office door) Q=0.45160444951679335, Count=49
+apply(waste paper, bookshelf safe) Q=0.4816795136830525, Count=50
+apply(waste paper, cart safe) Q=0.45436148159991113, Count=49
+apply(waste paper, wooden door) Q=0.594060905036639, Count=50
+apply(waste paper, scissors) Q=0.6649462955474371, Count=50
+apply(photographic film, left inner office door) Q=0.6486999569561692, Count=50
+apply(photographic film, bookshelf safe) Q=0.6011479496902682, Count=50
+apply(photographic film, cart safe) Q=0.6066779641747706, Count=50
+apply(photographic film, wooden door) Q=0.48839702723178363, Count=49
+apply(photographic film, scissors) Q=0.6476488952572366, Count=50
+apply(sprayer, left inner office door) Q=0.5359959754189214, Count=50
+apply(sprayer, bookshelf safe) Q=0.5412847712877304, Count=50
+apply(sprayer, cart safe) Q=0.41621394470109074, Count=49
+apply(sprayer, wooden door) Q=0.5278259671305924, Count=50
+apply(sprayer, scissors) Q=0.5411649564134643, Count=50
+apply(bronze key, left inner office door) Q=1.4709056305394186, Count=55
+apply(bronze key, bookshelf safe) Q=0.45604718247051945, Count=49
+apply(bronze key, cart safe) Q=0.5028059328006217, Count=50
+apply(bronze key, wooden door) Q=0.5230557280694588, Count=50
+apply(bronze key, scissors) Q=0.594799298185977, Count=50
+craft(waste paper, photographic film) Q=0.5464265714163126, Count=50
+craft(waste paper, sprayer) Q=0.5063364805220948, Count=50
+craft(waste paper, bronze key) Q=0.547779937558401, Count=50
+craft(photographic film, sprayer) Q=0.6882091407932617, Count=51
+craft(photographic film, bronze key) Q=0.4934836459979265, Count=50
+craft(sprayer, bronze key) Q=0.44392342692954173, Count=49
+move(Back to the inner office) Q=0.07978579060850496, Count=47
+Action: apply(bronze key, left inner office door)
+Reward: Action executed successfully. You have successfully applied bronze key to left inner office door. The left inner office door is unlocked
+Accumulated_reward: 25
+
+Step: 37
+click(bookshelf safe) Q=0.561956645050824, Count=50
+click(cart safe) Q=0.5414373198518367, Count=50
+click(wooden door) Q=0.7827984295874041, Count=51
+click(scissors) Q=1.3753724569308279, Count=54
+apply(waste paper, bookshelf safe) Q=0.5166356903857846, Count=49
+apply(waste paper, cart safe) Q=0.6244844502596006, Count=50
+apply(waste paper, wooden door) Q=0.5066388688376224, Count=50
+apply(waste paper, scissors) Q=0.5025630924733077, Count=49
+apply(photographic film, bookshelf safe) Q=0.5644231195223781, Count=50
+apply(photographic film, cart safe) Q=0.47300294730986986, Count=49
+apply(photographic film, wooden door) Q=0.5176376859228381, Count=50
+apply(photographic film, scissors) Q=0.4587122891906777, Count=49
+apply(sprayer, bookshelf safe) Q=0.5900384073862475, Count=50
+apply(sprayer, cart safe) Q=0.5493527831676106, Count=50
+apply(sprayer, wooden door) Q=0.615043311296696, Count=50
+apply(sprayer, scissors) Q=0.652472222628353, Count=50
+craft(waste paper, photographic film) Q=0.678908161143771, Count=50
+craft(waste paper, sprayer) Q=0.5028477204840678, Count=49
+craft(photographic film, sprayer) Q=0.5127847180624807, Count=49
+move(Back to the inner office) Q=0.05084584467468974, Count=47
+move(Go to the store room) Q=1.3966369246230133, Count=54
+Action: move(Go to the store room)
+Reward: Action executed successfully. Change to another scene: store room.
+Accumulated_reward: 25
+
+Step: 38
+click(white board) Q=1.4303575984810533, Count=49
+click(store room safe) Q=1.6202839657748742, Count=50
+click(left bookshelf safe) Q=1.4867320751126654, Count=49
+click(electrical cable) Q=2.043222822552755, Count=52
+click(art knife) Q=2.445060454352938, Count=54
+click(photographic film 2) Q=2.126455194768605, Count=53
+click(ladder) Q=2.1838386992926333, Count=53
+click(chemical agent) Q=2.2978225671330756, Count=53
+click(photographic film 3) Q=2.1769323268340424, Count=53
+apply(waste paper, white board) Q=1.4331948332559385, Count=49
+apply(waste paper, store room safe) Q=1.4946075149037652, Count=49
+apply(waste paper, left bookshelf safe) Q=1.5307769961360094, Count=50
+apply(waste paper, electrical cable) Q=1.2856823738694372, Count=48
+apply(waste paper, art knife) Q=1.3713886842310115, Count=49
+apply(waste paper, photographic film 2) Q=1.5229233262468802, Count=50
+apply(waste paper, ladder) Q=1.414489407850583, Count=49
+apply(waste paper, chemical agent) Q=1.458614341627889, Count=49
+apply(waste paper, photographic film 3) Q=1.608550946470153, Count=50
+apply(photographic film, white board) Q=2.622158741756715, Count=55
+apply(photographic film, store room safe) Q=1.6718656172330641, Count=50
+apply(photographic film, left bookshelf safe) Q=1.5136152229386015, Count=49
+apply(photographic film, electrical cable) Q=1.5742852732380332, Count=50
+apply(photographic film, art knife) Q=1.6251388773283393, Count=50
+apply(photographic film, photographic film 2) Q=1.4305394015653403, Count=49
+apply(photographic film, ladder) Q=1.4223647049701358, Count=49
+apply(photographic film, chemical agent) Q=1.5208872964422897, Count=49
+apply(photographic film, photographic film 3) Q=1.6113525193816733, Count=50
+apply(sprayer, white board) Q=1.5794686882593387, Count=50
+apply(sprayer, store room safe) Q=1.6285596984651587, Count=50
+apply(sprayer, left bookshelf safe) Q=1.5258398946027778, Count=49
+apply(sprayer, electrical cable) Q=1.5608418521314809, Count=50
+apply(sprayer, art knife) Q=1.771007479541238, Count=51
+apply(sprayer, photographic film 2) Q=1.4657942300228286, Count=49
+apply(sprayer, ladder) Q=1.43417001440305, Count=49
+apply(sprayer, chemical agent) Q=1.4894300740533388, Count=49
+apply(sprayer, photographic film 3) Q=1.4521693155834596, Count=49
+craft(waste paper, photographic film) Q=1.59458697737679, Count=50
+craft(waste paper, sprayer) Q=1.52302999770489, Count=49
+craft(photographic film, sprayer) Q=1.3427858514166076, Count=49
+move(Back to the left side of inner office) Q=0.7037720877069555, Count=46
+Action: apply(photographic film, white board)
+Reward: Action executed successfully. You have successfully applied photographic film to white board.
+However, the apply of photographic film is not enough, and white board is still missing something else ...
+Accumulated_reward: 26
+
+Step: 39
+click(white board) Q=1.4975248798305918, Count=49
+click(store room safe) Q=1.552922238630092, Count=49
+click(left bookshelf safe) Q=1.7334224121161226, Count=50
+click(electrical cable) Q=2.429101864150333, Count=54
+click(art knife) Q=2.319214065204743, Count=53
+click(photographic film 2) Q=2.61791824659065, Count=55
+click(ladder) Q=2.231707260674721, Count=52
+click(chemical agent) Q=2.4788908981006466, Count=54
+click(photographic film 3) Q=2.3809064505357305, Count=53
+apply(waste paper, white board) Q=1.660415175997812, Count=50
+apply(waste paper, store room safe) Q=1.4502741049606374, Count=48
+apply(waste paper, left bookshelf safe) Q=1.637648683049638, Count=49
+apply(waste paper, electrical cable) Q=1.59149547896154, Count=49
+apply(waste paper, art knife) Q=1.5062769914334768, Count=49
+apply(waste paper, photographic film 2) Q=1.715957618934958, Count=50
+apply(waste paper, ladder) Q=1.4842309784395273, Count=49
+apply(waste paper, chemical agent) Q=1.6916273537115762, Count=50
+apply(waste paper, photographic film 3) Q=1.5102551607281622, Count=49
+apply(sprayer, white board) Q=1.8738723036785065, Count=51
+apply(sprayer, store room safe) Q=1.5196848748884102, Count=49
+apply(sprayer, left bookshelf safe) Q=1.4844420957010227, Count=49
+apply(sprayer, electrical cable) Q=1.3831090736513056, Count=48
+apply(sprayer, art knife) Q=1.6856530491628794, Count=50
+apply(sprayer, photographic film 2) Q=1.6928068169254518, Count=50
+apply(sprayer, ladder) Q=1.5148730519702833, Count=49
+apply(sprayer, chemical agent) Q=1.4747832589605536, Count=49
+apply(sprayer, photographic film 3) Q=1.523307663839666, Count=49
+craft(waste paper, sprayer) Q=1.6611366810773212, Count=49
+move(Back to the left side of inner office) Q=0.7649277019693277, Count=45
+Action: click(photographic film 2)
+Reward: Action executed successfully. You have just collected a photographic film 2. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 27
+
+Step: 40
+click(white board) Q=1.4016144035108777, Count=49
+click(store room safe) Q=1.5857839527854478, Count=50
+click(left bookshelf safe) Q=1.4444284207952853, Count=50
+click(electrical cable) Q=2.083926750407224, Count=53
+click(art knife) Q=2.3392266016933565, Count=54
+click(ladder) Q=1.9892267900044895, Count=52
+click(chemical agent) Q=2.297376362664455, Count=54
+click(photographic film 3) Q=2.3004145306769335, Count=54
+apply(waste paper, white board) Q=1.4549150596387816, Count=50
+apply(waste paper, store room safe) Q=1.3589608941635603, Count=49
+apply(waste paper, left bookshelf safe) Q=1.3492284373559988, Count=49
+apply(waste paper, electrical cable) Q=1.683809062523345, Count=51
+apply(waste paper, art knife) Q=1.5467158564809476, Count=50
+apply(waste paper, ladder) Q=1.2537019308227537, Count=49
+apply(waste paper, chemical agent) Q=1.2938367684920862, Count=49
+apply(waste paper, photographic film 3) Q=1.3558739914126097, Count=49
+apply(sprayer, white board) Q=1.4348420284401275, Count=50
+apply(sprayer, store room safe) Q=1.4434544853330702, Count=50
+apply(sprayer, left bookshelf safe) Q=1.3207478194913227, Count=49
+apply(sprayer, electrical cable) Q=1.5157324935315737, Count=50
+apply(sprayer, art knife) Q=1.2103908906056762, Count=48
+apply(sprayer, ladder) Q=1.3077876871874121, Count=49
+apply(sprayer, chemical agent) Q=1.5731282624493912, Count=50
+apply(sprayer, photographic film 3) Q=1.1741509713098144, Count=48
+apply(photographic film 2, white board) Q=2.286503569557458, Count=54
+apply(photographic film 2, store room safe) Q=1.3634887274633776, Count=49
+apply(photographic film 2, left bookshelf safe) Q=1.4479736197889523, Count=50
+apply(photographic film 2, electrical cable) Q=1.4953969290411615, Count=50
+apply(photographic film 2, art knife) Q=1.3496376328874815, Count=49
+apply(photographic film 2, ladder) Q=1.3656254054967218, Count=49
+apply(photographic film 2, chemical agent) Q=1.3299551948609214, Count=49
+apply(photographic film 2, photographic film 3) Q=1.4078947035010343, Count=50
+craft(waste paper, sprayer) Q=1.4124320253018317, Count=49
+craft(waste paper, photographic film 2) Q=1.2849010884844292, Count=49
+craft(sprayer, photographic film 2) Q=1.5530931412447548, Count=50
+move(Back to the left side of inner office) Q=0.6230639697502853, Count=46
+Action: click(art knife)
+Reward: Action executed successfully. You have just collected a art knife. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 28
+
+Step: 41
+click(white board) Q=1.3197656947463552, Count=49
+click(store room safe) Q=1.2642850903050231, Count=49
+click(left bookshelf safe) Q=1.2757849731956847, Count=49
+click(electrical cable) Q=2.122319381874518, Count=54
+click(ladder) Q=2.2485337364151348, Count=54
+click(chemical agent) Q=2.1952519179335526, Count=54
+click(photographic film 3) Q=2.102341994043521, Count=53
+apply(waste paper, white board) Q=1.4852362979817455, Count=50
+apply(waste paper, store room safe) Q=1.4707225136524509, Count=50
+apply(waste paper, left bookshelf safe) Q=1.262414276930504, Count=49
+apply(waste paper, electrical cable) Q=1.644804736290671, Count=51
+apply(waste paper, ladder) Q=1.3829570300709477, Count=50
+apply(waste paper, chemical agent) Q=1.18281434796228, Count=49
+apply(waste paper, photographic film 3) Q=1.158639061407119, Count=48
+apply(sprayer, white board) Q=1.2817708783431876, Count=49
+apply(sprayer, store room safe) Q=1.3977581969545785, Count=50
+apply(sprayer, left bookshelf safe) Q=1.420069685529702, Count=50
+apply(sprayer, electrical cable) Q=1.2069164060062634, Count=49
+apply(sprayer, ladder) Q=1.3273394902494555, Count=49
+apply(sprayer, chemical agent) Q=1.3549756410917417, Count=49
+apply(sprayer, photographic film 3) Q=1.3926685764342663, Count=50
+apply(photographic film 2, white board) Q=2.314491803425729, Count=55
+apply(photographic film 2, store room safe) Q=1.001798686262993, Count=48
+apply(photographic film 2, left bookshelf safe) Q=1.3995538214824155, Count=50
+apply(photographic film 2, electrical cable) Q=1.464106297500473, Count=50
+apply(photographic film 2, ladder) Q=1.1477137724274564, Count=48
+apply(photographic film 2, chemical agent) Q=1.3297262004705748, Count=49
+apply(photographic film 2, photographic film 3) Q=1.3424506259375795, Count=49
+apply(art knife, white board) Q=1.6942424789362296, Count=51
+apply(art knife, store room safe) Q=2.2322194627034952, Count=54
+apply(art knife, left bookshelf safe) Q=1.356712450883665, Count=49
+apply(art knife, electrical cable) Q=1.4166962004461163, Count=50
+apply(art knife, ladder) Q=1.5004613559968036, Count=50
+apply(art knife, chemical agent) Q=1.4916353201199797, Count=50
+apply(art knife, photographic film 3) Q=1.4680422304416274, Count=50
+craft(waste paper, sprayer) Q=1.4582416565887066, Count=50
+craft(waste paper, photographic film 2) Q=1.4755872807863923, Count=50
+craft(waste paper, art knife) Q=1.3325900063555527, Count=49
+craft(sprayer, photographic film 2) Q=1.2758740040142038, Count=49
+craft(sprayer, art knife) Q=1.177157852137846, Count=49
+craft(photographic film 2, art knife) Q=1.3882551898479667, Count=50
+move(Back to the left side of inner office) Q=0.4214448118671389, Count=45
+Action: apply(photographic film 2, white board)
+Reward: Action executed successfully. You have successfully applied photographic film 2 to white board.
+However, the apply of photographic film 2 is not enough, and white board is still missing something else ...
+Accumulated_reward: 29
+
+Step: 42
+click(white board) Q=1.2760652613719379, Count=49
+click(store room safe) Q=1.1484455077541735, Count=48
+click(left bookshelf safe) Q=1.3287718657197656, Count=49
+click(electrical cable) Q=1.9729944361674854, Count=53
+click(ladder) Q=1.9241386051851386, Count=53
+click(chemical agent) Q=2.277326937304782, Count=55
+click(photographic film 3) Q=2.4434606505754948, Count=55
+apply(waste paper, white board) Q=1.298282267926736, Count=49
+apply(waste paper, store room safe) Q=1.4970839957655138, Count=50
+apply(waste paper, left bookshelf safe) Q=1.351091932526767, Count=49
+apply(waste paper, electrical cable) Q=1.3618688017700435, Count=50
+apply(waste paper, ladder) Q=1.2426507639964177, Count=49
+apply(waste paper, chemical agent) Q=1.306786342947531, Count=49
+apply(waste paper, photographic film 3) Q=1.529153996716586, Count=50
+apply(sprayer, white board) Q=1.4609279959162222, Count=50
+apply(sprayer, store room safe) Q=1.3151887349023472, Count=49
+apply(sprayer, left bookshelf safe) Q=1.3417644325806208, Count=49
+apply(sprayer, electrical cable) Q=1.473678178204257, Count=50
+apply(sprayer, ladder) Q=1.2863459064999123, Count=49
+apply(sprayer, chemical agent) Q=1.3872372720332105, Count=50
+apply(sprayer, photographic film 3) Q=1.22317885278385, Count=49
+apply(art knife, white board) Q=1.3913213292264839, Count=50
+apply(art knife, store room safe) Q=2.3645411245764296, Count=55
+apply(art knife, left bookshelf safe) Q=1.3151734681459077, Count=49
+apply(art knife, electrical cable) Q=1.4450553171649123, Count=50
+apply(art knife, ladder) Q=1.3391149878858255, Count=49
+apply(art knife, chemical agent) Q=1.352218165170143, Count=49
+apply(art knife, photographic film 3) Q=1.2410487993786286, Count=49
+craft(waste paper, sprayer) Q=1.614344410077637, Count=51
+craft(waste paper, art knife) Q=1.372662454355189, Count=50
+craft(sprayer, art knife) Q=1.2482377196753982, Count=49
+move(Back to the left side of inner office) Q=0.4643341877660028, Count=45
+Action: click(photographic film 3)
+Reward: Action executed successfully. You have just collected a photographic film 3. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 30
+
+Step: 43
+click(white board) Q=1.3280439922693976, Count=50
+click(store room safe) Q=1.304860925859061, Count=50
+click(left bookshelf safe) Q=1.3254154264808222, Count=50
+click(electrical cable) Q=1.8733956462924344, Count=53
+click(ladder) Q=1.8800284090835448, Count=53
+click(chemical agent) Q=2.123635504809055, Count=54
+apply(waste paper, white board) Q=1.1480954209625307, Count=49
+apply(waste paper, store room safe) Q=0.9421848210417174, Count=48
+apply(waste paper, left bookshelf safe) Q=1.0340600799549602, Count=49
+apply(waste paper, electrical cable) Q=1.0698274305590438, Count=49
+apply(waste paper, ladder) Q=1.0615189902872824, Count=49
+apply(waste paper, chemical agent) Q=0.9757127521301436, Count=48
+apply(sprayer, white board) Q=1.2025687694153422, Count=49
+apply(sprayer, store room safe) Q=1.085654654726872, Count=49
+apply(sprayer, left bookshelf safe) Q=1.2245637265545117, Count=50
+apply(sprayer, electrical cable) Q=1.2368220688552989, Count=50
+apply(sprayer, ladder) Q=1.2478751204006207, Count=50
+apply(sprayer, chemical agent) Q=1.199677045262507, Count=49
+apply(art knife, white board) Q=1.1869847880012334, Count=49
+apply(art knife, store room safe) Q=2.1070011606716856, Count=54
+apply(art knife, left bookshelf safe) Q=1.3412426183910742, Count=50
+apply(art knife, electrical cable) Q=1.3346431867693695, Count=50
+apply(art knife, ladder) Q=1.2561379840767977, Count=50
+apply(art knife, chemical agent) Q=1.2895709810250242, Count=50
+apply(photographic film 3, white board) Q=2.1510747279036884, Count=55
+apply(photographic film 3, store room safe) Q=1.2587705463597871, Count=50
+apply(photographic film 3, left bookshelf safe) Q=1.2403612777927437, Count=50
+apply(photographic film 3, electrical cable) Q=1.2136373726522238, Count=49
+apply(photographic film 3, ladder) Q=1.1818534229878002, Count=49
+apply(photographic film 3, chemical agent) Q=1.4025416790731695, Count=51
+craft(waste paper, sprayer) Q=1.3881422300586703, Count=51
+craft(waste paper, art knife) Q=1.165499647442675, Count=49
+craft(waste paper, photographic film 3) Q=1.1349924858018838, Count=49
+craft(sprayer, art knife) Q=1.212452109283425, Count=49
+craft(sprayer, photographic film 3) Q=1.2474743210293144, Count=50
+craft(art knife, photographic film 3) Q=1.268615074751139, Count=50
+move(Back to the left side of inner office) Q=0.41990408697480136, Count=46
+Action: apply(photographic film 3, white board)
+Reward: Action executed successfully. You have successfully applied photographic film 3 to white board.
+However, the apply of photographic film 3 is not enough, and white board is still missing something else ...
+Accumulated_reward: 31
+
+Step: 44
+click(white board) Q=1.0234178418080175, Count=49
+click(store room safe) Q=1.2441282767117825, Count=50
+click(left bookshelf safe) Q=1.1053611208257417, Count=49
+click(electrical cable) Q=2.0518330239825873, Count=54
+click(ladder) Q=1.934176015800106, Count=53
+click(chemical agent) Q=2.1834477672705264, Count=55
+apply(waste paper, white board) Q=1.1628298020311116, Count=49
+apply(waste paper, store room safe) Q=1.1295305501299011, Count=49
+apply(waste paper, left bookshelf safe) Q=1.2793934934025828, Count=50
+apply(waste paper, electrical cable) Q=1.235546479728949, Count=49
+apply(waste paper, ladder) Q=1.3665640892164264, Count=50
+apply(waste paper, chemical agent) Q=1.2282991132171932, Count=49
+apply(sprayer, white board) Q=1.2569812972989087, Count=50
+apply(sprayer, store room safe) Q=1.2200140148217813, Count=49
+apply(sprayer, left bookshelf safe) Q=1.161413192847365, Count=49
+apply(sprayer, electrical cable) Q=1.3340296468087518, Count=50
+apply(sprayer, ladder) Q=1.3857142803683977, Count=50
+apply(sprayer, chemical agent) Q=1.1294342646483684, Count=49
+apply(art knife, white board) Q=1.0628144939616901, Count=49
+apply(art knife, store room safe) Q=2.42959103986691, Count=56
+apply(art knife, left bookshelf safe) Q=1.2273181897502312, Count=49
+apply(art knife, electrical cable) Q=1.1510807079566163, Count=49
+apply(art knife, ladder) Q=1.258647766645984, Count=50
+apply(art knife, chemical agent) Q=1.2044382624208783, Count=49
+craft(waste paper, sprayer) Q=1.3644790541267715, Count=50
+craft(waste paper, art knife) Q=1.308755959382331, Count=50
+craft(sprayer, art knife) Q=1.19016655198152, Count=49
+move(Back to the left side of inner office) Q=0.5096642003691151, Count=46
+Action: apply(art knife, store room safe)
+Reward: Action executed successfully. You have successfully applied art knife to store room safe. The store room safe is unlocked, there is a crowbar inside
+Accumulated_reward: 32
+
+Step: 45
+click(white board) Q=1.463603009028382, Count=50
+click(left bookshelf safe) Q=1.413108776691894, Count=50
+click(electrical cable) Q=1.9410210866153024, Count=53
+click(ladder) Q=2.0302296992024655, Count=53
+click(chemical agent) Q=2.1845240964328663, Count=54
+click(crowbar) Q=1.7719633359410893, Count=52
+apply(waste paper, white board) Q=1.3188028948659818, Count=49
+apply(waste paper, left bookshelf safe) Q=1.4434659829961962, Count=50
+apply(waste paper, electrical cable) Q=1.3171650374914823, Count=49
+apply(waste paper, ladder) Q=1.3681448598886612, Count=49
+apply(waste paper, chemical agent) Q=1.439284940259498, Count=50
+apply(waste paper, crowbar) Q=1.35050133853652, Count=49
+apply(sprayer, white board) Q=1.4054339541677565, Count=50
+apply(sprayer, left bookshelf safe) Q=1.3251979830741665, Count=49
+apply(sprayer, electrical cable) Q=1.4608434221936604, Count=50
+apply(sprayer, ladder) Q=1.4842263294995839, Count=50
+apply(sprayer, chemical agent) Q=1.442753873792897, Count=50
+apply(sprayer, crowbar) Q=1.1609990829312833, Count=48
+craft(waste paper, sprayer) Q=1.3239188275642257, Count=49
+move(Back to the left side of inner office) Q=0.6033319876435224, Count=46
+Action: click(chemical agent)
+Reward: Action executed successfully. You have just collected a chemical agent. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 33
+
+Step: 46
+click(white board) Q=1.252165786146453, Count=49
+click(left bookshelf safe) Q=1.3932779651087455, Count=50
+click(electrical cable) Q=1.7227802447610616, Count=52
+click(ladder) Q=1.9807716015336738, Count=53
+click(crowbar) Q=1.7827263176980712, Count=52
+apply(waste paper, white board) Q=1.2548758100455444, Count=49
+apply(waste paper, left bookshelf safe) Q=1.2519779086720533, Count=50
+apply(waste paper, electrical cable) Q=1.3685529239026917, Count=50
+apply(waste paper, ladder) Q=1.23780467403036, Count=49
+apply(waste paper, crowbar) Q=1.2228244536032529, Count=49
+apply(sprayer, white board) Q=1.2684690656941673, Count=50
+apply(sprayer, left bookshelf safe) Q=1.3620560483381015, Count=50
+apply(sprayer, electrical cable) Q=1.3599132346373357, Count=50
+apply(sprayer, ladder) Q=1.1586189367620754, Count=49
+apply(sprayer, crowbar) Q=1.2867615178512581, Count=50
+apply(chemical agent, white board) Q=1.3976564699433294, Count=50
+apply(chemical agent, left bookshelf safe) Q=1.254415509541298, Count=49
+apply(chemical agent, electrical cable) Q=1.2712815324314444, Count=50
+apply(chemical agent, ladder) Q=1.3241522622935058, Count=50
+apply(chemical agent, crowbar) Q=1.2296955429131353, Count=49
+craft(waste paper, sprayer) Q=1.2374350163392134, Count=49
+craft(waste paper, chemical agent) Q=1.14833669522413, Count=49
+craft(sprayer, chemical agent) Q=2.1439543216724983, Count=54
+move(Back to the left side of inner office) Q=0.943077374886342, Count=48
+Action: craft(sprayer, chemical agent)
+Reward: Action executed successfully. You have successfully crafted a chemical agent and a sprayer, with some strange signs on it, currently empty together.
+You get a new item: a sprayer with chemical agent, may have some specific uses. It is put into your bag.
+Accumulated_reward: 34
+
+Step: 47
+click(white board) Q=0.9690761037498183, Count=49
+click(left bookshelf safe) Q=1.1092321845342528, Count=49
+click(electrical cable) Q=1.7487637511933747, Count=53
+click(ladder) Q=1.6059571220720725, Count=52
+click(crowbar) Q=1.859919299452436, Count=53
+apply(waste paper, white board) Q=1.1478044068493687, Count=49
+apply(waste paper, left bookshelf safe) Q=1.1512756077603636, Count=49
+apply(waste paper, electrical cable) Q=1.1615346758843952, Count=49
+apply(waste paper, ladder) Q=1.1256282154834933, Count=49
+apply(waste paper, crowbar) Q=1.1953455905404067, Count=50
+apply(sprayer, white board) Q=1.1706060364933393, Count=50
+apply(sprayer, left bookshelf safe) Q=1.2049945898937344, Count=50
+apply(sprayer, electrical cable) Q=1.1989213910049343, Count=50
+apply(sprayer, ladder) Q=1.2030574334060478, Count=50
+apply(sprayer, crowbar) Q=1.2217466161729176, Count=50
+craft(waste paper, sprayer) Q=1.142417425150617, Count=49
+move(Back to the left side of inner office) Q=1.0940291927918857, Count=49
+Action: click(crowbar)
+Reward: Action executed successfully. You have just collected a crowbar. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 35
+
+Step: 48
+click(white board) Q=0.7575010842715131, Count=50
+click(left bookshelf safe) Q=0.739317423493832, Count=50
+click(electrical cable) Q=1.4127333649442424, Count=53
+click(ladder) Q=1.4109590493053688, Count=53
+apply(waste paper, white board) Q=0.6896891718598989, Count=49
+apply(waste paper, left bookshelf safe) Q=0.7730576522750866, Count=50
+apply(waste paper, electrical cable) Q=0.73260791630266, Count=49
+apply(waste paper, ladder) Q=0.7801433244252409, Count=50
+apply(sprayer, white board) Q=0.8259649145486223, Count=50
+apply(sprayer, left bookshelf safe) Q=0.7294709836849644, Count=49
+apply(sprayer, electrical cable) Q=0.7764817497195836, Count=50
+apply(sprayer, ladder) Q=0.8819264414498662, Count=50
+apply(crowbar, white board) Q=0.7952010803565024, Count=50
+apply(crowbar, left bookshelf safe) Q=0.6978842606004626, Count=49
+apply(crowbar, electrical cable) Q=0.8034246953664903, Count=50
+apply(crowbar, ladder) Q=0.8574873487132728, Count=50
+craft(waste paper, sprayer) Q=0.7455392475264191, Count=49
+craft(waste paper, crowbar) Q=0.7503914017538825, Count=50
+craft(sprayer, crowbar) Q=0.9042958443993351, Count=50
+move(Back to the left side of inner office) Q=0.6647360875518173, Count=49
+Action: click(electrical cable)
+Reward: Action executed successfully. You have just collected a electrical cable. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 36
+
+Step: 49
+click(white board) Q=0.48116722494304737, Count=50
+click(left bookshelf safe) Q=0.3771736134078805, Count=50
+click(ladder) Q=1.1010960945322472, Count=53
+apply(waste paper, white board) Q=0.40485563137883385, Count=50
+apply(waste paper, left bookshelf safe) Q=0.3222465583902282, Count=49
+apply(waste paper, ladder) Q=0.399181193336341, Count=50
+apply(sprayer, white board) Q=0.37807742723252247, Count=50
+apply(sprayer, left bookshelf safe) Q=0.4282626662897554, Count=50
+apply(sprayer, ladder) Q=0.39382932290405215, Count=50
+apply(crowbar, white board) Q=0.45551484788564534, Count=50
+apply(crowbar, left bookshelf safe) Q=0.40405557693696936, Count=50
+apply(crowbar, ladder) Q=0.3985604524452349, Count=50
+apply(electrical cable, white board) Q=0.42065840634457463, Count=50
+apply(electrical cable, left bookshelf safe) Q=0.38045487655253535, Count=50
+apply(electrical cable, ladder) Q=0.4404131294697271, Count=50
+craft(waste paper, sprayer) Q=0.41960638511752835, Count=50
+craft(waste paper, crowbar) Q=0.44254182058905667, Count=50
+craft(waste paper, electrical cable) Q=0.40981666886675405, Count=50
+craft(sprayer, crowbar) Q=0.35617626859183904, Count=49
+craft(sprayer, electrical cable) Q=0.46658868402726755, Count=50
+craft(crowbar, electrical cable) Q=0.255060641364189, Count=49
+move(Back to the left side of inner office) Q=0.443128262850485, Count=50
+Action: click(ladder)
+Reward: Action executed successfully. You have just collected a ladder. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 37
+
+Step: 50
+click(white board) Q=0.06061312754947729, Count=50
+click(left bookshelf safe) Q=0.09102194556007617, Count=50
+apply(waste paper, white board) Q=0.07042976878696633, Count=50
+apply(waste paper, left bookshelf safe) Q=0.1412355058507364, Count=50
+apply(sprayer, white board) Q=0.07453904715770354, Count=50
+apply(sprayer, left bookshelf safe) Q=0.18658023774910587, Count=50
+apply(crowbar, white board) Q=0.0993459864621424, Count=50
+apply(crowbar, left bookshelf safe) Q=0.035057129930636186, Count=49
+apply(electrical cable, white board) Q=0.09850079359054272, Count=50
+apply(electrical cable, left bookshelf safe) Q=0.0724121364617927, Count=50
+apply(ladder, white board) Q=0.07696258170823005, Count=50
+apply(ladder, left bookshelf safe) Q=0.11111542521801114, Count=50
+craft(waste paper, sprayer) Q=0.09896906562585332, Count=50
+craft(waste paper, crowbar) Q=0.15742737901366663, Count=50
+craft(waste paper, electrical cable) Q=0.09967315409393196, Count=50
+craft(waste paper, ladder) Q=0.16298227897210735, Count=50
+craft(sprayer, crowbar) Q=0.08097394281735197, Count=50
+craft(sprayer, electrical cable) Q=0.03320924007291086, Count=49
+craft(sprayer, ladder) Q=0.06033813077975822, Count=50
+craft(crowbar, electrical cable) Q=0.15834393781077744, Count=50
+craft(crowbar, ladder) Q=0.050975243760650726, Count=49
+craft(electrical cable, ladder) Q=0.12615734716562366, Count=50
+move(Back to the left side of inner office) Q=0.6365955032323466, Count=53
+Action: move(Back to the left side of inner office)
+Reward: Action executed successfully. Change to another scene: left side of inner office.
+Accumulated_reward: 37
+
+Step: 51
+click(bookshelf safe) Q=0.5008241741439192, Count=50
+click(cart safe) Q=0.35483331473395213, Count=49
+click(wooden door) Q=0.4588871878834275, Count=50
+click(scissors) Q=1.2000422162571363, Count=54
+apply(waste paper, bookshelf safe) Q=0.4617392498709709, Count=50
+apply(waste paper, cart safe) Q=0.4763641969937705, Count=50
+apply(waste paper, wooden door) Q=0.4141777215408985, Count=50
+apply(waste paper, scissors) Q=0.5636135348641451, Count=50
+apply(sprayer, bookshelf safe) Q=0.3303331460099099, Count=49
+apply(sprayer, cart safe) Q=0.4384116237955431, Count=50
+apply(sprayer, wooden door) Q=1.3191984148084848, Count=54
+apply(sprayer, scissors) Q=0.40007689628949994, Count=50
+apply(crowbar, bookshelf safe) Q=0.49683878949786486, Count=50
+apply(crowbar, cart safe) Q=0.42499414263736396, Count=50
+apply(crowbar, wooden door) Q=0.4334243429620733, Count=50
+apply(crowbar, scissors) Q=0.47339271033889707, Count=50
+apply(electrical cable, bookshelf safe) Q=0.3816875091281829, Count=49
+apply(electrical cable, cart safe) Q=0.5996388223093315, Count=51
+apply(electrical cable, wooden door) Q=0.41311457690705183, Count=50
+apply(electrical cable, scissors) Q=0.4922787718820527, Count=50
+apply(ladder, bookshelf safe) Q=0.3959982351551749, Count=50
+apply(ladder, cart safe) Q=0.39690165490916907, Count=49
+apply(ladder, wooden door) Q=0.4930838648268966, Count=50
+apply(ladder, scissors) Q=0.449534313445987, Count=50
+craft(waste paper, sprayer) Q=0.47381042977248705, Count=50
+craft(waste paper, crowbar) Q=0.4920912146963417, Count=50
+craft(waste paper, electrical cable) Q=0.4211873693369355, Count=50
+craft(waste paper, ladder) Q=0.37526077157977383, Count=49
+craft(sprayer, crowbar) Q=0.41731932057327276, Count=50
+craft(sprayer, electrical cable) Q=0.6195329197338082, Count=51
+craft(sprayer, ladder) Q=0.35913136663435474, Count=49
+craft(crowbar, electrical cable) Q=0.47925630284726484, Count=50
+craft(crowbar, ladder) Q=0.41427956360688856, Count=50
+craft(electrical cable, ladder) Q=0.3968958383810921, Count=49
+move(Back to the inner office) Q=0.27442939245288045, Count=49
+move(Go to the store room) Q=0.0695426347475421, Count=48
+Action: apply(sprayer, wooden door)
+Reward: Action executed successfully. You have successfully applied sprayer to wooden door. The writing on the wooden door is now clear, you see a 8-digit number
+Accumulated_reward: 38
+
+Step: 52
+click(bookshelf safe) Q=0.3092838874101022, Count=50
+click(cart safe) Q=0.38385058185125015, Count=50
+click(scissors) Q=1.0566717260153229, Count=54
+apply(waste paper, bookshelf safe) Q=0.3200133360530737, Count=50
+apply(waste paper, cart safe) Q=0.30301593455101844, Count=50
+apply(waste paper, scissors) Q=0.29830056437952185, Count=50
+apply(crowbar, bookshelf safe) Q=0.27479655806223097, Count=49
+apply(crowbar, cart safe) Q=0.32124009211756666, Count=50
+apply(crowbar, scissors) Q=0.38522874490778214, Count=50
+apply(electrical cable, bookshelf safe) Q=0.31693251077961465, Count=50
+apply(electrical cable, cart safe) Q=0.3284234481847762, Count=50
+apply(electrical cable, scissors) Q=0.3362830239020755, Count=50
+apply(ladder, bookshelf safe) Q=0.29937017130767263, Count=50
+apply(ladder, cart safe) Q=0.38773312015033573, Count=50
+apply(ladder, scissors) Q=0.34418190016791084, Count=50
+craft(waste paper, crowbar) Q=0.27571880288242334, Count=50
+craft(waste paper, electrical cable) Q=0.3817548554028953, Count=50
+craft(waste paper, ladder) Q=0.3639525541222649, Count=50
+craft(crowbar, electrical cable) Q=0.2864089069982839, Count=50
+craft(crowbar, ladder) Q=0.30856990606177515, Count=50
+craft(electrical cable, ladder) Q=0.25680366795913595, Count=49
+move(Back to the inner office) Q=0.38244883900732346, Count=50
+move(Go to the store room) Q=0.040091210238282264, Count=48
+Action: click(scissors)
+Reward: Action executed successfully. You have just collected a scissors. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 39
+
+Step: 53
+click(bookshelf safe) Q=0.07741891162308343, Count=50
+click(cart safe) Q=0.040952492645631056, Count=50
+apply(waste paper, bookshelf safe) Q=0.04079158930483148, Count=50
+apply(waste paper, cart safe) Q=0.03487764856522098, Count=50
+apply(crowbar, bookshelf safe) Q=0.08882999724757776, Count=50
+apply(crowbar, cart safe) Q=0.0315502775172747, Count=50
+apply(electrical cable, bookshelf safe) Q=0.031194306897557637, Count=50
+apply(electrical cable, cart safe) Q=0.014159093367747502, Count=50
+apply(ladder, bookshelf safe) Q=0.0602276140087793, Count=50
+apply(ladder, cart safe) Q=0.025522409061886766, Count=50
+apply(scissors, bookshelf safe) Q=0.04868450082193054, Count=50
+apply(scissors, cart safe) Q=0.12140150724319583, Count=50
+craft(waste paper, crowbar) Q=0.049349989492543364, Count=50
+craft(waste paper, electrical cable) Q=0.09959428435884532, Count=50
+craft(waste paper, ladder) Q=0.04144104611672683, Count=50
+craft(waste paper, scissors) Q=0.11178902169888563, Count=50
+craft(crowbar, electrical cable) Q=0.09704366985027049, Count=50
+craft(crowbar, ladder) Q=0.05294237035256945, Count=50
+craft(crowbar, scissors) Q=0.045192970292775095, Count=50
+craft(electrical cable, ladder) Q=0.03435833116249252, Count=50
+craft(electrical cable, scissors) Q=0.03710606215673647, Count=50
+craft(ladder, scissors) Q=0.01864915963750853, Count=50
+move(Back to the inner office) Q=0.20066800981165456, Count=51
+move(Go to the store room) Q=0.0, Count=49
+Action: move(Back to the inner office)
+Reward: Action executed successfully. Change to another scene: inner office.
+Accumulated_reward: 39
+
+Step: 54
+click(large mouse pad) Q=0.18690875575776889, Count=50
+click(groove) Q=0.2808381029492296, Count=50
+click(photo frame) Q=0.27618774900943854, Count=50
+apply(waste paper, large mouse pad) Q=0.21001808992112836, Count=50
+apply(waste paper, groove) Q=0.214122664942947, Count=50
+apply(waste paper, photo frame) Q=0.09954929834336528, Count=49
+apply(crowbar, large mouse pad) Q=0.19015546111662993, Count=50
+apply(crowbar, groove) Q=0.2611256731097935, Count=50
+apply(crowbar, photo frame) Q=0.1901046292896777, Count=50
+apply(electrical cable, large mouse pad) Q=0.24707653970615764, Count=50
+apply(electrical cable, groove) Q=0.22535412736986493, Count=50
+apply(electrical cable, photo frame) Q=0.3580192613657033, Count=50
+apply(ladder, large mouse pad) Q=0.14186861757006108, Count=49
+apply(ladder, groove) Q=1.2576051037182576, Count=56
+apply(ladder, photo frame) Q=0.25407145219105126, Count=50
+apply(scissors, large mouse pad) Q=0.2853329084859179, Count=50
+apply(scissors, groove) Q=0.21504836490701534, Count=50
+apply(scissors, photo frame) Q=0.13607296198344898, Count=49
+craft(waste paper, crowbar) Q=0.24587638118202612, Count=50
+craft(waste paper, electrical cable) Q=0.2602302342070759, Count=50
+craft(waste paper, ladder) Q=0.2108267694949173, Count=50
+craft(waste paper, scissors) Q=0.21919813103343447, Count=50
+craft(crowbar, electrical cable) Q=0.26038912343005066, Count=50
+craft(crowbar, ladder) Q=0.26416223064729977, Count=50
+craft(crowbar, scissors) Q=0.2712950712362465, Count=50
+craft(electrical cable, ladder) Q=0.2937234402647007, Count=50
+craft(electrical cable, scissors) Q=0.24070791993559554, Count=50
+craft(ladder, scissors) Q=0.2162265774046137, Count=50
+move(Back to the administration office) Q=0.0947900180177075, Count=49
+move(Turn left) Q=0.05648002094517289, Count=49
+move(Turn right) Q=0.1257115216887615, Count=49
+Action: apply(ladder, groove)
+Reward: Action executed successfully. You have successfully applied ladder to groove. You find a camera on the ceiling
+Accumulated_reward: 40
+
+Step: 55
+click(large mouse pad) Q=0.1671548259380973, Count=50
+click(groove) Q=0.2528490386567621, Count=50
+click(camera) Q=0.13479746022105388, Count=50
+click(photo frame) Q=0.18469133626248044, Count=50
+apply(waste paper, large mouse pad) Q=0.19330530321037484, Count=50
+apply(waste paper, groove) Q=0.17921065450837348, Count=50
+apply(waste paper, camera) Q=0.21219427637377405, Count=50
+apply(waste paper, photo frame) Q=0.25215653980118297, Count=50
+apply(crowbar, large mouse pad) Q=0.18860777655346894, Count=50
+apply(crowbar, groove) Q=0.29166597614556666, Count=50
+apply(crowbar, camera) Q=0.12143702811730894, Count=49
+apply(crowbar, photo frame) Q=0.2621676892493248, Count=50
+apply(electrical cable, large mouse pad) Q=0.14149048440611978, Count=50
+apply(electrical cable, groove) Q=0.1443565572020007, Count=50
+apply(electrical cable, camera) Q=1.0729741780793989, Count=55
+apply(electrical cable, photo frame) Q=0.2432235630383524, Count=50
+apply(scissors, large mouse pad) Q=0.23984068368830244, Count=50
+apply(scissors, groove) Q=0.255897691628948, Count=50
+apply(scissors, camera) Q=0.26598519420337197, Count=50
+apply(scissors, photo frame) Q=0.18113739178179689, Count=50
+craft(waste paper, crowbar) Q=0.11583640450344714, Count=49
+craft(waste paper, electrical cable) Q=0.19201431591068796, Count=50
+craft(waste paper, scissors) Q=0.1943217101504962, Count=50
+craft(crowbar, electrical cable) Q=0.27895726085265277, Count=50
+craft(crowbar, scissors) Q=0.3079809903384881, Count=50
+craft(electrical cable, scissors) Q=0.09180835428736692, Count=49
+move(Back to the administration office) Q=0.1627659468933543, Count=50
+move(Turn left) Q=0.09558090831210743, Count=49
+move(Turn right) Q=0.06174272085621921, Count=49
+Action: apply(electrical cable, camera)
+Reward: Action executed successfully. You have successfully applied electrical cable to camera. The camera is working, and you find a word "genshin" on the screen
+Accumulated_reward: 41
+
+Step: 56
+click(large mouse pad) Q=0.0, Count=49
+click(groove) Q=0.0, Count=50
+click(photo frame) Q=0.0, Count=50
+apply(waste paper, large mouse pad) Q=0.0, Count=50
+apply(waste paper, groove) Q=0.03298546564906657, Count=50
+apply(waste paper, photo frame) Q=0.08480138035415244, Count=50
+apply(crowbar, large mouse pad) Q=0.08154740860814287, Count=50
+apply(crowbar, groove) Q=0.023363906136402702, Count=50
+apply(crowbar, photo frame) Q=0.07645519187161097, Count=50
+apply(scissors, large mouse pad) Q=0.012027746069952204, Count=50
+apply(scissors, groove) Q=0.0802812710407793, Count=50
+apply(scissors, photo frame) Q=0.026948256040232967, Count=50
+craft(waste paper, crowbar) Q=0.0, Count=50
+craft(waste paper, scissors) Q=0.03611229066407345, Count=50
+craft(crowbar, scissors) Q=0.0, Count=50
+move(Back to the administration office) Q=0.4264300992816898, Count=52
+move(Turn left) Q=0.0, Count=49
+move(Turn right) Q=0.011394592646027296, Count=50
+Action: move(Back to the administration office)
+Reward: Action executed successfully. Change to another scene: administration office.
+Accumulated_reward: 41
+
+Step: 57
+click(printer) Q=0.20794010133884838, Count=50
+apply(waste paper, printer) Q=0.16075392373455838, Count=49
+apply(crowbar, printer) Q=0.14065237391558436, Count=49
+apply(scissors, printer) Q=0.38960779736050716, Count=51
+craft(waste paper, crowbar) Q=0.23537433630667076, Count=50
+craft(waste paper, scissors) Q=0.29949155308191283, Count=50
+craft(crowbar, scissors) Q=0.2946033717300842, Count=50
+move(Back to the reception room) Q=0.7607978191355023, Count=53
+move(Go to the corner) Q=0.0890826292970904, Count=49
+move(Go to the inner office) Q=0.08189947430191782, Count=49
+Action: move(Back to the reception room)
+Reward: Action executed successfully. Change to another scene: reception room.
+Accumulated_reward: 41
+
+Step: 58
+click(cracked floor) Q=0.880174725988822, Count=50
+apply(waste paper, cracked floor) Q=0.8994566718331994, Count=50
+apply(crowbar, cracked floor) Q=2.1737297517011442, Count=58
+apply(scissors, cracked floor) Q=0.8956115958552773, Count=50
+craft(waste paper, crowbar) Q=0.7574804878637464, Count=49
+craft(waste paper, scissors) Q=0.8697156404608006, Count=50
+craft(crowbar, scissors) Q=0.8671911400576131, Count=50
+move(Back to the entrance) Q=0.4643031067302141, Count=47
+move(Go the the administration office) Q=0.15550812545397327, Count=46
+Action: apply(crowbar, cracked floor)
+Reward: Action executed successfully. You have successfully applied crowbar to cracked floor. You find a silver key in the cracked floor, along with a piece of note
+Accumulated_reward: 42
+
+Step: 59
+click(code note) Q=1.666246185397012, Count=53
+click(silver key) Q=2.177894917425611, Count=56
+apply(waste paper, code note) Q=1.0253797581371162, Count=49
+apply(waste paper, silver key) Q=1.3224660007584337, Count=51
+apply(scissors, code note) Q=1.0722288215833067, Count=49
+apply(scissors, silver key) Q=1.1127157945739397, Count=50
+craft(waste paper, scissors) Q=0.8771664270964064, Count=48
+move(Back to the entrance) Q=0.8193129179829718, Count=48
+move(Go the the administration office) Q=0.4207836757994114, Count=46
+Action: click(silver key)
+Reward: Action executed successfully. You have just collected a silver key. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 43
+
+Step: 60
+click(code note) Q=2.260662529319622, Count=56
+apply(waste paper, code note) Q=1.0724249294507298, Count=49
+apply(scissors, code note) Q=1.1036446766595633, Count=49
+apply(silver key, code note) Q=1.1814208953556065, Count=49
+craft(waste paper, scissors) Q=1.380965390225572, Count=50
+craft(waste paper, silver key) Q=1.2834971845477938, Count=50
+craft(scissors, silver key) Q=1.1981555596989697, Count=50
+move(Back to the entrance) Q=1.6161419009691784, Count=52
+move(Go the the administration office) Q=0.44589284500295107, Count=45
+Action: click(code note)
+Reward: Action executed successfully. You have just collected a code note. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 44
+
+Step: 61
+Action: input(3816, bookshelf safe)
+Reward: Action executed successfully. You have given an input 3816 to bookshelf safe. The bookshelf safe is unlocked, there is a fragment in it
+Accumulated_reward: 45
+
+Step: 62
+click(cart safe) Q=0.36284331828612637, Count=50
+click(fragment) Q=1.4962823985537974, Count=56
+apply(waste paper, cart safe) Q=0.43185340174442, Count=50
+apply(waste paper, fragment) Q=0.4284986915837933, Count=50
+apply(scissors, cart safe) Q=0.2959759945335484, Count=49
+apply(scissors, fragment) Q=0.3912407623324904, Count=50
+apply(silver key, cart safe) Q=0.32838395614795574, Count=50
+apply(silver key, fragment) Q=0.3286618307725129, Count=50
+apply(code note, cart safe) Q=0.27476522417786664, Count=49
+apply(code note, fragment) Q=0.29833126671784616, Count=49
+craft(waste paper, scissors) Q=0.36526304975942064, Count=50
+craft(waste paper, silver key) Q=0.3367114307709436, Count=50
+craft(waste paper, code note) Q=0.38235905373810936, Count=50
+craft(scissors, silver key) Q=0.41296715605493295, Count=50
+craft(scissors, code note) Q=0.4585368288759316, Count=50
+craft(silver key, code note) Q=0.4302955423333884, Count=50
+move(Back to the inner office) Q=0.14574639893401614, Count=49
+move(Go to the store room) Q=0.10895886238468619, Count=48
+Action: click(fragment)
+Reward: Action executed successfully. You have just collected a fragment. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 46
+
+Step: 63
+click(cart safe) Q=0.4177214432819802, Count=50
+apply(waste paper, cart safe) Q=0.35385155827180814, Count=50
+apply(scissors, cart safe) Q=0.25496811815135767, Count=49
+apply(silver key, cart safe) Q=0.3684224766180333, Count=50
+apply(code note, cart safe) Q=0.37365802550170124, Count=50
+apply(fragment, cart safe) Q=1.644009178463167, Count=57
+craft(waste paper, scissors) Q=0.2452235779340276, Count=49
+craft(waste paper, silver key) Q=0.42475633161417103, Count=50
+craft(waste paper, code note) Q=0.44697000252740265, Count=50
+craft(waste paper, fragment) Q=0.3355724114937626, Count=50
+craft(scissors, silver key) Q=0.46527326274075614, Count=50
+craft(scissors, code note) Q=0.34048585022668687, Count=50
+craft(scissors, fragment) Q=0.3415035300541879, Count=49
+craft(silver key, code note) Q=0.4558388937062437, Count=50
+craft(silver key, fragment) Q=0.476049680895744, Count=50
+craft(code note, fragment) Q=0.5091772593992201, Count=50
+move(Back to the inner office) Q=0.05163078851006218, Count=48
+move(Go to the store room) Q=0.07343267468013298, Count=48
+Action: apply(fragment, cart safe)
+Reward: Action executed successfully. You have successfully applied fragment to cart safe. The cart safe is unlocked, there is a screwdriver and an abrasive paper inside
+Accumulated_reward: 47
+
+Step: 64
+click(screwdriver) Q=1.3709327345574962, Count=54
+click(abrasive paper) Q=1.3241550268111544, Count=54
+apply(waste paper, screwdriver) Q=0.5696040991249931, Count=50
+apply(waste paper, abrasive paper) Q=0.5613276345713702, Count=50
+apply(scissors, screwdriver) Q=0.5410376567205832, Count=49
+apply(scissors, abrasive paper) Q=0.6635542367464976, Count=50
+apply(silver key, screwdriver) Q=0.5244515858125242, Count=49
+apply(silver key, abrasive paper) Q=0.529371938787009, Count=49
+apply(code note, screwdriver) Q=0.5622716765655897, Count=49
+apply(code note, abrasive paper) Q=0.6030448942532982, Count=50
+craft(waste paper, scissors) Q=0.6039569504574892, Count=50
+craft(waste paper, silver key) Q=0.6234870319766099, Count=50
+craft(waste paper, code note) Q=0.64070718124026, Count=50
+craft(scissors, silver key) Q=0.5821336518815593, Count=50
+craft(scissors, code note) Q=0.7506709913545513, Count=51
+craft(silver key, code note) Q=0.5919029155586616, Count=50
+move(Back to the inner office) Q=0.16515014161355626, Count=47
+move(Go to the store room) Q=0.23916041760072218, Count=48
+Action: click(screwdriver)
+Reward: Action executed successfully. You have just collected a screwdriver. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 48
+
+Step: 65
+click(abrasive paper) Q=1.10445136912278, Count=54
+apply(waste paper, abrasive paper) Q=0.3456336434408642, Count=50
+apply(scissors, abrasive paper) Q=0.2757576156061973, Count=50
+apply(silver key, abrasive paper) Q=0.3769836809319509, Count=50
+apply(code note, abrasive paper) Q=0.3490505283031411, Count=50
+apply(screwdriver, abrasive paper) Q=0.4188186677464667, Count=50
+craft(waste paper, scissors) Q=0.39498407410730024, Count=50
+craft(waste paper, silver key) Q=0.2936930633598544, Count=50
+craft(waste paper, code note) Q=0.34691986738907465, Count=50
+craft(waste paper, screwdriver) Q=0.29547359969412523, Count=50
+craft(scissors, silver key) Q=0.280390936740914, Count=49
+craft(scissors, code note) Q=0.3951652853711822, Count=50
+craft(scissors, screwdriver) Q=0.3270908346614698, Count=50
+craft(silver key, code note) Q=0.35182313276601573, Count=50
+craft(silver key, screwdriver) Q=0.2775306303218442, Count=49
+craft(code note, screwdriver) Q=0.32145287486492624, Count=50
+move(Back to the inner office) Q=0.26277934771243006, Count=49
+move(Go to the store room) Q=0.09759838703851573, Count=49
+Action: click(abrasive paper)
+Reward: Action executed successfully. You have just collected a abrasive paper. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 49
+
+Step: 66
+craft(waste paper, scissors) Q=0.0, Count=50
+craft(waste paper, silver key) Q=0.06227278991492844, Count=50
+craft(waste paper, code note) Q=0.06198699229948819, Count=50
+craft(waste paper, screwdriver) Q=0.022903395403740923, Count=50
+craft(waste paper, abrasive paper) Q=0.036265181143528356, Count=50
+craft(scissors, silver key) Q=0.08130441546048708, Count=50
+craft(scissors, code note) Q=0.0730296745437839, Count=50
+craft(scissors, screwdriver) Q=0.04406071834538984, Count=50
+craft(scissors, abrasive paper) Q=0.056724859901122665, Count=50
+craft(silver key, code note) Q=0.08252480559524783, Count=50
+craft(silver key, screwdriver) Q=0.025156365745022405, Count=50
+craft(silver key, abrasive paper) Q=0.03029729998477422, Count=50
+craft(code note, screwdriver) Q=0.07948137101589733, Count=50
+craft(code note, abrasive paper) Q=0.07197466682277337, Count=50
+craft(screwdriver, abrasive paper) Q=0.0566811930663274, Count=50
+move(Back to the inner office) Q=0.19940205261946048, Count=51
+move(Go to the store room) Q=0.0, Count=49
+Action: move(Back to the inner office)
+Reward: Action executed successfully. Change to another scene: inner office.
+Accumulated_reward: 49
+
+Step: 67
+click(large mouse pad) Q=0.34689241746320104, Count=50
+click(groove) Q=0.14006352131090194, Count=49
+click(photo frame) Q=0.16851026707400651, Count=50
+apply(waste paper, large mouse pad) Q=0.286302315906379, Count=50
+apply(waste paper, groove) Q=0.3404127256541612, Count=50
+apply(waste paper, photo frame) Q=0.18068617438676002, Count=50
+apply(scissors, large mouse pad) Q=0.3318750941216557, Count=50
+apply(scissors, groove) Q=0.2384781306612272, Count=50
+apply(scissors, photo frame) Q=0.2818803418441783, Count=50
+apply(silver key, large mouse pad) Q=0.169762142212307, Count=49
+apply(silver key, groove) Q=0.25502448261767907, Count=50
+apply(silver key, photo frame) Q=0.20358036571333943, Count=50
+apply(code note, large mouse pad) Q=0.34364260399987884, Count=50
+apply(code note, groove) Q=0.10713496443233472, Count=49
+apply(code note, photo frame) Q=0.41030173590690505, Count=51
+apply(screwdriver, large mouse pad) Q=0.23214450967921413, Count=50
+apply(screwdriver, groove) Q=0.26002166205545796, Count=50
+apply(screwdriver, photo frame) Q=1.2731328025259803, Count=55
+apply(abrasive paper, large mouse pad) Q=0.19923325890337598, Count=50
+apply(abrasive paper, groove) Q=0.26070341131188274, Count=50
+apply(abrasive paper, photo frame) Q=0.19026803016197852, Count=50
+craft(waste paper, scissors) Q=0.2611244154690191, Count=50
+craft(waste paper, silver key) Q=0.3348895435632284, Count=50
+craft(waste paper, code note) Q=0.3064416641432247, Count=50
+craft(waste paper, screwdriver) Q=0.18970084845041754, Count=50
+craft(waste paper, abrasive paper) Q=0.1895894588028206, Count=50
+craft(scissors, silver key) Q=0.31902236781756094, Count=50
+craft(scissors, code note) Q=0.24580609155786484, Count=50
+craft(scissors, screwdriver) Q=0.3375339390324531, Count=50
+craft(scissors, abrasive paper) Q=0.21859706363817208, Count=50
+craft(silver key, code note) Q=0.20134976739241062, Count=50
+craft(silver key, screwdriver) Q=0.20207323866766702, Count=50
+craft(silver key, abrasive paper) Q=0.3278418235508993, Count=50
+craft(code note, screwdriver) Q=0.18928581612994452, Count=50
+craft(code note, abrasive paper) Q=0.21444144857002428, Count=50
+craft(screwdriver, abrasive paper) Q=0.2276129058828474, Count=50
+move(Back to the administration office) Q=0.022042529610588384, Count=49
+move(Turn left) Q=0.12190418070487512, Count=49
+move(Turn right) Q=0.03623908813184849, Count=49
+Action: apply(screwdriver, photo frame)
+Reward: Action executed successfully. You have successfully applied screwdriver to photo frame. You can now get the photo out of the frame
+Accumulated_reward: 50
+
+Step: 68
+click(large mouse pad) Q=0.4981443624622689, Count=50
+click(groove) Q=0.42524033576146564, Count=50
+click(old photo in frame) Q=2.182044323866824, Count=60
+apply(waste paper, large mouse pad) Q=0.369810810967805, Count=50
+apply(waste paper, groove) Q=0.36394531171930655, Count=50
+apply(waste paper, old photo in frame) Q=0.3223338647830558, Count=49
+apply(scissors, large mouse pad) Q=0.35211813679890114, Count=50
+apply(scissors, groove) Q=0.39120397047025796, Count=50
+apply(scissors, old photo in frame) Q=0.3489578538985958, Count=50
+apply(silver key, large mouse pad) Q=0.354452411003073, Count=50
+apply(silver key, groove) Q=0.5323716033938751, Count=50
+apply(silver key, old photo in frame) Q=0.472463623192365, Count=50
+apply(code note, large mouse pad) Q=0.4821238326169598, Count=50
+apply(code note, groove) Q=0.39344213495445907, Count=50
+apply(code note, old photo in frame) Q=0.3298137841817561, Count=49
+apply(abrasive paper, large mouse pad) Q=0.4434790243985976, Count=50
+apply(abrasive paper, groove) Q=0.47623214954118726, Count=50
+apply(abrasive paper, old photo in frame) Q=0.351006544786433, Count=49
+craft(waste paper, scissors) Q=0.3715526993515207, Count=50
+craft(waste paper, silver key) Q=0.4173431809585707, Count=50
+craft(waste paper, code note) Q=0.5470697708223852, Count=50
+craft(waste paper, abrasive paper) Q=0.5037805834901955, Count=50
+craft(scissors, silver key) Q=0.3129269295370972, Count=49
+craft(scissors, code note) Q=0.31265195032948867, Count=49
+craft(scissors, abrasive paper) Q=0.37253319237208693, Count=50
+craft(silver key, code note) Q=0.4790071031230238, Count=50
+craft(silver key, abrasive paper) Q=0.44055451428596343, Count=50
+craft(code note, abrasive paper) Q=0.5502104040373847, Count=50
+move(Back to the administration office) Q=0.16555763059361564, Count=49
+move(Turn left) Q=0.14263136253855443, Count=48
+move(Turn right) Q=0.0576947980335865, Count=48
+Action: click(old photo in frame)
+Reward: Action executed successfully. You have just collected a old photo in frame. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 51
+
+Step: 69
+Action: input(1986, bookshelf safe 2)
+Reward: Action executed successfully. You have given an input 1986 to bookshelf safe 2. The bookshelf safe is unlocked, there is a photographic film 4 inside
+Accumulated_reward: 52
+
+Step: 70
+click(photographic film 4) Q=0.9999999999999997, Count=54
+apply(waste paper, photographic film 4) Q=0.29493394215384183, Count=50
+apply(scissors, photographic film 4) Q=0.2598123481802243, Count=50
+apply(silver key, photographic film 4) Q=0.2596124190729751, Count=50
+apply(code note, photographic film 4) Q=0.2691883550217576, Count=50
+apply(abrasive paper, photographic film 4) Q=0.3082577788269467, Count=50
+apply(old photo in frame, photographic film 4) Q=0.33355320662807536, Count=50
+craft(waste paper, scissors) Q=0.20558587079813972, Count=49
+craft(waste paper, silver key) Q=0.3022989399963657, Count=50
+craft(waste paper, code note) Q=0.28902482595613216, Count=50
+craft(waste paper, abrasive paper) Q=0.30903045838453763, Count=50
+craft(waste paper, old photo in frame) Q=0.3385161519048606, Count=50
+craft(scissors, silver key) Q=0.3709722582956182, Count=50
+craft(scissors, code note) Q=0.3374021919305343, Count=50
+craft(scissors, abrasive paper) Q=0.32923255373939747, Count=50
+craft(scissors, old photo in frame) Q=0.39085029918452197, Count=50
+craft(silver key, code note) Q=0.30367526853768384, Count=50
+craft(silver key, abrasive paper) Q=0.3329121764180286, Count=50
+craft(silver key, old photo in frame) Q=0.3221212608392011, Count=50
+craft(code note, abrasive paper) Q=0.23843402039018674, Count=49
+craft(code note, old photo in frame) Q=0.3288538031558148, Count=50
+craft(abrasive paper, old photo in frame) Q=0.2545634230017056, Count=50
+move(Back to the inner office) Q=0.044943404234114304, Count=48
+Action: click(photographic film 4)
+Reward: Action executed successfully. You have just collected a photographic film 4. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 53
+
+Step: 71
+craft(waste paper, scissors) Q=0.0, Count=50
+craft(waste paper, silver key) Q=0.0, Count=50
+craft(waste paper, code note) Q=0.0, Count=50
+craft(waste paper, abrasive paper) Q=0.0, Count=50
+craft(waste paper, old photo in frame) Q=0.0, Count=50
+craft(waste paper, photographic film 4) Q=0.0, Count=50
+craft(scissors, silver key) Q=0.0, Count=50
+craft(scissors, code note) Q=0.0, Count=50
+craft(scissors, abrasive paper) Q=0.0, Count=50
+craft(scissors, old photo in frame) Q=0.0, Count=50
+craft(scissors, photographic film 4) Q=0.0, Count=50
+craft(silver key, code note) Q=0.0, Count=50
+craft(silver key, abrasive paper) Q=0.0, Count=50
+craft(silver key, old photo in frame) Q=0.0, Count=50
+craft(silver key, photographic film 4) Q=0.0, Count=50
+craft(code note, abrasive paper) Q=0.0, Count=50
+craft(code note, old photo in frame) Q=0.0, Count=50
+craft(code note, photographic film 4) Q=0.0, Count=50
+craft(abrasive paper, old photo in frame) Q=0.0, Count=50
+craft(abrasive paper, photographic film 4) Q=0.0, Count=50
+craft(old photo in frame, photographic film 4) Q=0.0, Count=50
+move(Back to the inner office) Q=0.011394592646027296, Count=50
+Action: move(Back to the inner office)
+Reward: Action executed successfully. Change to another scene: inner office.
+Accumulated_reward: 53
+
+Step: 72
+click(large mouse pad) Q=0.0, Count=50
+click(groove) Q=0.0, Count=50
+apply(waste paper, large mouse pad) Q=0.010796270133114115, Count=50
+apply(waste paper, groove) Q=0.024166353097969058, Count=50
+apply(scissors, large mouse pad) Q=0.012027746069952204, Count=50
+apply(scissors, groove) Q=0.0, Count=50
+apply(silver key, large mouse pad) Q=0.0, Count=50
+apply(silver key, groove) Q=0.0, Count=50
+apply(code note, large mouse pad) Q=0.0, Count=50
+apply(code note, groove) Q=0.010796270133114115, Count=50
+apply(abrasive paper, large mouse pad) Q=0.0, Count=50
+apply(abrasive paper, groove) Q=0.0, Count=50
+apply(old photo in frame, large mouse pad) Q=0.025522409061886762, Count=50
+apply(old photo in frame, groove) Q=0.0, Count=50
+apply(photographic film 4, large mouse pad) Q=0.0, Count=50
+apply(photographic film 4, groove) Q=0.0, Count=50
+craft(waste paper, scissors) Q=0.0, Count=50
+craft(waste paper, silver key) Q=0.042886087368545225, Count=50
+craft(waste paper, code note) Q=0.0, Count=50
+craft(waste paper, abrasive paper) Q=0.0, Count=50
+craft(waste paper, old photo in frame) Q=0.0, Count=50
+craft(waste paper, photographic film 4) Q=0.0, Count=50
+craft(scissors, silver key) Q=0.012027746069952204, Count=50
+craft(scissors, code note) Q=0.0, Count=50
+craft(scissors, abrasive paper) Q=0.0, Count=50
+craft(scissors, old photo in frame) Q=0.0, Count=50
+craft(scissors, photographic film 4) Q=0.0, Count=50
+craft(silver key, code note) Q=0.0, Count=50
+craft(silver key, abrasive paper) Q=0.0, Count=50
+craft(silver key, old photo in frame) Q=0.0, Count=50
+craft(silver key, photographic film 4) Q=0.0, Count=50
+craft(code note, abrasive paper) Q=0.0, Count=50
+craft(code note, old photo in frame) Q=0.0, Count=50
+craft(code note, photographic film 4) Q=0.010796270133114115, Count=50
+craft(abrasive paper, old photo in frame) Q=0.0, Count=50
+craft(abrasive paper, photographic film 4) Q=0.011394592646027296, Count=50
+craft(old photo in frame, photographic film 4) Q=0.0, Count=50
+move(Back to the administration office) Q=0.012027746069952204, Count=50
+move(Turn left) Q=0.10215378409349415, Count=50
+move(Turn right) Q=0.012027746069952204, Count=50
+Action: move(Turn left)
+Reward: Action executed successfully. Change to another scene: left side of inner office.
+Accumulated_reward: 53
+
+Step: 73
+craft(waste paper, scissors) Q=0.06698016796292822, Count=50
+craft(waste paper, silver key) Q=0.05441247519556559, Count=50
+craft(waste paper, code note) Q=0.01269793949283138, Count=50
+craft(waste paper, abrasive paper) Q=0.021005461793215927, Count=50
+craft(waste paper, old photo in frame) Q=0.07825260391508061, Count=50
+craft(waste paper, photographic film 4) Q=0.0504366765567194, Count=50
+craft(scissors, silver key) Q=0.026072498104348328, Count=50
+craft(scissors, code note) Q=0.026822230957032546, Count=50
+craft(scissors, abrasive paper) Q=0.08716577102414873, Count=50
+craft(scissors, old photo in frame) Q=0.10068449698985824, Count=50
+craft(scissors, photographic film 4) Q=0.06973990575364353, Count=50
+craft(silver key, code note) Q=0.032420948119025655, Count=50
+craft(silver key, abrasive paper) Q=0.04417087071827816, Count=50
+craft(silver key, old photo in frame) Q=0.1053600299567449, Count=50
+craft(silver key, photographic film 4) Q=0.06969842516079919, Count=50
+craft(code note, abrasive paper) Q=0.04954279017266306, Count=50
+craft(code note, old photo in frame) Q=0.03963723710206248, Count=50
+craft(code note, photographic film 4) Q=0.12851902856100403, Count=50
+craft(abrasive paper, old photo in frame) Q=0.047402154931045805, Count=50
+craft(abrasive paper, photographic film 4) Q=0.011626872153815313, Count=49
+craft(old photo in frame, photographic film 4) Q=0.026153848840350484, Count=50
+move(Back to the inner office) Q=0.0, Count=49
+move(Go to the store room) Q=0.4084192155697168, Count=52
+Action: move(Go to the store room)
+Reward: Action executed successfully. Change to another scene: store room.
+Accumulated_reward: 53
+
+Step: 74
+click(white board) Q=0.13810988385825804, Count=49
+click(left bookshelf safe) Q=0.3597913779703464, Count=50
+apply(waste paper, white board) Q=0.26945186452808306, Count=50
+apply(waste paper, left bookshelf safe) Q=0.32212431928387525, Count=50
+apply(scissors, white board) Q=0.3283736719744772, Count=50
+apply(scissors, left bookshelf safe) Q=0.22008869851420926, Count=49
+apply(silver key, white board) Q=0.2350450294996167, Count=50
+apply(silver key, left bookshelf safe) Q=0.3981617702157717, Count=50
+apply(code note, white board) Q=0.28967053390269537, Count=50
+apply(code note, left bookshelf safe) Q=0.34318767615553597, Count=50
+apply(abrasive paper, white board) Q=0.26703026743319347, Count=50
+apply(abrasive paper, left bookshelf safe) Q=0.3282792178464471, Count=50
+apply(old photo in frame, white board) Q=0.3983837126219868, Count=50
+apply(old photo in frame, left bookshelf safe) Q=0.31839541626337736, Count=50
+apply(photographic film 4, white board) Q=1.5038770102565109, Count=57
+apply(photographic film 4, left bookshelf safe) Q=0.2196363301728757, Count=49
+craft(waste paper, scissors) Q=0.25637414713598133, Count=50
+craft(waste paper, silver key) Q=0.43676420267162397, Count=51
+craft(waste paper, code note) Q=0.2994495325170812, Count=50
+craft(waste paper, abrasive paper) Q=0.29405928552056904, Count=50
+craft(waste paper, old photo in frame) Q=0.26045945167594653, Count=50
+craft(waste paper, photographic film 4) Q=0.19721691227477892, Count=49
+craft(scissors, silver key) Q=0.3852395989347792, Count=50
+craft(scissors, code note) Q=0.2600277763011036, Count=50
+craft(scissors, abrasive paper) Q=0.21036066337099898, Count=49
+craft(scissors, old photo in frame) Q=0.29721834830512694, Count=50
+craft(scissors, photographic film 4) Q=0.35973970039907793, Count=50
+craft(silver key, code note) Q=0.3476094421682278, Count=50
+craft(silver key, abrasive paper) Q=0.2295720928385106, Count=50
+craft(silver key, old photo in frame) Q=0.17348348119427484, Count=49
+craft(silver key, photographic film 4) Q=0.3221843582220296, Count=50
+craft(code note, abrasive paper) Q=0.36405115439420555, Count=50
+craft(code note, old photo in frame) Q=0.22995221313486608, Count=49
+craft(code note, photographic film 4) Q=0.24395885064107814, Count=50
+craft(abrasive paper, old photo in frame) Q=0.5102446694985776, Count=51
+craft(abrasive paper, photographic film 4) Q=0.15968150501097264, Count=49
+craft(old photo in frame, photographic film 4) Q=0.27228275458734374, Count=50
+move(Back to the left side of inner office) Q=0.06224269346383925, Count=49
+Action: apply(photographic film 4, white board)
+Reward: Action executed successfully. You have successfully applied photographic film 4 to white board. You find a cartridge and a control panel behind the white board
+Accumulated_reward: 54
+
+Step: 75
+click(left bookshelf safe) Q=0.34612936132189254, Count=49
+click(cartridge) Q=1.3266654750767226, Count=54
+click(control panel) Q=1.4577301213401108, Count=55
+apply(waste paper, left bookshelf safe) Q=0.47765234433251946, Count=50
+apply(waste paper, cartridge) Q=0.5393303928256276, Count=50
+apply(waste paper, control panel) Q=0.6677544795376384, Count=51
+apply(scissors, left bookshelf safe) Q=0.6517353269455631, Count=51
+apply(scissors, cartridge) Q=0.44889254041789833, Count=50
+apply(scissors, control panel) Q=0.5477569939028495, Count=50
+apply(silver key, left bookshelf safe) Q=0.5627465263378886, Count=50
+apply(silver key, cartridge) Q=0.5055170433569813, Count=50
+apply(silver key, control panel) Q=0.5239948921251224, Count=50
+apply(code note, left bookshelf safe) Q=0.4336709239570562, Count=49
+apply(code note, cartridge) Q=0.5183638374417876, Count=50
+apply(code note, control panel) Q=0.5988073713249726, Count=50
+apply(abrasive paper, left bookshelf safe) Q=0.5156383153042258, Count=50
+apply(abrasive paper, cartridge) Q=0.44269429326983933, Count=49
+apply(abrasive paper, control panel) Q=0.5201992957399122, Count=50
+apply(old photo in frame, left bookshelf safe) Q=0.5113896529396741, Count=50
+apply(old photo in frame, cartridge) Q=0.515030710439754, Count=50
+apply(old photo in frame, control panel) Q=0.563651179129624, Count=50
+craft(waste paper, scissors) Q=0.4509435653478116, Count=49
+craft(waste paper, silver key) Q=0.41849591249297013, Count=49
+craft(waste paper, code note) Q=0.4840449667397093, Count=50
+craft(waste paper, abrasive paper) Q=0.39401424598006574, Count=49
+craft(waste paper, old photo in frame) Q=0.4848006802567895, Count=50
+craft(scissors, silver key) Q=0.3120658692886714, Count=49
+craft(scissors, code note) Q=0.6182037191093556, Count=50
+craft(scissors, abrasive paper) Q=0.46134850549292084, Count=50
+craft(scissors, old photo in frame) Q=0.5648482996472434, Count=50
+craft(silver key, code note) Q=0.5278948391293244, Count=50
+craft(silver key, abrasive paper) Q=0.5390738783291678, Count=50
+craft(silver key, old photo in frame) Q=0.38507726041669277, Count=49
+craft(code note, abrasive paper) Q=0.48945848948447346, Count=50
+craft(code note, old photo in frame) Q=0.45112674436744904, Count=49
+craft(abrasive paper, old photo in frame) Q=0.5124678600757638, Count=50
+move(Back to the left side of inner office) Q=0.14064651407770812, Count=48
+Action: click(control panel)
+Reward: Action executed successfully. You have just collected a control panel. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 55
+
+Step: 76
+click(left bookshelf safe) Q=0.4995668812553495, Count=50
+click(cartridge) Q=1.18173679263355, Count=54
+apply(waste paper, left bookshelf safe) Q=0.41948428663581955, Count=50
+apply(waste paper, cartridge) Q=0.42137651200829385, Count=50
+apply(scissors, left bookshelf safe) Q=0.46435125189964493, Count=50
+apply(scissors, cartridge) Q=0.4697945760954052, Count=50
+apply(silver key, left bookshelf safe) Q=0.487852438981312, Count=50
+apply(silver key, cartridge) Q=0.45710382719039166, Count=50
+apply(code note, left bookshelf safe) Q=0.4510656898469637, Count=50
+apply(code note, cartridge) Q=0.45312622048417933, Count=50
+apply(abrasive paper, left bookshelf safe) Q=0.5162144447948896, Count=50
+apply(abrasive paper, cartridge) Q=0.3740552963437118, Count=49
+apply(old photo in frame, left bookshelf safe) Q=0.4541972450003825, Count=50
+apply(old photo in frame, cartridge) Q=0.511568980354301, Count=50
+apply(control panel, left bookshelf safe) Q=1.2574819694394457, Count=54
+apply(control panel, cartridge) Q=0.4717128836775099, Count=50
+craft(waste paper, scissors) Q=0.39583327566224036, Count=50
+craft(waste paper, silver key) Q=0.4192566247307078, Count=50
+craft(waste paper, code note) Q=0.3905837524696263, Count=49
+craft(waste paper, abrasive paper) Q=0.3670519090306872, Count=49
+craft(waste paper, old photo in frame) Q=0.44449398585984257, Count=50
+craft(waste paper, control panel) Q=0.4610063810417676, Count=50
+craft(scissors, silver key) Q=0.3601645131612273, Count=49
+craft(scissors, code note) Q=0.4806340177704871, Count=50
+craft(scissors, abrasive paper) Q=0.38648080355557657, Count=49
+craft(scissors, old photo in frame) Q=0.4510369271761474, Count=50
+craft(scissors, control panel) Q=0.47082891476938027, Count=50
+craft(silver key, code note) Q=0.39545004759696434, Count=49
+craft(silver key, abrasive paper) Q=0.40679135577880166, Count=50
+craft(silver key, old photo in frame) Q=0.39602030720959663, Count=49
+craft(silver key, control panel) Q=0.4632475256377981, Count=50
+craft(code note, abrasive paper) Q=0.5777819570546165, Count=50
+craft(code note, old photo in frame) Q=0.46065216497893313, Count=50
+craft(code note, control panel) Q=0.599163612986157, Count=51
+craft(abrasive paper, old photo in frame) Q=0.547549547616423, Count=50
+craft(abrasive paper, control panel) Q=0.40646314585396187, Count=50
+craft(old photo in frame, control panel) Q=0.5059598484519174, Count=50
+move(Back to the left side of inner office) Q=0.10889303414145386, Count=48
+Action: apply(control panel, left bookshelf safe)
+Reward: Action executed successfully. You have successfully applied control panel to left bookshelf safe. The left bookshelf safe is now with a control screen
+Accumulated_reward: 56
+
+Step: 77
+click(left bookshelf safe) Q=0.2046245987518181, Count=50
+click(cartridge) Q=0.9999999999999997, Count=54
+apply(waste paper, left bookshelf safe) Q=0.2504860819534281, Count=50
+apply(waste paper, cartridge) Q=0.2393122148008148, Count=50
+apply(scissors, left bookshelf safe) Q=0.3947481753472888, Count=51
+apply(scissors, cartridge) Q=0.27249626852814435, Count=50
+apply(silver key, left bookshelf safe) Q=0.24870643734511605, Count=50
+apply(silver key, cartridge) Q=0.2304285914631372, Count=50
+apply(code note, left bookshelf safe) Q=0.25105279247246426, Count=50
+apply(code note, cartridge) Q=0.3155143557819699, Count=50
+apply(abrasive paper, left bookshelf safe) Q=0.24126908475515266, Count=50
+apply(abrasive paper, cartridge) Q=0.23937168968907915, Count=50
+apply(old photo in frame, left bookshelf safe) Q=0.23632440891489218, Count=50
+apply(old photo in frame, cartridge) Q=0.28013597703661364, Count=50
+craft(waste paper, scissors) Q=0.28878760448277435, Count=50
+craft(waste paper, silver key) Q=0.38079721968004837, Count=50
+craft(waste paper, code note) Q=0.23970801067272238, Count=50
+craft(waste paper, abrasive paper) Q=0.2557273975207178, Count=50
+craft(waste paper, old photo in frame) Q=0.19568750142877095, Count=49
+craft(scissors, silver key) Q=0.2505960676987468, Count=50
+craft(scissors, code note) Q=0.33235611606226484, Count=50
+craft(scissors, abrasive paper) Q=0.19957421906547887, Count=49
+craft(scissors, old photo in frame) Q=0.27638796916041525, Count=50
+craft(silver key, code note) Q=0.22603131184200198, Count=50
+craft(silver key, abrasive paper) Q=0.2601120066754203, Count=50
+craft(silver key, old photo in frame) Q=0.2205340557641765, Count=50
+craft(code note, abrasive paper) Q=0.28088668346910217, Count=50
+craft(code note, old photo in frame) Q=0.18712978163210237, Count=49
+craft(abrasive paper, old photo in frame) Q=0.17171458051441685, Count=49
+move(Back to the left side of inner office) Q=0.0726751264084789, Count=49
+Action: click(cartridge)
+Reward: Action executed successfully. You have just collected a cartridge. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 57
+
+Step: 78
+click(left bookshelf safe) Q=0.0, Count=50
+apply(waste paper, left bookshelf safe) Q=0.0, Count=50
+apply(scissors, left bookshelf safe) Q=0.0, Count=50
+apply(silver key, left bookshelf safe) Q=0.0, Count=50
+apply(code note, left bookshelf safe) Q=0.01269793949283138, Count=50
+apply(abrasive paper, left bookshelf safe) Q=0.0, Count=50
+apply(old photo in frame, left bookshelf safe) Q=0.0, Count=50
+apply(cartridge, left bookshelf safe) Q=0.0, Count=50
+craft(waste paper, scissors) Q=0.0, Count=50
+craft(waste paper, silver key) Q=0.0, Count=50
+craft(waste paper, code note) Q=0.0, Count=50
+craft(waste paper, abrasive paper) Q=0.0, Count=50
+craft(waste paper, old photo in frame) Q=0.0, Count=50
+craft(waste paper, cartridge) Q=0.0, Count=50
+craft(scissors, silver key) Q=0.0, Count=50
+craft(scissors, code note) Q=0.0, Count=50
+craft(scissors, abrasive paper) Q=0.0, Count=50
+craft(scissors, old photo in frame) Q=0.0, Count=50
+craft(scissors, cartridge) Q=0.0, Count=50
+craft(silver key, code note) Q=0.0, Count=50
+craft(silver key, abrasive paper) Q=0.0, Count=50
+craft(silver key, old photo in frame) Q=0.0, Count=50
+craft(silver key, cartridge) Q=0.0, Count=50
+craft(code note, abrasive paper) Q=0.0, Count=50
+craft(code note, old photo in frame) Q=0.0, Count=50
+craft(code note, cartridge) Q=0.0, Count=50
+craft(abrasive paper, old photo in frame) Q=0.0, Count=50
+craft(abrasive paper, cartridge) Q=0.0, Count=50
+craft(old photo in frame, cartridge) Q=0.0, Count=50
+move(Back to the left side of inner office) Q=0.0, Count=50
+Action: apply(code note, left bookshelf safe)
+Reward: Nothing happens after you apply the tool. You may try to unlock this safe through hint on the screen
+Accumulated_reward: 57
+
+Step: 79
+click(left bookshelf safe) Q=0.0, Count=50
+apply(waste paper, left bookshelf safe) Q=0.0, Count=50
+apply(scissors, left bookshelf safe) Q=0.0, Count=50
+apply(silver key, left bookshelf safe) Q=0.0, Count=50
+apply(code note, left bookshelf safe) Q=0.0, Count=50
+apply(abrasive paper, left bookshelf safe) Q=0.0, Count=50
+apply(old photo in frame, left bookshelf safe) Q=0.0, Count=50
+apply(cartridge, left bookshelf safe) Q=0.0, Count=50
+craft(waste paper, scissors) Q=0.0, Count=50
+craft(waste paper, silver key) Q=0.0, Count=50
+craft(waste paper, code note) Q=0.0, Count=50
+craft(waste paper, abrasive paper) Q=0.0, Count=50
+craft(waste paper, old photo in frame) Q=0.0, Count=50
+craft(waste paper, cartridge) Q=0.0, Count=50
+craft(scissors, silver key) Q=0.0, Count=50
+craft(scissors, code note) Q=0.0, Count=50
+craft(scissors, abrasive paper) Q=0.0, Count=50
+craft(scissors, old photo in frame) Q=0.0, Count=50
+craft(scissors, cartridge) Q=0.0, Count=50
+craft(silver key, code note) Q=0.0, Count=50
+craft(silver key, abrasive paper) Q=0.0, Count=50
+craft(silver key, old photo in frame) Q=0.0, Count=50
+craft(silver key, cartridge) Q=0.0, Count=50
+craft(code note, abrasive paper) Q=0.0, Count=50
+craft(code note, old photo in frame) Q=0.0, Count=50
+craft(code note, cartridge) Q=0.0, Count=50
+craft(abrasive paper, old photo in frame) Q=0.0, Count=50
+craft(abrasive paper, cartridge) Q=0.0, Count=50
+craft(old photo in frame, cartridge) Q=0.0, Count=50
+move(Back to the left side of inner office) Q=0.0, Count=50
+Action: craft(waste paper, abrasive paper)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 57
+
+Step: 80
+click(left bookshelf safe) Q=0.0, Count=50
+apply(waste paper, left bookshelf safe) Q=0.01023071658804329, Count=50
+apply(scissors, left bookshelf safe) Q=0.0, Count=50
+apply(silver key, left bookshelf safe) Q=0.0, Count=50
+apply(code note, left bookshelf safe) Q=0.0, Count=50
+apply(abrasive paper, left bookshelf safe) Q=0.01023071658804329, Count=50
+apply(old photo in frame, left bookshelf safe) Q=0.0, Count=50
+apply(cartridge, left bookshelf safe) Q=0.0, Count=50
+craft(waste paper, scissors) Q=0.0, Count=50
+craft(waste paper, silver key) Q=0.0, Count=50
+craft(waste paper, code note) Q=0.010796270133114115, Count=50
+craft(waste paper, abrasive paper) Q=0.0, Count=50
+craft(waste paper, old photo in frame) Q=0.0, Count=50
+craft(waste paper, cartridge) Q=0.0, Count=50
+craft(scissors, silver key) Q=0.0, Count=50
+craft(scissors, code note) Q=0.0, Count=50
+craft(scissors, abrasive paper) Q=0.0, Count=50
+craft(scissors, old photo in frame) Q=0.0, Count=50
+craft(scissors, cartridge) Q=0.0, Count=50
+craft(silver key, code note) Q=0.0, Count=50
+craft(silver key, abrasive paper) Q=0.0, Count=50
+craft(silver key, old photo in frame) Q=0.0, Count=50
+craft(silver key, cartridge) Q=0.0, Count=50
+craft(code note, abrasive paper) Q=0.0, Count=50
+craft(code note, old photo in frame) Q=0.0, Count=50
+craft(code note, cartridge) Q=0.0, Count=50
+craft(abrasive paper, old photo in frame) Q=0.0, Count=50
+craft(abrasive paper, cartridge) Q=0.0, Count=50
+craft(old photo in frame, cartridge) Q=0.0, Count=50
+move(Back to the left side of inner office) Q=0.012027746069952204, Count=50
+Action: move(Back to the left side of inner office)
+Reward: Action executed successfully. Change to another scene: left side of inner office.
+Accumulated_reward: 57
+
+Step: 81
+craft(waste paper, scissors) Q=0.0, Count=50
+craft(waste paper, silver key) Q=0.01269793949283138, Count=50
+craft(waste paper, code note) Q=0.0, Count=50
+craft(waste paper, abrasive paper) Q=0.02279876336915221, Count=50
+craft(waste paper, old photo in frame) Q=0.0, Count=50
+craft(waste paper, cartridge) Q=0.0, Count=50
+craft(scissors, silver key) Q=0.04154922044211444, Count=50
+craft(scissors, code note) Q=0.0, Count=50
+craft(scissors, abrasive paper) Q=0.0, Count=50
+craft(scissors, old photo in frame) Q=0.0, Count=50
+craft(scissors, cartridge) Q=0.0, Count=50
+craft(silver key, code note) Q=0.0, Count=50
+craft(silver key, abrasive paper) Q=0.0, Count=50
+craft(silver key, old photo in frame) Q=0.0, Count=50
+craft(silver key, cartridge) Q=0.0, Count=50
+craft(code note, abrasive paper) Q=0.0, Count=50
+craft(code note, old photo in frame) Q=0.0, Count=50
+craft(code note, cartridge) Q=0.0, Count=50
+craft(abrasive paper, old photo in frame) Q=0.011394592646027296, Count=50
+craft(abrasive paper, cartridge) Q=0.0, Count=50
+craft(old photo in frame, cartridge) Q=0.0, Count=50
+move(Back to the inner office) Q=0.011394592646027296, Count=50
+move(Go to the store room) Q=0.0, Count=50
+Action: craft(scissors, silver key)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 57
+
+Step: 82
+craft(waste paper, scissors) Q=0.011394592646027296, Count=50
+craft(waste paper, silver key) Q=0.0, Count=50
+craft(waste paper, code note) Q=0.01023071658804329, Count=50
+craft(waste paper, abrasive paper) Q=0.0, Count=50
+craft(waste paper, old photo in frame) Q=0.011394592646027296, Count=50
+craft(waste paper, cartridge) Q=0.0, Count=50
+craft(scissors, silver key) Q=0.0, Count=50
+craft(scissors, code note) Q=0.0, Count=50
+craft(scissors, abrasive paper) Q=0.04180584036936133, Count=50
+craft(scissors, old photo in frame) Q=0.024727306321274244, Count=50
+craft(scissors, cartridge) Q=0.01023071658804329, Count=50
+craft(silver key, code note) Q=0.0, Count=50
+craft(silver key, abrasive paper) Q=0.0, Count=50
+craft(silver key, old photo in frame) Q=0.010796270133114115, Count=50
+craft(silver key, cartridge) Q=0.01023071658804329, Count=50
+craft(code note, abrasive paper) Q=0.0, Count=50
+craft(code note, old photo in frame) Q=0.0, Count=50
+craft(code note, cartridge) Q=0.0, Count=50
+craft(abrasive paper, old photo in frame) Q=0.0, Count=50
+craft(abrasive paper, cartridge) Q=0.015799168155428967, Count=50
+craft(old photo in frame, cartridge) Q=0.0, Count=50
+move(Back to the inner office) Q=0.014159093367747502, Count=50
+move(Go to the store room) Q=0.0, Count=50
+Action: craft(scissors, abrasive paper)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 57
+
+Step: 83
+craft(waste paper, scissors) Q=0.05376987914108611, Count=50
+craft(waste paper, silver key) Q=0.0, Count=50
+craft(waste paper, code note) Q=0.01023071658804329, Count=50
+craft(waste paper, abrasive paper) Q=0.0, Count=50
+craft(waste paper, old photo in frame) Q=0.0, Count=50
+craft(waste paper, cartridge) Q=0.0, Count=50
+craft(scissors, silver key) Q=0.011394592646027296, Count=50
+craft(scissors, code note) Q=0.012027746069952204, Count=50
+craft(scissors, abrasive paper) Q=0.0, Count=50
+craft(scissors, old photo in frame) Q=0.01023071658804329, Count=50
+craft(scissors, cartridge) Q=0.0, Count=50
+craft(silver key, code note) Q=0.0, Count=50
+craft(silver key, abrasive paper) Q=0.0, Count=50
+craft(silver key, old photo in frame) Q=0.0, Count=50
+craft(silver key, cartridge) Q=0.0, Count=50
+craft(code note, abrasive paper) Q=0.012027746069952204, Count=50
+craft(code note, old photo in frame) Q=0.0, Count=50
+craft(code note, cartridge) Q=0.0, Count=50
+craft(abrasive paper, old photo in frame) Q=0.012027746069952204, Count=50
+craft(abrasive paper, cartridge) Q=0.0, Count=50
+craft(old photo in frame, cartridge) Q=0.011394592646027296, Count=50
+move(Back to the inner office) Q=0.056870693964323066, Count=50
+move(Go to the store room) Q=0.0, Count=50
+Action: move(Back to the inner office)
+Reward: Action executed successfully. Change to another scene: inner office.
+Accumulated_reward: 57
+
+Step: 84
+click(large mouse pad) Q=0.0, Count=50
+click(groove) Q=0.025720299689660678, Count=50
+apply(waste paper, large mouse pad) Q=0.05312809233970066, Count=50
+apply(waste paper, groove) Q=0.048420586205382914, Count=50
+apply(scissors, large mouse pad) Q=0.024799454342921617, Count=50
+apply(scissors, groove) Q=0.024361689347408913, Count=50
+apply(silver key, large mouse pad) Q=0.028998328106581157, Count=50
+apply(silver key, groove) Q=0.03439177781727593, Count=50
+apply(code note, large mouse pad) Q=0.03029729998477422, Count=50
+apply(code note, groove) Q=0.0, Count=50
+apply(abrasive paper, large mouse pad) Q=0.08027837250232706, Count=50
+apply(abrasive paper, groove) Q=0.04233080554490411, Count=50
+apply(old photo in frame, large mouse pad) Q=0.02599856452266628, Count=50
+apply(old photo in frame, groove) Q=0.037792428072456696, Count=50
+apply(cartridge, large mouse pad) Q=0.02361160732194079, Count=50
+apply(cartridge, groove) Q=0.022234516772856972, Count=50
+craft(waste paper, scissors) Q=0.012027746069952204, Count=50
+craft(waste paper, silver key) Q=0.024361689347408913, Count=50
+craft(waste paper, code note) Q=0.0, Count=50
+craft(waste paper, abrasive paper) Q=0.01269793949283138, Count=50
+craft(waste paper, old photo in frame) Q=0.050436676556719406, Count=50
+craft(waste paper, cartridge) Q=0.031004525229642834, Count=50
+craft(scissors, silver key) Q=0.04740222802728858, Count=50
+craft(scissors, code note) Q=0.029073534229699133, Count=50
+craft(scissors, abrasive paper) Q=0.0, Count=50
+craft(scissors, old photo in frame) Q=0.03705804889723241, Count=50
+craft(scissors, cartridge) Q=0.07239449734540437, Count=50
+craft(silver key, code note) Q=0.032216283190313146, Count=50
+craft(silver key, abrasive paper) Q=0.041976715329914746, Count=50
+craft(silver key, old photo in frame) Q=0.04481072253229854, Count=50
+craft(silver key, cartridge) Q=0.08716065300700801, Count=50
+craft(code note, abrasive paper) Q=0.0, Count=50
+craft(code note, old photo in frame) Q=0.048071991185298805, Count=50
+craft(code note, cartridge) Q=0.0, Count=49
+craft(abrasive paper, old photo in frame) Q=0.0, Count=50
+craft(abrasive paper, cartridge) Q=0.01764255650353473, Count=50
+craft(old photo in frame, cartridge) Q=0.0, Count=50
+move(Back to the administration office) Q=0.20317179550485204, Count=51
+move(Turn left) Q=0.0, Count=50
+move(Turn right) Q=0.0, Count=50
+Action: move(Back to the administration office)
+Reward: Action executed successfully. Change to another scene: administration office.
+Accumulated_reward: 57
+
+Step: 85
+click(printer) Q=0.38784844979603245, Count=51
+apply(waste paper, printer) Q=0.255388691470314, Count=50
+apply(scissors, printer) Q=0.23116688696835755, Count=50
+apply(silver key, printer) Q=0.15760028302155066, Count=49
+apply(code note, printer) Q=0.20426472668769113, Count=50
+apply(abrasive paper, printer) Q=0.3216129441538735, Count=50
+apply(old photo in frame, printer) Q=0.2232923191164163, Count=50
+apply(cartridge, printer) Q=1.286115780225059, Count=56
+craft(waste paper, scissors) Q=0.27314892520144957, Count=50
+craft(waste paper, silver key) Q=0.3200013189617708, Count=50
+craft(waste paper, code note) Q=0.24013161231490937, Count=50
+craft(waste paper, abrasive paper) Q=0.20941780613577554, Count=50
+craft(waste paper, old photo in frame) Q=0.14823710495667136, Count=49
+craft(waste paper, cartridge) Q=0.14991748264737087, Count=49
+craft(scissors, silver key) Q=0.2174445811211832, Count=50
+craft(scissors, code note) Q=0.2644884036550476, Count=50
+craft(scissors, abrasive paper) Q=0.16948934786835146, Count=49
+craft(scissors, old photo in frame) Q=0.16796431770193715, Count=50
+craft(scissors, cartridge) Q=0.24541304811839548, Count=50
+craft(silver key, code note) Q=0.33013330321199513, Count=50
+craft(silver key, abrasive paper) Q=0.33883113608548393, Count=50
+craft(silver key, old photo in frame) Q=0.30904782495122896, Count=50
+craft(silver key, cartridge) Q=0.2163744143634312, Count=50
+craft(code note, abrasive paper) Q=0.18404891845089513, Count=50
+craft(code note, old photo in frame) Q=0.32550875170511195, Count=50
+craft(code note, cartridge) Q=0.23900865756389283, Count=50
+craft(abrasive paper, old photo in frame) Q=0.33751644391258795, Count=50
+craft(abrasive paper, cartridge) Q=0.28252310272917236, Count=50
+craft(old photo in frame, cartridge) Q=0.24303994631917916, Count=50
+move(Back to the reception room) Q=0.16163427018456805, Count=49
+move(Go to the corner) Q=0.0426180811469318, Count=49
+move(Go to the inner office) Q=0.017033910659699177, Count=49
+Action: apply(cartridge, printer)
+Reward: Action executed successfully. You have successfully applied cartridge to printer. The printer is working, printed out a note
+Accumulated_reward: 58
+
+Step: 86
+click(printed note) Q=0.9999999999999997, Count=54
+apply(waste paper, printed note) Q=0.19678595140505728, Count=50
+apply(scissors, printed note) Q=0.14866893987083923, Count=50
+apply(silver key, printed note) Q=0.22111916681730406, Count=50
+apply(code note, printed note) Q=0.24924299761498755, Count=50
+apply(abrasive paper, printed note) Q=0.19888099496263825, Count=50
+apply(old photo in frame, printed note) Q=0.27182345589741225, Count=50
+craft(waste paper, scissors) Q=0.1894291865713274, Count=50
+craft(waste paper, silver key) Q=0.22837012808697366, Count=50
+craft(waste paper, code note) Q=0.27834478473311697, Count=50
+craft(waste paper, abrasive paper) Q=0.23475961082940996, Count=50
+craft(waste paper, old photo in frame) Q=0.31398902022964836, Count=50
+craft(scissors, silver key) Q=0.2128874564828951, Count=50
+craft(scissors, code note) Q=0.22985239126521567, Count=50
+craft(scissors, abrasive paper) Q=0.19695780656180553, Count=50
+craft(scissors, old photo in frame) Q=0.12744927357235147, Count=50
+craft(silver key, code note) Q=0.1195163486366655, Count=49
+craft(silver key, abrasive paper) Q=0.177983731758321, Count=50
+craft(silver key, old photo in frame) Q=0.17633668760899912, Count=50
+craft(code note, abrasive paper) Q=0.2144284382562394, Count=50
+craft(code note, old photo in frame) Q=0.23231513044333127, Count=50
+craft(abrasive paper, old photo in frame) Q=0.1664852167237228, Count=50
+move(Back to the reception room) Q=0.10038608772937038, Count=49
+move(Go to the corner) Q=0.10959267357694227, Count=49
+move(Go to the inner office) Q=0.0161210990080109, Count=49
+Action: click(printed note)
+Reward: Action executed successfully. You have just collected a printed note. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 59
+
+Step: 87
+craft(waste paper, scissors) Q=0.0, Count=50
+craft(waste paper, silver key) Q=0.0, Count=50
+craft(waste paper, code note) Q=0.0, Count=50
+craft(waste paper, abrasive paper) Q=0.012027746069952204, Count=50
+craft(waste paper, old photo in frame) Q=0.0, Count=50
+craft(waste paper, printed note) Q=0.037814108326689924, Count=50
+craft(scissors, silver key) Q=0.0, Count=50
+craft(scissors, code note) Q=0.0, Count=50
+craft(scissors, abrasive paper) Q=0.014159093367747502, Count=50
+craft(scissors, old photo in frame) Q=0.011394592646027296, Count=50
+craft(scissors, printed note) Q=0.0, Count=50
+craft(silver key, code note) Q=0.0, Count=50
+craft(silver key, abrasive paper) Q=0.0, Count=50
+craft(silver key, old photo in frame) Q=0.010796270133114115, Count=50
+craft(silver key, printed note) Q=0.0, Count=50
+craft(code note, abrasive paper) Q=0.0, Count=50
+craft(code note, old photo in frame) Q=0.01023071658804329, Count=50
+craft(code note, printed note) Q=0.0, Count=50
+craft(abrasive paper, old photo in frame) Q=0.0, Count=50
+craft(abrasive paper, printed note) Q=0.0, Count=50
+craft(old photo in frame, printed note) Q=0.0, Count=50
+move(Back to the reception room) Q=0.10158447396654285, Count=50
+move(Go to the corner) Q=0.0, Count=50
+move(Go to the inner office) Q=0.0, Count=50
+Action: move(Back to the reception room)
+Reward: Action executed successfully. Change to another scene: reception room.
+Accumulated_reward: 59
+
+Step: 88
+craft(waste paper, scissors) Q=0.011394592646027296, Count=50
+craft(waste paper, silver key) Q=0.04028591990433598, Count=50
+craft(waste paper, code note) Q=0.06842822067309762, Count=50
+craft(waste paper, abrasive paper) Q=0.04462810425859483, Count=50
+craft(waste paper, old photo in frame) Q=0.07307218141806819, Count=50
+craft(waste paper, printed note) Q=0.04103025793016427, Count=50
+craft(scissors, silver key) Q=0.10462003854953493, Count=50
+craft(scissors, code note) Q=0.038039457853506264, Count=50
+craft(scissors, abrasive paper) Q=0.07623224239089775, Count=50
+craft(scissors, old photo in frame) Q=0.061312018724783736, Count=50
+craft(scissors, printed note) Q=0.06811755126082959, Count=50
+craft(silver key, code note) Q=0.03674244186319401, Count=50
+craft(silver key, abrasive paper) Q=0.05263002930500078, Count=50
+craft(silver key, old photo in frame) Q=0.01669377972066061, Count=50
+craft(silver key, printed note) Q=0.12084622102513339, Count=50
+craft(code note, abrasive paper) Q=0.09578386678577006, Count=50
+craft(code note, old photo in frame) Q=0.10209008181958588, Count=50
+craft(code note, printed note) Q=0.041053523403040526, Count=50
+craft(abrasive paper, old photo in frame) Q=0.15207870470643287, Count=50
+craft(abrasive paper, printed note) Q=0.0368605782634126, Count=50
+craft(old photo in frame, printed note) Q=0.024175706315856457, Count=50
+move(Back to the entrance) Q=0.32446161751588415, Count=51
+move(Go the the administration office) Q=0.010439293989715864, Count=49
+Action: move(Back to the entrance)
+Reward: Action executed successfully. Change to another scene: entrace of a shop.
+Accumulated_reward: 59
+
+Step: 89
+click(mailbox) Q=0.40280242506037894, Count=50
+apply(waste paper, mailbox) Q=0.36368056936070303, Count=50
+apply(scissors, mailbox) Q=0.29156545785127697, Count=50
+apply(silver key, mailbox) Q=1.3341119824448622, Count=56
+apply(code note, mailbox) Q=0.3270017700810607, Count=50
+apply(abrasive paper, mailbox) Q=0.34890186097821163, Count=50
+apply(old photo in frame, mailbox) Q=0.31709159930527775, Count=50
+apply(printed note, mailbox) Q=0.3149104970935284, Count=50
+craft(waste paper, scissors) Q=0.39755706975008875, Count=50
+craft(waste paper, silver key) Q=0.23563373084129494, Count=49
+craft(waste paper, code note) Q=0.3234690578002876, Count=50
+craft(waste paper, abrasive paper) Q=0.29419561393665433, Count=50
+craft(waste paper, old photo in frame) Q=0.3895946598726188, Count=50
+craft(waste paper, printed note) Q=0.3228844955495673, Count=50
+craft(scissors, silver key) Q=0.30309915729126147, Count=50
+craft(scissors, code note) Q=0.27784057807773976, Count=50
+craft(scissors, abrasive paper) Q=0.31406729875900286, Count=50
+craft(scissors, old photo in frame) Q=0.2183955165583462, Count=49
+craft(scissors, printed note) Q=0.3345957265368301, Count=50
+craft(silver key, code note) Q=0.2502284459164818, Count=49
+craft(silver key, abrasive paper) Q=0.2190551006033524, Count=49
+craft(silver key, old photo in frame) Q=0.30370688392848644, Count=50
+craft(silver key, printed note) Q=0.2503638696291727, Count=49
+craft(code note, abrasive paper) Q=0.2647143707573265, Count=50
+craft(code note, old photo in frame) Q=0.3409067824402577, Count=50
+craft(code note, printed note) Q=0.2685085689580346, Count=50
+craft(abrasive paper, old photo in frame) Q=0.3769257144139649, Count=50
+craft(abrasive paper, printed note) Q=0.31349747837773095, Count=50
+craft(old photo in frame, printed note) Q=0.3804043932170604, Count=50
+move(Enter) Q=0.08947443199620077, Count=49
+Action: apply(silver key, mailbox)
+Reward: Action executed successfully. You have successfully applied silver key to mailbox. The mailbox is unlocked, there is a package inside
+Accumulated_reward: 60
+
+Step: 90
+click(package item) Q=1.4845641628387578, Count=56
+apply(waste paper, package item) Q=0.34908679642670937, Count=50
+apply(scissors, package item) Q=0.5386650813699086, Count=51
+apply(code note, package item) Q=0.3249784757902769, Count=49
+apply(abrasive paper, package item) Q=0.36636286560181774, Count=50
+apply(old photo in frame, package item) Q=0.4532827774284372, Count=50
+apply(printed note, package item) Q=0.37534688442963565, Count=50
+craft(waste paper, scissors) Q=0.37152704431692707, Count=50
+craft(waste paper, code note) Q=0.3304445892874718, Count=49
+craft(waste paper, abrasive paper) Q=0.39272637680682265, Count=50
+craft(waste paper, old photo in frame) Q=0.41484038043385535, Count=50
+craft(waste paper, printed note) Q=0.42418912855927904, Count=50
+craft(scissors, code note) Q=0.3338297956066228, Count=49
+craft(scissors, abrasive paper) Q=0.30617174846550627, Count=49
+craft(scissors, old photo in frame) Q=0.41901295159150775, Count=50
+craft(scissors, printed note) Q=0.38272586816881665, Count=50
+craft(code note, abrasive paper) Q=0.38845626828811874, Count=50
+craft(code note, old photo in frame) Q=0.45153773962268184, Count=50
+craft(code note, printed note) Q=0.6629289287530723, Count=51
+craft(abrasive paper, old photo in frame) Q=0.38977800776943083, Count=50
+craft(abrasive paper, printed note) Q=0.2565445321655079, Count=49
+craft(old photo in frame, printed note) Q=0.32816585920808405, Count=49
+move(Enter) Q=0.08798715213072114, Count=48
+Action: click(package item)
+Reward: Action executed successfully. You have just collected a package item. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 61
+
+Step: 91
+craft(waste paper, scissors) Q=0.5745449327122905, Count=50
+craft(waste paper, code note) Q=0.4533033238329393, Count=49
+craft(waste paper, abrasive paper) Q=0.5050728011380534, Count=50
+craft(waste paper, old photo in frame) Q=0.5545123967547435, Count=50
+craft(waste paper, printed note) Q=0.5215017766727028, Count=50
+craft(waste paper, package item) Q=0.47254094666397484, Count=50
+craft(scissors, code note) Q=0.5510282626709957, Count=50
+craft(scissors, abrasive paper) Q=0.45629161418469594, Count=49
+craft(scissors, old photo in frame) Q=0.5003709268910466, Count=50
+craft(scissors, printed note) Q=0.42804515705319757, Count=49
+craft(scissors, package item) Q=1.4590077081466497, Count=55
+craft(code note, abrasive paper) Q=0.5818712652026865, Count=50
+craft(code note, old photo in frame) Q=0.4456315798253106, Count=49
+craft(code note, printed note) Q=0.5733376679054984, Count=50
+craft(code note, package item) Q=0.678214487525633, Count=51
+craft(abrasive paper, old photo in frame) Q=0.55967347843735, Count=50
+craft(abrasive paper, printed note) Q=0.5081726638129129, Count=50
+craft(abrasive paper, package item) Q=0.47127342754504326, Count=50
+craft(old photo in frame, printed note) Q=0.5560430938597125, Count=50
+craft(old photo in frame, package item) Q=0.44669381313407636, Count=49
+craft(printed note, package item) Q=0.5008810999687078, Count=50
+move(Enter) Q=0.47664477594926946, Count=49
+Action: craft(scissors, package item)
+Reward: Action executed successfully. You have successfully crafted a pair of scissors, very sharp and a package made of hard-textured paper, closed tightly together.
+You get a new item: the item inside is an air cylinder. It is put into your bag.
+Accumulated_reward: 62
+
+Step: 92
+craft(waste paper, code note) Q=0.4016619476860534, Count=49
+craft(waste paper, abrasive paper) Q=0.4086115039565678, Count=50
+craft(waste paper, old photo in frame) Q=0.45626597727442914, Count=50
+craft(waste paper, printed note) Q=0.5076746968631544, Count=50
+craft(waste paper, package item) Q=0.4421801957053729, Count=50
+craft(code note, abrasive paper) Q=0.35304948495899674, Count=49
+craft(code note, old photo in frame) Q=0.5076720571583837, Count=50
+craft(code note, printed note) Q=0.4238428373294437, Count=50
+craft(code note, package item) Q=0.5689408853585158, Count=50
+craft(abrasive paper, old photo in frame) Q=0.4153502929461147, Count=49
+craft(abrasive paper, printed note) Q=0.4957241218819837, Count=50
+craft(abrasive paper, package item) Q=0.9999999999999998, Count=53
+craft(old photo in frame, printed note) Q=0.4612214001368855, Count=50
+craft(old photo in frame, package item) Q=0.4746280527369508, Count=50
+craft(printed note, package item) Q=0.465850717656215, Count=50
+move(Enter) Q=0.4312932556511714, Count=50
+Action: craft(abrasive paper, package item)
+Reward: Action executed successfully. You have successfully crafted a piece of abrasive paper that could polish something and the item inside is an air cylinder together.
+You get a new item: a polished air cylinder. It is put into your bag.
+Accumulated_reward: 63
+
+Step: 93
+craft(waste paper, code note) Q=0.03584552630780114, Count=50
+craft(waste paper, old photo in frame) Q=0.0, Count=50
+craft(waste paper, printed note) Q=0.0, Count=50
+craft(waste paper, package item) Q=0.0, Count=50
+craft(code note, old photo in frame) Q=0.0, Count=50
+craft(code note, printed note) Q=0.04554334094856076, Count=50
+craft(code note, package item) Q=0.0, Count=50
+craft(old photo in frame, printed note) Q=0.0, Count=50
+craft(old photo in frame, package item) Q=0.0, Count=50
+craft(printed note, package item) Q=0.0, Count=50
+move(Enter) Q=0.03803227592722683, Count=50
+Action: craft(code note, printed note)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 63
+
+Step: 94
+craft(waste paper, code note) Q=0.03584552630780114, Count=50
+craft(waste paper, old photo in frame) Q=0.0, Count=50
+craft(waste paper, printed note) Q=0.0, Count=50
+craft(waste paper, package item) Q=0.03803227592722683, Count=50
+craft(code note, old photo in frame) Q=0.0, Count=50
+craft(code note, printed note) Q=0.03803227592722683, Count=50
+craft(code note, package item) Q=0.0, Count=50
+craft(old photo in frame, printed note) Q=0.032268890754019466, Count=50
+craft(old photo in frame, package item) Q=0.0, Count=50
+craft(printed note, package item) Q=0.0, Count=50
+move(Enter) Q=0.08698963698299003, Count=50
+Action: move(Enter)
+Reward: Action executed successfully. Change to another scene: reception room.
+Accumulated_reward: 63
+
+Step: 95
+craft(waste paper, code note) Q=0.0, Count=50
+craft(waste paper, old photo in frame) Q=0.15873530932562088, Count=50
+craft(waste paper, printed note) Q=0.0428684344351512, Count=50
+craft(waste paper, package item) Q=0.0, Count=50
+craft(code note, old photo in frame) Q=0.0, Count=50
+craft(code note, printed note) Q=0.04036919277202723, Count=50
+craft(code note, package item) Q=0.06490222451080668, Count=50
+craft(old photo in frame, printed note) Q=0.032268890754019466, Count=50
+craft(old photo in frame, package item) Q=0.0998704076295331, Count=50
+craft(printed note, package item) Q=0.0, Count=50
+move(Back to the entrance) Q=0.0, Count=50
+move(Go the the administration office) Q=0.11640215531256407, Count=50
+Action: craft(waste paper, old photo in frame)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 63
+
+Step: 96
+craft(waste paper, code note) Q=0.0, Count=50
+craft(waste paper, old photo in frame) Q=0.0801648197164887, Count=50
+craft(waste paper, printed note) Q=0.051480254867919996, Count=50
+craft(waste paper, package item) Q=0.01023071658804329, Count=50
+craft(code note, old photo in frame) Q=0.0, Count=50
+craft(code note, printed note) Q=0.0428684344351512, Count=50
+craft(code note, package item) Q=0.04554334094856076, Count=50
+craft(old photo in frame, printed note) Q=0.12037647606195082, Count=50
+craft(old photo in frame, package item) Q=0.0, Count=50
+craft(printed note, package item) Q=0.057778907931693504, Count=50
+move(Back to the entrance) Q=0.0, Count=50
+move(Go the the administration office) Q=0.08325913066845798, Count=50
+Action: craft(old photo in frame, printed note)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 63
+
+Step: 97
+craft(waste paper, code note) Q=0.02208165277633633, Count=50
+craft(waste paper, old photo in frame) Q=0.0, Count=50
+craft(waste paper, printed note) Q=0.01023071658804329, Count=50
+craft(waste paper, package item) Q=0.11822178317543108, Count=50
+craft(code note, old photo in frame) Q=0.08915662509688052, Count=50
+craft(code note, printed note) Q=0.08557733425971685, Count=50
+craft(code note, package item) Q=0.0, Count=50
+craft(old photo in frame, printed note) Q=0.04840857079025581, Count=50
+craft(old photo in frame, package item) Q=0.051480254867919996, Count=50
+craft(printed note, package item) Q=0.03584552630780114, Count=50
+move(Back to the entrance) Q=0.0, Count=50
+move(Go the the administration office) Q=0.11667171277749261, Count=50
+Action: craft(waste paper, package item)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 63
+
+Step: 98
+craft(waste paper, code note) Q=0.01023071658804329, Count=50
+craft(waste paper, old photo in frame) Q=0.07811962359420857, Count=50
+craft(waste paper, printed note) Q=0.03584552630780114, Count=50
+craft(waste paper, package item) Q=0.04407070234122054, Count=50
+craft(code note, old photo in frame) Q=0.13181496584037694, Count=50
+craft(code note, printed note) Q=0.04036919277202723, Count=50
+craft(code note, package item) Q=0.0428684344351512, Count=50
+craft(old photo in frame, printed note) Q=0.0, Count=50
+craft(old photo in frame, package item) Q=0.09944008086571944, Count=50
+craft(printed note, package item) Q=0.05477617114790915, Count=50
+move(Back to the entrance) Q=0.0, Count=50
+move(Go the the administration office) Q=0.10383391903639355, Count=50
+Action: craft(code note, old photo in frame)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 63
+
+Step: 99
+craft(waste paper, code note) Q=0.1485489228050557, Count=50
+craft(waste paper, old photo in frame) Q=0.03584552630780114, Count=50
+craft(waste paper, printed note) Q=0.0, Count=50
+craft(waste paper, package item) Q=0.051480254867919996, Count=50
+craft(code note, old photo in frame) Q=0.03584552630780114, Count=50
+craft(code note, printed note) Q=0.0, Count=50
+craft(code note, package item) Q=0.02208165277633633, Count=50
+craft(old photo in frame, printed note) Q=0.0, Count=50
+craft(old photo in frame, package item) Q=0.04840857079025581, Count=50
+craft(printed note, package item) Q=0.01023071658804329, Count=50
+move(Back to the entrance) Q=0.03803227592722683, Count=50
+move(Go the the administration office) Q=0.16620314684060478, Count=50
+Action: move(Go the the administration office)
+Reward: Action executed successfully. Change to another scene: administration office.
+Accumulated_reward: 63
+
+Step: 100
+craft(waste paper, code note) Q=0.043739798053426864, Count=49
+craft(waste paper, old photo in frame) Q=0.18677731135941245, Count=50
+craft(waste paper, printed note) Q=0.09090047753635373, Count=50
+craft(waste paper, package item) Q=0.10610625035571115, Count=50
+craft(code note, old photo in frame) Q=0.0, Count=49
+craft(code note, printed note) Q=0.091472501341719, Count=50
+craft(code note, package item) Q=0.051547931592954205, Count=49
+craft(old photo in frame, printed note) Q=0.13738998726727472, Count=50
+craft(old photo in frame, package item) Q=0.14526317211246526, Count=50
+craft(printed note, package item) Q=0.28434903271266343, Count=51
+move(Back to the reception room) Q=0.046468861878482585, Count=49
+move(Go to the corner) Q=0.08915662509688049, Count=50
+move(Go to the inner office) Q=0.701892702058699, Count=53
+Action: move(Go to the inner office)
+Reward: Action executed successfully. Change to another scene: inner office.
+Accumulated_reward: 63
+

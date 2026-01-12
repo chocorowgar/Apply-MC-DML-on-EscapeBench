@@ -1,0 +1,12 @@
+**/data-gym-cache/
+**/__pycache__/
+.idea
+.DS_Store
+
+outputs/
+
+scripts/test.sh
+
+.venv/
+
+.vscode/

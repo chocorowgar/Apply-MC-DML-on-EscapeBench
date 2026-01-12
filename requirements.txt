@@ -1,0 +1,5 @@
+cprint
+openai
+PyYAML      # PyPI 上的名稱是 PyYAML，不是 yaml
+flask
+vllm

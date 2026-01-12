@@ -1,0 +1,2767 @@
+Step: 1
+move(To the stairs close-up) Q=1.5045693310755384, Count=53
+move(To the front door close-up) Q=0.8006006820157137, Count=48
+move(To the windows close-up) Q=0.829520534132872, Count=49
+Action: move(To the stairs close-up)
+Reward: Action executed successfully. Change to another scene: stairs close-up.
+Accumulated_reward: 0
+
+Step: 2
+click(chalk) Q=1.7931090515048618, Count=51
+click(stone) Q=2.0235410935820433, Count=53
+move(Back to the outside of the cabin house) Q=0.8380478059093667, Count=46
+Action: click(stone)
+Reward: Action executed successfully. You have just collected a stone. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 1
+
+Step: 3
+click(chalk) Q=1.346384316077657, Count=52
+apply(stone, chalk) Q=0.9650266654048973, Count=49
+move(Back to the outside of the cabin house) Q=0.9306398606561125, Count=49
+Action: click(chalk)
+Reward: Action executed successfully. You have just collected a chalk. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 2
+
+Step: 4
+craft(stone, chalk) Q=0.37087443028100864, Count=50
+move(Back to the outside of the cabin house) Q=0.4130883963282607, Count=50
+Action: move(Back to the outside of the cabin house)
+Reward: Action executed successfully. Change to another scene: outside of the cabin house.
+Accumulated_reward: 2
+
+Step: 5
+craft(stone, chalk) Q=0.4072799813993911, Count=50
+move(To the stairs close-up) Q=0.33414356946331913, Count=49
+move(To the front door close-up) Q=0.29216424861351914, Count=49
+move(To the windows close-up) Q=0.7336255412799535, Count=52
+Action: move(To the windows close-up)
+Reward: Action executed successfully. Change to another scene: windows close-up from outside.
+Accumulated_reward: 2
+
+Step: 6
+click(window) Q=1.035039014476513, Count=51
+apply(stone, window) Q=1.5930767972229076, Count=54
+apply(chalk, window) Q=0.9260450641955581, Count=50
+craft(stone, chalk) Q=0.8381068317641863, Count=49
+move(Back to the outside of the cabin house) Q=0.28189121542322904, Count=46
+Action: apply(stone, window)
+Reward: Action executed successfully. You have successfully applied stone to window. The window on the outer wall is broken now. there is a workspace area inside.
+Accumulated_reward: 3
+
+Step: 7
+move(Back to the outside of the cabin house) Q=0.3099746694663202, Count=48
+move(To the workspace area) Q=0.9940349352174543, Count=52
+Action: move(To the workspace area)
+Reward: Action executed successfully. Change to another scene: workspace area.
+Accumulated_reward: 3
+
+Step: 8
+move(Back to the windows close-up from outside) Q=0.7566090737123663, Count=48
+move(To the workspace cabinet close-up) Q=1.3743251235224228, Count=51
+move(To the desk close-up) Q=1.383513523636131, Count=52
+move(To the workspace shelf close-up) Q=1.8232485014640807, Count=54
+move(To the car photos and map close-up) Q=0.846060279795121, Count=49
+move(To the attic) Q=1.1438035262370683, Count=50
+move(To the kitchen) Q=1.0294218157819548, Count=49
+move(To the living room) Q=0.5713540644262214, Count=47
+Action: move(To the workspace shelf close-up)
+Reward: Action executed successfully. Change to another scene: workspace shelf close-up.
+Accumulated_reward: 3
+
+Step: 9
+click(yellow cube) Q=2.5459464174721993, Count=54
+click(red pyramid) Q=2.506695580294437, Count=53
+click(blue hemisphere) Q=2.350253541867152, Count=52
+click(empty 4th shelf position) Q=2.0438114282749873, Count=51
+apply(chalk, yellow cube) Q=1.7709340498885, Count=49
+apply(chalk, red pyramid) Q=1.7487376861464603, Count=49
+apply(chalk, blue hemisphere) Q=1.7099108067924251, Count=49
+apply(chalk, empty 4th shelf position) Q=1.857020698343525, Count=49
+move(Back to the workspace area) Q=0.8660856337829264, Count=44
+Action: click(yellow cube)
+Reward: Action executed successfully. You have clicked on yellow cube. The yellow cube is turned over. there is a circle is on the bottom side of it.
+Accumulated_reward: 4
+
+Step: 10
+click(red pyramid) Q=2.007293441442742, Count=53
+click(blue hemisphere) Q=1.9891299427635083, Count=53
+click(empty 4th shelf position) Q=1.4817555399655318, Count=50
+apply(chalk, red pyramid) Q=1.6277343383513543, Count=50
+apply(chalk, blue hemisphere) Q=1.3540663504907104, Count=49
+apply(chalk, empty 4th shelf position) Q=1.301970277973162, Count=49
+move(Back to the workspace area) Q=0.7955140834944698, Count=46
+Action: click(red pyramid)
+Reward: Action executed successfully. You have clicked on red pyramid. The red pyramid is turned over. there is a diamond is on the bottom side of it.
+Accumulated_reward: 5
+
+Step: 11
+click(blue hemisphere) Q=1.514662703694966, Count=53
+click(empty 4th shelf position) Q=0.9087871490349326, Count=49
+apply(chalk, blue hemisphere) Q=0.91129065836115, Count=50
+apply(chalk, empty 4th shelf position) Q=1.0341313784506279, Count=50
+move(Back to the workspace area) Q=0.7315485479971064, Count=48
+Action: click(blue hemisphere)
+Reward: Action executed successfully. You have clicked on blue hemisphere. The blue hemisphere is turned over. there is a triangle is on the bottom side of it.
+Accumulated_reward: 6
+
+Step: 12
+click(empty 4th shelf position) Q=0.5344773614992314, Count=49
+apply(chalk, empty 4th shelf position) Q=0.6172093967918215, Count=50
+move(Back to the workspace area) Q=0.8601609625166622, Count=51
+Action: move(Back to the workspace area)
+Reward: Action executed successfully. Change to another scene: workspace area.
+Accumulated_reward: 6
+
+Step: 13
+move(Back to the windows close-up from outside) Q=0.5018032116892299, Count=48
+move(To the workspace cabinet close-up) Q=1.302276035679631, Count=52
+move(To the desk close-up) Q=1.2096191307037698, Count=52
+move(To the workspace shelf close-up) Q=0.4657451500250449, Count=48
+move(To the car photos and map close-up) Q=0.7866082434923718, Count=50
+move(To the attic) Q=0.8855409855201344, Count=50
+move(To the kitchen) Q=1.053218637826706, Count=51
+move(To the living room) Q=0.6436401430385553, Count=49
+Action: move(To the workspace cabinet close-up)
+Reward: Action executed successfully. Change to another scene: workspace cabinet close-up.
+Accumulated_reward: 6
+
+Step: 14
+click(cabinet door) Q=1.9721020905263356, Count=54
+apply(chalk, cabinet door) Q=1.4420683493349402, Count=50
+move(Back to the workspace area) Q=0.7197057465660773, Count=46
+Action: click(cabinet door)
+Reward: Action executed successfully. You have clicked on cabinet door. The cabinet door is open now. there is a battery in the cabinet.
+Accumulated_reward: 7
+
+Step: 15
+click(battery) Q=1.3680125811012065, Count=52
+apply(chalk, battery) Q=1.060098588915442, Count=50
+move(Back to the workspace area) Q=0.6844008395671073, Count=48
+Action: click(battery)
+Reward: Action executed successfully. You have just collected a battery. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 8
+
+Step: 16
+craft(chalk, battery) Q=0.3275026724693874, Count=49
+move(Back to the workspace area) Q=0.5620285319135043, Count=51
+Action: move(Back to the workspace area)
+Reward: Action executed successfully. Change to another scene: workspace area.
+Accumulated_reward: 8
+
+Step: 17
+craft(chalk, battery) Q=0.48932900886686764, Count=50
+move(Back to the windows close-up from outside) Q=0.2582461834947993, Count=48
+move(To the workspace cabinet close-up) Q=0.4540248496543195, Count=49
+move(To the desk close-up) Q=0.970999965692569, Count=52
+move(To the workspace shelf close-up) Q=0.3488984648879384, Count=49
+move(To the car photos and map close-up) Q=0.45014784913518574, Count=50
+move(To the attic) Q=0.8599278007438663, Count=52
+move(To the kitchen) Q=0.7132421160613812, Count=51
+move(To the living room) Q=0.41805905818126854, Count=49
+Action: move(To the desk close-up)
+Reward: Action executed successfully. Change to another scene: desk close-up.
+Accumulated_reward: 8
+
+Step: 18
+click(first drawer on the right) Q=1.1006553244836197, Count=50
+click(second drawer on the right) Q=1.5595998429799915, Count=53
+click(ruler) Q=1.4634355964818926, Count=52
+apply(chalk, first drawer on the right) Q=0.8176977558342912, Count=49
+apply(chalk, second drawer on the right) Q=1.0207783848271466, Count=50
+apply(chalk, ruler) Q=0.954525434653331, Count=50
+apply(battery, first drawer on the right) Q=0.8189170856990526, Count=49
+apply(battery, second drawer on the right) Q=0.9708490704226586, Count=50
+apply(battery, ruler) Q=0.9520979397128134, Count=49
+craft(chalk, battery) Q=1.0330104936693434, Count=50
+move(Back to the workspace area) Q=0.6022069486750343, Count=48
+Action: click(second drawer on the right)
+Reward: Action executed successfully. You have clicked on second drawer on the right. The drawer is open now. but it is empty.
+Accumulated_reward: 9
+
+Step: 19
+click(first drawer on the right) Q=0.6299482444032801, Count=50
+click(ruler) Q=1.0988536742553359, Count=53
+apply(chalk, first drawer on the right) Q=0.6132804325239494, Count=50
+apply(chalk, ruler) Q=0.5092302841998863, Count=49
+apply(battery, first drawer on the right) Q=0.6042890558330424, Count=50
+apply(battery, ruler) Q=0.527492580626156, Count=49
+craft(chalk, battery) Q=0.663112380815504, Count=50
+move(Back to the workspace area) Q=0.3814076563611402, Count=49
+Action: click(ruler)
+Reward: Action executed successfully. You have just collected a ruler. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 10
+
+Step: 20
+click(first drawer on the right) Q=0.07000811522222364, Count=49
+apply(chalk, first drawer on the right) Q=0.08975780277767648, Count=50
+apply(battery, first drawer on the right) Q=0.11835885479224147, Count=50
+apply(ruler, first drawer on the right) Q=0.14435692154803764, Count=50
+craft(chalk, battery) Q=0.079987001646226, Count=50
+craft(chalk, ruler) Q=0.1776999225822528, Count=50
+craft(battery, ruler) Q=0.17417044704059392, Count=50
+move(Back to the workspace area) Q=0.24343163217005942, Count=51
+Action: move(Back to the workspace area)
+Reward: Action executed successfully. Change to another scene: workspace area.
+Accumulated_reward: 10
+
+Step: 21
+craft(chalk, battery) Q=0.34179148378091523, Count=50
+craft(chalk, ruler) Q=0.39130326374120605, Count=50
+craft(battery, ruler) Q=0.29423919223974704, Count=50
+move(Back to the windows close-up from outside) Q=0.08871522573201676, Count=49
+move(To the workspace cabinet close-up) Q=0.28190092447579806, Count=50
+move(To the desk close-up) Q=0.05454898497519378, Count=49
+move(To the workspace shelf close-up) Q=0.09644617230449064, Count=49
+move(To the car photos and map close-up) Q=0.45566480111058805, Count=51
+move(To the attic) Q=0.7318465636519225, Count=52
+move(To the kitchen) Q=0.47826827690525026, Count=51
+move(To the living room) Q=0.16930857507370398, Count=49
+Action: move(To the attic)
+Reward: Action executed successfully. Change to another scene: attic.
+Accumulated_reward: 10
+
+Step: 22
+click(painting) Q=1.661458349731699, Count=54
+apply(chalk, painting) Q=0.925705315644394, Count=50
+apply(battery, painting) Q=0.7763031708226873, Count=49
+apply(ruler, painting) Q=1.0208299635127895, Count=51
+craft(chalk, battery) Q=0.8715159086611026, Count=50
+craft(chalk, ruler) Q=0.7895953339614403, Count=49
+craft(battery, ruler) Q=0.8468979029577667, Count=50
+move(Back to the workspace area) Q=0.25333374829060107, Count=47
+move(To the attic door close-up) Q=0.9447459727113658, Count=50
+Action: click(painting)
+Reward: Action executed successfully. You have clicked on painting. The painting is taken off the wall and there is a magnet on the wall used to stick the painting on the wall.
+Accumulated_reward: 11
+
+Step: 23
+click(magnet) Q=1.2145887181866257, Count=53
+apply(chalk, magnet) Q=0.5432364708266239, Count=49
+apply(battery, magnet) Q=0.7555600328186117, Count=50
+apply(ruler, magnet) Q=0.824420234506011, Count=51
+craft(chalk, battery) Q=0.6189245887926089, Count=49
+craft(chalk, ruler) Q=0.6719181604659082, Count=50
+craft(battery, ruler) Q=0.7388551989673577, Count=50
+move(Back to the workspace area) Q=0.25260925136907025, Count=47
+move(To the attic door close-up) Q=0.8946730828833989, Count=51
+Action: click(magnet)
+Reward: Action executed successfully. You have just collected a magnet. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 12
+
+Step: 24
+craft(chalk, battery) Q=0.2640012157076157, Count=50
+craft(chalk, ruler) Q=0.2661431528237496, Count=50
+craft(chalk, magnet) Q=0.24116534803859382, Count=50
+craft(battery, ruler) Q=0.28247167769050757, Count=50
+craft(battery, magnet) Q=0.21380210211363412, Count=49
+craft(ruler, magnet) Q=0.25951378233902345, Count=50
+move(Back to the workspace area) Q=0.16606083269467337, Count=49
+move(To the attic door close-up) Q=0.6540753077349847, Count=52
+Action: move(To the attic door close-up)
+Reward: Action executed successfully. Change to another scene: attic door close-up.
+Accumulated_reward: 12
+
+Step: 25
+click(attic door) Q=0.5207057287196892, Count=49
+apply(chalk, attic door) Q=0.7443580954858033, Count=50
+apply(battery, attic door) Q=0.6807293238592755, Count=50
+apply(ruler, attic door) Q=1.6326539699823388, Count=56
+apply(magnet, attic door) Q=0.716855481692951, Count=50
+craft(chalk, battery) Q=0.6523057706621376, Count=50
+craft(chalk, ruler) Q=0.7541750329653925, Count=50
+craft(chalk, magnet) Q=0.6173348902214044, Count=50
+craft(battery, ruler) Q=0.5930431417052748, Count=49
+craft(battery, magnet) Q=0.614407057670632, Count=49
+craft(ruler, magnet) Q=0.7808849098470669, Count=50
+move(Back to the attic) Q=0.21015070224237792, Count=47
+Action: apply(ruler, attic door)
+Reward: Action executed successfully. You have successfully applied ruler to attic door. The attic door is open now. there is a storage space with some stuff inside.
+Accumulated_reward: 13
+
+Step: 26
+click(attic safe) Q=0.6994866626301587, Count=50
+click(adhesive tape) Q=1.3037396287097054, Count=54
+click(green cylinder) Q=1.266182020989343, Count=53
+apply(chalk, attic safe) Q=0.5916613932264843, Count=50
+apply(chalk, adhesive tape) Q=0.6650730566171544, Count=50
+apply(chalk, green cylinder) Q=0.6200944317955163, Count=50
+apply(battery, attic safe) Q=0.6739252856182384, Count=50
+apply(battery, adhesive tape) Q=0.4866181489944639, Count=49
+apply(battery, green cylinder) Q=0.6540349513833597, Count=50
+apply(magnet, attic safe) Q=0.6341458291224688, Count=50
+apply(magnet, adhesive tape) Q=0.6784985037399625, Count=50
+apply(magnet, green cylinder) Q=0.5565496063978731, Count=49
+craft(chalk, battery) Q=0.45902072316167586, Count=49
+craft(chalk, magnet) Q=0.6484893374025653, Count=50
+craft(battery, magnet) Q=0.6279144803089092, Count=50
+move(Back to the attic) Q=0.33103270368142723, Count=48
+move(To the fingerprint scanner close-up) Q=0.2248348649648184, Count=48
+Action: click(adhesive tape)
+Reward: Action executed successfully. You have just collected a adhesive tape. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 14
+
+Step: 27
+click(attic safe) Q=0.2653728563148042, Count=50
+click(green cylinder) Q=1.011758424907085, Count=54
+apply(chalk, attic safe) Q=0.30281071784369523, Count=50
+apply(chalk, green cylinder) Q=0.32525153909008464, Count=50
+apply(battery, attic safe) Q=0.2731958037673805, Count=50
+apply(battery, green cylinder) Q=0.3161563981171596, Count=50
+apply(magnet, attic safe) Q=0.23554364557726976, Count=50
+apply(magnet, green cylinder) Q=0.28418705554976204, Count=50
+apply(adhesive tape, attic safe) Q=0.3035681831604706, Count=50
+apply(adhesive tape, green cylinder) Q=0.2356138521948095, Count=49
+craft(chalk, battery) Q=0.2548907612719576, Count=50
+craft(chalk, magnet) Q=0.3228091572957975, Count=50
+craft(chalk, adhesive tape) Q=0.26655160582519294, Count=50
+craft(battery, magnet) Q=0.3713464846150004, Count=50
+craft(battery, adhesive tape) Q=0.2228331945251235, Count=49
+craft(magnet, adhesive tape) Q=0.29229775974650474, Count=50
+move(Back to the attic) Q=0.1682535704597542, Count=49
+move(To the fingerprint scanner close-up) Q=0.06380419903122261, Count=49
+Action: click(green cylinder)
+Reward: Action executed successfully. You have just collected a green cylinder. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 15
+
+Step: 28
+click(attic safe) Q=0.01023071658804329, Count=50
+apply(chalk, attic safe) Q=0.0, Count=50
+apply(battery, attic safe) Q=0.0, Count=50
+apply(magnet, attic safe) Q=0.0, Count=50
+apply(adhesive tape, attic safe) Q=0.012027746069952204, Count=50
+apply(green cylinder, attic safe) Q=0.0, Count=50
+craft(chalk, battery) Q=0.0, Count=50
+craft(chalk, magnet) Q=0.0, Count=50
+craft(chalk, adhesive tape) Q=0.02406443607232195, Count=50
+craft(chalk, green cylinder) Q=0.0, Count=50
+craft(battery, magnet) Q=0.01023071658804329, Count=50
+craft(battery, adhesive tape) Q=0.011394592646027296, Count=50
+craft(battery, green cylinder) Q=0.011394592646027296, Count=50
+craft(magnet, adhesive tape) Q=0.0, Count=50
+craft(magnet, green cylinder) Q=0.014955324501419788, Count=50
+craft(adhesive tape, green cylinder) Q=0.0, Count=50
+move(Back to the attic) Q=0.014159093367747502, Count=50
+move(To the fingerprint scanner close-up) Q=0.0, Count=50
+Action: craft(chalk, adhesive tape)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 15
+
+Step: 29
+click(attic safe) Q=0.0, Count=50
+apply(chalk, attic safe) Q=0.0, Count=50
+apply(battery, attic safe) Q=0.01023071658804329, Count=50
+apply(magnet, attic safe) Q=0.0, Count=50
+apply(adhesive tape, attic safe) Q=0.022903395403740923, Count=50
+apply(green cylinder, attic safe) Q=0.014159093367747502, Count=50
+craft(chalk, battery) Q=0.01269793949283138, Count=50
+craft(chalk, magnet) Q=0.014159093367747502, Count=50
+craft(chalk, adhesive tape) Q=0.0, Count=50
+craft(chalk, green cylinder) Q=0.010796270133114115, Count=50
+craft(battery, magnet) Q=0.0, Count=50
+craft(battery, adhesive tape) Q=0.0, Count=50
+craft(battery, green cylinder) Q=0.0, Count=50
+craft(magnet, adhesive tape) Q=0.0, Count=50
+craft(magnet, green cylinder) Q=0.0, Count=50
+craft(adhesive tape, green cylinder) Q=0.0, Count=50
+move(Back to the attic) Q=0.0, Count=50
+move(To the fingerprint scanner close-up) Q=0.0, Count=50
+Action: apply(adhesive tape, attic safe)
+Reward: Nothing happens after you apply the tool. You shuold try to input a correct fingerprint to scanner in order to unlock this safe.
+Accumulated_reward: 15
+
+Step: 30
+click(attic safe) Q=0.0, Count=50
+apply(chalk, attic safe) Q=0.0, Count=50
+apply(battery, attic safe) Q=0.0, Count=50
+apply(magnet, attic safe) Q=0.0, Count=50
+apply(adhesive tape, attic safe) Q=0.0, Count=50
+apply(green cylinder, attic safe) Q=0.014159093367747502, Count=50
+craft(chalk, battery) Q=0.0, Count=50
+craft(chalk, magnet) Q=0.013407541439587067, Count=50
+craft(chalk, adhesive tape) Q=0.0, Count=50
+craft(chalk, green cylinder) Q=0.012027746069952204, Count=50
+craft(battery, magnet) Q=0.0, Count=50
+craft(battery, adhesive tape) Q=0.0, Count=50
+craft(battery, green cylinder) Q=0.0, Count=50
+craft(magnet, adhesive tape) Q=0.0, Count=50
+craft(magnet, green cylinder) Q=0.0, Count=50
+craft(adhesive tape, green cylinder) Q=0.0, Count=50
+move(Back to the attic) Q=0.0614516770313452, Count=50
+move(To the fingerprint scanner close-up) Q=0.0, Count=50
+Action: move(Back to the attic)
+Reward: Action executed successfully. Change to another scene: attic.
+Accumulated_reward: 15
+
+Step: 31
+craft(chalk, battery) Q=0.02599856452266628, Count=50
+craft(chalk, magnet) Q=0.03626518114352836, Count=50
+craft(chalk, adhesive tape) Q=0.0, Count=50
+craft(chalk, green cylinder) Q=0.060880126262796416, Count=50
+craft(battery, magnet) Q=0.026822230957032546, Count=50
+craft(battery, adhesive tape) Q=0.040229287666418596, Count=50
+craft(battery, green cylinder) Q=0.024175706315856457, Count=50
+craft(magnet, adhesive tape) Q=0.04087881416402761, Count=50
+craft(magnet, green cylinder) Q=0.04921426868724289, Count=50
+craft(adhesive tape, green cylinder) Q=0.0479796899269638, Count=50
+move(Back to the workspace area) Q=0.14992317355287257, Count=50
+move(To the attic door close-up) Q=0.01023071658804329, Count=50
+Action: move(Back to the workspace area)
+Reward: Action executed successfully. Change to another scene: workspace area.
+Accumulated_reward: 15
+
+Step: 32
+craft(chalk, battery) Q=0.13885914240673652, Count=50
+craft(chalk, magnet) Q=0.12465036721350908, Count=50
+craft(chalk, adhesive tape) Q=0.21129489922093764, Count=50
+craft(chalk, green cylinder) Q=0.10492454945576253, Count=50
+craft(battery, magnet) Q=0.0580240884138993, Count=49
+craft(battery, adhesive tape) Q=0.1279826443335184, Count=50
+craft(battery, green cylinder) Q=0.1950939783468943, Count=50
+craft(magnet, adhesive tape) Q=0.1429416057007109, Count=50
+craft(magnet, green cylinder) Q=0.04345254355680274, Count=49
+craft(adhesive tape, green cylinder) Q=0.1697063739805081, Count=50
+move(Back to the windows close-up from outside) Q=0.013680801948031557, Count=49
+move(To the workspace cabinet close-up) Q=0.05615865013689882, Count=49
+move(To the desk close-up) Q=0.058965829589362674, Count=50
+move(To the workspace shelf close-up) Q=0.6101618735619376, Count=53
+move(To the car photos and map close-up) Q=0.23311949891717673, Count=50
+move(To the attic) Q=0.07231191370506322, Count=50
+move(To the kitchen) Q=0.24487787105870762, Count=51
+move(To the living room) Q=0.13309675068157947, Count=50
+Action: move(To the workspace shelf close-up)
+Reward: Action executed successfully. Change to another scene: workspace shelf close-up.
+Accumulated_reward: 15
+
+Step: 33
+click(empty 4th shelf position) Q=0.507292942978524, Count=50
+apply(chalk, empty 4th shelf position) Q=0.4871712010116968, Count=50
+apply(battery, empty 4th shelf position) Q=0.5832890104115733, Count=51
+apply(magnet, empty 4th shelf position) Q=0.4648647894486965, Count=50
+apply(adhesive tape, empty 4th shelf position) Q=0.3945221621850319, Count=49
+apply(green cylinder, empty 4th shelf position) Q=1.3982587653569247, Count=55
+craft(chalk, battery) Q=0.47724434880483596, Count=50
+craft(chalk, magnet) Q=0.39100147189400375, Count=49
+craft(chalk, adhesive tape) Q=0.5421538652855656, Count=50
+craft(chalk, green cylinder) Q=0.3479244592016248, Count=49
+craft(battery, magnet) Q=0.570144919013413, Count=50
+craft(battery, adhesive tape) Q=0.5511028480331067, Count=50
+craft(battery, green cylinder) Q=0.40561850616403494, Count=50
+craft(magnet, adhesive tape) Q=0.5902924782312758, Count=50
+craft(magnet, green cylinder) Q=0.4249253150135609, Count=50
+craft(adhesive tape, green cylinder) Q=0.39487170787067316, Count=49
+move(Back to the workspace area) Q=0.07472748637024171, Count=48
+Action: apply(green cylinder, empty 4th shelf position)
+Reward: Action executed successfully. You have successfully applied green cylinder to empty 4th shelf position. The green cylinder has been placed onto the shelf.
+Accumulated_reward: 16
+
+Step: 34
+click(green cylinder placed on shelf) Q=1.0372942318921412, Count=53
+apply(chalk, green cylinder placed on shelf) Q=0.407680391788586, Count=49
+apply(battery, green cylinder placed on shelf) Q=0.44826818489079023, Count=50
+apply(magnet, green cylinder placed on shelf) Q=0.42094973210374226, Count=50
+apply(adhesive tape, green cylinder placed on shelf) Q=0.4492703443287601, Count=50
+craft(chalk, battery) Q=0.4079942717650332, Count=50
+craft(chalk, magnet) Q=0.42103775940064314, Count=50
+craft(chalk, adhesive tape) Q=0.5980342390537675, Count=51
+craft(battery, magnet) Q=0.4267820073625132, Count=50
+craft(battery, adhesive tape) Q=0.45045710135629835, Count=50
+craft(magnet, adhesive tape) Q=0.365648068496902, Count=49
+move(Back to the workspace area) Q=0.15918593898603478, Count=48
+Action: click(green cylinder placed on shelf)
+Reward: Action executed successfully. You have clicked on green cylinder placed on shelf. The green cylinder is turned over. there is a square is on the bottom side of it.
+Accumulated_reward: 17
+
+Step: 35
+craft(chalk, battery) Q=0.012027746069952204, Count=50
+craft(chalk, magnet) Q=0.02805160070560958, Count=50
+craft(chalk, adhesive tape) Q=0.04906665670677415, Count=50
+craft(battery, magnet) Q=0.05670785232001422, Count=50
+craft(battery, adhesive tape) Q=0.030058154165060975, Count=50
+craft(magnet, adhesive tape) Q=0.048509526808626115, Count=50
+move(Back to the workspace area) Q=0.057164125048826266, Count=50
+Action: move(Back to the workspace area)
+Reward: Action executed successfully. Change to another scene: workspace area.
+Accumulated_reward: 17
+
+Step: 36
+craft(chalk, battery) Q=0.1458004147933133, Count=50
+craft(chalk, magnet) Q=0.10496708187437478, Count=50
+craft(chalk, adhesive tape) Q=0.041290558790767325, Count=49
+craft(battery, magnet) Q=0.11135467897035436, Count=50
+craft(battery, adhesive tape) Q=0.09800638346933958, Count=50
+craft(magnet, adhesive tape) Q=0.10778003238046574, Count=50
+move(Back to the windows close-up from outside) Q=0.0544970576687489, Count=50
+move(To the workspace cabinet close-up) Q=0.04916976841767186, Count=50
+move(To the desk close-up) Q=0.014447650523041242, Count=49
+move(To the workspace shelf close-up) Q=0.05314355269874292, Count=50
+move(To the car photos and map close-up) Q=0.2936452968762911, Count=51
+move(To the attic) Q=0.0, Count=49
+move(To the kitchen) Q=0.44640206284189765, Count=52
+move(To the living room) Q=0.12268276741488338, Count=50
+Action: move(To the kitchen)
+Reward: Action executed successfully. Change to another scene: kitchen.
+Accumulated_reward: 17
+
+Step: 37
+craft(chalk, battery) Q=0.29185738627504343, Count=49
+craft(chalk, magnet) Q=0.3520845507943485, Count=50
+craft(chalk, adhesive tape) Q=0.503456303983351, Count=50
+craft(battery, magnet) Q=0.3802523978655659, Count=50
+craft(battery, adhesive tape) Q=0.3216524288826035, Count=50
+craft(magnet, adhesive tape) Q=0.38674007556870926, Count=50
+move(Back to the workspace area) Q=0.07188215896570861, Count=48
+move(Back to the windows close-up from outside) Q=0.06359322618009793, Count=48
+move(To the shelf above sink close-up) Q=0.517537702579378, Count=51
+move(To the mirror close-up) Q=0.174186786115683, Count=49
+move(To the drawers below sink close-up) Q=0.8932415656852518, Count=53
+move(To the shelf above food preparation area close-up) Q=0.49480296129933815, Count=51
+move(To the drawers below food preparation area close-up) Q=1.012107541644092, Count=53
+move(To the sink close-up) Q=0.3654632473619438, Count=50
+move(To the kitchen door close-up) Q=0.0597127193884635, Count=48
+Action: move(To the drawers below food preparation area close-up)
+Reward: Action executed successfully. Change to another scene: drawers below food preparation area close-up.
+Accumulated_reward: 17
+
+Step: 38
+click(shelf below food preparation area) Q=2.0335788993835195, Count=56
+click(drawer below food preparation area) Q=1.8587552691921017, Count=54
+apply(chalk, shelf below food preparation area) Q=0.9713783494053588, Count=49
+apply(chalk, drawer below food preparation area) Q=0.9476072035528567, Count=49
+apply(battery, shelf below food preparation area) Q=0.8822292343956821, Count=49
+apply(battery, drawer below food preparation area) Q=1.0517782549078294, Count=50
+apply(magnet, shelf below food preparation area) Q=0.7743951994367222, Count=49
+apply(magnet, drawer below food preparation area) Q=0.9932275203011232, Count=50
+apply(adhesive tape, shelf below food preparation area) Q=0.9537017434472433, Count=49
+apply(adhesive tape, drawer below food preparation area) Q=1.0584010650605487, Count=50
+craft(chalk, battery) Q=1.0047761965452358, Count=50
+craft(chalk, magnet) Q=1.0511816558827554, Count=50
+craft(chalk, adhesive tape) Q=0.9811190528347344, Count=49
+craft(battery, magnet) Q=1.1511619049578001, Count=50
+craft(battery, adhesive tape) Q=1.2721089510942964, Count=51
+craft(magnet, adhesive tape) Q=0.8368441769132215, Count=49
+move(Back to the kitchen) Q=0.367949936586757, Count=46
+Action: click(shelf below food preparation area)
+Reward: Action executed successfully. You have clicked on shelf below food preparation area. The shelf below the food preparation area is open now. there is a pestle in it.
+Accumulated_reward: 18
+
+Step: 39
+click(drawer below food preparation area) Q=1.950188997846179, Count=55
+click(pestle) Q=1.99421558191696, Count=56
+apply(chalk, drawer below food preparation area) Q=0.7649415474068348, Count=48
+apply(chalk, pestle) Q=0.9649271487242853, Count=50
+apply(battery, drawer below food preparation area) Q=0.8556818544834659, Count=49
+apply(battery, pestle) Q=0.9870960470290064, Count=50
+apply(magnet, drawer below food preparation area) Q=1.0477093116534586, Count=50
+apply(magnet, pestle) Q=0.7963923612393616, Count=49
+apply(adhesive tape, drawer below food preparation area) Q=0.822388481228012, Count=49
+apply(adhesive tape, pestle) Q=0.9255041437494165, Count=49
+craft(chalk, battery) Q=0.8639556623118315, Count=49
+craft(chalk, magnet) Q=1.0011846967088687, Count=50
+craft(chalk, adhesive tape) Q=1.028534214939664, Count=50
+craft(battery, magnet) Q=1.098288572981326, Count=50
+craft(battery, adhesive tape) Q=1.001579462256325, Count=50
+craft(magnet, adhesive tape) Q=1.078106759024162, Count=50
+move(Back to the kitchen) Q=0.3290864423530558, Count=46
+Action: click(pestle)
+Reward: Action executed successfully. You have just collected a pestle. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 19
+
+Step: 40
+click(drawer below food preparation area) Q=1.8740170893035453, Count=55
+apply(chalk, drawer below food preparation area) Q=0.9776300355965402, Count=49
+apply(battery, drawer below food preparation area) Q=1.0167135981585322, Count=50
+apply(magnet, drawer below food preparation area) Q=0.9201379440459145, Count=49
+apply(adhesive tape, drawer below food preparation area) Q=0.9537170214031099, Count=49
+apply(pestle, drawer below food preparation area) Q=1.074867877388543, Count=50
+craft(chalk, battery) Q=1.1498370890604275, Count=50
+craft(chalk, magnet) Q=0.7568639310334158, Count=48
+craft(chalk, adhesive tape) Q=0.8861066874063475, Count=49
+craft(chalk, pestle) Q=1.7474813217490939, Count=54
+craft(battery, magnet) Q=0.9828388456735548, Count=50
+craft(battery, adhesive tape) Q=1.0203136449298311, Count=50
+craft(battery, pestle) Q=1.042547608767378, Count=50
+craft(magnet, adhesive tape) Q=0.9844646109963321, Count=49
+craft(magnet, pestle) Q=1.0381722175348267, Count=50
+craft(adhesive tape, pestle) Q=0.9800602985442486, Count=50
+move(Back to the kitchen) Q=0.696058506100109, Count=48
+Action: click(drawer below food preparation area)
+Reward: Action executed successfully. You have clicked on drawer below food preparation area. The drawer below the food preparation area is open now. there is a cup of cold water in it.
+Accumulated_reward: 20
+
+Step: 41
+click(cup of cold water) Q=1.4036954915304443, Count=53
+apply(chalk, cup of cold water) Q=0.9218585973228305, Count=50
+apply(battery, cup of cold water) Q=0.7328445243737066, Count=49
+apply(magnet, cup of cold water) Q=0.7957467618000689, Count=49
+apply(adhesive tape, cup of cold water) Q=0.9235465131108994, Count=50
+apply(pestle, cup of cold water) Q=0.618291484304866, Count=49
+craft(chalk, battery) Q=0.7194964686842646, Count=49
+craft(chalk, magnet) Q=0.6984158032400816, Count=49
+craft(chalk, adhesive tape) Q=0.8097633170296997, Count=50
+craft(chalk, pestle) Q=1.5140905776104465, Count=54
+craft(battery, magnet) Q=0.9654560615776351, Count=50
+craft(battery, adhesive tape) Q=0.8700495999019986, Count=50
+craft(battery, pestle) Q=0.978549378523328, Count=50
+craft(magnet, adhesive tape) Q=0.8655165280691219, Count=50
+craft(magnet, pestle) Q=0.7793361638843933, Count=49
+craft(adhesive tape, pestle) Q=0.8866360792590228, Count=50
+move(Back to the kitchen) Q=0.627961471986797, Count=49
+Action: craft(chalk, pestle)
+Reward: Action executed successfully. You have successfully crafted A pestle in the shelf in kitchen, might be used to grind something. and A piece of chalk on one step of the stairs, there's some dust when picking up. together.
+You get a new item: Some dust of chalk. You may apply it to some objects.. It is put into your bag.
+Accumulated_reward: 21
+
+Step: 42
+click(cup of cold water) Q=1.0620192860623772, Count=53
+apply(chalk, cup of cold water) Q=0.3686543731970755, Count=49
+apply(battery, cup of cold water) Q=0.3685447199396421, Count=49
+apply(magnet, cup of cold water) Q=0.5135664169177436, Count=50
+apply(adhesive tape, cup of cold water) Q=0.5395658519090486, Count=50
+craft(chalk, battery) Q=0.5528640147651733, Count=50
+craft(chalk, magnet) Q=0.4854883025093122, Count=50
+craft(chalk, adhesive tape) Q=0.46919141233078016, Count=50
+craft(battery, magnet) Q=0.6269102440756263, Count=51
+craft(battery, adhesive tape) Q=0.40829556991725047, Count=49
+craft(magnet, adhesive tape) Q=0.4890528000455303, Count=50
+move(Back to the kitchen) Q=0.4043520027465913, Count=49
+Action: click(cup of cold water)
+Reward: Action executed successfully. You have just collected a cup of cold water. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 22
+
+Step: 43
+craft(chalk, battery) Q=0.05188415813510908, Count=50
+craft(chalk, magnet) Q=0.037653356675186475, Count=50
+craft(chalk, adhesive tape) Q=0.06045745007700575, Count=50
+craft(chalk, cup of cold water) Q=0.0790286443900583, Count=50
+craft(battery, magnet) Q=0.1360814929672993, Count=50
+craft(battery, adhesive tape) Q=0.13294404596264842, Count=50
+craft(battery, cup of cold water) Q=0.04910352001420288, Count=50
+craft(magnet, adhesive tape) Q=0.10870057206398631, Count=50
+craft(magnet, cup of cold water) Q=0.0376880878334971, Count=50
+craft(adhesive tape, cup of cold water) Q=0.10411520123239326, Count=50
+move(Back to the kitchen) Q=0.18359272342419156, Count=50
+Action: move(Back to the kitchen)
+Reward: Action executed successfully. Change to another scene: kitchen.
+Accumulated_reward: 22
+
+Step: 44
+craft(chalk, battery) Q=0.24420269055188493, Count=50
+craft(chalk, magnet) Q=0.11493429059627212, Count=49
+craft(chalk, adhesive tape) Q=0.12736292499308277, Count=49
+craft(chalk, cup of cold water) Q=0.2923000803173296, Count=50
+craft(battery, magnet) Q=0.19497488924921125, Count=50
+craft(battery, adhesive tape) Q=0.16627243163063432, Count=50
+craft(battery, cup of cold water) Q=0.2277250372268003, Count=50
+craft(magnet, adhesive tape) Q=0.24808370614147543, Count=50
+craft(magnet, cup of cold water) Q=0.28396167196057226, Count=50
+craft(adhesive tape, cup of cold water) Q=0.3401817105223687, Count=51
+move(Back to the workspace area) Q=0.13388991528534933, Count=49
+move(Back to the windows close-up from outside) Q=0.0, Count=49
+move(To the shelf above sink close-up) Q=0.3301747972576553, Count=50
+move(To the mirror close-up) Q=0.3360223409502536, Count=51
+move(To the drawers below sink close-up) Q=0.7867974799478326, Count=53
+move(To the shelf above food preparation area close-up) Q=0.29596618675273084, Count=50
+move(To the drawers below food preparation area close-up) Q=0.010439293989715864, Count=49
+move(To the sink close-up) Q=0.3666363502877659, Count=51
+move(To the kitchen door close-up) Q=0.036768811662522785, Count=49
+Action: move(To the drawers below sink close-up)
+Reward: Action executed successfully. Change to another scene: drawers below sink close-up.
+Accumulated_reward: 22
+
+Step: 45
+click(lower left drawer below sink) Q=1.493541463261026, Count=54
+click(lower right drawer below sink) Q=1.6028080192159877, Count=55
+apply(chalk, lower left drawer below sink) Q=0.5590509280333018, Count=49
+apply(chalk, lower right drawer below sink) Q=0.6154534085634017, Count=49
+apply(battery, lower left drawer below sink) Q=0.6887395624677352, Count=50
+apply(battery, lower right drawer below sink) Q=0.6919175876518554, Count=50
+apply(magnet, lower left drawer below sink) Q=0.776113914396493, Count=50
+apply(magnet, lower right drawer below sink) Q=0.7327040822964923, Count=50
+apply(adhesive tape, lower left drawer below sink) Q=0.789552588323537, Count=50
+apply(adhesive tape, lower right drawer below sink) Q=0.7102656379042116, Count=50
+apply(cup of cold water, lower left drawer below sink) Q=0.6463869046368045, Count=49
+apply(cup of cold water, lower right drawer below sink) Q=0.8247108052589692, Count=50
+craft(chalk, battery) Q=0.7091475667260354, Count=50
+craft(chalk, magnet) Q=0.7146643702379725, Count=50
+craft(chalk, adhesive tape) Q=0.6966218291613118, Count=50
+craft(chalk, cup of cold water) Q=0.7081402232573271, Count=50
+craft(battery, magnet) Q=0.7963452007466316, Count=50
+craft(battery, adhesive tape) Q=0.5780674674669841, Count=49
+craft(battery, cup of cold water) Q=0.6021317551614006, Count=49
+craft(magnet, adhesive tape) Q=0.7694240992005545, Count=50
+craft(magnet, cup of cold water) Q=0.6891605621210792, Count=50
+craft(adhesive tape, cup of cold water) Q=0.661752481742146, Count=49
+move(Back to the kitchen) Q=0.2277402095550128, Count=47
+Action: click(lower right drawer below sink)
+Reward: Action executed successfully. You have clicked on lower right drawer below sink. The drawer on the lower right side of the sink is open now. there is a table sheet paper.
+Accumulated_reward: 23
+
+Step: 46
+click(lower left drawer below sink) Q=1.388649652797448, Count=54
+click(table sheet) Q=1.3434079208199534, Count=54
+apply(chalk, lower left drawer below sink) Q=0.6042996236744876, Count=50
+apply(chalk, table sheet) Q=0.5326417746538286, Count=49
+apply(battery, lower left drawer below sink) Q=0.6106888957251504, Count=50
+apply(battery, table sheet) Q=0.6326640050991175, Count=50
+apply(magnet, lower left drawer below sink) Q=0.5685381769038923, Count=49
+apply(magnet, table sheet) Q=0.7428095330614395, Count=50
+apply(adhesive tape, lower left drawer below sink) Q=0.6139923979209091, Count=50
+apply(adhesive tape, table sheet) Q=0.7325597652236997, Count=50
+apply(cup of cold water, lower left drawer below sink) Q=0.6314892819764646, Count=50
+apply(cup of cold water, table sheet) Q=0.6285924250362953, Count=50
+craft(chalk, battery) Q=0.6247287894511261, Count=50
+craft(chalk, magnet) Q=0.5769275127026788, Count=49
+craft(chalk, adhesive tape) Q=0.5815608143924702, Count=49
+craft(chalk, cup of cold water) Q=0.513807871870828, Count=49
+craft(battery, magnet) Q=0.6719584611027046, Count=50
+craft(battery, adhesive tape) Q=0.4997683194436479, Count=49
+craft(battery, cup of cold water) Q=0.7027044108749999, Count=50
+craft(magnet, adhesive tape) Q=0.6528902097919581, Count=50
+craft(magnet, cup of cold water) Q=0.6038299575165886, Count=50
+craft(adhesive tape, cup of cold water) Q=0.6348915889742582, Count=50
+move(Back to the kitchen) Q=0.21114529356711037, Count=48
+Action: click(lower left drawer below sink)
+Reward: Action executed successfully. You have clicked on lower left drawer below sink. The drawer on the lower left side of the sink is open now. there is a cookware set.
+Accumulated_reward: 24
+
+Step: 47
+click(table sheet) Q=1.037563844788684, Count=53
+apply(chalk, table sheet) Q=0.33337633812974643, Count=50
+apply(battery, table sheet) Q=0.3959439854778942, Count=50
+apply(magnet, table sheet) Q=0.40633586083334694, Count=50
+apply(adhesive tape, table sheet) Q=0.4165511893324839, Count=50
+apply(cup of cold water, table sheet) Q=0.48066110348818725, Count=50
+craft(chalk, battery) Q=0.3747540344812598, Count=50
+craft(chalk, magnet) Q=0.3091015859551102, Count=49
+craft(chalk, adhesive tape) Q=0.40366348600478796, Count=50
+craft(chalk, cup of cold water) Q=0.334625277109625, Count=49
+craft(battery, magnet) Q=0.40449939328441026, Count=50
+craft(battery, adhesive tape) Q=0.42784435368300905, Count=50
+craft(battery, cup of cold water) Q=0.3696337353133104, Count=50
+craft(magnet, adhesive tape) Q=0.46800577065893295, Count=50
+craft(magnet, cup of cold water) Q=0.4224685371604611, Count=50
+craft(adhesive tape, cup of cold water) Q=0.41438413098095617, Count=50
+move(Back to the kitchen) Q=0.2802238677255377, Count=49
+Action: click(table sheet)
+Reward: Action executed successfully. You have just collected a table sheet. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 25
+
+Step: 48
+craft(chalk, battery) Q=0.014955324501419788, Count=50
+craft(chalk, magnet) Q=0.04403703471456502, Count=50
+craft(chalk, adhesive tape) Q=0.0, Count=50
+craft(chalk, cup of cold water) Q=0.02761653803752263, Count=50
+craft(chalk, table sheet) Q=0.03933868274976127, Count=50
+craft(battery, magnet) Q=0.011394592646027296, Count=50
+craft(battery, adhesive tape) Q=0.04957858820077832, Count=50
+craft(battery, cup of cold water) Q=0.03874562052220107, Count=50
+craft(battery, table sheet) Q=0.010796270133114115, Count=50
+craft(magnet, adhesive tape) Q=0.026562408711718673, Count=50
+craft(magnet, cup of cold water) Q=0.02779017001853175, Count=50
+craft(magnet, table sheet) Q=0.014159093367747502, Count=50
+craft(adhesive tape, cup of cold water) Q=0.01023071658804329, Count=50
+craft(adhesive tape, table sheet) Q=0.03544052126850205, Count=50
+craft(cup of cold water, table sheet) Q=0.05079889833222843, Count=50
+move(Back to the kitchen) Q=0.09909642094335505, Count=50
+Action: move(Back to the kitchen)
+Reward: Action executed successfully. Change to another scene: kitchen.
+Accumulated_reward: 25
+
+Step: 49
+craft(chalk, battery) Q=0.1152977109670908, Count=50
+craft(chalk, magnet) Q=0.08186518867316148, Count=50
+craft(chalk, adhesive tape) Q=0.1660894748112548, Count=50
+craft(chalk, cup of cold water) Q=0.12521514509691578, Count=50
+craft(chalk, table sheet) Q=0.10482057397678063, Count=50
+craft(battery, magnet) Q=0.08113989166482449, Count=50
+craft(battery, adhesive tape) Q=0.13056535595675223, Count=50
+craft(battery, cup of cold water) Q=0.1475076290429284, Count=50
+craft(battery, table sheet) Q=0.09673536688597877, Count=50
+craft(magnet, adhesive tape) Q=0.05478416524851309, Count=50
+craft(magnet, cup of cold water) Q=0.1207824118608107, Count=50
+craft(magnet, table sheet) Q=0.11477525153779645, Count=50
+craft(adhesive tape, cup of cold water) Q=0.14830785743261446, Count=50
+craft(adhesive tape, table sheet) Q=0.15252244888159736, Count=50
+craft(cup of cold water, table sheet) Q=0.07461314799426136, Count=50
+move(Back to the workspace area) Q=0.0161210990080109, Count=49
+move(Back to the windows close-up from outside) Q=0.012272917426836179, Count=49
+move(To the shelf above sink close-up) Q=0.2985337236910487, Count=51
+move(To the mirror close-up) Q=0.23112588989028693, Count=51
+move(To the drawers below sink close-up) Q=0.0, Count=49
+move(To the shelf above food preparation area close-up) Q=0.24725343082461496, Count=51
+move(To the drawers below food preparation area close-up) Q=0.042926012479050424, Count=50
+move(To the sink close-up) Q=0.25961098377790265, Count=51
+move(To the kitchen door close-up) Q=0.022042529610588384, Count=49
+Action: move(To the shelf above sink close-up)
+Reward: Action executed successfully. Change to another scene: shelf above sink close-up.
+Accumulated_reward: 25
+
+Step: 50
+click(glycerin) Q=1.0354047764179717, Count=54
+apply(chalk, glycerin) Q=0.3216298853833697, Count=50
+apply(battery, glycerin) Q=0.3613014299237456, Count=50
+apply(magnet, glycerin) Q=0.34584542700219784, Count=50
+apply(adhesive tape, glycerin) Q=0.4132241252831351, Count=50
+apply(cup of cold water, glycerin) Q=0.39040798637146423, Count=50
+apply(table sheet, glycerin) Q=0.2890140982662406, Count=50
+craft(chalk, battery) Q=0.32592577567893305, Count=50
+craft(chalk, magnet) Q=0.2641160424297013, Count=49
+craft(chalk, adhesive tape) Q=0.28251145520013055, Count=50
+craft(chalk, cup of cold water) Q=0.27877843727619894, Count=50
+craft(chalk, table sheet) Q=0.3138067936914649, Count=50
+craft(battery, magnet) Q=0.3528732944696807, Count=50
+craft(battery, adhesive tape) Q=0.3030800884188975, Count=50
+craft(battery, cup of cold water) Q=0.24463484846106381, Count=49
+craft(battery, table sheet) Q=0.33379770997851266, Count=50
+craft(magnet, adhesive tape) Q=0.31358479571931247, Count=50
+craft(magnet, cup of cold water) Q=0.3203574138558764, Count=50
+craft(magnet, table sheet) Q=0.37109102224256774, Count=50
+craft(adhesive tape, cup of cold water) Q=0.2603989989279439, Count=49
+craft(adhesive tape, table sheet) Q=0.31846643761631765, Count=50
+craft(cup of cold water, table sheet) Q=0.33191641001137445, Count=50
+move(Back to the kitchen) Q=0.09920151527131282, Count=49
+Action: click(glycerin)
+Reward: Action executed successfully. You have just collected a glycerin. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 26
+
+Step: 51
+craft(chalk, battery) Q=0.022166921721517928, Count=50
+craft(chalk, magnet) Q=0.0, Count=50
+craft(chalk, adhesive tape) Q=0.0, Count=50
+craft(chalk, cup of cold water) Q=0.010796270133114115, Count=50
+craft(chalk, table sheet) Q=0.0, Count=50
+craft(chalk, glycerin) Q=0.014955324501419788, Count=50
+craft(battery, magnet) Q=0.010796270133114115, Count=50
+craft(battery, adhesive tape) Q=0.023395704997069673, Count=50
+craft(battery, cup of cold water) Q=0.03812062665332802, Count=50
+craft(battery, table sheet) Q=0.01023071658804329, Count=50
+craft(battery, glycerin) Q=0.022903395403740923, Count=50
+craft(magnet, adhesive tape) Q=0.0, Count=50
+craft(magnet, cup of cold water) Q=0.02346757025108296, Count=50
+craft(magnet, table sheet) Q=0.01023071658804329, Count=50
+craft(magnet, glycerin) Q=0.0, Count=50
+craft(adhesive tape, cup of cold water) Q=0.01269793949283138, Count=50
+craft(adhesive tape, table sheet) Q=0.015799168155428967, Count=50
+craft(adhesive tape, glycerin) Q=0.0, Count=50
+craft(cup of cold water, table sheet) Q=0.0, Count=50
+craft(cup of cold water, glycerin) Q=0.01669377972066061, Count=50
+craft(table sheet, glycerin) Q=0.0, Count=50
+move(Back to the kitchen) Q=0.08518266830654711, Count=50
+Action: move(Back to the kitchen)
+Reward: Action executed successfully. Change to another scene: kitchen.
+Accumulated_reward: 26
+
+Step: 52
+craft(chalk, battery) Q=0.1255493702752908, Count=50
+craft(chalk, magnet) Q=0.03528324694854351, Count=50
+craft(chalk, adhesive tape) Q=0.09184722370893927, Count=50
+craft(chalk, cup of cold water) Q=0.09630218584264968, Count=50
+craft(chalk, table sheet) Q=0.08234464735220999, Count=50
+craft(chalk, glycerin) Q=0.05333773469053429, Count=50
+craft(battery, magnet) Q=0.08180124809137775, Count=50
+craft(battery, adhesive tape) Q=0.06123427962529794, Count=50
+craft(battery, cup of cold water) Q=0.05180127894800729, Count=50
+craft(battery, table sheet) Q=0.028279444919392063, Count=50
+craft(battery, glycerin) Q=0.03822666396992512, Count=50
+craft(magnet, adhesive tape) Q=0.02346757025108296, Count=50
+craft(magnet, cup of cold water) Q=0.028324119194742974, Count=50
+craft(magnet, table sheet) Q=0.06082844564345027, Count=50
+craft(magnet, glycerin) Q=0.07357687639246815, Count=50
+craft(adhesive tape, cup of cold water) Q=0.028682739499903968, Count=50
+craft(adhesive tape, table sheet) Q=0.0530026816771283, Count=50
+craft(adhesive tape, glycerin) Q=0.08347419078758808, Count=50
+craft(cup of cold water, table sheet) Q=0.0999573810444062, Count=50
+craft(cup of cold water, glycerin) Q=0.08796430061371775, Count=50
+craft(table sheet, glycerin) Q=0.08355917282857384, Count=50
+move(Back to the workspace area) Q=0.06600747725630797, Count=50
+move(Back to the windows close-up from outside) Q=0.0, Count=49
+move(To the shelf above sink close-up) Q=0.011394592646027296, Count=50
+move(To the mirror close-up) Q=0.3516425675569357, Count=51
+move(To the drawers below sink close-up) Q=0.0, Count=49
+move(To the shelf above food preparation area close-up) Q=0.19776785226611468, Count=50
+move(To the drawers below food preparation area close-up) Q=0.026316910984952174, Count=50
+move(To the sink close-up) Q=0.2279207688620265, Count=51
+move(To the kitchen door close-up) Q=0.022166921721517928, Count=50
+Action: move(To the mirror close-up)
+Reward: Action executed successfully. Change to another scene: mirror close-up.
+Accumulated_reward: 26
+
+Step: 53
+click(mirror) Q=0.2749525623221114, Count=50
+apply(chalk, mirror) Q=0.9999999999999997, Count=54
+apply(battery, mirror) Q=0.2228219163263062, Count=50
+apply(magnet, mirror) Q=0.32032154142044794, Count=50
+apply(adhesive tape, mirror) Q=0.29006316406832855, Count=50
+apply(cup of cold water, mirror) Q=0.26236392255388885, Count=50
+apply(table sheet, mirror) Q=0.24254158439231827, Count=50
+apply(glycerin, mirror) Q=0.2586880339451685, Count=50
+craft(chalk, battery) Q=0.2175036656703746, Count=50
+craft(chalk, magnet) Q=0.3244608091585865, Count=50
+craft(chalk, adhesive tape) Q=0.27420599844956284, Count=50
+craft(chalk, cup of cold water) Q=0.2933622678853034, Count=50
+craft(chalk, table sheet) Q=0.2433645876072582, Count=50
+craft(chalk, glycerin) Q=0.19506779228936091, Count=49
+craft(battery, magnet) Q=0.3195247267852248, Count=50
+craft(battery, adhesive tape) Q=0.23242821393128674, Count=50
+craft(battery, cup of cold water) Q=0.23843253444977247, Count=50
+craft(battery, table sheet) Q=0.2081638402700132, Count=50
+craft(battery, glycerin) Q=0.24230633769337964, Count=50
+craft(magnet, adhesive tape) Q=0.21132600688045303, Count=49
+craft(magnet, cup of cold water) Q=0.2428003612639526, Count=50
+craft(magnet, table sheet) Q=0.2209795143202849, Count=50
+craft(magnet, glycerin) Q=0.22676056672437034, Count=50
+craft(adhesive tape, cup of cold water) Q=0.28080972540019444, Count=50
+craft(adhesive tape, table sheet) Q=0.30946316650218886, Count=50
+craft(adhesive tape, glycerin) Q=0.2877400321890772, Count=50
+craft(cup of cold water, table sheet) Q=0.29610097877832187, Count=50
+craft(cup of cold water, glycerin) Q=0.2828542110893875, Count=50
+craft(table sheet, glycerin) Q=0.21058366447326782, Count=49
+move(Back to the kitchen) Q=0.11233097841086682, Count=49
+Action: apply(chalk, mirror)
+Reward: Action executed successfully. You have successfully applied chalk to mirror. The mirror is covered with chalk dust.
+Accumulated_reward: 27
+
+Step: 54
+click(mirror) Q=0.0, Count=50
+apply(battery, mirror) Q=0.026316910984952178, Count=50
+apply(magnet, mirror) Q=0.01269793949283138, Count=50
+apply(adhesive tape, mirror) Q=0.0, Count=50
+apply(cup of cold water, mirror) Q=0.0, Count=50
+apply(table sheet, mirror) Q=0.02469605009922908, Count=50
+apply(glycerin, mirror) Q=0.013407541439587067, Count=50
+craft(battery, magnet) Q=0.0, Count=50
+craft(battery, adhesive tape) Q=0.0, Count=50
+craft(battery, cup of cold water) Q=0.011394592646027296, Count=50
+craft(battery, table sheet) Q=0.012027746069952204, Count=50
+craft(battery, glycerin) Q=0.014159093367747502, Count=50
+craft(magnet, adhesive tape) Q=0.0, Count=50
+craft(magnet, cup of cold water) Q=0.0, Count=50
+craft(magnet, table sheet) Q=0.010796270133114115, Count=50
+craft(magnet, glycerin) Q=0.0, Count=50
+craft(adhesive tape, cup of cold water) Q=0.014955324501419788, Count=50
+craft(adhesive tape, table sheet) Q=0.039195069046761774, Count=50
+craft(adhesive tape, glycerin) Q=0.0, Count=50
+craft(cup of cold water, table sheet) Q=0.0, Count=50
+craft(cup of cold water, glycerin) Q=0.0, Count=50
+craft(table sheet, glycerin) Q=0.0, Count=50
+move(Back to the kitchen) Q=0.04670945016640765, Count=50
+Action: move(Back to the kitchen)
+Reward: Action executed successfully. Change to another scene: kitchen.
+Accumulated_reward: 27
+
+Step: 55
+craft(battery, magnet) Q=0.09346088498686264, Count=50
+craft(battery, adhesive tape) Q=0.029073534229699133, Count=50
+craft(battery, cup of cold water) Q=0.08330017987136587, Count=50
+craft(battery, table sheet) Q=0.06682197140338723, Count=50
+craft(battery, glycerin) Q=0.0889379556224427, Count=50
+craft(magnet, adhesive tape) Q=0.09844546432395293, Count=50
+craft(magnet, cup of cold water) Q=0.015799168155428967, Count=50
+craft(magnet, table sheet) Q=0.04497167776946118, Count=50
+craft(magnet, glycerin) Q=0.04827987748313178, Count=50
+craft(adhesive tape, cup of cold water) Q=0.060515073553060086, Count=50
+craft(adhesive tape, table sheet) Q=0.058240787878107374, Count=50
+craft(adhesive tape, glycerin) Q=0.03815756594245724, Count=50
+craft(cup of cold water, table sheet) Q=0.08077269930088514, Count=50
+craft(cup of cold water, glycerin) Q=0.08905544806930069, Count=50
+craft(table sheet, glycerin) Q=0.08440868609558015, Count=50
+move(Back to the workspace area) Q=0.05083067167792231, Count=50
+move(Back to the windows close-up from outside) Q=0.012027746069952204, Count=50
+move(To the shelf above sink close-up) Q=0.0, Count=49
+move(To the mirror close-up) Q=0.03749064019982267, Count=50
+move(To the drawers below sink close-up) Q=0.026562408711718673, Count=50
+move(To the shelf above food preparation area close-up) Q=0.23093761286669173, Count=51
+move(To the drawers below food preparation area close-up) Q=0.02346757025108296, Count=50
+move(To the sink close-up) Q=0.175679909693377, Count=50
+move(To the kitchen door close-up) Q=0.0, Count=50
+Action: move(To the shelf above food preparation area close-up)
+Reward: Action executed successfully. Change to another scene: shelf above food preparation area close-up.
+Accumulated_reward: 27
+
+Step: 56
+click(left door of the shelf above food preparation area) Q=0.9999999999999997, Count=54
+click(right door of the shelf above food preparation area) Q=0.26449249228717653, Count=50
+apply(battery, left door of the shelf above food preparation area) Q=0.2853954098935201, Count=50
+apply(battery, right door of the shelf above food preparation area) Q=0.2602938317659171, Count=50
+apply(magnet, left door of the shelf above food preparation area) Q=0.20296513898890106, Count=50
+apply(magnet, right door of the shelf above food preparation area) Q=0.27114849187922957, Count=50
+apply(adhesive tape, left door of the shelf above food preparation area) Q=0.22867508823516322, Count=50
+apply(adhesive tape, right door of the shelf above food preparation area) Q=0.3039583350006557, Count=50
+apply(cup of cold water, left door of the shelf above food preparation area) Q=0.18837406210808172, Count=50
+apply(cup of cold water, right door of the shelf above food preparation area) Q=0.28461187680501115, Count=50
+apply(table sheet, left door of the shelf above food preparation area) Q=0.28651571375942975, Count=50
+apply(table sheet, right door of the shelf above food preparation area) Q=0.273874554860721, Count=50
+apply(glycerin, left door of the shelf above food preparation area) Q=0.21558839123199394, Count=50
+apply(glycerin, right door of the shelf above food preparation area) Q=0.1793615926760359, Count=50
+craft(battery, magnet) Q=0.27638674207838027, Count=50
+craft(battery, adhesive tape) Q=0.1690975214831652, Count=49
+craft(battery, cup of cold water) Q=0.2582554424071827, Count=50
+craft(battery, table sheet) Q=0.21030646603432945, Count=50
+craft(battery, glycerin) Q=0.32238208324826867, Count=50
+craft(magnet, adhesive tape) Q=0.248323597748197, Count=50
+craft(magnet, cup of cold water) Q=0.19683800349025476, Count=50
+craft(magnet, table sheet) Q=0.2322184426016506, Count=50
+craft(magnet, glycerin) Q=0.19126217583076943, Count=50
+craft(adhesive tape, cup of cold water) Q=0.2910923738074742, Count=50
+craft(adhesive tape, table sheet) Q=0.25617885943914726, Count=50
+craft(adhesive tape, glycerin) Q=0.18061184427835303, Count=49
+craft(cup of cold water, table sheet) Q=0.2630162017441817, Count=50
+craft(cup of cold water, glycerin) Q=0.28564600974116083, Count=50
+craft(table sheet, glycerin) Q=0.18244262857455296, Count=49
+move(Back to the kitchen) Q=0.035057129930636186, Count=49
+Action: click(left door of the shelf above food preparation area)
+Reward: Action executed successfully. You have clicked on left door of the shelf above food preparation area. This half of shelf door is closed. something is outside of it.
+Accumulated_reward: 28
+
+Step: 57
+click(right door of the shelf above food preparation area) Q=0.02689143538803331, Count=50
+apply(battery, right door of the shelf above food preparation area) Q=0.0, Count=50
+apply(magnet, right door of the shelf above food preparation area) Q=0.0, Count=50
+apply(adhesive tape, right door of the shelf above food preparation area) Q=0.011394592646027296, Count=50
+apply(cup of cold water, right door of the shelf above food preparation area) Q=0.0, Count=50
+apply(table sheet, right door of the shelf above food preparation area) Q=0.0, Count=50
+apply(glycerin, right door of the shelf above food preparation area) Q=0.0, Count=50
+craft(battery, magnet) Q=0.0, Count=50
+craft(battery, adhesive tape) Q=0.012027746069952204, Count=50
+craft(battery, cup of cold water) Q=0.0, Count=50
+craft(battery, table sheet) Q=0.0, Count=50
+craft(battery, glycerin) Q=0.025522409061886762, Count=50
+craft(magnet, adhesive tape) Q=0.0, Count=50
+craft(magnet, cup of cold water) Q=0.014159093367747502, Count=50
+craft(magnet, table sheet) Q=0.01269793949283138, Count=50
+craft(magnet, glycerin) Q=0.0, Count=50
+craft(adhesive tape, cup of cold water) Q=0.0, Count=50
+craft(adhesive tape, table sheet) Q=0.0, Count=50
+craft(adhesive tape, glycerin) Q=0.0, Count=50
+craft(cup of cold water, table sheet) Q=0.0, Count=50
+craft(cup of cold water, glycerin) Q=0.0, Count=50
+craft(table sheet, glycerin) Q=0.0, Count=50
+move(Back to the kitchen) Q=0.01764255650353473, Count=50
+Action: click(right door of the shelf above food preparation area)
+Reward: Nothing happens after clicking on right door of the shelf above food preparation area.
+Accumulated_reward: 28
+
+Step: 58
+click(right door of the shelf above food preparation area) Q=0.0, Count=50
+apply(battery, right door of the shelf above food preparation area) Q=0.0, Count=50
+apply(magnet, right door of the shelf above food preparation area) Q=0.0, Count=50
+apply(adhesive tape, right door of the shelf above food preparation area) Q=0.0, Count=50
+apply(cup of cold water, right door of the shelf above food preparation area) Q=0.012027746069952204, Count=50
+apply(table sheet, right door of the shelf above food preparation area) Q=0.0, Count=50
+apply(glycerin, right door of the shelf above food preparation area) Q=0.0, Count=50
+craft(battery, magnet) Q=0.0, Count=50
+craft(battery, adhesive tape) Q=0.014955324501419788, Count=50
+craft(battery, cup of cold water) Q=0.0, Count=50
+craft(battery, table sheet) Q=0.0, Count=50
+craft(battery, glycerin) Q=0.0, Count=50
+craft(magnet, adhesive tape) Q=0.0, Count=50
+craft(magnet, cup of cold water) Q=0.0, Count=50
+craft(magnet, table sheet) Q=0.0, Count=50
+craft(magnet, glycerin) Q=0.0, Count=50
+craft(adhesive tape, cup of cold water) Q=0.010796270133114115, Count=50
+craft(adhesive tape, table sheet) Q=0.022234516772856972, Count=50
+craft(adhesive tape, glycerin) Q=0.012027746069952204, Count=50
+craft(cup of cold water, table sheet) Q=0.01764255650353473, Count=50
+craft(cup of cold water, glycerin) Q=0.0, Count=50
+craft(table sheet, glycerin) Q=0.0, Count=50
+move(Back to the kitchen) Q=0.015799168155428967, Count=50
+Action: craft(adhesive tape, table sheet)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 28
+
+Step: 59
+click(right door of the shelf above food preparation area) Q=0.0, Count=50
+apply(battery, right door of the shelf above food preparation area) Q=0.01269793949283138, Count=50
+apply(magnet, right door of the shelf above food preparation area) Q=0.015799168155428967, Count=50
+apply(adhesive tape, right door of the shelf above food preparation area) Q=0.0, Count=50
+apply(cup of cold water, right door of the shelf above food preparation area) Q=0.0, Count=50
+apply(table sheet, right door of the shelf above food preparation area) Q=0.0, Count=50
+apply(glycerin, right door of the shelf above food preparation area) Q=0.011394592646027296, Count=50
+craft(battery, magnet) Q=0.01269793949283138, Count=50
+craft(battery, adhesive tape) Q=0.0, Count=50
+craft(battery, cup of cold water) Q=0.0, Count=50
+craft(battery, table sheet) Q=0.0, Count=50
+craft(battery, glycerin) Q=0.013407541439587067, Count=50
+craft(magnet, adhesive tape) Q=0.04470928112131585, Count=50
+craft(magnet, cup of cold water) Q=0.011394592646027296, Count=50
+craft(magnet, table sheet) Q=0.012027746069952204, Count=50
+craft(magnet, glycerin) Q=0.021005461793215927, Count=50
+craft(adhesive tape, cup of cold water) Q=0.0, Count=50
+craft(adhesive tape, table sheet) Q=0.0, Count=50
+craft(adhesive tape, glycerin) Q=0.028998328106581157, Count=50
+craft(cup of cold water, table sheet) Q=0.01669377972066061, Count=50
+craft(cup of cold water, glycerin) Q=0.0, Count=50
+craft(table sheet, glycerin) Q=0.0, Count=50
+move(Back to the kitchen) Q=0.04144104611672682, Count=50
+Action: craft(magnet, adhesive tape)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 28
+
+Step: 60
+click(right door of the shelf above food preparation area) Q=0.0, Count=50
+apply(battery, right door of the shelf above food preparation area) Q=0.0215698405055186, Count=50
+apply(magnet, right door of the shelf above food preparation area) Q=0.0, Count=50
+apply(adhesive tape, right door of the shelf above food preparation area) Q=0.0, Count=50
+apply(cup of cold water, right door of the shelf above food preparation area) Q=0.0, Count=50
+apply(table sheet, right door of the shelf above food preparation area) Q=0.0, Count=50
+apply(glycerin, right door of the shelf above food preparation area) Q=0.0, Count=50
+craft(battery, magnet) Q=0.0, Count=50
+craft(battery, adhesive tape) Q=0.0, Count=50
+craft(battery, cup of cold water) Q=0.0, Count=50
+craft(battery, table sheet) Q=0.0, Count=50
+craft(battery, glycerin) Q=0.01269793949283138, Count=50
+craft(magnet, adhesive tape) Q=0.0, Count=50
+craft(magnet, cup of cold water) Q=0.0, Count=50
+craft(magnet, table sheet) Q=0.010796270133114115, Count=50
+craft(magnet, glycerin) Q=0.0, Count=50
+craft(adhesive tape, cup of cold water) Q=0.0, Count=50
+craft(adhesive tape, table sheet) Q=0.01023071658804329, Count=50
+craft(adhesive tape, glycerin) Q=0.0, Count=50
+craft(cup of cold water, table sheet) Q=0.013407541439587067, Count=50
+craft(cup of cold water, glycerin) Q=0.0, Count=50
+craft(table sheet, glycerin) Q=0.0, Count=50
+move(Back to the kitchen) Q=0.024772491993949746, Count=50
+Action: move(Back to the kitchen)
+Reward: Action executed successfully. Change to another scene: kitchen.
+Accumulated_reward: 28
+
+Step: 61
+craft(battery, magnet) Q=0.02361160732194079, Count=50
+craft(battery, adhesive tape) Q=0.03646267354285, Count=50
+craft(battery, cup of cold water) Q=0.013407541439587067, Count=50
+craft(battery, table sheet) Q=0.01864915963750853, Count=50
+craft(battery, glycerin) Q=0.0, Count=50
+craft(magnet, adhesive tape) Q=0.0, Count=50
+craft(magnet, cup of cold water) Q=0.03699967002666499, Count=50
+craft(magnet, table sheet) Q=0.01864915963750853, Count=50
+craft(magnet, glycerin) Q=0.027529917959891508, Count=50
+craft(adhesive tape, cup of cold water) Q=0.054180477158642354, Count=50
+craft(adhesive tape, table sheet) Q=0.014955324501419788, Count=50
+craft(adhesive tape, glycerin) Q=0.01269793949283138, Count=50
+craft(cup of cold water, table sheet) Q=0.015799168155428967, Count=50
+craft(cup of cold water, glycerin) Q=0.014159093367747502, Count=50
+craft(table sheet, glycerin) Q=0.0, Count=50
+move(Back to the workspace area) Q=0.03254713678542543, Count=50
+move(Back to the windows close-up from outside) Q=0.0, Count=50
+move(To the shelf above sink close-up) Q=0.0, Count=50
+move(To the mirror close-up) Q=0.023395704997069677, Count=50
+move(To the drawers below sink close-up) Q=0.0, Count=49
+move(To the shelf above food preparation area close-up) Q=0.0, Count=50
+move(To the drawers below food preparation area close-up) Q=0.0, Count=50
+move(To the sink close-up) Q=0.2913674294299875, Count=51
+move(To the kitchen door close-up) Q=0.0, Count=50
+Action: move(To the sink close-up)
+Reward: Action executed successfully. Change to another scene: sink close-up.
+Accumulated_reward: 28
+
+Step: 62
+click(tap) Q=0.22509503625531171, Count=50
+click(brush) Q=0.9999999999999997, Count=54
+apply(battery, tap) Q=0.25324185487172446, Count=50
+apply(battery, brush) Q=0.24818444003076207, Count=50
+apply(magnet, tap) Q=0.272440131987734, Count=50
+apply(magnet, brush) Q=0.15943529888118005, Count=49
+apply(adhesive tape, tap) Q=0.1824047274841702, Count=50
+apply(adhesive tape, brush) Q=0.22802945946307615, Count=50
+apply(cup of cold water, tap) Q=0.2070478817744958, Count=50
+apply(cup of cold water, brush) Q=0.16977060945813188, Count=50
+apply(table sheet, tap) Q=0.2613032822601502, Count=50
+apply(table sheet, brush) Q=0.234111120932249, Count=50
+apply(glycerin, tap) Q=0.23515116782389017, Count=50
+apply(glycerin, brush) Q=0.2204990156595134, Count=50
+craft(battery, magnet) Q=0.23063160630195167, Count=50
+craft(battery, adhesive tape) Q=0.234206457559185, Count=50
+craft(battery, cup of cold water) Q=0.17638440925747423, Count=50
+craft(battery, table sheet) Q=0.24167742938884504, Count=50
+craft(battery, glycerin) Q=0.12952739577296987, Count=49
+craft(magnet, adhesive tape) Q=0.20138354271462966, Count=50
+craft(magnet, cup of cold water) Q=0.24215071731312304, Count=50
+craft(magnet, table sheet) Q=0.23471720591749248, Count=50
+craft(magnet, glycerin) Q=0.2033901049830218, Count=50
+craft(adhesive tape, cup of cold water) Q=0.32133342940665194, Count=50
+craft(adhesive tape, table sheet) Q=0.2692491448753183, Count=50
+craft(adhesive tape, glycerin) Q=0.303674811942149, Count=50
+craft(cup of cold water, table sheet) Q=0.15912451615949583, Count=49
+craft(cup of cold water, glycerin) Q=0.25846717033147015, Count=50
+craft(table sheet, glycerin) Q=0.2643108836639117, Count=50
+move(Back to the kitchen) Q=0.0, Count=49
+Action: click(brush)
+Reward: Action executed successfully. You have just collected a brush. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 29
+
+Step: 63
+click(tap) Q=0.0, Count=50
+apply(battery, tap) Q=0.0, Count=50
+apply(magnet, tap) Q=0.010796270133114115, Count=50
+apply(adhesive tape, tap) Q=0.013407541439587067, Count=50
+apply(cup of cold water, tap) Q=0.0, Count=50
+apply(table sheet, tap) Q=0.0, Count=50
+apply(glycerin, tap) Q=0.0, Count=50
+apply(brush, tap) Q=0.0, Count=50
+craft(battery, magnet) Q=0.0, Count=50
+craft(battery, adhesive tape) Q=0.0, Count=50
+craft(battery, cup of cold water) Q=0.0, Count=50
+craft(battery, table sheet) Q=0.0, Count=50
+craft(battery, glycerin) Q=0.010796270133114115, Count=50
+craft(battery, brush) Q=0.0, Count=50
+craft(magnet, adhesive tape) Q=0.0, Count=50
+craft(magnet, cup of cold water) Q=0.0, Count=50
+craft(magnet, table sheet) Q=0.0, Count=50
+craft(magnet, glycerin) Q=0.0, Count=50
+craft(magnet, brush) Q=0.0, Count=50
+craft(adhesive tape, cup of cold water) Q=0.0, Count=50
+craft(adhesive tape, table sheet) Q=0.0, Count=50
+craft(adhesive tape, glycerin) Q=0.0, Count=50
+craft(adhesive tape, brush) Q=0.0, Count=50
+craft(cup of cold water, table sheet) Q=0.013407541439587067, Count=50
+craft(cup of cold water, glycerin) Q=0.0, Count=50
+craft(cup of cold water, brush) Q=0.0, Count=50
+craft(table sheet, glycerin) Q=0.0, Count=50
+craft(table sheet, brush) Q=0.0, Count=50
+craft(glycerin, brush) Q=0.0, Count=50
+move(Back to the kitchen) Q=0.03912341506875044, Count=50
+Action: move(Back to the kitchen)
+Reward: Action executed successfully. Change to another scene: kitchen.
+Accumulated_reward: 29
+
+Step: 64
+craft(battery, magnet) Q=0.03710606215673647, Count=50
+craft(battery, adhesive tape) Q=0.0, Count=50
+craft(battery, cup of cold water) Q=0.0412437348128859, Count=50
+craft(battery, table sheet) Q=0.0, Count=50
+craft(battery, glycerin) Q=0.06351039716308049, Count=50
+craft(battery, brush) Q=0.053506133870069784, Count=50
+craft(magnet, adhesive tape) Q=0.07369856031677927, Count=50
+craft(magnet, cup of cold water) Q=0.1007306569022033, Count=50
+craft(magnet, table sheet) Q=0.04583505297680745, Count=50
+craft(magnet, glycerin) Q=0.015799168155428967, Count=50
+craft(magnet, brush) Q=0.0, Count=49
+craft(adhesive tape, cup of cold water) Q=0.04449929735593649, Count=50
+craft(adhesive tape, table sheet) Q=0.02689143538803331, Count=50
+craft(adhesive tape, glycerin) Q=0.014159093367747502, Count=50
+craft(adhesive tape, brush) Q=0.062319107706191645, Count=50
+craft(cup of cold water, table sheet) Q=0.0, Count=50
+craft(cup of cold water, glycerin) Q=0.05083067167792231, Count=50
+craft(cup of cold water, brush) Q=0.0, Count=50
+craft(table sheet, glycerin) Q=0.049209203890995076, Count=50
+craft(table sheet, brush) Q=0.0, Count=50
+craft(glycerin, brush) Q=0.0, Count=50
+move(Back to the workspace area) Q=0.06562249670527215, Count=50
+move(Back to the windows close-up from outside) Q=0.013407541439587067, Count=50
+move(To the shelf above sink close-up) Q=0.0, Count=50
+move(To the mirror close-up) Q=0.24573906859616193, Count=51
+move(To the drawers below sink close-up) Q=0.0, Count=50
+move(To the shelf above food preparation area close-up) Q=0.01023071658804329, Count=50
+move(To the drawers below food preparation area close-up) Q=0.0, Count=50
+move(To the sink close-up) Q=0.0, Count=50
+move(To the kitchen door close-up) Q=0.0, Count=50
+Action: move(To the mirror close-up)
+Reward: Action executed successfully. Change to another scene: mirror close-up.
+Accumulated_reward: 29
+
+Step: 65
+click(mirror) Q=0.26017865979368393, Count=49
+apply(battery, mirror) Q=0.3088762707488839, Count=50
+apply(magnet, mirror) Q=0.26375716373518343, Count=49
+apply(adhesive tape, mirror) Q=0.32524324308638375, Count=50
+apply(cup of cold water, mirror) Q=0.3641598730444034, Count=50
+apply(table sheet, mirror) Q=0.39086961840338286, Count=50
+apply(glycerin, mirror) Q=0.26353542647646333, Count=49
+apply(brush, mirror) Q=1.4473267254644302, Count=56
+craft(battery, magnet) Q=0.2261605481256021, Count=49
+craft(battery, adhesive tape) Q=0.40956154550991725, Count=50
+craft(battery, cup of cold water) Q=0.2803411427935789, Count=50
+craft(battery, table sheet) Q=0.3969798275945546, Count=50
+craft(battery, glycerin) Q=0.3483843179682965, Count=50
+craft(battery, brush) Q=0.469946665389505, Count=51
+craft(magnet, adhesive tape) Q=0.18368576912191098, Count=49
+craft(magnet, cup of cold water) Q=0.30637057248186267, Count=50
+craft(magnet, table sheet) Q=0.3331855846158746, Count=50
+craft(magnet, glycerin) Q=0.43440246010515116, Count=50
+craft(magnet, brush) Q=0.4091704915803026, Count=50
+craft(adhesive tape, cup of cold water) Q=0.38758795552404224, Count=50
+craft(adhesive tape, table sheet) Q=0.33666059798562, Count=50
+craft(adhesive tape, glycerin) Q=0.4035525787218624, Count=50
+craft(adhesive tape, brush) Q=0.2785255859459289, Count=50
+craft(cup of cold water, table sheet) Q=0.30375422234402216, Count=50
+craft(cup of cold water, glycerin) Q=0.3928512379114994, Count=50
+craft(cup of cold water, brush) Q=0.37613954648136944, Count=50
+craft(table sheet, glycerin) Q=0.3592597551520077, Count=50
+craft(table sheet, brush) Q=0.31331127774733736, Count=50
+craft(glycerin, brush) Q=0.3642794080070164, Count=50
+move(Back to the kitchen) Q=0.017388190007724152, Count=48
+Action: apply(brush, mirror)
+Reward: Action executed successfully. You have successfully applied brush to mirror. A clear fingerprint on the mirror shows up in chalk dust.
+Accumulated_reward: 30
+
+Step: 66
+click(mirror) Q=0.4108543129018571, Count=50
+apply(battery, mirror) Q=0.3032891609665369, Count=50
+apply(magnet, mirror) Q=0.4192340033063239, Count=50
+apply(adhesive tape, mirror) Q=1.3054247667960315, Count=55
+apply(cup of cold water, mirror) Q=0.3784639119138456, Count=50
+apply(table sheet, mirror) Q=0.3044434358286104, Count=49
+apply(glycerin, mirror) Q=0.48272056236710176, Count=50
+craft(battery, magnet) Q=0.4101222161918907, Count=50
+craft(battery, adhesive tape) Q=0.3680462951026316, Count=50
+craft(battery, cup of cold water) Q=0.4411081571127737, Count=50
+craft(battery, table sheet) Q=0.4449601736218917, Count=50
+craft(battery, glycerin) Q=0.37167606983567186, Count=50
+craft(magnet, adhesive tape) Q=0.31760324983690147, Count=50
+craft(magnet, cup of cold water) Q=0.4436943779714557, Count=50
+craft(magnet, table sheet) Q=0.4325356976706546, Count=50
+craft(magnet, glycerin) Q=0.3518247910412112, Count=50
+craft(adhesive tape, cup of cold water) Q=0.4148688792469272, Count=50
+craft(adhesive tape, table sheet) Q=0.3530357241622373, Count=50
+craft(adhesive tape, glycerin) Q=0.2968882203259843, Count=49
+craft(cup of cold water, table sheet) Q=0.2674705986114615, Count=49
+craft(cup of cold water, glycerin) Q=0.4249676127637255, Count=50
+craft(table sheet, glycerin) Q=0.3661202502535683, Count=50
+move(Back to the kitchen) Q=0.04504886646376091, Count=48
+Action: apply(adhesive tape, mirror)
+Reward: Action executed successfully. You have successfully applied adhesive tape to mirror. The fingerprint on the mirror is successfully copied onto the adhesive tape. you can tear that piece of tape off the mirror now.
+Accumulated_reward: 31
+
+Step: 67
+click(adhesive tape with fingerprint) Q=0.9999999999999997, Count=54
+apply(battery, adhesive tape with fingerprint) Q=0.34321013100942105, Count=50
+apply(magnet, adhesive tape with fingerprint) Q=0.2604961740272388, Count=49
+apply(cup of cold water, adhesive tape with fingerprint) Q=0.2815055461963245, Count=50
+apply(table sheet, adhesive tape with fingerprint) Q=0.31882926422204144, Count=50
+apply(glycerin, adhesive tape with fingerprint) Q=0.29383110565349235, Count=50
+craft(battery, magnet) Q=0.29066790284131666, Count=50
+craft(battery, cup of cold water) Q=0.3484692331406347, Count=50
+craft(battery, table sheet) Q=0.28458122264693075, Count=50
+craft(battery, glycerin) Q=0.28656211125659137, Count=50
+craft(magnet, cup of cold water) Q=0.32376089999136776, Count=50
+craft(magnet, table sheet) Q=0.31286113606086385, Count=50
+craft(magnet, glycerin) Q=0.24593796939406357, Count=49
+craft(cup of cold water, table sheet) Q=0.3816728733836305, Count=50
+craft(cup of cold water, glycerin) Q=0.38334731119110976, Count=50
+craft(table sheet, glycerin) Q=0.37162985809591753, Count=50
+move(Back to the kitchen) Q=0.058812698700708724, Count=48
+Action: click(adhesive tape with fingerprint)
+Reward: Action executed successfully. You have just collected a adhesive tape with fingerprint. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 32
+
+Step: 68
+craft(battery, magnet) Q=0.0, Count=50
+craft(battery, cup of cold water) Q=0.0, Count=50
+craft(battery, table sheet) Q=0.0, Count=50
+craft(battery, glycerin) Q=0.0, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(magnet, cup of cold water) Q=0.0, Count=50
+craft(magnet, table sheet) Q=0.0, Count=50
+craft(magnet, glycerin) Q=0.0, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(cup of cold water, table sheet) Q=0.0, Count=50
+craft(cup of cold water, glycerin) Q=0.0, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.01269793949283138, Count=50
+craft(table sheet, glycerin) Q=0.0, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.0, Count=50
+move(Back to the kitchen) Q=0.0, Count=50
+Action: craft(cup of cold water, adhesive tape with fingerprint)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 32
+
+Step: 69
+craft(battery, magnet) Q=0.0, Count=50
+craft(battery, cup of cold water) Q=0.0, Count=50
+craft(battery, table sheet) Q=0.0, Count=50
+craft(battery, glycerin) Q=0.0, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(magnet, cup of cold water) Q=0.0, Count=50
+craft(magnet, table sheet) Q=0.0, Count=50
+craft(magnet, glycerin) Q=0.0, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(cup of cold water, table sheet) Q=0.0, Count=50
+craft(cup of cold water, glycerin) Q=0.0, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(table sheet, glycerin) Q=0.0, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.0, Count=50
+move(Back to the kitchen) Q=0.0, Count=50
+Action: craft(battery, magnet)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 32
+
+Step: 70
+craft(battery, magnet) Q=0.0, Count=50
+craft(battery, cup of cold water) Q=0.0, Count=50
+craft(battery, table sheet) Q=0.0, Count=50
+craft(battery, glycerin) Q=0.0, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(magnet, cup of cold water) Q=0.0, Count=50
+craft(magnet, table sheet) Q=0.0, Count=50
+craft(magnet, glycerin) Q=0.0, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(cup of cold water, table sheet) Q=0.0, Count=50
+craft(cup of cold water, glycerin) Q=0.0, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(table sheet, glycerin) Q=0.011394592646027296, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.0, Count=50
+move(Back to the kitchen) Q=0.0, Count=50
+Action: craft(table sheet, glycerin)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 32
+
+Step: 71
+craft(battery, magnet) Q=0.0, Count=50
+craft(battery, cup of cold water) Q=0.0, Count=50
+craft(battery, table sheet) Q=0.0, Count=50
+craft(battery, glycerin) Q=0.011394592646027296, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(magnet, cup of cold water) Q=0.0, Count=50
+craft(magnet, table sheet) Q=0.0, Count=50
+craft(magnet, glycerin) Q=0.0, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(cup of cold water, table sheet) Q=0.0, Count=50
+craft(cup of cold water, glycerin) Q=0.0, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(table sheet, glycerin) Q=0.0, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.0, Count=50
+move(Back to the kitchen) Q=0.01269793949283138, Count=50
+Action: move(Back to the kitchen)
+Reward: Action executed successfully. Change to another scene: kitchen.
+Accumulated_reward: 32
+
+Step: 72
+craft(battery, magnet) Q=0.0, Count=50
+craft(battery, cup of cold water) Q=0.0, Count=50
+craft(battery, table sheet) Q=0.0, Count=50
+craft(battery, glycerin) Q=0.0, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(magnet, cup of cold water) Q=0.0, Count=50
+craft(magnet, table sheet) Q=0.0, Count=50
+craft(magnet, glycerin) Q=0.0, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.01023071658804329, Count=50
+craft(cup of cold water, table sheet) Q=0.0, Count=50
+craft(cup of cold water, glycerin) Q=0.0, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(table sheet, glycerin) Q=0.0, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.0, Count=50
+move(Back to the workspace area) Q=0.03740946195402305, Count=50
+move(Back to the windows close-up from outside) Q=0.0, Count=50
+move(To the shelf above sink close-up) Q=0.0, Count=50
+move(To the mirror close-up) Q=0.0, Count=50
+move(To the drawers below sink close-up) Q=0.0, Count=50
+move(To the shelf above food preparation area close-up) Q=0.0, Count=50
+move(To the drawers below food preparation area close-up) Q=0.0, Count=50
+move(To the sink close-up) Q=0.01023071658804329, Count=50
+move(To the kitchen door close-up) Q=0.0, Count=50
+Action: move(Back to the workspace area)
+Reward: Action executed successfully. Change to another scene: workspace area.
+Accumulated_reward: 32
+
+Step: 73
+craft(battery, magnet) Q=0.02805160070560958, Count=50
+craft(battery, cup of cold water) Q=0.04371524962560921, Count=50
+craft(battery, table sheet) Q=0.01971753831302526, Count=50
+craft(battery, glycerin) Q=0.0, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.01764255650353473, Count=50
+craft(magnet, cup of cold water) Q=0.010796270133114115, Count=50
+craft(magnet, table sheet) Q=0.01023071658804329, Count=50
+craft(magnet, glycerin) Q=0.03179027878745782, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.0215698405055186, Count=50
+craft(cup of cold water, table sheet) Q=0.011394592646027296, Count=50
+craft(cup of cold water, glycerin) Q=0.04024662431730213, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.060787737715448875, Count=50
+craft(table sheet, glycerin) Q=0.010796270133114115, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.07591437874333, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.0, Count=50
+move(Back to the windows close-up from outside) Q=0.024175706315856457, Count=50
+move(To the workspace cabinet close-up) Q=0.0, Count=50
+move(To the desk close-up) Q=0.0, Count=50
+move(To the workspace shelf close-up) Q=0.0, Count=50
+move(To the car photos and map close-up) Q=0.1881425642067024, Count=50
+move(To the attic) Q=0.0, Count=50
+move(To the kitchen) Q=0.0, Count=50
+move(To the living room) Q=0.09364010476358224, Count=50
+Action: move(To the car photos and map close-up)
+Reward: Action executed successfully. Change to another scene: car photos and map close-up.
+Accumulated_reward: 32
+
+Step: 74
+click(black-and-white car photo) Q=0.19567133241669327, Count=50
+click(colored car photo) Q=0.22401251247679896, Count=50
+click(map) Q=0.9999999999999997, Count=54
+apply(battery, black-and-white car photo) Q=0.22054491942643742, Count=50
+apply(battery, colored car photo) Q=0.20461417975958793, Count=50
+apply(battery, map) Q=0.22169251726571754, Count=50
+apply(magnet, black-and-white car photo) Q=0.19495250526420926, Count=50
+apply(magnet, colored car photo) Q=0.21549737526725732, Count=50
+apply(magnet, map) Q=0.2694622654217096, Count=50
+apply(cup of cold water, black-and-white car photo) Q=0.29648596432657576, Count=50
+apply(cup of cold water, colored car photo) Q=0.19357802340811628, Count=50
+apply(cup of cold water, map) Q=0.14433252334907148, Count=49
+apply(table sheet, black-and-white car photo) Q=0.2982152048919246, Count=50
+apply(table sheet, colored car photo) Q=0.19540150047240346, Count=50
+apply(table sheet, map) Q=0.15223514471180596, Count=49
+apply(glycerin, black-and-white car photo) Q=0.23149724665591237, Count=50
+apply(glycerin, colored car photo) Q=0.31420367298102714, Count=50
+apply(glycerin, map) Q=0.2770810137502067, Count=50
+apply(adhesive tape with fingerprint, black-and-white car photo) Q=0.19674048281340195, Count=50
+apply(adhesive tape with fingerprint, colored car photo) Q=0.23820760963186818, Count=50
+apply(adhesive tape with fingerprint, map) Q=0.19555328001528266, Count=50
+craft(battery, magnet) Q=0.20051172539371181, Count=50
+craft(battery, cup of cold water) Q=0.17868368322608869, Count=50
+craft(battery, table sheet) Q=0.2543659103552512, Count=50
+craft(battery, glycerin) Q=0.2159492357282254, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.17299322033113362, Count=49
+craft(magnet, cup of cold water) Q=0.18007958184767808, Count=50
+craft(magnet, table sheet) Q=0.23188716363851186, Count=50
+craft(magnet, glycerin) Q=0.23589693032742726, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.2357876599098409, Count=50
+craft(cup of cold water, table sheet) Q=0.251306814269807, Count=50
+craft(cup of cold water, glycerin) Q=0.17901959047597718, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.24492169560192995, Count=50
+craft(table sheet, glycerin) Q=0.2086817394810098, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.2647060751357463, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.17909778051112435, Count=50
+move(Back to the workspace area) Q=0.04178487585060442, Count=49
+Action: click(map)
+Reward: Action executed successfully. You have just collected a map. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 33
+
+Step: 75
+click(black-and-white car photo) Q=0.0, Count=50
+click(colored car photo) Q=0.0, Count=50
+apply(battery, black-and-white car photo) Q=0.0, Count=50
+apply(battery, colored car photo) Q=0.0, Count=50
+apply(magnet, black-and-white car photo) Q=0.0, Count=50
+apply(magnet, colored car photo) Q=0.0, Count=50
+apply(cup of cold water, black-and-white car photo) Q=0.0, Count=50
+apply(cup of cold water, colored car photo) Q=0.0, Count=50
+apply(table sheet, black-and-white car photo) Q=0.0, Count=50
+apply(table sheet, colored car photo) Q=0.0, Count=50
+apply(glycerin, black-and-white car photo) Q=0.0, Count=50
+apply(glycerin, colored car photo) Q=0.0, Count=50
+apply(adhesive tape with fingerprint, black-and-white car photo) Q=0.0, Count=50
+apply(adhesive tape with fingerprint, colored car photo) Q=0.0, Count=50
+apply(map, black-and-white car photo) Q=0.0, Count=50
+apply(map, colored car photo) Q=0.0, Count=50
+craft(battery, magnet) Q=0.0, Count=50
+craft(battery, cup of cold water) Q=0.0, Count=50
+craft(battery, table sheet) Q=0.0, Count=50
+craft(battery, glycerin) Q=0.0, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(battery, map) Q=0.0, Count=50
+craft(magnet, cup of cold water) Q=0.0, Count=50
+craft(magnet, table sheet) Q=0.0, Count=50
+craft(magnet, glycerin) Q=0.0, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(magnet, map) Q=0.0, Count=50
+craft(cup of cold water, table sheet) Q=0.0, Count=50
+craft(cup of cold water, glycerin) Q=0.0, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.01023071658804329, Count=50
+craft(cup of cold water, map) Q=0.0, Count=50
+craft(table sheet, glycerin) Q=0.0, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(table sheet, map) Q=0.0, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(glycerin, map) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, map) Q=0.0, Count=50
+move(Back to the workspace area) Q=0.010796270133114115, Count=50
+Action: move(Back to the workspace area)
+Reward: Action executed successfully. Change to another scene: workspace area.
+Accumulated_reward: 33
+
+Step: 76
+craft(battery, magnet) Q=0.0, Count=50
+craft(battery, cup of cold water) Q=0.0, Count=50
+craft(battery, table sheet) Q=0.0, Count=50
+craft(battery, glycerin) Q=0.0, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(battery, map) Q=0.012027746069952204, Count=50
+craft(magnet, cup of cold water) Q=0.0, Count=50
+craft(magnet, table sheet) Q=0.0, Count=50
+craft(magnet, glycerin) Q=0.0, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(magnet, map) Q=0.0, Count=50
+craft(cup of cold water, table sheet) Q=0.01764255650353473, Count=50
+craft(cup of cold water, glycerin) Q=0.0, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(cup of cold water, map) Q=0.0, Count=50
+craft(table sheet, glycerin) Q=0.01269793949283138, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(table sheet, map) Q=0.011394592646027296, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(glycerin, map) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, map) Q=0.010796270133114115, Count=50
+move(Back to the windows close-up from outside) Q=0.0, Count=50
+move(To the workspace cabinet close-up) Q=0.0, Count=50
+move(To the desk close-up) Q=0.0, Count=50
+move(To the workspace shelf close-up) Q=0.0, Count=50
+move(To the car photos and map close-up) Q=0.0, Count=50
+move(To the attic) Q=0.012027746069952204, Count=50
+move(To the kitchen) Q=0.0, Count=50
+move(To the living room) Q=0.03461627824747417, Count=50
+Action: move(To the living room)
+Reward: Action executed successfully. Change to another scene: living room.
+Accumulated_reward: 33
+
+Step: 77
+craft(battery, magnet) Q=0.03751190180911244, Count=50
+craft(battery, cup of cold water) Q=0.13131595192736212, Count=50
+craft(battery, table sheet) Q=0.0487730464561993, Count=50
+craft(battery, glycerin) Q=0.039808982452223446, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.09034293999914318, Count=50
+craft(battery, map) Q=0.04041984789016165, Count=50
+craft(magnet, cup of cold water) Q=0.024027399133373286, Count=50
+craft(magnet, table sheet) Q=0.04576589526864999, Count=50
+craft(magnet, glycerin) Q=0.04571073067512309, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.10375644715284252, Count=50
+craft(magnet, map) Q=0.05753092582788469, Count=50
+craft(cup of cold water, table sheet) Q=0.06584239758897406, Count=50
+craft(cup of cold water, glycerin) Q=0.04402677365109809, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.07777592860742658, Count=50
+craft(cup of cold water, map) Q=0.05244502792642178, Count=50
+craft(table sheet, glycerin) Q=0.07759773512589418, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.05685018477361142, Count=50
+craft(table sheet, map) Q=0.06958606621922195, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.08619209774128639, Count=50
+craft(glycerin, map) Q=0.01764255650353473, Count=50
+craft(adhesive tape with fingerprint, map) Q=0.03937194278507136, Count=50
+move(Back to the workspace area) Q=0.0, Count=49
+move(Back to the windows close-up from outside) Q=0.0, Count=50
+move(To the living room cabinet close-up) Q=0.0, Count=49
+move(To the clock and photos close-up) Q=0.23197223253046712, Count=51
+move(To the living room shelf close-up) Q=0.01269793949283138, Count=50
+move(To the living room drawer close-up) Q=0.010796270133114115, Count=50
+move(To the fireplace close-up) Q=0.2986424899963797, Count=51
+move(To the ceiling door close-up) Q=0.013407541439587067, Count=50
+Action: move(To the fireplace close-up)
+Reward: Action executed successfully. Change to another scene: fireplace close-up.
+Accumulated_reward: 33
+
+Step: 78
+click(fireplace) Q=0.2652986826747362, Count=49
+click(spade card) Q=1.1919302675469658, Count=54
+click(fire stick) Q=1.1242801566386498, Count=54
+apply(battery, fireplace) Q=0.41540652710157155, Count=50
+apply(battery, spade card) Q=0.3776670934916584, Count=50
+apply(battery, fire stick) Q=0.2745077389066938, Count=49
+apply(magnet, fireplace) Q=0.2886983063054975, Count=49
+apply(magnet, spade card) Q=0.4562910001995656, Count=50
+apply(magnet, fire stick) Q=0.33945615701814297, Count=50
+apply(cup of cold water, fireplace) Q=0.3384485363102616, Count=50
+apply(cup of cold water, spade card) Q=0.3641295993305597, Count=50
+apply(cup of cold water, fire stick) Q=0.4142644982034684, Count=50
+apply(table sheet, fireplace) Q=0.3524683122440617, Count=50
+apply(table sheet, spade card) Q=0.34224280399418894, Count=50
+apply(table sheet, fire stick) Q=0.406589770340972, Count=50
+apply(glycerin, fireplace) Q=0.31064633571643924, Count=50
+apply(glycerin, spade card) Q=0.3823391324951132, Count=50
+apply(glycerin, fire stick) Q=0.42087475825192777, Count=50
+apply(adhesive tape with fingerprint, fireplace) Q=0.3560858566004532, Count=50
+apply(adhesive tape with fingerprint, spade card) Q=0.4245476624192074, Count=50
+apply(adhesive tape with fingerprint, fire stick) Q=0.3560874672160853, Count=50
+apply(map, fireplace) Q=0.23749094884030192, Count=49
+apply(map, spade card) Q=0.43195113283570064, Count=50
+apply(map, fire stick) Q=0.3094294950610822, Count=50
+craft(battery, magnet) Q=0.3626877574220829, Count=50
+craft(battery, cup of cold water) Q=0.3777482854090115, Count=50
+craft(battery, table sheet) Q=0.34128416585753013, Count=50
+craft(battery, glycerin) Q=0.41294396868867134, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.4207793413858407, Count=50
+craft(battery, map) Q=0.3234982958653462, Count=50
+craft(magnet, cup of cold water) Q=0.3984288998416827, Count=50
+craft(magnet, table sheet) Q=0.33365825784410763, Count=50
+craft(magnet, glycerin) Q=0.3710765810310803, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.21067809399123294, Count=49
+craft(magnet, map) Q=0.41613988630597787, Count=50
+craft(cup of cold water, table sheet) Q=0.3332468997451143, Count=50
+craft(cup of cold water, glycerin) Q=0.4461215061148096, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.4257297428692347, Count=50
+craft(cup of cold water, map) Q=0.4746441610480647, Count=50
+craft(table sheet, glycerin) Q=0.43287305094182593, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.4101834124216598, Count=50
+craft(table sheet, map) Q=0.2782059693396366, Count=49
+craft(glycerin, adhesive tape with fingerprint) Q=0.3793276202793747, Count=50
+craft(glycerin, map) Q=0.36045523161717097, Count=50
+craft(adhesive tape with fingerprint, map) Q=0.3331064376508365, Count=50
+move(Back to the living room) Q=0.08455436218962184, Count=48
+Action: click(spade card)
+Reward: Action executed successfully. You have just collected a spade card. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 34
+
+Step: 79
+click(fireplace) Q=0.22022883076501984, Count=50
+click(fire stick) Q=0.9999999999999997, Count=54
+apply(battery, fireplace) Q=0.16184642423582418, Count=50
+apply(battery, fire stick) Q=0.22881567946537512, Count=50
+apply(magnet, fireplace) Q=0.2611704831475431, Count=50
+apply(magnet, fire stick) Q=0.2322564954643274, Count=50
+apply(cup of cold water, fireplace) Q=0.21978695480861205, Count=50
+apply(cup of cold water, fire stick) Q=0.13764253208163352, Count=50
+apply(table sheet, fireplace) Q=0.21136406380465275, Count=50
+apply(table sheet, fire stick) Q=0.14726418674682623, Count=50
+apply(glycerin, fireplace) Q=0.13671315079764168, Count=50
+apply(glycerin, fire stick) Q=0.20620422976322111, Count=50
+apply(adhesive tape with fingerprint, fireplace) Q=0.160245824443433, Count=50
+apply(adhesive tape with fingerprint, fire stick) Q=0.20808521702424337, Count=50
+apply(map, fireplace) Q=0.25539379261569173, Count=50
+apply(map, fire stick) Q=0.20047417695336414, Count=50
+apply(spade card, fireplace) Q=0.08720787123026001, Count=49
+apply(spade card, fire stick) Q=0.23169978006806857, Count=50
+craft(battery, magnet) Q=0.15043174118093117, Count=50
+craft(battery, cup of cold water) Q=0.07349811976084851, Count=49
+craft(battery, table sheet) Q=0.1066280661562224, Count=50
+craft(battery, glycerin) Q=0.1488569804041157, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.19696116976470596, Count=50
+craft(battery, map) Q=0.19206643875424603, Count=50
+craft(battery, spade card) Q=0.16513795623572194, Count=50
+craft(magnet, cup of cold water) Q=0.2584738068802358, Count=50
+craft(magnet, table sheet) Q=0.20764493326620165, Count=50
+craft(magnet, glycerin) Q=0.21962071963712151, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.15456091724741677, Count=50
+craft(magnet, map) Q=0.18557164401129217, Count=50
+craft(magnet, spade card) Q=0.14333266500434544, Count=50
+craft(cup of cold water, table sheet) Q=0.12869237977257114, Count=50
+craft(cup of cold water, glycerin) Q=0.06234990041113782, Count=49
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.2681256458795606, Count=50
+craft(cup of cold water, map) Q=0.20808836191711347, Count=50
+craft(cup of cold water, spade card) Q=0.27694918119742185, Count=50
+craft(table sheet, glycerin) Q=0.22775834775612355, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.20637091584146666, Count=50
+craft(table sheet, map) Q=0.13477766544820594, Count=50
+craft(table sheet, spade card) Q=0.15964640039468544, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.1738939205255398, Count=50
+craft(glycerin, map) Q=0.15672304333803616, Count=50
+craft(glycerin, spade card) Q=0.24971899217081972, Count=50
+craft(adhesive tape with fingerprint, map) Q=0.20024553741742138, Count=50
+craft(adhesive tape with fingerprint, spade card) Q=0.19523757922898227, Count=50
+craft(map, spade card) Q=0.1807959681044778, Count=50
+move(Back to the living room) Q=0.08670542744713983, Count=49
+Action: click(fire stick)
+Reward: Action executed successfully. You have just collected a fire stick. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 35
+
+Step: 80
+click(fireplace) Q=0.0, Count=50
+apply(battery, fireplace) Q=0.0, Count=50
+apply(magnet, fireplace) Q=0.0, Count=50
+apply(cup of cold water, fireplace) Q=0.0, Count=50
+apply(table sheet, fireplace) Q=0.015799168155428967, Count=50
+apply(glycerin, fireplace) Q=0.0, Count=50
+apply(adhesive tape with fingerprint, fireplace) Q=0.0, Count=50
+apply(map, fireplace) Q=0.0, Count=50
+apply(spade card, fireplace) Q=0.0, Count=50
+apply(fire stick, fireplace) Q=0.01269793949283138, Count=50
+craft(battery, magnet) Q=0.013407541439587067, Count=50
+craft(battery, cup of cold water) Q=0.0, Count=50
+craft(battery, table sheet) Q=0.0, Count=50
+craft(battery, glycerin) Q=0.0, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(battery, map) Q=0.022166921721517928, Count=50
+craft(battery, spade card) Q=0.0, Count=50
+craft(battery, fire stick) Q=0.0, Count=50
+craft(magnet, cup of cold water) Q=0.0, Count=50
+craft(magnet, table sheet) Q=0.0, Count=50
+craft(magnet, glycerin) Q=0.0, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(magnet, map) Q=0.0, Count=50
+craft(magnet, spade card) Q=0.0, Count=50
+craft(magnet, fire stick) Q=0.0, Count=50
+craft(cup of cold water, table sheet) Q=0.01269793949283138, Count=50
+craft(cup of cold water, glycerin) Q=0.0, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(cup of cold water, map) Q=0.013407541439587067, Count=50
+craft(cup of cold water, spade card) Q=0.0, Count=50
+craft(cup of cold water, fire stick) Q=0.0, Count=50
+craft(table sheet, glycerin) Q=0.0, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(table sheet, map) Q=0.0, Count=50
+craft(table sheet, spade card) Q=0.0, Count=50
+craft(table sheet, fire stick) Q=0.0, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(glycerin, map) Q=0.0, Count=50
+craft(glycerin, spade card) Q=0.0, Count=50
+craft(glycerin, fire stick) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, map) Q=0.01023071658804329, Count=50
+craft(adhesive tape with fingerprint, spade card) Q=0.026948256040232967, Count=50
+craft(adhesive tape with fingerprint, fire stick) Q=0.0, Count=50
+craft(map, spade card) Q=0.0, Count=50
+craft(map, fire stick) Q=0.0, Count=50
+craft(spade card, fire stick) Q=0.0, Count=50
+move(Back to the living room) Q=0.03770597267871896, Count=50
+Action: move(Back to the living room)
+Reward: Action executed successfully. Change to another scene: living room.
+Accumulated_reward: 35
+
+Step: 81
+craft(battery, magnet) Q=0.03175356391339315, Count=50
+craft(battery, cup of cold water) Q=0.02469605009922908, Count=50
+craft(battery, table sheet) Q=0.014955324501419788, Count=50
+craft(battery, glycerin) Q=0.04571073067512309, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.02962935464655084, Count=50
+craft(battery, map) Q=0.0, Count=50
+craft(battery, spade card) Q=0.07171870999906958, Count=50
+craft(battery, fire stick) Q=0.012027746069952204, Count=50
+craft(magnet, cup of cold water) Q=0.01269793949283138, Count=50
+craft(magnet, table sheet) Q=0.011394592646027296, Count=50
+craft(magnet, glycerin) Q=0.02477249199394975, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.029583401634259272, Count=50
+craft(magnet, map) Q=0.03529585912828233, Count=50
+craft(magnet, spade card) Q=0.028458346094336607, Count=50
+craft(magnet, fire stick) Q=0.03063366892941321, Count=50
+craft(cup of cold water, table sheet) Q=0.057570229889958954, Count=50
+craft(cup of cold water, glycerin) Q=0.0409769961312922, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.05630603340520929, Count=50
+craft(cup of cold water, map) Q=0.05610158291042107, Count=50
+craft(cup of cold water, spade card) Q=0.026562408711718673, Count=50
+craft(cup of cold water, fire stick) Q=0.013407541439587067, Count=50
+craft(table sheet, glycerin) Q=0.028402018221891263, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(table sheet, map) Q=0.060627735007332303, Count=50
+craft(table sheet, spade card) Q=0.029073534229699133, Count=50
+craft(table sheet, fire stick) Q=0.011394592646027296, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.053105576363627345, Count=50
+craft(glycerin, map) Q=0.07961586285508347, Count=50
+craft(glycerin, spade card) Q=0.0, Count=50
+craft(glycerin, fire stick) Q=0.08364389040053118, Count=50
+craft(adhesive tape with fingerprint, map) Q=0.026177718651991824, Count=50
+craft(adhesive tape with fingerprint, spade card) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, fire stick) Q=0.029915111896952146, Count=50
+craft(map, spade card) Q=0.08025259778397054, Count=50
+craft(map, fire stick) Q=0.0, Count=50
+craft(spade card, fire stick) Q=0.047154794040052586, Count=50
+move(Back to the workspace area) Q=0.0, Count=50
+move(Back to the windows close-up from outside) Q=0.0, Count=50
+move(To the living room cabinet close-up) Q=0.0, Count=50
+move(To the clock and photos close-up) Q=0.300911642332542, Count=51
+move(To the living room shelf close-up) Q=0.020441022284618995, Count=50
+move(To the living room drawer close-up) Q=0.0, Count=50
+move(To the fireplace close-up) Q=0.010796270133114115, Count=50
+move(To the ceiling door close-up) Q=0.0, Count=49
+Action: move(To the clock and photos close-up)
+Reward: Action executed successfully. Change to another scene: clock and photos close-up.
+Accumulated_reward: 35
+
+Step: 82
+click(adhesive tape remaining) Q=0.34931640893359855, Count=50
+click(scalpel) Q=1.1873109981849659, Count=55
+apply(battery, adhesive tape remaining) Q=0.24150038009953684, Count=50
+apply(battery, scalpel) Q=0.21333583577516393, Count=49
+apply(magnet, adhesive tape remaining) Q=0.28312145481760886, Count=50
+apply(magnet, scalpel) Q=0.3661950304712778, Count=50
+apply(cup of cold water, adhesive tape remaining) Q=0.3457024851776039, Count=50
+apply(cup of cold water, scalpel) Q=0.3143055159084455, Count=50
+apply(table sheet, adhesive tape remaining) Q=0.32133637146311417, Count=50
+apply(table sheet, scalpel) Q=0.1901716479513667, Count=49
+apply(glycerin, adhesive tape remaining) Q=0.3138285665998212, Count=50
+apply(glycerin, scalpel) Q=0.23252525391782786, Count=49
+apply(adhesive tape with fingerprint, adhesive tape remaining) Q=0.2658955849850688, Count=50
+apply(adhesive tape with fingerprint, scalpel) Q=0.24009782202022206, Count=50
+apply(map, adhesive tape remaining) Q=0.33463571778906476, Count=50
+apply(map, scalpel) Q=0.4036451026072865, Count=50
+apply(spade card, adhesive tape remaining) Q=1.2369402415158421, Count=55
+apply(spade card, scalpel) Q=0.3510294320082867, Count=50
+apply(fire stick, adhesive tape remaining) Q=0.28683004387797845, Count=50
+apply(fire stick, scalpel) Q=0.4744698246473477, Count=51
+craft(battery, magnet) Q=0.23586806699221957, Count=50
+craft(battery, cup of cold water) Q=0.2671285608858317, Count=50
+craft(battery, table sheet) Q=0.2348557685326429, Count=49
+craft(battery, glycerin) Q=0.3024442131013994, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.22910525325666636, Count=49
+craft(battery, map) Q=0.44278784767263346, Count=51
+craft(battery, spade card) Q=0.2736416647291122, Count=50
+craft(battery, fire stick) Q=0.30057635710529346, Count=50
+craft(magnet, cup of cold water) Q=0.3192236081217554, Count=50
+craft(magnet, table sheet) Q=0.19983898609739686, Count=49
+craft(magnet, glycerin) Q=0.2106882097917828, Count=49
+craft(magnet, adhesive tape with fingerprint) Q=0.43228021519290877, Count=50
+craft(magnet, map) Q=0.2781906171050935, Count=50
+craft(magnet, spade card) Q=0.2162922686397721, Count=49
+craft(magnet, fire stick) Q=0.30273106243314396, Count=50
+craft(cup of cold water, table sheet) Q=0.40387282479388853, Count=50
+craft(cup of cold water, glycerin) Q=0.27595959346113497, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.36685642604825924, Count=50
+craft(cup of cold water, map) Q=0.21369920719093885, Count=49
+craft(cup of cold water, spade card) Q=0.38547867533466273, Count=50
+craft(cup of cold water, fire stick) Q=0.24922654395254978, Count=50
+craft(table sheet, glycerin) Q=0.32062512883432853, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.27332843127628387, Count=50
+craft(table sheet, map) Q=0.32830778922215775, Count=50
+craft(table sheet, spade card) Q=0.20692999086996433, Count=49
+craft(table sheet, fire stick) Q=0.36674927106864796, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.2633217804614232, Count=50
+craft(glycerin, map) Q=0.3234573102740131, Count=50
+craft(glycerin, spade card) Q=0.3272615246789865, Count=50
+craft(glycerin, fire stick) Q=0.1312923431236179, Count=49
+craft(adhesive tape with fingerprint, map) Q=0.38427921890420524, Count=50
+craft(adhesive tape with fingerprint, spade card) Q=0.280977317886658, Count=50
+craft(adhesive tape with fingerprint, fire stick) Q=0.2739801694029464, Count=50
+craft(map, spade card) Q=0.3602080887790599, Count=50
+craft(map, fire stick) Q=0.2950559926733323, Count=50
+craft(spade card, fire stick) Q=0.29034745911505455, Count=50
+move(Back to the living room) Q=0.0897437181626332, Count=49
+Action: apply(spade card, adhesive tape remaining)
+Reward: Action executed successfully. You have successfully applied spade card to adhesive tape remaining. The spade card is stuck onto the wall. now it is observed that there is a heart card, two spade cards, and a "= 395" next.
+Accumulated_reward: 36
+
+Step: 83
+click(scalpel) Q=0.9999999999999997, Count=54
+apply(battery, scalpel) Q=0.25551638598347426, Count=50
+apply(magnet, scalpel) Q=0.20683273301743538, Count=50
+apply(cup of cold water, scalpel) Q=0.2253952628600877, Count=50
+apply(table sheet, scalpel) Q=0.1547890131354815, Count=49
+apply(glycerin, scalpel) Q=0.24380217173714755, Count=50
+apply(adhesive tape with fingerprint, scalpel) Q=0.2988425583981992, Count=50
+apply(map, scalpel) Q=0.22420340242680886, Count=50
+apply(fire stick, scalpel) Q=0.18219712727720638, Count=50
+craft(battery, magnet) Q=0.20309072734044528, Count=50
+craft(battery, cup of cold water) Q=0.22070853021755113, Count=50
+craft(battery, table sheet) Q=0.23666364328310902, Count=50
+craft(battery, glycerin) Q=0.32739809921602325, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.2432698975626824, Count=50
+craft(battery, map) Q=0.13631993679916327, Count=49
+craft(battery, fire stick) Q=0.2527225047972619, Count=50
+craft(magnet, cup of cold water) Q=0.11581021210542136, Count=49
+craft(magnet, table sheet) Q=0.2495927185810889, Count=50
+craft(magnet, glycerin) Q=0.2360435663521297, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.22948387384339405, Count=50
+craft(magnet, map) Q=0.1994084116911602, Count=50
+craft(magnet, fire stick) Q=0.1798054107848239, Count=50
+craft(cup of cold water, table sheet) Q=0.1956823282653534, Count=50
+craft(cup of cold water, glycerin) Q=0.2408264106914544, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.2455426362296792, Count=50
+craft(cup of cold water, map) Q=0.16575045120790133, Count=50
+craft(cup of cold water, fire stick) Q=0.218262320457557, Count=50
+craft(table sheet, glycerin) Q=0.229964925554825, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.2137592593948015, Count=50
+craft(table sheet, map) Q=0.187870860259847, Count=50
+craft(table sheet, fire stick) Q=0.15488233275494626, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.17181016610324049, Count=50
+craft(glycerin, map) Q=0.20250555903923678, Count=50
+craft(glycerin, fire stick) Q=0.20075018395074345, Count=50
+craft(adhesive tape with fingerprint, map) Q=0.2561091427830182, Count=50
+craft(adhesive tape with fingerprint, fire stick) Q=0.24441059630621798, Count=50
+craft(map, fire stick) Q=0.1713588688166353, Count=50
+move(Back to the living room) Q=0.0, Count=49
+Action: click(scalpel)
+Reward: Action executed successfully. You have just collected a scalpel. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 37
+
+Step: 84
+craft(battery, magnet) Q=0.0, Count=50
+craft(battery, cup of cold water) Q=0.0, Count=50
+craft(battery, table sheet) Q=0.013407541439587067, Count=50
+craft(battery, glycerin) Q=0.0, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(battery, map) Q=0.0, Count=50
+craft(battery, fire stick) Q=0.0, Count=50
+craft(battery, scalpel) Q=0.0, Count=50
+craft(magnet, cup of cold water) Q=0.0, Count=50
+craft(magnet, table sheet) Q=0.0, Count=50
+craft(magnet, glycerin) Q=0.0, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(magnet, map) Q=0.0, Count=50
+craft(magnet, fire stick) Q=0.0, Count=50
+craft(magnet, scalpel) Q=0.0, Count=50
+craft(cup of cold water, table sheet) Q=0.0, Count=50
+craft(cup of cold water, glycerin) Q=0.0, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.014159093367747502, Count=50
+craft(cup of cold water, map) Q=0.0, Count=50
+craft(cup of cold water, fire stick) Q=0.0, Count=50
+craft(cup of cold water, scalpel) Q=0.0, Count=50
+craft(table sheet, glycerin) Q=0.0, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(table sheet, map) Q=0.0, Count=50
+craft(table sheet, fire stick) Q=0.0, Count=50
+craft(table sheet, scalpel) Q=0.0, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(glycerin, map) Q=0.0, Count=50
+craft(glycerin, fire stick) Q=0.0, Count=50
+craft(glycerin, scalpel) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, map) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, fire stick) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, scalpel) Q=0.0, Count=50
+craft(map, fire stick) Q=0.0, Count=50
+craft(map, scalpel) Q=0.0, Count=50
+craft(fire stick, scalpel) Q=0.0, Count=50
+move(Back to the living room) Q=0.0, Count=50
+Action: craft(cup of cold water, adhesive tape with fingerprint)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 37
+
+Step: 85
+craft(battery, magnet) Q=0.0, Count=50
+craft(battery, cup of cold water) Q=0.0, Count=50
+craft(battery, table sheet) Q=0.0, Count=50
+craft(battery, glycerin) Q=0.0, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(battery, map) Q=0.010796270133114115, Count=50
+craft(battery, fire stick) Q=0.0, Count=50
+craft(battery, scalpel) Q=0.0, Count=50
+craft(magnet, cup of cold water) Q=0.0, Count=50
+craft(magnet, table sheet) Q=0.0, Count=50
+craft(magnet, glycerin) Q=0.0, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(magnet, map) Q=0.0, Count=50
+craft(magnet, fire stick) Q=0.0, Count=50
+craft(magnet, scalpel) Q=0.0, Count=50
+craft(cup of cold water, table sheet) Q=0.0, Count=50
+craft(cup of cold water, glycerin) Q=0.0, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(cup of cold water, map) Q=0.0, Count=50
+craft(cup of cold water, fire stick) Q=0.0, Count=50
+craft(cup of cold water, scalpel) Q=0.0, Count=50
+craft(table sheet, glycerin) Q=0.013407541439587067, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(table sheet, map) Q=0.0, Count=50
+craft(table sheet, fire stick) Q=0.0, Count=50
+craft(table sheet, scalpel) Q=0.0, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(glycerin, map) Q=0.0, Count=50
+craft(glycerin, fire stick) Q=0.0, Count=50
+craft(glycerin, scalpel) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, map) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, fire stick) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, scalpel) Q=0.0, Count=50
+craft(map, fire stick) Q=0.0, Count=50
+craft(map, scalpel) Q=0.0, Count=50
+craft(fire stick, scalpel) Q=0.0, Count=50
+move(Back to the living room) Q=0.0, Count=50
+Action: craft(table sheet, glycerin)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 37
+
+Step: 86
+craft(battery, magnet) Q=0.0, Count=50
+craft(battery, cup of cold water) Q=0.0, Count=50
+craft(battery, table sheet) Q=0.0, Count=50
+craft(battery, glycerin) Q=0.0, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(battery, map) Q=0.0, Count=50
+craft(battery, fire stick) Q=0.0, Count=50
+craft(battery, scalpel) Q=0.0, Count=50
+craft(magnet, cup of cold water) Q=0.0, Count=50
+craft(magnet, table sheet) Q=0.0, Count=50
+craft(magnet, glycerin) Q=0.0, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(magnet, map) Q=0.0, Count=50
+craft(magnet, fire stick) Q=0.0, Count=50
+craft(magnet, scalpel) Q=0.0, Count=50
+craft(cup of cold water, table sheet) Q=0.010796270133114115, Count=50
+craft(cup of cold water, glycerin) Q=0.014955324501419788, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(cup of cold water, map) Q=0.0, Count=50
+craft(cup of cold water, fire stick) Q=0.010796270133114115, Count=50
+craft(cup of cold water, scalpel) Q=0.0, Count=50
+craft(table sheet, glycerin) Q=0.0, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(table sheet, map) Q=0.0, Count=50
+craft(table sheet, fire stick) Q=0.0, Count=50
+craft(table sheet, scalpel) Q=0.0, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(glycerin, map) Q=0.0, Count=50
+craft(glycerin, fire stick) Q=0.0, Count=50
+craft(glycerin, scalpel) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, map) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, fire stick) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, scalpel) Q=0.0, Count=50
+craft(map, fire stick) Q=0.0, Count=50
+craft(map, scalpel) Q=0.0, Count=50
+craft(fire stick, scalpel) Q=0.0, Count=50
+move(Back to the living room) Q=0.014955324501419788, Count=50
+Action: move(Back to the living room)
+Reward: Action executed successfully. Change to another scene: living room.
+Accumulated_reward: 37
+
+Step: 87
+craft(battery, magnet) Q=0.0, Count=50
+craft(battery, cup of cold water) Q=0.01864915963750853, Count=50
+craft(battery, table sheet) Q=0.0, Count=50
+craft(battery, glycerin) Q=0.020441022284618995, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.01864915963750853, Count=50
+craft(battery, map) Q=0.011394592646027296, Count=50
+craft(battery, fire stick) Q=0.014159093367747502, Count=50
+craft(battery, scalpel) Q=0.030396245514184458, Count=50
+craft(magnet, cup of cold water) Q=0.0, Count=50
+craft(magnet, table sheet) Q=0.013407541439587067, Count=50
+craft(magnet, glycerin) Q=0.0, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.012027746069952204, Count=50
+craft(magnet, map) Q=0.0, Count=50
+craft(magnet, fire stick) Q=0.030807325485320808, Count=50
+craft(magnet, scalpel) Q=0.0, Count=50
+craft(cup of cold water, table sheet) Q=0.0, Count=50
+craft(cup of cold water, glycerin) Q=0.034279803512668156, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(cup of cold water, map) Q=0.045710730675123094, Count=50
+craft(cup of cold water, fire stick) Q=0.0, Count=50
+craft(cup of cold water, scalpel) Q=0.0, Count=50
+craft(table sheet, glycerin) Q=0.0, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.036086772193224356, Count=50
+craft(table sheet, map) Q=0.0, Count=50
+craft(table sheet, fire stick) Q=0.012027746069952204, Count=50
+craft(table sheet, scalpel) Q=0.02640837190355693, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.022166921721517928, Count=50
+craft(glycerin, map) Q=0.010796270133114115, Count=50
+craft(glycerin, fire stick) Q=0.0, Count=50
+craft(glycerin, scalpel) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, map) Q=0.05055871579032845, Count=50
+craft(adhesive tape with fingerprint, fire stick) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, scalpel) Q=0.011394592646027296, Count=50
+craft(map, fire stick) Q=0.026948256040232967, Count=50
+craft(map, scalpel) Q=0.027721510102590798, Count=50
+craft(fire stick, scalpel) Q=0.0, Count=50
+move(Back to the workspace area) Q=0.0, Count=50
+move(Back to the windows close-up from outside) Q=0.0, Count=50
+move(To the living room cabinet close-up) Q=0.13505737473678134, Count=50
+move(To the clock and photos close-up) Q=0.0, Count=50
+move(To the living room shelf close-up) Q=0.0, Count=50
+move(To the living room drawer close-up) Q=0.0, Count=50
+move(To the fireplace close-up) Q=0.0, Count=50
+move(To the ceiling door close-up) Q=0.01269793949283138, Count=50
+Action: move(To the living room cabinet close-up)
+Reward: Action executed successfully. Change to another scene: living room cabinet close-up.
+Accumulated_reward: 37
+
+Step: 88
+click(wooden barrel) Q=0.09547394249739422, Count=50
+apply(battery, wooden barrel) Q=0.20377160076759987, Count=50
+apply(magnet, wooden barrel) Q=0.2070935782340607, Count=50
+apply(cup of cold water, wooden barrel) Q=0.16086782781061637, Count=50
+apply(table sheet, wooden barrel) Q=0.22315776848846813, Count=50
+apply(glycerin, wooden barrel) Q=0.0929582351240564, Count=49
+apply(adhesive tape with fingerprint, wooden barrel) Q=0.09057283269935898, Count=49
+apply(map, wooden barrel) Q=0.1411683505641279, Count=50
+apply(fire stick, wooden barrel) Q=0.1801972878700432, Count=50
+apply(scalpel, wooden barrel) Q=1.1447523955100285, Count=55
+craft(battery, magnet) Q=0.1573413702818011, Count=50
+craft(battery, cup of cold water) Q=0.22204028198497042, Count=50
+craft(battery, table sheet) Q=0.17280207253580016, Count=50
+craft(battery, glycerin) Q=0.14220385053955903, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.16498847222683172, Count=50
+craft(battery, map) Q=0.1283801703908367, Count=50
+craft(battery, fire stick) Q=0.17975210663651084, Count=50
+craft(battery, scalpel) Q=0.1213162011467378, Count=50
+craft(magnet, cup of cold water) Q=0.12601427496375278, Count=50
+craft(magnet, table sheet) Q=0.22702199642767645, Count=50
+craft(magnet, glycerin) Q=0.19634171530547415, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.24768223359157834, Count=50
+craft(magnet, map) Q=0.14647282499422265, Count=50
+craft(magnet, fire stick) Q=0.15471623206130064, Count=50
+craft(magnet, scalpel) Q=0.11467316470367331, Count=50
+craft(cup of cold water, table sheet) Q=0.13253039283286197, Count=50
+craft(cup of cold water, glycerin) Q=0.1467159159722199, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.2185188005627443, Count=50
+craft(cup of cold water, map) Q=0.18989888940744654, Count=50
+craft(cup of cold water, fire stick) Q=0.12932940480843844, Count=50
+craft(cup of cold water, scalpel) Q=0.2666028039689682, Count=50
+craft(table sheet, glycerin) Q=0.11426140829993611, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.1686560216264076, Count=50
+craft(table sheet, map) Q=0.22703208440507439, Count=50
+craft(table sheet, fire stick) Q=0.16652087387849984, Count=50
+craft(table sheet, scalpel) Q=0.1881596839307433, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.21317996876753523, Count=50
+craft(glycerin, map) Q=0.174277624318303, Count=50
+craft(glycerin, fire stick) Q=0.17462550020240436, Count=50
+craft(glycerin, scalpel) Q=0.1804822663037247, Count=50
+craft(adhesive tape with fingerprint, map) Q=0.1413013729419247, Count=50
+craft(adhesive tape with fingerprint, fire stick) Q=0.1841466185228144, Count=50
+craft(adhesive tape with fingerprint, scalpel) Q=0.15558708256693243, Count=50
+craft(map, fire stick) Q=0.18711556383240965, Count=50
+craft(map, scalpel) Q=0.1316950801570952, Count=50
+craft(fire stick, scalpel) Q=0.10938155583980542, Count=50
+move(Back to the living room) Q=0.0, Count=49
+move(To the living room safe close-up) Q=0.0, Count=49
+move(To the toolbox close-up) Q=0.014447650523041242, Count=49
+Action: apply(scalpel, wooden barrel)
+Reward: Action executed successfully. You have successfully applied scalpel to wooden barrel. A piece of rope is cut off the barrel.
+Accumulated_reward: 38
+
+Step: 89
+click(rope) Q=0.9999999999999997, Count=54
+apply(battery, rope) Q=0.17668580946065052, Count=50
+apply(magnet, rope) Q=0.1937100687513107, Count=50
+apply(cup of cold water, rope) Q=0.14798417060173533, Count=50
+apply(table sheet, rope) Q=0.18618858121199355, Count=50
+apply(glycerin, rope) Q=0.15758165724545178, Count=50
+apply(adhesive tape with fingerprint, rope) Q=0.18306526998104378, Count=50
+apply(map, rope) Q=0.18391053614358852, Count=50
+apply(fire stick, rope) Q=0.16102982626251355, Count=50
+craft(battery, magnet) Q=0.1968344077424286, Count=50
+craft(battery, cup of cold water) Q=0.1673085565319117, Count=50
+craft(battery, table sheet) Q=0.24839356955277672, Count=50
+craft(battery, glycerin) Q=0.17944930572267614, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.23961674170367736, Count=50
+craft(battery, map) Q=0.23937998250806747, Count=50
+craft(battery, fire stick) Q=0.176269359758498, Count=50
+craft(magnet, cup of cold water) Q=0.14615235503439636, Count=50
+craft(magnet, table sheet) Q=0.20342407144225177, Count=50
+craft(magnet, glycerin) Q=0.10174554703073288, Count=49
+craft(magnet, adhesive tape with fingerprint) Q=0.10020098878349282, Count=50
+craft(magnet, map) Q=0.17997020336508399, Count=50
+craft(magnet, fire stick) Q=0.17875686506817612, Count=50
+craft(cup of cold water, table sheet) Q=0.24151542182490673, Count=50
+craft(cup of cold water, glycerin) Q=0.1865306699282168, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.11725011874720047, Count=50
+craft(cup of cold water, map) Q=0.24129658305716561, Count=50
+craft(cup of cold water, fire stick) Q=0.16340845401720702, Count=50
+craft(table sheet, glycerin) Q=0.18828521217908042, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.19583358903614242, Count=50
+craft(table sheet, map) Q=0.20476232867324212, Count=50
+craft(table sheet, fire stick) Q=0.22466942275049778, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.24973404795290993, Count=50
+craft(glycerin, map) Q=0.1684141705535912, Count=50
+craft(glycerin, fire stick) Q=0.2258140622368775, Count=50
+craft(adhesive tape with fingerprint, map) Q=0.2188715589179024, Count=50
+craft(adhesive tape with fingerprint, fire stick) Q=0.11199664452645242, Count=50
+craft(map, fire stick) Q=0.13168098444421886, Count=50
+move(Back to the living room) Q=0.013680801948031557, Count=49
+move(To the living room safe close-up) Q=0.027496755634497626, Count=49
+move(To the toolbox close-up) Q=0.010439293989715864, Count=49
+Action: click(rope)
+Reward: Action executed successfully. You have just collected a rope. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 39
+
+Step: 90
+craft(battery, magnet) Q=0.0, Count=50
+craft(battery, cup of cold water) Q=0.0, Count=50
+craft(battery, table sheet) Q=0.0, Count=50
+craft(battery, glycerin) Q=0.0, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(battery, map) Q=0.010796270133114115, Count=50
+craft(battery, fire stick) Q=0.0, Count=50
+craft(battery, rope) Q=0.0, Count=50
+craft(magnet, cup of cold water) Q=0.013407541439587067, Count=50
+craft(magnet, table sheet) Q=0.0, Count=50
+craft(magnet, glycerin) Q=0.0, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(magnet, map) Q=0.0, Count=50
+craft(magnet, fire stick) Q=0.0, Count=50
+craft(magnet, rope) Q=0.0, Count=50
+craft(cup of cold water, table sheet) Q=0.0, Count=50
+craft(cup of cold water, glycerin) Q=0.0, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(cup of cold water, map) Q=0.0, Count=50
+craft(cup of cold water, fire stick) Q=0.0, Count=50
+craft(cup of cold water, rope) Q=0.0, Count=50
+craft(table sheet, glycerin) Q=0.0, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(table sheet, map) Q=0.0, Count=50
+craft(table sheet, fire stick) Q=0.01023071658804329, Count=50
+craft(table sheet, rope) Q=0.0, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(glycerin, map) Q=0.0, Count=50
+craft(glycerin, fire stick) Q=0.0, Count=50
+craft(glycerin, rope) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, map) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, fire stick) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, rope) Q=0.0, Count=50
+craft(map, fire stick) Q=0.0, Count=50
+craft(map, rope) Q=0.0, Count=50
+craft(fire stick, rope) Q=0.0, Count=50
+move(Back to the living room) Q=0.025720299689660678, Count=50
+move(To the living room safe close-up) Q=0.0, Count=50
+move(To the toolbox close-up) Q=0.0, Count=50
+Action: move(Back to the living room)
+Reward: Action executed successfully. Change to another scene: living room.
+Accumulated_reward: 39
+
+Step: 91
+craft(battery, magnet) Q=0.01764255650353473, Count=50
+craft(battery, cup of cold water) Q=0.014159093367747502, Count=50
+craft(battery, table sheet) Q=0.02761653803752263, Count=50
+craft(battery, glycerin) Q=0.0, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(battery, map) Q=0.0, Count=50
+craft(battery, fire stick) Q=0.0, Count=50
+craft(battery, rope) Q=0.01269793949283138, Count=50
+craft(magnet, cup of cold water) Q=0.06548676446342616, Count=50
+craft(magnet, table sheet) Q=0.015799168155428967, Count=50
+craft(magnet, glycerin) Q=0.01023071658804329, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.03770597267871896, Count=50
+craft(magnet, map) Q=0.03895015015048696, Count=50
+craft(magnet, fire stick) Q=0.01669377972066061, Count=50
+craft(magnet, rope) Q=0.012027746069952204, Count=50
+craft(cup of cold water, table sheet) Q=0.014159093367747502, Count=50
+craft(cup of cold water, glycerin) Q=0.026822230957032546, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(cup of cold water, map) Q=0.0, Count=50
+craft(cup of cold water, fire stick) Q=0.01269793949283138, Count=50
+craft(cup of cold water, rope) Q=0.014955324501419788, Count=50
+craft(table sheet, glycerin) Q=0.013407541439587067, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.011394592646027296, Count=50
+craft(table sheet, map) Q=0.0, Count=50
+craft(table sheet, fire stick) Q=0.0, Count=50
+craft(table sheet, rope) Q=0.0, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.02469605009922908, Count=50
+craft(glycerin, map) Q=0.014955324501419788, Count=50
+craft(glycerin, fire stick) Q=0.01764255650353473, Count=50
+craft(glycerin, rope) Q=0.022166921721517928, Count=50
+craft(adhesive tape with fingerprint, map) Q=0.024175706315856464, Count=50
+craft(adhesive tape with fingerprint, fire stick) Q=0.046005972901583814, Count=50
+craft(adhesive tape with fingerprint, rope) Q=0.01764255650353473, Count=50
+craft(map, fire stick) Q=0.028324119194742974, Count=50
+craft(map, rope) Q=0.010796270133114115, Count=50
+craft(fire stick, rope) Q=0.043256521606795315, Count=50
+move(Back to the workspace area) Q=0.0, Count=49
+move(Back to the windows close-up from outside) Q=0.0, Count=50
+move(To the living room cabinet close-up) Q=0.01023071658804329, Count=50
+move(To the clock and photos close-up) Q=0.0, Count=50
+move(To the living room shelf close-up) Q=0.0, Count=50
+move(To the living room drawer close-up) Q=0.010796270133114115, Count=50
+move(To the fireplace close-up) Q=0.0, Count=50
+move(To the ceiling door close-up) Q=0.2003680771738393, Count=51
+Action: move(To the ceiling door close-up)
+Reward: Action executed successfully. Change to another scene: ceiling door close-up.
+Accumulated_reward: 39
+
+Step: 92
+click(ceiling door) Q=0.24810584154650658, Count=50
+apply(battery, ceiling door) Q=0.25362341093693663, Count=50
+apply(magnet, ceiling door) Q=0.18405474304523112, Count=50
+apply(cup of cold water, ceiling door) Q=0.18597024873091586, Count=50
+apply(table sheet, ceiling door) Q=0.21257711028668486, Count=50
+apply(glycerin, ceiling door) Q=0.1671629285165916, Count=50
+apply(adhesive tape with fingerprint, ceiling door) Q=0.18313228476474003, Count=50
+apply(map, ceiling door) Q=0.18132052357957767, Count=50
+apply(fire stick, ceiling door) Q=0.16725869580126185, Count=50
+apply(rope, ceiling door) Q=1.0212103490241293, Count=54
+craft(battery, magnet) Q=0.24408177084422703, Count=50
+craft(battery, cup of cold water) Q=0.1065778317923274, Count=49
+craft(battery, table sheet) Q=0.18518179755524036, Count=50
+craft(battery, glycerin) Q=0.2183455778589729, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.21161211193280172, Count=50
+craft(battery, map) Q=0.1717450346355904, Count=50
+craft(battery, fire stick) Q=0.2679296749547361, Count=50
+craft(battery, rope) Q=0.1641776109010299, Count=50
+craft(magnet, cup of cold water) Q=0.18306704924490244, Count=50
+craft(magnet, table sheet) Q=0.18266274247387815, Count=50
+craft(magnet, glycerin) Q=0.17492358144108835, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.14184705331513375, Count=50
+craft(magnet, map) Q=0.2583999619796164, Count=50
+craft(magnet, fire stick) Q=0.1413468887185546, Count=50
+craft(magnet, rope) Q=0.27421809293298843, Count=50
+craft(cup of cold water, table sheet) Q=0.22162495709418553, Count=50
+craft(cup of cold water, glycerin) Q=0.10528484686889329, Count=49
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.2305241034730789, Count=50
+craft(cup of cold water, map) Q=0.20750099663174842, Count=50
+craft(cup of cold water, fire stick) Q=0.21001583269869117, Count=50
+craft(cup of cold water, rope) Q=0.21440160168677452, Count=50
+craft(table sheet, glycerin) Q=0.15704257558818485, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.17729215262191544, Count=50
+craft(table sheet, map) Q=0.19314943623306502, Count=50
+craft(table sheet, fire stick) Q=0.22167754600421385, Count=50
+craft(table sheet, rope) Q=0.20041891825053038, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.17178477960213975, Count=50
+craft(glycerin, map) Q=0.13775592666060066, Count=50
+craft(glycerin, fire stick) Q=0.10864275943099867, Count=49
+craft(glycerin, rope) Q=0.22123885262514809, Count=50
+craft(adhesive tape with fingerprint, map) Q=0.257603109852957, Count=50
+craft(adhesive tape with fingerprint, fire stick) Q=0.19101271746885473, Count=50
+craft(adhesive tape with fingerprint, rope) Q=0.14268812682016302, Count=50
+craft(map, fire stick) Q=0.18546828899911394, Count=50
+craft(map, rope) Q=0.20349173700535106, Count=50
+craft(fire stick, rope) Q=0.13734978611062246, Count=50
+move(Back to the living room) Q=0.06483748306368729, Count=49
+Action: apply(rope, ceiling door)
+Reward: Action executed successfully. You have successfully applied rope to ceiling door. Now the rope has been tied to the hook on the ceiling door. you can enter the second floor by climbing the rope.
+Accumulated_reward: 40
+
+Step: 93
+craft(battery, magnet) Q=0.02761653803752263, Count=50
+craft(battery, cup of cold water) Q=0.011394592646027296, Count=50
+craft(battery, table sheet) Q=0.010796270133114115, Count=50
+craft(battery, glycerin) Q=0.024925708130555144, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.010796270133114115, Count=50
+craft(battery, map) Q=0.01764255650353473, Count=50
+craft(battery, fire stick) Q=0.03487764856522098, Count=50
+craft(magnet, cup of cold water) Q=0.0, Count=50
+craft(magnet, table sheet) Q=0.024027399133373286, Count=50
+craft(magnet, glycerin) Q=0.012027746069952204, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.027529917959891508, Count=50
+craft(magnet, map) Q=0.041310270671754454, Count=50
+craft(magnet, fire stick) Q=0.011394592646027296, Count=50
+craft(cup of cold water, table sheet) Q=0.01023071658804329, Count=50
+craft(cup of cold water, glycerin) Q=0.04701803187964649, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.015799168155428967, Count=50
+craft(cup of cold water, map) Q=0.039579962442484413, Count=50
+craft(cup of cold water, fire stick) Q=0.0, Count=50
+craft(table sheet, glycerin) Q=0.04040397915316675, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.013407541439587067, Count=50
+craft(table sheet, map) Q=0.04064883255821182, Count=50
+craft(table sheet, fire stick) Q=0.01764255650353473, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.0386325972809506, Count=50
+craft(glycerin, map) Q=0.0412437348128859, Count=50
+craft(glycerin, fire stick) Q=0.022763935069651096, Count=50
+craft(adhesive tape with fingerprint, map) Q=0.07001665426809538, Count=50
+craft(adhesive tape with fingerprint, fire stick) Q=0.03424727386163512, Count=50
+craft(map, fire stick) Q=0.010796270133114115, Count=50
+move(Back to the living room) Q=0.0, Count=49
+move(To the second floor) Q=0.23617279182630962, Count=51
+Action: move(To the second floor)
+Reward: Action executed successfully. Change to another scene: second floor.
+Accumulated_reward: 40
+
+Step: 94
+click(fireplace pipe) Q=0.1826591433819987, Count=50
+click(handle) Q=0.9999999999999997, Count=54
+apply(battery, fireplace pipe) Q=0.19581993395152214, Count=50
+apply(battery, handle) Q=0.16605976428047112, Count=50
+apply(magnet, fireplace pipe) Q=0.20521528681706572, Count=50
+apply(magnet, handle) Q=0.16445374502500598, Count=50
+apply(cup of cold water, fireplace pipe) Q=0.2299311073622667, Count=50
+apply(cup of cold water, handle) Q=0.2678425165394352, Count=50
+apply(table sheet, fireplace pipe) Q=0.16261850443262904, Count=50
+apply(table sheet, handle) Q=0.1863319370590607, Count=50
+apply(glycerin, fireplace pipe) Q=0.18200951294082307, Count=50
+apply(glycerin, handle) Q=0.18083522772266927, Count=50
+apply(adhesive tape with fingerprint, fireplace pipe) Q=0.18293596905069523, Count=50
+apply(adhesive tape with fingerprint, handle) Q=0.2416527010056689, Count=50
+apply(map, fireplace pipe) Q=0.20852266789603335, Count=50
+apply(map, handle) Q=0.19608779476177213, Count=50
+apply(fire stick, fireplace pipe) Q=0.19604048327858556, Count=50
+apply(fire stick, handle) Q=0.1972531742611492, Count=50
+craft(battery, magnet) Q=0.20310068481358878, Count=50
+craft(battery, cup of cold water) Q=0.19906481562551684, Count=50
+craft(battery, table sheet) Q=0.11554411116011595, Count=49
+craft(battery, glycerin) Q=0.21668807563454298, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.19698535532856587, Count=50
+craft(battery, map) Q=0.1263273496340571, Count=49
+craft(battery, fire stick) Q=0.15368841433362954, Count=50
+craft(magnet, cup of cold water) Q=0.1559439564439161, Count=50
+craft(magnet, table sheet) Q=0.20071634858396026, Count=50
+craft(magnet, glycerin) Q=0.16040979826426155, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.14693634394551375, Count=50
+craft(magnet, map) Q=0.18304237198066783, Count=50
+craft(magnet, fire stick) Q=0.19822327251917057, Count=50
+craft(cup of cold water, table sheet) Q=0.17282506405788167, Count=50
+craft(cup of cold water, glycerin) Q=0.2655318086479945, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.11663183772127891, Count=49
+craft(cup of cold water, map) Q=0.19593852503254083, Count=50
+craft(cup of cold water, fire stick) Q=0.19700852505711883, Count=50
+craft(table sheet, glycerin) Q=0.21849919226020556, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.25423443990905314, Count=50
+craft(table sheet, map) Q=0.27042969803799244, Count=50
+craft(table sheet, fire stick) Q=0.15566981361489535, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.16062076208926723, Count=50
+craft(glycerin, map) Q=0.19557356937753467, Count=50
+craft(glycerin, fire stick) Q=0.1825742437408946, Count=50
+craft(adhesive tape with fingerprint, map) Q=0.19816826045801184, Count=50
+craft(adhesive tape with fingerprint, fire stick) Q=0.16200270695419342, Count=50
+craft(map, fire stick) Q=0.15560990152042406, Count=50
+move(Back to the ceiling door close-up) Q=0.022042529610588384, Count=49
+Action: click(handle)
+Reward: Action executed successfully. You have just collected a handle. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 41
+
+Step: 95
+click(fireplace pipe) Q=0.0, Count=50
+apply(battery, fireplace pipe) Q=0.0, Count=50
+apply(magnet, fireplace pipe) Q=0.0, Count=50
+apply(cup of cold water, fireplace pipe) Q=0.0, Count=50
+apply(table sheet, fireplace pipe) Q=0.0, Count=50
+apply(glycerin, fireplace pipe) Q=0.0, Count=50
+apply(adhesive tape with fingerprint, fireplace pipe) Q=0.0, Count=50
+apply(map, fireplace pipe) Q=0.0, Count=50
+apply(fire stick, fireplace pipe) Q=0.0, Count=50
+apply(handle, fireplace pipe) Q=0.0, Count=50
+craft(battery, magnet) Q=0.0, Count=50
+craft(battery, cup of cold water) Q=0.0, Count=50
+craft(battery, table sheet) Q=0.0, Count=50
+craft(battery, glycerin) Q=0.0, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(battery, map) Q=0.0, Count=50
+craft(battery, fire stick) Q=0.0, Count=50
+craft(battery, handle) Q=0.0, Count=50
+craft(magnet, cup of cold water) Q=0.0, Count=50
+craft(magnet, table sheet) Q=0.0, Count=50
+craft(magnet, glycerin) Q=0.0, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(magnet, map) Q=0.0, Count=50
+craft(magnet, fire stick) Q=0.0, Count=50
+craft(magnet, handle) Q=0.0, Count=50
+craft(cup of cold water, table sheet) Q=0.0, Count=50
+craft(cup of cold water, glycerin) Q=0.0, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(cup of cold water, map) Q=0.0, Count=50
+craft(cup of cold water, fire stick) Q=0.0, Count=50
+craft(cup of cold water, handle) Q=0.0, Count=50
+craft(table sheet, glycerin) Q=0.0, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(table sheet, map) Q=0.0, Count=50
+craft(table sheet, fire stick) Q=0.0, Count=50
+craft(table sheet, handle) Q=0.0, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(glycerin, map) Q=0.0, Count=50
+craft(glycerin, fire stick) Q=0.0, Count=50
+craft(glycerin, handle) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, map) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, fire stick) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, handle) Q=0.0, Count=50
+craft(map, fire stick) Q=0.0, Count=50
+craft(map, handle) Q=0.0, Count=50
+craft(fire stick, handle) Q=0.0, Count=50
+move(Back to the ceiling door close-up) Q=0.0, Count=50
+Action: click(fireplace pipe)
+Reward: Nothing happens after clicking on fireplace pipe. The fireplace pipe has been blocked. you need to clean and unclog the pipe.
+Accumulated_reward: 41
+
+Step: 96
+click(fireplace pipe) Q=0.0, Count=50
+apply(battery, fireplace pipe) Q=0.0, Count=50
+apply(magnet, fireplace pipe) Q=0.0, Count=50
+apply(cup of cold water, fireplace pipe) Q=0.0, Count=50
+apply(table sheet, fireplace pipe) Q=0.0, Count=50
+apply(glycerin, fireplace pipe) Q=0.0, Count=50
+apply(adhesive tape with fingerprint, fireplace pipe) Q=0.0, Count=50
+apply(map, fireplace pipe) Q=0.0, Count=50
+apply(fire stick, fireplace pipe) Q=0.0, Count=50
+apply(handle, fireplace pipe) Q=0.0, Count=50
+craft(battery, magnet) Q=0.0, Count=50
+craft(battery, cup of cold water) Q=0.0, Count=50
+craft(battery, table sheet) Q=0.0, Count=50
+craft(battery, glycerin) Q=0.0, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(battery, map) Q=0.0, Count=50
+craft(battery, fire stick) Q=0.0, Count=50
+craft(battery, handle) Q=0.0, Count=50
+craft(magnet, cup of cold water) Q=0.0, Count=50
+craft(magnet, table sheet) Q=0.0, Count=50
+craft(magnet, glycerin) Q=0.0, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(magnet, map) Q=0.0, Count=50
+craft(magnet, fire stick) Q=0.0, Count=50
+craft(magnet, handle) Q=0.0, Count=50
+craft(cup of cold water, table sheet) Q=0.0, Count=50
+craft(cup of cold water, glycerin) Q=0.0, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(cup of cold water, map) Q=0.0, Count=50
+craft(cup of cold water, fire stick) Q=0.0, Count=50
+craft(cup of cold water, handle) Q=0.0, Count=50
+craft(table sheet, glycerin) Q=0.0, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(table sheet, map) Q=0.0, Count=50
+craft(table sheet, fire stick) Q=0.0, Count=50
+craft(table sheet, handle) Q=0.0, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(glycerin, map) Q=0.0, Count=50
+craft(glycerin, fire stick) Q=0.0, Count=50
+craft(glycerin, handle) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, map) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, fire stick) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, handle) Q=0.0, Count=50
+craft(map, fire stick) Q=0.0, Count=50
+craft(map, handle) Q=0.0, Count=50
+craft(fire stick, handle) Q=0.0, Count=50
+move(Back to the ceiling door close-up) Q=0.0, Count=50
+Action: craft(glycerin, map)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 41
+
+Step: 97
+click(fireplace pipe) Q=0.0, Count=50
+apply(battery, fireplace pipe) Q=0.0, Count=50
+apply(magnet, fireplace pipe) Q=0.0, Count=50
+apply(cup of cold water, fireplace pipe) Q=0.0, Count=50
+apply(table sheet, fireplace pipe) Q=0.0, Count=50
+apply(glycerin, fireplace pipe) Q=0.0, Count=50
+apply(adhesive tape with fingerprint, fireplace pipe) Q=0.0, Count=50
+apply(map, fireplace pipe) Q=0.0, Count=50
+apply(fire stick, fireplace pipe) Q=0.0, Count=50
+apply(handle, fireplace pipe) Q=0.0, Count=50
+craft(battery, magnet) Q=0.0, Count=50
+craft(battery, cup of cold water) Q=0.0, Count=50
+craft(battery, table sheet) Q=0.0, Count=50
+craft(battery, glycerin) Q=0.0, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(battery, map) Q=0.0, Count=50
+craft(battery, fire stick) Q=0.0, Count=50
+craft(battery, handle) Q=0.0, Count=50
+craft(magnet, cup of cold water) Q=0.0, Count=50
+craft(magnet, table sheet) Q=0.0, Count=50
+craft(magnet, glycerin) Q=0.0, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(magnet, map) Q=0.0, Count=50
+craft(magnet, fire stick) Q=0.0, Count=50
+craft(magnet, handle) Q=0.0, Count=50
+craft(cup of cold water, table sheet) Q=0.0, Count=50
+craft(cup of cold water, glycerin) Q=0.0, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(cup of cold water, map) Q=0.0, Count=50
+craft(cup of cold water, fire stick) Q=0.0, Count=50
+craft(cup of cold water, handle) Q=0.0, Count=50
+craft(table sheet, glycerin) Q=0.0, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(table sheet, map) Q=0.0, Count=50
+craft(table sheet, fire stick) Q=0.0, Count=50
+craft(table sheet, handle) Q=0.0, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(glycerin, map) Q=0.0, Count=50
+craft(glycerin, fire stick) Q=0.0, Count=50
+craft(glycerin, handle) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, map) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, fire stick) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, handle) Q=0.0, Count=50
+craft(map, fire stick) Q=0.0, Count=50
+craft(map, handle) Q=0.0, Count=50
+craft(fire stick, handle) Q=0.0, Count=50
+move(Back to the ceiling door close-up) Q=0.0, Count=50
+Action: craft(cup of cold water, fire stick)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 41
+
+Step: 98
+click(fireplace pipe) Q=0.0, Count=50
+apply(battery, fireplace pipe) Q=0.0, Count=50
+apply(magnet, fireplace pipe) Q=0.0, Count=50
+apply(cup of cold water, fireplace pipe) Q=0.0, Count=50
+apply(table sheet, fireplace pipe) Q=0.0, Count=50
+apply(glycerin, fireplace pipe) Q=0.0, Count=50
+apply(adhesive tape with fingerprint, fireplace pipe) Q=0.0, Count=50
+apply(map, fireplace pipe) Q=0.0, Count=50
+apply(fire stick, fireplace pipe) Q=0.0, Count=50
+apply(handle, fireplace pipe) Q=0.0, Count=50
+craft(battery, magnet) Q=0.0, Count=50
+craft(battery, cup of cold water) Q=0.0, Count=50
+craft(battery, table sheet) Q=0.0, Count=50
+craft(battery, glycerin) Q=0.0, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(battery, map) Q=0.0, Count=50
+craft(battery, fire stick) Q=0.0, Count=50
+craft(battery, handle) Q=0.0, Count=50
+craft(magnet, cup of cold water) Q=0.0, Count=50
+craft(magnet, table sheet) Q=0.0, Count=50
+craft(magnet, glycerin) Q=0.0, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(magnet, map) Q=0.0, Count=50
+craft(magnet, fire stick) Q=0.0, Count=50
+craft(magnet, handle) Q=0.0, Count=50
+craft(cup of cold water, table sheet) Q=0.0, Count=50
+craft(cup of cold water, glycerin) Q=0.0, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(cup of cold water, map) Q=0.0, Count=50
+craft(cup of cold water, fire stick) Q=0.0, Count=50
+craft(cup of cold water, handle) Q=0.0, Count=50
+craft(table sheet, glycerin) Q=0.0, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(table sheet, map) Q=0.0, Count=50
+craft(table sheet, fire stick) Q=0.0, Count=50
+craft(table sheet, handle) Q=0.0, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(glycerin, map) Q=0.0, Count=50
+craft(glycerin, fire stick) Q=0.0, Count=50
+craft(glycerin, handle) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, map) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, fire stick) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, handle) Q=0.0, Count=50
+craft(map, fire stick) Q=0.0, Count=50
+craft(map, handle) Q=0.0, Count=50
+craft(fire stick, handle) Q=0.0, Count=50
+move(Back to the ceiling door close-up) Q=0.0, Count=50
+Action: click(fireplace pipe)
+Reward: Nothing happens after clicking on fireplace pipe. The fireplace pipe has been blocked. you need to clean and unclog the pipe.
+Accumulated_reward: 41
+
+Step: 99
+click(fireplace pipe) Q=0.0, Count=50
+apply(battery, fireplace pipe) Q=0.0, Count=50
+apply(magnet, fireplace pipe) Q=0.0, Count=50
+apply(cup of cold water, fireplace pipe) Q=0.0, Count=50
+apply(table sheet, fireplace pipe) Q=0.0, Count=50
+apply(glycerin, fireplace pipe) Q=0.0, Count=50
+apply(adhesive tape with fingerprint, fireplace pipe) Q=0.0, Count=50
+apply(map, fireplace pipe) Q=0.0, Count=50
+apply(fire stick, fireplace pipe) Q=0.0, Count=50
+apply(handle, fireplace pipe) Q=0.0, Count=50
+craft(battery, magnet) Q=0.0, Count=50
+craft(battery, cup of cold water) Q=0.0, Count=50
+craft(battery, table sheet) Q=0.0, Count=50
+craft(battery, glycerin) Q=0.0, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(battery, map) Q=0.0, Count=50
+craft(battery, fire stick) Q=0.0, Count=50
+craft(battery, handle) Q=0.0, Count=50
+craft(magnet, cup of cold water) Q=0.0, Count=50
+craft(magnet, table sheet) Q=0.0, Count=50
+craft(magnet, glycerin) Q=0.0, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(magnet, map) Q=0.0, Count=50
+craft(magnet, fire stick) Q=0.0, Count=50
+craft(magnet, handle) Q=0.0, Count=50
+craft(cup of cold water, table sheet) Q=0.0, Count=50
+craft(cup of cold water, glycerin) Q=0.0, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(cup of cold water, map) Q=0.0, Count=50
+craft(cup of cold water, fire stick) Q=0.0, Count=50
+craft(cup of cold water, handle) Q=0.0, Count=50
+craft(table sheet, glycerin) Q=0.0, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(table sheet, map) Q=0.0, Count=50
+craft(table sheet, fire stick) Q=0.0, Count=50
+craft(table sheet, handle) Q=0.0, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(glycerin, map) Q=0.0, Count=50
+craft(glycerin, fire stick) Q=0.0, Count=50
+craft(glycerin, handle) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, map) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, fire stick) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, handle) Q=0.0, Count=50
+craft(map, fire stick) Q=0.0, Count=50
+craft(map, handle) Q=0.0, Count=50
+craft(fire stick, handle) Q=0.0, Count=50
+move(Back to the ceiling door close-up) Q=0.0, Count=50
+Action: craft(cup of cold water, glycerin)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 41
+
+Step: 100
+click(fireplace pipe) Q=0.0, Count=50
+apply(battery, fireplace pipe) Q=0.0, Count=50
+apply(magnet, fireplace pipe) Q=0.0, Count=50
+apply(cup of cold water, fireplace pipe) Q=0.0, Count=50
+apply(table sheet, fireplace pipe) Q=0.0, Count=50
+apply(glycerin, fireplace pipe) Q=0.0, Count=50
+apply(adhesive tape with fingerprint, fireplace pipe) Q=0.0, Count=50
+apply(map, fireplace pipe) Q=0.0, Count=50
+apply(fire stick, fireplace pipe) Q=0.0, Count=50
+apply(handle, fireplace pipe) Q=0.0, Count=50
+craft(battery, magnet) Q=0.0, Count=50
+craft(battery, cup of cold water) Q=0.0, Count=50
+craft(battery, table sheet) Q=0.0, Count=50
+craft(battery, glycerin) Q=0.0, Count=50
+craft(battery, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(battery, map) Q=0.0, Count=50
+craft(battery, fire stick) Q=0.0, Count=50
+craft(battery, handle) Q=0.0, Count=50
+craft(magnet, cup of cold water) Q=0.0, Count=50
+craft(magnet, table sheet) Q=0.0, Count=50
+craft(magnet, glycerin) Q=0.0, Count=50
+craft(magnet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(magnet, map) Q=0.0, Count=50
+craft(magnet, fire stick) Q=0.0, Count=50
+craft(magnet, handle) Q=0.0, Count=50
+craft(cup of cold water, table sheet) Q=0.0, Count=50
+craft(cup of cold water, glycerin) Q=0.0, Count=50
+craft(cup of cold water, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(cup of cold water, map) Q=0.0, Count=50
+craft(cup of cold water, fire stick) Q=0.0, Count=50
+craft(cup of cold water, handle) Q=0.0, Count=50
+craft(table sheet, glycerin) Q=0.0, Count=50
+craft(table sheet, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(table sheet, map) Q=0.0, Count=50
+craft(table sheet, fire stick) Q=0.0, Count=50
+craft(table sheet, handle) Q=0.0, Count=50
+craft(glycerin, adhesive tape with fingerprint) Q=0.0, Count=50
+craft(glycerin, map) Q=0.0, Count=50
+craft(glycerin, fire stick) Q=0.0, Count=50
+craft(glycerin, handle) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, map) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, fire stick) Q=0.0, Count=50
+craft(adhesive tape with fingerprint, handle) Q=0.0, Count=50
+craft(map, fire stick) Q=0.0, Count=50
+craft(map, handle) Q=0.0, Count=50
+craft(fire stick, handle) Q=0.0, Count=50
+move(Back to the ceiling door close-up) Q=0.0, Count=50
+Action: craft(glycerin, map)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 41
+

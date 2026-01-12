@@ -1,0 +1,2567 @@
+Step: 1
+click(telephone cabinet) Q=1.801713988490596, Count=55
+click(left door to the study) Q=0.9923485357088104, Count=50
+click(right door to the exit) Q=0.9517242119144372, Count=49
+move(To the dining room and kitchen) Q=0.72203356843204, Count=48
+move(To the bedroom) Q=0.8006148776117068, Count=48
+Action: click(telephone cabinet)
+Reward: Action executed successfully. You have clicked on telephone cabinet. You can see telephone cabinet now.
+Accumulated_reward: 1
+
+Step: 2
+click(left door to the study) Q=0.6755404412173002, Count=49
+click(right door to the exit) Q=0.9228825989470225, Count=50
+move(To the dining room and kitchen) Q=0.7511868592860048, Count=49
+move(To the bedroom) Q=0.7886356006041384, Count=50
+move(To the telephone cabinet close-up) Q=1.2563961050984378, Count=52
+Action: move(To the telephone cabinet close-up)
+Reward: Action executed successfully. Change to another scene: telephone cabinet close-up.
+Accumulated_reward: 1
+
+Step: 3
+click(drawer) Q=1.369046042219498, Count=50
+click(telephone) Q=1.1417775967497032, Count=48
+click(hairpin) Q=2.1124247271481957, Count=55
+move(Back to the living room) Q=0.7864096527718263, Count=47
+Action: click(hairpin)
+Reward: Action executed successfully. You have just collected a hairpin. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 2
+
+Step: 4
+click(drawer) Q=1.0395098600171084, Count=49
+click(telephone) Q=1.0795165345832407, Count=50
+apply(hairpin, drawer) Q=1.9686472597021858, Count=55
+apply(hairpin, telephone) Q=0.9954143757811806, Count=49
+move(Back to the living room) Q=0.6349106635724105, Count=47
+Action: apply(hairpin, drawer)
+Reward: Action executed successfully. You have successfully applied hairpin to drawer. The drawer unlocks, revealing the carving knife.
+Accumulated_reward: 3
+
+Step: 5
+click(telephone) Q=0.8548963207623281, Count=49
+click(carving knife) Q=1.3568464924177945, Count=53
+move(Back to the living room) Q=0.5789484441670281, Count=48
+Action: click(carving knife)
+Reward: Action executed successfully. You have just collected a carving knife. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 4
+
+Step: 6
+click(telephone) Q=0.30695720299432055, Count=50
+apply(carving knife, telephone) Q=0.2870610978619951, Count=49
+move(Back to the living room) Q=0.532781797735514, Count=51
+Action: move(Back to the living room)
+Reward: Action executed successfully. Change to another scene: living room.
+Accumulated_reward: 4
+
+Step: 7
+click(left door to the study) Q=0.45872675214487335, Count=50
+click(right door to the exit) Q=0.4541139370664889, Count=50
+apply(carving knife, left door to the study) Q=0.42739747456246124, Count=49
+apply(carving knife, right door to the exit) Q=0.5048258725028465, Count=50
+move(To the dining room and kitchen) Q=0.4765130350455579, Count=50
+move(To the bedroom) Q=0.852254656950475, Count=52
+move(To the telephone cabinet close-up) Q=0.2594209591799129, Count=49
+Action: move(To the bedroom)
+Reward: Action executed successfully. Change to another scene: bedroom.
+Accumulated_reward: 4
+
+Step: 8
+click(bathroom door) Q=0.8999344549571971, Count=49
+click(hammer handle) Q=1.3414066658681842, Count=52
+apply(carving knife, bathroom door) Q=0.9997893614747985, Count=50
+apply(carving knife, hammer handle) Q=0.9792310810101515, Count=50
+move(To the living room) Q=0.3711848999835227, Count=47
+move(To the toolbox close-up) Q=0.7303900599430078, Count=48
+move(To the cardboard box close-up) Q=1.5784823862552315, Count=54
+Action: move(To the cardboard box close-up)
+Reward: Action executed successfully. Change to another scene: cardboard box close-up.
+Accumulated_reward: 4
+
+Step: 9
+click(cardboard box) Q=1.5957051513782052, Count=49
+apply(carving knife, cardboard box) Q=2.5953625670140377, Count=56
+move(Back to the bedroom) Q=0.8822429954540665, Count=45
+Action: apply(carving knife, cardboard box)
+Reward: Action executed successfully. You have successfully applied carving knife to cardboard box. The cardboard box is now open.
+Accumulated_reward: 5
+
+Step: 10
+click(door handle) Q=2.1987169079603777, Count=54
+move(Back to the bedroom) Q=0.9319847783435361, Count=46
+Action: click(door handle)
+Reward: Action executed successfully. You have just collected a door handle. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 6
+
+Step: 11
+move(Back to the bedroom) Q=1.2896782302248544, Count=50
+Action: move(Back to the bedroom)
+Reward: Action executed successfully. Change to another scene: bedroom.
+Accumulated_reward: 6
+
+Step: 12
+click(bathroom door) Q=1.2735815582992225, Count=50
+click(hammer handle) Q=1.5836361019000198, Count=52
+apply(door handle, bathroom door) Q=2.082783136585562, Count=55
+apply(door handle, hammer handle) Q=1.0656771233967877, Count=49
+move(To the living room) Q=0.4640682786622827, Count=46
+move(To the toolbox close-up) Q=0.8860565018911617, Count=48
+move(To the cardboard box close-up) Q=1.1296464499040055, Count=50
+Action: apply(door handle, bathroom door)
+Reward: Action executed successfully. You have successfully applied door handle to bathroom door. The door now has a handle and can be opened.
+Accumulated_reward: 7
+
+Step: 13
+click(bathroom door) Q=1.6711749827091102, Count=53
+click(hammer handle) Q=1.6408360832517233, Count=52
+move(To the living room) Q=0.8631095693509039, Count=48
+move(To the toolbox close-up) Q=0.9823585641000332, Count=48
+move(To the cardboard box close-up) Q=1.120597073388824, Count=49
+Action: click(bathroom door)
+Reward: Action executed successfully. You have clicked on bathroom door. The door is now open.
+Accumulated_reward: 8
+
+Step: 14
+click(hammer handle) Q=1.230376364356668, Count=53
+move(To the living room) Q=0.4679006517134267, Count=48
+move(To the toolbox close-up) Q=0.5956537368654399, Count=49
+move(To the cardboard box close-up) Q=0.6136780296652706, Count=49
+move(To the bathroom) Q=0.8729030023016889, Count=51
+Action: click(hammer handle)
+Reward: Action executed successfully. You have just collected a hammer handle. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 9
+
+Step: 15
+move(To the living room) Q=0.2712408464989716, Count=50
+move(To the toolbox close-up) Q=0.18075084106017916, Count=49
+move(To the cardboard box close-up) Q=0.24366490537668453, Count=50
+move(To the bathroom) Q=0.44764066161212057, Count=51
+Action: move(To the bathroom)
+Reward: Action executed successfully. Change to another scene: bathroom.
+Accumulated_reward: 9
+
+Step: 16
+click(plunger) Q=0.9999999999999998, Count=53
+apply(hammer handle, plunger) Q=0.4801369996858477, Count=50
+move(To the bedroom) Q=0.2191822471191459, Count=49
+move(To the mirror close-up) Q=0.39455558214775227, Count=49
+move(To the ventilation fan close-up) Q=0.3851549254370683, Count=49
+Action: click(plunger)
+Reward: Action executed successfully. You have just collected a plunger. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 10
+
+Step: 17
+craft(hammer handle, plunger) Q=0.02406443607232195, Count=50
+move(To the bedroom) Q=0.03179027878745782, Count=50
+move(To the mirror close-up) Q=0.027721510102590798, Count=50
+move(To the ventilation fan close-up) Q=0.0, Count=50
+Action: move(To the bedroom)
+Reward: Action executed successfully. Change to another scene: bedroom.
+Accumulated_reward: 10
+
+Step: 18
+craft(hammer handle, plunger) Q=0.09243977902855448, Count=50
+move(To the living room) Q=0.14704483965673076, Count=50
+move(To the toolbox close-up) Q=0.036265181143528356, Count=50
+move(To the cardboard box close-up) Q=0.0, Count=50
+move(To the bathroom) Q=0.0, Count=50
+Action: move(To the living room)
+Reward: Action executed successfully. Change to another scene: living room.
+Accumulated_reward: 10
+
+Step: 19
+click(left door to the study) Q=0.15765986081161948, Count=50
+click(right door to the exit) Q=0.1222787899528972, Count=50
+apply(hammer handle, left door to the study) Q=0.15984300701800128, Count=50
+apply(hammer handle, right door to the exit) Q=0.07852657738539238, Count=50
+apply(plunger, left door to the study) Q=0.16081889916366077, Count=50
+apply(plunger, right door to the exit) Q=0.18720493243016886, Count=50
+craft(hammer handle, plunger) Q=0.11385277421113911, Count=50
+move(To the dining room and kitchen) Q=0.3734785161557796, Count=51
+move(To the bedroom) Q=0.010439293989715864, Count=49
+move(To the telephone cabinet close-up) Q=0.06108924197283336, Count=50
+Action: move(To the dining room and kitchen)
+Reward: Action executed successfully. Change to another scene: dining room and kitchen.
+Accumulated_reward: 10
+
+Step: 20
+craft(hammer handle, plunger) Q=0.3220408953328814, Count=49
+move(To the living room) Q=0.15321929597113837, Count=48
+move(To the dining table close-up) Q=0.559784553232806, Count=51
+move(To the cabinet above stove close-up) Q=0.5713653700641104, Count=51
+move(To the left cabinet close-up) Q=0.25079413782754956, Count=49
+move(To the right cabinet close-up) Q=0.5418245455723912, Count=50
+move(To the sink close-up) Q=0.636325978542339, Count=51
+move(To the cabinet above sink close-up) Q=0.5562077217796384, Count=51
+Action: move(To the sink close-up)
+Reward: Action executed successfully. Change to another scene: sink close-up.
+Accumulated_reward: 10
+
+Step: 21
+click(trash bin) Q=0.9018944955651691, Count=50
+click(cabinet_under_sink) Q=0.779646034893911, Count=49
+click(garbage) Q=0.8556657576781219, Count=50
+apply(hammer handle, trash bin) Q=0.9036484659013939, Count=50
+apply(hammer handle, cabinet_under_sink) Q=0.8459162212781014, Count=49
+apply(hammer handle, garbage) Q=0.750684856264201, Count=49
+apply(plunger, trash bin) Q=0.8592160159396292, Count=50
+apply(plunger, cabinet_under_sink) Q=0.8603415793095479, Count=50
+apply(plunger, garbage) Q=1.9659742445540815, Count=56
+craft(hammer handle, plunger) Q=0.7806253282875055, Count=49
+move(Back to the dining room and kitchen) Q=0.48982244678450493, Count=48
+Action: apply(plunger, garbage)
+Reward: Action executed successfully. You have successfully applied plunger to garbage. The garbage has been cleared, revealing something shiny at the bottom.
+Accumulated_reward: 11
+
+Step: 22
+click(trash bin) Q=0.9038478063617915, Count=49
+click(cabinet_under_sink) Q=0.9125084261602142, Count=50
+click(garbage) Q=1.6549986159664014, Count=54
+apply(hammer handle, trash bin) Q=0.8541357857035731, Count=49
+apply(hammer handle, cabinet_under_sink) Q=0.9251707325713583, Count=50
+apply(hammer handle, garbage) Q=0.8929064954941943, Count=50
+move(Back to the dining room and kitchen) Q=0.5961976461559227, Count=48
+Action: click(garbage)
+Reward: Action executed successfully. You have clicked on garbage. You've cleared the garbage and found a key at the bottom of the sink.
+Accumulated_reward: 12
+
+Step: 23
+click(trash bin) Q=0.5475373833743207, Count=49
+click(cabinet_under_sink) Q=0.7064682909535788, Count=50
+click(study key) Q=1.1704962313203229, Count=53
+apply(hammer handle, trash bin) Q=0.65402592558509, Count=50
+apply(hammer handle, cabinet_under_sink) Q=0.7374702133995621, Count=50
+apply(hammer handle, study key) Q=0.7704342122868716, Count=50
+move(Back to the dining room and kitchen) Q=0.4300128726322278, Count=48
+Action: click(study key)
+Reward: Action executed successfully. You have just collected a study key. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 13
+
+Step: 24
+click(trash bin) Q=0.2463715257861622, Count=50
+click(cabinet_under_sink) Q=0.2527228852390367, Count=50
+apply(hammer handle, trash bin) Q=0.1986464689055647, Count=50
+apply(hammer handle, cabinet_under_sink) Q=0.26589960220924413, Count=50
+apply(study key, trash bin) Q=0.1883196858430775, Count=50
+apply(study key, cabinet_under_sink) Q=0.23199175888108345, Count=50
+craft(hammer handle, study key) Q=0.1270442256794398, Count=49
+move(Back to the dining room and kitchen) Q=0.39320472102426884, Count=51
+Action: move(Back to the dining room and kitchen)
+Reward: Action executed successfully. Change to another scene: dining room and kitchen.
+Accumulated_reward: 13
+
+Step: 25
+craft(hammer handle, study key) Q=0.4910801537948838, Count=50
+move(To the living room) Q=0.4930200779370945, Count=50
+move(To the dining table close-up) Q=0.5320126323131357, Count=50
+move(To the cabinet above stove close-up) Q=0.6187556432625019, Count=51
+move(To the left cabinet close-up) Q=0.23125008389070448, Count=49
+move(To the right cabinet close-up) Q=0.6995209212257983, Count=51
+move(To the sink close-up) Q=0.2454091362977023, Count=49
+move(To the cabinet above sink close-up) Q=0.5753730566361639, Count=50
+Action: move(To the right cabinet close-up)
+Reward: Action executed successfully. Change to another scene: right cabinet close-up.
+Accumulated_reward: 13
+
+Step: 26
+click(empty bottom cabinet) Q=0.6842756283709369, Count=50
+click(battery) Q=1.114785131841063, Count=53
+apply(hammer handle, empty bottom cabinet) Q=0.5457738372801092, Count=50
+apply(hammer handle, battery) Q=0.512020129217081, Count=49
+apply(study key, empty bottom cabinet) Q=0.6867609086262645, Count=50
+apply(study key, battery) Q=0.6037658137780543, Count=50
+craft(hammer handle, study key) Q=0.5530615575094545, Count=49
+move(Back to the dining room and kitchen) Q=0.3930169446070629, Count=49
+Action: click(battery)
+Reward: Action executed successfully. You have just collected a battery. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 14
+
+Step: 27
+click(empty bottom cabinet) Q=0.12996970589805854, Count=50
+apply(hammer handle, empty bottom cabinet) Q=0.05106902413347057, Count=49
+apply(study key, empty bottom cabinet) Q=0.15172096863563822, Count=50
+apply(battery, empty bottom cabinet) Q=0.09248448776784524, Count=50
+craft(hammer handle, study key) Q=0.16041906412995588, Count=50
+craft(hammer handle, battery) Q=0.24906860938641406, Count=51
+craft(study key, battery) Q=0.02143324851003313, Count=49
+move(Back to the dining room and kitchen) Q=0.290862889483792, Count=51
+Action: move(Back to the dining room and kitchen)
+Reward: Action executed successfully. Change to another scene: dining room and kitchen.
+Accumulated_reward: 14
+
+Step: 28
+craft(hammer handle, study key) Q=0.2664226364843942, Count=50
+craft(hammer handle, battery) Q=0.3072888878210611, Count=50
+craft(study key, battery) Q=0.3421631989806541, Count=50
+move(To the living room) Q=0.43474548121794326, Count=51
+move(To the dining table close-up) Q=0.36434288242658935, Count=50
+move(To the cabinet above stove close-up) Q=0.7270270711446755, Count=52
+move(To the left cabinet close-up) Q=0.06251867162702295, Count=49
+move(To the right cabinet close-up) Q=0.11379856424468913, Count=49
+move(To the sink close-up) Q=0.13050128174404674, Count=49
+move(To the cabinet above sink close-up) Q=0.41028769342705124, Count=50
+Action: move(To the cabinet above stove close-up)
+Reward: Action executed successfully. Change to another scene: cabinet above stove close-up.
+Accumulated_reward: 14
+
+Step: 29
+click(food and spices) Q=0.5889089105174237, Count=50
+click(pot) Q=0.6112535774366423, Count=50
+click(flashlight) Q=1.530202207177299, Count=55
+apply(hammer handle, food and spices) Q=0.5737531008154806, Count=50
+apply(hammer handle, pot) Q=0.5179037185971505, Count=50
+apply(hammer handle, flashlight) Q=0.6331732967464816, Count=50
+apply(study key, food and spices) Q=0.48136442324425116, Count=49
+apply(study key, pot) Q=0.5323666792973114, Count=50
+apply(study key, flashlight) Q=0.7067780247109423, Count=50
+apply(battery, food and spices) Q=0.6110764759813424, Count=50
+apply(battery, pot) Q=0.46095272883737626, Count=49
+apply(battery, flashlight) Q=0.527746407753955, Count=50
+craft(hammer handle, study key) Q=0.5212483200763308, Count=50
+craft(hammer handle, battery) Q=0.5624773484756959, Count=50
+craft(study key, battery) Q=0.4791794495254425, Count=49
+move(Back to the dining room and kitchen) Q=0.31623689497192153, Count=48
+Action: click(flashlight)
+Reward: Action executed successfully. You have just collected a flashlight. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 15
+
+Step: 30
+click(food and spices) Q=0.40246580882629335, Count=49
+click(pot) Q=0.5026858235304855, Count=50
+apply(hammer handle, food and spices) Q=0.47167123215102874, Count=50
+apply(hammer handle, pot) Q=0.4762120591515418, Count=50
+apply(study key, food and spices) Q=0.48043663299922124, Count=50
+apply(study key, pot) Q=0.47385900131419983, Count=50
+apply(battery, food and spices) Q=0.46553511927196883, Count=50
+apply(battery, pot) Q=0.4216412214122427, Count=49
+apply(flashlight, food and spices) Q=0.400225860111001, Count=49
+apply(flashlight, pot) Q=0.5373191260967514, Count=50
+craft(hammer handle, study key) Q=0.5274812941874448, Count=50
+craft(hammer handle, battery) Q=0.46154945401485625, Count=50
+craft(hammer handle, flashlight) Q=0.5190825816202663, Count=50
+craft(study key, battery) Q=0.5261367280557938, Count=50
+craft(study key, flashlight) Q=0.4235554214694634, Count=49
+craft(battery, flashlight) Q=1.0529220111904312, Count=53
+move(Back to the dining room and kitchen) Q=0.6512156669781247, Count=51
+Action: craft(battery, flashlight)
+Reward: Action executed successfully. You have successfully crafted A single battery is found here, seems still usable. and A flashlight is here, but it currently is out of power. together.
+You get a new item: The flashlight now has a battery and is ready to use.. It is put into your bag.
+Accumulated_reward: 16
+
+Step: 31
+click(food and spices) Q=0.13850288738901662, Count=50
+click(pot) Q=0.024361689347408913, Count=50
+apply(hammer handle, food and spices) Q=0.0717839734591132, Count=50
+apply(hammer handle, pot) Q=0.06687873657158783, Count=50
+apply(study key, food and spices) Q=0.10007446212727898, Count=50
+apply(study key, pot) Q=0.08304788347080416, Count=50
+apply(flashlight, food and spices) Q=0.09762678804382889, Count=50
+apply(flashlight, pot) Q=0.11869657347717827, Count=50
+craft(hammer handle, study key) Q=0.0673111074336444, Count=50
+craft(hammer handle, flashlight) Q=0.0942630078714736, Count=50
+craft(study key, flashlight) Q=0.014159093367747502, Count=50
+move(Back to the dining room and kitchen) Q=0.17340446546314406, Count=50
+Action: move(Back to the dining room and kitchen)
+Reward: Action executed successfully. Change to another scene: dining room and kitchen.
+Accumulated_reward: 16
+
+Step: 32
+craft(hammer handle, study key) Q=0.1929012736423838, Count=50
+craft(hammer handle, flashlight) Q=0.18678190169023873, Count=50
+craft(study key, flashlight) Q=0.1323174027203432, Count=50
+move(To the living room) Q=0.38462537745993275, Count=51
+move(To the dining table close-up) Q=0.34180359388915726, Count=51
+move(To the cabinet above stove close-up) Q=0.10486062372489054, Count=49
+move(To the left cabinet close-up) Q=0.05154009528660186, Count=49
+move(To the right cabinet close-up) Q=0.1243986485184896, Count=50
+move(To the sink close-up) Q=0.05393262881131502, Count=49
+move(To the cabinet above sink close-up) Q=0.47955973123272777, Count=51
+Action: move(To the cabinet above sink close-up)
+Reward: Action executed successfully. Change to another scene: cabinet above sink close-up.
+Accumulated_reward: 16
+
+Step: 33
+click(clutter_left) Q=0.48601447588548363, Count=50
+click(shard_2) Q=1.0654053598960087, Count=53
+apply(hammer handle, clutter_left) Q=0.39896052097267926, Count=50
+apply(hammer handle, shard_2) Q=0.4363415214433534, Count=50
+apply(study key, clutter_left) Q=0.43493777346909823, Count=50
+apply(study key, shard_2) Q=0.3813403371649762, Count=50
+apply(flashlight, clutter_left) Q=0.4343010923433981, Count=50
+apply(flashlight, shard_2) Q=0.4989742065848522, Count=50
+craft(hammer handle, study key) Q=0.3197762657175874, Count=49
+craft(hammer handle, flashlight) Q=0.4369871648569369, Count=50
+craft(study key, flashlight) Q=0.4633798663831521, Count=50
+move(Back to the dining room and kitchen) Q=0.10151518672821191, Count=48
+Action: click(shard_2)
+Reward: Action executed successfully. You have just collected a shard_2. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 17
+
+Step: 34
+click(clutter_left) Q=0.01023071658804329, Count=50
+apply(hammer handle, clutter_left) Q=0.014159093367747502, Count=50
+apply(study key, clutter_left) Q=0.05268519614487601, Count=50
+apply(flashlight, clutter_left) Q=0.02916581527222689, Count=50
+apply(shard_2, clutter_left) Q=0.014955324501419788, Count=50
+craft(hammer handle, study key) Q=0.03949353555399523, Count=50
+craft(hammer handle, flashlight) Q=0.021602607244101832, Count=50
+craft(hammer handle, shard_2) Q=0.03906111085668993, Count=50
+craft(study key, flashlight) Q=0.03819399928536546, Count=50
+craft(study key, shard_2) Q=0.020441022284618995, Count=50
+craft(flashlight, shard_2) Q=0.04187327379654353, Count=50
+move(Back to the dining room and kitchen) Q=0.0871946716528447, Count=50
+Action: move(Back to the dining room and kitchen)
+Reward: Action executed successfully. Change to another scene: dining room and kitchen.
+Accumulated_reward: 17
+
+Step: 35
+craft(hammer handle, study key) Q=0.12107398274009452, Count=50
+craft(hammer handle, flashlight) Q=0.03063366892941321, Count=50
+craft(hammer handle, shard_2) Q=0.05334279456309507, Count=50
+craft(study key, flashlight) Q=0.0832386063103437, Count=50
+craft(study key, shard_2) Q=0.1466084281249457, Count=50
+craft(flashlight, shard_2) Q=0.12402313639595794, Count=50
+move(To the living room) Q=0.2059104269868056, Count=51
+move(To the dining table close-up) Q=0.3065307554959632, Count=51
+move(To the cabinet above stove close-up) Q=0.030807325485320808, Count=50
+move(To the left cabinet close-up) Q=0.0, Count=49
+move(To the right cabinet close-up) Q=0.012272917426836179, Count=49
+move(To the sink close-up) Q=0.03357985323532066, Count=50
+move(To the cabinet above sink close-up) Q=0.014159093367747502, Count=50
+Action: move(To the dining table close-up)
+Reward: Action executed successfully. Change to another scene: dining table close-up.
+Accumulated_reward: 17
+
+Step: 36
+click(pizza slice) Q=0.28573154903049713, Count=50
+click(newspaper) Q=0.34032012263695144, Count=50
+click(spoiled oatmeal) Q=0.2783995344328511, Count=50
+click(shard_1) Q=0.9999999999999997, Count=54
+apply(hammer handle, pizza slice) Q=0.3026417847503402, Count=50
+apply(hammer handle, newspaper) Q=0.23931307270935925, Count=50
+apply(hammer handle, spoiled oatmeal) Q=0.3047152934472203, Count=50
+apply(hammer handle, shard_1) Q=0.302583707260958, Count=50
+apply(study key, pizza slice) Q=0.2099174412702207, Count=49
+apply(study key, newspaper) Q=0.304547826850349, Count=50
+apply(study key, spoiled oatmeal) Q=0.3480417221516805, Count=50
+apply(study key, shard_1) Q=0.23099504957212053, Count=50
+apply(flashlight, pizza slice) Q=0.24662347600279666, Count=50
+apply(flashlight, newspaper) Q=0.30605344746491253, Count=50
+apply(flashlight, spoiled oatmeal) Q=0.3125200649982899, Count=50
+apply(flashlight, shard_1) Q=0.235906324095431, Count=50
+apply(shard_2, pizza slice) Q=0.3464095900176305, Count=50
+apply(shard_2, newspaper) Q=0.27739218611520683, Count=50
+apply(shard_2, spoiled oatmeal) Q=0.19918260222169465, Count=49
+apply(shard_2, shard_1) Q=0.2297266352803693, Count=50
+craft(hammer handle, study key) Q=0.2956601630702481, Count=50
+craft(hammer handle, flashlight) Q=0.333771276538424, Count=50
+craft(hammer handle, shard_2) Q=0.21114839445215633, Count=49
+craft(study key, flashlight) Q=0.2964932063064798, Count=50
+craft(study key, shard_2) Q=0.25542197145147055, Count=50
+craft(flashlight, shard_2) Q=0.3282642900929681, Count=50
+move(Back to the dining room and kitchen) Q=0.03320924007291086, Count=49
+Action: click(shard_1)
+Reward: Action executed successfully. You have just collected a shard_1. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 18
+
+Step: 37
+click(pizza slice) Q=0.0, Count=50
+click(newspaper) Q=0.01023071658804329, Count=50
+click(spoiled oatmeal) Q=0.025720299689660678, Count=50
+apply(hammer handle, pizza slice) Q=0.0, Count=50
+apply(hammer handle, newspaper) Q=0.0, Count=50
+apply(hammer handle, spoiled oatmeal) Q=0.0, Count=50
+apply(study key, pizza slice) Q=0.0, Count=50
+apply(study key, newspaper) Q=0.0, Count=50
+apply(study key, spoiled oatmeal) Q=0.013407541439587067, Count=50
+apply(flashlight, pizza slice) Q=0.0, Count=50
+apply(flashlight, newspaper) Q=0.0, Count=50
+apply(flashlight, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_2, pizza slice) Q=0.01023071658804329, Count=50
+apply(shard_2, newspaper) Q=0.0, Count=50
+apply(shard_2, spoiled oatmeal) Q=0.011394592646027296, Count=50
+apply(shard_1, pizza slice) Q=0.011394592646027296, Count=50
+apply(shard_1, newspaper) Q=0.0, Count=50
+apply(shard_1, spoiled oatmeal) Q=0.0, Count=50
+craft(hammer handle, study key) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(study key, flashlight) Q=0.0, Count=50
+craft(study key, shard_2) Q=0.0, Count=50
+craft(study key, shard_1) Q=0.015799168155428967, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.013407541439587067, Count=50
+move(Back to the dining room and kitchen) Q=0.0968829727614678, Count=50
+Action: move(Back to the dining room and kitchen)
+Reward: Action executed successfully. Change to another scene: dining room and kitchen.
+Accumulated_reward: 18
+
+Step: 38
+craft(hammer handle, study key) Q=0.028213757841281863, Count=50
+craft(hammer handle, flashlight) Q=0.033334010837620394, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.026072498104348328, Count=50
+craft(study key, flashlight) Q=0.01669377972066061, Count=50
+craft(study key, shard_2) Q=0.05354459313493144, Count=50
+craft(study key, shard_1) Q=0.01669377972066061, Count=50
+craft(flashlight, shard_2) Q=0.055979401914925064, Count=50
+craft(flashlight, shard_1) Q=0.10068200354299639, Count=50
+craft(shard_2, shard_1) Q=0.05486781181420586, Count=50
+move(To the living room) Q=0.36542922282089596, Count=51
+move(To the dining table close-up) Q=0.013407541439587067, Count=50
+move(To the cabinet above stove close-up) Q=0.0, Count=50
+move(To the left cabinet close-up) Q=0.0, Count=50
+move(To the right cabinet close-up) Q=0.0, Count=50
+move(To the sink close-up) Q=0.03929953506370871, Count=50
+move(To the cabinet above sink close-up) Q=0.0, Count=49
+Action: move(To the living room)
+Reward: Action executed successfully. Change to another scene: living room.
+Accumulated_reward: 18
+
+Step: 39
+click(left door to the study) Q=0.34033993036467247, Count=50
+click(right door to the exit) Q=0.264316098352568, Count=50
+apply(hammer handle, left door to the study) Q=0.3207295238903415, Count=50
+apply(hammer handle, right door to the exit) Q=0.33352166484317874, Count=50
+apply(study key, left door to the study) Q=1.259342002215621, Count=55
+apply(study key, right door to the exit) Q=0.2240741449977116, Count=50
+apply(flashlight, left door to the study) Q=0.29085011804688143, Count=50
+apply(flashlight, right door to the exit) Q=0.2168322512442088, Count=50
+apply(shard_2, left door to the study) Q=0.294877412199978, Count=50
+apply(shard_2, right door to the exit) Q=0.19854429290869863, Count=49
+apply(shard_1, left door to the study) Q=0.2563013162737928, Count=50
+apply(shard_1, right door to the exit) Q=0.200431063120965, Count=50
+craft(hammer handle, study key) Q=0.24884773369724078, Count=50
+craft(hammer handle, flashlight) Q=0.2734274323810025, Count=50
+craft(hammer handle, shard_2) Q=0.24006503927192013, Count=50
+craft(hammer handle, shard_1) Q=0.19801128671154727, Count=49
+craft(study key, flashlight) Q=0.32518335733311404, Count=50
+craft(study key, shard_2) Q=0.2712885850307871, Count=50
+craft(study key, shard_1) Q=0.2386421500272503, Count=50
+craft(flashlight, shard_2) Q=0.347357245569896, Count=50
+craft(flashlight, shard_1) Q=0.25512544153445155, Count=50
+craft(shard_2, shard_1) Q=0.20202696330116737, Count=50
+move(To the dining room and kitchen) Q=0.01800198620607156, Count=49
+move(To the bedroom) Q=0.13863932167246473, Count=49
+move(To the telephone cabinet close-up) Q=0.11585375468516422, Count=49
+Action: apply(study key, left door to the study)
+Reward: Action executed successfully. You have successfully applied study key to left door to the study. The door is now unlocked now.
+Accumulated_reward: 19
+
+Step: 40
+click(left door to the study) Q=1.0094735864424123, Count=54
+click(right door to the exit) Q=0.2134709735997818, Count=50
+apply(hammer handle, left door to the study) Q=0.29915652257714553, Count=50
+apply(hammer handle, right door to the exit) Q=0.251346700865257, Count=50
+apply(flashlight, left door to the study) Q=0.15079664962024347, Count=49
+apply(flashlight, right door to the exit) Q=0.17122337655891445, Count=50
+apply(shard_2, left door to the study) Q=0.24811015170911777, Count=50
+apply(shard_2, right door to the exit) Q=0.2619548740974574, Count=50
+apply(shard_1, left door to the study) Q=0.3154811092922573, Count=50
+apply(shard_1, right door to the exit) Q=0.2537576124185876, Count=50
+craft(hammer handle, flashlight) Q=0.2890173145634473, Count=50
+craft(hammer handle, shard_2) Q=0.19093798128723086, Count=50
+craft(hammer handle, shard_1) Q=0.27243712913519835, Count=50
+craft(flashlight, shard_2) Q=0.19645031489793716, Count=50
+craft(flashlight, shard_1) Q=0.31446392894385117, Count=50
+craft(shard_2, shard_1) Q=0.3162463852485328, Count=50
+move(To the dining room and kitchen) Q=0.05677072527495064, Count=49
+move(To the bedroom) Q=0.07930223763406101, Count=49
+move(To the telephone cabinet close-up) Q=0.07500227036085252, Count=49
+Action: click(left door to the study)
+Reward: Action executed successfully. You have clicked on left door to the study. The door to the study is open, and you can enter the study.
+Accumulated_reward: 20
+
+Step: 41
+click(right door to the exit) Q=0.04427562990810245, Count=50
+apply(hammer handle, right door to the exit) Q=0.023395704997069677, Count=50
+apply(flashlight, right door to the exit) Q=0.042296797968495864, Count=50
+apply(shard_2, right door to the exit) Q=0.08769067669184866, Count=50
+apply(shard_1, right door to the exit) Q=0.02279876336915221, Count=50
+craft(hammer handle, flashlight) Q=0.05697317261797538, Count=50
+craft(hammer handle, shard_2) Q=0.0376880878334971, Count=50
+craft(hammer handle, shard_1) Q=0.028402018221891263, Count=50
+craft(flashlight, shard_2) Q=0.10136200591932387, Count=50
+craft(flashlight, shard_1) Q=0.026948256040232967, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+move(To the dining room and kitchen) Q=0.0, Count=50
+move(To the bedroom) Q=0.011394592646027296, Count=50
+move(To the telephone cabinet close-up) Q=0.021005461793215927, Count=50
+move(To the study after unlocking) Q=0.1775341884921985, Count=50
+Action: move(To the study after unlocking)
+Reward: Action executed successfully. Change to another scene: study.
+Accumulated_reward: 20
+
+Step: 42
+craft(hammer handle, flashlight) Q=0.16973432773191555, Count=50
+craft(hammer handle, shard_2) Q=0.10652270645300116, Count=50
+craft(hammer handle, shard_1) Q=0.09264662564479122, Count=50
+craft(flashlight, shard_2) Q=0.1474130978862651, Count=50
+craft(flashlight, shard_1) Q=0.16529378706445336, Count=50
+craft(shard_2, shard_1) Q=0.09952354312002586, Count=50
+move(Back to the living room) Q=0.05785867957694651, Count=49
+move(To the photo close-up) Q=0.36540735020709375, Count=51
+move(To the desk close-up) Q=0.0812390160762114, Count=49
+move(To the locker close-up) Q=0.3440868794982789, Count=51
+move(To the wall close-up) Q=0.14637959311790658, Count=50
+Action: move(To the photo close-up)
+Reward: Action executed successfully. Change to another scene: photo close-up.
+Accumulated_reward: 20
+
+Step: 43
+click(photo_1) Q=0.31211560413502004, Count=49
+click(photo_2) Q=0.3478579491008559, Count=50
+click(photo_3) Q=1.3707741165812766, Count=55
+apply(hammer handle, photo_1) Q=0.3864997477665026, Count=50
+apply(hammer handle, photo_2) Q=0.36189600639014435, Count=50
+apply(hammer handle, photo_3) Q=0.3832577965068002, Count=50
+apply(flashlight, photo_1) Q=0.32929431985181196, Count=49
+apply(flashlight, photo_2) Q=0.395742266263328, Count=50
+apply(flashlight, photo_3) Q=0.4363963295162831, Count=50
+apply(shard_2, photo_1) Q=0.5150917518173974, Count=50
+apply(shard_2, photo_2) Q=0.386036040898452, Count=50
+apply(shard_2, photo_3) Q=0.4944255737517741, Count=50
+apply(shard_1, photo_1) Q=0.5264187705360968, Count=50
+apply(shard_1, photo_2) Q=0.352945505708259, Count=50
+apply(shard_1, photo_3) Q=0.4285116098045, Count=50
+craft(hammer handle, flashlight) Q=0.33726209733921525, Count=49
+craft(hammer handle, shard_2) Q=0.34334492570930303, Count=50
+craft(hammer handle, shard_1) Q=0.5462263846412341, Count=51
+craft(flashlight, shard_2) Q=0.4184686668509466, Count=50
+craft(flashlight, shard_1) Q=0.2504271146643743, Count=49
+craft(shard_2, shard_1) Q=0.34950870973046516, Count=50
+move(Back to the wall close-up) Q=0.08480098001940414, Count=48
+Action: click(photo_3)
+Reward: Action executed successfully. You have clicked on photo_3. You found a piece of broken mirror hidden behind this photo.
+Accumulated_reward: 21
+
+Step: 44
+click(photo_1) Q=0.22998310903877583, Count=49
+click(photo_2) Q=0.313834863833404, Count=50
+click(shard_3) Q=0.9999999999999997, Count=54
+apply(hammer handle, photo_1) Q=0.34033448130749694, Count=50
+apply(hammer handle, photo_2) Q=0.34547959483322555, Count=50
+apply(hammer handle, shard_3) Q=0.33776917965436604, Count=50
+apply(flashlight, photo_1) Q=0.2936650619616214, Count=50
+apply(flashlight, photo_2) Q=0.3008683131566099, Count=50
+apply(flashlight, shard_3) Q=0.35389642919672637, Count=50
+apply(shard_2, photo_1) Q=0.3438650209022246, Count=50
+apply(shard_2, photo_2) Q=0.2962498150235008, Count=50
+apply(shard_2, shard_3) Q=0.3207118687168219, Count=50
+apply(shard_1, photo_1) Q=0.3241530969155556, Count=50
+apply(shard_1, photo_2) Q=0.35417825067295383, Count=50
+apply(shard_1, shard_3) Q=0.37361675248621834, Count=50
+craft(hammer handle, flashlight) Q=0.29410468612433444, Count=50
+craft(hammer handle, shard_2) Q=0.3689409692287816, Count=50
+craft(hammer handle, shard_1) Q=0.3107064026718434, Count=50
+craft(flashlight, shard_2) Q=0.2417308478170425, Count=49
+craft(flashlight, shard_1) Q=0.3483045608231349, Count=50
+craft(shard_2, shard_1) Q=0.27741647579410805, Count=50
+move(Back to the wall close-up) Q=0.0724966195756492, Count=48
+Action: click(shard_3)
+Reward: Action executed successfully. You have just collected a shard_3. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 22
+
+Step: 45
+click(photo_1) Q=0.0, Count=50
+click(photo_2) Q=0.01269793949283138, Count=50
+apply(hammer handle, photo_1) Q=0.0, Count=50
+apply(hammer handle, photo_2) Q=0.0, Count=50
+apply(flashlight, photo_1) Q=0.0, Count=50
+apply(flashlight, photo_2) Q=0.0, Count=50
+apply(shard_2, photo_1) Q=0.0, Count=50
+apply(shard_2, photo_2) Q=0.0, Count=50
+apply(shard_1, photo_1) Q=0.0, Count=50
+apply(shard_1, photo_2) Q=0.011394592646027296, Count=50
+apply(shard_3, photo_1) Q=0.0, Count=50
+apply(shard_3, photo_2) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.021005461793215927, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.012027746069952204, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.01023071658804329, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+move(Back to the wall close-up) Q=0.011394592646027296, Count=50
+Action: craft(hammer handle, flashlight)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 22
+
+Step: 46
+click(photo_1) Q=0.0, Count=50
+click(photo_2) Q=0.0, Count=50
+apply(hammer handle, photo_1) Q=0.0, Count=50
+apply(hammer handle, photo_2) Q=0.0, Count=50
+apply(flashlight, photo_1) Q=0.0, Count=50
+apply(flashlight, photo_2) Q=0.01023071658804329, Count=50
+apply(shard_2, photo_1) Q=0.01269793949283138, Count=50
+apply(shard_2, photo_2) Q=0.0, Count=50
+apply(shard_1, photo_1) Q=0.011394592646027296, Count=50
+apply(shard_1, photo_2) Q=0.0, Count=50
+apply(shard_3, photo_1) Q=0.0, Count=50
+apply(shard_3, photo_2) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.01023071658804329, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+move(Back to the wall close-up) Q=0.0, Count=50
+Action: apply(shard_2, photo_1)
+Reward: Nothing happens after you apply the tool. Just an old photo, nothing of interest.
+Accumulated_reward: 22
+
+Step: 47
+click(photo_1) Q=0.0, Count=50
+click(photo_2) Q=0.0, Count=50
+apply(hammer handle, photo_1) Q=0.0, Count=50
+apply(hammer handle, photo_2) Q=0.0, Count=50
+apply(flashlight, photo_1) Q=0.0, Count=50
+apply(flashlight, photo_2) Q=0.0, Count=50
+apply(shard_2, photo_1) Q=0.0, Count=50
+apply(shard_2, photo_2) Q=0.0, Count=50
+apply(shard_1, photo_1) Q=0.0, Count=50
+apply(shard_1, photo_2) Q=0.0, Count=50
+apply(shard_3, photo_1) Q=0.0, Count=50
+apply(shard_3, photo_2) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.020441022284618995, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.014159093367747502, Count=50
+move(Back to the wall close-up) Q=0.01023071658804329, Count=50
+Action: craft(flashlight, shard_1)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 22
+
+Step: 48
+click(photo_1) Q=0.0, Count=50
+click(photo_2) Q=0.0, Count=50
+apply(hammer handle, photo_1) Q=0.0, Count=50
+apply(hammer handle, photo_2) Q=0.0, Count=50
+apply(flashlight, photo_1) Q=0.0, Count=50
+apply(flashlight, photo_2) Q=0.0, Count=50
+apply(shard_2, photo_1) Q=0.0, Count=50
+apply(shard_2, photo_2) Q=0.0, Count=50
+apply(shard_1, photo_1) Q=0.0, Count=50
+apply(shard_1, photo_2) Q=0.0, Count=50
+apply(shard_3, photo_1) Q=0.0, Count=50
+apply(shard_3, photo_2) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+move(Back to the wall close-up) Q=0.0, Count=50
+Action: apply(flashlight, photo_1)
+Reward: Nothing happens after you apply the tool. Just an old photo, nothing of interest.
+Accumulated_reward: 22
+
+Step: 49
+click(photo_1) Q=0.0, Count=50
+click(photo_2) Q=0.0, Count=50
+apply(hammer handle, photo_1) Q=0.0, Count=50
+apply(hammer handle, photo_2) Q=0.0, Count=50
+apply(flashlight, photo_1) Q=0.0, Count=50
+apply(flashlight, photo_2) Q=0.0, Count=50
+apply(shard_2, photo_1) Q=0.0, Count=50
+apply(shard_2, photo_2) Q=0.0, Count=50
+apply(shard_1, photo_1) Q=0.0, Count=50
+apply(shard_1, photo_2) Q=0.0, Count=50
+apply(shard_3, photo_1) Q=0.0, Count=50
+apply(shard_3, photo_2) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.025156365745022405, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+move(Back to the wall close-up) Q=0.014159093367747502, Count=50
+Action: craft(flashlight, shard_2)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 22
+
+Step: 50
+click(photo_1) Q=0.0, Count=50
+click(photo_2) Q=0.0, Count=50
+apply(hammer handle, photo_1) Q=0.0, Count=50
+apply(hammer handle, photo_2) Q=0.0, Count=50
+apply(flashlight, photo_1) Q=0.0, Count=50
+apply(flashlight, photo_2) Q=0.0, Count=50
+apply(shard_2, photo_1) Q=0.0, Count=50
+apply(shard_2, photo_2) Q=0.0, Count=50
+apply(shard_1, photo_1) Q=0.0, Count=50
+apply(shard_1, photo_2) Q=0.0, Count=50
+apply(shard_3, photo_1) Q=0.0, Count=50
+apply(shard_3, photo_2) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+move(Back to the wall close-up) Q=0.01269793949283138, Count=50
+Action: move(Back to the wall close-up)
+Reward: Action executed successfully. Change to another scene: wall close-up.
+Accumulated_reward: 22
+
+Step: 51
+click(study wall) Q=0.0, Count=50
+apply(hammer handle, study wall) Q=0.02469605009922908, Count=50
+apply(flashlight, study wall) Q=0.024925708130555144, Count=50
+apply(shard_2, study wall) Q=0.024175706315856457, Count=50
+apply(shard_1, study wall) Q=0.0, Count=50
+apply(shard_3, study wall) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.010796270133114115, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.013407541439587067, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.01764255650353473, Count=50
+craft(shard_2, shard_1) Q=0.012027746069952204, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+move(Back to the study) Q=0.05646658755323693, Count=50
+move(To the photo close-up) Q=0.01023071658804329, Count=50
+Action: move(Back to the study)
+Reward: Action executed successfully. Change to another scene: study.
+Accumulated_reward: 22
+
+Step: 52
+craft(hammer handle, flashlight) Q=0.06605476709398214, Count=50
+craft(hammer handle, shard_2) Q=0.10007968619543178, Count=50
+craft(hammer handle, shard_1) Q=0.04957858820077831, Count=50
+craft(hammer handle, shard_3) Q=0.05827724837289035, Count=50
+craft(flashlight, shard_2) Q=0.03801387574912921, Count=50
+craft(flashlight, shard_1) Q=0.0735980763517533, Count=50
+craft(flashlight, shard_3) Q=0.04427718088903825, Count=50
+craft(shard_2, shard_1) Q=0.045676891540975345, Count=50
+craft(shard_2, shard_3) Q=0.06082725034137857, Count=50
+craft(shard_1, shard_3) Q=0.06655736185958155, Count=50
+move(Back to the living room) Q=0.0, Count=50
+move(To the photo close-up) Q=0.0, Count=49
+move(To the desk close-up) Q=0.01269793949283138, Count=50
+move(To the locker close-up) Q=0.20973518008752678, Count=51
+move(To the wall close-up) Q=0.0, Count=50
+Action: move(To the locker close-up)
+Reward: Action executed successfully. Change to another scene: locker close-up.
+Accumulated_reward: 22
+
+Step: 53
+click(locked locker door) Q=0.18056953218303295, Count=49
+click(open locker doors) Q=0.31773037743576993, Count=50
+click(shard_4) Q=0.9999999999999997, Count=54
+apply(hammer handle, locked locker door) Q=0.3014591796568594, Count=50
+apply(hammer handle, open locker doors) Q=0.2571647395704635, Count=50
+apply(hammer handle, shard_4) Q=0.26324892529827304, Count=50
+apply(flashlight, locked locker door) Q=0.23862151246083588, Count=50
+apply(flashlight, open locker doors) Q=0.31671697851061503, Count=50
+apply(flashlight, shard_4) Q=0.2876527254545563, Count=50
+apply(shard_2, locked locker door) Q=0.2604572428013524, Count=50
+apply(shard_2, open locker doors) Q=0.2541638530763879, Count=50
+apply(shard_2, shard_4) Q=0.2572542940138948, Count=50
+apply(shard_1, locked locker door) Q=0.28090537017422085, Count=50
+apply(shard_1, open locker doors) Q=0.28750159925773844, Count=50
+apply(shard_1, shard_4) Q=0.25499589238243237, Count=50
+apply(shard_3, locked locker door) Q=0.23255541827242787, Count=50
+apply(shard_3, open locker doors) Q=0.2794524903993149, Count=50
+apply(shard_3, shard_4) Q=0.24505183706397315, Count=50
+craft(hammer handle, flashlight) Q=0.27270187597771584, Count=50
+craft(hammer handle, shard_2) Q=0.22272264858550855, Count=50
+craft(hammer handle, shard_1) Q=0.25785012009513075, Count=50
+craft(hammer handle, shard_3) Q=0.2623268375873485, Count=50
+craft(flashlight, shard_2) Q=0.20893573192498074, Count=49
+craft(flashlight, shard_1) Q=0.2812166941804342, Count=50
+craft(flashlight, shard_3) Q=0.32348456014890314, Count=50
+craft(shard_2, shard_1) Q=0.154308018427133, Count=49
+craft(shard_2, shard_3) Q=0.20621542016532715, Count=50
+craft(shard_1, shard_3) Q=0.26023187457814845, Count=50
+move(Back to the study) Q=0.05603972768063237, Count=49
+Action: click(shard_4)
+Reward: Action executed successfully. You have just collected a shard_4. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 23
+
+Step: 54
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: craft(hammer handle, shard_3)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 55
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: craft(hammer handle, shard_4)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 56
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: craft(flashlight, shard_2)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 57
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: craft(shard_2, shard_3)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 58
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: craft(flashlight, shard_4)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 59
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: apply(hammer handle, locked locker door)
+Reward: locked locker door indeed needs a tool to apply but the current tool is wrong. You should try other tools or gather other clues first.
+Nothing happens after you apply the tool. You need a key to unlock this door.
+Accumulated_reward: 23
+
+Step: 60
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: apply(shard_4, locked locker door)
+Reward: locked locker door indeed needs a tool to apply but the current tool is wrong. You should try other tools or gather other clues first.
+Nothing happens after you apply the tool. You need a key to unlock this door.
+Accumulated_reward: 23
+
+Step: 61
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: apply(shard_1, locked locker door)
+Reward: locked locker door indeed needs a tool to apply but the current tool is wrong. You should try other tools or gather other clues first.
+Nothing happens after you apply the tool. You need a key to unlock this door.
+Accumulated_reward: 23
+
+Step: 62
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: craft(shard_2, shard_1)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 63
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: craft(shard_2, shard_1)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 64
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: apply(shard_4, locked locker door)
+Reward: locked locker door indeed needs a tool to apply but the current tool is wrong. You should try other tools or gather other clues first.
+Nothing happens after you apply the tool. You need a key to unlock this door.
+Accumulated_reward: 23
+
+Step: 65
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: craft(hammer handle, shard_2)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 66
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: craft(hammer handle, shard_4)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 67
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: craft(hammer handle, shard_3)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 68
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: craft(hammer handle, shard_4)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 69
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: craft(shard_2, shard_3)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 70
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: craft(shard_2, shard_4)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 71
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: craft(hammer handle, shard_4)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 72
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.01023071658804329, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: apply(shard_3, locked locker door)
+Reward: locked locker door indeed needs a tool to apply but the current tool is wrong. You should try other tools or gather other clues first.
+Nothing happens after you apply the tool. You need a key to unlock this door.
+Accumulated_reward: 23
+
+Step: 73
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: craft(hammer handle, flashlight)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 74
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: apply(shard_1, locked locker door)
+Reward: locked locker door indeed needs a tool to apply but the current tool is wrong. You should try other tools or gather other clues first.
+Nothing happens after you apply the tool. You need a key to unlock this door.
+Accumulated_reward: 23
+
+Step: 75
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: craft(flashlight, shard_1)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 76
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: craft(flashlight, shard_3)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 77
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: apply(shard_1, locked locker door)
+Reward: locked locker door indeed needs a tool to apply but the current tool is wrong. You should try other tools or gather other clues first.
+Nothing happens after you apply the tool. You need a key to unlock this door.
+Accumulated_reward: 23
+
+Step: 78
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: craft(shard_3, shard_4)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 79
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: apply(shard_3, locked locker door)
+Reward: locked locker door indeed needs a tool to apply but the current tool is wrong. You should try other tools or gather other clues first.
+Nothing happens after you apply the tool. You need a key to unlock this door.
+Accumulated_reward: 23
+
+Step: 80
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: apply(hammer handle, locked locker door)
+Reward: locked locker door indeed needs a tool to apply but the current tool is wrong. You should try other tools or gather other clues first.
+Nothing happens after you apply the tool. You need a key to unlock this door.
+Accumulated_reward: 23
+
+Step: 81
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: apply(shard_1, open locker doors)
+Reward: Nothing happens after you apply the tool. The lockers are empty. there's nothing useful inside.
+Accumulated_reward: 23
+
+Step: 82
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: craft(hammer handle, shard_4)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 83
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: click(open locker doors)
+Reward: Nothing happens after clicking on open locker doors. The lockers are empty. there's nothing useful inside.
+Accumulated_reward: 23
+
+Step: 84
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: craft(shard_1, shard_3)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 85
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: apply(shard_1, open locker doors)
+Reward: Nothing happens after you apply the tool. The lockers are empty. there's nothing useful inside.
+Accumulated_reward: 23
+
+Step: 86
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: apply(shard_4, open locker doors)
+Reward: Nothing happens after you apply the tool. The lockers are empty. there's nothing useful inside.
+Accumulated_reward: 23
+
+Step: 87
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: apply(shard_4, locked locker door)
+Reward: locked locker door indeed needs a tool to apply but the current tool is wrong. You should try other tools or gather other clues first.
+Nothing happens after you apply the tool. You need a key to unlock this door.
+Accumulated_reward: 23
+
+Step: 88
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: craft(flashlight, shard_3)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 89
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: click(open locker doors)
+Reward: Nothing happens after clicking on open locker doors. The lockers are empty. there's nothing useful inside.
+Accumulated_reward: 23
+
+Step: 90
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: apply(flashlight, open locker doors)
+Reward: Nothing happens after you apply the tool. The lockers are empty. there's nothing useful inside.
+Accumulated_reward: 23
+
+Step: 91
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: craft(flashlight, shard_3)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 92
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: apply(flashlight, locked locker door)
+Reward: locked locker door indeed needs a tool to apply but the current tool is wrong. You should try other tools or gather other clues first.
+Nothing happens after you apply the tool. You need a key to unlock this door.
+Accumulated_reward: 23
+
+Step: 93
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: click(open locker doors)
+Reward: Nothing happens after clicking on open locker doors. The lockers are empty. there's nothing useful inside.
+Accumulated_reward: 23
+
+Step: 94
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: apply(hammer handle, locked locker door)
+Reward: locked locker door indeed needs a tool to apply but the current tool is wrong. You should try other tools or gather other clues first.
+Nothing happens after you apply the tool. You need a key to unlock this door.
+Accumulated_reward: 23
+
+Step: 95
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: craft(shard_1, shard_4)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 96
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.01269793949283138, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: apply(shard_3, open locker doors)
+Reward: Nothing happens after you apply the tool. The lockers are empty. there's nothing useful inside.
+Accumulated_reward: 23
+
+Step: 97
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: craft(shard_2, shard_3)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 98
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: apply(shard_2, open locker doors)
+Reward: Nothing happens after you apply the tool. The lockers are empty. there's nothing useful inside.
+Accumulated_reward: 23
+
+Step: 99
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: craft(shard_2, shard_4)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 100
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(flashlight, locked locker door) Q=0.0, Count=50
+apply(flashlight, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_1, locked locker door) Q=0.0, Count=50
+apply(shard_1, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(flashlight, shard_2) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_3) Q=0.0, Count=50
+craft(flashlight, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_1, shard_3) Q=0.0, Count=50
+craft(shard_1, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: move(Back to the study)
+Reward: Action executed successfully. Change to another scene: study.
+Accumulated_reward: 23
+

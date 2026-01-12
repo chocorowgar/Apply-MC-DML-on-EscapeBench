@@ -1,0 +1,3669 @@
+Step: 1
+click(fan) Q=0.8694883373027144, Count=50
+move(Go to iron fence close-up) Q=0.6211238028655109, Count=48
+move(Go to room on the right) Q=0.6326251467318429, Count=48
+move(Go to room on the left) Q=0.6910857284543266, Count=48
+move(Go to the stair) Q=1.8317905671059194, Count=56
+Action: move(Go to the stair)
+Reward: Action executed successfully. Change to another scene: stair.
+Accumulated_reward: 0
+
+Step: 2
+click(oil drum) Q=1.9534606314044602, Count=50
+click(hose) Q=2.624967809968843, Count=54
+click(key 1) Q=2.226771652195602, Count=52
+click(paper 1) Q=2.170406285123349, Count=51
+move(Back to Initial room) Q=0.9231357258452395, Count=45
+move(Go to the boiler room) Q=1.6088968120329057, Count=48
+Action: click(hose)
+Reward: Action executed successfully. You have just collected a hose. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 1
+
+Step: 3
+click(oil drum) Q=1.5100048851095893, Count=49
+click(key 1) Q=2.0641460734656913, Count=53
+click(paper 1) Q=2.1329662994670606, Count=53
+apply(hose, oil drum) Q=2.3708782712768226, Count=54
+apply(hose, key 1) Q=1.384917183683109, Count=49
+apply(hose, paper 1) Q=1.4611077962990955, Count=49
+move(Back to Initial room) Q=0.6782252916001453, Count=45
+move(Go to the boiler room) Q=1.3050475905095846, Count=48
+Action: apply(hose, oil drum)
+Reward: Action executed successfully. You have successfully applied hose to oil drum. You put the hose on the oil drum.
+Accumulated_reward: 2
+
+Step: 4
+click(oil drum) Q=1.471021569660774, Count=50
+click(key 1) Q=1.9827006688344828, Count=53
+click(paper 1) Q=1.8342024103940588, Count=52
+move(Back to Initial room) Q=0.6610634375091622, Count=45
+move(Go to the boiler room) Q=1.4374353496250332, Count=50
+Action: click(key 1)
+Reward: Action executed successfully. You have just collected a key 1. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 3
+
+Step: 5
+click(oil drum) Q=0.8170287265877711, Count=49
+click(paper 1) Q=1.4330127154281425, Count=53
+apply(key 1, oil drum) Q=0.8796560350607037, Count=49
+apply(key 1, paper 1) Q=0.9211310945101021, Count=50
+move(Back to Initial room) Q=0.5550276292486215, Count=48
+move(Go to the boiler room) Q=1.105734539980437, Count=51
+Action: click(paper 1)
+Reward: Action executed successfully. You have just collected a paper 1. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 4
+
+Step: 6
+click(oil drum) Q=0.3924250306305025, Count=49
+apply(key 1, oil drum) Q=0.4251665300106484, Count=50
+apply(paper 1, oil drum) Q=0.49027910480762266, Count=50
+craft(key 1, paper 1) Q=0.583955109430342, Count=50
+move(Back to Initial room) Q=0.33559434561181284, Count=49
+move(Go to the boiler room) Q=0.8878030840261586, Count=52
+Action: move(Go to the boiler room)
+Reward: Action executed successfully. Change to another scene: the boiler room.
+Accumulated_reward: 4
+
+Step: 7
+click(safety door 2) Q=0.8145997693520743, Count=49
+click(boiler) Q=0.6889387828822284, Count=49
+click(iron box) Q=0.6829869780285772, Count=49
+click(key 2) Q=1.787016392321766, Count=55
+click(hacksaw) Q=1.6886327981639773, Count=54
+apply(key 1, safety door 2) Q=0.8280490895948028, Count=50
+apply(key 1, boiler) Q=0.7773213219024507, Count=49
+apply(key 1, iron box) Q=0.7927169025093214, Count=49
+apply(key 1, key 2) Q=0.879926695396862, Count=50
+apply(key 1, hacksaw) Q=0.9423784912427685, Count=50
+apply(paper 1, safety door 2) Q=0.8143111941207923, Count=49
+apply(paper 1, boiler) Q=0.7763605334347703, Count=49
+apply(paper 1, iron box) Q=0.9584191505744569, Count=50
+apply(paper 1, key 2) Q=1.0240592560236847, Count=50
+apply(paper 1, hacksaw) Q=0.9081186781928334, Count=50
+craft(key 1, paper 1) Q=0.8502022374572575, Count=50
+move(Back to the stair) Q=0.6226427025787638, Count=48
+Action: click(key 2)
+Reward: Action executed successfully. You have just collected a key 2. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 5
+
+Step: 8
+click(safety door 2) Q=0.945123907949084, Count=50
+click(boiler) Q=0.7183743979029615, Count=49
+click(iron box) Q=0.6717575809349086, Count=49
+click(hacksaw) Q=2.2538675188446233, Count=58
+apply(key 1, safety door 2) Q=0.843870275150935, Count=50
+apply(key 1, boiler) Q=0.745375565041264, Count=50
+apply(key 1, iron box) Q=0.6515926356821726, Count=49
+apply(key 1, hacksaw) Q=0.7878596777794566, Count=50
+apply(paper 1, safety door 2) Q=0.6689241228612269, Count=49
+apply(paper 1, boiler) Q=0.6950422379575977, Count=49
+apply(paper 1, iron box) Q=0.7662087733943314, Count=50
+apply(paper 1, hacksaw) Q=0.8214010010661081, Count=50
+apply(key 2, safety door 2) Q=0.8936343698676691, Count=50
+apply(key 2, boiler) Q=0.8995083497374979, Count=50
+apply(key 2, iron box) Q=0.7641865313187018, Count=50
+apply(key 2, hacksaw) Q=0.7475403951431481, Count=49
+craft(key 1, paper 1) Q=0.8717165443714078, Count=50
+craft(key 1, key 2) Q=0.9393319065921468, Count=51
+craft(paper 1, key 2) Q=0.7356878251704491, Count=49
+move(Back to the stair) Q=0.40722409776142016, Count=48
+Action: click(hacksaw)
+Reward: Action executed successfully. You have just collected a hacksaw. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 6
+
+Step: 9
+Action: input(3141, iron box)
+Reward: Action executed successfully. You have given an input 3141 to iron box. You opened the box and found a saw blade inside.
+Accumulated_reward: 7
+
+Step: 10
+click(safety door 2) Q=0.49574676829546327, Count=50
+click(boiler) Q=0.4107711259264503, Count=50
+click(saw blade) Q=1.3629021488676674, Count=55
+apply(key 1, safety door 2) Q=0.2806690344989128, Count=49
+apply(key 1, boiler) Q=0.39088684922390027, Count=50
+apply(key 1, saw blade) Q=0.3526223735936066, Count=50
+apply(paper 1, safety door 2) Q=0.37816905024688907, Count=50
+apply(paper 1, boiler) Q=0.354887144429616, Count=49
+apply(paper 1, saw blade) Q=0.4991944252473586, Count=50
+apply(key 2, safety door 2) Q=0.44138938591134685, Count=50
+apply(key 2, boiler) Q=0.42142174014250544, Count=50
+apply(key 2, saw blade) Q=0.4728129671898298, Count=50
+apply(hacksaw, safety door 2) Q=0.3566738510526384, Count=50
+apply(hacksaw, boiler) Q=0.47535977915698213, Count=50
+apply(hacksaw, saw blade) Q=0.41635255975546503, Count=50
+craft(key 1, paper 1) Q=0.3684965425706788, Count=50
+craft(key 1, key 2) Q=0.42170739439245636, Count=50
+craft(key 1, hacksaw) Q=0.3068483969190883, Count=49
+craft(paper 1, key 2) Q=0.5213232183271482, Count=50
+craft(paper 1, hacksaw) Q=0.5125417955040978, Count=50
+craft(key 2, hacksaw) Q=0.469096849133197, Count=50
+move(Back to the stair) Q=0.09479572113986885, Count=48
+Action: click(saw blade)
+Reward: Action executed successfully. You have just collected a saw blade. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 8
+
+Step: 11
+click(safety door 2) Q=0.36221243880888043, Count=50
+click(boiler) Q=0.36079050219627146, Count=50
+apply(key 1, safety door 2) Q=0.3433112709816142, Count=50
+apply(key 1, boiler) Q=0.3572169702346786, Count=50
+apply(paper 1, safety door 2) Q=0.41533088999618356, Count=50
+apply(paper 1, boiler) Q=0.35982239869901755, Count=50
+apply(key 2, safety door 2) Q=0.38648091404756424, Count=50
+apply(key 2, boiler) Q=0.37555167423234215, Count=50
+apply(hacksaw, safety door 2) Q=0.3735814964709701, Count=50
+apply(hacksaw, boiler) Q=0.4043424133766113, Count=50
+apply(saw blade, safety door 2) Q=0.3612837650334828, Count=50
+apply(saw blade, boiler) Q=0.37412032888714974, Count=50
+craft(key 1, paper 1) Q=0.345950342474113, Count=50
+craft(key 1, key 2) Q=0.35120476650056737, Count=50
+craft(key 1, hacksaw) Q=0.31510044770574497, Count=49
+craft(key 1, saw blade) Q=0.3976726140418799, Count=50
+craft(paper 1, key 2) Q=0.43663207380496244, Count=50
+craft(paper 1, hacksaw) Q=0.39543078138520404, Count=50
+craft(paper 1, saw blade) Q=0.418301121912798, Count=50
+craft(key 2, hacksaw) Q=0.3277825751709512, Count=49
+craft(key 2, saw blade) Q=0.3230761744913571, Count=49
+craft(hacksaw, saw blade) Q=0.9999999999999998, Count=53
+move(Back to the stair) Q=0.5159813895366484, Count=50
+Action: craft(hacksaw, saw blade)
+Reward: Action executed successfully. You have successfully crafted A saw blade. Cannot be used directly now, need to connect with something to hold. and A saw but missing th blade now, only the handle is left. together.
+You get a new item: A complete saw, with blade made of iron, sharp to cut things.. It is put into your bag.
+Accumulated_reward: 9
+
+Step: 12
+click(safety door 2) Q=0.0, Count=50
+click(boiler) Q=0.0, Count=50
+apply(key 1, safety door 2) Q=0.014955324501419788, Count=50
+apply(key 1, boiler) Q=0.0, Count=50
+apply(paper 1, safety door 2) Q=0.0, Count=50
+apply(paper 1, boiler) Q=0.01023071658804329, Count=50
+apply(key 2, safety door 2) Q=0.011394592646027296, Count=50
+apply(key 2, boiler) Q=0.027967089551536508, Count=50
+apply(hacksaw, safety door 2) Q=0.02343174254044736, Count=50
+apply(hacksaw, boiler) Q=0.035440521268502057, Count=50
+craft(key 1, paper 1) Q=0.0, Count=50
+craft(key 1, key 2) Q=0.014955324501419788, Count=50
+craft(key 1, hacksaw) Q=0.03714509785575279, Count=50
+craft(paper 1, key 2) Q=0.023395704997069677, Count=50
+craft(paper 1, hacksaw) Q=0.0, Count=50
+craft(key 2, hacksaw) Q=0.013407541439587067, Count=50
+move(Back to the stair) Q=0.07917949047414402, Count=50
+Action: move(Back to the stair)
+Reward: Action executed successfully. Change to another scene: stair.
+Accumulated_reward: 9
+
+Step: 13
+click(oil drum) Q=0.013407541439587067, Count=50
+apply(key 1, oil drum) Q=0.0533930970043552, Count=50
+apply(paper 1, oil drum) Q=0.0370687787399715, Count=50
+apply(key 2, oil drum) Q=0.0, Count=49
+apply(hacksaw, oil drum) Q=0.03749064019982268, Count=50
+craft(key 1, paper 1) Q=0.06530702807861352, Count=50
+craft(key 1, key 2) Q=0.06433267065844535, Count=50
+craft(key 1, hacksaw) Q=0.1281367669343633, Count=50
+craft(paper 1, key 2) Q=0.040229287666418596, Count=50
+craft(paper 1, hacksaw) Q=0.023395704997069677, Count=50
+craft(key 2, hacksaw) Q=0.011394592646027296, Count=50
+move(Back to Initial room) Q=0.19750476936643002, Count=51
+move(Go to the boiler room) Q=0.01023071658804329, Count=50
+Action: move(Back to Initial room)
+Reward: Action executed successfully. Change to another scene: initial room.
+Accumulated_reward: 9
+
+Step: 14
+click(fan) Q=0.19922279465693332, Count=50
+apply(key 1, fan) Q=0.31837939998886666, Count=51
+apply(paper 1, fan) Q=0.077754575294212, Count=49
+apply(key 2, fan) Q=0.2123865069430611, Count=50
+apply(hacksaw, fan) Q=0.22124613644103638, Count=50
+craft(key 1, paper 1) Q=0.22088065975761947, Count=50
+craft(key 1, key 2) Q=0.195085319130885, Count=50
+craft(key 1, hacksaw) Q=0.1478209804182582, Count=50
+craft(paper 1, key 2) Q=0.14563634021993613, Count=50
+craft(paper 1, hacksaw) Q=0.17869598516448962, Count=50
+craft(key 2, hacksaw) Q=0.04826863652534801, Count=49
+move(Go to iron fence close-up) Q=0.5517535946713558, Count=52
+move(Go to room on the right) Q=0.4464666816529549, Count=51
+move(Go to room on the left) Q=0.04985246510721658, Count=49
+move(Go to the stair) Q=0.029963213789722984, Count=49
+Action: move(Go to iron fence close-up)
+Reward: Action executed successfully. Change to another scene: iron fence close-up.
+Accumulated_reward: 9
+
+Step: 15
+click(old bar) Q=0.7070613205095936, Count=50
+apply(key 1, old bar) Q=0.6074345717331897, Count=50
+apply(paper 1, old bar) Q=0.6543725927220647, Count=50
+apply(key 2, old bar) Q=0.6012722504853311, Count=50
+apply(hacksaw, old bar) Q=1.468576250251399, Count=55
+craft(key 1, paper 1) Q=0.6248477082269271, Count=50
+craft(key 1, key 2) Q=0.7418992760721601, Count=50
+craft(key 1, hacksaw) Q=0.6916164257495852, Count=50
+craft(paper 1, key 2) Q=0.5177972532993191, Count=49
+craft(paper 1, hacksaw) Q=0.6587909252336821, Count=50
+craft(key 2, hacksaw) Q=0.47306779307156027, Count=49
+move(Beck to Initial room) Q=0.18492358850617457, Count=47
+Action: apply(hacksaw, old bar)
+Reward: Action executed successfully. You have successfully applied hacksaw to old bar. You cut the bar open.
+Accumulated_reward: 10
+
+Step: 16
+click(gas can) Q=1.1113317127416034, Count=53
+apply(key 1, gas can) Q=0.5146646256478312, Count=50
+apply(paper 1, gas can) Q=0.5857407565552804, Count=50
+apply(key 2, gas can) Q=0.5922254551910752, Count=50
+craft(key 1, paper 1) Q=0.5143738731059773, Count=50
+craft(key 1, key 2) Q=0.5552026648615087, Count=50
+craft(paper 1, key 2) Q=0.4794820254055259, Count=49
+move(Beck to Initial room) Q=0.23239832256574583, Count=48
+Action: click(gas can)
+Reward: Action executed successfully. You have just collected a gas can. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 11
+
+Step: 17
+craft(key 1, paper 1) Q=0.05333432847911121, Count=50
+craft(key 1, key 2) Q=0.0710594583595799, Count=50
+craft(key 1, gas can) Q=0.0482707023876192, Count=50
+craft(paper 1, key 2) Q=0.08613744027301823, Count=50
+craft(paper 1, gas can) Q=0.0979487079173103, Count=50
+craft(key 2, gas can) Q=0.11258764622256694, Count=50
+move(Beck to Initial room) Q=0.1746913626449329, Count=50
+Action: move(Beck to Initial room)
+Reward: Action executed successfully. Change to another scene: initial room.
+Accumulated_reward: 11
+
+Step: 18
+click(fan) Q=0.26920272220907987, Count=50
+apply(key 1, fan) Q=0.10547661678692241, Count=50
+apply(paper 1, fan) Q=0.11852237673763096, Count=50
+apply(key 2, fan) Q=0.1798258471207333, Count=50
+apply(gas can, fan) Q=0.12265949082503, Count=50
+craft(key 1, paper 1) Q=0.18851137404750204, Count=50
+craft(key 1, key 2) Q=0.12811415121467423, Count=50
+craft(key 1, gas can) Q=0.19196486406506108, Count=50
+craft(paper 1, key 2) Q=0.14769222259770898, Count=50
+craft(paper 1, gas can) Q=0.21515737669512794, Count=50
+craft(key 2, gas can) Q=0.18259728118715696, Count=50
+move(Go to iron fence close-up) Q=0.08987799333157033, Count=49
+move(Go to room on the right) Q=0.3773246994578376, Count=51
+move(Go to room on the left) Q=0.05401724450853689, Count=49
+move(Go to the stair) Q=0.36097580885783254, Count=51
+Action: move(Go to room on the right)
+Reward: Action executed successfully. Change to another scene: room on the right.
+Accumulated_reward: 11
+
+Step: 19
+click(lock of power distribution box) Q=0.2703700309072351, Count=49
+click(safety door 1) Q=0.37311414375477453, Count=50
+apply(key 1, lock of power distribution box) Q=1.0395298784302514, Count=54
+apply(key 1, safety door 1) Q=0.36746935778018874, Count=50
+apply(paper 1, lock of power distribution box) Q=0.36826538036621037, Count=50
+apply(paper 1, safety door 1) Q=0.3979479992749505, Count=50
+apply(key 2, lock of power distribution box) Q=0.32841353654642513, Count=50
+apply(key 2, safety door 1) Q=0.3963520632289117, Count=50
+apply(gas can, lock of power distribution box) Q=0.39423157585717566, Count=50
+apply(gas can, safety door 1) Q=0.4377696186496375, Count=50
+craft(key 1, paper 1) Q=0.418698721681199, Count=50
+craft(key 1, key 2) Q=0.4371215522227656, Count=50
+craft(key 1, gas can) Q=0.3894963026780588, Count=50
+craft(paper 1, key 2) Q=0.31849465250202513, Count=49
+craft(paper 1, gas can) Q=0.45112292604756815, Count=50
+craft(key 2, gas can) Q=0.2750007292896451, Count=49
+move(Back to Initial room) Q=0.1642389241980782, Count=49
+Action: apply(key 1, lock of power distribution box)
+Reward: Action executed successfully. You have successfully applied key 1 to lock of power distribution box. You opened the distribution box. now you can go to its close-up.
+Accumulated_reward: 12
+
+Step: 20
+click(safety door 1) Q=0.03933868274976127, Count=50
+apply(paper 1, safety door 1) Q=0.05298655095221867, Count=50
+apply(key 2, safety door 1) Q=0.04966325005473589, Count=50
+apply(gas can, safety door 1) Q=0.030058154165060975, Count=50
+craft(paper 1, key 2) Q=0.0868902836182392, Count=50
+craft(paper 1, gas can) Q=0.05472856377620892, Count=50
+craft(key 2, gas can) Q=0.07230936212660388, Count=50
+move(Back to Initial room) Q=0.10126929499405102, Count=50
+move(Go to distribution box close-up) Q=0.026072498104348328, Count=50
+Action: move(Back to Initial room)
+Reward: Action executed successfully. Change to another scene: initial room.
+Accumulated_reward: 12
+
+Step: 21
+click(fan) Q=0.12929150513335477, Count=50
+apply(paper 1, fan) Q=0.11103330480791962, Count=50
+apply(key 2, fan) Q=0.17007156712649407, Count=50
+apply(gas can, fan) Q=0.13182843489235832, Count=50
+craft(paper 1, key 2) Q=0.24677533992690115, Count=50
+craft(paper 1, gas can) Q=0.12403105928975373, Count=50
+craft(key 2, gas can) Q=0.09587718609845935, Count=50
+move(Go to iron fence close-up) Q=0.07908940272526388, Count=49
+move(Go to room on the right) Q=0.0774930663921306, Count=50
+move(Go to room on the left) Q=0.03301163354553739, Count=49
+move(Go to the stair) Q=0.48693206663973804, Count=52
+Action: move(Go to the stair)
+Reward: Action executed successfully. Change to another scene: stair.
+Accumulated_reward: 12
+
+Step: 22
+click(oil drum) Q=0.45426510812774135, Count=50
+apply(paper 1, oil drum) Q=0.43713255895831815, Count=50
+apply(key 2, oil drum) Q=0.3987929460406128, Count=50
+apply(gas can, oil drum) Q=1.164555477425095, Count=54
+craft(paper 1, key 2) Q=0.5285779008447138, Count=50
+craft(paper 1, gas can) Q=0.534151447062007, Count=50
+craft(key 2, gas can) Q=0.5686775536847308, Count=50
+move(Back to Initial room) Q=0.15656236787404043, Count=48
+move(Go to the boiler room) Q=0.13608249324850272, Count=48
+Action: apply(gas can, oil drum)
+Reward: Action executed successfully. You have successfully applied gas can to oil drum. You extracted the oil and stored it in the container.
+Accumulated_reward: 13
+
+Step: 23
+craft(paper 1, key 2) Q=0.21878179607008383, Count=49
+craft(paper 1, gas can) Q=0.41360072328632164, Count=50
+craft(key 2, gas can) Q=0.2986439247928384, Count=50
+move(Back to Initial room) Q=0.07268895072945744, Count=49
+move(Go to the boiler room) Q=0.7018894580494225, Count=52
+Action: move(Go to the boiler room)
+Reward: Action executed successfully. Change to another scene: the boiler room.
+Accumulated_reward: 13
+
+Step: 24
+click(safety door 2) Q=0.7784872288522992, Count=50
+click(boiler) Q=0.6712778916651807, Count=50
+apply(paper 1, safety door 2) Q=0.6235451018189571, Count=50
+apply(paper 1, boiler) Q=0.49988518578027785, Count=49
+apply(key 2, safety door 2) Q=0.6133588992867391, Count=50
+apply(key 2, boiler) Q=0.5000853039595536, Count=49
+apply(gas can, safety door 2) Q=0.6687841427590892, Count=50
+apply(gas can, boiler) Q=1.5337705301566646, Count=55
+craft(paper 1, key 2) Q=0.7582579796069666, Count=50
+craft(paper 1, gas can) Q=0.7817959763381455, Count=50
+craft(key 2, gas can) Q=0.6071872923686511, Count=50
+move(Back to the stair) Q=0.15030091540991408, Count=47
+Action: apply(gas can, boiler)
+Reward: Action executed successfully. You have successfully applied gas can to boiler. You filled the boiler with oil. it's now running and you san see a lock on its control panel.
+Accumulated_reward: 14
+
+Step: 25
+click(safety door 2) Q=0.5439984589686399, Count=50
+click(boiler) Q=0.4998307122500367, Count=50
+apply(paper 1, safety door 2) Q=0.4736405058903084, Count=49
+apply(paper 1, boiler) Q=0.4997612915812833, Count=50
+apply(key 2, safety door 2) Q=0.6097234679077135, Count=50
+apply(key 2, boiler) Q=1.0316541179148486, Count=53
+craft(paper 1, key 2) Q=0.5142283709999793, Count=50
+move(Back to the stair) Q=0.27874811953584844, Count=48
+Action: apply(key 2, boiler)
+Reward: Action executed successfully. You have successfully applied key 2 to boiler. You opened the control panel and switched a lever. you heard a electric sound outside, something happens...
+Accumulated_reward: 15
+
+Step: 26
+click(safety door 2) Q=0.03912341506875044, Count=50
+click(boiler) Q=0.06497837401489415, Count=50
+apply(paper 1, safety door 2) Q=0.03666617137767602, Count=50
+apply(paper 1, boiler) Q=0.010796270133114115, Count=50
+move(Back to the stair) Q=0.07899150952669838, Count=50
+Action: move(Back to the stair)
+Reward: Action executed successfully. Change to another scene: stair.
+Accumulated_reward: 15
+
+Step: 27
+move(Back to Initial room) Q=0.12756778960995668, Count=50
+move(Go to the boiler room) Q=0.030708957586693987, Count=50
+Action: move(Back to Initial room)
+Reward: Action executed successfully. Change to another scene: initial room.
+Accumulated_reward: 15
+
+Step: 28
+click(fan) Q=0.13832590449869964, Count=50
+apply(paper 1, fan) Q=0.13852918524354096, Count=50
+move(Go to iron fence close-up) Q=0.10420679050960535, Count=50
+move(Go to room on the right) Q=0.44331951874519554, Count=52
+move(Go to room on the left) Q=0.09282971769447758, Count=49
+move(Go to the stair) Q=0.09642441130837587, Count=49
+Action: move(Go to room on the right)
+Reward: Action executed successfully. Change to another scene: room on the right.
+Accumulated_reward: 15
+
+Step: 29
+click(safety door 1) Q=0.41438594959519315, Count=50
+apply(paper 1, safety door 1) Q=0.31101925711613393, Count=49
+move(Back to Initial room) Q=0.15006416105651366, Count=49
+move(Go to distribution box close-up) Q=0.7323452108328233, Count=52
+Action: move(Go to distribution box close-up)
+Reward: Action executed successfully. Change to another scene: distribution box close-up.
+Accumulated_reward: 15
+
+Step: 30
+click(power distribution box) Q=1.2672893693828955, Count=53
+apply(paper 1, power distribution box) Q=0.8084609010202088, Count=50
+move(Back to room on the right) Q=0.35300305328596415, Count=47
+Action: click(power distribution box)
+Reward: Action executed successfully. You have clicked on power distribution box. You turned on the lever. a door is opened ...
+Accumulated_reward: 16
+
+Step: 31
+click(power distribution box) Q=0.1662634565644846, Count=50
+apply(paper 1, power distribution box) Q=0.23729367437564208, Count=50
+move(Back to room on the right) Q=0.3303642494785115, Count=50
+Action: move(Back to room on the right)
+Reward: Action executed successfully. Change to another scene: room on the right.
+Accumulated_reward: 16
+
+Step: 32
+move(Back to Initial room) Q=0.15575953380511232, Count=49
+move(Go to dormitory) Q=0.5857526239746327, Count=52
+move(Go to distribution box close-up) Q=0.15164993555859474, Count=49
+Action: move(Go to dormitory)
+Reward: Action executed successfully. Change to another scene: the dormitory.
+Accumulated_reward: 16
+
+Step: 33
+click(plug) Q=0.615982598672973, Count=49
+click(vent pipe) Q=0.7219693012979801, Count=49
+click(paper) Q=0.7121171038097197, Count=49
+click(strange lock) Q=0.8319970207574109, Count=50
+apply(paper 1, plug) Q=0.8124646962541604, Count=50
+apply(paper 1, vent pipe) Q=0.7420559289419336, Count=49
+apply(paper 1, paper) Q=0.7846192992120007, Count=50
+apply(paper 1, strange lock) Q=0.8412156549132841, Count=50
+move(Back to room on the right) Q=0.370771371399059, Count=48
+move(Go to bed close-up) Q=1.3680869085385747, Count=53
+move(Go to cabinet close-up) Q=1.3879711069266165, Count=53
+Action: move(Go to cabinet close-up)
+Reward: Action executed successfully. Change to another scene: cabinet close-up.
+Accumulated_reward: 16
+
+Step: 34
+click(combination lock) Q=1.3894456000705206, Count=50
+click(rotary lock) Q=1.3015345892045083, Count=49
+click(iodine) Q=1.8866242985303483, Count=53
+click(blue liquid) Q=1.7290086866645902, Count=52
+click(paper 2) Q=1.8041478992617432, Count=52
+apply(paper 1, combination lock) Q=1.2915667443912306, Count=49
+apply(paper 1, rotary lock) Q=1.2156087865660905, Count=49
+apply(paper 1, iodine) Q=1.3531862656661109, Count=49
+apply(paper 1, blue liquid) Q=1.4558055764107194, Count=50
+apply(paper 1, paper 2) Q=1.393648683910366, Count=50
+move(Back to the dormitory) Q=0.7838952070010801, Count=47
+Action: click(iodine)
+Reward: Action executed successfully. You have just collected a iodine. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 17
+
+Step: 35
+click(combination lock) Q=0.8788306132150543, Count=50
+click(rotary lock) Q=0.9259575750989016, Count=50
+click(blue liquid) Q=1.4427410054827725, Count=53
+click(paper 2) Q=1.4702851570132374, Count=53
+apply(paper 1, combination lock) Q=0.8451305529254414, Count=49
+apply(paper 1, rotary lock) Q=0.9068984183805875, Count=50
+apply(paper 1, blue liquid) Q=0.7955875379408863, Count=49
+apply(paper 1, paper 2) Q=0.8794438707748629, Count=50
+apply(iodine, combination lock) Q=1.0310275107071694, Count=50
+apply(iodine, rotary lock) Q=0.800576247270382, Count=49
+apply(iodine, blue liquid) Q=0.7463264030640443, Count=49
+apply(iodine, paper 2) Q=0.7839223801717433, Count=49
+craft(paper 1, iodine) Q=0.855360424390149, Count=50
+move(Back to the dormitory) Q=0.7774051145203459, Count=49
+Action: click(paper 2)
+Reward: Action executed successfully. You have just collected a paper 2. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 18
+
+Step: 36
+click(combination lock) Q=0.40483754559316065, Count=49
+click(rotary lock) Q=0.5116485000367879, Count=50
+click(blue liquid) Q=1.1123235138992837, Count=53
+apply(paper 1, combination lock) Q=0.5260889770294308, Count=50
+apply(paper 1, rotary lock) Q=0.5987638671865707, Count=50
+apply(paper 1, blue liquid) Q=0.49473820264205126, Count=50
+apply(iodine, combination lock) Q=0.4267680062571787, Count=49
+apply(iodine, rotary lock) Q=0.497002482794697, Count=50
+apply(iodine, blue liquid) Q=0.47706211228842116, Count=50
+apply(paper 2, combination lock) Q=0.5800637868624661, Count=50
+apply(paper 2, rotary lock) Q=0.43802723882951333, Count=49
+apply(paper 2, blue liquid) Q=0.459896571955989, Count=50
+craft(paper 1, iodine) Q=0.43952200751229187, Count=50
+craft(paper 1, paper 2) Q=0.45663445166847455, Count=50
+craft(iodine, paper 2) Q=0.45378124880032367, Count=50
+move(Back to the dormitory) Q=0.453548661727724, Count=50
+Action: click(blue liquid)
+Reward: Action executed successfully. You have just collected a blue liquid. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 19
+
+Step: 37
+click(combination lock) Q=0.02761653803752263, Count=50
+click(rotary lock) Q=0.012272917426836179, Count=49
+apply(paper 1, combination lock) Q=0.13164371215639614, Count=50
+apply(paper 1, rotary lock) Q=0.09310603409471521, Count=50
+apply(iodine, combination lock) Q=0.08260667889333223, Count=50
+apply(iodine, rotary lock) Q=0.06827099415911277, Count=50
+apply(paper 2, combination lock) Q=0.10560951765264867, Count=50
+apply(paper 2, rotary lock) Q=0.03674244186319401, Count=50
+apply(blue liquid, combination lock) Q=0.14360198632637458, Count=50
+apply(blue liquid, rotary lock) Q=0.1405356473335923, Count=50
+craft(paper 1, iodine) Q=0.08573999628729234, Count=50
+craft(paper 1, paper 2) Q=0.175124692077155, Count=50
+craft(paper 1, blue liquid) Q=0.09954229274741946, Count=50
+craft(iodine, paper 2) Q=0.11949016571978838, Count=50
+craft(iodine, blue liquid) Q=0.10007669622177767, Count=50
+craft(paper 2, blue liquid) Q=0.07354259123287797, Count=50
+move(Back to the dormitory) Q=0.25474255101410126, Count=51
+Action: move(Back to the dormitory)
+Reward: Action executed successfully. Change to another scene: the dormitory.
+Accumulated_reward: 19
+
+Step: 38
+click(plug) Q=0.3317147712406041, Count=50
+click(vent pipe) Q=0.3070122522455463, Count=50
+click(paper) Q=0.29929812236989356, Count=50
+click(strange lock) Q=0.335609855504017, Count=50
+apply(paper 1, plug) Q=0.3763911399433765, Count=50
+apply(paper 1, vent pipe) Q=0.3061127287055812, Count=50
+apply(paper 1, paper) Q=0.30348786196413696, Count=50
+apply(paper 1, strange lock) Q=0.2597472464144601, Count=50
+apply(iodine, plug) Q=0.3107827785368961, Count=50
+apply(iodine, vent pipe) Q=0.2904410554506543, Count=50
+apply(iodine, paper) Q=1.0995012365964336, Count=54
+apply(iodine, strange lock) Q=0.3664215221712399, Count=50
+apply(paper 2, plug) Q=0.2803243595507911, Count=50
+apply(paper 2, vent pipe) Q=0.30378864451188853, Count=50
+apply(paper 2, paper) Q=0.24102424213019552, Count=49
+apply(paper 2, strange lock) Q=0.35474509639694485, Count=50
+apply(blue liquid, plug) Q=0.3199069957291598, Count=50
+apply(blue liquid, vent pipe) Q=0.2617133081072514, Count=49
+apply(blue liquid, paper) Q=0.226179589051212, Count=49
+apply(blue liquid, strange lock) Q=0.3296003810707222, Count=50
+craft(paper 1, iodine) Q=0.35802684883389413, Count=50
+craft(paper 1, paper 2) Q=0.31382482047872584, Count=50
+craft(paper 1, blue liquid) Q=0.42064446100842323, Count=50
+craft(iodine, paper 2) Q=0.2818857906688866, Count=50
+craft(iodine, blue liquid) Q=0.214592883464652, Count=49
+craft(paper 2, blue liquid) Q=0.3191796435351973, Count=50
+move(Back to room on the right) Q=0.0951640144410373, Count=49
+move(Go to bed close-up) Q=0.7039086353435049, Count=52
+move(Go to cabinet close-up) Q=0.13118390658383508, Count=49
+Action: apply(iodine, paper)
+Reward: Action executed successfully. You have successfully applied iodine to paper. Some blue writings appeared on the paper -- zz, 40, az, x0.
+Accumulated_reward: 20
+
+Step: 39
+click(plug) Q=0.23771727267584614, Count=50
+click(vent pipe) Q=0.1124835412215807, Count=49
+click(paper) Q=0.1960942473767057, Count=50
+click(strange lock) Q=0.1445444127620204, Count=50
+apply(paper 1, plug) Q=0.32339326643426947, Count=50
+apply(paper 1, vent pipe) Q=0.33698199033880905, Count=51
+apply(paper 1, paper) Q=0.21487929556310234, Count=50
+apply(paper 1, strange lock) Q=0.1448693568955628, Count=50
+apply(paper 2, plug) Q=0.11767316110081917, Count=49
+apply(paper 2, vent pipe) Q=0.23516994689278595, Count=50
+apply(paper 2, paper) Q=0.356030839561381, Count=51
+apply(paper 2, strange lock) Q=0.2949309884527709, Count=50
+apply(blue liquid, plug) Q=0.1909446471626833, Count=50
+apply(blue liquid, vent pipe) Q=0.18600213371222823, Count=50
+apply(blue liquid, paper) Q=0.12776490129366017, Count=49
+apply(blue liquid, strange lock) Q=0.1416631238806293, Count=49
+craft(paper 1, paper 2) Q=0.29599234707289707, Count=50
+craft(paper 1, blue liquid) Q=0.1760499066238575, Count=50
+craft(paper 2, blue liquid) Q=0.10577105096090145, Count=49
+move(Back to room on the right) Q=0.1047557300920515, Count=49
+move(Go to bed close-up) Q=1.1308899869225442, Count=55
+move(Go to cabinet close-up) Q=0.020857336787686354, Count=49
+Action: move(Go to bed close-up)
+Reward: Action executed successfully. Change to another scene: bed close-up.
+Accumulated_reward: 20
+
+Step: 40
+click(pillow) Q=1.9183174787370099, Count=56
+click(quilt) Q=0.9563703521940443, Count=50
+click(film) Q=1.3667020255925397, Count=52
+apply(paper 1, pillow) Q=0.9961882301068522, Count=50
+apply(paper 1, quilt) Q=1.0471053921172713, Count=51
+apply(paper 1, film) Q=0.7716583844404691, Count=49
+apply(paper 2, pillow) Q=0.8756151598112427, Count=50
+apply(paper 2, quilt) Q=0.7799545021363014, Count=49
+apply(paper 2, film) Q=1.0461306468992784, Count=51
+apply(blue liquid, pillow) Q=0.7636800442759214, Count=49
+apply(blue liquid, quilt) Q=0.9251465615811282, Count=50
+apply(blue liquid, film) Q=1.0295874902435849, Count=50
+craft(paper 1, paper 2) Q=0.834283806265024, Count=49
+craft(paper 1, blue liquid) Q=0.919066475173253, Count=50
+craft(paper 2, blue liquid) Q=0.5856755988810931, Count=48
+move(Back to the dormitory) Q=0.17393198990282607, Count=46
+Action: click(pillow)
+Reward: Action executed successfully. You have clicked on pillow. You picked up the pillow and found a disk under it.
+Accumulated_reward: 21
+
+Step: 41
+click(quilt) Q=1.0630846794626758, Count=50
+click(disk 1) Q=1.9306476423852386, Count=55
+click(film) Q=1.9558827439920665, Count=55
+apply(paper 1, quilt) Q=0.9726659436840608, Count=50
+apply(paper 1, disk 1) Q=1.016339594265965, Count=50
+apply(paper 1, film) Q=0.7152853817855911, Count=48
+apply(paper 2, quilt) Q=1.051025464289976, Count=50
+apply(paper 2, disk 1) Q=1.0470905500559489, Count=50
+apply(paper 2, film) Q=0.9591572114785817, Count=50
+apply(blue liquid, quilt) Q=0.821905125623343, Count=49
+apply(blue liquid, disk 1) Q=1.0430307888018167, Count=50
+apply(blue liquid, film) Q=0.8952365490147497, Count=49
+craft(paper 1, paper 2) Q=0.8467986501052623, Count=49
+craft(paper 1, blue liquid) Q=1.1114270957838432, Count=51
+craft(paper 2, blue liquid) Q=0.8812951119022352, Count=49
+move(Back to the dormitory) Q=0.11705730210194223, Count=45
+Action: click(film)
+Reward: Action executed successfully. You have just collected a film. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 22
+
+Step: 42
+click(quilt) Q=0.6090937866636379, Count=49
+click(disk 1) Q=2.4159010997673733, Count=60
+apply(paper 1, quilt) Q=0.8172212506816887, Count=50
+apply(paper 1, disk 1) Q=0.8522109511611977, Count=50
+apply(paper 2, quilt) Q=0.5135139419276964, Count=48
+apply(paper 2, disk 1) Q=0.5558971435300282, Count=48
+apply(blue liquid, quilt) Q=0.6246301732603152, Count=49
+apply(blue liquid, disk 1) Q=0.8620591602176616, Count=50
+apply(film, quilt) Q=0.8980603439991331, Count=50
+apply(film, disk 1) Q=0.9535993885558545, Count=50
+craft(paper 1, paper 2) Q=0.9075228075270819, Count=50
+craft(paper 1, blue liquid) Q=0.7824062321287178, Count=50
+craft(paper 1, film) Q=0.8218669203278695, Count=50
+craft(paper 2, blue liquid) Q=0.8861483460924884, Count=50
+craft(paper 2, film) Q=0.9609169988817072, Count=51
+craft(blue liquid, film) Q=0.7653746364209421, Count=49
+move(Back to the dormitory) Q=0.07636162602030272, Count=46
+Action: click(disk 1)
+Reward: Action executed successfully. You have just collected a disk 1. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 23
+
+Step: 43
+Action: input(55401530, rotary lock)
+Reward: Action executed successfully. You have given an input 55401530 to rotary lock. You opened the lock and found a screwdriver and a lever inside.
+Accumulated_reward: 24
+
+Step: 44
+click(combination lock) Q=0.5122360846766941, Count=50
+click(screwdriver) Q=1.2461879188467835, Count=54
+click(lever) Q=1.199002678042571, Count=53
+apply(paper 1, combination lock) Q=0.47597806051552405, Count=50
+apply(paper 1, screwdriver) Q=0.6439870963128862, Count=50
+apply(paper 1, lever) Q=0.5004976166612644, Count=50
+apply(paper 2, combination lock) Q=0.5596648941222453, Count=50
+apply(paper 2, screwdriver) Q=0.5441987306800578, Count=50
+apply(paper 2, lever) Q=0.63177403509314, Count=50
+apply(blue liquid, combination lock) Q=0.5182010500037514, Count=50
+apply(blue liquid, screwdriver) Q=0.5419517713095618, Count=50
+apply(blue liquid, lever) Q=0.45454209400194645, Count=49
+apply(film, combination lock) Q=0.46533590144868475, Count=49
+apply(film, screwdriver) Q=0.45334909215668756, Count=49
+apply(film, lever) Q=0.4669399553698723, Count=50
+apply(disk 1, combination lock) Q=0.5014997640841505, Count=50
+apply(disk 1, screwdriver) Q=0.48591253733347356, Count=50
+apply(disk 1, lever) Q=0.5584954162232983, Count=50
+craft(paper 1, paper 2) Q=0.5647647775381478, Count=50
+craft(paper 1, blue liquid) Q=0.5246365853186155, Count=50
+craft(paper 1, film) Q=0.5125272996328496, Count=50
+craft(paper 1, disk 1) Q=0.5110263706933178, Count=50
+craft(paper 2, blue liquid) Q=0.4304980882803791, Count=49
+craft(paper 2, film) Q=0.5178335122605607, Count=50
+craft(paper 2, disk 1) Q=0.5166785960408738, Count=50
+craft(blue liquid, film) Q=0.5473701195223393, Count=50
+craft(blue liquid, disk 1) Q=0.4250477123402069, Count=49
+craft(film, disk 1) Q=0.606609527133217, Count=50
+move(Back to the dormitory) Q=0.12566297713903005, Count=48
+Action: click(screwdriver)
+Reward: Action executed successfully. You have just collected a screwdriver. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 25
+
+Step: 45
+click(combination lock) Q=0.3143944155951509, Count=50
+click(lever) Q=1.0223888089580262, Count=54
+apply(paper 1, combination lock) Q=0.3360220447437269, Count=50
+apply(paper 1, lever) Q=0.15211327652007817, Count=49
+apply(paper 2, combination lock) Q=0.22402953152042854, Count=49
+apply(paper 2, lever) Q=0.2030298268342603, Count=49
+apply(blue liquid, combination lock) Q=0.280338074390607, Count=50
+apply(blue liquid, lever) Q=0.3158129455101768, Count=50
+apply(film, combination lock) Q=0.2500365090340038, Count=50
+apply(film, lever) Q=0.29976022961538884, Count=50
+apply(disk 1, combination lock) Q=0.33540939660244645, Count=50
+apply(disk 1, lever) Q=0.3118919934846579, Count=50
+apply(screwdriver, combination lock) Q=0.2654156474137177, Count=50
+apply(screwdriver, lever) Q=0.29477497352789656, Count=50
+craft(paper 1, paper 2) Q=0.22354058774393373, Count=50
+craft(paper 1, blue liquid) Q=0.33256226310380643, Count=50
+craft(paper 1, film) Q=0.251654177456001, Count=50
+craft(paper 1, disk 1) Q=0.3001268137920222, Count=50
+craft(paper 1, screwdriver) Q=0.2691206891374367, Count=50
+craft(paper 2, blue liquid) Q=0.3030666338031946, Count=50
+craft(paper 2, film) Q=0.260076538243494, Count=50
+craft(paper 2, disk 1) Q=0.301648037156353, Count=50
+craft(paper 2, screwdriver) Q=0.2674638150654014, Count=50
+craft(blue liquid, film) Q=0.22112810048362583, Count=49
+craft(blue liquid, disk 1) Q=0.3292952081968027, Count=50
+craft(blue liquid, screwdriver) Q=0.29354097574159727, Count=50
+craft(film, disk 1) Q=0.34442776277654374, Count=50
+craft(film, screwdriver) Q=0.2420953692014311, Count=50
+craft(disk 1, screwdriver) Q=0.3647863547351507, Count=50
+move(Back to the dormitory) Q=0.29923588247414645, Count=50
+Action: click(lever)
+Reward: Action executed successfully. You have just collected a lever. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 26
+
+Step: 46
+click(combination lock) Q=0.06382399023642468, Count=50
+apply(paper 1, combination lock) Q=0.01023071658804329, Count=50
+apply(paper 2, combination lock) Q=0.0, Count=50
+apply(blue liquid, combination lock) Q=0.0, Count=50
+apply(film, combination lock) Q=0.010796270133114115, Count=50
+apply(disk 1, combination lock) Q=0.041590146218601694, Count=50
+apply(screwdriver, combination lock) Q=0.022763935069651096, Count=50
+apply(lever, combination lock) Q=0.013407541439587067, Count=50
+craft(paper 1, paper 2) Q=0.03973397070078787, Count=50
+craft(paper 1, blue liquid) Q=0.014955324501419788, Count=50
+craft(paper 1, film) Q=0.021005461793215927, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, screwdriver) Q=0.01269793949283138, Count=50
+craft(paper 1, lever) Q=0.05338177852090691, Count=50
+craft(paper 2, blue liquid) Q=0.01764255650353473, Count=50
+craft(paper 2, film) Q=0.015799168155428967, Count=50
+craft(paper 2, disk 1) Q=0.025522409061886766, Count=50
+craft(paper 2, screwdriver) Q=0.010796270133114115, Count=50
+craft(paper 2, lever) Q=0.05235348811280045, Count=50
+craft(blue liquid, film) Q=0.031194306897557637, Count=50
+craft(blue liquid, disk 1) Q=0.010796270133114115, Count=50
+craft(blue liquid, screwdriver) Q=0.026316910984952174, Count=50
+craft(blue liquid, lever) Q=0.01023071658804329, Count=50
+craft(film, disk 1) Q=0.03949353555399523, Count=50
+craft(film, screwdriver) Q=0.036332597328565294, Count=50
+craft(film, lever) Q=0.010796270133114115, Count=50
+craft(disk 1, screwdriver) Q=0.0, Count=50
+craft(disk 1, lever) Q=0.02346757025108296, Count=50
+craft(screwdriver, lever) Q=0.0, Count=50
+move(Back to the dormitory) Q=0.18566559161541699, Count=50
+Action: move(Back to the dormitory)
+Reward: Action executed successfully. Change to another scene: the dormitory.
+Accumulated_reward: 26
+
+Step: 47
+click(plug) Q=0.10374242228156155, Count=50
+click(vent pipe) Q=0.11396912498543688, Count=50
+click(paper) Q=0.13514290175984284, Count=50
+click(strange lock) Q=0.15302880576056793, Count=50
+apply(paper 1, plug) Q=0.23346097739665914, Count=50
+apply(paper 1, vent pipe) Q=0.15641311602713184, Count=50
+apply(paper 1, paper) Q=0.1393927591417059, Count=50
+apply(paper 1, strange lock) Q=0.2675095741780863, Count=50
+apply(paper 2, plug) Q=0.184090153771072, Count=50
+apply(paper 2, vent pipe) Q=0.1439566586910784, Count=50
+apply(paper 2, paper) Q=0.1887433717628888, Count=50
+apply(paper 2, strange lock) Q=0.10532781157651167, Count=50
+apply(blue liquid, plug) Q=0.14036489652287654, Count=50
+apply(blue liquid, vent pipe) Q=0.18052534133166237, Count=50
+apply(blue liquid, paper) Q=0.15900791619651475, Count=50
+apply(blue liquid, strange lock) Q=0.25644522568855, Count=50
+apply(film, plug) Q=0.1142657795825972, Count=50
+apply(film, vent pipe) Q=0.14307120821862018, Count=50
+apply(film, paper) Q=0.1572172636800061, Count=50
+apply(film, strange lock) Q=0.16745497089059316, Count=50
+apply(disk 1, plug) Q=0.19420655084784258, Count=50
+apply(disk 1, vent pipe) Q=0.16319145582998512, Count=50
+apply(disk 1, paper) Q=0.08978686534910915, Count=50
+apply(disk 1, strange lock) Q=0.12746306127250354, Count=50
+apply(screwdriver, plug) Q=1.187464785861034, Count=55
+apply(screwdriver, vent pipe) Q=0.0900274735741237, Count=50
+apply(screwdriver, paper) Q=0.17252681026529737, Count=50
+apply(screwdriver, strange lock) Q=0.1276978571033311, Count=50
+apply(lever, plug) Q=0.15414594415674077, Count=50
+apply(lever, vent pipe) Q=0.1281308443012594, Count=50
+apply(lever, paper) Q=0.14909636654763747, Count=50
+apply(lever, strange lock) Q=0.1328004497065396, Count=50
+craft(paper 1, paper 2) Q=0.10832718705062058, Count=50
+craft(paper 1, blue liquid) Q=0.15110124210861547, Count=50
+craft(paper 1, film) Q=0.15170382756548087, Count=50
+craft(paper 1, disk 1) Q=0.14883705839115352, Count=50
+craft(paper 1, screwdriver) Q=0.0932753643283921, Count=50
+craft(paper 1, lever) Q=0.17956911152208313, Count=50
+craft(paper 2, blue liquid) Q=0.14974298393880642, Count=50
+craft(paper 2, film) Q=0.14401520200872361, Count=50
+craft(paper 2, disk 1) Q=0.13517379835019244, Count=50
+craft(paper 2, screwdriver) Q=0.04022842842222701, Count=49
+craft(paper 2, lever) Q=0.12015235159047225, Count=50
+craft(blue liquid, film) Q=0.11744262162786254, Count=50
+craft(blue liquid, disk 1) Q=0.13605454924590699, Count=50
+craft(blue liquid, screwdriver) Q=0.2560667473537903, Count=50
+craft(blue liquid, lever) Q=0.21789919625734164, Count=50
+craft(film, disk 1) Q=0.27106482321731207, Count=50
+craft(film, screwdriver) Q=0.22663444380174338, Count=50
+craft(film, lever) Q=0.12873225848947498, Count=50
+craft(disk 1, screwdriver) Q=0.04785389306103665, Count=49
+craft(disk 1, lever) Q=0.19546245068363768, Count=50
+craft(screwdriver, lever) Q=0.2623640806004015, Count=50
+move(Back to room on the right) Q=0.054952529403718656, Count=49
+move(Go to bed close-up) Q=0.044691595703873446, Count=49
+move(Go to cabinet close-up) Q=0.023872059611092095, Count=49
+Action: apply(screwdriver, plug)
+Reward: Action executed successfully. You have successfully applied screwdriver to plug. You loosened the screw with the screwdriver. now you can pick up the plug.
+Accumulated_reward: 27
+
+Step: 48
+click(vent pipe) Q=0.16529834795209825, Count=50
+click(paper) Q=0.08872821564944505, Count=49
+click(strange lock) Q=0.14709476044754285, Count=50
+click(pickable plug) Q=0.9999999999999997, Count=54
+apply(paper 1, vent pipe) Q=0.14687130551393196, Count=50
+apply(paper 1, paper) Q=0.21274542892321885, Count=50
+apply(paper 1, strange lock) Q=0.16501702691322642, Count=50
+apply(paper 1, pickable plug) Q=0.11199664452645242, Count=50
+apply(paper 2, vent pipe) Q=0.1456712945575384, Count=50
+apply(paper 2, paper) Q=0.1737572159396313, Count=50
+apply(paper 2, strange lock) Q=0.11139203145187832, Count=50
+apply(paper 2, pickable plug) Q=0.17435026492519795, Count=50
+apply(blue liquid, vent pipe) Q=0.22233986830054198, Count=50
+apply(blue liquid, paper) Q=0.18846231213922232, Count=50
+apply(blue liquid, strange lock) Q=0.21814781589017396, Count=50
+apply(blue liquid, pickable plug) Q=0.19983328455171775, Count=50
+apply(film, vent pipe) Q=0.14001465728467588, Count=50
+apply(film, paper) Q=0.2820593497489892, Count=50
+apply(film, strange lock) Q=0.16813162752436822, Count=50
+apply(film, pickable plug) Q=0.08685755691352774, Count=50
+apply(disk 1, vent pipe) Q=0.13157910246200483, Count=50
+apply(disk 1, paper) Q=0.1877370407913268, Count=50
+apply(disk 1, strange lock) Q=0.1278253887139962, Count=50
+apply(disk 1, pickable plug) Q=0.16880554921712693, Count=50
+apply(lever, vent pipe) Q=0.18924665147514758, Count=50
+apply(lever, paper) Q=0.1623673668106658, Count=50
+apply(lever, strange lock) Q=0.1576730901982097, Count=50
+apply(lever, pickable plug) Q=0.16325068638150247, Count=50
+craft(paper 1, paper 2) Q=0.15429820874355205, Count=50
+craft(paper 1, blue liquid) Q=0.18820517127758288, Count=50
+craft(paper 1, film) Q=0.2026964729529744, Count=50
+craft(paper 1, disk 1) Q=0.19124654355828702, Count=50
+craft(paper 1, lever) Q=0.1340994218478081, Count=50
+craft(paper 2, blue liquid) Q=0.15956755052871008, Count=50
+craft(paper 2, film) Q=0.1170561176166819, Count=50
+craft(paper 2, disk 1) Q=0.20869206379088467, Count=50
+craft(paper 2, lever) Q=0.13571527660447774, Count=50
+craft(blue liquid, film) Q=0.17941222696718573, Count=50
+craft(blue liquid, disk 1) Q=0.18228530092033104, Count=50
+craft(blue liquid, lever) Q=0.14745089274571205, Count=50
+craft(film, disk 1) Q=0.232326385225818, Count=50
+craft(film, lever) Q=0.14747265477077623, Count=50
+craft(disk 1, lever) Q=0.09420149062144843, Count=50
+move(Back to room on the right) Q=0.08656685854217941, Count=49
+move(Go to bed close-up) Q=0.017033910659699177, Count=49
+move(Go to cabinet close-up) Q=0.04363249576352675, Count=49
+Action: click(pickable plug)
+Reward: Action executed successfully. You have just collected a pickable plug. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 28
+
+Step: 49
+click(vent pipe) Q=0.0, Count=50
+click(paper) Q=0.013407541439587067, Count=50
+click(strange lock) Q=0.0, Count=50
+apply(paper 1, vent pipe) Q=0.0, Count=50
+apply(paper 1, paper) Q=0.0, Count=50
+apply(paper 1, strange lock) Q=0.0, Count=50
+apply(paper 2, vent pipe) Q=0.0, Count=50
+apply(paper 2, paper) Q=0.0, Count=50
+apply(paper 2, strange lock) Q=0.013407541439587067, Count=50
+apply(blue liquid, vent pipe) Q=0.0, Count=50
+apply(blue liquid, paper) Q=0.010796270133114115, Count=50
+apply(blue liquid, strange lock) Q=0.0, Count=50
+apply(film, vent pipe) Q=0.0, Count=50
+apply(film, paper) Q=0.0, Count=50
+apply(film, strange lock) Q=0.01269793949283138, Count=50
+apply(disk 1, vent pipe) Q=0.0, Count=50
+apply(disk 1, paper) Q=0.0, Count=50
+apply(disk 1, strange lock) Q=0.01023071658804329, Count=50
+apply(lever, vent pipe) Q=0.01023071658804329, Count=50
+apply(lever, paper) Q=0.0, Count=50
+apply(lever, strange lock) Q=0.0, Count=50
+apply(pickable plug, vent pipe) Q=0.01269793949283138, Count=50
+apply(pickable plug, paper) Q=0.0, Count=50
+apply(pickable plug, strange lock) Q=0.01023071658804329, Count=50
+craft(paper 1, paper 2) Q=0.011394592646027296, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, lever) Q=0.027529917959891508, Count=50
+craft(paper 1, pickable plug) Q=0.01023071658804329, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.011394592646027296, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, lever) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, lever) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, lever) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(disk 1, lever) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(lever, pickable plug) Q=0.0, Count=50
+move(Back to room on the right) Q=0.036495348672640884, Count=50
+move(Go to bed close-up) Q=0.0, Count=50
+move(Go to cabinet close-up) Q=0.0, Count=50
+Action: move(Back to room on the right)
+Reward: Action executed successfully. Change to another scene: room on the right.
+Accumulated_reward: 28
+
+Step: 50
+craft(paper 1, paper 2) Q=0.05851984195272665, Count=50
+craft(paper 1, blue liquid) Q=0.03029729998477422, Count=50
+craft(paper 1, film) Q=0.031194306897557637, Count=50
+craft(paper 1, disk 1) Q=0.026822230957032546, Count=50
+craft(paper 1, lever) Q=0.05157683139054242, Count=50
+craft(paper 1, pickable plug) Q=0.08894589943058266, Count=50
+craft(paper 2, blue liquid) Q=0.014159093367747502, Count=50
+craft(paper 2, film) Q=0.09219051172770062, Count=50
+craft(paper 2, disk 1) Q=0.03357985323532065, Count=50
+craft(paper 2, lever) Q=0.0705574837353542, Count=50
+craft(paper 2, pickable plug) Q=0.02715892517601711, Count=50
+craft(blue liquid, film) Q=0.040014055234458876, Count=50
+craft(blue liquid, disk 1) Q=0.035544904895394025, Count=50
+craft(blue liquid, lever) Q=0.022763935069651096, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=49
+craft(film, disk 1) Q=0.055887569449656824, Count=50
+craft(film, lever) Q=0.06585973365535802, Count=50
+craft(film, pickable plug) Q=0.043197720638812775, Count=50
+craft(disk 1, lever) Q=0.08567535090560285, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(lever, pickable plug) Q=0.09395206337665765, Count=50
+move(Back to Initial room) Q=0.010796270133114115, Count=50
+move(Go to dormitory) Q=0.0, Count=50
+move(Go to distribution box close-up) Q=0.2681017475718446, Count=51
+Action: move(Go to distribution box close-up)
+Reward: Action executed successfully. Change to another scene: distribution box close-up.
+Accumulated_reward: 28
+
+Step: 51
+click(power distribution box) Q=0.2419826306697633, Count=50
+apply(paper 1, power distribution box) Q=0.28603251490699666, Count=50
+apply(paper 2, power distribution box) Q=0.2292729423430347, Count=50
+apply(blue liquid, power distribution box) Q=0.2568324829456749, Count=50
+apply(film, power distribution box) Q=0.3128123927608047, Count=50
+apply(disk 1, power distribution box) Q=0.23999048534617318, Count=50
+apply(lever, power distribution box) Q=0.9999999999999997, Count=54
+apply(pickable plug, power distribution box) Q=0.208471114777526, Count=49
+craft(paper 1, paper 2) Q=0.2675890200682995, Count=50
+craft(paper 1, blue liquid) Q=0.22626955002078736, Count=50
+craft(paper 1, film) Q=0.2888788016230655, Count=50
+craft(paper 1, disk 1) Q=0.23677897469506928, Count=50
+craft(paper 1, lever) Q=0.2768521987320309, Count=50
+craft(paper 1, pickable plug) Q=0.2479326065622811, Count=50
+craft(paper 2, blue liquid) Q=0.2624609093336391, Count=50
+craft(paper 2, film) Q=0.23556815890432198, Count=50
+craft(paper 2, disk 1) Q=0.1569537810584694, Count=49
+craft(paper 2, lever) Q=0.34165624077442697, Count=50
+craft(paper 2, pickable plug) Q=0.290938666435428, Count=50
+craft(blue liquid, film) Q=0.1885669591606924, Count=49
+craft(blue liquid, disk 1) Q=0.24775423651379183, Count=50
+craft(blue liquid, lever) Q=0.27567162610679774, Count=50
+craft(blue liquid, pickable plug) Q=0.2706437699659909, Count=50
+craft(film, disk 1) Q=0.257419061506866, Count=50
+craft(film, lever) Q=0.2885852216424397, Count=50
+craft(film, pickable plug) Q=0.2764118916111776, Count=50
+craft(disk 1, lever) Q=0.2514098899496385, Count=50
+craft(disk 1, pickable plug) Q=0.22008242450774007, Count=50
+craft(lever, pickable plug) Q=0.3508147238494738, Count=50
+move(Back to room on the right) Q=0.10355907650713972, Count=49
+Action: apply(lever, power distribution box)
+Reward: Action executed successfully. You have successfully applied lever to power distribution box. You put on another lever and turned it on. a door is opened ...
+Accumulated_reward: 29
+
+Step: 52
+click(power distribution box) Q=0.0, Count=50
+apply(paper 1, power distribution box) Q=0.0, Count=50
+apply(paper 2, power distribution box) Q=0.0, Count=50
+apply(blue liquid, power distribution box) Q=0.0, Count=50
+apply(film, power distribution box) Q=0.0, Count=50
+apply(disk 1, power distribution box) Q=0.0, Count=50
+apply(pickable plug, power distribution box) Q=0.0, Count=50
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+move(Back to room on the right) Q=0.0, Count=50
+Action: apply(film, power distribution box)
+Reward: Nothing happens after you apply the tool.
+Accumulated_reward: 29
+
+Step: 53
+click(power distribution box) Q=0.0, Count=50
+apply(paper 1, power distribution box) Q=0.0, Count=50
+apply(paper 2, power distribution box) Q=0.0, Count=50
+apply(blue liquid, power distribution box) Q=0.0, Count=50
+apply(film, power distribution box) Q=0.0, Count=50
+apply(disk 1, power distribution box) Q=0.0, Count=50
+apply(pickable plug, power distribution box) Q=0.0, Count=50
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+move(Back to room on the right) Q=0.0, Count=50
+Action: craft(blue liquid, disk 1)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 29
+
+Step: 54
+click(power distribution box) Q=0.0, Count=50
+apply(paper 1, power distribution box) Q=0.0, Count=50
+apply(paper 2, power distribution box) Q=0.0, Count=50
+apply(blue liquid, power distribution box) Q=0.0, Count=50
+apply(film, power distribution box) Q=0.0, Count=50
+apply(disk 1, power distribution box) Q=0.0, Count=50
+apply(pickable plug, power distribution box) Q=0.0, Count=50
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+move(Back to room on the right) Q=0.0, Count=50
+Action: apply(pickable plug, power distribution box)
+Reward: Nothing happens after you apply the tool.
+Accumulated_reward: 29
+
+Step: 55
+click(power distribution box) Q=0.0, Count=50
+apply(paper 1, power distribution box) Q=0.0, Count=50
+apply(paper 2, power distribution box) Q=0.0, Count=50
+apply(blue liquid, power distribution box) Q=0.0, Count=50
+apply(film, power distribution box) Q=0.0, Count=50
+apply(disk 1, power distribution box) Q=0.0, Count=50
+apply(pickable plug, power distribution box) Q=0.0, Count=50
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+move(Back to room on the right) Q=0.0, Count=50
+Action: craft(paper 1, film)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 29
+
+Step: 56
+click(power distribution box) Q=0.0, Count=50
+apply(paper 1, power distribution box) Q=0.0, Count=50
+apply(paper 2, power distribution box) Q=0.0, Count=50
+apply(blue liquid, power distribution box) Q=0.0, Count=50
+apply(film, power distribution box) Q=0.0, Count=50
+apply(disk 1, power distribution box) Q=0.0, Count=50
+apply(pickable plug, power distribution box) Q=0.0, Count=50
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+move(Back to room on the right) Q=0.0, Count=50
+Action: craft(paper 2, blue liquid)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 29
+
+Step: 57
+click(power distribution box) Q=0.0, Count=50
+apply(paper 1, power distribution box) Q=0.0, Count=50
+apply(paper 2, power distribution box) Q=0.0, Count=50
+apply(blue liquid, power distribution box) Q=0.0, Count=50
+apply(film, power distribution box) Q=0.0, Count=50
+apply(disk 1, power distribution box) Q=0.0, Count=50
+apply(pickable plug, power distribution box) Q=0.0, Count=50
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+move(Back to room on the right) Q=0.0, Count=50
+Action: craft(paper 1, disk 1)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 29
+
+Step: 58
+click(power distribution box) Q=0.0, Count=50
+apply(paper 1, power distribution box) Q=0.0, Count=50
+apply(paper 2, power distribution box) Q=0.0, Count=50
+apply(blue liquid, power distribution box) Q=0.0, Count=50
+apply(film, power distribution box) Q=0.0, Count=50
+apply(disk 1, power distribution box) Q=0.0, Count=50
+apply(pickable plug, power distribution box) Q=0.0, Count=50
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+move(Back to room on the right) Q=0.0, Count=50
+Action: craft(paper 1, blue liquid)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 29
+
+Step: 59
+click(power distribution box) Q=0.0, Count=50
+apply(paper 1, power distribution box) Q=0.0, Count=50
+apply(paper 2, power distribution box) Q=0.0, Count=50
+apply(blue liquid, power distribution box) Q=0.0, Count=50
+apply(film, power distribution box) Q=0.0, Count=50
+apply(disk 1, power distribution box) Q=0.0, Count=50
+apply(pickable plug, power distribution box) Q=0.0, Count=50
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+move(Back to room on the right) Q=0.01023071658804329, Count=50
+Action: move(Back to room on the right)
+Reward: Action executed successfully. Change to another scene: room on the right.
+Accumulated_reward: 29
+
+Step: 60
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.01023071658804329, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+move(Back to Initial room) Q=0.0, Count=50
+move(Go to dormitory) Q=0.0, Count=50
+move(Go to distribution box close-up) Q=0.0, Count=50
+Action: craft(film, pickable plug)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 29
+
+Step: 61
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.010796270133114115, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.01023071658804329, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+move(Back to Initial room) Q=0.0, Count=50
+move(Go to dormitory) Q=0.0, Count=50
+move(Go to distribution box close-up) Q=0.0, Count=50
+Action: craft(paper 2, pickable plug)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 29
+
+Step: 62
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.010796270133114115, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+move(Back to Initial room) Q=0.01023071658804329, Count=50
+move(Go to dormitory) Q=0.0, Count=50
+move(Go to distribution box close-up) Q=0.0, Count=50
+Action: craft(paper 1, blue liquid)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 29
+
+Step: 63
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.01023071658804329, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+move(Back to Initial room) Q=0.013407541439587067, Count=50
+move(Go to dormitory) Q=0.0, Count=50
+move(Go to distribution box close-up) Q=0.0, Count=50
+Action: move(Back to Initial room)
+Reward: Action executed successfully. Change to another scene: initial room.
+Accumulated_reward: 29
+
+Step: 64
+click(fan) Q=0.0, Count=50
+apply(paper 1, fan) Q=0.0, Count=50
+apply(paper 2, fan) Q=0.0, Count=50
+apply(blue liquid, fan) Q=0.014955324501419788, Count=50
+apply(film, fan) Q=0.0, Count=50
+apply(disk 1, fan) Q=0.04697166899424389, Count=50
+apply(pickable plug, fan) Q=0.022166921721517928, Count=50
+craft(paper 1, paper 2) Q=0.011394592646027296, Count=50
+craft(paper 1, blue liquid) Q=0.024175706315856457, Count=50
+craft(paper 1, film) Q=0.015799168155428967, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.010796270133114115, Count=50
+craft(paper 2, blue liquid) Q=0.010796270133114115, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0405065950909185, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.022903395403740923, Count=50
+craft(film, disk 1) Q=0.05322454452729834, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+move(Go to iron fence close-up) Q=0.0, Count=50
+move(Go to room on the right) Q=0.0, Count=50
+move(Go to room on the left) Q=0.10804713539682956, Count=50
+move(Go to the stair) Q=0.011394592646027296, Count=50
+Action: move(Go to room on the left)
+Reward: Action executed successfully. Change to another scene: room on the left.
+Accumulated_reward: 29
+
+Step: 65
+craft(paper 1, paper 2) Q=0.09739077725544584, Count=50
+craft(paper 1, blue liquid) Q=0.010439293989715864, Count=49
+craft(paper 1, film) Q=0.12311424602153673, Count=50
+craft(paper 1, disk 1) Q=0.11981302728969799, Count=50
+craft(paper 1, pickable plug) Q=0.08840297796341275, Count=50
+craft(paper 2, blue liquid) Q=0.07660142303457393, Count=50
+craft(paper 2, film) Q=0.10181094858532155, Count=50
+craft(paper 2, disk 1) Q=0.12286960387541779, Count=50
+craft(paper 2, pickable plug) Q=0.09314138478140091, Count=50
+craft(blue liquid, film) Q=0.11018016533760415, Count=50
+craft(blue liquid, disk 1) Q=0.04406071834538984, Count=50
+craft(blue liquid, pickable plug) Q=0.06286771690342127, Count=50
+craft(film, disk 1) Q=0.08818577041265072, Count=50
+craft(film, pickable plug) Q=0.040229287666418596, Count=50
+craft(disk 1, pickable plug) Q=0.09543602346941182, Count=50
+move(Back to Initial room) Q=0.0, Count=49
+move(Go to the control room) Q=0.44622109958484124, Count=52
+Action: move(Go to the control room)
+Reward: Action executed successfully. Change to another scene: the control room.
+Accumulated_reward: 29
+
+Step: 66
+click(safety door 4) Q=0.5185764128635381, Count=51
+click(silk painting) Q=0.4362954392282237, Count=50
+click(computer) Q=0.1789707315809128, Count=49
+click(photo paper) Q=1.482322818710867, Count=56
+click(paper 3) Q=1.1968129110986365, Count=54
+apply(paper 1, safety door 4) Q=0.4158364401731682, Count=50
+apply(paper 1, silk painting) Q=0.3148781554835751, Count=50
+apply(paper 1, computer) Q=0.5164381006772131, Count=51
+apply(paper 1, photo paper) Q=0.422346520962457, Count=50
+apply(paper 1, paper 3) Q=0.3653598884712746, Count=50
+apply(paper 2, safety door 4) Q=0.3318662260894574, Count=50
+apply(paper 2, silk painting) Q=0.33635677170649286, Count=50
+apply(paper 2, computer) Q=0.34976049000414255, Count=50
+apply(paper 2, photo paper) Q=0.4447423752938294, Count=50
+apply(paper 2, paper 3) Q=0.46000179213937703, Count=50
+apply(blue liquid, safety door 4) Q=0.22516897616394088, Count=49
+apply(blue liquid, silk painting) Q=0.46966636486312824, Count=50
+apply(blue liquid, computer) Q=0.33403373948797643, Count=50
+apply(blue liquid, photo paper) Q=0.3897192379509047, Count=50
+apply(blue liquid, paper 3) Q=0.4274163634303032, Count=50
+apply(film, safety door 4) Q=0.39321977091204985, Count=50
+apply(film, silk painting) Q=0.3128126909565713, Count=49
+apply(film, computer) Q=0.28684562399859204, Count=49
+apply(film, photo paper) Q=0.466410574051912, Count=50
+apply(film, paper 3) Q=0.3297792897068298, Count=50
+apply(disk 1, safety door 4) Q=0.33210251946113234, Count=50
+apply(disk 1, silk painting) Q=0.29830266431958685, Count=49
+apply(disk 1, computer) Q=0.31203333332322397, Count=50
+apply(disk 1, photo paper) Q=0.36026294102764694, Count=50
+apply(disk 1, paper 3) Q=0.35513080791792423, Count=50
+apply(pickable plug, safety door 4) Q=0.2810911421750239, Count=49
+apply(pickable plug, silk painting) Q=0.3175100912559359, Count=50
+apply(pickable plug, computer) Q=0.271079979298074, Count=49
+apply(pickable plug, photo paper) Q=0.44751712500117585, Count=50
+apply(pickable plug, paper 3) Q=0.3132406725983389, Count=49
+craft(paper 1, paper 2) Q=0.4029122530078945, Count=50
+craft(paper 1, blue liquid) Q=0.41513146010697943, Count=50
+craft(paper 1, film) Q=0.5255946621412972, Count=51
+craft(paper 1, disk 1) Q=0.2992479584677955, Count=49
+craft(paper 1, pickable plug) Q=0.39955694270650755, Count=50
+craft(paper 2, blue liquid) Q=0.3956021389719548, Count=50
+craft(paper 2, film) Q=0.2527842847357595, Count=49
+craft(paper 2, disk 1) Q=0.3203357671210498, Count=50
+craft(paper 2, pickable plug) Q=0.3276260118425921, Count=50
+craft(blue liquid, film) Q=0.2511417705648177, Count=49
+craft(blue liquid, disk 1) Q=0.39174446094476123, Count=50
+craft(blue liquid, pickable plug) Q=0.3124881813523104, Count=50
+craft(film, disk 1) Q=0.354129852590433, Count=50
+craft(film, pickable plug) Q=0.3901372158277004, Count=50
+craft(disk 1, pickable plug) Q=0.31172424168199453, Count=50
+move(Back to room on the left) Q=0.055932482216322965, Count=48
+Action: click(photo paper)
+Reward: Action executed successfully. You have just collected a photo paper. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 30
+
+Step: 67
+click(safety door 4) Q=0.44261013653766046, Count=50
+click(silk painting) Q=0.38850943141421945, Count=50
+click(computer) Q=0.29414152578373276, Count=50
+click(paper 3) Q=2.3587465530708736, Count=61
+apply(paper 1, safety door 4) Q=0.33236279597420393, Count=50
+apply(paper 1, silk painting) Q=0.28043305002398744, Count=50
+apply(paper 1, computer) Q=0.27519465959251665, Count=49
+apply(paper 1, paper 3) Q=0.25880181667336466, Count=49
+apply(paper 2, safety door 4) Q=0.460765885943666, Count=50
+apply(paper 2, silk painting) Q=0.3537239456990133, Count=50
+apply(paper 2, computer) Q=0.3588569907600114, Count=50
+apply(paper 2, paper 3) Q=0.38478413039889137, Count=50
+apply(blue liquid, safety door 4) Q=0.32034306341130114, Count=50
+apply(blue liquid, silk painting) Q=0.4777703104125143, Count=51
+apply(blue liquid, computer) Q=0.27509850155857135, Count=49
+apply(blue liquid, paper 3) Q=0.25311219684098585, Count=49
+apply(film, safety door 4) Q=0.2525222738499588, Count=49
+apply(film, silk painting) Q=0.29984996830916216, Count=50
+apply(film, computer) Q=0.36200542025261173, Count=50
+apply(film, paper 3) Q=0.1664855424370744, Count=49
+apply(disk 1, safety door 4) Q=0.13604410160422067, Count=49
+apply(disk 1, silk painting) Q=0.2517759932717723, Count=49
+apply(disk 1, computer) Q=0.3732872459037002, Count=50
+apply(disk 1, paper 3) Q=0.3773689230707441, Count=50
+apply(pickable plug, safety door 4) Q=0.3675079928850521, Count=50
+apply(pickable plug, silk painting) Q=0.39251300492544133, Count=50
+apply(pickable plug, computer) Q=0.4370949825496524, Count=50
+apply(pickable plug, paper 3) Q=0.2781943037733163, Count=50
+apply(photo paper, safety door 4) Q=0.4986649183106674, Count=51
+apply(photo paper, silk painting) Q=0.4054539956708614, Count=50
+apply(photo paper, computer) Q=0.3938505942544155, Count=50
+apply(photo paper, paper 3) Q=0.36848213447217326, Count=50
+craft(paper 1, paper 2) Q=0.5389781591543876, Count=51
+craft(paper 1, blue liquid) Q=0.37676725867705607, Count=50
+craft(paper 1, film) Q=0.26372018919890783, Count=49
+craft(paper 1, disk 1) Q=0.1737874355440119, Count=49
+craft(paper 1, pickable plug) Q=0.39882495311782995, Count=50
+craft(paper 1, photo paper) Q=0.42597285437654975, Count=50
+craft(paper 2, blue liquid) Q=0.5228708794414111, Count=51
+craft(paper 2, film) Q=0.276673526027437, Count=50
+craft(paper 2, disk 1) Q=0.4613234846416118, Count=50
+craft(paper 2, pickable plug) Q=0.3453982054443091, Count=50
+craft(paper 2, photo paper) Q=0.39739226372951186, Count=50
+craft(blue liquid, film) Q=0.29736244861179617, Count=50
+craft(blue liquid, disk 1) Q=0.22319701522239097, Count=49
+craft(blue liquid, pickable plug) Q=0.1909246708414431, Count=49
+craft(blue liquid, photo paper) Q=0.3484368173455072, Count=50
+craft(film, disk 1) Q=0.28572587197028776, Count=50
+craft(film, pickable plug) Q=0.2689012737938894, Count=49
+craft(film, photo paper) Q=0.39128910760335867, Count=50
+craft(disk 1, pickable plug) Q=0.21606066247746106, Count=49
+craft(disk 1, photo paper) Q=0.37938956790941103, Count=50
+craft(pickable plug, photo paper) Q=0.36933906893209245, Count=50
+move(Back to room on the left) Q=0.11906838495280059, Count=49
+Action: click(paper 3)
+Reward: Action executed successfully. You have just collected a paper 3. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 31
+
+Step: 68
+Action: input(2451, combination lock)
+Reward: Action executed successfully. You have given an input 2451 to combination lock. You opened the lock and found a disk and a duct tape inside.
+Accumulated_reward: 32
+
+Step: 69
+click(duct tape) Q=1.2002465025989961, Count=54
+click(disk 3) Q=1.1805108017310353, Count=54
+apply(paper 1, duct tape) Q=0.32557397362194745, Count=50
+apply(paper 1, disk 3) Q=0.3572208667932913, Count=50
+apply(paper 2, duct tape) Q=0.3802592028300914, Count=50
+apply(paper 2, disk 3) Q=0.33288915072673675, Count=50
+apply(blue liquid, duct tape) Q=0.28236788489765774, Count=49
+apply(blue liquid, disk 3) Q=0.2774114331242852, Count=49
+apply(film, duct tape) Q=0.2742270832580938, Count=49
+apply(film, disk 3) Q=0.24978718743716408, Count=49
+apply(disk 1, duct tape) Q=0.33709811637242426, Count=50
+apply(disk 1, disk 3) Q=0.2836932359759285, Count=49
+apply(pickable plug, duct tape) Q=0.4352120767486172, Count=50
+apply(pickable plug, disk 3) Q=0.2901527550536888, Count=50
+apply(photo paper, duct tape) Q=0.37825352184129607, Count=50
+apply(photo paper, disk 3) Q=0.3339994125478973, Count=50
+apply(paper 3, duct tape) Q=0.3504086425358745, Count=50
+apply(paper 3, disk 3) Q=0.32839140677595136, Count=50
+craft(paper 1, paper 2) Q=0.27305030416804643, Count=49
+craft(paper 1, blue liquid) Q=0.3076922111898487, Count=50
+craft(paper 1, film) Q=0.39693036538556575, Count=50
+craft(paper 1, disk 1) Q=0.3330446798710256, Count=50
+craft(paper 1, pickable plug) Q=0.3470116939821835, Count=50
+craft(paper 1, photo paper) Q=0.3542087063432381, Count=50
+craft(paper 1, paper 3) Q=0.45263362341208224, Count=50
+craft(paper 2, blue liquid) Q=0.3674376570118791, Count=50
+craft(paper 2, film) Q=0.4706095365071587, Count=50
+craft(paper 2, disk 1) Q=0.4245636164290609, Count=50
+craft(paper 2, pickable plug) Q=0.3792317677231598, Count=50
+craft(paper 2, photo paper) Q=0.3503011718751682, Count=50
+craft(paper 2, paper 3) Q=0.35592098112294884, Count=50
+craft(blue liquid, film) Q=0.3125976639797543, Count=50
+craft(blue liquid, disk 1) Q=0.4337546137905263, Count=50
+craft(blue liquid, pickable plug) Q=0.42752082869640035, Count=50
+craft(blue liquid, photo paper) Q=0.4534179994855973, Count=50
+craft(blue liquid, paper 3) Q=0.3478525011603453, Count=50
+craft(film, disk 1) Q=0.36176502039630437, Count=50
+craft(film, pickable plug) Q=0.3456308536310209, Count=50
+craft(film, photo paper) Q=0.3856880364411523, Count=50
+craft(film, paper 3) Q=0.2945277161247145, Count=50
+craft(disk 1, pickable plug) Q=0.41578653711040253, Count=50
+craft(disk 1, photo paper) Q=0.3053834689399999, Count=50
+craft(disk 1, paper 3) Q=0.29131052926706036, Count=50
+craft(pickable plug, photo paper) Q=0.3465410768508908, Count=50
+craft(pickable plug, paper 3) Q=0.33082850668090713, Count=50
+craft(photo paper, paper 3) Q=0.39694219686517046, Count=50
+move(Back to the dormitory) Q=0.02707899617993928, Count=48
+Action: click(duct tape)
+Reward: Action executed successfully. You have just collected a duct tape. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 33
+
+Step: 70
+click(disk 3) Q=0.9999999999999997, Count=54
+apply(paper 1, disk 3) Q=0.20508932816392333, Count=50
+apply(paper 2, disk 3) Q=0.1983526854831361, Count=50
+apply(blue liquid, disk 3) Q=0.20171228419196766, Count=50
+apply(film, disk 3) Q=0.22320338848578025, Count=50
+apply(disk 1, disk 3) Q=0.25734001585132993, Count=50
+apply(pickable plug, disk 3) Q=0.13347121049161373, Count=50
+apply(photo paper, disk 3) Q=0.168798465249987, Count=50
+apply(paper 3, disk 3) Q=0.20110864399014367, Count=50
+apply(duct tape, disk 3) Q=0.090853647447137, Count=49
+craft(paper 1, paper 2) Q=0.10448926952676699, Count=49
+craft(paper 1, blue liquid) Q=0.23650050512877818, Count=50
+craft(paper 1, film) Q=0.1449777191300603, Count=50
+craft(paper 1, disk 1) Q=0.1450150674014249, Count=50
+craft(paper 1, pickable plug) Q=0.18106631093440853, Count=50
+craft(paper 1, photo paper) Q=0.17018353463834823, Count=50
+craft(paper 1, paper 3) Q=0.1480515700015153, Count=50
+craft(paper 1, duct tape) Q=0.18740094514155192, Count=50
+craft(paper 2, blue liquid) Q=0.2036220110774535, Count=50
+craft(paper 2, film) Q=0.25919434895084614, Count=50
+craft(paper 2, disk 1) Q=0.21618185714187482, Count=50
+craft(paper 2, pickable plug) Q=0.24111329588759406, Count=50
+craft(paper 2, photo paper) Q=0.16488478265950535, Count=50
+craft(paper 2, paper 3) Q=0.19229069711027863, Count=50
+craft(paper 2, duct tape) Q=0.20683473502097469, Count=50
+craft(blue liquid, film) Q=0.1570251095178215, Count=50
+craft(blue liquid, disk 1) Q=0.18240615724297185, Count=50
+craft(blue liquid, pickable plug) Q=0.18875292910314595, Count=50
+craft(blue liquid, photo paper) Q=0.15979813357459138, Count=50
+craft(blue liquid, paper 3) Q=0.1791331487459178, Count=50
+craft(blue liquid, duct tape) Q=0.1757893848764355, Count=50
+craft(film, disk 1) Q=0.2423141099512914, Count=50
+craft(film, pickable plug) Q=0.13040524360606148, Count=50
+craft(film, photo paper) Q=0.2246254180274689, Count=50
+craft(film, paper 3) Q=0.20715827807599693, Count=50
+craft(film, duct tape) Q=0.2344108343705699, Count=50
+craft(disk 1, pickable plug) Q=0.23530023919832813, Count=50
+craft(disk 1, photo paper) Q=0.15961606834681327, Count=50
+craft(disk 1, paper 3) Q=0.07470194118565524, Count=49
+craft(disk 1, duct tape) Q=0.25572826409446453, Count=50
+craft(pickable plug, photo paper) Q=0.23165853901847558, Count=50
+craft(pickable plug, paper 3) Q=0.2092600187924866, Count=50
+craft(pickable plug, duct tape) Q=0.22104218048830349, Count=50
+craft(photo paper, paper 3) Q=0.21049386445713764, Count=50
+craft(photo paper, duct tape) Q=0.18701093686331488, Count=50
+craft(paper 3, duct tape) Q=0.14121528630112296, Count=50
+move(Back to the dormitory) Q=0.025921166459627734, Count=49
+Action: click(disk 3)
+Reward: Action executed successfully. You have just collected a disk 3. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 34
+
+Step: 71
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to the dormitory) Q=0.0, Count=50
+Action: craft(paper 1, photo paper)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 34
+
+Step: 72
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to the dormitory) Q=0.0, Count=50
+Action: craft(disk 1, pickable plug)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 34
+
+Step: 73
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to the dormitory) Q=0.0, Count=50
+Action: craft(film, duct tape)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 34
+
+Step: 74
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to the dormitory) Q=0.0, Count=50
+Action: craft(film, photo paper)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 34
+
+Step: 75
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to the dormitory) Q=0.0, Count=50
+Action: craft(disk 1, pickable plug)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 34
+
+Step: 76
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to the dormitory) Q=0.0, Count=50
+Action: craft(paper 2, blue liquid)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 34
+
+Step: 77
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to the dormitory) Q=0.0, Count=50
+Action: craft(film, disk 1)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 34
+
+Step: 78
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to the dormitory) Q=0.0, Count=50
+Action: craft(disk 1, photo paper)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 34
+
+Step: 79
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to the dormitory) Q=0.0, Count=50
+Action: craft(paper 1, disk 1)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 34
+
+Step: 80
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to the dormitory) Q=0.0, Count=50
+Action: craft(film, pickable plug)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 34
+
+Step: 81
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to the dormitory) Q=0.0, Count=50
+Action: craft(paper 2, duct tape)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 34
+
+Step: 82
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to the dormitory) Q=0.0, Count=50
+Action: craft(pickable plug, disk 3)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 34
+
+Step: 83
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to the dormitory) Q=0.0, Count=50
+Action: craft(paper 2, disk 1)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 34
+
+Step: 84
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to the dormitory) Q=0.0, Count=50
+Action: craft(blue liquid, film)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 34
+
+Step: 85
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to the dormitory) Q=0.0, Count=50
+Action: move(Back to the dormitory)
+Reward: Action executed successfully. Change to another scene: the dormitory.
+Accumulated_reward: 34
+
+Step: 86
+click(vent pipe) Q=0.0, Count=50
+click(paper) Q=0.0, Count=50
+click(strange lock) Q=0.0, Count=50
+apply(paper 1, vent pipe) Q=0.0, Count=50
+apply(paper 1, paper) Q=0.0, Count=50
+apply(paper 1, strange lock) Q=0.0, Count=50
+apply(paper 2, vent pipe) Q=0.0, Count=50
+apply(paper 2, paper) Q=0.0, Count=50
+apply(paper 2, strange lock) Q=0.0, Count=50
+apply(blue liquid, vent pipe) Q=0.0, Count=50
+apply(blue liquid, paper) Q=0.0, Count=50
+apply(blue liquid, strange lock) Q=0.0, Count=50
+apply(film, vent pipe) Q=0.0, Count=50
+apply(film, paper) Q=0.0, Count=50
+apply(film, strange lock) Q=0.0, Count=50
+apply(disk 1, vent pipe) Q=0.0, Count=50
+apply(disk 1, paper) Q=0.0, Count=50
+apply(disk 1, strange lock) Q=0.0, Count=50
+apply(pickable plug, vent pipe) Q=0.0, Count=50
+apply(pickable plug, paper) Q=0.0, Count=50
+apply(pickable plug, strange lock) Q=0.0, Count=50
+apply(photo paper, vent pipe) Q=0.0, Count=50
+apply(photo paper, paper) Q=0.0, Count=50
+apply(photo paper, strange lock) Q=0.0, Count=50
+apply(paper 3, vent pipe) Q=0.0, Count=50
+apply(paper 3, paper) Q=0.0, Count=50
+apply(paper 3, strange lock) Q=0.0, Count=50
+apply(duct tape, vent pipe) Q=0.0, Count=50
+apply(duct tape, paper) Q=0.0, Count=50
+apply(duct tape, strange lock) Q=0.0, Count=50
+apply(disk 3, vent pipe) Q=0.0, Count=50
+apply(disk 3, paper) Q=0.0, Count=50
+apply(disk 3, strange lock) Q=0.0, Count=50
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to room on the right) Q=0.0, Count=50
+move(Go to bed close-up) Q=0.0, Count=50
+move(Go to cabinet close-up) Q=0.0, Count=50
+Action: apply(disk 3, strange lock)
+Reward: Nothing happens after you apply the tool. You need to input the correct password according to the hint beside it.
+Accumulated_reward: 34
+
+Step: 87
+click(vent pipe) Q=0.0, Count=50
+click(paper) Q=0.0, Count=50
+click(strange lock) Q=0.0, Count=50
+apply(paper 1, vent pipe) Q=0.0, Count=50
+apply(paper 1, paper) Q=0.0, Count=50
+apply(paper 1, strange lock) Q=0.0, Count=50
+apply(paper 2, vent pipe) Q=0.0, Count=50
+apply(paper 2, paper) Q=0.0, Count=50
+apply(paper 2, strange lock) Q=0.0, Count=50
+apply(blue liquid, vent pipe) Q=0.0, Count=50
+apply(blue liquid, paper) Q=0.0, Count=50
+apply(blue liquid, strange lock) Q=0.0, Count=50
+apply(film, vent pipe) Q=0.0, Count=50
+apply(film, paper) Q=0.0, Count=50
+apply(film, strange lock) Q=0.0, Count=50
+apply(disk 1, vent pipe) Q=0.0, Count=50
+apply(disk 1, paper) Q=0.0, Count=50
+apply(disk 1, strange lock) Q=0.0, Count=50
+apply(pickable plug, vent pipe) Q=0.0, Count=50
+apply(pickable plug, paper) Q=0.0, Count=50
+apply(pickable plug, strange lock) Q=0.0, Count=50
+apply(photo paper, vent pipe) Q=0.0, Count=50
+apply(photo paper, paper) Q=0.0, Count=50
+apply(photo paper, strange lock) Q=0.0, Count=50
+apply(paper 3, vent pipe) Q=0.0, Count=50
+apply(paper 3, paper) Q=0.0, Count=50
+apply(paper 3, strange lock) Q=0.0, Count=50
+apply(duct tape, vent pipe) Q=0.0, Count=50
+apply(duct tape, paper) Q=0.0, Count=50
+apply(duct tape, strange lock) Q=0.0, Count=50
+apply(disk 3, vent pipe) Q=0.0, Count=50
+apply(disk 3, paper) Q=0.0, Count=50
+apply(disk 3, strange lock) Q=0.0, Count=50
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to room on the right) Q=0.0, Count=50
+move(Go to bed close-up) Q=0.0, Count=50
+move(Go to cabinet close-up) Q=0.0, Count=50
+Action: craft(paper 3, duct tape)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 34
+
+Step: 88
+click(vent pipe) Q=0.0, Count=50
+click(paper) Q=0.0, Count=50
+click(strange lock) Q=0.0, Count=50
+apply(paper 1, vent pipe) Q=0.0, Count=50
+apply(paper 1, paper) Q=0.0, Count=50
+apply(paper 1, strange lock) Q=0.0, Count=50
+apply(paper 2, vent pipe) Q=0.0, Count=50
+apply(paper 2, paper) Q=0.0, Count=50
+apply(paper 2, strange lock) Q=0.0, Count=50
+apply(blue liquid, vent pipe) Q=0.0, Count=50
+apply(blue liquid, paper) Q=0.0, Count=50
+apply(blue liquid, strange lock) Q=0.0, Count=50
+apply(film, vent pipe) Q=0.0, Count=50
+apply(film, paper) Q=0.0, Count=50
+apply(film, strange lock) Q=0.0, Count=50
+apply(disk 1, vent pipe) Q=0.0, Count=50
+apply(disk 1, paper) Q=0.0, Count=50
+apply(disk 1, strange lock) Q=0.0, Count=50
+apply(pickable plug, vent pipe) Q=0.0, Count=50
+apply(pickable plug, paper) Q=0.0, Count=50
+apply(pickable plug, strange lock) Q=0.0, Count=50
+apply(photo paper, vent pipe) Q=0.0, Count=50
+apply(photo paper, paper) Q=0.0, Count=50
+apply(photo paper, strange lock) Q=0.0, Count=50
+apply(paper 3, vent pipe) Q=0.0, Count=50
+apply(paper 3, paper) Q=0.0, Count=50
+apply(paper 3, strange lock) Q=0.0, Count=50
+apply(duct tape, vent pipe) Q=0.0, Count=50
+apply(duct tape, paper) Q=0.0, Count=50
+apply(duct tape, strange lock) Q=0.0, Count=50
+apply(disk 3, vent pipe) Q=0.0, Count=50
+apply(disk 3, paper) Q=0.0, Count=50
+apply(disk 3, strange lock) Q=0.0, Count=50
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to room on the right) Q=0.0, Count=50
+move(Go to bed close-up) Q=0.0, Count=50
+move(Go to cabinet close-up) Q=0.0, Count=50
+Action: apply(paper 2, strange lock)
+Reward: Nothing happens after you apply the tool. You need to input the correct password according to the hint beside it.
+Accumulated_reward: 34
+
+Step: 89
+click(vent pipe) Q=0.0, Count=50
+click(paper) Q=0.0, Count=50
+click(strange lock) Q=0.0, Count=50
+apply(paper 1, vent pipe) Q=0.0, Count=50
+apply(paper 1, paper) Q=0.0, Count=50
+apply(paper 1, strange lock) Q=0.0, Count=50
+apply(paper 2, vent pipe) Q=0.0, Count=50
+apply(paper 2, paper) Q=0.0, Count=50
+apply(paper 2, strange lock) Q=0.0, Count=50
+apply(blue liquid, vent pipe) Q=0.0, Count=50
+apply(blue liquid, paper) Q=0.0, Count=50
+apply(blue liquid, strange lock) Q=0.0, Count=50
+apply(film, vent pipe) Q=0.0, Count=50
+apply(film, paper) Q=0.0, Count=50
+apply(film, strange lock) Q=0.0, Count=50
+apply(disk 1, vent pipe) Q=0.0, Count=50
+apply(disk 1, paper) Q=0.0, Count=50
+apply(disk 1, strange lock) Q=0.0, Count=50
+apply(pickable plug, vent pipe) Q=0.0, Count=50
+apply(pickable plug, paper) Q=0.0, Count=50
+apply(pickable plug, strange lock) Q=0.0, Count=50
+apply(photo paper, vent pipe) Q=0.0, Count=50
+apply(photo paper, paper) Q=0.0, Count=50
+apply(photo paper, strange lock) Q=0.0, Count=50
+apply(paper 3, vent pipe) Q=0.0, Count=50
+apply(paper 3, paper) Q=0.0, Count=50
+apply(paper 3, strange lock) Q=0.0, Count=50
+apply(duct tape, vent pipe) Q=0.0, Count=50
+apply(duct tape, paper) Q=0.0, Count=50
+apply(duct tape, strange lock) Q=0.0, Count=50
+apply(disk 3, vent pipe) Q=0.0, Count=50
+apply(disk 3, paper) Q=0.0, Count=50
+apply(disk 3, strange lock) Q=0.0, Count=50
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to room on the right) Q=0.0, Count=50
+move(Go to bed close-up) Q=0.0, Count=50
+move(Go to cabinet close-up) Q=0.0, Count=50
+Action: craft(blue liquid, duct tape)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 34
+
+Step: 90
+click(vent pipe) Q=0.0, Count=50
+click(paper) Q=0.0, Count=50
+click(strange lock) Q=0.0, Count=50
+apply(paper 1, vent pipe) Q=0.0, Count=50
+apply(paper 1, paper) Q=0.0, Count=50
+apply(paper 1, strange lock) Q=0.0, Count=50
+apply(paper 2, vent pipe) Q=0.0, Count=50
+apply(paper 2, paper) Q=0.0, Count=50
+apply(paper 2, strange lock) Q=0.0, Count=50
+apply(blue liquid, vent pipe) Q=0.0, Count=50
+apply(blue liquid, paper) Q=0.0, Count=50
+apply(blue liquid, strange lock) Q=0.0, Count=50
+apply(film, vent pipe) Q=0.0, Count=50
+apply(film, paper) Q=0.0, Count=50
+apply(film, strange lock) Q=0.0, Count=50
+apply(disk 1, vent pipe) Q=0.0, Count=50
+apply(disk 1, paper) Q=0.0, Count=50
+apply(disk 1, strange lock) Q=0.0, Count=50
+apply(pickable plug, vent pipe) Q=0.0, Count=50
+apply(pickable plug, paper) Q=0.0, Count=50
+apply(pickable plug, strange lock) Q=0.0, Count=50
+apply(photo paper, vent pipe) Q=0.0, Count=50
+apply(photo paper, paper) Q=0.0, Count=50
+apply(photo paper, strange lock) Q=0.0, Count=50
+apply(paper 3, vent pipe) Q=0.0, Count=50
+apply(paper 3, paper) Q=0.0, Count=50
+apply(paper 3, strange lock) Q=0.0, Count=50
+apply(duct tape, vent pipe) Q=0.0, Count=50
+apply(duct tape, paper) Q=0.0, Count=50
+apply(duct tape, strange lock) Q=0.0, Count=50
+apply(disk 3, vent pipe) Q=0.0, Count=50
+apply(disk 3, paper) Q=0.0, Count=50
+apply(disk 3, strange lock) Q=0.0, Count=50
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to room on the right) Q=0.0, Count=50
+move(Go to bed close-up) Q=0.0, Count=50
+move(Go to cabinet close-up) Q=0.0, Count=50
+Action: craft(paper 2, blue liquid)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 34
+
+Step: 91
+click(vent pipe) Q=0.0, Count=50
+click(paper) Q=0.0, Count=50
+click(strange lock) Q=0.0, Count=50
+apply(paper 1, vent pipe) Q=0.0, Count=50
+apply(paper 1, paper) Q=0.0, Count=50
+apply(paper 1, strange lock) Q=0.0, Count=50
+apply(paper 2, vent pipe) Q=0.0, Count=50
+apply(paper 2, paper) Q=0.0, Count=50
+apply(paper 2, strange lock) Q=0.0, Count=50
+apply(blue liquid, vent pipe) Q=0.0, Count=50
+apply(blue liquid, paper) Q=0.0, Count=50
+apply(blue liquid, strange lock) Q=0.0, Count=50
+apply(film, vent pipe) Q=0.0, Count=50
+apply(film, paper) Q=0.0, Count=50
+apply(film, strange lock) Q=0.0, Count=50
+apply(disk 1, vent pipe) Q=0.0, Count=50
+apply(disk 1, paper) Q=0.0, Count=50
+apply(disk 1, strange lock) Q=0.0, Count=50
+apply(pickable plug, vent pipe) Q=0.0, Count=50
+apply(pickable plug, paper) Q=0.0, Count=50
+apply(pickable plug, strange lock) Q=0.0, Count=50
+apply(photo paper, vent pipe) Q=0.0, Count=50
+apply(photo paper, paper) Q=0.0, Count=50
+apply(photo paper, strange lock) Q=0.0, Count=50
+apply(paper 3, vent pipe) Q=0.0, Count=50
+apply(paper 3, paper) Q=0.0, Count=50
+apply(paper 3, strange lock) Q=0.0, Count=50
+apply(duct tape, vent pipe) Q=0.0, Count=50
+apply(duct tape, paper) Q=0.0, Count=50
+apply(duct tape, strange lock) Q=0.0, Count=50
+apply(disk 3, vent pipe) Q=0.0, Count=50
+apply(disk 3, paper) Q=0.0, Count=50
+apply(disk 3, strange lock) Q=0.0, Count=50
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to room on the right) Q=0.0, Count=50
+move(Go to bed close-up) Q=0.0, Count=50
+move(Go to cabinet close-up) Q=0.0, Count=50
+Action: craft(film, disk 3)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 34
+
+Step: 92
+click(vent pipe) Q=0.0, Count=50
+click(paper) Q=0.0, Count=50
+click(strange lock) Q=0.0, Count=50
+apply(paper 1, vent pipe) Q=0.0, Count=50
+apply(paper 1, paper) Q=0.0, Count=50
+apply(paper 1, strange lock) Q=0.0, Count=50
+apply(paper 2, vent pipe) Q=0.0, Count=50
+apply(paper 2, paper) Q=0.0, Count=50
+apply(paper 2, strange lock) Q=0.0, Count=50
+apply(blue liquid, vent pipe) Q=0.0, Count=50
+apply(blue liquid, paper) Q=0.0, Count=50
+apply(blue liquid, strange lock) Q=0.0, Count=50
+apply(film, vent pipe) Q=0.0, Count=50
+apply(film, paper) Q=0.0, Count=50
+apply(film, strange lock) Q=0.0, Count=50
+apply(disk 1, vent pipe) Q=0.0, Count=50
+apply(disk 1, paper) Q=0.0, Count=50
+apply(disk 1, strange lock) Q=0.0, Count=50
+apply(pickable plug, vent pipe) Q=0.0, Count=50
+apply(pickable plug, paper) Q=0.0, Count=50
+apply(pickable plug, strange lock) Q=0.0, Count=50
+apply(photo paper, vent pipe) Q=0.0, Count=50
+apply(photo paper, paper) Q=0.0, Count=50
+apply(photo paper, strange lock) Q=0.0, Count=50
+apply(paper 3, vent pipe) Q=0.0, Count=50
+apply(paper 3, paper) Q=0.0, Count=50
+apply(paper 3, strange lock) Q=0.0, Count=50
+apply(duct tape, vent pipe) Q=0.0, Count=50
+apply(duct tape, paper) Q=0.0, Count=50
+apply(duct tape, strange lock) Q=0.0, Count=50
+apply(disk 3, vent pipe) Q=0.0, Count=50
+apply(disk 3, paper) Q=0.0, Count=50
+apply(disk 3, strange lock) Q=0.0, Count=50
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to room on the right) Q=0.0, Count=50
+move(Go to bed close-up) Q=0.0, Count=50
+move(Go to cabinet close-up) Q=0.0, Count=50
+Action: craft(film, photo paper)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 34
+
+Step: 93
+click(vent pipe) Q=0.0, Count=50
+click(paper) Q=0.0, Count=50
+click(strange lock) Q=0.0, Count=50
+apply(paper 1, vent pipe) Q=0.0, Count=50
+apply(paper 1, paper) Q=0.0, Count=50
+apply(paper 1, strange lock) Q=0.0, Count=50
+apply(paper 2, vent pipe) Q=0.0, Count=50
+apply(paper 2, paper) Q=0.0, Count=50
+apply(paper 2, strange lock) Q=0.0, Count=50
+apply(blue liquid, vent pipe) Q=0.0, Count=50
+apply(blue liquid, paper) Q=0.0, Count=50
+apply(blue liquid, strange lock) Q=0.0, Count=50
+apply(film, vent pipe) Q=0.0, Count=50
+apply(film, paper) Q=0.0, Count=50
+apply(film, strange lock) Q=0.0, Count=50
+apply(disk 1, vent pipe) Q=0.0, Count=50
+apply(disk 1, paper) Q=0.0, Count=50
+apply(disk 1, strange lock) Q=0.0, Count=50
+apply(pickable plug, vent pipe) Q=0.0, Count=50
+apply(pickable plug, paper) Q=0.0, Count=50
+apply(pickable plug, strange lock) Q=0.0, Count=50
+apply(photo paper, vent pipe) Q=0.0, Count=50
+apply(photo paper, paper) Q=0.0, Count=50
+apply(photo paper, strange lock) Q=0.0, Count=50
+apply(paper 3, vent pipe) Q=0.0, Count=50
+apply(paper 3, paper) Q=0.0, Count=50
+apply(paper 3, strange lock) Q=0.0, Count=50
+apply(duct tape, vent pipe) Q=0.0, Count=50
+apply(duct tape, paper) Q=0.0, Count=50
+apply(duct tape, strange lock) Q=0.0, Count=50
+apply(disk 3, vent pipe) Q=0.0, Count=50
+apply(disk 3, paper) Q=0.0, Count=50
+apply(disk 3, strange lock) Q=0.0, Count=50
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to room on the right) Q=0.0, Count=50
+move(Go to bed close-up) Q=0.0, Count=50
+move(Go to cabinet close-up) Q=0.0, Count=50
+Action: apply(photo paper, strange lock)
+Reward: Nothing happens after you apply the tool. You need to input the correct password according to the hint beside it.
+Accumulated_reward: 34
+
+Step: 94
+click(vent pipe) Q=0.0, Count=50
+click(paper) Q=0.0, Count=50
+click(strange lock) Q=0.0, Count=50
+apply(paper 1, vent pipe) Q=0.0, Count=50
+apply(paper 1, paper) Q=0.0, Count=50
+apply(paper 1, strange lock) Q=0.0, Count=50
+apply(paper 2, vent pipe) Q=0.0, Count=50
+apply(paper 2, paper) Q=0.0, Count=50
+apply(paper 2, strange lock) Q=0.0, Count=50
+apply(blue liquid, vent pipe) Q=0.0, Count=50
+apply(blue liquid, paper) Q=0.0, Count=50
+apply(blue liquid, strange lock) Q=0.0, Count=50
+apply(film, vent pipe) Q=0.0, Count=50
+apply(film, paper) Q=0.0, Count=50
+apply(film, strange lock) Q=0.0, Count=50
+apply(disk 1, vent pipe) Q=0.0, Count=50
+apply(disk 1, paper) Q=0.0, Count=50
+apply(disk 1, strange lock) Q=0.0, Count=50
+apply(pickable plug, vent pipe) Q=0.0, Count=50
+apply(pickable plug, paper) Q=0.0, Count=50
+apply(pickable plug, strange lock) Q=0.0, Count=50
+apply(photo paper, vent pipe) Q=0.0, Count=50
+apply(photo paper, paper) Q=0.0, Count=50
+apply(photo paper, strange lock) Q=0.0, Count=50
+apply(paper 3, vent pipe) Q=0.0, Count=50
+apply(paper 3, paper) Q=0.0, Count=50
+apply(paper 3, strange lock) Q=0.0, Count=50
+apply(duct tape, vent pipe) Q=0.0, Count=50
+apply(duct tape, paper) Q=0.0, Count=50
+apply(duct tape, strange lock) Q=0.0, Count=50
+apply(disk 3, vent pipe) Q=0.0, Count=50
+apply(disk 3, paper) Q=0.0, Count=50
+apply(disk 3, strange lock) Q=0.0, Count=50
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to room on the right) Q=0.0, Count=50
+move(Go to bed close-up) Q=0.0, Count=50
+move(Go to cabinet close-up) Q=0.0, Count=50
+Action: apply(blue liquid, vent pipe)
+Reward: vent pipe indeed needs a tool to apply but the current tool is wrong. You should try other tools or gather other clues first.
+Nothing happens after you apply the tool. You may need to get rid of the barbed wire first to get the thing inside.
+Accumulated_reward: 34
+
+Step: 95
+click(vent pipe) Q=0.0, Count=50
+click(paper) Q=0.0, Count=50
+click(strange lock) Q=0.0, Count=50
+apply(paper 1, vent pipe) Q=0.0, Count=50
+apply(paper 1, paper) Q=0.0, Count=50
+apply(paper 1, strange lock) Q=0.0, Count=50
+apply(paper 2, vent pipe) Q=0.0, Count=50
+apply(paper 2, paper) Q=0.0, Count=50
+apply(paper 2, strange lock) Q=0.0, Count=50
+apply(blue liquid, vent pipe) Q=0.0, Count=50
+apply(blue liquid, paper) Q=0.0, Count=50
+apply(blue liquid, strange lock) Q=0.0, Count=50
+apply(film, vent pipe) Q=0.0, Count=50
+apply(film, paper) Q=0.0, Count=50
+apply(film, strange lock) Q=0.0, Count=50
+apply(disk 1, vent pipe) Q=0.0, Count=50
+apply(disk 1, paper) Q=0.0, Count=50
+apply(disk 1, strange lock) Q=0.0, Count=50
+apply(pickable plug, vent pipe) Q=0.0, Count=50
+apply(pickable plug, paper) Q=0.0, Count=50
+apply(pickable plug, strange lock) Q=0.0, Count=50
+apply(photo paper, vent pipe) Q=0.0, Count=50
+apply(photo paper, paper) Q=0.0, Count=50
+apply(photo paper, strange lock) Q=0.0, Count=50
+apply(paper 3, vent pipe) Q=0.0, Count=50
+apply(paper 3, paper) Q=0.0, Count=50
+apply(paper 3, strange lock) Q=0.0, Count=50
+apply(duct tape, vent pipe) Q=0.0, Count=50
+apply(duct tape, paper) Q=0.0, Count=50
+apply(duct tape, strange lock) Q=0.0, Count=50
+apply(disk 3, vent pipe) Q=0.0, Count=50
+apply(disk 3, paper) Q=0.0, Count=50
+apply(disk 3, strange lock) Q=0.0, Count=50
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to room on the right) Q=0.0, Count=50
+move(Go to bed close-up) Q=0.0, Count=50
+move(Go to cabinet close-up) Q=0.0, Count=50
+Action: craft(pickable plug, duct tape)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 34
+
+Step: 96
+click(vent pipe) Q=0.0, Count=50
+click(paper) Q=0.0, Count=50
+click(strange lock) Q=0.0, Count=50
+apply(paper 1, vent pipe) Q=0.0, Count=50
+apply(paper 1, paper) Q=0.0, Count=50
+apply(paper 1, strange lock) Q=0.0, Count=50
+apply(paper 2, vent pipe) Q=0.0, Count=50
+apply(paper 2, paper) Q=0.0, Count=50
+apply(paper 2, strange lock) Q=0.0, Count=50
+apply(blue liquid, vent pipe) Q=0.0, Count=50
+apply(blue liquid, paper) Q=0.0, Count=50
+apply(blue liquid, strange lock) Q=0.0, Count=50
+apply(film, vent pipe) Q=0.0, Count=50
+apply(film, paper) Q=0.0, Count=50
+apply(film, strange lock) Q=0.0, Count=50
+apply(disk 1, vent pipe) Q=0.0, Count=50
+apply(disk 1, paper) Q=0.0, Count=50
+apply(disk 1, strange lock) Q=0.0, Count=50
+apply(pickable plug, vent pipe) Q=0.0, Count=50
+apply(pickable plug, paper) Q=0.0, Count=50
+apply(pickable plug, strange lock) Q=0.0, Count=50
+apply(photo paper, vent pipe) Q=0.0, Count=50
+apply(photo paper, paper) Q=0.0, Count=50
+apply(photo paper, strange lock) Q=0.0, Count=50
+apply(paper 3, vent pipe) Q=0.0, Count=50
+apply(paper 3, paper) Q=0.0, Count=50
+apply(paper 3, strange lock) Q=0.0, Count=50
+apply(duct tape, vent pipe) Q=0.0, Count=50
+apply(duct tape, paper) Q=0.0, Count=50
+apply(duct tape, strange lock) Q=0.0, Count=50
+apply(disk 3, vent pipe) Q=0.0, Count=50
+apply(disk 3, paper) Q=0.0, Count=50
+apply(disk 3, strange lock) Q=0.0, Count=50
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to room on the right) Q=0.0, Count=50
+move(Go to bed close-up) Q=0.0, Count=50
+move(Go to cabinet close-up) Q=0.0, Count=50
+Action: click(strange lock)
+Reward: Nothing happens after clicking on strange lock. You need to input the correct password according to the hint beside it.
+Accumulated_reward: 34
+
+Step: 97
+click(vent pipe) Q=0.0, Count=50
+click(paper) Q=0.0, Count=50
+click(strange lock) Q=0.0, Count=50
+apply(paper 1, vent pipe) Q=0.0, Count=50
+apply(paper 1, paper) Q=0.0, Count=50
+apply(paper 1, strange lock) Q=0.0, Count=50
+apply(paper 2, vent pipe) Q=0.0, Count=50
+apply(paper 2, paper) Q=0.0, Count=50
+apply(paper 2, strange lock) Q=0.0, Count=50
+apply(blue liquid, vent pipe) Q=0.0, Count=50
+apply(blue liquid, paper) Q=0.0, Count=50
+apply(blue liquid, strange lock) Q=0.0, Count=50
+apply(film, vent pipe) Q=0.0, Count=50
+apply(film, paper) Q=0.0, Count=50
+apply(film, strange lock) Q=0.0, Count=50
+apply(disk 1, vent pipe) Q=0.0, Count=50
+apply(disk 1, paper) Q=0.0, Count=50
+apply(disk 1, strange lock) Q=0.0, Count=50
+apply(pickable plug, vent pipe) Q=0.0, Count=50
+apply(pickable plug, paper) Q=0.0, Count=50
+apply(pickable plug, strange lock) Q=0.0, Count=50
+apply(photo paper, vent pipe) Q=0.0, Count=50
+apply(photo paper, paper) Q=0.0, Count=50
+apply(photo paper, strange lock) Q=0.0, Count=50
+apply(paper 3, vent pipe) Q=0.0, Count=50
+apply(paper 3, paper) Q=0.0, Count=50
+apply(paper 3, strange lock) Q=0.0, Count=50
+apply(duct tape, vent pipe) Q=0.0, Count=50
+apply(duct tape, paper) Q=0.0, Count=50
+apply(duct tape, strange lock) Q=0.0, Count=50
+apply(disk 3, vent pipe) Q=0.0, Count=50
+apply(disk 3, paper) Q=0.0, Count=50
+apply(disk 3, strange lock) Q=0.0, Count=50
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to room on the right) Q=0.0, Count=50
+move(Go to bed close-up) Q=0.0, Count=50
+move(Go to cabinet close-up) Q=0.0, Count=50
+Action: apply(pickable plug, strange lock)
+Reward: Nothing happens after you apply the tool. You need to input the correct password according to the hint beside it.
+Accumulated_reward: 34
+
+Step: 98
+click(vent pipe) Q=0.0, Count=50
+click(paper) Q=0.0, Count=50
+click(strange lock) Q=0.0, Count=50
+apply(paper 1, vent pipe) Q=0.0, Count=50
+apply(paper 1, paper) Q=0.0, Count=50
+apply(paper 1, strange lock) Q=0.0, Count=50
+apply(paper 2, vent pipe) Q=0.0, Count=50
+apply(paper 2, paper) Q=0.0, Count=50
+apply(paper 2, strange lock) Q=0.0, Count=50
+apply(blue liquid, vent pipe) Q=0.0, Count=50
+apply(blue liquid, paper) Q=0.0, Count=50
+apply(blue liquid, strange lock) Q=0.0, Count=50
+apply(film, vent pipe) Q=0.0, Count=50
+apply(film, paper) Q=0.0, Count=50
+apply(film, strange lock) Q=0.0, Count=50
+apply(disk 1, vent pipe) Q=0.0, Count=50
+apply(disk 1, paper) Q=0.0, Count=50
+apply(disk 1, strange lock) Q=0.0, Count=50
+apply(pickable plug, vent pipe) Q=0.0, Count=50
+apply(pickable plug, paper) Q=0.0, Count=50
+apply(pickable plug, strange lock) Q=0.0, Count=50
+apply(photo paper, vent pipe) Q=0.0, Count=50
+apply(photo paper, paper) Q=0.0, Count=50
+apply(photo paper, strange lock) Q=0.0, Count=50
+apply(paper 3, vent pipe) Q=0.0, Count=50
+apply(paper 3, paper) Q=0.0, Count=50
+apply(paper 3, strange lock) Q=0.0, Count=50
+apply(duct tape, vent pipe) Q=0.0, Count=50
+apply(duct tape, paper) Q=0.0, Count=50
+apply(duct tape, strange lock) Q=0.0, Count=50
+apply(disk 3, vent pipe) Q=0.0, Count=50
+apply(disk 3, paper) Q=0.0, Count=50
+apply(disk 3, strange lock) Q=0.0, Count=50
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to room on the right) Q=0.0, Count=50
+move(Go to bed close-up) Q=0.0, Count=50
+move(Go to cabinet close-up) Q=0.0, Count=50
+Action: craft(pickable plug, disk 3)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 34
+
+Step: 99
+click(vent pipe) Q=0.0, Count=50
+click(paper) Q=0.0, Count=50
+click(strange lock) Q=0.0, Count=50
+apply(paper 1, vent pipe) Q=0.0, Count=50
+apply(paper 1, paper) Q=0.0, Count=50
+apply(paper 1, strange lock) Q=0.0, Count=50
+apply(paper 2, vent pipe) Q=0.0, Count=50
+apply(paper 2, paper) Q=0.0, Count=50
+apply(paper 2, strange lock) Q=0.0, Count=50
+apply(blue liquid, vent pipe) Q=0.0, Count=50
+apply(blue liquid, paper) Q=0.0, Count=50
+apply(blue liquid, strange lock) Q=0.0, Count=50
+apply(film, vent pipe) Q=0.0, Count=50
+apply(film, paper) Q=0.0, Count=50
+apply(film, strange lock) Q=0.0, Count=50
+apply(disk 1, vent pipe) Q=0.0, Count=50
+apply(disk 1, paper) Q=0.0, Count=50
+apply(disk 1, strange lock) Q=0.0, Count=50
+apply(pickable plug, vent pipe) Q=0.0, Count=50
+apply(pickable plug, paper) Q=0.0, Count=50
+apply(pickable plug, strange lock) Q=0.0, Count=50
+apply(photo paper, vent pipe) Q=0.0, Count=50
+apply(photo paper, paper) Q=0.0, Count=50
+apply(photo paper, strange lock) Q=0.0, Count=50
+apply(paper 3, vent pipe) Q=0.0, Count=50
+apply(paper 3, paper) Q=0.0, Count=50
+apply(paper 3, strange lock) Q=0.0, Count=50
+apply(duct tape, vent pipe) Q=0.0, Count=50
+apply(duct tape, paper) Q=0.0, Count=50
+apply(duct tape, strange lock) Q=0.0, Count=50
+apply(disk 3, vent pipe) Q=0.0, Count=50
+apply(disk 3, paper) Q=0.0, Count=50
+apply(disk 3, strange lock) Q=0.0, Count=50
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to room on the right) Q=0.0, Count=50
+move(Go to bed close-up) Q=0.0, Count=50
+move(Go to cabinet close-up) Q=0.0, Count=50
+Action: craft(paper 1, paper 3)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 34
+
+Step: 100
+click(vent pipe) Q=0.0, Count=50
+click(paper) Q=0.0, Count=50
+click(strange lock) Q=0.0, Count=50
+apply(paper 1, vent pipe) Q=0.0, Count=50
+apply(paper 1, paper) Q=0.0, Count=50
+apply(paper 1, strange lock) Q=0.0, Count=50
+apply(paper 2, vent pipe) Q=0.0, Count=50
+apply(paper 2, paper) Q=0.0, Count=50
+apply(paper 2, strange lock) Q=0.0, Count=50
+apply(blue liquid, vent pipe) Q=0.0, Count=50
+apply(blue liquid, paper) Q=0.0, Count=50
+apply(blue liquid, strange lock) Q=0.0, Count=50
+apply(film, vent pipe) Q=0.0, Count=50
+apply(film, paper) Q=0.0, Count=50
+apply(film, strange lock) Q=0.0, Count=50
+apply(disk 1, vent pipe) Q=0.0, Count=50
+apply(disk 1, paper) Q=0.0, Count=50
+apply(disk 1, strange lock) Q=0.0, Count=50
+apply(pickable plug, vent pipe) Q=0.0, Count=50
+apply(pickable plug, paper) Q=0.0, Count=50
+apply(pickable plug, strange lock) Q=0.0, Count=50
+apply(photo paper, vent pipe) Q=0.0, Count=50
+apply(photo paper, paper) Q=0.0, Count=50
+apply(photo paper, strange lock) Q=0.0, Count=50
+apply(paper 3, vent pipe) Q=0.0, Count=50
+apply(paper 3, paper) Q=0.0, Count=50
+apply(paper 3, strange lock) Q=0.0, Count=50
+apply(duct tape, vent pipe) Q=0.0, Count=50
+apply(duct tape, paper) Q=0.0, Count=50
+apply(duct tape, strange lock) Q=0.0, Count=50
+apply(disk 3, vent pipe) Q=0.0, Count=50
+apply(disk 3, paper) Q=0.0, Count=50
+apply(disk 3, strange lock) Q=0.0, Count=50
+craft(paper 1, paper 2) Q=0.0, Count=50
+craft(paper 1, blue liquid) Q=0.0, Count=50
+craft(paper 1, film) Q=0.0, Count=50
+craft(paper 1, disk 1) Q=0.0, Count=50
+craft(paper 1, pickable plug) Q=0.0, Count=50
+craft(paper 1, photo paper) Q=0.0, Count=50
+craft(paper 1, paper 3) Q=0.0, Count=50
+craft(paper 1, duct tape) Q=0.0, Count=50
+craft(paper 1, disk 3) Q=0.0, Count=50
+craft(paper 2, blue liquid) Q=0.0, Count=50
+craft(paper 2, film) Q=0.0, Count=50
+craft(paper 2, disk 1) Q=0.0, Count=50
+craft(paper 2, pickable plug) Q=0.0, Count=50
+craft(paper 2, photo paper) Q=0.0, Count=50
+craft(paper 2, paper 3) Q=0.0, Count=50
+craft(paper 2, duct tape) Q=0.0, Count=50
+craft(paper 2, disk 3) Q=0.0, Count=50
+craft(blue liquid, film) Q=0.0, Count=50
+craft(blue liquid, disk 1) Q=0.0, Count=50
+craft(blue liquid, pickable plug) Q=0.0, Count=50
+craft(blue liquid, photo paper) Q=0.0, Count=50
+craft(blue liquid, paper 3) Q=0.0, Count=50
+craft(blue liquid, duct tape) Q=0.0, Count=50
+craft(blue liquid, disk 3) Q=0.0, Count=50
+craft(film, disk 1) Q=0.0, Count=50
+craft(film, pickable plug) Q=0.0, Count=50
+craft(film, photo paper) Q=0.0, Count=50
+craft(film, paper 3) Q=0.0, Count=50
+craft(film, duct tape) Q=0.0, Count=50
+craft(film, disk 3) Q=0.0, Count=50
+craft(disk 1, pickable plug) Q=0.0, Count=50
+craft(disk 1, photo paper) Q=0.0, Count=50
+craft(disk 1, paper 3) Q=0.0, Count=50
+craft(disk 1, duct tape) Q=0.0, Count=50
+craft(disk 1, disk 3) Q=0.0, Count=50
+craft(pickable plug, photo paper) Q=0.0, Count=50
+craft(pickable plug, paper 3) Q=0.0, Count=50
+craft(pickable plug, duct tape) Q=0.0, Count=50
+craft(pickable plug, disk 3) Q=0.0, Count=50
+craft(photo paper, paper 3) Q=0.0, Count=50
+craft(photo paper, duct tape) Q=0.0, Count=50
+craft(photo paper, disk 3) Q=0.0, Count=50
+craft(paper 3, duct tape) Q=0.0, Count=50
+craft(paper 3, disk 3) Q=0.0, Count=50
+craft(duct tape, disk 3) Q=0.0, Count=50
+move(Back to room on the right) Q=0.0, Count=50
+move(Go to bed close-up) Q=0.0, Count=50
+move(Go to cabinet close-up) Q=0.0, Count=50
+Action: craft(film, photo paper)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 34
+

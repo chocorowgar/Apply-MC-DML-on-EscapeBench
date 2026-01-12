@@ -1,0 +1,2391 @@
+Step: 1
+move(Start the game) Q=1.8940546651312544, Count=50
+Action: move(Start the game)
+Reward: Action executed successfully. Change to another scene: apartment entrance.
+Accumulated_reward: 0
+
+Step: 2
+click(apartment door) Q=1.9557826434518297, Count=49
+click(doorbell) Q=1.8236214508456572, Count=48
+click(bronze key) Q=2.4608634385008705, Count=53
+Action: click(bronze key)
+Reward: Action executed successfully. You have just collected a bronze key. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 1
+
+Step: 3
+click(apartment door) Q=1.318611102404667, Count=49
+click(doorbell) Q=1.2467022669577421, Count=48
+apply(bronze key, apartment door) Q=1.9964822566373475, Count=53
+apply(bronze key, doorbell) Q=1.4063427839825902, Count=50
+Action: apply(bronze key, apartment door)
+Reward: Action executed successfully. You have successfully applied bronze key to apartment door. The apartment door is opened, there is a hallway inside
+Accumulated_reward: 2
+
+Step: 4
+click(doorbell) Q=1.0329965062000988, Count=50
+apply(bronze key, doorbell) Q=0.8894190554880272, Count=49
+move(Enter the apartment) Q=1.0982819501134342, Count=51
+Action: move(Enter the apartment)
+Reward: Action executed successfully. Change to another scene: apartment hallway.
+Accumulated_reward: 2
+
+Step: 5
+move(Turn left) Q=1.7892740480923481, Count=53
+move(Turn right) Q=1.2315912519941694, Count=50
+move(Go straight) Q=0.7808231239232437, Count=47
+Action: move(Turn left)
+Reward: Action executed successfully. Change to another scene: cloakroom.
+Accumulated_reward: 2
+
+Step: 6
+click(locker) Q=1.8070997237233775, Count=49
+click(Cthulhu ornament) Q=1.8226265635474086, Count=49
+click(fragment) Q=2.263963815435288, Count=52
+click(shoelaces) Q=2.271126932095921, Count=52
+apply(bronze key, locker) Q=2.8439767638084956, Count=55
+apply(bronze key, Cthulhu ornament) Q=1.9767482055071213, Count=50
+apply(bronze key, fragment) Q=1.8550164520895864, Count=49
+apply(bronze key, shoelaces) Q=1.6611662910221363, Count=48
+move(Turn right) Q=1.3012631307356566, Count=46
+Action: apply(bronze key, locker)
+Reward: Action executed successfully. You have successfully applied bronze key to locker. The locker is opened, there is a crowbar inside
+Accumulated_reward: 3
+
+Step: 7
+click(Cthulhu ornament) Q=1.9274092482134693, Count=49
+click(fragment) Q=2.11981077013243, Count=51
+click(shoelaces) Q=2.332500341311312, Count=52
+click(crowbar) Q=2.2235113799470527, Count=51
+move(Turn right) Q=1.397197162431691, Count=47
+Action: click(shoelaces)
+Reward: Action executed successfully. You have just collected a shoelaces. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 4
+
+Step: 8
+click(Cthulhu ornament) Q=1.3213360672050432, Count=49
+click(fragment) Q=1.713198202494274, Count=52
+click(crowbar) Q=1.6709423905024976, Count=52
+apply(shoelaces, Cthulhu ornament) Q=1.2476159078150075, Count=49
+apply(shoelaces, fragment) Q=1.3234955656328047, Count=49
+apply(shoelaces, crowbar) Q=1.339764111497994, Count=50
+move(Turn right) Q=1.1897953385144449, Count=49
+Action: click(fragment)
+Reward: Action executed successfully. You have just collected a fragment. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 5
+
+Step: 9
+click(Cthulhu ornament) Q=0.7206584188032322, Count=50
+click(crowbar) Q=1.1576624149028367, Count=52
+apply(shoelaces, Cthulhu ornament) Q=0.7454108313440531, Count=50
+apply(shoelaces, crowbar) Q=0.7709136637545274, Count=50
+apply(fragment, Cthulhu ornament) Q=0.7594903262442027, Count=50
+apply(fragment, crowbar) Q=0.682017823816173, Count=49
+craft(shoelaces, fragment) Q=0.6709166594247183, Count=50
+move(Turn right) Q=0.5662392746122098, Count=49
+Action: click(crowbar)
+Reward: Action executed successfully. You have just collected a crowbar. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 6
+
+Step: 10
+click(Cthulhu ornament) Q=0.18721758512135878, Count=50
+apply(shoelaces, Cthulhu ornament) Q=0.049281953082754196, Count=49
+apply(fragment, Cthulhu ornament) Q=0.07863168059811115, Count=50
+apply(crowbar, Cthulhu ornament) Q=0.11266330756664943, Count=50
+craft(shoelaces, fragment) Q=0.11232263803359163, Count=50
+craft(shoelaces, crowbar) Q=0.18421413628739947, Count=50
+craft(fragment, crowbar) Q=0.1318472630563436, Count=50
+move(Turn right) Q=0.3355408486184693, Count=51
+Action: move(Turn right)
+Reward: Action executed successfully. Change to another scene: apartment hallway.
+Accumulated_reward: 6
+
+Step: 11
+craft(shoelaces, fragment) Q=0.34695586501814923, Count=50
+craft(shoelaces, crowbar) Q=0.28639373547331337, Count=50
+craft(fragment, crowbar) Q=0.26222697822752067, Count=50
+move(Turn left) Q=0.18116270075485857, Count=49
+move(Turn right) Q=0.7075338180537619, Count=52
+move(Go straight) Q=0.1803928719617285, Count=49
+Action: move(Turn right)
+Reward: Action executed successfully. Change to another scene: hallway cabinet.
+Accumulated_reward: 6
+
+Step: 12
+click(hook) Q=1.5867486753147377, Count=54
+apply(shoelaces, hook) Q=0.8051081040912378, Count=50
+apply(fragment, hook) Q=0.7733436482911612, Count=50
+apply(crowbar, hook) Q=0.9167848695299811, Count=50
+craft(shoelaces, fragment) Q=0.874781192356075, Count=50
+craft(shoelaces, crowbar) Q=0.7495956121523346, Count=49
+craft(fragment, crowbar) Q=0.7882729873511255, Count=50
+move(Turn left) Q=0.39185159892050364, Count=47
+Action: click(hook)
+Reward: Action executed successfully. You have just collected a hook. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 7
+
+Step: 13
+craft(shoelaces, fragment) Q=0.5612554636337895, Count=49
+craft(shoelaces, crowbar) Q=0.704098395299586, Count=50
+craft(shoelaces, hook) Q=1.0109568065255612, Count=52
+craft(fragment, crowbar) Q=0.6448040108187912, Count=50
+craft(fragment, hook) Q=0.6312051568332118, Count=50
+craft(crowbar, hook) Q=0.6323111308279598, Count=50
+move(Turn left) Q=0.6211233079420707, Count=49
+Action: craft(shoelaces, hook)
+Reward: Action executed successfully. You have successfully crafted a hook made of iron, with a curved open end, could be bound with something and a bundle of shoelaces, made of cord, very thin, long, and strong together.
+You get a new item: a bundle of shoelaces with a hook. It is put into your bag.
+Accumulated_reward: 8
+
+Step: 14
+craft(shoelaces, fragment) Q=0.0, Count=50
+craft(shoelaces, crowbar) Q=0.01023071658804329, Count=50
+craft(fragment, crowbar) Q=0.0, Count=50
+move(Turn left) Q=0.0, Count=50
+Action: craft(shoelaces, crowbar)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 8
+
+Step: 15
+craft(shoelaces, fragment) Q=0.0, Count=50
+craft(shoelaces, crowbar) Q=0.01023071658804329, Count=50
+craft(fragment, crowbar) Q=0.0, Count=50
+move(Turn left) Q=0.028213757841281863, Count=50
+Action: move(Turn left)
+Reward: Action executed successfully. Change to another scene: apartment hallway.
+Accumulated_reward: 8
+
+Step: 16
+craft(shoelaces, fragment) Q=0.0741503407828754, Count=50
+craft(shoelaces, crowbar) Q=0.04184976040707681, Count=50
+craft(fragment, crowbar) Q=0.01269793949283138, Count=50
+move(Turn left) Q=0.02208165277633633, Count=50
+move(Turn right) Q=0.01023071658804329, Count=50
+move(Go straight) Q=0.03885656484273776, Count=50
+Action: craft(shoelaces, fragment)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 8
+
+Step: 17
+craft(shoelaces, fragment) Q=0.05941655025476131, Count=50
+craft(shoelaces, crowbar) Q=0.0, Count=50
+craft(fragment, crowbar) Q=0.010796270133114115, Count=50
+move(Turn left) Q=0.0, Count=50
+move(Turn right) Q=0.0, Count=50
+move(Go straight) Q=0.07480733605895908, Count=50
+Action: move(Go straight)
+Reward: Action executed successfully. Change to another scene: corridor.
+Accumulated_reward: 8
+
+Step: 18
+click(suitcase) Q=0.08936139769158305, Count=50
+click(bathroom door) Q=0.07577869934378982, Count=50
+apply(shoelaces, suitcase) Q=0.10341644398471442, Count=50
+apply(shoelaces, bathroom door) Q=0.12903307462973942, Count=50
+apply(fragment, suitcase) Q=0.1150361906254063, Count=50
+apply(fragment, bathroom door) Q=0.13052577278607275, Count=50
+apply(crowbar, suitcase) Q=0.10161608438493393, Count=50
+apply(crowbar, bathroom door) Q=0.06695599526150614, Count=49
+craft(shoelaces, fragment) Q=0.14268325623412562, Count=50
+craft(shoelaces, crowbar) Q=0.1318774118888954, Count=50
+craft(fragment, crowbar) Q=0.09116618760408973, Count=50
+move(Turn left) Q=0.07995042999495192, Count=50
+move(Go straight) Q=0.5683332903283875, Count=52
+move(Go back) Q=0.02466790551308911, Count=49
+Action: move(Go straight)
+Reward: Action executed successfully. Change to another scene: study room.
+Accumulated_reward: 8
+
+Step: 19
+click(tool box) Q=0.43482974299633015, Count=49
+apply(shoelaces, tool box) Q=0.536707044174018, Count=50
+apply(fragment, tool box) Q=0.6674340467839168, Count=51
+apply(crowbar, tool box) Q=0.424668809570217, Count=49
+craft(shoelaces, fragment) Q=0.6663229785951804, Count=51
+craft(shoelaces, crowbar) Q=0.42458233537382867, Count=49
+craft(fragment, crowbar) Q=0.41882653358581895, Count=49
+move(Turn left) Q=0.964513341862567, Count=52
+move(Turn right) Q=0.8672002716909657, Count=52
+move(Go back) Q=0.08808696002634037, Count=48
+Action: move(Turn left)
+Reward: Action executed successfully. Change to another scene: utility room.
+Accumulated_reward: 8
+
+Step: 20
+click(a painting) Q=1.1448488660132758, Count=51
+click(locked box) Q=0.8508648240034212, Count=49
+click(phone) Q=0.7714862619597327, Count=49
+click(fragment 2) Q=1.6212645364329499, Count=53
+click(scrip 2) Q=1.6297988912113912, Count=53
+apply(shoelaces, a painting) Q=1.0876579155722048, Count=50
+apply(shoelaces, locked box) Q=1.0487929098252304, Count=50
+apply(shoelaces, phone) Q=0.8706147825086437, Count=49
+apply(shoelaces, fragment 2) Q=0.9652158469836652, Count=50
+apply(shoelaces, scrip 2) Q=0.8966875409881434, Count=49
+apply(fragment, a painting) Q=0.9717067596533857, Count=50
+apply(fragment, locked box) Q=1.0990301858129354, Count=50
+apply(fragment, phone) Q=0.828253384869339, Count=49
+apply(fragment, fragment 2) Q=0.9199292603601531, Count=49
+apply(fragment, scrip 2) Q=1.0059054258648352, Count=50
+apply(crowbar, a painting) Q=1.825749480886126, Count=54
+apply(crowbar, locked box) Q=1.0340299750057225, Count=50
+apply(crowbar, phone) Q=0.9672148408556221, Count=50
+apply(crowbar, fragment 2) Q=0.8714048593006876, Count=49
+apply(crowbar, scrip 2) Q=0.8527783923640313, Count=49
+craft(shoelaces, fragment) Q=0.826221787646909, Count=49
+craft(shoelaces, crowbar) Q=0.9520841525475214, Count=50
+craft(fragment, crowbar) Q=0.9397207605127318, Count=50
+move(Turn right) Q=0.5374336716913035, Count=48
+Action: apply(crowbar, a painting)
+Reward: Action executed successfully. You have successfully applied crowbar to a painting. The painting is taken off, there is a safe behind the painting
+Accumulated_reward: 9
+
+Step: 21
+click(locked box) Q=0.9454459638010879, Count=50
+click(phone) Q=0.9051058532678738, Count=50
+click(fragment 2) Q=1.4195110662205284, Count=53
+click(scrip 2) Q=1.4867751737109958, Count=53
+apply(shoelaces, locked box) Q=0.7848225790243676, Count=49
+apply(shoelaces, phone) Q=0.9393517108843709, Count=50
+apply(shoelaces, fragment 2) Q=0.8834290974419632, Count=50
+apply(shoelaces, scrip 2) Q=0.844785773820285, Count=50
+apply(fragment, locked box) Q=0.8576421610781007, Count=50
+apply(fragment, phone) Q=0.7198767322119539, Count=49
+apply(fragment, fragment 2) Q=0.7566071295446314, Count=49
+apply(fragment, scrip 2) Q=0.8155487438027574, Count=49
+craft(shoelaces, fragment) Q=0.9437653899174913, Count=50
+move(Turn right) Q=0.5542373341792272, Count=48
+Action: click(scrip 2)
+Reward: Action executed successfully. You have just collected a scrip 2. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 10
+
+Step: 22
+click(locked box) Q=0.4764444524943179, Count=50
+click(phone) Q=0.3884634331617094, Count=50
+click(fragment 2) Q=1.0329097618339798, Count=53
+apply(shoelaces, locked box) Q=0.4514738905604018, Count=50
+apply(shoelaces, phone) Q=0.4255120058982135, Count=50
+apply(shoelaces, fragment 2) Q=0.41665340542950025, Count=50
+apply(fragment, locked box) Q=0.5346458728504131, Count=50
+apply(fragment, phone) Q=0.3246986461667292, Count=49
+apply(fragment, fragment 2) Q=0.4092196965223379, Count=50
+apply(scrip 2, locked box) Q=0.5073689162758911, Count=50
+apply(scrip 2, phone) Q=0.43710033186842523, Count=50
+apply(scrip 2, fragment 2) Q=0.37831557698237883, Count=50
+craft(shoelaces, fragment) Q=0.34305577258165926, Count=49
+craft(shoelaces, scrip 2) Q=0.49590091714549656, Count=50
+craft(fragment, scrip 2) Q=0.4993911209920947, Count=50
+move(Turn right) Q=0.3582343869082944, Count=49
+Action: click(fragment 2)
+Reward: Action executed successfully. You have just collected a fragment 2. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 11
+
+Step: 23
+click(locked box) Q=0.01669377972066061, Count=50
+click(phone) Q=0.0, Count=49
+apply(shoelaces, locked box) Q=0.02805160070560958, Count=50
+apply(shoelaces, phone) Q=0.026822230957032546, Count=50
+apply(fragment, locked box) Q=0.025522409061886766, Count=50
+apply(fragment, phone) Q=0.025522409061886762, Count=50
+apply(scrip 2, locked box) Q=0.03424727386163512, Count=50
+apply(scrip 2, phone) Q=0.07618889214599481, Count=50
+apply(fragment 2, locked box) Q=0.021005461793215927, Count=50
+apply(fragment 2, phone) Q=0.03982819125052837, Count=50
+craft(shoelaces, fragment) Q=0.038787472612168826, Count=50
+craft(shoelaces, scrip 2) Q=0.03254713678542542, Count=50
+craft(shoelaces, fragment 2) Q=0.06819628048983109, Count=50
+craft(fragment, scrip 2) Q=0.05843494757916659, Count=50
+craft(fragment, fragment 2) Q=0.021602607244101832, Count=50
+craft(scrip 2, fragment 2) Q=0.026948256040232967, Count=50
+move(Turn right) Q=0.2817482525977075, Count=51
+Action: move(Turn right)
+Reward: Action executed successfully. Change to another scene: study room.
+Accumulated_reward: 11
+
+Step: 24
+click(tool box) Q=0.16679577473395416, Count=50
+apply(shoelaces, tool box) Q=0.13714561531592995, Count=50
+apply(fragment, tool box) Q=0.14566229830020316, Count=50
+apply(scrip 2, tool box) Q=0.2201074240846004, Count=50
+apply(fragment 2, tool box) Q=0.24114934591995452, Count=50
+craft(shoelaces, fragment) Q=0.1652076908508878, Count=50
+craft(shoelaces, scrip 2) Q=0.22006092048252887, Count=50
+craft(shoelaces, fragment 2) Q=0.08403257137920316, Count=49
+craft(fragment, scrip 2) Q=0.17632332552739205, Count=50
+craft(fragment, fragment 2) Q=0.2313940566814451, Count=50
+craft(scrip 2, fragment 2) Q=0.17396920602440819, Count=50
+move(Turn left) Q=0.022042529610588384, Count=49
+move(Turn right) Q=0.6791122908101512, Count=53
+move(Go back) Q=0.0, Count=49
+Action: move(Turn right)
+Reward: Action executed successfully. Change to another scene: utility room 2.
+Accumulated_reward: 11
+
+Step: 25
+click(safe 2) Q=0.8290732017618857, Count=50
+click(screwdriver) Q=1.7629585629066915, Count=56
+click(scrip) Q=1.5237955471795095, Count=54
+apply(shoelaces, safe 2) Q=0.5508860990249558, Count=49
+apply(shoelaces, screwdriver) Q=0.6589430125985001, Count=49
+apply(shoelaces, scrip) Q=0.691257862578485, Count=49
+apply(fragment, safe 2) Q=0.8266199142018579, Count=50
+apply(fragment, screwdriver) Q=0.6459192211615968, Count=49
+apply(fragment, scrip) Q=0.7520551509817456, Count=50
+apply(scrip 2, safe 2) Q=0.673655351172163, Count=49
+apply(scrip 2, screwdriver) Q=0.8216784102374873, Count=50
+apply(scrip 2, scrip) Q=0.7653211272194713, Count=50
+apply(fragment 2, safe 2) Q=0.672878232617101, Count=49
+apply(fragment 2, screwdriver) Q=0.7150969007706204, Count=50
+apply(fragment 2, scrip) Q=0.6337800367157608, Count=49
+craft(shoelaces, fragment) Q=0.6796081842230034, Count=50
+craft(shoelaces, scrip 2) Q=0.6985743701816182, Count=50
+craft(shoelaces, fragment 2) Q=0.6054416481592864, Count=49
+craft(fragment, scrip 2) Q=0.7791291317285809, Count=50
+craft(fragment, fragment 2) Q=0.8769161375230978, Count=50
+craft(scrip 2, fragment 2) Q=0.7818421235279638, Count=50
+move(Turn left) Q=0.30450862168636933, Count=48
+Action: click(screwdriver)
+Reward: Action executed successfully. You have just collected a screwdriver. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 12
+
+Step: 26
+click(safe 2) Q=0.4070825724902791, Count=48
+click(scrip) Q=2.2422336957773155, Count=59
+apply(shoelaces, safe 2) Q=0.6507406618572668, Count=50
+apply(shoelaces, scrip) Q=0.6284604652637467, Count=50
+apply(fragment, safe 2) Q=0.5413793954264656, Count=49
+apply(fragment, scrip) Q=0.8017770668583621, Count=51
+apply(scrip 2, safe 2) Q=0.5609226825123004, Count=49
+apply(scrip 2, scrip) Q=0.5580104744341925, Count=49
+apply(fragment 2, safe 2) Q=0.692581101062791, Count=50
+apply(fragment 2, scrip) Q=0.5854449347139127, Count=49
+apply(screwdriver, safe 2) Q=0.622319336348106, Count=50
+apply(screwdriver, scrip) Q=0.6020546565506654, Count=50
+craft(shoelaces, fragment) Q=0.6443862673178217, Count=50
+craft(shoelaces, scrip 2) Q=0.7485689720194737, Count=50
+craft(shoelaces, fragment 2) Q=0.5967037211189778, Count=49
+craft(shoelaces, screwdriver) Q=0.8325554754771546, Count=51
+craft(fragment, scrip 2) Q=0.7998220503996579, Count=50
+craft(fragment, fragment 2) Q=0.7503499921355417, Count=50
+craft(fragment, screwdriver) Q=0.5021652183861408, Count=49
+craft(scrip 2, fragment 2) Q=0.7294952813144371, Count=50
+craft(scrip 2, screwdriver) Q=0.6946666769867377, Count=50
+craft(fragment 2, screwdriver) Q=0.7480855895610551, Count=50
+move(Turn left) Q=0.16690035177352977, Count=47
+Action: click(scrip)
+Reward: Action executed successfully. You have just collected a scrip. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 13
+
+Step: 27
+Action: input(424389, safe 2)
+Reward: Action executed successfully. You have given an input 424389 to safe 2.
+Accumulated_reward: 14
+
+Step: 28
+click(picklock) Q=1.0138490045379593, Count=54
+apply(shoelaces, picklock) Q=0.28146307296379575, Count=50
+apply(fragment, picklock) Q=0.31128847601110754, Count=50
+apply(scrip 2, picklock) Q=0.408050890817657, Count=50
+apply(fragment 2, picklock) Q=0.25663306740072545, Count=50
+apply(screwdriver, picklock) Q=0.3298896615968156, Count=50
+apply(scrip, picklock) Q=0.27388351735699784, Count=50
+craft(shoelaces, fragment) Q=0.30123421888631013, Count=50
+craft(shoelaces, scrip 2) Q=0.2686685444479838, Count=50
+craft(shoelaces, fragment 2) Q=0.24128280326957335, Count=50
+craft(shoelaces, screwdriver) Q=0.33806327701088973, Count=50
+craft(shoelaces, scrip) Q=0.22376098402695324, Count=49
+craft(fragment, scrip 2) Q=0.23357475463798727, Count=50
+craft(fragment, fragment 2) Q=0.3122446841482431, Count=50
+craft(fragment, screwdriver) Q=0.2516880239099208, Count=50
+craft(fragment, scrip) Q=0.28461584642014925, Count=50
+craft(scrip 2, fragment 2) Q=0.2234801222992484, Count=49
+craft(scrip 2, screwdriver) Q=0.25143306449456615, Count=50
+craft(scrip 2, scrip) Q=0.23254520998806644, Count=49
+craft(fragment 2, screwdriver) Q=0.24324893119990143, Count=50
+craft(fragment 2, scrip) Q=0.36300499899634464, Count=50
+craft(screwdriver, scrip) Q=0.280086319976467, Count=50
+move(Turn left) Q=0.039134772903898635, Count=49
+Action: click(picklock)
+Reward: Action executed successfully. You have just collected a picklock. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 15
+
+Step: 29
+craft(shoelaces, fragment) Q=0.010796270133114115, Count=50
+craft(shoelaces, scrip 2) Q=0.0, Count=50
+craft(shoelaces, fragment 2) Q=0.0, Count=50
+craft(shoelaces, screwdriver) Q=0.0, Count=50
+craft(shoelaces, scrip) Q=0.0, Count=50
+craft(shoelaces, picklock) Q=0.0, Count=50
+craft(fragment, scrip 2) Q=0.026640028106923067, Count=50
+craft(fragment, fragment 2) Q=0.01764255650353473, Count=50
+craft(fragment, screwdriver) Q=0.0, Count=50
+craft(fragment, scrip) Q=0.01764255650353473, Count=50
+craft(fragment, picklock) Q=0.0, Count=50
+craft(scrip 2, fragment 2) Q=0.0, Count=50
+craft(scrip 2, screwdriver) Q=0.0, Count=50
+craft(scrip 2, scrip) Q=0.014159093367747502, Count=50
+craft(scrip 2, picklock) Q=0.0, Count=50
+craft(fragment 2, screwdriver) Q=0.024361689347408913, Count=50
+craft(fragment 2, scrip) Q=0.011394592646027296, Count=50
+craft(fragment 2, picklock) Q=0.0, Count=50
+craft(screwdriver, scrip) Q=0.0, Count=50
+craft(screwdriver, picklock) Q=0.012027746069952204, Count=50
+craft(scrip, picklock) Q=0.0, Count=50
+move(Turn left) Q=0.013407541439587067, Count=50
+Action: craft(fragment, scrip 2)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 15
+
+Step: 30
+craft(shoelaces, fragment) Q=0.01764255650353473, Count=50
+craft(shoelaces, scrip 2) Q=0.0, Count=50
+craft(shoelaces, fragment 2) Q=0.0, Count=50
+craft(shoelaces, screwdriver) Q=0.0, Count=50
+craft(shoelaces, scrip) Q=0.012027746069952204, Count=50
+craft(shoelaces, picklock) Q=0.0, Count=50
+craft(fragment, scrip 2) Q=0.0, Count=50
+craft(fragment, fragment 2) Q=0.0, Count=50
+craft(fragment, screwdriver) Q=0.0, Count=50
+craft(fragment, scrip) Q=0.012027746069952204, Count=50
+craft(fragment, picklock) Q=0.0, Count=50
+craft(scrip 2, fragment 2) Q=0.0, Count=50
+craft(scrip 2, screwdriver) Q=0.0, Count=50
+craft(scrip 2, scrip) Q=0.012027746069952204, Count=50
+craft(scrip 2, picklock) Q=0.0, Count=50
+craft(fragment 2, screwdriver) Q=0.0, Count=50
+craft(fragment 2, scrip) Q=0.0, Count=50
+craft(fragment 2, picklock) Q=0.0, Count=50
+craft(screwdriver, scrip) Q=0.0, Count=50
+craft(screwdriver, picklock) Q=0.0, Count=50
+craft(scrip, picklock) Q=0.0, Count=50
+move(Turn left) Q=0.02935080348659446, Count=50
+Action: move(Turn left)
+Reward: Action executed successfully. Change to another scene: study room.
+Accumulated_reward: 15
+
+Step: 31
+click(tool box) Q=0.014159093367747502, Count=50
+apply(shoelaces, tool box) Q=0.04422151329040969, Count=50
+apply(fragment, tool box) Q=0.0376880878334971, Count=50
+apply(scrip 2, tool box) Q=0.06611075141611691, Count=50
+apply(fragment 2, tool box) Q=0.0, Count=50
+apply(screwdriver, tool box) Q=0.013407541439587067, Count=50
+apply(scrip, tool box) Q=0.0636368509049506, Count=50
+apply(picklock, tool box) Q=0.0, Count=50
+craft(shoelaces, fragment) Q=0.0, Count=50
+craft(shoelaces, scrip 2) Q=0.0, Count=50
+craft(shoelaces, fragment 2) Q=0.012027746069952204, Count=50
+craft(shoelaces, screwdriver) Q=0.04144104611672681, Count=50
+craft(shoelaces, scrip) Q=0.013407541439587067, Count=50
+craft(shoelaces, picklock) Q=0.0, Count=50
+craft(fragment, scrip 2) Q=0.08833230799143574, Count=50
+craft(fragment, fragment 2) Q=0.055850963733717555, Count=50
+craft(fragment, screwdriver) Q=0.01864915963750853, Count=50
+craft(fragment, scrip) Q=0.024361689347408913, Count=50
+craft(fragment, picklock) Q=0.020441022284618995, Count=50
+craft(scrip 2, fragment 2) Q=0.028458346094336607, Count=50
+craft(scrip 2, screwdriver) Q=0.014955324501419788, Count=50
+craft(scrip 2, scrip) Q=0.03492125988128712, Count=50
+craft(scrip 2, picklock) Q=0.06453533167515925, Count=50
+craft(fragment 2, screwdriver) Q=0.01023071658804329, Count=50
+craft(fragment 2, scrip) Q=0.010796270133114115, Count=50
+craft(fragment 2, picklock) Q=0.0, Count=50
+craft(screwdriver, scrip) Q=0.04253398806152775, Count=50
+craft(screwdriver, picklock) Q=0.02536461639151486, Count=50
+craft(scrip, picklock) Q=0.03308851586461578, Count=50
+move(Turn left) Q=0.0, Count=50
+move(Turn right) Q=0.0, Count=50
+move(Go back) Q=0.16671578350210503, Count=50
+Action: move(Go back)
+Reward: Action executed successfully. Change to another scene: corridor.
+Accumulated_reward: 15
+
+Step: 32
+click(suitcase) Q=0.10656171629763965, Count=49
+click(bathroom door) Q=0.2713563443855266, Count=50
+apply(shoelaces, suitcase) Q=0.08739775638609007, Count=49
+apply(shoelaces, bathroom door) Q=0.28031532321192465, Count=50
+apply(fragment, suitcase) Q=0.12248388692220091, Count=50
+apply(fragment, bathroom door) Q=0.2674536832383394, Count=50
+apply(scrip 2, suitcase) Q=0.19663663344992413, Count=50
+apply(scrip 2, bathroom door) Q=0.24107828612950738, Count=50
+apply(fragment 2, suitcase) Q=0.20184651524211578, Count=50
+apply(fragment 2, bathroom door) Q=0.193022530665161, Count=50
+apply(screwdriver, suitcase) Q=0.1843066951257707, Count=50
+apply(screwdriver, bathroom door) Q=0.21170688344462807, Count=50
+apply(scrip, suitcase) Q=0.1304371605739861, Count=50
+apply(scrip, bathroom door) Q=0.21555708312454733, Count=50
+apply(picklock, suitcase) Q=0.2035805414015467, Count=50
+apply(picklock, bathroom door) Q=1.1589057188328626, Count=55
+craft(shoelaces, fragment) Q=0.15643753799939858, Count=50
+craft(shoelaces, scrip 2) Q=0.10344639639475106, Count=49
+craft(shoelaces, fragment 2) Q=0.17069527653009525, Count=50
+craft(shoelaces, screwdriver) Q=0.2254139553398963, Count=50
+craft(shoelaces, scrip) Q=0.1840831575238098, Count=50
+craft(shoelaces, picklock) Q=0.1891017081740024, Count=50
+craft(fragment, scrip 2) Q=0.19677925353761455, Count=50
+craft(fragment, fragment 2) Q=0.19149076810781046, Count=50
+craft(fragment, screwdriver) Q=0.19743191668991905, Count=50
+craft(fragment, scrip) Q=0.18169793689542518, Count=50
+craft(fragment, picklock) Q=0.17148561643873397, Count=50
+craft(scrip 2, fragment 2) Q=0.14403840986201663, Count=50
+craft(scrip 2, screwdriver) Q=0.2879720676109572, Count=50
+craft(scrip 2, scrip) Q=0.2258787529010649, Count=50
+craft(scrip 2, picklock) Q=0.22374329045684196, Count=50
+craft(fragment 2, screwdriver) Q=0.19111751400609936, Count=50
+craft(fragment 2, scrip) Q=0.3028491748164615, Count=51
+craft(fragment 2, picklock) Q=0.09324557051802597, Count=49
+craft(screwdriver, scrip) Q=0.1678926655930616, Count=50
+craft(screwdriver, picklock) Q=0.38697547352411793, Count=51
+craft(scrip, picklock) Q=0.11447938306912415, Count=50
+move(Turn left) Q=0.09290733263464199, Count=49
+move(Go straight) Q=0.03630788031623189, Count=49
+move(Go back) Q=0.0, Count=49
+Action: apply(picklock, bathroom door)
+Reward: Action executed successfully. You have successfully applied picklock to bathroom door. The bathroom door is opened
+Accumulated_reward: 16
+
+Step: 33
+click(suitcase) Q=0.1949606694236762, Count=50
+apply(shoelaces, suitcase) Q=0.08504291006098434, Count=49
+apply(fragment, suitcase) Q=0.2000245606906556, Count=50
+apply(scrip 2, suitcase) Q=0.16993099261172334, Count=50
+apply(fragment 2, suitcase) Q=0.14505373557089993, Count=50
+apply(screwdriver, suitcase) Q=0.1197873231356963, Count=50
+apply(scrip, suitcase) Q=0.12332566314499871, Count=50
+craft(shoelaces, fragment) Q=0.054485610202094144, Count=49
+craft(shoelaces, scrip 2) Q=0.15926305375403152, Count=50
+craft(shoelaces, fragment 2) Q=0.10099642130630243, Count=50
+craft(shoelaces, screwdriver) Q=0.1347702127974955, Count=50
+craft(shoelaces, scrip) Q=0.1875404581481744, Count=50
+craft(fragment, scrip 2) Q=0.2665791026446623, Count=50
+craft(fragment, fragment 2) Q=0.07289137682520519, Count=49
+craft(fragment, screwdriver) Q=0.14082548934160452, Count=50
+craft(fragment, scrip) Q=0.10547613819648731, Count=50
+craft(scrip 2, fragment 2) Q=0.18403032136719197, Count=50
+craft(scrip 2, screwdriver) Q=0.14608017438926085, Count=50
+craft(scrip 2, scrip) Q=0.1477778089195988, Count=50
+craft(fragment 2, screwdriver) Q=0.09601719029182706, Count=50
+craft(fragment 2, scrip) Q=0.0974208050891886, Count=50
+craft(screwdriver, scrip) Q=0.22953953112488357, Count=50
+move(Turn left) Q=0.0, Count=49
+move(Go straight) Q=0.0, Count=49
+move(Go back) Q=0.17105082722790935, Count=50
+move(Go to bathroom) Q=1.0055556726694581, Count=55
+Action: move(Go to bathroom)
+Reward: Action executed successfully. Change to another scene: bathroom.
+Accumulated_reward: 16
+
+Step: 34
+click(sewer) Q=0.8827452779353002, Count=49
+click(drawer of the cabinet) Q=0.8252727545256877, Count=49
+click(golden key) Q=1.711861408232137, Count=54
+click(fragment 3) Q=1.7186173598322525, Count=54
+click(connector) Q=1.6885282853257233, Count=54
+apply(shoelaces, sewer) Q=2.189390673859809, Count=57
+apply(shoelaces, drawer of the cabinet) Q=0.9635951963801498, Count=50
+apply(shoelaces, golden key) Q=0.9199302470729324, Count=50
+apply(shoelaces, fragment 3) Q=0.8703872999886357, Count=49
+apply(shoelaces, connector) Q=1.0407690851547449, Count=50
+apply(fragment, sewer) Q=0.9692950001707474, Count=50
+apply(fragment, drawer of the cabinet) Q=0.8103711654576533, Count=49
+apply(fragment, golden key) Q=0.9737928128081814, Count=50
+apply(fragment, fragment 3) Q=0.9385745173308452, Count=50
+apply(fragment, connector) Q=0.81849910699119, Count=49
+apply(scrip 2, sewer) Q=1.028324394149548, Count=50
+apply(scrip 2, drawer of the cabinet) Q=0.9112707411187857, Count=50
+apply(scrip 2, golden key) Q=0.9891538991558001, Count=50
+apply(scrip 2, fragment 3) Q=0.8610764529356276, Count=49
+apply(scrip 2, connector) Q=1.03629675833459, Count=50
+apply(fragment 2, sewer) Q=0.7777888431852813, Count=49
+apply(fragment 2, drawer of the cabinet) Q=0.7464115350159531, Count=49
+apply(fragment 2, golden key) Q=0.7534105723571071, Count=49
+apply(fragment 2, fragment 3) Q=0.8636769460705073, Count=49
+apply(fragment 2, connector) Q=0.9420341056189335, Count=50
+apply(screwdriver, sewer) Q=0.9416173102813066, Count=50
+apply(screwdriver, drawer of the cabinet) Q=2.019780773764567, Count=56
+apply(screwdriver, golden key) Q=1.0403789033249735, Count=50
+apply(screwdriver, fragment 3) Q=0.8520259958715044, Count=49
+apply(screwdriver, connector) Q=0.9078164034686109, Count=50
+apply(scrip, sewer) Q=1.0785448649651568, Count=51
+apply(scrip, drawer of the cabinet) Q=0.8522791910450278, Count=49
+apply(scrip, golden key) Q=0.8127161208713914, Count=49
+apply(scrip, fragment 3) Q=0.7599925973584976, Count=49
+apply(scrip, connector) Q=1.1075686884994445, Count=51
+craft(shoelaces, fragment) Q=0.6563349529651347, Count=48
+craft(shoelaces, scrip 2) Q=0.8671252252636718, Count=49
+craft(shoelaces, fragment 2) Q=0.8103873764970251, Count=49
+craft(shoelaces, screwdriver) Q=0.9326119671788505, Count=50
+craft(shoelaces, scrip) Q=0.8449500087524797, Count=49
+craft(fragment, scrip 2) Q=0.8636963734544383, Count=49
+craft(fragment, fragment 2) Q=0.8508348689836748, Count=49
+craft(fragment, screwdriver) Q=0.7473298249680815, Count=49
+craft(fragment, scrip) Q=0.9751158564446017, Count=50
+craft(scrip 2, fragment 2) Q=0.7748910619725227, Count=49
+craft(scrip 2, screwdriver) Q=1.0322914423005578, Count=50
+craft(scrip 2, scrip) Q=0.9068524501376136, Count=50
+craft(fragment 2, screwdriver) Q=0.9167826809437856, Count=50
+craft(fragment 2, scrip) Q=0.9663105499333655, Count=50
+craft(screwdriver, scrip) Q=0.9575804150324169, Count=50
+move(Go back) Q=0.229363768927123, Count=46
+Action: apply(shoelaces, sewer)
+Reward: Action executed successfully. You have successfully applied shoelaces to sewer. The sewer is unblocked, there is a cylindrical key inside
+Accumulated_reward: 17
+
+Step: 35
+click(drawer of the cabinet) Q=0.884266071373846, Count=49
+click(golden key) Q=1.9223727200971856, Count=54
+click(fragment 3) Q=1.6662038638492345, Count=53
+click(connector) Q=1.7714416244069795, Count=54
+click(cylindrical key) Q=1.719766907265842, Count=53
+apply(fragment, drawer of the cabinet) Q=0.9317220706222181, Count=49
+apply(fragment, golden key) Q=1.146689324168833, Count=50
+apply(fragment, fragment 3) Q=1.0158909718192088, Count=49
+apply(fragment, connector) Q=1.0279554031760962, Count=50
+apply(fragment, cylindrical key) Q=1.0575194183158576, Count=50
+apply(scrip 2, drawer of the cabinet) Q=0.7484166837135979, Count=48
+apply(scrip 2, golden key) Q=1.1144995094406855, Count=50
+apply(scrip 2, fragment 3) Q=1.0653949639316553, Count=50
+apply(scrip 2, connector) Q=1.1126249524236913, Count=50
+apply(scrip 2, cylindrical key) Q=1.2223156542447775, Count=50
+apply(fragment 2, drawer of the cabinet) Q=1.0798090050218978, Count=50
+apply(fragment 2, golden key) Q=1.0593458595280902, Count=50
+apply(fragment 2, fragment 3) Q=1.2182301531573327, Count=50
+apply(fragment 2, connector) Q=1.1727224712984343, Count=50
+apply(fragment 2, cylindrical key) Q=1.1921142982045347, Count=50
+apply(screwdriver, drawer of the cabinet) Q=2.12650901043974, Count=55
+apply(screwdriver, golden key) Q=1.1311256743384215, Count=50
+apply(screwdriver, fragment 3) Q=1.0850166127937693, Count=50
+apply(screwdriver, connector) Q=1.0967014287081487, Count=50
+apply(screwdriver, cylindrical key) Q=1.1174103263641937, Count=50
+apply(scrip, drawer of the cabinet) Q=1.0177864466001205, Count=50
+apply(scrip, golden key) Q=1.0753577451450036, Count=50
+apply(scrip, fragment 3) Q=0.8536219939654207, Count=49
+apply(scrip, connector) Q=1.0527200548342597, Count=50
+apply(scrip, cylindrical key) Q=0.9167598890434042, Count=49
+craft(fragment, scrip 2) Q=0.9940233696081884, Count=49
+craft(fragment, fragment 2) Q=0.9383919669739919, Count=49
+craft(fragment, screwdriver) Q=1.0556028911298536, Count=50
+craft(fragment, scrip) Q=0.982947206328744, Count=49
+craft(scrip 2, fragment 2) Q=1.1330730953375323, Count=50
+craft(scrip 2, screwdriver) Q=1.0069987795928272, Count=50
+craft(scrip 2, scrip) Q=0.8712106696171475, Count=49
+craft(fragment 2, screwdriver) Q=0.8163664805467087, Count=48
+craft(fragment 2, scrip) Q=1.1809368893025443, Count=50
+craft(screwdriver, scrip) Q=1.0035506098788523, Count=49
+move(Go back) Q=0.11794237219230945, Count=45
+Action: apply(screwdriver, drawer of the cabinet)
+Reward: Action executed successfully. You have successfully applied screwdriver to drawer of the cabinet. The drawer is opened, there is a lever inside
+Accumulated_reward: 18
+
+Step: 36
+click(golden key) Q=2.028940040443374, Count=54
+click(fragment 3) Q=1.9062601094105969, Count=54
+click(connector) Q=1.8025742182021771, Count=53
+click(cylindrical key) Q=1.8452217021992412, Count=53
+click(lever) Q=2.003640832154784, Count=54
+apply(fragment, golden key) Q=1.1171889073431924, Count=49
+apply(fragment, fragment 3) Q=1.2310603838815004, Count=50
+apply(fragment, connector) Q=1.1215003098732192, Count=49
+apply(fragment, cylindrical key) Q=1.1520373648914082, Count=50
+apply(fragment, lever) Q=1.1165189326486795, Count=49
+apply(scrip 2, golden key) Q=1.128573087017139, Count=49
+apply(scrip 2, fragment 3) Q=1.2118562214783706, Count=50
+apply(scrip 2, connector) Q=1.1982216224400286, Count=50
+apply(scrip 2, cylindrical key) Q=1.1742995099550757, Count=50
+apply(scrip 2, lever) Q=1.2387125561733783, Count=50
+apply(fragment 2, golden key) Q=1.0473491231351852, Count=49
+apply(fragment 2, fragment 3) Q=1.1653080855524374, Count=50
+apply(fragment 2, connector) Q=1.1482861778828843, Count=49
+apply(fragment 2, cylindrical key) Q=0.9242005606297103, Count=48
+apply(fragment 2, lever) Q=1.190317024779438, Count=50
+apply(scrip, golden key) Q=1.2576728174122205, Count=50
+apply(scrip, fragment 3) Q=1.208504996990222, Count=50
+apply(scrip, connector) Q=1.006601986983964, Count=49
+apply(scrip, cylindrical key) Q=1.1022481671762039, Count=49
+apply(scrip, lever) Q=1.133944606907114, Count=49
+craft(fragment, scrip 2) Q=1.2998702323275222, Count=50
+craft(fragment, fragment 2) Q=1.155322018152036, Count=49
+craft(fragment, scrip) Q=1.1326986992202657, Count=49
+craft(scrip 2, fragment 2) Q=1.1634648054454897, Count=50
+craft(scrip 2, scrip) Q=1.301373287761417, Count=50
+craft(fragment 2, scrip) Q=1.3021890406797638, Count=50
+move(Go back) Q=0.2616935147988971, Count=45
+Action: click(golden key)
+Reward: Action executed successfully. You have just collected a golden key. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 19
+
+Step: 37
+click(fragment 3) Q=1.5845444337848265, Count=53
+click(connector) Q=1.6708404492759792, Count=54
+click(cylindrical key) Q=1.6613670007055295, Count=54
+click(lever) Q=1.6187303736010816, Count=53
+apply(fragment, fragment 3) Q=1.0488752169794022, Count=50
+apply(fragment, connector) Q=0.8919599052115582, Count=49
+apply(fragment, cylindrical key) Q=0.9540865966390105, Count=50
+apply(fragment, lever) Q=1.0325449153260753, Count=50
+apply(scrip 2, fragment 3) Q=0.7779471712349453, Count=49
+apply(scrip 2, connector) Q=0.8820129687430764, Count=49
+apply(scrip 2, cylindrical key) Q=0.9437955826438996, Count=50
+apply(scrip 2, lever) Q=1.0279042776860288, Count=50
+apply(fragment 2, fragment 3) Q=0.965855717468726, Count=50
+apply(fragment 2, connector) Q=0.8613414556341409, Count=49
+apply(fragment 2, cylindrical key) Q=0.9095458905167858, Count=50
+apply(fragment 2, lever) Q=1.0188234552435789, Count=50
+apply(scrip, fragment 3) Q=1.0030773651580047, Count=50
+apply(scrip, connector) Q=0.8386070535207824, Count=49
+apply(scrip, cylindrical key) Q=0.7588445487846696, Count=49
+apply(scrip, lever) Q=0.9718794820067781, Count=50
+apply(golden key, fragment 3) Q=0.9144917316770167, Count=50
+apply(golden key, connector) Q=0.8305600714950206, Count=49
+apply(golden key, cylindrical key) Q=0.8522153805271687, Count=49
+apply(golden key, lever) Q=0.8844436080646543, Count=49
+craft(fragment, scrip 2) Q=1.032466072113676, Count=50
+craft(fragment, fragment 2) Q=0.9053993284154241, Count=50
+craft(fragment, scrip) Q=1.0573166897298067, Count=50
+craft(fragment, golden key) Q=0.9194096977451616, Count=50
+craft(scrip 2, fragment 2) Q=0.9545253648844941, Count=50
+craft(scrip 2, scrip) Q=0.896109821270371, Count=50
+craft(scrip 2, golden key) Q=0.8713248061046773, Count=49
+craft(fragment 2, scrip) Q=0.8832878488924425, Count=49
+craft(fragment 2, golden key) Q=0.9118871863204054, Count=50
+craft(scrip, golden key) Q=1.0696855773413017, Count=50
+move(Go back) Q=0.47733545057812304, Count=47
+Action: click(connector)
+Reward: Action executed successfully. You have just collected a connector. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 20
+
+Step: 38
+click(fragment 3) Q=1.5122635630895132, Count=54
+click(cylindrical key) Q=1.5453872279481644, Count=54
+click(lever) Q=1.5026309159012627, Count=54
+apply(fragment, fragment 3) Q=0.68600371866088, Count=50
+apply(fragment, cylindrical key) Q=0.678160384682856, Count=50
+apply(fragment, lever) Q=0.7269365143091576, Count=50
+apply(scrip 2, fragment 3) Q=0.6701681332244873, Count=49
+apply(scrip 2, cylindrical key) Q=0.8473372682799214, Count=50
+apply(scrip 2, lever) Q=0.7003853483694025, Count=50
+apply(fragment 2, fragment 3) Q=0.760507488516911, Count=50
+apply(fragment 2, cylindrical key) Q=0.6463239058384103, Count=49
+apply(fragment 2, lever) Q=0.7397236214956757, Count=50
+apply(scrip, fragment 3) Q=0.6953391478794754, Count=50
+apply(scrip, cylindrical key) Q=0.5983160253161811, Count=49
+apply(scrip, lever) Q=0.6286901756257174, Count=49
+apply(golden key, fragment 3) Q=0.8335812023885955, Count=50
+apply(golden key, cylindrical key) Q=0.9621938547830953, Count=51
+apply(golden key, lever) Q=0.8007986342438421, Count=50
+apply(connector, fragment 3) Q=0.6747202053750784, Count=50
+apply(connector, cylindrical key) Q=0.7943622314895218, Count=50
+apply(connector, lever) Q=0.627300415253796, Count=49
+craft(fragment, scrip 2) Q=0.6426423971803161, Count=49
+craft(fragment, fragment 2) Q=0.7260849041850476, Count=50
+craft(fragment, scrip) Q=0.6790888872238589, Count=50
+craft(fragment, golden key) Q=0.7976132993108602, Count=50
+craft(fragment, connector) Q=0.6598025961176186, Count=49
+craft(scrip 2, fragment 2) Q=0.683913708661824, Count=50
+craft(scrip 2, scrip) Q=0.8987636185074545, Count=51
+craft(scrip 2, golden key) Q=0.6140552869130602, Count=49
+craft(scrip 2, connector) Q=0.6712930822529264, Count=49
+craft(fragment 2, scrip) Q=0.5646758448165913, Count=49
+craft(fragment 2, golden key) Q=0.7393403563737392, Count=50
+craft(fragment 2, connector) Q=0.6313320266350861, Count=49
+craft(scrip, golden key) Q=0.5826266430325988, Count=49
+craft(scrip, connector) Q=0.7151486016037979, Count=50
+craft(golden key, connector) Q=0.7684204566497552, Count=50
+move(Go back) Q=0.3408090328003782, Count=48
+Action: click(cylindrical key)
+Reward: Action executed successfully. You have just collected a cylindrical key. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 21
+
+Step: 39
+click(fragment 3) Q=1.2510697969798248, Count=54
+click(lever) Q=1.2660027285724298, Count=54
+apply(fragment, fragment 3) Q=0.4532148919394533, Count=50
+apply(fragment, lever) Q=0.4122210551114728, Count=50
+apply(scrip 2, fragment 3) Q=0.5418438742293492, Count=50
+apply(scrip 2, lever) Q=0.4315157131992571, Count=50
+apply(fragment 2, fragment 3) Q=0.442894193658922, Count=50
+apply(fragment 2, lever) Q=0.44799116930363053, Count=50
+apply(scrip, fragment 3) Q=0.41262394658220347, Count=50
+apply(scrip, lever) Q=0.38495337990670997, Count=49
+apply(golden key, fragment 3) Q=0.46983577502479545, Count=50
+apply(golden key, lever) Q=0.33339607208337213, Count=49
+apply(connector, fragment 3) Q=0.5138257483662659, Count=50
+apply(connector, lever) Q=0.5066287866757622, Count=50
+apply(cylindrical key, fragment 3) Q=0.46538029115836643, Count=50
+apply(cylindrical key, lever) Q=0.4031738794639191, Count=49
+craft(fragment, scrip 2) Q=0.5838233504000847, Count=50
+craft(fragment, fragment 2) Q=0.4521957104221631, Count=50
+craft(fragment, scrip) Q=0.5231967202670509, Count=50
+craft(fragment, golden key) Q=0.5057581277208039, Count=50
+craft(fragment, connector) Q=0.468605256830266, Count=50
+craft(fragment, cylindrical key) Q=0.36136866328741046, Count=49
+craft(scrip 2, fragment 2) Q=0.38295799009534665, Count=49
+craft(scrip 2, scrip) Q=0.45002581664265073, Count=50
+craft(scrip 2, golden key) Q=0.5934009760140955, Count=51
+craft(scrip 2, connector) Q=0.48969972271564066, Count=50
+craft(scrip 2, cylindrical key) Q=0.451675855884499, Count=50
+craft(fragment 2, scrip) Q=0.4764797083431199, Count=50
+craft(fragment 2, golden key) Q=0.5673853011563448, Count=50
+craft(fragment 2, connector) Q=0.38366788750441155, Count=49
+craft(fragment 2, cylindrical key) Q=0.3834057642774086, Count=49
+craft(scrip, golden key) Q=0.5164132184175058, Count=50
+craft(scrip, connector) Q=0.40694016322614407, Count=49
+craft(scrip, cylindrical key) Q=0.45542006285522846, Count=50
+craft(golden key, connector) Q=0.5967873404520165, Count=50
+craft(golden key, cylindrical key) Q=0.49046388292818033, Count=50
+craft(connector, cylindrical key) Q=0.42859001606934216, Count=50
+move(Go back) Q=0.32621196236424743, Count=49
+Action: click(lever)
+Reward: Action executed successfully. You have just collected a lever. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 22
+
+Step: 40
+click(fragment 3) Q=1.0533536936011616, Count=54
+apply(fragment, fragment 3) Q=0.18801351548663253, Count=49
+apply(scrip 2, fragment 3) Q=0.24248430592469383, Count=50
+apply(fragment 2, fragment 3) Q=0.24522261431705933, Count=50
+apply(scrip, fragment 3) Q=0.2331281659418023, Count=50
+apply(golden key, fragment 3) Q=0.24771135476722353, Count=50
+apply(connector, fragment 3) Q=0.26684756488404204, Count=50
+apply(cylindrical key, fragment 3) Q=0.2038240739214483, Count=50
+apply(lever, fragment 3) Q=0.23497596478069982, Count=50
+craft(fragment, scrip 2) Q=0.33710433335343004, Count=50
+craft(fragment, fragment 2) Q=0.18533863012607055, Count=49
+craft(fragment, scrip) Q=0.3298363827612466, Count=50
+craft(fragment, golden key) Q=0.26277974096076784, Count=50
+craft(fragment, connector) Q=0.3078611455366381, Count=50
+craft(fragment, cylindrical key) Q=0.2517951094087433, Count=50
+craft(fragment, lever) Q=0.18981505328310908, Count=50
+craft(scrip 2, fragment 2) Q=0.19118260848366442, Count=49
+craft(scrip 2, scrip) Q=0.1733034278108671, Count=49
+craft(scrip 2, golden key) Q=0.20963582038504344, Count=50
+craft(scrip 2, connector) Q=0.23117490117810766, Count=50
+craft(scrip 2, cylindrical key) Q=0.24396945163291306, Count=50
+craft(scrip 2, lever) Q=0.25670253874626026, Count=50
+craft(fragment 2, scrip) Q=0.27224097527399577, Count=50
+craft(fragment 2, golden key) Q=0.29310599060990067, Count=50
+craft(fragment 2, connector) Q=0.2978520873796579, Count=50
+craft(fragment 2, cylindrical key) Q=0.21583375306394717, Count=50
+craft(fragment 2, lever) Q=0.2388892466627059, Count=50
+craft(scrip, golden key) Q=0.26546129309270433, Count=50
+craft(scrip, connector) Q=0.2987787617659253, Count=50
+craft(scrip, cylindrical key) Q=0.21151695318639582, Count=50
+craft(scrip, lever) Q=0.3185395139029692, Count=50
+craft(golden key, connector) Q=0.19194437179561302, Count=50
+craft(golden key, cylindrical key) Q=0.20618529169233865, Count=50
+craft(golden key, lever) Q=0.24398871365001165, Count=50
+craft(connector, cylindrical key) Q=0.23353440264315278, Count=50
+craft(connector, lever) Q=0.2937509527113016, Count=50
+craft(cylindrical key, lever) Q=0.22006758745309715, Count=50
+move(Go back) Q=0.3100647753762461, Count=50
+Action: click(fragment 3)
+Reward: Action executed successfully. You have just collected a fragment 3. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 23
+
+Step: 41
+craft(fragment, scrip 2) Q=0.0336515807740487, Count=50
+craft(fragment, fragment 2) Q=0.02208165277633633, Count=50
+craft(fragment, scrip) Q=0.010796270133114115, Count=50
+craft(fragment, golden key) Q=0.02599856452266628, Count=50
+craft(fragment, connector) Q=0.09522608070453034, Count=50
+craft(fragment, cylindrical key) Q=0.01023071658804329, Count=50
+craft(fragment, lever) Q=0.02689143538803331, Count=50
+craft(fragment, fragment 3) Q=0.06096139038641242, Count=50
+craft(scrip 2, fragment 2) Q=0.02715892517601711, Count=50
+craft(scrip 2, scrip) Q=0.0, Count=50
+craft(scrip 2, golden key) Q=0.03721889947574379, Count=50
+craft(scrip 2, connector) Q=0.012027746069952204, Count=50
+craft(scrip 2, cylindrical key) Q=0.03473850211019014, Count=50
+craft(scrip 2, lever) Q=0.011394592646027296, Count=50
+craft(scrip 2, fragment 3) Q=0.02783836955679423, Count=50
+craft(fragment 2, scrip) Q=0.0774340456759042, Count=50
+craft(fragment 2, golden key) Q=0.024361689347408913, Count=50
+craft(fragment 2, connector) Q=0.01023071658804329, Count=50
+craft(fragment 2, cylindrical key) Q=0.0, Count=49
+craft(fragment 2, lever) Q=0.015799168155428967, Count=50
+craft(fragment 2, fragment 3) Q=0.01269793949283138, Count=50
+craft(scrip, golden key) Q=0.012027746069952204, Count=50
+craft(scrip, connector) Q=0.011394592646027296, Count=50
+craft(scrip, cylindrical key) Q=0.010796270133114115, Count=50
+craft(scrip, lever) Q=0.0, Count=50
+craft(scrip, fragment 3) Q=0.04562326834706162, Count=50
+craft(golden key, connector) Q=0.0, Count=50
+craft(golden key, cylindrical key) Q=0.08606782293286545, Count=50
+craft(golden key, lever) Q=0.031117518003631148, Count=50
+craft(golden key, fragment 3) Q=0.07277386959277572, Count=50
+craft(connector, cylindrical key) Q=0.0, Count=50
+craft(connector, lever) Q=0.0, Count=50
+craft(connector, fragment 3) Q=0.04307403691088441, Count=50
+craft(cylindrical key, lever) Q=0.0, Count=50
+craft(cylindrical key, fragment 3) Q=0.01269793949283138, Count=50
+craft(lever, fragment 3) Q=0.03815756594245724, Count=50
+move(Go back) Q=0.20522732976922345, Count=51
+Action: move(Go back)
+Reward: Action executed successfully. Change to another scene: corridor.
+Accumulated_reward: 23
+
+Step: 42
+click(suitcase) Q=0.12720543272636287, Count=50
+apply(fragment, suitcase) Q=0.2505928184919302, Count=50
+apply(scrip 2, suitcase) Q=0.15265222873790443, Count=50
+apply(fragment 2, suitcase) Q=0.2123199223142429, Count=50
+apply(scrip, suitcase) Q=0.2390146630668648, Count=50
+apply(golden key, suitcase) Q=1.3672829531258153, Count=56
+apply(connector, suitcase) Q=0.24689094602168857, Count=50
+apply(cylindrical key, suitcase) Q=0.20307747055134975, Count=50
+apply(lever, suitcase) Q=0.1491408761475325, Count=50
+apply(fragment 3, suitcase) Q=0.127629900161988, Count=50
+craft(fragment, scrip 2) Q=0.2554798195431179, Count=50
+craft(fragment, fragment 2) Q=0.20336058468431345, Count=50
+craft(fragment, scrip) Q=0.12484663675353105, Count=50
+craft(fragment, golden key) Q=0.14875574208203596, Count=50
+craft(fragment, connector) Q=0.1622994332050382, Count=50
+craft(fragment, cylindrical key) Q=0.18356343727388164, Count=50
+craft(fragment, lever) Q=0.17063070509969247, Count=50
+craft(fragment, fragment 3) Q=0.23091509850717126, Count=50
+craft(scrip 2, fragment 2) Q=0.1945918743818098, Count=50
+craft(scrip 2, scrip) Q=0.060427788703723964, Count=49
+craft(scrip 2, golden key) Q=0.2357136852746421, Count=50
+craft(scrip 2, connector) Q=0.17660870253903335, Count=50
+craft(scrip 2, cylindrical key) Q=0.15518159088247427, Count=50
+craft(scrip 2, lever) Q=0.16597714151385118, Count=50
+craft(scrip 2, fragment 3) Q=0.20529916160479195, Count=50
+craft(fragment 2, scrip) Q=0.12400475001290306, Count=50
+craft(fragment 2, golden key) Q=0.17413431396632953, Count=50
+craft(fragment 2, connector) Q=0.19788055842540225, Count=50
+craft(fragment 2, cylindrical key) Q=0.22454426753744147, Count=50
+craft(fragment 2, lever) Q=0.18211179472310288, Count=50
+craft(fragment 2, fragment 3) Q=0.26831669734963903, Count=50
+craft(scrip, golden key) Q=0.1564935671282245, Count=50
+craft(scrip, connector) Q=0.2281304871898521, Count=50
+craft(scrip, cylindrical key) Q=0.23173396370276028, Count=50
+craft(scrip, lever) Q=0.0840241381331355, Count=49
+craft(scrip, fragment 3) Q=0.1614114361060832, Count=50
+craft(golden key, connector) Q=0.13838251179272662, Count=50
+craft(golden key, cylindrical key) Q=0.3202644085848844, Count=50
+craft(golden key, lever) Q=0.2549300584518662, Count=50
+craft(golden key, fragment 3) Q=0.27514164250965956, Count=50
+craft(connector, cylindrical key) Q=0.2679484779876984, Count=50
+craft(connector, lever) Q=0.17909174362772595, Count=50
+craft(connector, fragment 3) Q=0.18540465981924176, Count=50
+craft(cylindrical key, lever) Q=0.18091108352934088, Count=50
+craft(cylindrical key, fragment 3) Q=0.08871050273733368, Count=49
+craft(lever, fragment 3) Q=0.15584093842626684, Count=50
+move(Turn left) Q=0.010439293989715864, Count=49
+move(Go straight) Q=0.2735710265963004, Count=50
+move(Go back) Q=0.022531332551717815, Count=49
+move(Go to bathroom) Q=0.026527783872276754, Count=49
+Action: apply(golden key, suitcase)
+Reward: Action executed successfully. You have successfully applied golden key to suitcase. The suitcase is opened, there is a metal fragment and a credential inside
+Accumulated_reward: 24
+
+Step: 43
+click(fragment 4) Q=1.1888970574886573, Count=55
+click(credential) Q=1.111502395766851, Count=54
+apply(fragment, fragment 4) Q=0.22675250504089722, Count=49
+apply(fragment, credential) Q=0.22376265373651794, Count=50
+apply(scrip 2, fragment 4) Q=0.2610415320067344, Count=50
+apply(scrip 2, credential) Q=0.3900718791353288, Count=50
+apply(fragment 2, fragment 4) Q=0.2871073421894383, Count=50
+apply(fragment 2, credential) Q=0.41464350700519315, Count=50
+apply(scrip, fragment 4) Q=0.22726523429904852, Count=49
+apply(scrip, credential) Q=0.31074712087725787, Count=50
+apply(connector, fragment 4) Q=0.3326555838720151, Count=50
+apply(connector, credential) Q=0.2210781133827065, Count=49
+apply(cylindrical key, fragment 4) Q=0.2282799015746348, Count=50
+apply(cylindrical key, credential) Q=0.35703660568291495, Count=50
+apply(lever, fragment 4) Q=0.2827110966594721, Count=50
+apply(lever, credential) Q=0.26844707466181295, Count=50
+apply(fragment 3, fragment 4) Q=0.28883155311120023, Count=50
+apply(fragment 3, credential) Q=0.32673228607771687, Count=50
+craft(fragment, scrip 2) Q=0.17698704340723212, Count=49
+craft(fragment, fragment 2) Q=0.22607517972932845, Count=50
+craft(fragment, scrip) Q=0.2774014182619945, Count=50
+craft(fragment, connector) Q=0.2533823938141757, Count=50
+craft(fragment, cylindrical key) Q=0.2501417809859686, Count=50
+craft(fragment, lever) Q=0.2944807545419079, Count=50
+craft(fragment, fragment 3) Q=0.22266853889984187, Count=49
+craft(scrip 2, fragment 2) Q=0.31476742029996063, Count=50
+craft(scrip 2, scrip) Q=0.30019190516500593, Count=50
+craft(scrip 2, connector) Q=0.33712046373688603, Count=50
+craft(scrip 2, cylindrical key) Q=0.2553208480034852, Count=50
+craft(scrip 2, lever) Q=0.2911264247492189, Count=50
+craft(scrip 2, fragment 3) Q=0.23503853661149846, Count=50
+craft(fragment 2, scrip) Q=0.2848798873910654, Count=50
+craft(fragment 2, connector) Q=0.3598487586059633, Count=50
+craft(fragment 2, cylindrical key) Q=0.23706888329935727, Count=50
+craft(fragment 2, lever) Q=0.18393641624488843, Count=49
+craft(fragment 2, fragment 3) Q=0.36610795093834214, Count=50
+craft(scrip, connector) Q=0.41222270015148077, Count=50
+craft(scrip, cylindrical key) Q=0.32561580545528857, Count=50
+craft(scrip, lever) Q=0.334835827020897, Count=50
+craft(scrip, fragment 3) Q=0.24399095034236556, Count=50
+craft(connector, cylindrical key) Q=0.22291605952978938, Count=50
+craft(connector, lever) Q=0.22437459332385074, Count=50
+craft(connector, fragment 3) Q=0.2919372419314156, Count=50
+craft(cylindrical key, lever) Q=0.2395962461586901, Count=50
+craft(cylindrical key, fragment 3) Q=0.2809593219645612, Count=50
+craft(lever, fragment 3) Q=0.2821496953624156, Count=50
+move(Turn left) Q=0.04760123838021243, Count=49
+move(Go straight) Q=0.40861301996666133, Count=50
+move(Go back) Q=0.02143324851003313, Count=49
+move(Go to bathroom) Q=0.02817860340728956, Count=49
+Action: click(fragment 4)
+Reward: Action executed successfully. You have just collected a fragment 4. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 25
+
+Step: 44
+click(credential) Q=0.9999999999999997, Count=54
+apply(fragment, credential) Q=0.17968634612632378, Count=50
+apply(scrip 2, credential) Q=0.16848753755240314, Count=50
+apply(fragment 2, credential) Q=0.15176762962701718, Count=50
+apply(scrip, credential) Q=0.0857904423875021, Count=50
+apply(connector, credential) Q=0.09343045771293558, Count=50
+apply(cylindrical key, credential) Q=0.16988732915352103, Count=50
+apply(lever, credential) Q=0.2371745808460417, Count=50
+apply(fragment 3, credential) Q=0.13982665901156804, Count=50
+apply(fragment 4, credential) Q=0.15213872848867857, Count=50
+craft(fragment, scrip 2) Q=0.14219101603494233, Count=50
+craft(fragment, fragment 2) Q=0.14256294803755135, Count=50
+craft(fragment, scrip) Q=0.0556658614051623, Count=50
+craft(fragment, connector) Q=0.17073301912372024, Count=50
+craft(fragment, cylindrical key) Q=0.1965586130195522, Count=50
+craft(fragment, lever) Q=0.12360748336276203, Count=50
+craft(fragment, fragment 3) Q=0.11458751779327137, Count=50
+craft(fragment, fragment 4) Q=0.1588317850601244, Count=50
+craft(scrip 2, fragment 2) Q=0.1647914325779034, Count=50
+craft(scrip 2, scrip) Q=0.1433144471442979, Count=50
+craft(scrip 2, connector) Q=0.16122103945118155, Count=50
+craft(scrip 2, cylindrical key) Q=0.13653255009036702, Count=50
+craft(scrip 2, lever) Q=0.1259754188633732, Count=50
+craft(scrip 2, fragment 3) Q=0.17214889059141608, Count=50
+craft(scrip 2, fragment 4) Q=0.14355510386518255, Count=50
+craft(fragment 2, scrip) Q=0.10260811469438234, Count=50
+craft(fragment 2, connector) Q=0.2313500685752777, Count=50
+craft(fragment 2, cylindrical key) Q=0.17011755347101798, Count=50
+craft(fragment 2, lever) Q=0.13683026827769396, Count=50
+craft(fragment 2, fragment 3) Q=0.19305443786508866, Count=50
+craft(fragment 2, fragment 4) Q=0.18038963985688902, Count=50
+craft(scrip, connector) Q=0.052238861712599144, Count=49
+craft(scrip, cylindrical key) Q=0.23901431955995706, Count=50
+craft(scrip, lever) Q=0.17869673942971862, Count=50
+craft(scrip, fragment 3) Q=0.09908906158740405, Count=50
+craft(scrip, fragment 4) Q=0.14469329534763162, Count=50
+craft(connector, cylindrical key) Q=0.10078349260145514, Count=50
+craft(connector, lever) Q=0.14902742141086356, Count=50
+craft(connector, fragment 3) Q=0.15145636103192464, Count=50
+craft(connector, fragment 4) Q=0.14579765988361199, Count=50
+craft(cylindrical key, lever) Q=0.11026537413238836, Count=50
+craft(cylindrical key, fragment 3) Q=0.18875721161353387, Count=50
+craft(cylindrical key, fragment 4) Q=0.1364090193617366, Count=50
+craft(lever, fragment 3) Q=0.17087950830838522, Count=50
+craft(lever, fragment 4) Q=0.19209546149440143, Count=50
+craft(fragment 3, fragment 4) Q=0.19974594382622507, Count=50
+move(Turn left) Q=0.03897052420590689, Count=49
+move(Go straight) Q=0.20640400899897038, Count=50
+move(Go back) Q=0.0, Count=49
+move(Go to bathroom) Q=0.02966517014187321, Count=49
+Action: click(credential)
+Reward: Action executed successfully. You have just collected a credential. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 26
+
+Step: 45
+craft(fragment, scrip 2) Q=0.01971753831302526, Count=50
+craft(fragment, fragment 2) Q=0.024361689347408913, Count=50
+craft(fragment, scrip) Q=0.021602607244101832, Count=50
+craft(fragment, connector) Q=0.0, Count=50
+craft(fragment, cylindrical key) Q=0.03912341506875044, Count=50
+craft(fragment, lever) Q=0.026822230957032546, Count=50
+craft(fragment, fragment 3) Q=0.06375166133621359, Count=50
+craft(fragment, fragment 4) Q=0.09318018331174129, Count=50
+craft(fragment, credential) Q=0.03697376762747551, Count=50
+craft(scrip 2, fragment 2) Q=0.024772491993949746, Count=50
+craft(scrip 2, scrip) Q=0.08057515915021188, Count=50
+craft(scrip 2, connector) Q=0.0, Count=50
+craft(scrip 2, cylindrical key) Q=0.011394592646027296, Count=50
+craft(scrip 2, lever) Q=0.010796270133114115, Count=50
+craft(scrip 2, fragment 3) Q=0.014159093367747502, Count=50
+craft(scrip 2, fragment 4) Q=0.01023071658804329, Count=50
+craft(scrip 2, credential) Q=0.040229287666418596, Count=50
+craft(fragment 2, scrip) Q=0.03130148863970157, Count=50
+craft(fragment 2, connector) Q=0.0, Count=50
+craft(fragment 2, cylindrical key) Q=0.01669377972066061, Count=50
+craft(fragment 2, lever) Q=0.0, Count=50
+craft(fragment 2, fragment 3) Q=0.03699967002666499, Count=50
+craft(fragment 2, fragment 4) Q=0.026822230957032546, Count=50
+craft(fragment 2, credential) Q=0.026072498104348328, Count=50
+craft(scrip, connector) Q=0.014159093367747502, Count=50
+craft(scrip, cylindrical key) Q=0.03029729998477422, Count=50
+craft(scrip, lever) Q=0.05351902576229186, Count=50
+craft(scrip, fragment 3) Q=0.012027746069952204, Count=50
+craft(scrip, fragment 4) Q=0.04731402823793765, Count=50
+craft(scrip, credential) Q=0.013407541439587067, Count=50
+craft(connector, cylindrical key) Q=0.011394592646027296, Count=50
+craft(connector, lever) Q=0.049010148945561396, Count=50
+craft(connector, fragment 3) Q=0.0, Count=50
+craft(connector, fragment 4) Q=0.01269793949283138, Count=50
+craft(connector, credential) Q=0.046272693714152144, Count=50
+craft(cylindrical key, lever) Q=0.026948256040232967, Count=50
+craft(cylindrical key, fragment 3) Q=0.026072498104348328, Count=50
+craft(cylindrical key, fragment 4) Q=0.024361689347408913, Count=50
+craft(cylindrical key, credential) Q=0.05523858928494178, Count=50
+craft(lever, fragment 3) Q=0.03481021419767612, Count=50
+craft(lever, fragment 4) Q=0.013407541439587067, Count=50
+craft(lever, credential) Q=0.04682353146802099, Count=50
+craft(fragment 3, fragment 4) Q=0.058414669019159204, Count=50
+craft(fragment 3, credential) Q=0.04008651615050633, Count=50
+craft(fragment 4, credential) Q=0.02536461639151486, Count=50
+move(Turn left) Q=0.0, Count=50
+move(Go straight) Q=0.3487556081052529, Count=51
+move(Go back) Q=0.0, Count=49
+move(Go to bathroom) Q=0.0, Count=50
+Action: move(Go straight)
+Reward: Action executed successfully. Change to another scene: study room.
+Accumulated_reward: 26
+
+Step: 46
+click(tool box) Q=0.275858310679386, Count=50
+apply(fragment, tool box) Q=0.2550888820025499, Count=50
+apply(scrip 2, tool box) Q=0.1987178758811042, Count=49
+apply(fragment 2, tool box) Q=0.20143208075050117, Count=49
+apply(scrip, tool box) Q=0.29865934778354203, Count=50
+apply(connector, tool box) Q=1.1597713293258325, Count=54
+apply(cylindrical key, tool box) Q=0.27103889901213557, Count=50
+apply(lever, tool box) Q=1.1344764783507573, Count=54
+apply(fragment 3, tool box) Q=0.2686778178201583, Count=50
+apply(fragment 4, tool box) Q=0.29389849971828114, Count=50
+apply(credential, tool box) Q=0.3069320395798695, Count=50
+craft(fragment, scrip 2) Q=0.35245343262366546, Count=50
+craft(fragment, fragment 2) Q=0.21446680667305443, Count=50
+craft(fragment, scrip) Q=0.23442488064570133, Count=50
+craft(fragment, connector) Q=0.27343182486274875, Count=50
+craft(fragment, cylindrical key) Q=0.33368984351849384, Count=50
+craft(fragment, lever) Q=0.2828186249560851, Count=50
+craft(fragment, fragment 3) Q=0.2446791333119341, Count=50
+craft(fragment, fragment 4) Q=0.22242603959319515, Count=50
+craft(fragment, credential) Q=0.21712433542545792, Count=50
+craft(scrip 2, fragment 2) Q=0.2634290732085466, Count=50
+craft(scrip 2, scrip) Q=0.2818993934569426, Count=50
+craft(scrip 2, connector) Q=0.29927565361358444, Count=50
+craft(scrip 2, cylindrical key) Q=0.3122103235704643, Count=50
+craft(scrip 2, lever) Q=0.20212888746019855, Count=50
+craft(scrip 2, fragment 3) Q=0.24489300800005936, Count=50
+craft(scrip 2, fragment 4) Q=0.34122998213139105, Count=50
+craft(scrip 2, credential) Q=0.3234167082540073, Count=50
+craft(fragment 2, scrip) Q=0.19917890411920094, Count=50
+craft(fragment 2, connector) Q=0.19598348968653978, Count=49
+craft(fragment 2, cylindrical key) Q=0.2767752198992967, Count=50
+craft(fragment 2, lever) Q=0.30957254738335005, Count=50
+craft(fragment 2, fragment 3) Q=0.2670937016300846, Count=50
+craft(fragment 2, fragment 4) Q=0.2017077356024618, Count=49
+craft(fragment 2, credential) Q=0.24805787694518544, Count=50
+craft(scrip, connector) Q=0.2015701536974002, Count=50
+craft(scrip, cylindrical key) Q=0.3154082303217293, Count=50
+craft(scrip, lever) Q=0.2440362105998011, Count=50
+craft(scrip, fragment 3) Q=0.3426769698595801, Count=50
+craft(scrip, fragment 4) Q=0.26682037222646604, Count=50
+craft(scrip, credential) Q=0.2054749864876725, Count=50
+craft(connector, cylindrical key) Q=0.19709343134406887, Count=49
+craft(connector, lever) Q=0.41031713253572366, Count=51
+craft(connector, fragment 3) Q=0.22208209004586582, Count=50
+craft(connector, fragment 4) Q=0.1970153337002282, Count=49
+craft(connector, credential) Q=0.24940929528323308, Count=50
+craft(cylindrical key, lever) Q=0.22132439802159293, Count=50
+craft(cylindrical key, fragment 3) Q=0.3429583485471746, Count=50
+craft(cylindrical key, fragment 4) Q=0.2657745397097491, Count=50
+craft(cylindrical key, credential) Q=0.2745127347184838, Count=50
+craft(lever, fragment 3) Q=0.20137210831242802, Count=50
+craft(lever, fragment 4) Q=0.255179992990465, Count=50
+craft(lever, credential) Q=0.2610832439731692, Count=50
+craft(fragment 3, fragment 4) Q=0.3085099937504421, Count=50
+craft(fragment 3, credential) Q=0.20520630620408797, Count=50
+craft(fragment 4, credential) Q=0.21383079583183118, Count=50
+move(Turn left) Q=0.10179032041360274, Count=49
+move(Turn right) Q=0.012272917426836179, Count=49
+move(Go back) Q=0.0, Count=49
+Action: apply(connector, tool box)
+Reward: Action executed successfully. You have successfully applied connector to tool box.
+However, the apply of connector is not enough, and tool box is still missing something else ...
+Accumulated_reward: 27
+
+Step: 47
+click(tool box) Q=0.18006628340544528, Count=50
+apply(fragment, tool box) Q=0.17621555226495794, Count=50
+apply(scrip 2, tool box) Q=0.17928422561292146, Count=50
+apply(fragment 2, tool box) Q=0.21594665890554382, Count=50
+apply(scrip, tool box) Q=0.21140337038988644, Count=50
+apply(cylindrical key, tool box) Q=0.18690057739902377, Count=50
+apply(lever, tool box) Q=1.1219126052703134, Count=55
+apply(fragment 3, tool box) Q=0.30104653426947514, Count=50
+apply(fragment 4, tool box) Q=0.16295008632589786, Count=50
+apply(credential, tool box) Q=0.23398175466495846, Count=50
+craft(fragment, scrip 2) Q=0.10211460401041812, Count=49
+craft(fragment, fragment 2) Q=0.16343876543864666, Count=50
+craft(fragment, scrip) Q=0.17969162538822364, Count=50
+craft(fragment, cylindrical key) Q=0.16179823626350165, Count=50
+craft(fragment, lever) Q=0.13733267388625545, Count=50
+craft(fragment, fragment 3) Q=0.23823478195948322, Count=50
+craft(fragment, fragment 4) Q=0.19794604215239886, Count=50
+craft(fragment, credential) Q=0.1788955802467032, Count=50
+craft(scrip 2, fragment 2) Q=0.2903395670033331, Count=50
+craft(scrip 2, scrip) Q=0.20867922777921707, Count=50
+craft(scrip 2, cylindrical key) Q=0.2185261333778055, Count=50
+craft(scrip 2, lever) Q=0.23247803428549127, Count=50
+craft(scrip 2, fragment 3) Q=0.18135883354138183, Count=50
+craft(scrip 2, fragment 4) Q=0.26483532589068465, Count=50
+craft(scrip 2, credential) Q=0.201409770713449, Count=50
+craft(fragment 2, scrip) Q=0.17033013000512454, Count=50
+craft(fragment 2, cylindrical key) Q=0.1488413785386451, Count=50
+craft(fragment 2, lever) Q=0.21895383104907562, Count=50
+craft(fragment 2, fragment 3) Q=0.10550540757816308, Count=49
+craft(fragment 2, fragment 4) Q=0.21280756571149026, Count=50
+craft(fragment 2, credential) Q=0.16300578281526504, Count=50
+craft(scrip, cylindrical key) Q=0.23716761624535043, Count=50
+craft(scrip, lever) Q=0.12758434528437634, Count=50
+craft(scrip, fragment 3) Q=0.2005012689594705, Count=50
+craft(scrip, fragment 4) Q=0.19064723232367087, Count=50
+craft(scrip, credential) Q=0.14779500194337764, Count=50
+craft(cylindrical key, lever) Q=0.16258808247011405, Count=50
+craft(cylindrical key, fragment 3) Q=0.10900995681151783, Count=49
+craft(cylindrical key, fragment 4) Q=0.20590462765748824, Count=50
+craft(cylindrical key, credential) Q=0.20686482227413056, Count=50
+craft(lever, fragment 3) Q=0.1734003603711255, Count=50
+craft(lever, fragment 4) Q=0.20454304719893562, Count=50
+craft(lever, credential) Q=0.19440322046626324, Count=50
+craft(fragment 3, fragment 4) Q=0.17952524267104708, Count=50
+craft(fragment 3, credential) Q=0.2077584524469382, Count=50
+craft(fragment 4, credential) Q=0.17004643692734936, Count=50
+move(Turn left) Q=0.18311094342648077, Count=50
+move(Turn right) Q=0.04444041950309871, Count=49
+move(Go back) Q=0.028854965175824875, Count=49
+Action: apply(lever, tool box)
+Reward: Action executed successfully. You have successfully applied lever to tool box. The tool box is opened, there is a paper inside
+Accumulated_reward: 28
+
+Step: 48
+click(paper 2) Q=1.0392765386868072, Count=54
+apply(fragment, paper 2) Q=0.1629294813646325, Count=50
+apply(scrip 2, paper 2) Q=0.18495936287869794, Count=50
+apply(fragment 2, paper 2) Q=0.18503604149905756, Count=50
+apply(scrip, paper 2) Q=0.2606838444174097, Count=50
+apply(cylindrical key, paper 2) Q=0.10276327805428938, Count=49
+apply(fragment 3, paper 2) Q=0.17942923089224894, Count=50
+apply(fragment 4, paper 2) Q=0.2056532410596526, Count=50
+apply(credential, paper 2) Q=0.23722469534738858, Count=50
+craft(fragment, scrip 2) Q=0.268194746417589, Count=50
+craft(fragment, fragment 2) Q=0.25052476771386334, Count=50
+craft(fragment, scrip) Q=0.2079909469024985, Count=50
+craft(fragment, cylindrical key) Q=0.11024733340273468, Count=50
+craft(fragment, fragment 3) Q=0.25999748853776206, Count=50
+craft(fragment, fragment 4) Q=0.2601119966066698, Count=50
+craft(fragment, credential) Q=0.18676735937505923, Count=50
+craft(scrip 2, fragment 2) Q=0.20319771216029492, Count=50
+craft(scrip 2, scrip) Q=0.2631183747174401, Count=50
+craft(scrip 2, cylindrical key) Q=0.15986400480790502, Count=50
+craft(scrip 2, fragment 3) Q=0.23410726903523016, Count=50
+craft(scrip 2, fragment 4) Q=0.22453006327261432, Count=50
+craft(scrip 2, credential) Q=0.10474208386751561, Count=49
+craft(fragment 2, scrip) Q=0.14652387079055149, Count=50
+craft(fragment 2, cylindrical key) Q=0.18533331011621135, Count=50
+craft(fragment 2, fragment 3) Q=0.21934932456274975, Count=50
+craft(fragment 2, fragment 4) Q=0.1959422339274836, Count=50
+craft(fragment 2, credential) Q=0.2415092460508346, Count=50
+craft(scrip, cylindrical key) Q=0.21668727892158532, Count=50
+craft(scrip, fragment 3) Q=0.14942833527557936, Count=50
+craft(scrip, fragment 4) Q=0.23696454858349056, Count=50
+craft(scrip, credential) Q=0.1631611239172691, Count=50
+craft(cylindrical key, fragment 3) Q=0.1966296535492059, Count=50
+craft(cylindrical key, fragment 4) Q=0.21946426765382232, Count=50
+craft(cylindrical key, credential) Q=0.15881575235170403, Count=50
+craft(fragment 3, fragment 4) Q=0.2176311049830153, Count=50
+craft(fragment 3, credential) Q=0.1448382739935476, Count=50
+craft(fragment 4, credential) Q=0.1543990414395621, Count=50
+move(Turn left) Q=0.29556510148644555, Count=50
+move(Turn right) Q=0.0, Count=49
+move(Go back) Q=0.027438783277885063, Count=49
+Action: click(paper 2)
+Reward: Action executed successfully. You have just collected a paper 2. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 29
+
+Step: 49
+craft(fragment, scrip 2) Q=0.01764255650353473, Count=50
+craft(fragment, fragment 2) Q=0.11158612276954477, Count=50
+craft(fragment, scrip) Q=0.0, Count=50
+craft(fragment, cylindrical key) Q=0.0, Count=50
+craft(fragment, fragment 3) Q=0.014159093367747502, Count=50
+craft(fragment, fragment 4) Q=0.0, Count=50
+craft(fragment, credential) Q=0.02599856452266628, Count=50
+craft(fragment, paper 2) Q=0.014955324501419788, Count=50
+craft(scrip 2, fragment 2) Q=0.01764255650353473, Count=50
+craft(scrip 2, scrip) Q=0.0, Count=50
+craft(scrip 2, cylindrical key) Q=0.06713677315269446, Count=50
+craft(scrip 2, fragment 3) Q=0.010796270133114115, Count=50
+craft(scrip 2, fragment 4) Q=0.012027746069952204, Count=50
+craft(scrip 2, credential) Q=0.012027746069952204, Count=50
+craft(scrip 2, paper 2) Q=0.01269793949283138, Count=50
+craft(fragment 2, scrip) Q=0.041625118502013884, Count=50
+craft(fragment 2, cylindrical key) Q=0.01023071658804329, Count=50
+craft(fragment 2, fragment 3) Q=0.02599856452266628, Count=50
+craft(fragment 2, fragment 4) Q=0.0, Count=50
+craft(fragment 2, credential) Q=0.02343174254044736, Count=50
+craft(fragment 2, paper 2) Q=0.03937916868719978, Count=50
+craft(scrip, cylindrical key) Q=0.10371794377021203, Count=50
+craft(scrip, fragment 3) Q=0.0, Count=50
+craft(scrip, fragment 4) Q=0.03797954074900718, Count=50
+craft(scrip, credential) Q=0.05801706714599643, Count=50
+craft(scrip, paper 2) Q=0.03047276323963557, Count=50
+craft(cylindrical key, fragment 3) Q=0.015799168155428967, Count=50
+craft(cylindrical key, fragment 4) Q=0.0, Count=50
+craft(cylindrical key, credential) Q=0.0, Count=50
+craft(cylindrical key, paper 2) Q=0.022234516772856976, Count=50
+craft(fragment 3, fragment 4) Q=0.0, Count=50
+craft(fragment 3, credential) Q=0.04432432203261562, Count=50
+craft(fragment 3, paper 2) Q=0.02805160070560958, Count=50
+craft(fragment 4, credential) Q=0.010796270133114115, Count=50
+craft(fragment 4, paper 2) Q=0.02916581527222689, Count=50
+craft(credential, paper 2) Q=0.0, Count=49
+move(Turn left) Q=0.19863767315352882, Count=51
+move(Turn right) Q=0.0, Count=50
+move(Go back) Q=0.0, Count=50
+Action: move(Turn left)
+Reward: Action executed successfully. Change to another scene: utility room.
+Accumulated_reward: 29
+
+Step: 50
+click(locked box) Q=0.15465187130703653, Count=50
+click(phone) Q=0.15890885683767625, Count=50
+apply(fragment, locked box) Q=0.22021947305285716, Count=50
+apply(fragment, phone) Q=0.10789506633003211, Count=49
+apply(scrip 2, locked box) Q=0.25751559271372837, Count=50
+apply(scrip 2, phone) Q=0.18502074727177154, Count=50
+apply(fragment 2, locked box) Q=0.09503898738827982, Count=49
+apply(fragment 2, phone) Q=0.1432424896120751, Count=50
+apply(scrip, locked box) Q=0.2768284999669715, Count=50
+apply(scrip, phone) Q=0.1454434536123575, Count=50
+apply(cylindrical key, locked box) Q=1.168507553792335, Count=55
+apply(cylindrical key, phone) Q=0.15318750106749876, Count=50
+apply(fragment 3, locked box) Q=0.204775652323767, Count=50
+apply(fragment 3, phone) Q=0.15518205823016695, Count=50
+apply(fragment 4, locked box) Q=0.19293020751263745, Count=50
+apply(fragment 4, phone) Q=0.12294886084162895, Count=50
+apply(credential, locked box) Q=0.3164198050931602, Count=51
+apply(credential, phone) Q=0.17529279623115354, Count=50
+apply(paper 2, locked box) Q=0.11094741082650136, Count=49
+apply(paper 2, phone) Q=0.18073844746406723, Count=50
+craft(fragment, scrip 2) Q=0.09774639587819127, Count=49
+craft(fragment, fragment 2) Q=0.17332522228038033, Count=50
+craft(fragment, scrip) Q=0.24102152847184433, Count=50
+craft(fragment, cylindrical key) Q=0.15226515903782495, Count=50
+craft(fragment, fragment 3) Q=0.226537104464743, Count=50
+craft(fragment, fragment 4) Q=0.18310351283020634, Count=50
+craft(fragment, credential) Q=0.24121409477007272, Count=50
+craft(fragment, paper 2) Q=0.20933829371443685, Count=50
+craft(scrip 2, fragment 2) Q=0.1987274920019113, Count=50
+craft(scrip 2, scrip) Q=0.1674305526300841, Count=50
+craft(scrip 2, cylindrical key) Q=0.06391583067323804, Count=49
+craft(scrip 2, fragment 3) Q=0.18163236463276067, Count=50
+craft(scrip 2, fragment 4) Q=0.21266849048701864, Count=50
+craft(scrip 2, credential) Q=0.23785715473400443, Count=50
+craft(scrip 2, paper 2) Q=0.19646122648137038, Count=50
+craft(fragment 2, scrip) Q=0.16688113139098837, Count=50
+craft(fragment 2, cylindrical key) Q=0.21334554240698578, Count=50
+craft(fragment 2, fragment 3) Q=0.12602410797446562, Count=50
+craft(fragment 2, fragment 4) Q=0.16744443593145514, Count=50
+craft(fragment 2, credential) Q=0.16731515992410656, Count=50
+craft(fragment 2, paper 2) Q=0.198979678652768, Count=50
+craft(scrip, cylindrical key) Q=0.16478607214031626, Count=50
+craft(scrip, fragment 3) Q=0.2166424748021909, Count=50
+craft(scrip, fragment 4) Q=0.2022780745856202, Count=50
+craft(scrip, credential) Q=0.2047235308951346, Count=50
+craft(scrip, paper 2) Q=0.1594926476349491, Count=50
+craft(cylindrical key, fragment 3) Q=0.19864404829140356, Count=50
+craft(cylindrical key, fragment 4) Q=0.1498740256378749, Count=50
+craft(cylindrical key, credential) Q=0.2108439464673776, Count=50
+craft(cylindrical key, paper 2) Q=0.16479830046628582, Count=50
+craft(fragment 3, fragment 4) Q=0.230178451051012, Count=50
+craft(fragment 3, credential) Q=0.21543819718093354, Count=50
+craft(fragment 3, paper 2) Q=0.10268838893947649, Count=49
+craft(fragment 4, credential) Q=0.19501434240538607, Count=50
+craft(fragment 4, paper 2) Q=0.3075885959902189, Count=51
+craft(credential, paper 2) Q=0.15889673191914627, Count=50
+move(Turn right) Q=0.0, Count=49
+Action: apply(cylindrical key, locked box)
+Reward: Action executed successfully. You have successfully applied cylindrical key to locked box. The locked box is opened
+Accumulated_reward: 30
+
+Step: 51
+click(phone) Q=0.23119386456196656, Count=50
+click(sim card) Q=1.3940080657343261, Count=56
+apply(fragment, phone) Q=0.21351501052765973, Count=50
+apply(fragment, sim card) Q=0.13480695481331564, Count=49
+apply(scrip 2, phone) Q=0.3054527762343235, Count=50
+apply(scrip 2, sim card) Q=0.3504326625283317, Count=50
+apply(fragment 2, phone) Q=0.19348161062831915, Count=50
+apply(fragment 2, sim card) Q=0.27081095461596427, Count=50
+apply(scrip, phone) Q=0.21867211095527056, Count=50
+apply(scrip, sim card) Q=0.3845859012776334, Count=51
+apply(fragment 3, phone) Q=0.1467681405663258, Count=49
+apply(fragment 3, sim card) Q=0.28923600053465287, Count=50
+apply(fragment 4, phone) Q=0.19123584319937378, Count=50
+apply(fragment 4, sim card) Q=0.215307479498845, Count=50
+apply(credential, phone) Q=0.22587239711639243, Count=50
+apply(credential, sim card) Q=0.22926246359828695, Count=50
+apply(paper 2, phone) Q=0.29534937028073327, Count=50
+apply(paper 2, sim card) Q=0.18230956253942265, Count=50
+craft(fragment, scrip 2) Q=0.18571194689256482, Count=50
+craft(fragment, fragment 2) Q=0.2124701879804411, Count=50
+craft(fragment, scrip) Q=0.23605398003348227, Count=50
+craft(fragment, fragment 3) Q=0.24418322613187712, Count=50
+craft(fragment, fragment 4) Q=0.22087960933957515, Count=50
+craft(fragment, credential) Q=0.1604632893639585, Count=49
+craft(fragment, paper 2) Q=0.17970901484810922, Count=50
+craft(scrip 2, fragment 2) Q=0.1826650361015478, Count=50
+craft(scrip 2, scrip) Q=0.29221359736397623, Count=50
+craft(scrip 2, fragment 3) Q=0.21243875066277648, Count=50
+craft(scrip 2, fragment 4) Q=0.19997078371802116, Count=50
+craft(scrip 2, credential) Q=0.3786468323546293, Count=51
+craft(scrip 2, paper 2) Q=0.22059472021178356, Count=50
+craft(fragment 2, scrip) Q=0.11773940807206958, Count=49
+craft(fragment 2, fragment 3) Q=0.13643943610382225, Count=49
+craft(fragment 2, fragment 4) Q=0.12106874382909547, Count=49
+craft(fragment 2, credential) Q=0.17295315809005823, Count=50
+craft(fragment 2, paper 2) Q=0.18260063820378014, Count=50
+craft(scrip, fragment 3) Q=0.3166656449272437, Count=50
+craft(scrip, fragment 4) Q=0.27228517530571095, Count=50
+craft(scrip, credential) Q=0.190181488942177, Count=50
+craft(scrip, paper 2) Q=0.18644879273892323, Count=50
+craft(fragment 3, fragment 4) Q=0.20003738907872792, Count=50
+craft(fragment 3, credential) Q=0.14867577286973016, Count=49
+craft(fragment 3, paper 2) Q=0.30709954411489704, Count=50
+craft(fragment 4, credential) Q=0.18532932590096404, Count=50
+craft(fragment 4, paper 2) Q=0.23315190981182182, Count=50
+craft(credential, paper 2) Q=0.3460524771217778, Count=50
+move(Turn right) Q=0.011626872153815313, Count=49
+Action: click(sim card)
+Reward: Action executed successfully. You have just collected a sim card. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 31
+
+Step: 52
+click(phone) Q=0.6376282831589523, Count=51
+apply(fragment, phone) Q=0.42348455716059963, Count=50
+apply(scrip 2, phone) Q=0.3135145235085935, Count=49
+apply(fragment 2, phone) Q=0.47435952166332385, Count=50
+apply(scrip, phone) Q=0.45244874981552474, Count=50
+apply(fragment 3, phone) Q=0.5263400757654652, Count=50
+apply(fragment 4, phone) Q=0.3552281640291406, Count=49
+apply(credential, phone) Q=0.4840297930317272, Count=50
+apply(paper 2, phone) Q=0.477469336172441, Count=50
+apply(sim card, phone) Q=2.6443060149244886, Count=63
+craft(fragment, scrip 2) Q=0.5575672407218294, Count=50
+craft(fragment, fragment 2) Q=0.5220399142759804, Count=50
+craft(fragment, scrip) Q=0.4563721158160143, Count=50
+craft(fragment, fragment 3) Q=0.6060820484105308, Count=51
+craft(fragment, fragment 4) Q=0.3401815831343919, Count=49
+craft(fragment, credential) Q=0.31450961344833533, Count=49
+craft(fragment, paper 2) Q=0.34362016801716627, Count=49
+craft(fragment, sim card) Q=0.45163190173839474, Count=50
+craft(scrip 2, fragment 2) Q=0.36542269125509724, Count=49
+craft(scrip 2, scrip) Q=0.6740343240662862, Count=51
+craft(scrip 2, fragment 3) Q=0.6529775138954301, Count=51
+craft(scrip 2, fragment 4) Q=0.5806699769748662, Count=50
+craft(scrip 2, credential) Q=0.3621958767207907, Count=49
+craft(scrip 2, paper 2) Q=0.30762800421030856, Count=49
+craft(scrip 2, sim card) Q=0.27082987010413617, Count=49
+craft(fragment 2, scrip) Q=0.17762847472351662, Count=48
+craft(fragment 2, fragment 3) Q=0.32632094114931276, Count=49
+craft(fragment 2, fragment 4) Q=0.43236140614941154, Count=50
+craft(fragment 2, credential) Q=0.41326654268300533, Count=50
+craft(fragment 2, paper 2) Q=0.8256016796329724, Count=52
+craft(fragment 2, sim card) Q=0.28276313835989886, Count=49
+craft(scrip, fragment 3) Q=0.4831808343752873, Count=50
+craft(scrip, fragment 4) Q=0.5665157018133913, Count=50
+craft(scrip, credential) Q=0.47663471453188144, Count=50
+craft(scrip, paper 2) Q=0.2544685154572293, Count=49
+craft(scrip, sim card) Q=0.5081646215119051, Count=50
+craft(fragment 3, fragment 4) Q=0.22146556238831577, Count=49
+craft(fragment 3, credential) Q=0.3454102895414507, Count=49
+craft(fragment 3, paper 2) Q=0.640024010090804, Count=51
+craft(fragment 3, sim card) Q=0.4416157637549598, Count=50
+craft(fragment 4, credential) Q=0.6094087646580424, Count=51
+craft(fragment 4, paper 2) Q=0.39160146491076553, Count=50
+craft(fragment 4, sim card) Q=0.36873551492551687, Count=49
+craft(credential, paper 2) Q=0.254714502282369, Count=49
+craft(credential, sim card) Q=0.5128249551616753, Count=50
+craft(paper 2, sim card) Q=0.2538579576328103, Count=49
+move(Turn right) Q=0.0, Count=48
+Action: apply(sim card, phone)
+Reward: Action executed successfully. You have successfully applied sim card to phone. The sim card is inserted into the phone
+Accumulated_reward: 32
+
+Step: 53
+Action: input(47515, phone)
+Reward: Action executed successfully. You have given an input 47515 to phone. The phone is ringing
+Accumulated_reward: 33
+
+Step: 54
+click(safe) Q=0.8636891303671248, Count=50
+click(phone) Q=0.8389626478661231, Count=50
+apply(fragment, safe) Q=1.719127193354653, Count=55
+apply(fragment, phone) Q=0.6019289851014699, Count=49
+apply(scrip 2, safe) Q=0.6881660314272935, Count=49
+apply(scrip 2, phone) Q=0.7797076737909834, Count=50
+apply(fragment 2, safe) Q=1.7682476943537682, Count=55
+apply(fragment 2, phone) Q=0.65800725815375, Count=49
+apply(scrip, safe) Q=0.6414426609975123, Count=49
+apply(scrip, phone) Q=0.7700855569434528, Count=50
+apply(fragment 3, safe) Q=1.5850979023616953, Count=54
+apply(fragment 3, phone) Q=0.68947124030054, Count=49
+apply(fragment 4, safe) Q=1.717359951746885, Count=55
+apply(fragment 4, phone) Q=0.705509991612178, Count=49
+apply(credential, safe) Q=0.7687185264661741, Count=50
+apply(credential, phone) Q=0.7274152174464473, Count=50
+apply(paper 2, safe) Q=0.7883790971597411, Count=50
+apply(paper 2, phone) Q=0.7770655449300827, Count=50
+craft(fragment, scrip 2) Q=0.7257380946541496, Count=49
+craft(fragment, fragment 2) Q=0.7635710860327319, Count=50
+craft(fragment, scrip) Q=0.8253200452701619, Count=50
+craft(fragment, fragment 3) Q=0.8384257718807526, Count=50
+craft(fragment, fragment 4) Q=0.7738477330363696, Count=50
+craft(fragment, credential) Q=0.7893309103077734, Count=50
+craft(fragment, paper 2) Q=0.790448209483415, Count=50
+craft(scrip 2, fragment 2) Q=0.8552456181205114, Count=50
+craft(scrip 2, scrip) Q=0.6939574600030962, Count=49
+craft(scrip 2, fragment 3) Q=0.7181597282873514, Count=50
+craft(scrip 2, fragment 4) Q=0.7735882577086172, Count=50
+craft(scrip 2, credential) Q=0.8086438497917143, Count=50
+craft(scrip 2, paper 2) Q=0.7464839898024144, Count=50
+craft(fragment 2, scrip) Q=0.9509603909676976, Count=51
+craft(fragment 2, fragment 3) Q=0.680849582367525, Count=49
+craft(fragment 2, fragment 4) Q=0.6105566823073708, Count=49
+craft(fragment 2, credential) Q=0.6409623594629217, Count=49
+craft(fragment 2, paper 2) Q=0.6789963017693534, Count=49
+craft(scrip, fragment 3) Q=0.803712717011896, Count=50
+craft(scrip, fragment 4) Q=0.9244581459155771, Count=50
+craft(scrip, credential) Q=0.634281889196352, Count=49
+craft(scrip, paper 2) Q=0.7034856933013756, Count=49
+craft(fragment 3, fragment 4) Q=0.6461133726969783, Count=49
+craft(fragment 3, credential) Q=0.8967770668308435, Count=50
+craft(fragment 3, paper 2) Q=0.6933787094630739, Count=49
+craft(fragment 4, credential) Q=0.8228128157826264, Count=50
+craft(fragment 4, paper 2) Q=0.6286285824925749, Count=49
+craft(credential, paper 2) Q=0.744220007771672, Count=50
+move(Turn right) Q=0.09382365700643669, Count=47
+Action: apply(fragment 2, safe)
+Reward: Action executed successfully. You have successfully applied fragment 2 to safe.
+However, the apply of fragment 2 is not enough, and safe is still missing something else ...
+Accumulated_reward: 34
+
+Step: 55
+click(safe) Q=0.6446633022029216, Count=50
+click(phone) Q=0.6705517216263049, Count=50
+apply(fragment, safe) Q=1.605215851642415, Count=55
+apply(fragment, phone) Q=0.6821087250535228, Count=50
+apply(scrip 2, safe) Q=0.6398006418313802, Count=50
+apply(scrip 2, phone) Q=0.561164856103965, Count=49
+apply(scrip, safe) Q=0.7693574236673939, Count=50
+apply(scrip, phone) Q=0.8181387606193772, Count=50
+apply(fragment 3, safe) Q=1.3810489293910628, Count=53
+apply(fragment 3, phone) Q=0.7840480429713759, Count=50
+apply(fragment 4, safe) Q=1.5771087666171149, Count=55
+apply(fragment 4, phone) Q=0.6179093942967999, Count=49
+apply(credential, safe) Q=0.6721890537850385, Count=50
+apply(credential, phone) Q=0.7769582668252021, Count=50
+apply(paper 2, safe) Q=0.8071369253127575, Count=50
+apply(paper 2, phone) Q=0.7745809530014443, Count=50
+craft(fragment, scrip 2) Q=0.6919213022365499, Count=50
+craft(fragment, scrip) Q=0.4736717824949883, Count=49
+craft(fragment, fragment 3) Q=0.643758084356993, Count=50
+craft(fragment, fragment 4) Q=0.7254712665198014, Count=50
+craft(fragment, credential) Q=0.7301124218240125, Count=50
+craft(fragment, paper 2) Q=0.6113278265164681, Count=49
+craft(scrip 2, scrip) Q=0.7439400454677411, Count=50
+craft(scrip 2, fragment 3) Q=0.8242949399595038, Count=50
+craft(scrip 2, fragment 4) Q=0.8289958921799431, Count=50
+craft(scrip 2, credential) Q=0.6729826050171691, Count=50
+craft(scrip 2, paper 2) Q=0.7639932662639397, Count=50
+craft(scrip, fragment 3) Q=0.725960492987078, Count=50
+craft(scrip, fragment 4) Q=0.5687424970919539, Count=49
+craft(scrip, credential) Q=0.5421771401716736, Count=49
+craft(scrip, paper 2) Q=0.6249951474402861, Count=49
+craft(fragment 3, fragment 4) Q=0.6240927654561015, Count=49
+craft(fragment 3, credential) Q=0.7424701813345369, Count=50
+craft(fragment 3, paper 2) Q=0.5997903108002456, Count=49
+craft(fragment 4, credential) Q=0.7859939680411236, Count=50
+craft(fragment 4, paper 2) Q=0.776559110450563, Count=50
+craft(credential, paper 2) Q=0.6002423328362586, Count=49
+move(Turn right) Q=0.0984740972928991, Count=47
+Action: apply(fragment, safe)
+Reward: Action executed successfully. You have successfully applied fragment to safe.
+However, the apply of fragment is not enough, and safe is still missing something else ...
+Accumulated_reward: 35
+
+Step: 56
+click(safe) Q=0.5552756147493113, Count=50
+click(phone) Q=0.608842445062513, Count=50
+apply(scrip 2, safe) Q=0.5736376042132963, Count=50
+apply(scrip 2, phone) Q=0.6126997917275472, Count=50
+apply(scrip, safe) Q=0.40951480247831074, Count=49
+apply(scrip, phone) Q=0.5067214559274409, Count=49
+apply(fragment 3, safe) Q=1.3467299205818242, Count=54
+apply(fragment 3, phone) Q=0.5803227327328331, Count=50
+apply(fragment 4, safe) Q=1.3917649841891928, Count=54
+apply(fragment 4, phone) Q=0.6149919922067622, Count=50
+apply(credential, safe) Q=0.5423933510090413, Count=50
+apply(credential, phone) Q=0.44862147494530435, Count=49
+apply(paper 2, safe) Q=0.6429107324341685, Count=50
+apply(paper 2, phone) Q=0.6811941209287968, Count=50
+craft(scrip 2, scrip) Q=0.6049600579484609, Count=50
+craft(scrip 2, fragment 3) Q=0.658651642233894, Count=50
+craft(scrip 2, fragment 4) Q=0.46693442225946524, Count=49
+craft(scrip 2, credential) Q=0.6014980266465361, Count=50
+craft(scrip 2, paper 2) Q=0.5118824372907789, Count=49
+craft(scrip, fragment 3) Q=0.579522894410819, Count=50
+craft(scrip, fragment 4) Q=0.5350877552513468, Count=50
+craft(scrip, credential) Q=0.4977537717268898, Count=49
+craft(scrip, paper 2) Q=0.7888454832897039, Count=51
+craft(fragment 3, fragment 4) Q=0.642858313277941, Count=50
+craft(fragment 3, credential) Q=0.7123263315108967, Count=51
+craft(fragment 3, paper 2) Q=0.5658338619298059, Count=50
+craft(fragment 4, credential) Q=0.5256045351580524, Count=50
+craft(fragment 4, paper 2) Q=0.43232059423436076, Count=49
+craft(credential, paper 2) Q=0.5361822881876351, Count=50
+move(Turn right) Q=0.06006284969816137, Count=47
+Action: apply(fragment 4, safe)
+Reward: Action executed successfully. You have successfully applied fragment 4 to safe.
+However, the apply of fragment 4 is not enough, and safe is still missing something else ...
+Accumulated_reward: 36
+
+Step: 57
+click(safe) Q=0.43639172180655694, Count=50
+click(phone) Q=0.4319689116403055, Count=50
+apply(scrip 2, safe) Q=0.45852664976809104, Count=50
+apply(scrip 2, phone) Q=0.4915062765754933, Count=50
+apply(scrip, safe) Q=0.30932643609261595, Count=49
+apply(scrip, phone) Q=0.41015955891597083, Count=50
+apply(fragment 3, safe) Q=1.401051409930141, Count=56
+apply(fragment 3, phone) Q=0.34277659361434304, Count=50
+apply(credential, safe) Q=0.42022829643195087, Count=50
+apply(credential, phone) Q=0.38843357213973795, Count=50
+apply(paper 2, safe) Q=0.3407953494629937, Count=50
+apply(paper 2, phone) Q=0.34657810825841606, Count=50
+craft(scrip 2, scrip) Q=0.38161587579109063, Count=50
+craft(scrip 2, fragment 3) Q=0.3112390789259079, Count=49
+craft(scrip 2, credential) Q=0.4759184510223083, Count=50
+craft(scrip 2, paper 2) Q=0.31704055897448347, Count=49
+craft(scrip, fragment 3) Q=0.36915952495986243, Count=50
+craft(scrip, credential) Q=0.3844861235900349, Count=50
+craft(scrip, paper 2) Q=0.44997872768844865, Count=50
+craft(fragment 3, credential) Q=0.29236736415446457, Count=49
+craft(fragment 3, paper 2) Q=0.37292325223048967, Count=50
+craft(credential, paper 2) Q=0.4025937425573697, Count=50
+move(Turn right) Q=0.06510479093700405, Count=48
+Action: apply(fragment 3, safe)
+Reward: Action executed successfully. You have successfully applied fragment 3 to safe. The safe is opened, there is a gem inside
+Accumulated_reward: 37
+
+Step: 58
+click(phone) Q=0.387764017447348, Count=50
+click(gem) Q=0.9999999999999997, Count=54
+apply(scrip 2, phone) Q=0.38379086488879927, Count=50
+apply(scrip 2, gem) Q=0.39883687627178627, Count=50
+apply(scrip, phone) Q=0.34597188174299753, Count=50
+apply(scrip, gem) Q=0.3644528750133033, Count=50
+apply(credential, phone) Q=0.3687722641562311, Count=50
+apply(credential, gem) Q=0.27534874336549353, Count=49
+apply(paper 2, phone) Q=0.3531067647410805, Count=50
+apply(paper 2, gem) Q=0.3085786426552836, Count=50
+craft(scrip 2, scrip) Q=0.39001346758461153, Count=50
+craft(scrip 2, credential) Q=0.2784147125128826, Count=49
+craft(scrip 2, paper 2) Q=0.40271259524238573, Count=50
+craft(scrip, credential) Q=0.33134725219961586, Count=50
+craft(scrip, paper 2) Q=0.2836120223053369, Count=49
+craft(credential, paper 2) Q=0.334320102643855, Count=50
+move(Turn right) Q=0.14872090934783122, Count=49
+Action: click(gem)
+Reward: Action executed successfully. You have just collected a gem. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 38
+
+Step: 59
+click(phone) Q=0.0, Count=50
+apply(scrip 2, phone) Q=0.0, Count=50
+apply(scrip, phone) Q=0.0, Count=50
+apply(credential, phone) Q=0.011394592646027296, Count=50
+apply(paper 2, phone) Q=0.0, Count=50
+apply(gem, phone) Q=0.0, Count=50
+craft(scrip 2, scrip) Q=0.0, Count=50
+craft(scrip 2, credential) Q=0.0, Count=50
+craft(scrip 2, paper 2) Q=0.0, Count=50
+craft(scrip 2, gem) Q=0.0, Count=50
+craft(scrip, credential) Q=0.0, Count=50
+craft(scrip, paper 2) Q=0.0, Count=50
+craft(scrip, gem) Q=0.0, Count=50
+craft(credential, paper 2) Q=0.0, Count=50
+craft(credential, gem) Q=0.0, Count=50
+craft(paper 2, gem) Q=0.0, Count=50
+move(Turn right) Q=0.0, Count=50
+Action: apply(credential, phone)
+Reward: Nothing happens after you apply the tool.
+Accumulated_reward: 38
+
+Step: 60
+click(phone) Q=0.0, Count=50
+apply(scrip 2, phone) Q=0.0, Count=50
+apply(scrip, phone) Q=0.0, Count=50
+apply(credential, phone) Q=0.0, Count=50
+apply(paper 2, phone) Q=0.0, Count=50
+apply(gem, phone) Q=0.0, Count=50
+craft(scrip 2, scrip) Q=0.0, Count=50
+craft(scrip 2, credential) Q=0.0, Count=50
+craft(scrip 2, paper 2) Q=0.0, Count=50
+craft(scrip 2, gem) Q=0.0, Count=50
+craft(scrip, credential) Q=0.0, Count=50
+craft(scrip, paper 2) Q=0.0, Count=50
+craft(scrip, gem) Q=0.0, Count=50
+craft(credential, paper 2) Q=0.0, Count=50
+craft(credential, gem) Q=0.0, Count=50
+craft(paper 2, gem) Q=0.0, Count=50
+move(Turn right) Q=0.0, Count=50
+Action: apply(credential, phone)
+Reward: Nothing happens after you apply the tool.
+Accumulated_reward: 38
+
+Step: 61
+click(phone) Q=0.0, Count=50
+apply(scrip 2, phone) Q=0.01023071658804329, Count=50
+apply(scrip, phone) Q=0.0, Count=50
+apply(credential, phone) Q=0.0, Count=50
+apply(paper 2, phone) Q=0.0, Count=50
+apply(gem, phone) Q=0.011394592646027296, Count=50
+craft(scrip 2, scrip) Q=0.0, Count=50
+craft(scrip 2, credential) Q=0.0, Count=50
+craft(scrip 2, paper 2) Q=0.0, Count=50
+craft(scrip 2, gem) Q=0.0, Count=50
+craft(scrip, credential) Q=0.0, Count=50
+craft(scrip, paper 2) Q=0.0, Count=50
+craft(scrip, gem) Q=0.0, Count=50
+craft(credential, paper 2) Q=0.0, Count=50
+craft(credential, gem) Q=0.0, Count=50
+craft(paper 2, gem) Q=0.0, Count=50
+move(Turn right) Q=0.0, Count=50
+Action: apply(gem, phone)
+Reward: Nothing happens after you apply the tool.
+Accumulated_reward: 38
+
+Step: 62
+click(phone) Q=0.0, Count=50
+apply(scrip 2, phone) Q=0.0, Count=50
+apply(scrip, phone) Q=0.0, Count=50
+apply(credential, phone) Q=0.0, Count=50
+apply(paper 2, phone) Q=0.0, Count=50
+apply(gem, phone) Q=0.0, Count=50
+craft(scrip 2, scrip) Q=0.0, Count=50
+craft(scrip 2, credential) Q=0.0, Count=50
+craft(scrip 2, paper 2) Q=0.0, Count=50
+craft(scrip 2, gem) Q=0.0, Count=50
+craft(scrip, credential) Q=0.0, Count=50
+craft(scrip, paper 2) Q=0.0, Count=50
+craft(scrip, gem) Q=0.0, Count=50
+craft(credential, paper 2) Q=0.0, Count=50
+craft(credential, gem) Q=0.0, Count=50
+craft(paper 2, gem) Q=0.0, Count=50
+move(Turn right) Q=0.0, Count=50
+Action: craft(credential, gem)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 38
+
+Step: 63
+click(phone) Q=0.0, Count=50
+apply(scrip 2, phone) Q=0.0, Count=50
+apply(scrip, phone) Q=0.0, Count=50
+apply(credential, phone) Q=0.0, Count=50
+apply(paper 2, phone) Q=0.0, Count=50
+apply(gem, phone) Q=0.0, Count=50
+craft(scrip 2, scrip) Q=0.0, Count=50
+craft(scrip 2, credential) Q=0.0, Count=50
+craft(scrip 2, paper 2) Q=0.0, Count=50
+craft(scrip 2, gem) Q=0.0, Count=50
+craft(scrip, credential) Q=0.0, Count=50
+craft(scrip, paper 2) Q=0.0, Count=50
+craft(scrip, gem) Q=0.0, Count=50
+craft(credential, paper 2) Q=0.0, Count=50
+craft(credential, gem) Q=0.0, Count=50
+craft(paper 2, gem) Q=0.0, Count=50
+move(Turn right) Q=0.014955324501419788, Count=50
+Action: move(Turn right)
+Reward: Action executed successfully. Change to another scene: study room.
+Accumulated_reward: 38
+
+Step: 64
+craft(scrip 2, scrip) Q=0.0, Count=50
+craft(scrip 2, credential) Q=0.0, Count=50
+craft(scrip 2, paper 2) Q=0.012027746069952204, Count=50
+craft(scrip 2, gem) Q=0.0, Count=50
+craft(scrip, credential) Q=0.01764255650353473, Count=50
+craft(scrip, paper 2) Q=0.013407541439587067, Count=50
+craft(scrip, gem) Q=0.0, Count=50
+craft(credential, paper 2) Q=0.0, Count=50
+craft(credential, gem) Q=0.0, Count=50
+craft(paper 2, gem) Q=0.0, Count=50
+move(Turn left) Q=0.0, Count=50
+move(Turn right) Q=0.0, Count=50
+move(Go back) Q=0.0, Count=50
+Action: craft(scrip, credential)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 38
+
+Step: 65
+craft(scrip 2, scrip) Q=0.0, Count=50
+craft(scrip 2, credential) Q=0.012027746069952204, Count=50
+craft(scrip 2, paper 2) Q=0.0, Count=50
+craft(scrip 2, gem) Q=0.0, Count=50
+craft(scrip, credential) Q=0.0, Count=50
+craft(scrip, paper 2) Q=0.0, Count=50
+craft(scrip, gem) Q=0.014159093367747502, Count=50
+craft(credential, paper 2) Q=0.0, Count=50
+craft(credential, gem) Q=0.0, Count=50
+craft(paper 2, gem) Q=0.0, Count=50
+move(Turn left) Q=0.0, Count=50
+move(Turn right) Q=0.0, Count=50
+move(Go back) Q=0.011394592646027296, Count=50
+Action: craft(scrip, gem)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 38
+
+Step: 66
+craft(scrip 2, scrip) Q=0.0, Count=50
+craft(scrip 2, credential) Q=0.0, Count=50
+craft(scrip 2, paper 2) Q=0.01669377972066061, Count=50
+craft(scrip 2, gem) Q=0.014159093367747502, Count=50
+craft(scrip, credential) Q=0.0, Count=50
+craft(scrip, paper 2) Q=0.0, Count=50
+craft(scrip, gem) Q=0.0, Count=50
+craft(credential, paper 2) Q=0.0, Count=50
+craft(credential, gem) Q=0.010796270133114115, Count=50
+craft(paper 2, gem) Q=0.01023071658804329, Count=50
+move(Turn left) Q=0.0, Count=50
+move(Turn right) Q=0.0, Count=50
+move(Go back) Q=0.0, Count=50
+Action: craft(scrip 2, paper 2)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 38
+
+Step: 67
+craft(scrip 2, scrip) Q=0.012027746069952204, Count=50
+craft(scrip 2, credential) Q=0.0, Count=50
+craft(scrip 2, paper 2) Q=0.0, Count=50
+craft(scrip 2, gem) Q=0.0, Count=50
+craft(scrip, credential) Q=0.0, Count=50
+craft(scrip, paper 2) Q=0.0, Count=50
+craft(scrip, gem) Q=0.0, Count=50
+craft(credential, paper 2) Q=0.013407541439587067, Count=50
+craft(credential, gem) Q=0.0, Count=50
+craft(paper 2, gem) Q=0.01023071658804329, Count=50
+move(Turn left) Q=0.0, Count=50
+move(Turn right) Q=0.0, Count=50
+move(Go back) Q=0.01269793949283138, Count=50
+Action: craft(credential, paper 2)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 38
+
+Step: 68
+craft(scrip 2, scrip) Q=0.0, Count=50
+craft(scrip 2, credential) Q=0.024772491993949746, Count=50
+craft(scrip 2, paper 2) Q=0.0, Count=50
+craft(scrip 2, gem) Q=0.0, Count=50
+craft(scrip, credential) Q=0.0, Count=50
+craft(scrip, paper 2) Q=0.012027746069952204, Count=50
+craft(scrip, gem) Q=0.0, Count=50
+craft(credential, paper 2) Q=0.0, Count=50
+craft(credential, gem) Q=0.0, Count=50
+craft(paper 2, gem) Q=0.0, Count=50
+move(Turn left) Q=0.0, Count=50
+move(Turn right) Q=0.0, Count=50
+move(Go back) Q=0.0, Count=50
+Action: craft(scrip 2, credential)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 38
+
+Step: 69
+craft(scrip 2, scrip) Q=0.012027746069952204, Count=50
+craft(scrip 2, credential) Q=0.0, Count=50
+craft(scrip 2, paper 2) Q=0.0, Count=50
+craft(scrip 2, gem) Q=0.0, Count=50
+craft(scrip, credential) Q=0.0, Count=50
+craft(scrip, paper 2) Q=0.01023071658804329, Count=50
+craft(scrip, gem) Q=0.01023071658804329, Count=50
+craft(credential, paper 2) Q=0.011394592646027296, Count=50
+craft(credential, gem) Q=0.0, Count=50
+craft(paper 2, gem) Q=0.0, Count=50
+move(Turn left) Q=0.0, Count=50
+move(Turn right) Q=0.0, Count=50
+move(Go back) Q=0.012027746069952204, Count=50
+Action: move(Go back)
+Reward: Action executed successfully. Change to another scene: corridor.
+Accumulated_reward: 38
+
+Step: 70
+craft(scrip 2, scrip) Q=0.01669377972066061, Count=50
+craft(scrip 2, credential) Q=0.012027746069952204, Count=50
+craft(scrip 2, paper 2) Q=0.01023071658804329, Count=50
+craft(scrip 2, gem) Q=0.0, Count=50
+craft(scrip, credential) Q=0.0, Count=50
+craft(scrip, paper 2) Q=0.025720299689660678, Count=50
+craft(scrip, gem) Q=0.0, Count=50
+craft(credential, paper 2) Q=0.02477249199394975, Count=50
+craft(credential, gem) Q=0.03424727386163512, Count=50
+craft(paper 2, gem) Q=0.0, Count=50
+move(Turn left) Q=0.01023071658804329, Count=50
+move(Go straight) Q=0.010796270133114115, Count=50
+move(Go back) Q=0.03705804889723241, Count=50
+move(Go to bathroom) Q=0.0, Count=50
+Action: move(Go back)
+Reward: Action executed successfully. Change to another scene: apartment hallway.
+Accumulated_reward: 38
+
+Step: 71
+craft(scrip 2, scrip) Q=0.11423311610137798, Count=50
+craft(scrip 2, credential) Q=0.09786083097713302, Count=50
+craft(scrip 2, paper 2) Q=0.015799168155428967, Count=50
+craft(scrip 2, gem) Q=0.06609917251454542, Count=50
+craft(scrip, credential) Q=0.07453857309609496, Count=50
+craft(scrip, paper 2) Q=0.03435833116249252, Count=50
+craft(scrip, gem) Q=0.12857277407583234, Count=50
+craft(credential, paper 2) Q=0.04761425279870826, Count=50
+craft(credential, gem) Q=0.11951083989429168, Count=50
+craft(paper 2, gem) Q=0.10936833820212052, Count=50
+move(Turn left) Q=0.36407122485613735, Count=52
+move(Turn right) Q=0.0, Count=49
+move(Go straight) Q=0.01023071658804329, Count=50
+move(Go to bathroom) Q=0.0, Count=49
+Action: move(Turn left)
+Reward: Action executed successfully. Change to another scene: cloakroom.
+Accumulated_reward: 38
+
+Step: 72
+click(Cthulhu ornament) Q=0.36054228802838356, Count=50
+apply(scrip 2, Cthulhu ornament) Q=0.3955085993513783, Count=50
+apply(scrip, Cthulhu ornament) Q=0.3359548932731755, Count=50
+apply(credential, Cthulhu ornament) Q=0.37412029720886897, Count=50
+apply(paper 2, Cthulhu ornament) Q=0.32484101820042754, Count=50
+apply(gem, Cthulhu ornament) Q=0.9999999999999998, Count=53
+craft(scrip 2, scrip) Q=0.34499371063444756, Count=50
+craft(scrip 2, credential) Q=0.3130135255462854, Count=50
+craft(scrip 2, paper 2) Q=0.3948394396303124, Count=50
+craft(scrip 2, gem) Q=0.3317521817587095, Count=50
+craft(scrip, credential) Q=0.305395250649486, Count=50
+craft(scrip, paper 2) Q=0.39195906102029116, Count=50
+craft(scrip, gem) Q=0.3083932838297473, Count=49
+craft(credential, paper 2) Q=0.35375227754854394, Count=50
+craft(credential, gem) Q=0.38776331239171824, Count=50
+craft(paper 2, gem) Q=0.33859427951533294, Count=50
+move(Turn right) Q=0.1048355947787495, Count=48
+Action: apply(gem, Cthulhu ornament)
+Reward: Action executed successfully. You have successfully applied gem to Cthulhu ornament. The gem is put on the cthulhu ornament
+Accumulated_reward: 39
+
+Step: 73
+craft(scrip 2, scrip) Q=0.0, Count=50
+craft(scrip 2, credential) Q=0.0, Count=50
+craft(scrip 2, paper 2) Q=0.0, Count=50
+craft(scrip, credential) Q=0.0, Count=50
+craft(scrip, paper 2) Q=0.0, Count=50
+craft(credential, paper 2) Q=0.0, Count=50
+move(Turn right) Q=0.0, Count=50
+Action: craft(credential, paper 2)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 39
+
+Step: 74
+craft(scrip 2, scrip) Q=0.0, Count=50
+craft(scrip 2, credential) Q=0.0, Count=50
+craft(scrip 2, paper 2) Q=0.0, Count=50
+craft(scrip, credential) Q=0.0, Count=50
+craft(scrip, paper 2) Q=0.0, Count=50
+craft(credential, paper 2) Q=0.0, Count=50
+move(Turn right) Q=0.0, Count=50
+Action: craft(scrip, credential)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 39
+
+Step: 75
+craft(scrip 2, scrip) Q=0.0, Count=50
+craft(scrip 2, credential) Q=0.0, Count=50
+craft(scrip 2, paper 2) Q=0.0, Count=50
+craft(scrip, credential) Q=0.0, Count=50
+craft(scrip, paper 2) Q=0.0, Count=50
+craft(credential, paper 2) Q=0.0, Count=50
+move(Turn right) Q=0.0, Count=50
+Action: craft(scrip 2, paper 2)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 39
+
+Step: 76
+craft(scrip 2, scrip) Q=0.0, Count=50
+craft(scrip 2, credential) Q=0.0, Count=50
+craft(scrip 2, paper 2) Q=0.0, Count=50
+craft(scrip, credential) Q=0.0, Count=50
+craft(scrip, paper 2) Q=0.0, Count=50
+craft(credential, paper 2) Q=0.0, Count=50
+move(Turn right) Q=0.0, Count=50
+Action: craft(scrip 2, paper 2)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 39
+
+Step: 77
+craft(scrip 2, scrip) Q=0.0, Count=50
+craft(scrip 2, credential) Q=0.0, Count=50
+craft(scrip 2, paper 2) Q=0.0, Count=50
+craft(scrip, credential) Q=0.0, Count=50
+craft(scrip, paper 2) Q=0.0, Count=50
+craft(credential, paper 2) Q=0.0, Count=50
+move(Turn right) Q=0.0, Count=50
+Action: craft(scrip, credential)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 39
+
+Step: 78
+craft(scrip 2, scrip) Q=0.0, Count=50
+craft(scrip 2, credential) Q=0.0, Count=50
+craft(scrip 2, paper 2) Q=0.0, Count=50
+craft(scrip, credential) Q=0.0, Count=50
+craft(scrip, paper 2) Q=0.0, Count=50
+craft(credential, paper 2) Q=0.0, Count=50
+move(Turn right) Q=0.0, Count=50
+Action: craft(credential, paper 2)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 39
+
+Step: 79
+craft(scrip 2, scrip) Q=0.0, Count=50
+craft(scrip 2, credential) Q=0.0, Count=50
+craft(scrip 2, paper 2) Q=0.0, Count=50
+craft(scrip, credential) Q=0.0, Count=50
+craft(scrip, paper 2) Q=0.0, Count=50
+craft(credential, paper 2) Q=0.0, Count=50
+move(Turn right) Q=0.0, Count=50
+Action: craft(scrip 2, scrip)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 39
+
+Step: 80
+craft(scrip 2, scrip) Q=0.0, Count=50
+craft(scrip 2, credential) Q=0.0, Count=50
+craft(scrip 2, paper 2) Q=0.0, Count=50
+craft(scrip, credential) Q=0.0, Count=50
+craft(scrip, paper 2) Q=0.0, Count=50
+craft(credential, paper 2) Q=0.0, Count=50
+move(Turn right) Q=0.0, Count=50
+Action: craft(scrip, credential)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 39
+
+Step: 81
+craft(scrip 2, scrip) Q=0.0, Count=50
+craft(scrip 2, credential) Q=0.0, Count=50
+craft(scrip 2, paper 2) Q=0.0, Count=50
+craft(scrip, credential) Q=0.0, Count=50
+craft(scrip, paper 2) Q=0.0, Count=50
+craft(credential, paper 2) Q=0.02208165277633633, Count=50
+move(Turn right) Q=0.0, Count=50
+Action: craft(credential, paper 2)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 39
+
+Step: 82
+craft(scrip 2, scrip) Q=0.0, Count=50
+craft(scrip 2, credential) Q=0.0, Count=50
+craft(scrip 2, paper 2) Q=0.0, Count=50
+craft(scrip, credential) Q=0.0, Count=50
+craft(scrip, paper 2) Q=0.0, Count=50
+craft(credential, paper 2) Q=0.0, Count=50
+move(Turn right) Q=0.0, Count=50
+Action: craft(scrip, paper 2)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 39
+
+Step: 83
+craft(scrip 2, scrip) Q=0.0, Count=50
+craft(scrip 2, credential) Q=0.0, Count=50
+craft(scrip 2, paper 2) Q=0.0, Count=50
+craft(scrip, credential) Q=0.0, Count=50
+craft(scrip, paper 2) Q=0.0, Count=50
+craft(credential, paper 2) Q=0.0, Count=50
+move(Turn right) Q=0.0, Count=50
+Action: craft(scrip 2, credential)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 39
+
+Step: 84
+craft(scrip 2, scrip) Q=0.0, Count=50
+craft(scrip 2, credential) Q=0.0, Count=50
+craft(scrip 2, paper 2) Q=0.0, Count=50
+craft(scrip, credential) Q=0.0, Count=50
+craft(scrip, paper 2) Q=0.0, Count=50
+craft(credential, paper 2) Q=0.0, Count=50
+move(Turn right) Q=0.0, Count=50
+Action: move(Turn right)
+Reward: Action executed successfully. Change to another scene: apartment hallway.
+Accumulated_reward: 39
+
+Step: 85
+craft(scrip 2, scrip) Q=0.0, Count=50
+craft(scrip 2, credential) Q=0.0, Count=50
+craft(scrip 2, paper 2) Q=0.0, Count=50
+craft(scrip, credential) Q=0.0, Count=50
+craft(scrip, paper 2) Q=0.0, Count=50
+craft(credential, paper 2) Q=0.0, Count=50
+move(Turn left) Q=0.0, Count=50
+move(Turn right) Q=0.0, Count=50
+move(Go straight) Q=0.0, Count=50
+move(Go to bathroom) Q=0.023363906136402702, Count=50
+Action: move(Go to bathroom)
+Reward: Action executed successfully. Change to another scene: bathroom.
+Accumulated_reward: 39
+
+Step: 86
+craft(scrip 2, scrip) Q=0.023363906136402702, Count=50
+craft(scrip 2, credential) Q=0.0, Count=50
+craft(scrip 2, paper 2) Q=0.0, Count=50
+craft(scrip, credential) Q=0.027721510102590798, Count=50
+craft(scrip, paper 2) Q=0.0, Count=50
+craft(credential, paper 2) Q=0.0, Count=50
+move(Go back) Q=0.023363906136402702, Count=50
+Action: craft(scrip, credential)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 39
+
+Step: 87
+craft(scrip 2, scrip) Q=0.0, Count=50
+craft(scrip 2, credential) Q=0.024727306321274244, Count=50
+craft(scrip 2, paper 2) Q=0.0, Count=50
+craft(scrip, credential) Q=0.0, Count=50
+craft(scrip, paper 2) Q=0.0, Count=50
+craft(credential, paper 2) Q=0.0, Count=50
+move(Go back) Q=0.04663480157268179, Count=50
+Action: move(Go back)
+Reward: Action executed successfully. Change to another scene: corridor.
+Accumulated_reward: 39
+
+Step: 88
+craft(scrip 2, scrip) Q=0.024727306321274244, Count=50
+craft(scrip 2, credential) Q=0.0, Count=50
+craft(scrip 2, paper 2) Q=0.0, Count=50
+craft(scrip, credential) Q=0.0, Count=50
+craft(scrip, paper 2) Q=0.04815005782948982, Count=50
+craft(credential, paper 2) Q=0.0, Count=50
+move(Turn left) Q=0.0, Count=50
+move(Go straight) Q=0.03803227592722683, Count=50
+move(Go back) Q=0.0, Count=50
+move(Go to bathroom) Q=0.0, Count=50
+Action: craft(scrip, paper 2)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 39
+
+Step: 89
+craft(scrip 2, scrip) Q=0.0, Count=50
+craft(scrip 2, credential) Q=0.0, Count=50
+craft(scrip 2, paper 2) Q=0.0, Count=50
+craft(scrip, credential) Q=0.0, Count=50
+craft(scrip, paper 2) Q=0.024727306321274244, Count=50
+craft(credential, paper 2) Q=0.0, Count=50
+move(Turn left) Q=0.0, Count=50
+move(Go straight) Q=0.0823665525138817, Count=50
+move(Go back) Q=0.0, Count=50
+move(Go to bathroom) Q=0.0, Count=50
+Action: move(Go straight)
+Reward: Action executed successfully. Change to another scene: study room.
+Accumulated_reward: 39
+
+Step: 90
+craft(scrip 2, scrip) Q=0.09058888352955133, Count=50
+craft(scrip 2, credential) Q=0.055298769304389185, Count=50
+craft(scrip 2, paper 2) Q=0.0, Count=50
+craft(scrip, credential) Q=0.10460978866896342, Count=50
+craft(scrip, paper 2) Q=0.0, Count=50
+craft(credential, paper 2) Q=0.024727306321274244, Count=50
+move(Turn left) Q=0.11829573743985568, Count=50
+move(Turn right) Q=0.01023071658804329, Count=50
+move(Go back) Q=0.0, Count=50
+Action: move(Turn left)
+Reward: Action executed successfully. Change to another scene: utility room.
+Accumulated_reward: 39
+
+Step: 91
+click(phone) Q=0.1152891625712974, Count=49
+apply(scrip 2, phone) Q=0.23695150341411456, Count=50
+apply(scrip, phone) Q=0.17141363629175393, Count=50
+apply(credential, phone) Q=0.22108517116247478, Count=50
+apply(paper 2, phone) Q=0.3069306821053307, Count=50
+craft(scrip 2, scrip) Q=0.13290120813156975, Count=50
+craft(scrip 2, credential) Q=0.21894355207207064, Count=50
+craft(scrip 2, paper 2) Q=0.035619482601443916, Count=49
+craft(scrip, credential) Q=0.24692981899898675, Count=50
+craft(scrip, paper 2) Q=0.18511944215952314, Count=50
+craft(credential, paper 2) Q=0.28963296436316777, Count=50
+move(Turn right) Q=0.02671061097613067, Count=49
+move(Go to the sanctum) Q=0.6745614254539295, Count=53
+Action: move(Go to the sanctum)
+Reward: Action executed successfully. Change to another scene: sanctum.
+Accumulated_reward: 39
+
+Step: 92
+click(locked box 2) Q=0.49007485608269863, Count=49
+click(tellurion) Q=0.6038649666801668, Count=50
+click(pipe) Q=0.6248127813198249, Count=50
+click(paper) Q=2.1969736370305286, Count=59
+apply(scrip 2, locked box 2) Q=0.6876697563175848, Count=50
+apply(scrip 2, tellurion) Q=0.6067758861879464, Count=50
+apply(scrip 2, pipe) Q=0.5489228719010044, Count=50
+apply(scrip 2, paper) Q=0.6816537478933435, Count=50
+apply(scrip, locked box 2) Q=0.6029054005871616, Count=50
+apply(scrip, tellurion) Q=0.43921724860840505, Count=49
+apply(scrip, pipe) Q=0.5977670634989497, Count=50
+apply(scrip, paper) Q=0.654006243707882, Count=50
+apply(credential, locked box 2) Q=0.8650783191784168, Count=51
+apply(credential, tellurion) Q=0.6155878842883524, Count=50
+apply(credential, pipe) Q=0.5465252095511102, Count=49
+apply(credential, paper) Q=0.36399128925370194, Count=49
+apply(paper 2, locked box 2) Q=0.5525619319314321, Count=49
+apply(paper 2, tellurion) Q=0.8147154623158054, Count=51
+apply(paper 2, pipe) Q=0.6218769980059957, Count=50
+apply(paper 2, paper) Q=0.5593180126490644, Count=50
+craft(scrip 2, scrip) Q=0.5238684687603783, Count=49
+craft(scrip 2, credential) Q=0.46577832071072767, Count=49
+craft(scrip 2, paper 2) Q=0.6479134447757035, Count=50
+craft(scrip, credential) Q=0.6609505600326262, Count=50
+craft(scrip, paper 2) Q=0.5279102197521848, Count=49
+craft(credential, paper 2) Q=0.526289790195848, Count=49
+move(Go back) Q=0.1508717806347688, Count=48
+Action: click(paper)
+Reward: Action executed successfully. You have just collected a paper. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 40
+
+Step: 93
+Action: input(870472, locked box 2)
+Reward: Action executed successfully. You have given an input 870472 to locked box 2. The locked box is opened, there is a round key inside
+Accumulated_reward: 41
+
+Step: 94
+click(tellurion) Q=0.2987722589418397, Count=50
+click(pipe) Q=0.2693501157478704, Count=50
+click(round key) Q=1.2325402533294443, Count=55
+apply(scrip 2, tellurion) Q=0.3730628786369713, Count=50
+apply(scrip 2, pipe) Q=0.29221224952772173, Count=50
+apply(scrip 2, round key) Q=0.3019351862135543, Count=50
+apply(scrip, tellurion) Q=0.2873193485295392, Count=50
+apply(scrip, pipe) Q=0.21871985653720533, Count=49
+apply(scrip, round key) Q=0.34148266802224336, Count=50
+apply(credential, tellurion) Q=0.41421795570393904, Count=50
+apply(credential, pipe) Q=0.2888717758657893, Count=50
+apply(credential, round key) Q=0.3583316255136251, Count=50
+apply(paper 2, tellurion) Q=0.2869508883784073, Count=50
+apply(paper 2, pipe) Q=0.38802237467427186, Count=50
+apply(paper 2, round key) Q=0.32080995299442594, Count=50
+apply(paper, tellurion) Q=0.3304452658681546, Count=50
+apply(paper, pipe) Q=0.36942850300202845, Count=50
+apply(paper, round key) Q=0.34232434274721923, Count=50
+craft(scrip 2, scrip) Q=0.2949708823636508, Count=50
+craft(scrip 2, credential) Q=0.3015712459946247, Count=50
+craft(scrip 2, paper 2) Q=0.31141513376579966, Count=50
+craft(scrip 2, paper) Q=0.26256788553523924, Count=49
+craft(scrip, credential) Q=0.34938373040406956, Count=50
+craft(scrip, paper 2) Q=0.35555424453118767, Count=50
+craft(scrip, paper) Q=0.3080859082201271, Count=50
+craft(credential, paper 2) Q=0.4219807187954585, Count=50
+craft(credential, paper) Q=0.3693089887888417, Count=50
+craft(paper 2, paper) Q=0.23678993764720932, Count=49
+move(Go back) Q=0.05299654984181168, Count=48
+Action: click(round key)
+Reward: Action executed successfully. You have just collected a round key. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 42
+
+Step: 95
+click(tellurion) Q=0.40356501611842716, Count=50
+click(pipe) Q=0.367880207231119, Count=50
+apply(scrip 2, tellurion) Q=0.21986103796116085, Count=49
+apply(scrip 2, pipe) Q=0.34216948284808635, Count=50
+apply(scrip, tellurion) Q=0.2901615193526563, Count=50
+apply(scrip, pipe) Q=0.3284564088457775, Count=50
+apply(credential, tellurion) Q=0.31142464392505576, Count=50
+apply(credential, pipe) Q=0.31903403720379503, Count=50
+apply(paper 2, tellurion) Q=0.2584303984396368, Count=49
+apply(paper 2, pipe) Q=0.3343566536771946, Count=50
+apply(paper, tellurion) Q=0.4004220993787661, Count=50
+apply(paper, pipe) Q=0.3221184555236244, Count=50
+apply(round key, tellurion) Q=1.3638398127314317, Count=56
+apply(round key, pipe) Q=0.2587555361659576, Count=50
+craft(scrip 2, scrip) Q=0.4173687384616638, Count=50
+craft(scrip 2, credential) Q=0.3099640698576891, Count=50
+craft(scrip 2, paper 2) Q=0.2612754013847966, Count=49
+craft(scrip 2, paper) Q=0.33207720943262287, Count=50
+craft(scrip 2, round key) Q=0.4061048716069234, Count=50
+craft(scrip, credential) Q=0.34222018540944554, Count=50
+craft(scrip, paper 2) Q=0.42629469934782027, Count=50
+craft(scrip, paper) Q=0.3743333573938024, Count=50
+craft(scrip, round key) Q=0.21428354007278622, Count=49
+craft(credential, paper 2) Q=0.3582480079495624, Count=50
+craft(credential, paper) Q=0.3412328593480613, Count=50
+craft(credential, round key) Q=0.2982050767922166, Count=50
+craft(paper 2, paper) Q=0.25680399278687804, Count=50
+craft(paper 2, round key) Q=0.27538077843053393, Count=50
+craft(paper, round key) Q=0.2843305209237921, Count=50
+move(Go back) Q=0.060969698863253506, Count=48
+Action: apply(round key, tellurion)
+Reward: Action executed successfully. You have successfully applied round key to tellurion. The tellurion is turned, there is a tap inside
+Accumulated_reward: 43
+
+Step: 96
+click(pipe) Q=0.3009573157920899, Count=49
+click(tap) Q=1.2934201865830102, Count=55
+apply(scrip 2, pipe) Q=0.3377672581517425, Count=50
+apply(scrip 2, tap) Q=0.4859346874583379, Count=50
+apply(scrip, pipe) Q=0.3768091627090046, Count=50
+apply(scrip, tap) Q=0.48194064291512767, Count=50
+apply(credential, pipe) Q=0.38847321601947105, Count=50
+apply(credential, tap) Q=0.44104349891049716, Count=50
+apply(paper 2, pipe) Q=0.4380775611741927, Count=50
+apply(paper 2, tap) Q=0.4690906724377343, Count=50
+apply(paper, pipe) Q=0.4577311824092088, Count=50
+apply(paper, tap) Q=0.3579725256918258, Count=50
+craft(scrip 2, scrip) Q=0.48281243601310475, Count=50
+craft(scrip 2, credential) Q=0.3340968377637732, Count=50
+craft(scrip 2, paper 2) Q=0.35475908843164394, Count=50
+craft(scrip 2, paper) Q=0.31628997317549057, Count=50
+craft(scrip, credential) Q=0.3756143435362888, Count=50
+craft(scrip, paper 2) Q=0.2783715467806745, Count=49
+craft(scrip, paper) Q=0.31555616859471763, Count=49
+craft(credential, paper 2) Q=0.3632887024284886, Count=50
+craft(credential, paper) Q=0.3820966114524947, Count=50
+craft(paper 2, paper) Q=0.4132673296008105, Count=50
+move(Go back) Q=0.046104369478374985, Count=48
+Action: click(tap)
+Reward: Action executed successfully. You have just collected a tap. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 44
+
+Step: 97
+click(pipe) Q=0.26497166203700456, Count=50
+apply(scrip 2, pipe) Q=0.32985863152067885, Count=50
+apply(scrip, pipe) Q=0.34284455868690905, Count=50
+apply(credential, pipe) Q=0.15960947168254094, Count=49
+apply(paper 2, pipe) Q=0.31830189185732993, Count=50
+apply(paper, pipe) Q=0.2572287340185684, Count=50
+apply(tap, pipe) Q=0.9999999999999997, Count=54
+craft(scrip 2, scrip) Q=0.3115661745116829, Count=50
+craft(scrip 2, credential) Q=0.26339381207178875, Count=50
+craft(scrip 2, paper 2) Q=0.3270668031728362, Count=50
+craft(scrip 2, paper) Q=0.30225899603264944, Count=50
+craft(scrip 2, tap) Q=0.42141131354414896, Count=50
+craft(scrip, credential) Q=0.34984679160044657, Count=50
+craft(scrip, paper 2) Q=0.3168574251953664, Count=50
+craft(scrip, paper) Q=0.3521071209544073, Count=50
+craft(scrip, tap) Q=0.3415696771241124, Count=50
+craft(credential, paper 2) Q=0.2984070654167895, Count=50
+craft(credential, paper) Q=0.34796836502518796, Count=50
+craft(credential, tap) Q=0.24376770970800513, Count=50
+craft(paper 2, paper) Q=0.2854556237845704, Count=50
+craft(paper 2, tap) Q=0.23079906319532792, Count=49
+craft(paper, tap) Q=0.24231341250646632, Count=49
+move(Go back) Q=0.0648339330866057, Count=49
+Action: apply(tap, pipe)
+Reward: Action executed successfully. You have successfully applied tap to pipe. The pipe is tapped. the exit door is opened. game end!
+Accumulated_reward: 45

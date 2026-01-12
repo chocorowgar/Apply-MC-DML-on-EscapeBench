@@ -1,0 +1,1752 @@
+Step: 1
+click(wild cactus) Q=1.100524874808492, Count=49
+click(wood stick) Q=1.6754472930248445, Count=52
+move(Go to back of the van) Q=0.9170005461292818, Count=48
+move(Go to trunk of the van) Q=1.8953638927320133, Count=54
+move(Go to door of the van) Q=0.9073786948315953, Count=47
+Action: move(Go to trunk of the van)
+Reward: Action executed successfully. Change to another scene: trunk of the van.
+Accumulated_reward: 0
+
+Step: 2
+click(trunk door) Q=2.407493857868193, Count=54
+move(Back to the van in dessert) Q=1.2633063478399689, Count=46
+Action: click(trunk door)
+Reward: Action executed successfully. You have clicked on trunk door. The trunk door is opened
+Accumulated_reward: 1
+
+Step: 3
+click(rag) Q=1.7856651312733607, Count=52
+click(wire cutter) Q=1.7832376879257001, Count=52
+move(Back to the van in dessert) Q=1.055924740102657, Count=48
+move(Explore a repair toolkit in the trunk) Q=1.2304298690619506, Count=48
+Action: click(rag)
+Reward: Action executed successfully. You have just collected a rag. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 2
+
+Step: 4
+click(wire cutter) Q=1.2814891714462642, Count=53
+apply(rag, wire cutter) Q=0.8195884086355195, Count=50
+move(Back to the van in dessert) Q=0.5404518031244692, Count=48
+move(Explore a repair toolkit in the trunk) Q=0.7245786632557699, Count=49
+Action: click(wire cutter)
+Reward: Action executed successfully. You have just collected a wire cutter. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 3
+
+Step: 5
+craft(rag, wire cutter) Q=0.3298158884427929, Count=50
+move(Back to the van in dessert) Q=0.5818852288484737, Count=51
+move(Explore a repair toolkit in the trunk) Q=0.1203356453881934, Count=49
+Action: move(Back to the van in dessert)
+Reward: Action executed successfully. Change to another scene: van in dessert.
+Accumulated_reward: 3
+
+Step: 6
+click(wild cactus) Q=0.6047790699228136, Count=50
+click(wood stick) Q=1.1483975996116447, Count=53
+apply(rag, wild cactus) Q=0.40474554266106555, Count=49
+apply(rag, wood stick) Q=0.5666737697680414, Count=50
+apply(wire cutter, wild cactus) Q=0.5170478327465382, Count=50
+apply(wire cutter, wood stick) Q=0.4812001639667554, Count=49
+craft(rag, wire cutter) Q=0.5921027715715499, Count=50
+move(Go to back of the van) Q=1.081325427091439, Count=53
+move(Go to trunk of the van) Q=0.2938070782362312, Count=48
+move(Go to door of the van) Q=0.2604449494807908, Count=48
+Action: click(wood stick)
+Reward: Action executed successfully. You have just collected a wood stick. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 4
+
+Step: 7
+click(wild cactus) Q=0.09238480498912112, Count=50
+apply(rag, wild cactus) Q=0.0945530303936016, Count=50
+apply(wire cutter, wild cactus) Q=0.08084428384317624, Count=50
+apply(wood stick, wild cactus) Q=0.1707933627498173, Count=50
+craft(rag, wire cutter) Q=0.1341731529588411, Count=50
+craft(rag, wood stick) Q=0.10878945380057475, Count=50
+craft(wire cutter, wood stick) Q=0.07012141944537603, Count=50
+move(Go to back of the van) Q=0.4039192277214826, Count=52
+move(Go to trunk of the van) Q=0.022687279828410817, Count=49
+move(Go to door of the van) Q=0.03642843715917314, Count=49
+Action: move(Go to back of the van)
+Reward: Action executed successfully. Change to another scene: back of the van.
+Accumulated_reward: 4
+
+Step: 8
+craft(rag, wire cutter) Q=0.34522413842426647, Count=49
+craft(rag, wood stick) Q=0.39241968781727854, Count=50
+craft(wire cutter, wood stick) Q=0.33038291234829603, Count=49
+move(Back to the van in dessert) Q=0.1805580097577555, Count=48
+move(Explore the underneath part of the van) Q=1.1225598007621034, Count=54
+Action: move(Explore the underneath part of the van)
+Reward: Action executed successfully. Change to another scene: underneath part of the van.
+Accumulated_reward: 4
+
+Step: 9
+click(license plate space) Q=1.1413897398994142, Count=50
+click(iron wire) Q=1.2010070654301046, Count=51
+click(bunch of keys) Q=1.4250968650450442, Count=52
+apply(rag, license plate space) Q=0.9115231598644633, Count=49
+apply(rag, iron wire) Q=1.0405965392378542, Count=50
+apply(rag, bunch of keys) Q=0.7829340906407978, Count=48
+apply(wire cutter, license plate space) Q=1.0058274117067492, Count=50
+apply(wire cutter, iron wire) Q=1.907243359054176, Count=55
+apply(wire cutter, bunch of keys) Q=0.9817817272128266, Count=49
+apply(wood stick, license plate space) Q=1.096201371598866, Count=50
+apply(wood stick, iron wire) Q=0.9443353273105065, Count=49
+apply(wood stick, bunch of keys) Q=1.132223795866271, Count=50
+craft(rag, wire cutter) Q=1.0153804591147877, Count=50
+craft(rag, wood stick) Q=1.0743048255683871, Count=50
+craft(wire cutter, wood stick) Q=1.009166800446965, Count=50
+move(Back to the back of the van) Q=0.44397767170031227, Count=47
+Action: apply(wire cutter, iron wire)
+Reward: Action executed successfully. You have successfully applied wire cutter to iron wire. The iron wire is untied, now the stepladder is free
+Accumulated_reward: 5
+
+Step: 10
+click(license plate space) Q=1.0455374795205845, Count=50
+click(stepladder) Q=1.6171372616478064, Count=53
+click(bunch of keys) Q=1.4865539933742378, Count=52
+apply(rag, license plate space) Q=0.9940043897448994, Count=50
+apply(rag, stepladder) Q=0.9453081530794245, Count=50
+apply(rag, bunch of keys) Q=1.0121628823932158, Count=50
+apply(wood stick, license plate space) Q=0.9817945234508332, Count=50
+apply(wood stick, stepladder) Q=0.951126043958963, Count=49
+apply(wood stick, bunch of keys) Q=0.995030850009829, Count=50
+craft(rag, wood stick) Q=0.8995298363363302, Count=49
+move(Back to the back of the van) Q=0.5096901331103079, Count=47
+Action: click(stepladder)
+Reward: Action executed successfully. You have clicked on stepladder. The stepladder is unfolded, now you can reach the top of the van
+Accumulated_reward: 6
+
+Step: 11
+click(license plate space) Q=0.60374992964428, Count=50
+click(bunch of keys) Q=1.0805571276540245, Count=53
+apply(rag, license plate space) Q=0.536235602602635, Count=49
+apply(rag, bunch of keys) Q=0.6463707311799743, Count=50
+apply(wood stick, license plate space) Q=0.6387759949418168, Count=50
+apply(wood stick, bunch of keys) Q=0.5854139516135696, Count=50
+craft(rag, wood stick) Q=0.6882818189209093, Count=50
+move(Back to the back of the van) Q=0.382011954134534, Count=48
+Action: click(bunch of keys)
+Reward: Action executed successfully. You have just collected a bunch of keys. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 7
+
+Step: 12
+click(license plate space) Q=0.11940487228389615, Count=50
+apply(rag, license plate space) Q=0.022531332551717815, Count=49
+apply(wood stick, license plate space) Q=0.07678230633951746, Count=50
+apply(bunch of keys, license plate space) Q=0.15361300488428503, Count=50
+craft(rag, wood stick) Q=0.0936864230265275, Count=50
+craft(rag, bunch of keys) Q=0.10513130360502249, Count=50
+craft(wood stick, bunch of keys) Q=0.09102184804481327, Count=50
+move(Back to the back of the van) Q=0.27819604615433435, Count=51
+Action: move(Back to the back of the van)
+Reward: Action executed successfully. Change to another scene: back of the van.
+Accumulated_reward: 7
+
+Step: 13
+craft(rag, wood stick) Q=0.18413944968916018, Count=50
+craft(rag, bunch of keys) Q=0.1656416185013862, Count=49
+craft(wood stick, bunch of keys) Q=0.22765166609457738, Count=50
+move(Back to the van in dessert) Q=0.03049828037858594, Count=49
+move(Go to the top of the van) Q=0.702542370105414, Count=53
+move(Explore the underneath part of the van) Q=0.07959429913233845, Count=49
+Action: move(Go to the top of the van)
+Reward: Action executed successfully. Change to another scene: top of the van.
+Accumulated_reward: 7
+
+Step: 14
+click(spotlight) Q=0.6031101975318447, Count=50
+click(skylight) Q=0.666710109843059, Count=50
+apply(rag, spotlight) Q=0.5768788208053125, Count=49
+apply(rag, skylight) Q=0.6409887823469341, Count=50
+apply(wood stick, spotlight) Q=0.5819784046929843, Count=50
+apply(wood stick, skylight) Q=1.4910203323418167, Count=55
+apply(bunch of keys, spotlight) Q=0.680213011884667, Count=50
+apply(bunch of keys, skylight) Q=0.695522488399842, Count=50
+craft(rag, wood stick) Q=0.40502178000854566, Count=49
+craft(rag, bunch of keys) Q=0.6565462086283433, Count=50
+craft(wood stick, bunch of keys) Q=0.6360288883514109, Count=50
+move(Back to the back of the van) Q=0.15673654256348124, Count=47
+Action: apply(wood stick, skylight)
+Reward: Action executed successfully. You have successfully applied wood stick to skylight. The skylight is opened, there is a key on the top of the shelf inside the skylight
+Accumulated_reward: 8
+
+Step: 15
+click(spotlight) Q=0.4480402347702541, Count=50
+click(silver key) Q=0.9999999999999998, Count=53
+apply(rag, spotlight) Q=0.4954002158606981, Count=50
+apply(rag, silver key) Q=0.5398468520312214, Count=50
+apply(bunch of keys, spotlight) Q=0.5043881187847976, Count=50
+apply(bunch of keys, silver key) Q=0.5289056927850665, Count=50
+craft(rag, bunch of keys) Q=0.4517542665297207, Count=49
+move(Back to the back of the van) Q=0.2397475901389523, Count=48
+Action: click(silver key)
+Reward: Action executed successfully. You have just collected a silver key. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 9
+
+Step: 16
+click(spotlight) Q=0.0, Count=50
+apply(rag, spotlight) Q=0.0, Count=50
+apply(bunch of keys, spotlight) Q=0.011394592646027296, Count=50
+apply(silver key, spotlight) Q=0.0, Count=50
+craft(rag, bunch of keys) Q=0.0, Count=50
+craft(rag, silver key) Q=0.0, Count=50
+craft(bunch of keys, silver key) Q=0.01023071658804329, Count=50
+move(Back to the back of the van) Q=0.03244221836375974, Count=50
+Action: move(Back to the back of the van)
+Reward: Action executed successfully. Change to another scene: back of the van.
+Accumulated_reward: 9
+
+Step: 17
+craft(rag, bunch of keys) Q=0.0480131631090104, Count=50
+craft(rag, silver key) Q=0.0, Count=50
+craft(bunch of keys, silver key) Q=0.013407541439587067, Count=50
+move(Back to the van in dessert) Q=0.08263125569007475, Count=50
+move(Go to the top of the van) Q=0.0, Count=50
+move(Explore the underneath part of the van) Q=0.0, Count=50
+Action: move(Back to the van in dessert)
+Reward: Action executed successfully. Change to another scene: van in dessert.
+Accumulated_reward: 9
+
+Step: 18
+click(wild cactus) Q=0.11094780568691058, Count=50
+apply(rag, wild cactus) Q=0.18549489919701825, Count=50
+apply(bunch of keys, wild cactus) Q=0.08260265066984296, Count=50
+apply(silver key, wild cactus) Q=0.04201599845031795, Count=50
+craft(rag, bunch of keys) Q=0.1500814557888567, Count=50
+craft(rag, silver key) Q=0.10716450676528079, Count=50
+craft(bunch of keys, silver key) Q=0.1562899056774384, Count=50
+move(Go to back of the van) Q=0.02143324851003313, Count=49
+move(Go to trunk of the van) Q=0.3878496385203902, Count=51
+move(Go to door of the van) Q=0.039894636485944324, Count=50
+Action: move(Go to trunk of the van)
+Reward: Action executed successfully. Change to another scene: trunk of the van.
+Accumulated_reward: 9
+
+Step: 19
+craft(rag, bunch of keys) Q=0.6357491856615066, Count=50
+craft(rag, silver key) Q=0.765054502310023, Count=50
+craft(bunch of keys, silver key) Q=0.4537569407988852, Count=49
+move(Back to the van in dessert) Q=0.19268363093820123, Count=47
+move(Explore a repair toolkit in the trunk) Q=1.2336102953949428, Count=54
+Action: move(Explore a repair toolkit in the trunk)
+Reward: Action executed successfully. Change to another scene: repair kit in the trunk.
+Accumulated_reward: 9
+
+Step: 20
+click(repair kit box) Q=1.298159372161603, Count=50
+apply(rag, repair kit box) Q=0.9618371891499972, Count=48
+apply(bunch of keys, repair kit box) Q=1.0517482284130886, Count=49
+apply(silver key, repair kit box) Q=2.579763651539351, Count=58
+craft(rag, bunch of keys) Q=1.1923631694111458, Count=49
+craft(rag, silver key) Q=1.330218845415268, Count=50
+craft(bunch of keys, silver key) Q=1.158924595579629, Count=49
+move(Back to the trunk of the van) Q=0.8095720479201275, Count=47
+Action: apply(silver key, repair kit box)
+Reward: Action executed successfully. You have successfully applied silver key to repair kit box. The repair kit box is opened, there is an engine oil inside
+Accumulated_reward: 10
+
+Step: 21
+click(engine oil) Q=2.6085095629027317, Count=57
+apply(rag, engine oil) Q=1.5538078909650763, Count=50
+apply(bunch of keys, engine oil) Q=1.5413133537109578, Count=50
+craft(rag, bunch of keys) Q=1.4607352452407516, Count=49
+move(Back to the trunk of the van) Q=0.5439522201369323, Count=44
+Action: click(engine oil)
+Reward: Action executed successfully. You have just collected a engine oil. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 11
+
+Step: 22
+craft(rag, bunch of keys) Q=1.57687604089965, Count=50
+craft(rag, engine oil) Q=2.182227677244054, Count=53
+craft(bunch of keys, engine oil) Q=1.5046072978195584, Count=49
+move(Back to the trunk of the van) Q=1.2131889213955183, Count=48
+Action: craft(rag, engine oil)
+Reward: Action executed successfully. You have successfully crafted a bottle of engine oil and a white and clean rag together.
+You get a new item: a rag soaked with engine oil. It is put into your bag.
+Accumulated_reward: 12
+
+Step: 23
+craft(rag, bunch of keys) Q=1.2392410467826387, Count=51
+move(Back to the trunk of the van) Q=1.0549973372295414, Count=49
+Action: craft(rag, bunch of keys)
+Reward: Action executed successfully. You have successfully crafted a rag soaked with engine oil and a bunch of keys with a keychain and some rust on it together.
+You get a new item: a bunch of keys with a keychain, and rust is cleaned. It is put into your bag.
+Accumulated_reward: 13
+
+Step: 24
+move(Back to the trunk of the van) Q=0.36515807302307834, Count=50
+Action: move(Back to the trunk of the van)
+Reward: Action executed successfully. Change to another scene: trunk of the van.
+Accumulated_reward: 13
+
+Step: 25
+move(Back to the van in dessert) Q=0.5143873577198681, Count=51
+move(Explore a repair toolkit in the trunk) Q=0.2678122180612584, Count=49
+Action: move(Back to the van in dessert)
+Reward: Action executed successfully. Change to another scene: van in dessert.
+Accumulated_reward: 13
+
+Step: 26
+click(wild cactus) Q=0.29750692040822246, Count=49
+apply(bunch of keys, wild cactus) Q=0.5023945888595702, Count=50
+move(Go to back of the van) Q=0.18389926382889435, Count=48
+move(Go to trunk of the van) Q=0.1953032931644761, Count=48
+move(Go to door of the van) Q=1.324800380548509, Count=55
+Action: move(Go to door of the van)
+Reward: Action executed successfully. Change to another scene: door of the van.
+Accumulated_reward: 13
+
+Step: 27
+click(van door) Q=1.1170107804786968, Count=49
+click(mud) Q=1.219207221957658, Count=50
+apply(bunch of keys, van door) Q=2.2268830900807117, Count=56
+apply(bunch of keys, mud) Q=1.1407163733385142, Count=49
+move(Back to the van in dessert) Q=0.46385959392168996, Count=46
+Action: apply(bunch of keys, van door)
+Reward: Action executed successfully. You have successfully applied bunch of keys to van door. The van door is unlocked, now you can get in.
+Accumulated_reward: 14
+
+Step: 28
+click(mud) Q=1.1640977144570717, Count=50
+move(Back to the van in dessert) Q=0.3960619653703608, Count=46
+move(Go into inside of the door) Q=1.8263336419455827, Count=54
+Action: move(Go into inside of the door)
+Reward: Action executed successfully. Change to another scene: van indoor front overview.
+Accumulated_reward: 14
+
+Step: 29
+click(seat switch) Q=3.026761224157194, Count=56
+click(water bottle) Q=2.0569719626039378, Count=50
+move(Back to the door of the van) Q=1.0492786632837638, Count=45
+move(Left to the passage way in van) Q=2.3073165674924025, Count=51
+move(Explore the front desk in the van) Q=1.7687738817020628, Count=48
+Action: click(seat switch)
+Reward: Action executed successfully. You have clicked on seat switch. The switch is on, something happens
+Accumulated_reward: 15
+
+Step: 30
+click(water bottle) Q=2.3258399850240687, Count=53
+move(Back to the door of the van) Q=0.9680296485754287, Count=45
+move(Left to the passage way in van) Q=2.2282273314763676, Count=52
+move(Explore the front desk in the van) Q=1.9442003948909325, Count=50
+Action: click(water bottle)
+Reward: Action executed successfully. You have just collected a water bottle. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 16
+
+Step: 31
+move(Back to the door of the van) Q=0.6454873380038206, Count=47
+move(Left to the passage way in van) Q=1.5439025849489816, Count=52
+move(Explore the front desk in the van) Q=1.4496959401729845, Count=51
+Action: move(Left to the passage way in van)
+Reward: Action executed successfully. Change to another scene: passage way in van.
+Accumulated_reward: 16
+
+Step: 32
+click(microwave) Q=2.2821210682640025, Count=53
+click(shelf door 1) Q=2.5607379564390826, Count=55
+click(shelf door 2) Q=2.563668128342052, Count=55
+click(screwdriver) Q=2.194579903485453, Count=53
+apply(water bottle, microwave) Q=1.4511642056262508, Count=49
+apply(water bottle, shelf door 1) Q=1.4999603621435655, Count=49
+apply(water bottle, shelf door 2) Q=1.516973523536828, Count=49
+apply(water bottle, screwdriver) Q=1.5026838126814361, Count=49
+move(Back to the front of the van overview) Q=1.2283146701299108, Count=48
+move(Back to the door of the van) Q=0.8296017469396051, Count=45
+move(Explore the drawers) Q=0.8955852698422105, Count=46
+move(Go to the bed) Q=1.515336089925135, Count=49
+Action: click(shelf door 2)
+Reward: Action executed successfully. You have clicked on shelf door 2. The shelf's door opens
+Accumulated_reward: 17
+
+Step: 33
+click(microwave) Q=2.1797717513556853, Count=53
+click(shelf door 1) Q=2.6300534552606925, Count=56
+click(tin foil) Q=1.965442857886766, Count=52
+click(screwdriver) Q=2.1916386397843386, Count=53
+apply(water bottle, microwave) Q=1.4356214382599994, Count=49
+apply(water bottle, shelf door 1) Q=1.4018863311565213, Count=49
+apply(water bottle, tin foil) Q=1.5621217694681557, Count=50
+apply(water bottle, screwdriver) Q=1.5308820123077331, Count=49
+move(Back to the front of the van overview) Q=1.1259781130603017, Count=47
+move(Back to the door of the van) Q=0.5290190193741755, Count=45
+move(Explore the drawers) Q=1.122405750958269, Count=47
+move(Go to the bed) Q=1.623751963895212, Count=50
+Action: click(shelf door 1)
+Reward: Action executed successfully. You have clicked on shelf door 1. The shelf's door opens
+Accumulated_reward: 18
+
+Step: 34
+click(microwave) Q=2.2009203254876613, Count=53
+click(cup) Q=2.4075460902663064, Count=55
+click(tin foil) Q=2.0398569459795217, Count=52
+click(screwdriver) Q=2.345669214266741, Count=54
+apply(water bottle, microwave) Q=1.5535037323552996, Count=50
+apply(water bottle, cup) Q=1.5290302785787695, Count=50
+apply(water bottle, tin foil) Q=1.5667355217566, Count=50
+apply(water bottle, screwdriver) Q=1.4704586879453738, Count=49
+move(Back to the front of the van overview) Q=1.097061943035687, Count=47
+move(Back to the door of the van) Q=0.5620614724821748, Count=45
+move(Explore the drawers) Q=1.035053127787684, Count=47
+move(Go to the bed) Q=1.197596458961206, Count=48
+Action: click(cup)
+Reward: Action executed successfully. You have just collected a cup. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 19
+
+Step: 35
+click(microwave) Q=2.5055867531472407, Count=54
+click(tin foil) Q=2.2126457160546704, Count=52
+click(screwdriver) Q=2.424051189959758, Count=54
+apply(water bottle, microwave) Q=1.6709635310824291, Count=49
+apply(water bottle, tin foil) Q=1.6963339609198147, Count=49
+apply(water bottle, screwdriver) Q=1.7614948802209263, Count=50
+apply(cup, microwave) Q=1.4690433438425416, Count=48
+apply(cup, tin foil) Q=1.5867396909926998, Count=49
+apply(cup, screwdriver) Q=1.750212205995457, Count=50
+craft(water bottle, cup) Q=2.2333117629539347, Count=52
+move(Back to the front of the van overview) Q=1.7031126772223577, Count=50
+move(Back to the door of the van) Q=1.1754232116101346, Count=47
+move(Explore the drawers) Q=1.1968384179676061, Count=47
+move(Go to the bed) Q=1.6369490017471018, Count=49
+Action: click(microwave)
+Reward: Action executed successfully. You have clicked on microwave. The microwave is opened
+Accumulated_reward: 20
+
+Step: 36
+click(microwave) Q=1.5943945029949778, Count=50
+click(tin foil) Q=2.277621002587133, Count=54
+click(screwdriver) Q=2.0822097459374183, Count=52
+apply(water bottle, microwave) Q=1.6429647820435969, Count=50
+apply(water bottle, tin foil) Q=1.550526633425463, Count=50
+apply(water bottle, screwdriver) Q=1.4134120259679013, Count=49
+apply(cup, microwave) Q=1.5705261182438353, Count=50
+apply(cup, tin foil) Q=1.6071409295654648, Count=50
+apply(cup, screwdriver) Q=1.3582529476967395, Count=48
+craft(water bottle, cup) Q=2.304387035644064, Count=54
+move(Back to the front of the van overview) Q=1.5241666316913454, Count=50
+move(Back to the door of the van) Q=1.1113675094832303, Count=47
+move(Explore the drawers) Q=1.1254837172098402, Count=47
+move(Go to the bed) Q=1.5302178141844345, Count=49
+Action: craft(water bottle, cup)
+Reward: Action executed successfully. You have successfully crafted a water bottle with some water inside and an empty cup together.
+You get a new item: a cup with water inside. It is put into your bag.
+Accumulated_reward: 21
+
+Step: 37
+click(microwave) Q=1.1223868311926202, Count=49
+click(tin foil) Q=2.001942910716802, Count=54
+click(screwdriver) Q=1.8437399052034227, Count=53
+apply(cup, microwave) Q=2.3697816772801095, Count=56
+apply(cup, tin foil) Q=1.1653982650603905, Count=49
+apply(cup, screwdriver) Q=1.314747204136302, Count=50
+move(Back to the front of the van overview) Q=1.1284691968758567, Count=48
+move(Back to the door of the van) Q=0.42682448709485893, Count=45
+move(Explore the drawers) Q=0.7486932256894919, Count=46
+move(Go to the bed) Q=1.4392527010127256, Count=50
+Action: apply(cup, microwave)
+Reward: Action executed successfully. You have successfully applied cup to microwave. The water in the cup is heated up
+Accumulated_reward: 22
+
+Step: 38
+click(tin foil) Q=2.322883652062445, Count=54
+click(screwdriver) Q=2.07434165509329, Count=52
+click(cup with hot water) Q=2.3266717818884723, Count=54
+move(Back to the front of the van overview) Q=1.4143367794220163, Count=48
+move(Back to the door of the van) Q=0.5898055655409975, Count=44
+move(Explore the drawers) Q=1.154417587380157, Count=47
+move(Go to the bed) Q=1.7923286629907422, Count=51
+Action: click(cup with hot water)
+Reward: Action executed successfully. You have just collected a cup with hot water. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 23
+
+Step: 39
+click(tin foil) Q=1.9089062737813887, Count=54
+click(screwdriver) Q=1.7670232725683834, Count=53
+apply(cup with hot water, tin foil) Q=1.0157330157445204, Count=49
+apply(cup with hot water, screwdriver) Q=1.0461026817997778, Count=49
+move(Back to the front of the van overview) Q=1.2504336338160909, Count=50
+move(Back to the door of the van) Q=0.9025114081869214, Count=48
+move(Explore the drawers) Q=0.6270451597878738, Count=47
+move(Go to the bed) Q=1.2271884790943264, Count=50
+Action: click(tin foil)
+Reward: Action executed successfully. You have just collected a tin foil. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 24
+
+Step: 40
+click(screwdriver) Q=1.4701843911349914, Count=53
+apply(cup with hot water, screwdriver) Q=0.9436885706594748, Count=50
+apply(tin foil, screwdriver) Q=0.8885946607661883, Count=50
+craft(cup with hot water, tin foil) Q=0.7707250816988143, Count=49
+move(Back to the front of the van overview) Q=0.7828177892608567, Count=49
+move(Back to the door of the van) Q=0.6982400532865843, Count=49
+move(Explore the drawers) Q=0.580811122994619, Count=48
+move(Go to the bed) Q=1.3436440380644672, Count=52
+Action: click(screwdriver)
+Reward: Action executed successfully. You have just collected a screwdriver. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 25
+
+Step: 41
+craft(cup with hot water, tin foil) Q=0.47836729232486763, Count=50
+craft(cup with hot water, screwdriver) Q=0.6370715674921492, Count=50
+craft(tin foil, screwdriver) Q=0.4396788527894808, Count=49
+move(Back to the front of the van overview) Q=0.6090910501108416, Count=50
+move(Back to the door of the van) Q=0.5991647306351058, Count=50
+move(Explore the drawers) Q=0.12914231633048118, Count=48
+move(Go to the bed) Q=1.0135919629013643, Count=53
+Action: move(Go to the bed)
+Reward: Action executed successfully. Change to another scene: bed overview.
+Accumulated_reward: 25
+
+Step: 42
+click(torch light) Q=1.0123971784454515, Count=50
+click(bed shelf 2) Q=1.0209603205340372, Count=50
+click(bed shelf 1) Q=2.0630046863730813, Count=56
+click(battery) Q=1.771958026552474, Count=54
+apply(cup with hot water, torch light) Q=0.91421425479586, Count=49
+apply(cup with hot water, bed shelf 2) Q=0.9594040358439522, Count=49
+apply(cup with hot water, bed shelf 1) Q=0.9097464262129824, Count=49
+apply(cup with hot water, battery) Q=0.9534020169301582, Count=49
+apply(tin foil, torch light) Q=2.0584998519538478, Count=55
+apply(tin foil, bed shelf 2) Q=1.0104608292329478, Count=50
+apply(tin foil, bed shelf 1) Q=1.1268433803962978, Count=50
+apply(tin foil, battery) Q=1.0540951806531487, Count=50
+apply(screwdriver, torch light) Q=1.0206874740785792, Count=49
+apply(screwdriver, bed shelf 2) Q=0.9665439472684014, Count=49
+apply(screwdriver, bed shelf 1) Q=0.9544205285888223, Count=49
+apply(screwdriver, battery) Q=0.9388559110631329, Count=49
+craft(cup with hot water, tin foil) Q=0.9714439934988495, Count=49
+craft(cup with hot water, screwdriver) Q=1.0238063444086498, Count=50
+craft(tin foil, screwdriver) Q=1.0827159966441147, Count=50
+move(Back to the passage way) Q=0.5772620541062147, Count=47
+move(Go to see the right side of bed) Q=0.41234521089945775, Count=47
+Action: click(bed shelf 1)
+Reward: Action executed successfully. You have clicked on bed shelf 1. The shelf is open, there is a light bulb inside
+Accumulated_reward: 26
+
+Step: 43
+click(torch light) Q=0.8727498828917093, Count=50
+click(bed shelf 2) Q=0.9658176538165886, Count=50
+click(battery) Q=1.5365130039472417, Count=53
+click(light bulb) Q=1.5964573629691576, Count=53
+apply(cup with hot water, torch light) Q=0.9127100567139106, Count=50
+apply(cup with hot water, bed shelf 2) Q=0.8642972936794616, Count=50
+apply(cup with hot water, battery) Q=0.9417640404560799, Count=50
+apply(cup with hot water, light bulb) Q=0.8715428118532751, Count=49
+apply(tin foil, torch light) Q=1.7864130214033807, Count=55
+apply(tin foil, bed shelf 2) Q=0.7593314066033422, Count=49
+apply(tin foil, battery) Q=0.996293486501207, Count=50
+apply(tin foil, light bulb) Q=0.8511309185070716, Count=49
+apply(screwdriver, torch light) Q=0.9214656813115834, Count=50
+apply(screwdriver, bed shelf 2) Q=0.8340154261448042, Count=49
+apply(screwdriver, battery) Q=1.0130277342240241, Count=50
+apply(screwdriver, light bulb) Q=0.8729085595286652, Count=50
+craft(cup with hot water, tin foil) Q=0.8380377154473123, Count=49
+craft(cup with hot water, screwdriver) Q=1.0586173585982042, Count=50
+craft(tin foil, screwdriver) Q=0.7538274837866177, Count=49
+move(Back to the passage way) Q=0.5790887894060806, Count=48
+move(Go to see the right side of bed) Q=0.3822803370198779, Count=47
+Action: apply(tin foil, torch light)
+Reward: Action executed successfully. You have successfully applied tin foil to torch light. The tin foil is wrapped to the tail of the torch light, now it can pass the electricity
+Accumulated_reward: 27
+
+Step: 44
+click(torch light) Q=1.036267277828954, Count=51
+click(bed shelf 2) Q=0.7472519170411707, Count=49
+click(battery) Q=1.64095986137697, Count=54
+click(light bulb) Q=1.4152743295176204, Count=53
+apply(cup with hot water, torch light) Q=0.8947431339168048, Count=50
+apply(cup with hot water, bed shelf 2) Q=0.837922419096852, Count=50
+apply(cup with hot water, battery) Q=0.8503822015026969, Count=50
+apply(cup with hot water, light bulb) Q=0.7113374762127078, Count=49
+apply(screwdriver, torch light) Q=0.7615355734372066, Count=49
+apply(screwdriver, bed shelf 2) Q=0.8688122213446432, Count=50
+apply(screwdriver, battery) Q=0.8117037590772781, Count=50
+apply(screwdriver, light bulb) Q=0.8729298914540039, Count=50
+craft(cup with hot water, screwdriver) Q=0.8077032126191968, Count=49
+move(Back to the passage way) Q=0.535852700140478, Count=48
+move(Go to see the right side of bed) Q=0.5925509302298461, Count=48
+Action: click(battery)
+Reward: Action executed successfully. You have just collected a battery. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 28
+
+Step: 45
+click(torch light) Q=0.755797957171708, Count=50
+click(bed shelf 2) Q=0.6653502218651949, Count=50
+click(light bulb) Q=1.3397193936328688, Count=53
+apply(cup with hot water, torch light) Q=0.6482668415043765, Count=50
+apply(cup with hot water, bed shelf 2) Q=0.6812563979623424, Count=50
+apply(cup with hot water, light bulb) Q=0.676680618136621, Count=50
+apply(screwdriver, torch light) Q=0.6558802806979174, Count=50
+apply(screwdriver, bed shelf 2) Q=0.6268555429318868, Count=49
+apply(screwdriver, light bulb) Q=0.7236168999102239, Count=50
+apply(battery, torch light) Q=1.335161896388316, Count=53
+apply(battery, bed shelf 2) Q=0.6483012919552302, Count=50
+apply(battery, light bulb) Q=0.638542739995908, Count=49
+craft(cup with hot water, screwdriver) Q=0.6441116926958133, Count=50
+craft(cup with hot water, battery) Q=0.6663579685987995, Count=50
+craft(screwdriver, battery) Q=0.5628912138047489, Count=49
+move(Back to the passage way) Q=0.4403885123925051, Count=49
+move(Go to see the right side of bed) Q=0.2820591793494803, Count=48
+Action: click(light bulb)
+Reward: Action executed successfully. You have just collected a light bulb. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 29
+
+Step: 46
+click(torch light) Q=0.35768641971840126, Count=50
+click(bed shelf 2) Q=0.24261053681780836, Count=49
+apply(cup with hot water, torch light) Q=0.2757671537184869, Count=50
+apply(cup with hot water, bed shelf 2) Q=0.4245043505790357, Count=50
+apply(screwdriver, torch light) Q=0.28178404845857663, Count=50
+apply(screwdriver, bed shelf 2) Q=0.36906785253207747, Count=50
+apply(battery, torch light) Q=1.0099973257549795, Count=54
+apply(battery, bed shelf 2) Q=0.31707220820430726, Count=50
+apply(light bulb, torch light) Q=0.3632200373589002, Count=50
+apply(light bulb, bed shelf 2) Q=0.3680340359945717, Count=50
+craft(cup with hot water, screwdriver) Q=0.32481848383878653, Count=50
+craft(cup with hot water, battery) Q=0.30201447853899727, Count=50
+craft(cup with hot water, light bulb) Q=0.2589674808186098, Count=50
+craft(screwdriver, battery) Q=0.2488938207166181, Count=49
+craft(screwdriver, light bulb) Q=0.4081097170407042, Count=50
+craft(battery, light bulb) Q=0.29337743985879916, Count=50
+move(Back to the passage way) Q=0.18549176664350311, Count=49
+move(Go to see the right side of bed) Q=0.0826130081811384, Count=49
+Action: apply(battery, torch light)
+Reward: Action executed successfully. You have successfully applied battery to torch light. You have a torch light with power now
+Accumulated_reward: 30
+
+Step: 47
+click(bed shelf 2) Q=0.025522409061886762, Count=50
+apply(cup with hot water, bed shelf 2) Q=0.06641926081125005, Count=50
+apply(screwdriver, bed shelf 2) Q=0.05370682303796704, Count=50
+apply(light bulb, bed shelf 2) Q=0.03938429329577467, Count=50
+apply(torch light with power, bed shelf 2) Q=0.021602607244101832, Count=50
+craft(cup with hot water, screwdriver) Q=0.012027746069952204, Count=50
+craft(cup with hot water, light bulb) Q=0.05745495313416403, Count=50
+craft(cup with hot water, torch light with power) Q=0.015799168155428967, Count=50
+craft(screwdriver, light bulb) Q=0.02805160070560958, Count=50
+craft(screwdriver, torch light with power) Q=0.08102880443803523, Count=50
+craft(light bulb, torch light with power) Q=0.01023071658804329, Count=50
+move(Back to the passage way) Q=0.18477121528629759, Count=50
+move(Go to see the right side of bed) Q=0.013407541439587067, Count=50
+Action: move(Back to the passage way)
+Reward: Action executed successfully. Change to another scene: passage way in van.
+Accumulated_reward: 30
+
+Step: 48
+craft(cup with hot water, screwdriver) Q=0.18562299047884215, Count=50
+craft(cup with hot water, light bulb) Q=0.15606217741099576, Count=50
+craft(cup with hot water, torch light with power) Q=0.11044144131500053, Count=50
+craft(screwdriver, light bulb) Q=0.1967298572579188, Count=50
+craft(screwdriver, torch light with power) Q=0.18848306076004334, Count=50
+craft(light bulb, torch light with power) Q=0.12389886972318788, Count=50
+move(Back to the front of the van overview) Q=0.3655309656386293, Count=51
+move(Back to the door of the van) Q=0.4503573548995738, Count=51
+move(Explore the drawers) Q=0.045232653459037216, Count=49
+move(Go to the bed) Q=0.023262990709839542, Count=49
+Action: move(Back to the door of the van)
+Reward: Action executed successfully. Change to another scene: door of the van.
+Accumulated_reward: 30
+
+Step: 49
+click(mud) Q=0.2932164623081696, Count=49
+apply(cup with hot water, mud) Q=1.1895078113031565, Count=55
+apply(screwdriver, mud) Q=0.41003446408712113, Count=50
+apply(light bulb, mud) Q=0.501470271194711, Count=50
+apply(torch light with power, mud) Q=0.445123719382113, Count=50
+craft(cup with hot water, screwdriver) Q=0.3988726119642729, Count=50
+craft(cup with hot water, light bulb) Q=0.38780379218487865, Count=50
+craft(cup with hot water, torch light with power) Q=0.32796267705898285, Count=49
+craft(screwdriver, light bulb) Q=0.4839810969303044, Count=50
+craft(screwdriver, torch light with power) Q=0.4144463786467599, Count=50
+craft(light bulb, torch light with power) Q=0.32837592042752517, Count=49
+move(Back to the van in dessert) Q=0.25306409516096307, Count=49
+move(Go into inside of the door) Q=0.28713646763254747, Count=49
+Action: apply(cup with hot water, mud)
+Reward: Action executed successfully. You have successfully applied cup with hot water to mud. The mud is warmed now, it's easier to scrape it
+Accumulated_reward: 31
+
+Step: 50
+click(mud) Q=0.20883988563182526, Count=50
+apply(screwdriver, mud) Q=0.10007542422058854, Count=50
+apply(light bulb, mud) Q=0.10099103492500333, Count=50
+apply(torch light with power, mud) Q=0.08342150757296116, Count=50
+craft(screwdriver, light bulb) Q=0.12143438601883351, Count=50
+craft(screwdriver, torch light with power) Q=0.16965470231443525, Count=50
+craft(light bulb, torch light with power) Q=0.10443031757513621, Count=50
+move(Back to the van in dessert) Q=0.13819485423644284, Count=50
+move(Go into inside of the door) Q=0.2013068479488125, Count=50
+Action: click(mud)
+Reward: Nothing happens after clicking on mud. You may try to see what's behind
+Accumulated_reward: 31
+
+Step: 51
+click(mud) Q=0.23806773056666547, Count=50
+apply(screwdriver, mud) Q=0.12275752869360573, Count=50
+apply(light bulb, mud) Q=0.2895979217613104, Count=51
+apply(torch light with power, mud) Q=0.26317341676285244, Count=50
+craft(screwdriver, light bulb) Q=0.1587627877150359, Count=50
+craft(screwdriver, torch light with power) Q=0.0919050207731039, Count=49
+craft(light bulb, torch light with power) Q=0.1210318845847862, Count=50
+move(Back to the van in dessert) Q=0.18982918577668292, Count=50
+move(Go into inside of the door) Q=0.15361177314661278, Count=50
+Action: apply(light bulb, mud)
+Reward: mud indeed needs a tool to apply but the current tool is wrong. You should try other tools or gather other clues first.
+Nothing happens after you apply the tool. You may try to see what's behind
+Accumulated_reward: 31
+
+Step: 52
+click(mud) Q=0.11637488577979847, Count=50
+apply(screwdriver, mud) Q=0.2051419637902968, Count=50
+apply(light bulb, mud) Q=0.16203008443666694, Count=50
+apply(torch light with power, mud) Q=0.1656565080701869, Count=50
+craft(screwdriver, light bulb) Q=0.07198251236249377, Count=49
+craft(screwdriver, torch light with power) Q=0.15697153152384807, Count=50
+craft(light bulb, torch light with power) Q=0.17858414760420604, Count=50
+move(Back to the van in dessert) Q=0.2805540871946184, Count=51
+move(Go into inside of the door) Q=0.231566036183923, Count=50
+Action: move(Back to the van in dessert)
+Reward: Action executed successfully. Change to another scene: van in dessert.
+Accumulated_reward: 31
+
+Step: 53
+click(wild cactus) Q=0.05780875231854238, Count=49
+apply(screwdriver, wild cactus) Q=0.32454259767984384, Count=51
+apply(light bulb, wild cactus) Q=0.16721871014154216, Count=50
+apply(torch light with power, wild cactus) Q=0.19464686186886254, Count=50
+craft(screwdriver, light bulb) Q=0.09615393653770708, Count=49
+craft(screwdriver, torch light with power) Q=0.25020754112968757, Count=50
+craft(light bulb, torch light with power) Q=0.1265797458598491, Count=50
+move(Go to back of the van) Q=0.5816744059590112, Count=52
+move(Go to trunk of the van) Q=0.02143324851003313, Count=49
+move(Go to door of the van) Q=0.15592868956041728, Count=50
+Action: move(Go to back of the van)
+Reward: Action executed successfully. Change to another scene: back of the van.
+Accumulated_reward: 31
+
+Step: 54
+craft(screwdriver, light bulb) Q=0.5074531603780889, Count=49
+craft(screwdriver, torch light with power) Q=0.6438834181894525, Count=50
+craft(light bulb, torch light with power) Q=0.5078476292785872, Count=49
+move(Back to the van in dessert) Q=0.11969522705500975, Count=47
+move(Go to the top of the van) Q=0.6012702109249684, Count=50
+move(Explore the underneath part of the van) Q=1.428630901219136, Count=55
+Action: move(Explore the underneath part of the van)
+Reward: Action executed successfully. Change to another scene: underneath part of the van.
+Accumulated_reward: 31
+
+Step: 55
+click(license plate space) Q=1.076726991689977, Count=48
+apply(screwdriver, license plate space) Q=2.6831134603650684, Count=58
+apply(light bulb, license plate space) Q=0.9929410147177367, Count=48
+apply(torch light with power, license plate space) Q=1.4933978466901143, Count=51
+craft(screwdriver, light bulb) Q=1.2974028367140147, Count=50
+craft(screwdriver, torch light with power) Q=1.2319204657871454, Count=49
+craft(light bulb, torch light with power) Q=1.331740316321041, Count=50
+move(Back to the back of the van) Q=0.6697765219107332, Count=46
+Action: apply(screwdriver, license plate space)
+Reward: Action executed successfully. You have successfully applied screwdriver to license plate space. The license plate dropped to the ground
+Accumulated_reward: 32
+
+Step: 56
+click(license plate space) Q=1.6647079022842164, Count=50
+click(license plate) Q=2.052139308709443, Count=52
+apply(light bulb, license plate space) Q=1.4476680916715337, Count=49
+apply(light bulb, license plate) Q=1.3185590823917581, Count=48
+apply(torch light with power, license plate space) Q=2.6642304748484413, Count=56
+apply(torch light with power, license plate) Q=1.6930703040942845, Count=50
+craft(light bulb, torch light with power) Q=1.520731874614127, Count=49
+move(Back to the back of the van) Q=0.9987375626955118, Count=46
+Action: apply(torch light with power, license plate space)
+Reward: Action executed successfully. You have successfully applied torch light with power to license plate space. The license plate dropped to the ground
+Accumulated_reward: 33
+
+Step: 57
+click(license plate) Q=2.148210682016971, Count=52
+click(shelf key) Q=2.1080079876886506, Count=52
+click(mental card) Q=2.0353130697254374, Count=52
+apply(light bulb, license plate) Q=1.667737185617517, Count=49
+apply(light bulb, shelf key) Q=1.6231765960741356, Count=49
+apply(light bulb, mental card) Q=1.6662740811411376, Count=49
+move(Back to the back of the van) Q=1.1615735274475125, Count=47
+Action: click(license plate)
+Reward: Action executed successfully. You have just collected a license plate. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 34
+
+Step: 58
+click(shelf key) Q=1.599521538934084, Count=53
+click(mental card) Q=1.517748684456222, Count=52
+apply(light bulb, shelf key) Q=1.2530984620050827, Count=50
+apply(light bulb, mental card) Q=1.053217251334702, Count=49
+apply(license plate, shelf key) Q=1.0403371580621066, Count=49
+apply(license plate, mental card) Q=1.1413444484622441, Count=50
+craft(light bulb, license plate) Q=1.1156691382828252, Count=50
+move(Back to the back of the van) Q=0.6764047165122613, Count=47
+Action: click(shelf key)
+Reward: Action executed successfully. You have just collected a shelf key. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 35
+
+Step: 59
+click(mental card) Q=1.0636705352094782, Count=53
+apply(light bulb, mental card) Q=0.6008299019943902, Count=50
+apply(license plate, mental card) Q=0.5079835829842095, Count=49
+apply(shelf key, mental card) Q=0.5087035349830544, Count=49
+craft(light bulb, license plate) Q=0.5971606590288479, Count=50
+craft(light bulb, shelf key) Q=0.603595109692327, Count=50
+craft(license plate, shelf key) Q=0.5372057748352738, Count=50
+move(Back to the back of the van) Q=0.40240105485486044, Count=49
+Action: click(mental card)
+Reward: Action executed successfully. You have just collected a mental card. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 36
+
+Step: 60
+craft(light bulb, license plate) Q=0.06344535330314807, Count=50
+craft(light bulb, shelf key) Q=0.0394932120879439, Count=49
+craft(light bulb, mental card) Q=0.09245419490756149, Count=50
+craft(license plate, shelf key) Q=0.0573723303175764, Count=50
+craft(license plate, mental card) Q=0.05363079395604585, Count=50
+craft(shelf key, mental card) Q=0.10933910443051698, Count=50
+move(Back to the back of the van) Q=0.25462873687561605, Count=51
+Action: move(Back to the back of the van)
+Reward: Action executed successfully. Change to another scene: back of the van.
+Accumulated_reward: 36
+
+Step: 61
+craft(light bulb, license plate) Q=0.16501830455107158, Count=50
+craft(light bulb, shelf key) Q=0.15643094595095325, Count=50
+craft(light bulb, mental card) Q=0.1449235270432725, Count=50
+craft(license plate, shelf key) Q=0.16862119658581753, Count=50
+craft(license plate, mental card) Q=0.18348786122657784, Count=50
+craft(shelf key, mental card) Q=0.08641285589776296, Count=50
+move(Back to the van in dessert) Q=0.03365502217914557, Count=49
+move(Go to the top of the van) Q=0.3836301644810923, Count=51
+move(Explore the underneath part of the van) Q=0.05274421926007575, Count=50
+Action: move(Go to the top of the van)
+Reward: Action executed successfully. Change to another scene: top of the van.
+Accumulated_reward: 36
+
+Step: 62
+click(spotlight) Q=0.4620003712698278, Count=50
+apply(light bulb, spotlight) Q=0.9999999999999998, Count=53
+apply(license plate, spotlight) Q=0.4464580390431365, Count=50
+apply(shelf key, spotlight) Q=0.45689666138797025, Count=50
+apply(mental card, spotlight) Q=0.4438984653783626, Count=50
+craft(light bulb, license plate) Q=0.41852737359052383, Count=50
+craft(light bulb, shelf key) Q=0.3593919381922306, Count=49
+craft(light bulb, mental card) Q=0.4431473066855983, Count=50
+craft(license plate, shelf key) Q=0.4452409503410129, Count=50
+craft(license plate, mental card) Q=0.4163602915939016, Count=50
+craft(shelf key, mental card) Q=0.3875253651539329, Count=50
+move(Back to the back of the van) Q=0.18915152746438868, Count=48
+Action: apply(light bulb, spotlight)
+Reward: Action executed successfully. You have successfully applied light bulb to spotlight. The spotlight is intact now, but still there's no power.
+Accumulated_reward: 37
+
+Step: 63
+click(spotlight) Q=0.0, Count=50
+apply(license plate, spotlight) Q=0.0, Count=50
+apply(shelf key, spotlight) Q=0.0, Count=50
+apply(mental card, spotlight) Q=0.0, Count=50
+craft(license plate, shelf key) Q=0.0, Count=50
+craft(license plate, mental card) Q=0.0, Count=50
+craft(shelf key, mental card) Q=0.0, Count=50
+move(Back to the back of the van) Q=0.0, Count=50
+Action: apply(mental card, spotlight)
+Reward: Nothing happens after you apply the tool. You should try to give it solar power
+Accumulated_reward: 37
+
+Step: 64
+click(spotlight) Q=0.0, Count=50
+apply(license plate, spotlight) Q=0.0, Count=50
+apply(shelf key, spotlight) Q=0.0, Count=50
+apply(mental card, spotlight) Q=0.0, Count=50
+craft(license plate, shelf key) Q=0.0, Count=50
+craft(license plate, mental card) Q=0.0, Count=50
+craft(shelf key, mental card) Q=0.0, Count=50
+move(Back to the back of the van) Q=0.012027746069952204, Count=50
+Action: move(Back to the back of the van)
+Reward: Action executed successfully. Change to another scene: back of the van.
+Accumulated_reward: 37
+
+Step: 65
+craft(license plate, shelf key) Q=0.0, Count=50
+craft(license plate, mental card) Q=0.0, Count=50
+craft(shelf key, mental card) Q=0.0, Count=50
+move(Back to the van in dessert) Q=0.02406443607232195, Count=50
+move(Go to the top of the van) Q=0.0, Count=50
+move(Explore the underneath part of the van) Q=0.0, Count=50
+Action: move(Back to the van in dessert)
+Reward: Action executed successfully. Change to another scene: van in dessert.
+Accumulated_reward: 37
+
+Step: 66
+click(wild cactus) Q=0.031117518003631148, Count=50
+apply(license plate, wild cactus) Q=0.010796270133114115, Count=50
+apply(shelf key, wild cactus) Q=0.010796270133114115, Count=50
+apply(mental card, wild cactus) Q=0.010796270133114115, Count=50
+craft(license plate, shelf key) Q=0.01023071658804329, Count=50
+craft(license plate, mental card) Q=0.01023071658804329, Count=50
+craft(shelf key, mental card) Q=0.010796270133114115, Count=50
+move(Go to back of the van) Q=0.0, Count=50
+move(Go to trunk of the van) Q=0.021005461793215927, Count=50
+move(Go to door of the van) Q=0.102456240142094, Count=50
+Action: move(Go to door of the van)
+Reward: Action executed successfully. Change to another scene: door of the van.
+Accumulated_reward: 37
+
+Step: 67
+click(mud) Q=0.18951357004053732, Count=50
+apply(license plate, mud) Q=0.100313409590088, Count=50
+apply(shelf key, mud) Q=0.058925148484633316, Count=49
+apply(mental card, mud) Q=0.10339799791669246, Count=50
+craft(license plate, shelf key) Q=0.07983565463818447, Count=50
+craft(license plate, mental card) Q=0.1689811568264855, Count=50
+craft(shelf key, mental card) Q=0.12779633902543422, Count=50
+move(Back to the van in dessert) Q=0.0, Count=49
+move(Go into inside of the door) Q=0.49717406754579385, Count=52
+Action: move(Go into inside of the door)
+Reward: Action executed successfully. Change to another scene: van indoor front overview.
+Accumulated_reward: 37
+
+Step: 68
+craft(license plate, shelf key) Q=0.37922316145460544, Count=50
+craft(license plate, mental card) Q=0.4558917699181697, Count=50
+craft(shelf key, mental card) Q=0.3849673806491556, Count=50
+move(Back to the door of the van) Q=0.12329318766682984, Count=48
+move(Left to the passage way in van) Q=0.23664949118690554, Count=49
+move(Explore the front desk in the van) Q=0.7892041343719048, Count=53
+Action: move(Explore the front desk in the van)
+Reward: Action executed successfully. Change to another scene: front desk.
+Accumulated_reward: 37
+
+Step: 69
+click(left seat) Q=1.9039420707899202, Count=56
+click(magazine) Q=1.5214362862440778, Count=53
+apply(license plate, left seat) Q=0.9691254567915228, Count=50
+apply(license plate, magazine) Q=0.7628078270609601, Count=49
+apply(shelf key, left seat) Q=1.061466649339488, Count=51
+apply(shelf key, magazine) Q=0.8451418753144357, Count=49
+apply(mental card, left seat) Q=0.912469411259362, Count=50
+apply(mental card, magazine) Q=0.8706534615068359, Count=50
+craft(license plate, shelf key) Q=0.8433513296205464, Count=49
+craft(license plate, mental card) Q=0.8376130382066252, Count=49
+craft(shelf key, mental card) Q=0.968575244750758, Count=50
+move(Back to the front of the van overview) Q=0.4706282984988571, Count=47
+move(Explore the computer on the desk) Q=0.6822580655370724, Count=48
+move(Explore the book shelf on the top) Q=0.866563052280495, Count=49
+Action: click(left seat)
+Reward: Action executed successfully. You have clicked on left seat. The seat is down, there's something behind
+Accumulated_reward: 38
+
+Step: 70
+click(solar panel) Q=1.4583672790555675, Count=53
+click(magazine) Q=1.4858003154558688, Count=54
+apply(license plate, solar panel) Q=0.8369563335532159, Count=50
+apply(license plate, magazine) Q=0.7926946603562834, Count=50
+apply(shelf key, solar panel) Q=0.8682634533049327, Count=50
+apply(shelf key, magazine) Q=0.6907288022955986, Count=49
+apply(mental card, solar panel) Q=0.7674777878022944, Count=49
+apply(mental card, magazine) Q=0.7944424725555018, Count=50
+craft(license plate, shelf key) Q=0.9108787276129422, Count=50
+craft(license plate, mental card) Q=0.7592858842862805, Count=49
+craft(shelf key, mental card) Q=0.8036275555490584, Count=50
+move(Back to the front of the van overview) Q=0.40195285783409995, Count=48
+move(Explore the computer on the desk) Q=0.6947178219185657, Count=49
+move(Explore the book shelf on the top) Q=0.7132950405679387, Count=49
+Action: click(magazine)
+Reward: Action executed successfully. You have just collected a magazine. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 39
+
+Step: 71
+click(solar panel) Q=1.149024852776422, Count=54
+apply(license plate, solar panel) Q=0.3229539413646514, Count=49
+apply(shelf key, solar panel) Q=0.49261874903483555, Count=50
+apply(mental card, solar panel) Q=0.40381578594592493, Count=50
+apply(magazine, solar panel) Q=0.4764307471423894, Count=50
+craft(license plate, shelf key) Q=0.5013224825435503, Count=50
+craft(license plate, mental card) Q=0.5847692153275458, Count=50
+craft(license plate, magazine) Q=0.4865514888170112, Count=50
+craft(shelf key, mental card) Q=0.41055023574046134, Count=49
+craft(shelf key, magazine) Q=0.4594267102201714, Count=50
+craft(mental card, magazine) Q=0.5404537742067207, Count=50
+move(Back to the front of the van overview) Q=0.10863572529073734, Count=48
+move(Explore the computer on the desk) Q=0.4573541649507526, Count=50
+move(Explore the book shelf on the top) Q=0.46746494857000176, Count=50
+Action: click(solar panel)
+Reward: Action executed successfully. You have just collected a solar panel. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 40
+
+Step: 72
+craft(license plate, shelf key) Q=0.11587712851199342, Count=50
+craft(license plate, mental card) Q=0.07951241608998023, Count=49
+craft(license plate, magazine) Q=0.21252072229346058, Count=50
+craft(license plate, solar panel) Q=0.2797010103002137, Count=50
+craft(shelf key, mental card) Q=0.17900251295943562, Count=50
+craft(shelf key, magazine) Q=0.1829484597149899, Count=50
+craft(shelf key, solar panel) Q=0.10933369698395877, Count=50
+craft(mental card, magazine) Q=0.24170611597884128, Count=50
+craft(mental card, solar panel) Q=0.19908126764787346, Count=50
+craft(magazine, solar panel) Q=0.28922313651673615, Count=51
+move(Back to the front of the van overview) Q=0.048312708763404634, Count=49
+move(Explore the computer on the desk) Q=0.28409445240605175, Count=50
+move(Explore the book shelf on the top) Q=0.33860865787294797, Count=51
+Action: move(Explore the book shelf on the top)
+Reward: Action executed successfully. Change to another scene: book shelf.
+Accumulated_reward: 40
+
+Step: 73
+click(wrench) Q=1.0119800239958194, Count=53
+apply(license plate, wrench) Q=0.38995532702531016, Count=50
+apply(shelf key, wrench) Q=0.31128510386077385, Count=50
+apply(mental card, wrench) Q=0.3775859595322043, Count=50
+apply(magazine, wrench) Q=0.4159092263923892, Count=50
+apply(solar panel, wrench) Q=0.38674471050615244, Count=50
+craft(license plate, shelf key) Q=0.3958019901502423, Count=50
+craft(license plate, mental card) Q=0.31706514203886643, Count=49
+craft(license plate, magazine) Q=0.5086033118886576, Count=51
+craft(license plate, solar panel) Q=0.39411846245305965, Count=50
+craft(shelf key, mental card) Q=0.3143956465378007, Count=49
+craft(shelf key, magazine) Q=0.4139224943161147, Count=50
+craft(shelf key, solar panel) Q=0.39718860039211223, Count=50
+craft(mental card, magazine) Q=0.3585947964715065, Count=50
+craft(mental card, solar panel) Q=0.3523349640871377, Count=50
+craft(magazine, solar panel) Q=0.35055978930765685, Count=50
+move(Back to the front desk) Q=0.11658908120797988, Count=48
+Action: click(wrench)
+Reward: Action executed successfully. You have just collected a wrench. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 41
+
+Step: 74
+craft(license plate, shelf key) Q=0.028458346094336607, Count=50
+craft(license plate, mental card) Q=0.04144104611672681, Count=50
+craft(license plate, magazine) Q=0.010796270133114115, Count=50
+craft(license plate, solar panel) Q=0.01669377972066061, Count=50
+craft(license plate, wrench) Q=0.011394592646027296, Count=50
+craft(shelf key, mental card) Q=0.015799168155428967, Count=50
+craft(shelf key, magazine) Q=0.0, Count=50
+craft(shelf key, solar panel) Q=0.01269793949283138, Count=50
+craft(shelf key, wrench) Q=0.012027746069952204, Count=50
+craft(mental card, magazine) Q=0.02832411919474298, Count=50
+craft(mental card, solar panel) Q=0.0, Count=50
+craft(mental card, wrench) Q=0.026153848840350484, Count=50
+craft(magazine, solar panel) Q=0.03611229066407345, Count=50
+craft(magazine, wrench) Q=0.0, Count=50
+craft(solar panel, wrench) Q=0.024361689347408913, Count=50
+move(Back to the front desk) Q=0.03175356391339315, Count=50
+Action: craft(license plate, mental card)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 41
+
+Step: 75
+craft(license plate, shelf key) Q=0.047646859095840315, Count=50
+craft(license plate, mental card) Q=0.0, Count=50
+craft(license plate, magazine) Q=0.0, Count=50
+craft(license plate, solar panel) Q=0.0, Count=50
+craft(license plate, wrench) Q=0.013407541439587067, Count=50
+craft(shelf key, mental card) Q=0.034543958367665974, Count=50
+craft(shelf key, magazine) Q=0.010796270133114115, Count=50
+craft(shelf key, solar panel) Q=0.028279444919392063, Count=50
+craft(shelf key, wrench) Q=0.01023071658804329, Count=50
+craft(mental card, magazine) Q=0.01023071658804329, Count=50
+craft(mental card, solar panel) Q=0.011394592646027296, Count=50
+craft(mental card, wrench) Q=0.010796270133114115, Count=50
+craft(magazine, solar panel) Q=0.014955324501419788, Count=50
+craft(magazine, wrench) Q=0.014159093367747502, Count=50
+craft(solar panel, wrench) Q=0.011394592646027296, Count=50
+move(Back to the front desk) Q=0.050643862179185824, Count=50
+Action: move(Back to the front desk)
+Reward: Action executed successfully. Change to another scene: front desk.
+Accumulated_reward: 41
+
+Step: 76
+craft(license plate, shelf key) Q=0.05264426524629674, Count=50
+craft(license plate, mental card) Q=0.03822666396992512, Count=50
+craft(license plate, magazine) Q=0.029915111896952146, Count=50
+craft(license plate, solar panel) Q=0.02599856452266628, Count=50
+craft(license plate, wrench) Q=0.04670945016640765, Count=50
+craft(shelf key, mental card) Q=0.10661691238797734, Count=50
+craft(shelf key, magazine) Q=0.015799168155428967, Count=50
+craft(shelf key, solar panel) Q=0.035702396358926004, Count=50
+craft(shelf key, wrench) Q=0.08225509945448996, Count=50
+craft(mental card, magazine) Q=0.0, Count=49
+craft(mental card, solar panel) Q=0.10000585716388571, Count=50
+craft(mental card, wrench) Q=0.02745518459458482, Count=50
+craft(magazine, solar panel) Q=0.031194306897557637, Count=50
+craft(magazine, wrench) Q=0.10084324104013985, Count=50
+craft(solar panel, wrench) Q=0.0674835972723086, Count=50
+move(Back to the front of the van overview) Q=0.011394592646027296, Count=50
+move(Explore the computer on the desk) Q=0.25576360823710764, Count=51
+move(Explore the book shelf on the top) Q=0.039808982452223446, Count=50
+Action: move(Explore the computer on the desk)
+Reward: Action executed successfully. Change to another scene: computer on the desk.
+Accumulated_reward: 41
+
+Step: 77
+click(computer) Q=0.2979107502579121, Count=50
+click(old thesis paper) Q=0.9999999999999997, Count=54
+apply(license plate, computer) Q=0.3833740833325171, Count=50
+apply(license plate, old thesis paper) Q=0.2807605584176585, Count=50
+apply(shelf key, computer) Q=0.27058132205196683, Count=50
+apply(shelf key, old thesis paper) Q=0.26299789757029646, Count=50
+apply(mental card, computer) Q=0.2021253922320665, Count=49
+apply(mental card, old thesis paper) Q=0.22152239468340001, Count=50
+apply(magazine, computer) Q=0.28109212599561606, Count=50
+apply(magazine, old thesis paper) Q=0.23046121009530973, Count=50
+apply(solar panel, computer) Q=0.2974657531347706, Count=50
+apply(solar panel, old thesis paper) Q=0.21851531402622495, Count=50
+apply(wrench, computer) Q=0.24479764703783005, Count=50
+apply(wrench, old thesis paper) Q=0.35530169824713587, Count=50
+craft(license plate, shelf key) Q=0.2566617731749039, Count=50
+craft(license plate, mental card) Q=0.27608523866829393, Count=50
+craft(license plate, magazine) Q=0.19971384992895283, Count=49
+craft(license plate, solar panel) Q=0.2574235787200525, Count=50
+craft(license plate, wrench) Q=0.20104173273297185, Count=50
+craft(shelf key, mental card) Q=0.2749672465498745, Count=50
+craft(shelf key, magazine) Q=0.22191323617736175, Count=50
+craft(shelf key, solar panel) Q=0.2197043413647821, Count=50
+craft(shelf key, wrench) Q=0.28617931767628646, Count=50
+craft(mental card, magazine) Q=0.2739838294525622, Count=50
+craft(mental card, solar panel) Q=0.3332020533457839, Count=50
+craft(mental card, wrench) Q=0.24456780474504242, Count=50
+craft(magazine, solar panel) Q=0.2840549066865844, Count=50
+craft(magazine, wrench) Q=0.15924732409335535, Count=49
+craft(solar panel, wrench) Q=0.30040751818466976, Count=50
+move(Back to the front desk) Q=0.04802498387563768, Count=49
+Action: click(old thesis paper)
+Reward: Action executed successfully. You have just collected a old thesis paper. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 42
+
+Step: 78
+click(computer) Q=0.0, Count=50
+apply(license plate, computer) Q=0.0, Count=50
+apply(shelf key, computer) Q=0.0, Count=50
+apply(mental card, computer) Q=0.0, Count=50
+apply(magazine, computer) Q=0.0, Count=50
+apply(solar panel, computer) Q=0.0, Count=50
+apply(wrench, computer) Q=0.0, Count=50
+apply(old thesis paper, computer) Q=0.0, Count=50
+craft(license plate, shelf key) Q=0.0, Count=50
+craft(license plate, mental card) Q=0.0, Count=50
+craft(license plate, magazine) Q=0.0, Count=50
+craft(license plate, solar panel) Q=0.0, Count=50
+craft(license plate, wrench) Q=0.0, Count=50
+craft(license plate, old thesis paper) Q=0.0, Count=50
+craft(shelf key, mental card) Q=0.0, Count=50
+craft(shelf key, magazine) Q=0.0, Count=50
+craft(shelf key, solar panel) Q=0.0, Count=50
+craft(shelf key, wrench) Q=0.0, Count=50
+craft(shelf key, old thesis paper) Q=0.0, Count=50
+craft(mental card, magazine) Q=0.0, Count=50
+craft(mental card, solar panel) Q=0.0, Count=50
+craft(mental card, wrench) Q=0.0, Count=50
+craft(mental card, old thesis paper) Q=0.0, Count=50
+craft(magazine, solar panel) Q=0.0, Count=50
+craft(magazine, wrench) Q=0.0, Count=50
+craft(magazine, old thesis paper) Q=0.0, Count=50
+craft(solar panel, wrench) Q=0.0, Count=50
+craft(solar panel, old thesis paper) Q=0.0, Count=50
+craft(wrench, old thesis paper) Q=0.0, Count=50
+move(Back to the front desk) Q=0.0, Count=50
+Action: craft(shelf key, mental card)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 42
+
+Step: 79
+click(computer) Q=0.0, Count=50
+apply(license plate, computer) Q=0.0, Count=50
+apply(shelf key, computer) Q=0.0, Count=50
+apply(mental card, computer) Q=0.0, Count=50
+apply(magazine, computer) Q=0.0, Count=50
+apply(solar panel, computer) Q=0.0, Count=50
+apply(wrench, computer) Q=0.0, Count=50
+apply(old thesis paper, computer) Q=0.0, Count=50
+craft(license plate, shelf key) Q=0.0, Count=50
+craft(license plate, mental card) Q=0.0, Count=50
+craft(license plate, magazine) Q=0.0, Count=50
+craft(license plate, solar panel) Q=0.0, Count=50
+craft(license plate, wrench) Q=0.0, Count=50
+craft(license plate, old thesis paper) Q=0.0, Count=50
+craft(shelf key, mental card) Q=0.0, Count=50
+craft(shelf key, magazine) Q=0.0, Count=50
+craft(shelf key, solar panel) Q=0.0, Count=50
+craft(shelf key, wrench) Q=0.0, Count=50
+craft(shelf key, old thesis paper) Q=0.0, Count=50
+craft(mental card, magazine) Q=0.0, Count=50
+craft(mental card, solar panel) Q=0.0, Count=50
+craft(mental card, wrench) Q=0.0, Count=50
+craft(mental card, old thesis paper) Q=0.0, Count=50
+craft(magazine, solar panel) Q=0.0, Count=50
+craft(magazine, wrench) Q=0.0, Count=50
+craft(magazine, old thesis paper) Q=0.0, Count=50
+craft(solar panel, wrench) Q=0.0, Count=50
+craft(solar panel, old thesis paper) Q=0.0, Count=50
+craft(wrench, old thesis paper) Q=0.0, Count=50
+move(Back to the front desk) Q=0.0, Count=50
+Action: craft(shelf key, solar panel)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 42
+
+Step: 80
+click(computer) Q=0.0, Count=50
+apply(license plate, computer) Q=0.0, Count=50
+apply(shelf key, computer) Q=0.0, Count=50
+apply(mental card, computer) Q=0.0, Count=50
+apply(magazine, computer) Q=0.0, Count=50
+apply(solar panel, computer) Q=0.0, Count=50
+apply(wrench, computer) Q=0.0, Count=50
+apply(old thesis paper, computer) Q=0.0, Count=50
+craft(license plate, shelf key) Q=0.0, Count=50
+craft(license plate, mental card) Q=0.0, Count=50
+craft(license plate, magazine) Q=0.0, Count=50
+craft(license plate, solar panel) Q=0.0, Count=50
+craft(license plate, wrench) Q=0.0, Count=50
+craft(license plate, old thesis paper) Q=0.0, Count=50
+craft(shelf key, mental card) Q=0.0, Count=50
+craft(shelf key, magazine) Q=0.0, Count=50
+craft(shelf key, solar panel) Q=0.0, Count=50
+craft(shelf key, wrench) Q=0.0, Count=50
+craft(shelf key, old thesis paper) Q=0.0, Count=50
+craft(mental card, magazine) Q=0.0, Count=50
+craft(mental card, solar panel) Q=0.0, Count=50
+craft(mental card, wrench) Q=0.0, Count=50
+craft(mental card, old thesis paper) Q=0.0, Count=50
+craft(magazine, solar panel) Q=0.0, Count=50
+craft(magazine, wrench) Q=0.0, Count=50
+craft(magazine, old thesis paper) Q=0.0, Count=50
+craft(solar panel, wrench) Q=0.0, Count=50
+craft(solar panel, old thesis paper) Q=0.0, Count=50
+craft(wrench, old thesis paper) Q=0.0, Count=50
+move(Back to the front desk) Q=0.0, Count=50
+Action: craft(mental card, solar panel)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 42
+
+Step: 81
+click(computer) Q=0.0, Count=50
+apply(license plate, computer) Q=0.0, Count=50
+apply(shelf key, computer) Q=0.0, Count=50
+apply(mental card, computer) Q=0.0, Count=50
+apply(magazine, computer) Q=0.0, Count=50
+apply(solar panel, computer) Q=0.0, Count=50
+apply(wrench, computer) Q=0.0, Count=50
+apply(old thesis paper, computer) Q=0.0, Count=50
+craft(license plate, shelf key) Q=0.0, Count=50
+craft(license plate, mental card) Q=0.0, Count=50
+craft(license plate, magazine) Q=0.0, Count=50
+craft(license plate, solar panel) Q=0.0, Count=50
+craft(license plate, wrench) Q=0.0, Count=50
+craft(license plate, old thesis paper) Q=0.0, Count=50
+craft(shelf key, mental card) Q=0.0, Count=50
+craft(shelf key, magazine) Q=0.0, Count=50
+craft(shelf key, solar panel) Q=0.0, Count=50
+craft(shelf key, wrench) Q=0.0, Count=50
+craft(shelf key, old thesis paper) Q=0.0, Count=50
+craft(mental card, magazine) Q=0.0, Count=50
+craft(mental card, solar panel) Q=0.0, Count=50
+craft(mental card, wrench) Q=0.0, Count=50
+craft(mental card, old thesis paper) Q=0.0, Count=50
+craft(magazine, solar panel) Q=0.0, Count=50
+craft(magazine, wrench) Q=0.0, Count=50
+craft(magazine, old thesis paper) Q=0.0, Count=50
+craft(solar panel, wrench) Q=0.0, Count=50
+craft(solar panel, old thesis paper) Q=0.0, Count=50
+craft(wrench, old thesis paper) Q=0.0, Count=50
+move(Back to the front desk) Q=0.0, Count=50
+Action: move(Back to the front desk)
+Reward: Action executed successfully. Change to another scene: front desk.
+Accumulated_reward: 42
+
+Step: 82
+craft(license plate, shelf key) Q=0.0, Count=50
+craft(license plate, mental card) Q=0.0, Count=50
+craft(license plate, magazine) Q=0.0, Count=50
+craft(license plate, solar panel) Q=0.0, Count=50
+craft(license plate, wrench) Q=0.0, Count=50
+craft(license plate, old thesis paper) Q=0.0, Count=50
+craft(shelf key, mental card) Q=0.0, Count=50
+craft(shelf key, magazine) Q=0.0, Count=50
+craft(shelf key, solar panel) Q=0.0, Count=50
+craft(shelf key, wrench) Q=0.0, Count=50
+craft(shelf key, old thesis paper) Q=0.0, Count=50
+craft(mental card, magazine) Q=0.0, Count=50
+craft(mental card, solar panel) Q=0.0, Count=50
+craft(mental card, wrench) Q=0.0, Count=50
+craft(mental card, old thesis paper) Q=0.0, Count=50
+craft(magazine, solar panel) Q=0.0, Count=50
+craft(magazine, wrench) Q=0.0, Count=50
+craft(magazine, old thesis paper) Q=0.0, Count=50
+craft(solar panel, wrench) Q=0.0, Count=50
+craft(solar panel, old thesis paper) Q=0.0, Count=50
+craft(wrench, old thesis paper) Q=0.0, Count=50
+move(Back to the front of the van overview) Q=0.01023071658804329, Count=50
+move(Explore the computer on the desk) Q=0.0, Count=50
+move(Explore the book shelf on the top) Q=0.0, Count=50
+Action: move(Back to the front of the van overview)
+Reward: Action executed successfully. Change to another scene: van indoor front overview.
+Accumulated_reward: 42
+
+Step: 83
+craft(license plate, shelf key) Q=0.0, Count=50
+craft(license plate, mental card) Q=0.0, Count=50
+craft(license plate, magazine) Q=0.013407541439587067, Count=50
+craft(license plate, solar panel) Q=0.0, Count=50
+craft(license plate, wrench) Q=0.01669377972066061, Count=50
+craft(license plate, old thesis paper) Q=0.0, Count=50
+craft(shelf key, mental card) Q=0.0, Count=50
+craft(shelf key, magazine) Q=0.034725784509064266, Count=50
+craft(shelf key, solar panel) Q=0.024727306321274244, Count=50
+craft(shelf key, wrench) Q=0.0, Count=50
+craft(shelf key, old thesis paper) Q=0.0, Count=50
+craft(mental card, magazine) Q=0.012027746069952204, Count=50
+craft(mental card, solar panel) Q=0.01023071658804329, Count=50
+craft(mental card, wrench) Q=0.0, Count=50
+craft(mental card, old thesis paper) Q=0.0, Count=50
+craft(magazine, solar panel) Q=0.01269793949283138, Count=50
+craft(magazine, wrench) Q=0.014955324501419788, Count=50
+craft(magazine, old thesis paper) Q=0.04240826258095664, Count=50
+craft(solar panel, wrench) Q=0.0, Count=50
+craft(solar panel, old thesis paper) Q=0.023363906136402702, Count=50
+craft(wrench, old thesis paper) Q=0.0, Count=50
+move(Back to the door of the van) Q=0.0, Count=50
+move(Left to the passage way in van) Q=0.05876938448898977, Count=50
+move(Explore the front desk in the van) Q=0.0, Count=50
+Action: move(Left to the passage way in van)
+Reward: Action executed successfully. Change to another scene: passage way in van.
+Accumulated_reward: 42
+
+Step: 84
+craft(license plate, shelf key) Q=0.029915111896952146, Count=50
+craft(license plate, mental card) Q=0.05814815593415465, Count=50
+craft(license plate, magazine) Q=0.022903395403740923, Count=50
+craft(license plate, solar panel) Q=0.015799168155428967, Count=50
+craft(license plate, wrench) Q=0.0, Count=49
+craft(license plate, old thesis paper) Q=0.028324119194742974, Count=50
+craft(shelf key, mental card) Q=0.051491780836329146, Count=50
+craft(shelf key, magazine) Q=0.014955324501419788, Count=50
+craft(shelf key, solar panel) Q=0.06265867289526433, Count=50
+craft(shelf key, wrench) Q=0.09551375736981954, Count=50
+craft(shelf key, old thesis paper) Q=0.09422001294730116, Count=50
+craft(mental card, magazine) Q=0.03342788711634237, Count=50
+craft(mental card, solar panel) Q=0.06345183168003142, Count=50
+craft(mental card, wrench) Q=0.06582450925267708, Count=50
+craft(mental card, old thesis paper) Q=0.0368605782634126, Count=50
+craft(magazine, solar panel) Q=0.07426091913388472, Count=50
+craft(magazine, wrench) Q=0.02761653803752263, Count=50
+craft(magazine, old thesis paper) Q=0.03029729998477422, Count=50
+craft(solar panel, wrench) Q=0.06895482076519428, Count=50
+craft(solar panel, old thesis paper) Q=0.05382919508824265, Count=50
+craft(wrench, old thesis paper) Q=0.021005461793215927, Count=50
+move(Back to the front of the van overview) Q=0.01764255650353473, Count=50
+move(Back to the door of the van) Q=0.0, Count=50
+move(Explore the drawers) Q=0.0, Count=50
+move(Go to the bed) Q=0.3562223174624859, Count=51
+Action: move(Go to the bed)
+Reward: Action executed successfully. Change to another scene: bed overview.
+Accumulated_reward: 42
+
+Step: 85
+click(bed shelf 2) Q=0.3055060029635709, Count=50
+apply(license plate, bed shelf 2) Q=0.31219459151067036, Count=50
+apply(shelf key, bed shelf 2) Q=1.212770660533339, Count=55
+apply(mental card, bed shelf 2) Q=0.3480214577910254, Count=50
+apply(magazine, bed shelf 2) Q=0.4785887360408554, Count=51
+apply(solar panel, bed shelf 2) Q=0.3563969172277179, Count=50
+apply(wrench, bed shelf 2) Q=0.28588149965228066, Count=50
+apply(old thesis paper, bed shelf 2) Q=0.3197313367672714, Count=50
+craft(license plate, shelf key) Q=0.30071559660867925, Count=50
+craft(license plate, mental card) Q=0.32374840128571974, Count=50
+craft(license plate, magazine) Q=0.3698854446233484, Count=50
+craft(license plate, solar panel) Q=0.42218029761313697, Count=50
+craft(license plate, wrench) Q=0.3133879588254093, Count=50
+craft(license plate, old thesis paper) Q=0.24195647008496404, Count=49
+craft(shelf key, mental card) Q=0.4021321435708476, Count=50
+craft(shelf key, magazine) Q=0.2592324017775829, Count=50
+craft(shelf key, solar panel) Q=0.3812188608214196, Count=50
+craft(shelf key, wrench) Q=0.2915063364434237, Count=50
+craft(shelf key, old thesis paper) Q=0.3540502159548043, Count=50
+craft(mental card, magazine) Q=0.4268385426211828, Count=50
+craft(mental card, solar panel) Q=0.4375464526600372, Count=50
+craft(mental card, wrench) Q=0.3754154227990318, Count=50
+craft(mental card, old thesis paper) Q=0.31802835505852045, Count=50
+craft(magazine, solar panel) Q=0.2863079787431255, Count=50
+craft(magazine, wrench) Q=0.22672953152335062, Count=49
+craft(magazine, old thesis paper) Q=0.2874096755266262, Count=50
+craft(solar panel, wrench) Q=0.2168393482789132, Count=49
+craft(solar panel, old thesis paper) Q=0.28851824937976867, Count=50
+craft(wrench, old thesis paper) Q=0.20269349377420803, Count=49
+move(Back to the passage way) Q=0.02315886546245259, Count=48
+move(Go to see the right side of bed) Q=0.4284780897341769, Count=50
+Action: apply(shelf key, bed shelf 2)
+Reward: Action executed successfully. You have successfully applied shelf key to bed shelf 2. The shelf is unlocked, there is a something inside
+Accumulated_reward: 43
+
+Step: 86
+craft(license plate, mental card) Q=0.1846502426541936, Count=49
+craft(license plate, magazine) Q=0.12504864860110937, Count=49
+craft(license plate, solar panel) Q=0.3462681144750781, Count=50
+craft(license plate, wrench) Q=0.35846679113939417, Count=50
+craft(license plate, old thesis paper) Q=0.19890885263118688, Count=49
+craft(mental card, magazine) Q=0.235288102494373, Count=50
+craft(mental card, solar panel) Q=0.27907476586452007, Count=50
+craft(mental card, wrench) Q=0.2764707515023624, Count=50
+craft(mental card, old thesis paper) Q=0.2824606336797391, Count=50
+craft(magazine, solar panel) Q=0.08849737121935047, Count=49
+craft(magazine, wrench) Q=0.22860377082878927, Count=50
+craft(magazine, old thesis paper) Q=0.3126518864180314, Count=50
+craft(solar panel, wrench) Q=0.3109134592277699, Count=50
+craft(solar panel, old thesis paper) Q=0.2905559834007559, Count=50
+craft(wrench, old thesis paper) Q=0.44634890916068237, Count=51
+move(Back to the passage way) Q=0.02409234829904623, Count=49
+move(Go to see the right side of bed) Q=0.7686175659407348, Count=53
+move(Explore what's inside the bed shelf) Q=0.501357058777007, Count=51
+Action: move(Go to see the right side of bed)
+Reward: Action executed successfully. Change to another scene: right side of bed.
+Accumulated_reward: 43
+
+Step: 87
+click(generator) Q=0.7238180342789766, Count=50
+apply(license plate, generator) Q=0.5563652316525557, Count=49
+apply(mental card, generator) Q=0.618049411106735, Count=49
+apply(magazine, generator) Q=0.7121524173218812, Count=50
+apply(solar panel, generator) Q=0.5906985516576405, Count=49
+apply(wrench, generator) Q=2.1997899169678954, Count=59
+apply(old thesis paper, generator) Q=0.6457834210771832, Count=50
+craft(license plate, mental card) Q=0.60013258808826, Count=49
+craft(license plate, magazine) Q=0.7811644799856053, Count=50
+craft(license plate, solar panel) Q=0.7711707170326432, Count=50
+craft(license plate, wrench) Q=0.5489525488645075, Count=49
+craft(license plate, old thesis paper) Q=0.5842960505977354, Count=49
+craft(mental card, magazine) Q=0.4925643303502475, Count=49
+craft(mental card, solar panel) Q=0.8376194641340022, Count=51
+craft(mental card, wrench) Q=0.7146760356074274, Count=50
+craft(mental card, old thesis paper) Q=0.7623313583258751, Count=50
+craft(magazine, solar panel) Q=0.5974031557249192, Count=49
+craft(magazine, wrench) Q=0.6585155788076366, Count=50
+craft(magazine, old thesis paper) Q=0.5426608513695582, Count=49
+craft(solar panel, wrench) Q=0.9813587460031933, Count=51
+craft(solar panel, old thesis paper) Q=0.7999115805273157, Count=50
+craft(wrench, old thesis paper) Q=0.6779491574889188, Count=50
+move(Back to the bed overview) Q=0.2765774113331346, Count=48
+Action: apply(wrench, generator)
+Reward: Action executed successfully. You have successfully applied wrench to generator. The board is pulled off, the generator is exposed
+Accumulated_reward: 44
+
+Step: 88
+Action: input(2610, top drawer)
+Reward: Action executed successfully. You have given an input 2610 to top drawer. The drawer is unlocked, there is a battery clip inside
+Accumulated_reward: 45
+
+Step: 89
+click(bottom drawer) Q=0.24789186026139423, Count=49
+click(battery clip) Q=1.011758424907085, Count=54
+apply(license plate, bottom drawer) Q=0.3973203894977482, Count=50
+apply(license plate, battery clip) Q=0.3871051241127103, Count=50
+apply(mental card, bottom drawer) Q=0.30303338056559287, Count=50
+apply(mental card, battery clip) Q=0.30653860394727545, Count=50
+apply(magazine, bottom drawer) Q=0.25148123592394156, Count=50
+apply(magazine, battery clip) Q=0.27735742848715583, Count=50
+apply(solar panel, bottom drawer) Q=0.3317679207323813, Count=50
+apply(solar panel, battery clip) Q=0.3429395024048682, Count=50
+apply(old thesis paper, bottom drawer) Q=0.3404697323431395, Count=50
+apply(old thesis paper, battery clip) Q=0.3295467705931568, Count=50
+craft(license plate, mental card) Q=0.2669931106640487, Count=50
+craft(license plate, magazine) Q=0.3461252666706855, Count=50
+craft(license plate, solar panel) Q=0.18228583711526752, Count=49
+craft(license plate, old thesis paper) Q=0.31465773191937413, Count=50
+craft(mental card, magazine) Q=0.3186856238734743, Count=50
+craft(mental card, solar panel) Q=0.2784808070421277, Count=50
+craft(mental card, old thesis paper) Q=0.34366535520272595, Count=50
+craft(magazine, solar panel) Q=0.2733039084862736, Count=50
+craft(magazine, old thesis paper) Q=0.2407394843184919, Count=49
+craft(solar panel, old thesis paper) Q=0.3371157384999677, Count=50
+move(Back to the passage way) Q=0.09973625733842048, Count=49
+Action: click(battery clip)
+Reward: Action executed successfully. You have just collected a battery clip. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 46
+
+Step: 90
+click(bottom drawer) Q=0.022763935069651096, Count=50
+apply(license plate, bottom drawer) Q=0.03614703171836353, Count=50
+apply(mental card, bottom drawer) Q=0.0, Count=50
+apply(magazine, bottom drawer) Q=0.0, Count=50
+apply(solar panel, bottom drawer) Q=0.0, Count=50
+apply(old thesis paper, bottom drawer) Q=0.01023071658804329, Count=50
+apply(battery clip, bottom drawer) Q=0.0, Count=50
+craft(license plate, mental card) Q=0.010796270133114115, Count=50
+craft(license plate, magazine) Q=0.0, Count=50
+craft(license plate, solar panel) Q=0.0, Count=50
+craft(license plate, old thesis paper) Q=0.0, Count=50
+craft(license plate, battery clip) Q=0.0, Count=50
+craft(mental card, magazine) Q=0.0, Count=50
+craft(mental card, solar panel) Q=0.014159093367747502, Count=50
+craft(mental card, old thesis paper) Q=0.013407541439587067, Count=50
+craft(mental card, battery clip) Q=0.0, Count=50
+craft(magazine, solar panel) Q=0.01023071658804329, Count=50
+craft(magazine, old thesis paper) Q=0.014955324501419788, Count=50
+craft(magazine, battery clip) Q=0.01023071658804329, Count=50
+craft(solar panel, old thesis paper) Q=0.0, Count=50
+craft(solar panel, battery clip) Q=0.011394592646027296, Count=50
+craft(old thesis paper, battery clip) Q=0.0, Count=50
+move(Back to the passage way) Q=0.0, Count=50
+Action: apply(license plate, bottom drawer)
+Reward: Nothing happens after you apply the tool. You may try to find some clue about the password to unlock this drawer.
+Accumulated_reward: 46
+
+Step: 91
+click(bottom drawer) Q=0.0, Count=50
+apply(license plate, bottom drawer) Q=0.0, Count=50
+apply(mental card, bottom drawer) Q=0.0, Count=50
+apply(magazine, bottom drawer) Q=0.0, Count=50
+apply(solar panel, bottom drawer) Q=0.0, Count=50
+apply(old thesis paper, bottom drawer) Q=0.0, Count=50
+apply(battery clip, bottom drawer) Q=0.0, Count=50
+craft(license plate, mental card) Q=0.012027746069952204, Count=50
+craft(license plate, magazine) Q=0.0, Count=50
+craft(license plate, solar panel) Q=0.012027746069952204, Count=50
+craft(license plate, old thesis paper) Q=0.0, Count=50
+craft(license plate, battery clip) Q=0.0, Count=50
+craft(mental card, magazine) Q=0.0, Count=50
+craft(mental card, solar panel) Q=0.0, Count=50
+craft(mental card, old thesis paper) Q=0.0, Count=50
+craft(mental card, battery clip) Q=0.01023071658804329, Count=50
+craft(magazine, solar panel) Q=0.0, Count=50
+craft(magazine, old thesis paper) Q=0.0, Count=50
+craft(magazine, battery clip) Q=0.010796270133114115, Count=50
+craft(solar panel, old thesis paper) Q=0.01269793949283138, Count=50
+craft(solar panel, battery clip) Q=0.0, Count=50
+craft(old thesis paper, battery clip) Q=0.0, Count=50
+move(Back to the passage way) Q=0.046004346917470976, Count=50
+Action: move(Back to the passage way)
+Reward: Action executed successfully. Change to another scene: passage way in van.
+Accumulated_reward: 46
+
+Step: 92
+craft(license plate, mental card) Q=0.01023071658804329, Count=50
+craft(license plate, magazine) Q=0.07929648186110463, Count=50
+craft(license plate, solar panel) Q=0.023395704997069677, Count=50
+craft(license plate, old thesis paper) Q=0.010796270133114115, Count=50
+craft(license plate, battery clip) Q=0.010796270133114115, Count=50
+craft(mental card, magazine) Q=0.010796270133114115, Count=50
+craft(mental card, solar panel) Q=0.013407541439587067, Count=50
+craft(mental card, old thesis paper) Q=0.04016020802975407, Count=50
+craft(mental card, battery clip) Q=0.011394592646027296, Count=50
+craft(magazine, solar panel) Q=0.04606049207151457, Count=50
+craft(magazine, old thesis paper) Q=0.02346757025108296, Count=50
+craft(magazine, battery clip) Q=0.03558423460562769, Count=50
+craft(solar panel, old thesis paper) Q=0.0, Count=50
+craft(solar panel, battery clip) Q=0.028998328106581157, Count=50
+craft(old thesis paper, battery clip) Q=0.029890023242958412, Count=50
+move(Back to the front of the van overview) Q=0.0, Count=50
+move(Back to the door of the van) Q=0.0, Count=50
+move(Explore the drawers) Q=0.0, Count=50
+move(Go to the bed) Q=0.13783464969017023, Count=50
+Action: move(Go to the bed)
+Reward: Action executed successfully. Change to another scene: bed overview.
+Accumulated_reward: 46
+
+Step: 93
+craft(license plate, mental card) Q=0.13029825280509225, Count=50
+craft(license plate, magazine) Q=0.11471161487975075, Count=50
+craft(license plate, solar panel) Q=0.22825609460368382, Count=50
+craft(license plate, old thesis paper) Q=0.14234140402807346, Count=50
+craft(license plate, battery clip) Q=0.11624524466848299, Count=50
+craft(mental card, magazine) Q=0.16534611883239048, Count=50
+craft(mental card, solar panel) Q=0.20568754226894792, Count=50
+craft(mental card, old thesis paper) Q=0.14844155925200617, Count=50
+craft(mental card, battery clip) Q=0.08725958555391494, Count=49
+craft(magazine, solar panel) Q=0.17801998501553207, Count=50
+craft(magazine, old thesis paper) Q=0.21758798322122513, Count=50
+craft(magazine, battery clip) Q=0.14838493021070198, Count=50
+craft(solar panel, old thesis paper) Q=0.20694996858194514, Count=50
+craft(solar panel, battery clip) Q=0.1592936859217398, Count=50
+craft(old thesis paper, battery clip) Q=0.1439770813598807, Count=50
+move(Back to the passage way) Q=0.01295675520573333, Count=49
+move(Go to see the right side of bed) Q=0.271235401627007, Count=50
+move(Explore what's inside the bed shelf) Q=0.5741294094082742, Count=52
+Action: move(Explore what's inside the bed shelf)
+Reward: Action executed successfully. Change to another scene: bed shelf inside.
+Accumulated_reward: 46
+
+Step: 94
+click(safe box) Q=0.5243370626876371, Count=50
+click(scraper) Q=1.309997607859761, Count=54
+apply(license plate, safe box) Q=0.4486693382579535, Count=49
+apply(license plate, scraper) Q=0.6714828472627217, Count=51
+apply(mental card, safe box) Q=1.2586507416521646, Count=54
+apply(mental card, scraper) Q=0.3897334550125756, Count=49
+apply(magazine, safe box) Q=0.585178282602249, Count=50
+apply(magazine, scraper) Q=0.39027875107136495, Count=49
+apply(solar panel, safe box) Q=0.4697404902977134, Count=50
+apply(solar panel, scraper) Q=0.4982724484612345, Count=50
+apply(old thesis paper, safe box) Q=0.45612599103410595, Count=49
+apply(old thesis paper, scraper) Q=0.5566862519657066, Count=50
+apply(battery clip, safe box) Q=0.4659686712499789, Count=49
+apply(battery clip, scraper) Q=0.4599923803709659, Count=50
+craft(license plate, mental card) Q=0.5987970672772976, Count=50
+craft(license plate, magazine) Q=0.4631106161011039, Count=49
+craft(license plate, solar panel) Q=0.6024385667201277, Count=50
+craft(license plate, old thesis paper) Q=0.48789406331319224, Count=50
+craft(license plate, battery clip) Q=0.5205594830062422, Count=50
+craft(mental card, magazine) Q=0.4431616617289015, Count=49
+craft(mental card, solar panel) Q=0.5891743981481947, Count=50
+craft(mental card, old thesis paper) Q=0.6349402066966525, Count=50
+craft(mental card, battery clip) Q=0.6125538186472324, Count=50
+craft(magazine, solar panel) Q=0.47925350296708014, Count=50
+craft(magazine, old thesis paper) Q=0.5468759732037052, Count=50
+craft(magazine, battery clip) Q=0.568166845115876, Count=50
+craft(solar panel, old thesis paper) Q=0.573878809672104, Count=50
+craft(solar panel, battery clip) Q=0.6159481214662624, Count=50
+craft(old thesis paper, battery clip) Q=0.5180255583665634, Count=50
+move(Back to the bed overview) Q=0.19116604762604558, Count=48
+Action: click(scraper)
+Reward: Action executed successfully. You have just collected a scraper. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 47
+
+Step: 95
+click(safe box) Q=0.26582903148942827, Count=50
+apply(license plate, safe box) Q=0.19743755086733175, Count=49
+apply(mental card, safe box) Q=1.0105514156978854, Count=54
+apply(magazine, safe box) Q=0.24191783590491633, Count=50
+apply(solar panel, safe box) Q=0.2520211441213914, Count=50
+apply(old thesis paper, safe box) Q=0.170042745478239, Count=49
+apply(battery clip, safe box) Q=0.30188161412658443, Count=50
+apply(scraper, safe box) Q=0.21382848678988514, Count=50
+craft(license plate, mental card) Q=0.2808405079895339, Count=50
+craft(license plate, magazine) Q=0.2301339033493436, Count=50
+craft(license plate, solar panel) Q=0.2227992157432786, Count=50
+craft(license plate, old thesis paper) Q=0.23818062925064692, Count=50
+craft(license plate, battery clip) Q=0.25760271553705305, Count=50
+craft(license plate, scraper) Q=0.2687399658337185, Count=50
+craft(mental card, magazine) Q=0.21975466785431028, Count=50
+craft(mental card, solar panel) Q=0.28897661138630687, Count=50
+craft(mental card, old thesis paper) Q=0.2996695200961303, Count=50
+craft(mental card, battery clip) Q=0.3192902084607526, Count=50
+craft(mental card, scraper) Q=0.2766964211036219, Count=50
+craft(magazine, solar panel) Q=0.2909167538526069, Count=50
+craft(magazine, old thesis paper) Q=0.27543688784554166, Count=50
+craft(magazine, battery clip) Q=0.2892360872261748, Count=50
+craft(magazine, scraper) Q=0.27698944196465414, Count=50
+craft(solar panel, old thesis paper) Q=0.23080932675535126, Count=50
+craft(solar panel, battery clip) Q=0.21362025362452822, Count=50
+craft(solar panel, scraper) Q=0.27659371741329053, Count=50
+craft(old thesis paper, battery clip) Q=0.1974948602832157, Count=49
+craft(old thesis paper, scraper) Q=0.2327463329251391, Count=50
+craft(battery clip, scraper) Q=0.2516213233988714, Count=50
+move(Back to the bed overview) Q=0.07715174412440573, Count=49
+Action: apply(mental card, safe box)
+Reward: Action executed successfully. You have successfully applied mental card to safe box. The safe box is filled with 16 cards, a panel in need of password is shown
+Accumulated_reward: 48
+
+Step: 96
+click(safe box) Q=0.011394592646027296, Count=50
+apply(license plate, safe box) Q=0.013407541439587067, Count=50
+apply(magazine, safe box) Q=0.0, Count=50
+apply(solar panel, safe box) Q=0.0, Count=50
+apply(old thesis paper, safe box) Q=0.02783836955679423, Count=50
+apply(battery clip, safe box) Q=0.013407541439587067, Count=50
+apply(scraper, safe box) Q=0.0, Count=50
+craft(license plate, magazine) Q=0.0, Count=50
+craft(license plate, solar panel) Q=0.0, Count=50
+craft(license plate, old thesis paper) Q=0.0336515807740487, Count=50
+craft(license plate, battery clip) Q=0.02469605009922908, Count=50
+craft(license plate, scraper) Q=0.0, Count=50
+craft(magazine, solar panel) Q=0.010796270133114115, Count=50
+craft(magazine, old thesis paper) Q=0.01023071658804329, Count=50
+craft(magazine, battery clip) Q=0.011394592646027296, Count=50
+craft(magazine, scraper) Q=0.0336515807740487, Count=50
+craft(solar panel, old thesis paper) Q=0.0, Count=50
+craft(solar panel, battery clip) Q=0.042713425445023816, Count=50
+craft(solar panel, scraper) Q=0.0215698405055186, Count=50
+craft(old thesis paper, battery clip) Q=0.01269793949283138, Count=50
+craft(old thesis paper, scraper) Q=0.011394592646027296, Count=50
+craft(battery clip, scraper) Q=0.0, Count=50
+move(Back to the bed overview) Q=0.0966484277737579, Count=50
+Action: move(Back to the bed overview)
+Reward: Action executed successfully. Change to another scene: bed overview.
+Accumulated_reward: 48
+
+Step: 97
+craft(license plate, magazine) Q=0.05390936863705397, Count=50
+craft(license plate, solar panel) Q=0.08792075124503683, Count=50
+craft(license plate, old thesis paper) Q=0.09099677679942662, Count=50
+craft(license plate, battery clip) Q=0.11381160380287529, Count=50
+craft(license plate, scraper) Q=0.042492151580218296, Count=50
+craft(magazine, solar panel) Q=0.07929335681321018, Count=50
+craft(magazine, old thesis paper) Q=0.06558888777378924, Count=50
+craft(magazine, battery clip) Q=0.05228119120163309, Count=50
+craft(magazine, scraper) Q=0.08083111839267716, Count=50
+craft(solar panel, old thesis paper) Q=0.1322296341353388, Count=50
+craft(solar panel, battery clip) Q=0.011016365575631333, Count=49
+craft(solar panel, scraper) Q=0.07336152319708876, Count=50
+craft(old thesis paper, battery clip) Q=0.11241268328394427, Count=50
+craft(old thesis paper, scraper) Q=0.05922206472036845, Count=50
+craft(battery clip, scraper) Q=0.07005390665248065, Count=50
+move(Back to the passage way) Q=0.07271310158042117, Count=50
+move(Go to see the right side of bed) Q=0.2356296862576391, Count=51
+move(Explore what's inside the bed shelf) Q=0.022166921721517928, Count=50
+Action: move(Go to see the right side of bed)
+Reward: Action executed successfully. Change to another scene: right side of bed.
+Accumulated_reward: 48
+
+Step: 98
+click(generator) Q=0.327497751826132, Count=50
+apply(license plate, generator) Q=0.290723474767412, Count=50
+apply(magazine, generator) Q=0.2631926651335421, Count=50
+apply(solar panel, generator) Q=0.2959542596049666, Count=50
+apply(old thesis paper, generator) Q=0.22181164595793612, Count=49
+apply(battery clip, generator) Q=0.9999999999999997, Count=54
+apply(scraper, generator) Q=0.34646315463161126, Count=50
+craft(license plate, magazine) Q=0.26253432046923797, Count=50
+craft(license plate, solar panel) Q=0.2911347299770571, Count=50
+craft(license plate, old thesis paper) Q=0.19847023501397368, Count=49
+craft(license plate, battery clip) Q=0.32167499819102086, Count=50
+craft(license plate, scraper) Q=0.2888056683458515, Count=50
+craft(magazine, solar panel) Q=0.2834930718410284, Count=50
+craft(magazine, old thesis paper) Q=0.3012442214171613, Count=50
+craft(magazine, battery clip) Q=0.279497188497782, Count=50
+craft(magazine, scraper) Q=0.309478186731709, Count=50
+craft(solar panel, old thesis paper) Q=0.3635195856406833, Count=50
+craft(solar panel, battery clip) Q=0.33238401432079867, Count=50
+craft(solar panel, scraper) Q=0.42494287346178267, Count=50
+craft(old thesis paper, battery clip) Q=0.349635338050587, Count=50
+craft(old thesis paper, scraper) Q=0.33820011240262965, Count=50
+craft(battery clip, scraper) Q=0.29797946828543365, Count=50
+move(Back to the bed overview) Q=0.06307017818760727, Count=48
+Action: apply(battery clip, generator)
+Reward: Action executed successfully. You have successfully applied battery clip to generator. The generator is powered on, the solar panel slot opens now
+Accumulated_reward: 49
+
+Step: 99
+craft(license plate, magazine) Q=0.0, Count=50
+craft(license plate, solar panel) Q=0.0, Count=50
+craft(license plate, old thesis paper) Q=0.0, Count=50
+craft(license plate, scraper) Q=0.0, Count=50
+craft(magazine, solar panel) Q=0.010796270133114115, Count=50
+craft(magazine, old thesis paper) Q=0.0, Count=50
+craft(magazine, scraper) Q=0.0, Count=50
+craft(solar panel, old thesis paper) Q=0.0, Count=50
+craft(solar panel, scraper) Q=0.0, Count=50
+craft(old thesis paper, scraper) Q=0.0, Count=50
+move(Back to the bed overview) Q=0.014955324501419788, Count=50
+Action: move(Back to the bed overview)
+Reward: Action executed successfully. Change to another scene: bed overview.
+Accumulated_reward: 49
+
+Step: 100
+craft(license plate, magazine) Q=0.02346757025108296, Count=50
+craft(license plate, solar panel) Q=0.04875602534752264, Count=50
+craft(license plate, old thesis paper) Q=0.02779017001853175, Count=50
+craft(license plate, scraper) Q=0.011394592646027296, Count=50
+craft(magazine, solar panel) Q=0.0, Count=50
+craft(magazine, old thesis paper) Q=0.060037956543060225, Count=50
+craft(magazine, scraper) Q=0.01269793949283138, Count=50
+craft(solar panel, old thesis paper) Q=0.03487764856522097, Count=50
+craft(solar panel, scraper) Q=0.0, Count=50
+craft(old thesis paper, scraper) Q=0.011394592646027296, Count=50
+move(Back to the passage way) Q=0.11715414338759707, Count=50
+move(Go to see the right side of bed) Q=0.0, Count=50
+move(Explore what's inside the bed shelf) Q=0.0, Count=50
+Action: move(Back to the passage way)
+Reward: Action executed successfully. Change to another scene: passage way in van.
+Accumulated_reward: 49
+

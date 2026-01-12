@@ -1,0 +1,1329 @@
+Step: 1
+move(To the blocked path close-up) Q=1.4100441918143978, Count=53
+move(To the cabinet close-up) Q=0.7814960107744378, Count=49
+move(To the hallway right) Q=0.6028871255744317, Count=48
+Action: move(To the blocked path close-up)
+Reward: Action executed successfully. Change to another scene: blocked path close-up.
+Accumulated_reward: 0
+
+Step: 2
+click(drawer without lock) Q=2.1702556062947487, Count=54
+move(Back to the hallway) Q=0.8995670671934571, Count=46
+Action: click(drawer without lock)
+Reward: Action executed successfully. You have clicked on drawer without lock.
+Accumulated_reward: 1
+
+Step: 3
+click(drawer without lock) Q=1.8645808280396843, Count=53
+move(Back to the hallway) Q=0.8425747515747992, Count=47
+Action: click(drawer without lock)
+Reward: Action executed successfully. You have clicked on drawer without lock. You've found a piece of paper with a code on it.
+Accumulated_reward: 2
+
+Step: 4
+click(paper1) Q=1.1597383713134015, Count=52
+move(Back to the hallway) Q=0.4603179721680222, Count=48
+Action: click(paper1)
+Reward: Action executed successfully. You have just collected a paper1. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 3
+
+Step: 5
+move(Back to the hallway) Q=0.08729347528438923, Count=50
+Action: move(Back to the hallway)
+Reward: Action executed successfully. Change to another scene: hallway.
+Accumulated_reward: 3
+
+Step: 6
+move(To the blocked path close-up) Q=0.16887216666247862, Count=50
+move(To the cabinet close-up) Q=0.0670333818682319, Count=49
+move(To the hallway right) Q=0.33522767293630545, Count=51
+Action: move(To the hallway right)
+Reward: Action executed successfully. Change to another scene: hallway right.
+Accumulated_reward: 3
+
+Step: 7
+move(To the small cabinet close-up) Q=0.3326026114678665, Count=50
+move(To the large cabinet close-up) Q=1.0035654813537054, Count=54
+move(To the ventilation fan close-up) Q=0.15916667168264617, Count=49
+move(To the operating room door overview) Q=0.20302328099225708, Count=49
+move(To room 805 door view) Q=0.31527179408143013, Count=49
+move(To the hallway) Q=0.2566256604970501, Count=49
+Action: move(To the large cabinet close-up)
+Reward: Action executed successfully. Change to another scene: large cabinet close-up.
+Accumulated_reward: 3
+
+Step: 8
+click(large cabinet door) Q=1.5738566554123505, Count=54
+apply(paper1, large cabinet door) Q=0.9330069706244873, Count=50
+move(Back to the hallway right) Q=0.3997693421073403, Count=46
+Action: click(large cabinet door)
+Reward: Action executed successfully. You have clicked on large cabinet door.
+Accumulated_reward: 4
+
+Step: 9
+click(key for room 805) Q=1.334728150741471, Count=54
+apply(paper1, key for room 805) Q=0.6504207935050468, Count=49
+move(Back to the hallway right) Q=0.15987442612578712, Count=47
+Action: click(key for room 805)
+Reward: Action executed successfully. You have just collected a key for room 805. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 5
+
+Step: 10
+craft(paper1, key for room 805) Q=0.2206762877127634, Count=50
+move(Back to the hallway right) Q=0.223558639528961, Count=50
+Action: move(Back to the hallway right)
+Reward: Action executed successfully. Change to another scene: hallway right.
+Accumulated_reward: 5
+
+Step: 11
+craft(paper1, key for room 805) Q=0.1936668182816979, Count=49
+move(To the small cabinet close-up) Q=0.10228074947958793, Count=49
+move(To the large cabinet close-up) Q=0.1750004968385709, Count=49
+move(To the ventilation fan close-up) Q=0.09343139784305811, Count=49
+move(To the operating room door overview) Q=0.25259749733856, Count=50
+move(To room 805 door view) Q=1.0088637077250164, Count=54
+move(To the hallway) Q=0.21943303021372837, Count=50
+Action: move(To room 805 door view)
+Reward: Action executed successfully. Change to another scene: room 805 door view.
+Accumulated_reward: 5
+
+Step: 12
+click(room 805 door) Q=0.8434398115383633, Count=50
+apply(paper1, room 805 door) Q=0.926295542143467, Count=50
+apply(key for room 805, room 805 door) Q=1.6229375115780231, Count=54
+craft(paper1, key for room 805) Q=1.0012025650632428, Count=50
+move(Back to the hallway right) Q=0.21383190715858327, Count=46
+Action: apply(key for room 805, room 805 door)
+Reward: Action executed successfully. You have successfully applied key for room 805 to room 805 door.
+Accumulated_reward: 6
+
+Step: 13
+click(room 805 door) Q=1.2307399341492615, Count=53
+apply(paper1, room 805 door) Q=0.7077511564503804, Count=50
+move(Back to the hallway right) Q=0.249454856646124, Count=47
+Action: click(room 805 door)
+Reward: Action executed successfully. You have clicked on room 805 door.
+Accumulated_reward: 7
+
+Step: 14
+move(Back to the hallway right) Q=0.18560558047498155, Count=50
+Action: move(Back to the hallway right)
+Reward: Action executed successfully. Change to another scene: hallway right.
+Accumulated_reward: 7
+
+Step: 15
+move(To the small cabinet close-up) Q=0.07420440842226192, Count=49
+move(To the large cabinet close-up) Q=0.08574686164763298, Count=49
+move(To the ventilation fan close-up) Q=0.28435439154711084, Count=51
+move(To the operating room door overview) Q=0.10884845641023684, Count=49
+move(To room 805 door view) Q=0.1719352709336039, Count=50
+move(To room 805) Q=0.7507694583750433, Count=53
+move(To the hallway) Q=0.11061675101321526, Count=49
+Action: move(To room 805)
+Reward: Action executed successfully. Change to another scene: room 805.
+Accumulated_reward: 7
+
+Step: 16
+move(To the desk close-up) Q=1.1550287289865397, Count=52
+move(To the left bookshelf close-up) Q=1.3266801417817247, Count=52
+move(To the right bookshelf close-up) Q=1.0176991765938856, Count=51
+move(To the bedside table close-up) Q=0.7198441138016791, Count=49
+move(To the right part of the room) Q=0.6788600530549859, Count=49
+move(To the hallway right) Q=0.321782608938313, Count=47
+Action: move(To the left bookshelf close-up)
+Reward: Action executed successfully. Change to another scene: left bookshelf close-up.
+Accumulated_reward: 7
+
+Step: 17
+click(book1) Q=2.121596160263066, Count=54
+apply(paper1, book1) Q=1.6323052428310574, Count=51
+move(Back to room 805) Q=0.6920946445723432, Count=45
+Action: click(book1)
+Reward: Action executed successfully. You have clicked on book1.
+Accumulated_reward: 8
+
+Step: 18
+click(book1) Q=1.2395748760179917, Count=49
+click(book4) Q=2.1618713199819806, Count=55
+apply(paper1, book1) Q=1.2171070128678718, Count=49
+apply(paper1, book4) Q=1.3263441881773756, Count=50
+move(Back to room 805) Q=0.6963454821825888, Count=47
+Action: click(book4)
+Reward: Action executed successfully. You have clicked on book4.
+Accumulated_reward: 9
+
+Step: 19
+click(book1) Q=0.9204082721376166, Count=49
+click(book2) Q=1.9306143976890124, Count=55
+click(book4) Q=0.9520170281104703, Count=49
+apply(paper1, book1) Q=0.9450056099584467, Count=49
+apply(paper1, book2) Q=1.022180567282134, Count=50
+apply(paper1, book4) Q=1.0110628521721992, Count=50
+move(Back to room 805) Q=0.7072261177987665, Count=48
+Action: click(book2)
+Reward: Action executed successfully. You have clicked on book2.
+Accumulated_reward: 10
+
+Step: 20
+click(book1) Q=0.9404795019951343, Count=49
+click(book2) Q=0.8498324746794824, Count=49
+click(book3) Q=2.0095283285013017, Count=56
+click(book4) Q=1.0438760106704368, Count=50
+apply(paper1, book1) Q=1.071929794953027, Count=50
+apply(paper1, book2) Q=0.8283018652356208, Count=49
+apply(paper1, book3) Q=0.8998246964480663, Count=49
+apply(paper1, book4) Q=0.9464852069371948, Count=50
+move(Back to room 805) Q=0.6701797681079694, Count=48
+Action: click(book3)
+Reward: Action executed successfully. You have clicked on book3.
+Accumulated_reward: 11
+
+Step: 21
+click(book1) Q=0.8737562914293123, Count=49
+click(book2) Q=1.001731948613017, Count=50
+click(book3) Q=0.8866972080742073, Count=49
+click(book4) Q=0.7986197860789674, Count=49
+click(book5) Q=1.8679734764803857, Count=55
+apply(paper1, book1) Q=0.9395715965919854, Count=50
+apply(paper1, book2) Q=1.1214469908245808, Count=50
+apply(paper1, book3) Q=0.96414925305039, Count=50
+apply(paper1, book4) Q=1.0228128634934424, Count=50
+apply(paper1, book5) Q=0.9327211325226057, Count=50
+move(Back to room 805) Q=0.7244930587449463, Count=48
+Action: click(book5)
+Reward: Action executed successfully. You have clicked on book5.
+Accumulated_reward: 12
+
+Step: 22
+click(keycard) Q=1.4054430282936095, Count=53
+apply(paper1, keycard) Q=0.9132751560856113, Count=49
+move(Back to room 805) Q=0.6075895799412261, Count=48
+Action: click(keycard)
+Reward: Action executed successfully. You have just collected a keycard. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 13
+
+Step: 23
+craft(paper1, keycard) Q=0.2977487023010225, Count=49
+move(Back to room 805) Q=0.5313650605994091, Count=51
+Action: move(Back to room 805)
+Reward: Action executed successfully. Change to another scene: room 805.
+Accumulated_reward: 13
+
+Step: 24
+craft(paper1, keycard) Q=0.44088729402875027, Count=50
+move(To the desk close-up) Q=0.8855006827751818, Count=52
+move(To the left bookshelf close-up) Q=0.27388442505774135, Count=49
+move(To the right bookshelf close-up) Q=0.63064667065404, Count=51
+move(To the bedside table close-up) Q=0.1629419976127616, Count=48
+move(To the right part of the room) Q=0.5716459331960737, Count=51
+move(To the hallway right) Q=0.2595638285124874, Count=49
+Action: move(To the desk close-up)
+Reward: Action executed successfully. Change to another scene: desk close-up.
+Accumulated_reward: 13
+
+Step: 25
+click(drawer with code lock) Q=0.7441567265508752, Count=50
+apply(paper1, drawer with code lock) Q=1.3351207735536637, Count=53
+apply(keycard, drawer with code lock) Q=0.8458969942379841, Count=50
+craft(paper1, keycard) Q=0.7268577419387104, Count=49
+move(Back to the room 805) Q=0.4140797287535293, Count=48
+Action: apply(paper1, drawer with code lock)
+Reward: Action executed successfully. You have successfully applied paper1 to drawer with code lock.
+However, the apply of paper1 is not enough, and drawer with code lock is still missing something else ...
+Accumulated_reward: 14
+
+Step: 26
+click(drawer with code lock) Q=0.2463440017679564, Count=49
+apply(keycard, drawer with code lock) Q=0.2623775228815771, Count=50
+move(Back to the room 805) Q=0.4334222683808223, Count=51
+Action: move(Back to the room 805)
+Reward: Action executed successfully. Change to another scene: room 805.
+Accumulated_reward: 14
+
+Step: 27
+move(To the desk close-up) Q=0.3208342498505355, Count=49
+move(To the left bookshelf close-up) Q=0.411954145812997, Count=50
+move(To the right bookshelf close-up) Q=0.7319000447153702, Count=52
+move(To the bedside table close-up) Q=0.24060687247007206, Count=49
+move(To the right part of the room) Q=0.5608924992527262, Count=51
+move(To the hallway right) Q=0.2710931339210364, Count=49
+Action: move(To the right bookshelf close-up)
+Reward: Action executed successfully. Change to another scene: right bookshelf close-up.
+Accumulated_reward: 14
+
+Step: 28
+click(battery) Q=1.443451329407361, Count=54
+apply(keycard, battery) Q=0.796135711723601, Count=49
+move(Back to room 805) Q=0.3811204164129362, Count=47
+Action: click(battery)
+Reward: Action executed successfully. You have just collected a battery. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 15
+
+Step: 29
+craft(keycard, battery) Q=0.15904735111996166, Count=49
+move(Back to room 805) Q=0.508977473267104, Count=51
+Action: move(Back to room 805)
+Reward: Action executed successfully. Change to another scene: room 805.
+Accumulated_reward: 15
+
+Step: 30
+craft(keycard, battery) Q=0.299701732228749, Count=49
+move(To the desk close-up) Q=0.17199338698414476, Count=49
+move(To the left bookshelf close-up) Q=0.3953990747319233, Count=50
+move(To the right bookshelf close-up) Q=0.3791878212090136, Count=50
+move(To the bedside table close-up) Q=0.12015647006054324, Count=49
+move(To the right part of the room) Q=1.07714938573688, Count=54
+move(To the hallway right) Q=0.2049325612242791, Count=49
+Action: move(To the right part of the room)
+Reward: Action executed successfully. Change to another scene: 805 right room.
+Accumulated_reward: 15
+
+Step: 31
+click(painting1) Q=1.0805100843809405, Count=49
+click(painting2) Q=0.9990246267216796, Count=49
+click(drill bit) Q=2.645863321517532, Count=59
+apply(keycard, painting1) Q=1.2489429684056046, Count=50
+apply(keycard, painting2) Q=1.1003082034223575, Count=49
+apply(keycard, drill bit) Q=1.123567150557951, Count=49
+apply(battery, painting1) Q=1.1531702247540414, Count=50
+apply(battery, painting2) Q=1.1751295475090573, Count=50
+apply(battery, drill bit) Q=1.144149841963916, Count=49
+craft(keycard, battery) Q=1.0658441283190903, Count=49
+move(Back to the room 805) Q=0.5607063157654577, Count=47
+Action: click(drill bit)
+Reward: Action executed successfully. You have just collected a drill bit. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 16
+
+Step: 32
+Action: input(150, bedside drawer)
+Reward: Action executed successfully. You have given an input 150 to bedside drawer.
+Accumulated_reward: 17
+
+Step: 33
+click(bedside drawer) Q=1.501318629494286, Count=55
+apply(keycard, bedside drawer) Q=0.7421142277392757, Count=50
+apply(battery, bedside drawer) Q=0.6553507390477739, Count=49
+apply(drill bit, bedside drawer) Q=0.8057328118086943, Count=50
+craft(keycard, battery) Q=0.8378387721479753, Count=50
+craft(keycard, drill bit) Q=0.714252041055217, Count=50
+craft(battery, drill bit) Q=0.6026644962135164, Count=49
+move(Back to room 805) Q=0.1661210871976457, Count=47
+Action: click(bedside drawer)
+Reward: Action executed successfully. You have clicked on bedside drawer. You've found a piece of paper with part of the code on it.
+Accumulated_reward: 18
+
+Step: 34
+click(paper2) Q=1.0484965254465834, Count=53
+apply(keycard, paper2) Q=0.4584270990293353, Count=50
+apply(battery, paper2) Q=0.46777191103818216, Count=50
+apply(drill bit, paper2) Q=0.437683896066004, Count=49
+craft(keycard, battery) Q=0.5308014776634784, Count=50
+craft(keycard, drill bit) Q=0.5713677191355305, Count=50
+craft(battery, drill bit) Q=0.5061773470991195, Count=50
+move(Back to room 805) Q=0.19210302720789071, Count=48
+Action: click(paper2)
+Reward: Action executed successfully. You have just collected a paper2. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 19
+
+Step: 35
+craft(keycard, battery) Q=0.020441022284618995, Count=50
+craft(keycard, drill bit) Q=0.06037247723448688, Count=50
+craft(keycard, paper2) Q=0.03614703171836353, Count=50
+craft(battery, drill bit) Q=0.11097843813286594, Count=50
+craft(battery, paper2) Q=0.0636988304851576, Count=50
+craft(drill bit, paper2) Q=0.022166921721517928, Count=50
+move(Back to room 805) Q=0.07393748442920614, Count=50
+Action: craft(battery, drill bit)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 19
+
+Step: 36
+craft(keycard, battery) Q=0.053965808104777566, Count=50
+craft(keycard, drill bit) Q=0.022234516772856972, Count=50
+craft(keycard, paper2) Q=0.05205267831404312, Count=50
+craft(battery, drill bit) Q=0.03558423460562769, Count=50
+craft(battery, paper2) Q=0.07180635736274825, Count=50
+craft(drill bit, paper2) Q=0.021005461793215927, Count=50
+move(Back to room 805) Q=0.11086697757775095, Count=50
+Action: move(Back to room 805)
+Reward: Action executed successfully. Change to another scene: room 805.
+Accumulated_reward: 19
+
+Step: 37
+craft(keycard, battery) Q=0.1427423477349657, Count=50
+craft(keycard, drill bit) Q=0.06337402590056669, Count=50
+craft(keycard, paper2) Q=0.08521187109614117, Count=50
+craft(battery, drill bit) Q=0.09519449875405434, Count=50
+craft(battery, paper2) Q=0.07909771318795955, Count=50
+craft(drill bit, paper2) Q=0.07849334865358056, Count=50
+move(To the desk close-up) Q=0.4317075380375756, Count=52
+move(To the left bookshelf close-up) Q=0.021005461793215927, Count=50
+move(To the right bookshelf close-up) Q=0.014447650523041242, Count=49
+move(To the bedside table close-up) Q=0.059710839970808255, Count=50
+move(To the right part of the room) Q=0.011626872153815313, Count=49
+move(To the hallway right) Q=0.1411433118582518, Count=50
+Action: move(To the desk close-up)
+Reward: Action executed successfully. Change to another scene: desk close-up.
+Accumulated_reward: 19
+
+Step: 38
+click(drawer with code lock) Q=0.3134731784734238, Count=50
+apply(keycard, drawer with code lock) Q=0.4550851695894365, Count=50
+apply(battery, drawer with code lock) Q=0.31512767298312866, Count=49
+apply(drill bit, drawer with code lock) Q=0.3695435175031222, Count=50
+apply(paper2, drawer with code lock) Q=0.9999999999999998, Count=53
+craft(keycard, battery) Q=0.40097177455140814, Count=50
+craft(keycard, drill bit) Q=0.45136419041892667, Count=50
+craft(keycard, paper2) Q=0.40020054675625927, Count=50
+craft(battery, drill bit) Q=0.47057938726674375, Count=50
+craft(battery, paper2) Q=0.40127218231722894, Count=50
+craft(drill bit, paper2) Q=0.41824777808511376, Count=50
+move(Back to the room 805) Q=0.1173468618682523, Count=48
+Action: apply(paper2, drawer with code lock)
+Reward: Action executed successfully. You have successfully applied paper2 to drawer with code lock.
+However, the apply of paper2 is not enough, and drawer with code lock is still missing something else ...
+Accumulated_reward: 20
+
+Step: 39
+click(drawer with code lock) Q=0.0, Count=50
+apply(keycard, drawer with code lock) Q=0.012027746069952204, Count=50
+apply(battery, drawer with code lock) Q=0.011394592646027296, Count=50
+apply(drill bit, drawer with code lock) Q=0.012027746069952204, Count=50
+craft(keycard, battery) Q=0.0, Count=50
+craft(keycard, drill bit) Q=0.0, Count=50
+craft(battery, drill bit) Q=0.011394592646027296, Count=50
+move(Back to the room 805) Q=0.013407541439587067, Count=50
+Action: move(Back to the room 805)
+Reward: Action executed successfully. Change to another scene: room 805.
+Accumulated_reward: 20
+
+Step: 40
+craft(keycard, battery) Q=0.03957901666948823, Count=50
+craft(keycard, drill bit) Q=0.025522409061886766, Count=50
+craft(battery, drill bit) Q=0.01023071658804329, Count=50
+move(To the desk close-up) Q=0.0, Count=50
+move(To the left bookshelf close-up) Q=0.0, Count=50
+move(To the right bookshelf close-up) Q=0.0, Count=50
+move(To the bedside table close-up) Q=0.013407541439587067, Count=50
+move(To the right part of the room) Q=0.0, Count=50
+move(To the hallway right) Q=0.08096864579967336, Count=50
+Action: move(To the hallway right)
+Reward: Action executed successfully. Change to another scene: hallway right.
+Accumulated_reward: 20
+
+Step: 41
+craft(keycard, battery) Q=0.09738052684172091, Count=50
+craft(keycard, drill bit) Q=0.06815354904450249, Count=50
+craft(battery, drill bit) Q=0.11211059346171462, Count=50
+move(To the small cabinet close-up) Q=0.05500893880347682, Count=50
+move(To the large cabinet close-up) Q=0.09838027584871115, Count=50
+move(To the ventilation fan close-up) Q=0.034108111109070825, Count=50
+move(To the operating room door overview) Q=0.48545800601934325, Count=52
+move(To room 805 door view) Q=0.02143324851003313, Count=49
+move(To room 805) Q=0.0409769961312922, Count=50
+move(To the hallway) Q=0.015260085342022275, Count=49
+Action: move(To the operating room door overview)
+Reward: Action executed successfully. Change to another scene: operating room door overview.
+Accumulated_reward: 20
+
+Step: 42
+click(operating room door) Q=0.4061937702455999, Count=49
+apply(keycard, operating room door) Q=1.096980972231837, Count=53
+apply(battery, operating room door) Q=0.4452679779878907, Count=50
+apply(drill bit, operating room door) Q=0.5702841982509042, Count=50
+craft(keycard, battery) Q=0.5168209697857755, Count=50
+craft(keycard, drill bit) Q=0.49307489738937454, Count=50
+craft(battery, drill bit) Q=0.4882081296504692, Count=50
+move(Back to the hallway right) Q=0.13262949717182748, Count=48
+Action: apply(keycard, operating room door)
+Reward: Action executed successfully. You have successfully applied keycard to operating room door.
+Accumulated_reward: 21
+
+Step: 43
+craft(battery, drill bit) Q=0.06630878829377085, Count=50
+move(Back to the hallway right) Q=0.08721684679187719, Count=50
+Action: move(Back to the hallway right)
+Reward: Action executed successfully. Change to another scene: hallway right.
+Accumulated_reward: 21
+
+Step: 44
+craft(battery, drill bit) Q=0.09822779468024792, Count=50
+move(To the small cabinet close-up) Q=0.020441022284618995, Count=50
+move(To the large cabinet close-up) Q=0.03906111085668993, Count=50
+move(To the ventilation fan close-up) Q=0.010439293989715864, Count=49
+move(To the operating room door overview) Q=0.08267826747074905, Count=50
+move(To the operating room) Q=0.36076393548684704, Count=52
+move(To room 805 door view) Q=0.13156633606518617, Count=50
+move(To room 805) Q=0.0, Count=49
+move(To the hallway) Q=0.010796270133114115, Count=50
+Action: move(To the operating room)
+Reward: Action executed successfully. Change to another scene: operating room.
+Accumulated_reward: 21
+
+Step: 45
+craft(battery, drill bit) Q=0.3597042463957867, Count=50
+move(To the surgical table close-up) Q=0.6618207839905057, Count=52
+move(To the cabinet close-up) Q=0.4683576381604086, Count=51
+move(To the anatomy poster close-up) Q=0.215095302227562, Count=49
+move(To the hallway right) Q=0.045817395391947714, Count=48
+Action: move(To the surgical table close-up)
+Reward: Action executed successfully. Change to another scene: surgical table close-up.
+Accumulated_reward: 21
+
+Step: 46
+click(small key) Q=1.0586834215287215, Count=52
+apply(battery, small key) Q=0.6725957474812829, Count=50
+apply(drill bit, small key) Q=0.5754459829599476, Count=50
+craft(battery, drill bit) Q=0.676397815903112, Count=50
+move(Back to the operating room) Q=0.30490225998249537, Count=48
+Action: click(small key)
+Reward: Action executed successfully. You have just collected a small key. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 22
+
+Step: 47
+craft(battery, drill bit) Q=0.06568089432226415, Count=50
+craft(battery, small key) Q=0.05696588657358305, Count=50
+craft(drill bit, small key) Q=0.056894473228512356, Count=50
+move(Back to the operating room) Q=0.06501748774471766, Count=50
+Action: craft(battery, drill bit)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 22
+
+Step: 48
+craft(battery, drill bit) Q=0.05364919447982358, Count=50
+craft(battery, small key) Q=0.0884114479154989, Count=50
+craft(drill bit, small key) Q=0.06246451930900292, Count=50
+move(Back to the operating room) Q=0.07920252515803125, Count=50
+Action: craft(battery, small key)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 22
+
+Step: 49
+craft(battery, drill bit) Q=0.07402399932154177, Count=50
+craft(battery, small key) Q=0.05157683139054242, Count=50
+craft(drill bit, small key) Q=0.04582602631826161, Count=50
+move(Back to the operating room) Q=0.07003882870253988, Count=50
+Action: craft(battery, drill bit)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 22
+
+Step: 50
+craft(battery, drill bit) Q=0.037303053352966506, Count=50
+craft(battery, small key) Q=0.045950315749399374, Count=50
+craft(drill bit, small key) Q=0.047215126120531026, Count=50
+move(Back to the operating room) Q=0.1011508798974789, Count=50
+Action: move(Back to the operating room)
+Reward: Action executed successfully. Change to another scene: operating room.
+Accumulated_reward: 22
+
+Step: 51
+craft(battery, drill bit) Q=0.08548079672205852, Count=50
+craft(battery, small key) Q=0.0841520173500789, Count=50
+craft(drill bit, small key) Q=0.08995288867373119, Count=50
+move(To the surgical table close-up) Q=0.0505545107902034, Count=50
+move(To the cabinet close-up) Q=0.3422789973314914, Count=51
+move(To the anatomy poster close-up) Q=0.054516488930585, Count=50
+move(To the hallway right) Q=0.012272917426836179, Count=49
+Action: move(To the cabinet close-up)
+Reward: Action executed successfully. Change to another scene: operating room cabinet close-up.
+Accumulated_reward: 22
+
+Step: 52
+craft(battery, drill bit) Q=0.3459345011719036, Count=50
+craft(battery, small key) Q=0.30510528528856584, Count=50
+craft(drill bit, small key) Q=0.26965927888062596, Count=50
+move(Back to the operating room) Q=0.0804819750376298, Count=48
+move(To the upper cabinet) Q=0.5771010054058823, Count=51
+move(To the lower cabinet) Q=0.5305316268074615, Count=51
+Action: move(To the upper cabinet)
+Reward: Action executed successfully. Change to another scene: upper cabinet close-up.
+Accumulated_reward: 22
+
+Step: 53
+click(paper3) Q=1.1327765616914467, Count=53
+apply(battery, paper3) Q=0.5786602184543737, Count=50
+apply(drill bit, paper3) Q=0.604011232402695, Count=50
+apply(small key, paper3) Q=0.5335326088189147, Count=50
+craft(battery, drill bit) Q=0.471940156454871, Count=49
+craft(battery, small key) Q=0.5127247962388883, Count=50
+craft(drill bit, small key) Q=0.5638441152387408, Count=50
+move(Back to the operating room cabinet close-up) Q=0.303532036673845, Count=48
+Action: click(paper3)
+Reward: Action executed successfully. You have just collected a paper3. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 23
+
+Step: 54
+craft(battery, drill bit) Q=0.10708211226328479, Count=50
+craft(battery, small key) Q=0.22948630151089405, Count=50
+craft(battery, paper3) Q=0.11541991615779038, Count=50
+craft(drill bit, small key) Q=0.22441316168570405, Count=50
+craft(drill bit, paper3) Q=0.10041816971101165, Count=50
+craft(small key, paper3) Q=0.16341938072751858, Count=50
+move(Back to the operating room cabinet close-up) Q=0.227400102193029, Count=50
+Action: craft(battery, small key)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 55
+craft(battery, drill bit) Q=0.04670554796054753, Count=50
+craft(battery, small key) Q=0.2190562661341774, Count=50
+craft(battery, paper3) Q=0.08906294823564782, Count=50
+craft(drill bit, small key) Q=0.1614904922867339, Count=50
+craft(drill bit, paper3) Q=0.0838786859267397, Count=50
+craft(small key, paper3) Q=0.15514019611664806, Count=50
+move(Back to the operating room cabinet close-up) Q=0.20663306197932227, Count=50
+Action: craft(battery, small key)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 56
+craft(battery, drill bit) Q=0.1595739842962412, Count=50
+craft(battery, small key) Q=0.08200827948978714, Count=49
+craft(battery, paper3) Q=0.05328688420988751, Count=49
+craft(drill bit, small key) Q=0.15591062588844726, Count=50
+craft(drill bit, paper3) Q=0.14785396666157685, Count=50
+craft(small key, paper3) Q=0.12721350257444441, Count=50
+move(Back to the operating room cabinet close-up) Q=0.495105960304704, Count=52
+Action: move(Back to the operating room cabinet close-up)
+Reward: Action executed successfully. Change to another scene: operating room cabinet close-up.
+Accumulated_reward: 23
+
+Step: 57
+craft(battery, drill bit) Q=0.2905155370332857, Count=50
+craft(battery, small key) Q=0.10903310853534648, Count=49
+craft(battery, paper3) Q=0.24600272530774264, Count=50
+craft(drill bit, small key) Q=0.32611079591382935, Count=50
+craft(drill bit, paper3) Q=0.2904223837182849, Count=50
+craft(small key, paper3) Q=0.3565146592837577, Count=51
+move(Back to the operating room) Q=0.07092468014270462, Count=49
+move(To the upper cabinet) Q=0.043739798053426864, Count=49
+move(To the lower cabinet) Q=0.6854258536427189, Count=52
+Action: move(To the lower cabinet)
+Reward: Action executed successfully. Change to another scene: lower cabinet close-up.
+Accumulated_reward: 23
+
+Step: 58
+click(locked drawer) Q=0.9968646291370482, Count=51
+click(door handle) Q=2.3114240058286866, Count=59
+apply(battery, locked drawer) Q=0.846096064577064, Count=50
+apply(battery, door handle) Q=0.5825321098526246, Count=49
+apply(drill bit, locked drawer) Q=0.6101599355923016, Count=49
+apply(drill bit, door handle) Q=0.9858973270670031, Count=51
+apply(small key, locked drawer) Q=0.6868935253506647, Count=49
+apply(small key, door handle) Q=0.9686850257041473, Count=51
+apply(paper3, locked drawer) Q=0.6179505942781012, Count=49
+apply(paper3, door handle) Q=0.910365173432901, Count=50
+craft(battery, drill bit) Q=0.9309634867252046, Count=50
+craft(battery, small key) Q=0.8533233867176258, Count=50
+craft(battery, paper3) Q=0.5441152369109523, Count=48
+craft(drill bit, small key) Q=0.6804388843922327, Count=49
+craft(drill bit, paper3) Q=0.7232801404911509, Count=49
+craft(small key, paper3) Q=0.9025800837859244, Count=50
+move(Back to the operating room cabinet close-up) Q=0.09752722781635323, Count=46
+Action: click(door handle)
+Reward: Action executed successfully. You have just collected a door handle. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 24
+
+Step: 59
+Action: input(8*4+6=6*7-4, locked drawer)
+Reward: Action executed successfully. You have given an input 8*4+6=6*7-4 to locked drawer.
+Accumulated_reward: 25
+
+Step: 60
+click(locked drawer) Q=0.9999999999999997, Count=54
+apply(battery, locked drawer) Q=0.2691985737400735, Count=49
+apply(drill bit, locked drawer) Q=0.3474362083641958, Count=50
+apply(small key, locked drawer) Q=0.31430568738237247, Count=50
+apply(paper3, locked drawer) Q=0.41287005877998406, Count=50
+apply(door handle, locked drawer) Q=0.4245488513947565, Count=50
+craft(battery, drill bit) Q=0.3831621708108519, Count=50
+craft(battery, small key) Q=0.33532218946235515, Count=50
+craft(battery, paper3) Q=0.3493992710790371, Count=50
+craft(battery, door handle) Q=0.36616860491632036, Count=50
+craft(drill bit, small key) Q=0.4616545234917615, Count=50
+craft(drill bit, paper3) Q=0.3458616400828887, Count=50
+craft(drill bit, door handle) Q=0.44301395867257254, Count=50
+craft(small key, paper3) Q=0.2701683959879608, Count=49
+craft(small key, door handle) Q=0.42943617857134536, Count=50
+craft(paper3, door handle) Q=0.3958733240144678, Count=50
+move(Back to the operating room cabinet close-up) Q=0.08069689180994638, Count=48
+Action: click(locked drawer)
+Reward: Action executed successfully. You have clicked on locked drawer.
+Accumulated_reward: 26
+
+Step: 61
+click(drawer contents) Q=0.0, Count=50
+apply(battery, drawer contents) Q=0.0, Count=50
+apply(drill bit, drawer contents) Q=0.0, Count=50
+apply(small key, drawer contents) Q=0.0, Count=50
+apply(paper3, drawer contents) Q=0.0, Count=50
+apply(door handle, drawer contents) Q=0.010796270133114115, Count=50
+craft(battery, drill bit) Q=0.0, Count=50
+craft(battery, small key) Q=0.0, Count=50
+craft(battery, paper3) Q=0.0, Count=50
+craft(battery, door handle) Q=0.0, Count=50
+craft(drill bit, small key) Q=0.0, Count=50
+craft(drill bit, paper3) Q=0.0, Count=50
+craft(drill bit, door handle) Q=0.0, Count=50
+craft(small key, paper3) Q=0.0, Count=50
+craft(small key, door handle) Q=0.0, Count=50
+craft(paper3, door handle) Q=0.0, Count=50
+move(Back to the operating room cabinet close-up) Q=0.0, Count=50
+Action: apply(door handle, drawer contents)
+Reward: Nothing happens after you apply the tool.
+Accumulated_reward: 26
+
+Step: 62
+click(drawer contents) Q=0.0, Count=50
+apply(battery, drawer contents) Q=0.0, Count=50
+apply(drill bit, drawer contents) Q=0.0, Count=50
+apply(small key, drawer contents) Q=0.0, Count=50
+apply(paper3, drawer contents) Q=0.0, Count=50
+apply(door handle, drawer contents) Q=0.0, Count=50
+craft(battery, drill bit) Q=0.011394592646027296, Count=50
+craft(battery, small key) Q=0.010796270133114115, Count=50
+craft(battery, paper3) Q=0.0, Count=50
+craft(battery, door handle) Q=0.0, Count=50
+craft(drill bit, small key) Q=0.0, Count=50
+craft(drill bit, paper3) Q=0.0, Count=50
+craft(drill bit, door handle) Q=0.0, Count=50
+craft(small key, paper3) Q=0.0, Count=50
+craft(small key, door handle) Q=0.0, Count=50
+craft(paper3, door handle) Q=0.0, Count=50
+move(Back to the operating room cabinet close-up) Q=0.0, Count=50
+Action: craft(battery, drill bit)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 26
+
+Step: 63
+click(drawer contents) Q=0.0, Count=50
+apply(battery, drawer contents) Q=0.0, Count=50
+apply(drill bit, drawer contents) Q=0.0, Count=50
+apply(small key, drawer contents) Q=0.0, Count=50
+apply(paper3, drawer contents) Q=0.0, Count=50
+apply(door handle, drawer contents) Q=0.0, Count=50
+craft(battery, drill bit) Q=0.0, Count=50
+craft(battery, small key) Q=0.0, Count=50
+craft(battery, paper3) Q=0.0, Count=50
+craft(battery, door handle) Q=0.0, Count=50
+craft(drill bit, small key) Q=0.0, Count=50
+craft(drill bit, paper3) Q=0.0, Count=50
+craft(drill bit, door handle) Q=0.0, Count=50
+craft(small key, paper3) Q=0.0, Count=50
+craft(small key, door handle) Q=0.0, Count=50
+craft(paper3, door handle) Q=0.0, Count=50
+move(Back to the operating room cabinet close-up) Q=0.0, Count=50
+Action: craft(drill bit, door handle)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 26
+
+Step: 64
+click(drawer contents) Q=0.0, Count=50
+apply(battery, drawer contents) Q=0.0, Count=50
+apply(drill bit, drawer contents) Q=0.0, Count=50
+apply(small key, drawer contents) Q=0.0, Count=50
+apply(paper3, drawer contents) Q=0.0, Count=50
+apply(door handle, drawer contents) Q=0.0, Count=50
+craft(battery, drill bit) Q=0.0, Count=50
+craft(battery, small key) Q=0.0, Count=50
+craft(battery, paper3) Q=0.0, Count=50
+craft(battery, door handle) Q=0.0, Count=50
+craft(drill bit, small key) Q=0.012027746069952204, Count=50
+craft(drill bit, paper3) Q=0.0, Count=50
+craft(drill bit, door handle) Q=0.0, Count=50
+craft(small key, paper3) Q=0.0, Count=50
+craft(small key, door handle) Q=0.0, Count=50
+craft(paper3, door handle) Q=0.0, Count=50
+move(Back to the operating room cabinet close-up) Q=0.0, Count=50
+Action: craft(drill bit, small key)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 26
+
+Step: 65
+click(drawer contents) Q=0.0, Count=50
+apply(battery, drawer contents) Q=0.0, Count=50
+apply(drill bit, drawer contents) Q=0.0, Count=50
+apply(small key, drawer contents) Q=0.0, Count=50
+apply(paper3, drawer contents) Q=0.0, Count=50
+apply(door handle, drawer contents) Q=0.0, Count=50
+craft(battery, drill bit) Q=0.0, Count=50
+craft(battery, small key) Q=0.0, Count=50
+craft(battery, paper3) Q=0.0, Count=50
+craft(battery, door handle) Q=0.0, Count=50
+craft(drill bit, small key) Q=0.0, Count=50
+craft(drill bit, paper3) Q=0.0, Count=50
+craft(drill bit, door handle) Q=0.0, Count=50
+craft(small key, paper3) Q=0.0, Count=50
+craft(small key, door handle) Q=0.0, Count=50
+craft(paper3, door handle) Q=0.0, Count=50
+move(Back to the operating room cabinet close-up) Q=0.012027746069952204, Count=50
+Action: move(Back to the operating room cabinet close-up)
+Reward: Action executed successfully. Change to another scene: operating room cabinet close-up.
+Accumulated_reward: 26
+
+Step: 66
+craft(battery, drill bit) Q=0.0, Count=50
+craft(battery, small key) Q=0.01269793949283138, Count=50
+craft(battery, paper3) Q=0.012027746069952204, Count=50
+craft(battery, door handle) Q=0.0, Count=50
+craft(drill bit, small key) Q=0.0, Count=50
+craft(drill bit, paper3) Q=0.0, Count=50
+craft(drill bit, door handle) Q=0.0, Count=50
+craft(small key, paper3) Q=0.0, Count=50
+craft(small key, door handle) Q=0.0, Count=50
+craft(paper3, door handle) Q=0.012027746069952204, Count=50
+move(Back to the operating room) Q=0.010796270133114115, Count=50
+move(To the upper cabinet) Q=0.0, Count=50
+move(To the lower cabinet) Q=0.0, Count=50
+Action: craft(battery, small key)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 26
+
+Step: 67
+craft(battery, drill bit) Q=0.01269793949283138, Count=50
+craft(battery, small key) Q=0.02708614022086308, Count=50
+craft(battery, paper3) Q=0.0, Count=50
+craft(battery, door handle) Q=0.0, Count=50
+craft(drill bit, small key) Q=0.0, Count=50
+craft(drill bit, paper3) Q=0.0, Count=50
+craft(drill bit, door handle) Q=0.0, Count=50
+craft(small key, paper3) Q=0.0, Count=50
+craft(small key, door handle) Q=0.0, Count=50
+craft(paper3, door handle) Q=0.0, Count=50
+move(Back to the operating room) Q=0.0, Count=50
+move(To the upper cabinet) Q=0.0, Count=50
+move(To the lower cabinet) Q=0.0, Count=50
+Action: craft(battery, small key)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 26
+
+Step: 68
+craft(battery, drill bit) Q=0.0, Count=50
+craft(battery, small key) Q=0.0, Count=50
+craft(battery, paper3) Q=0.0, Count=50
+craft(battery, door handle) Q=0.0, Count=50
+craft(drill bit, small key) Q=0.01269793949283138, Count=50
+craft(drill bit, paper3) Q=0.0, Count=50
+craft(drill bit, door handle) Q=0.0, Count=50
+craft(small key, paper3) Q=0.0, Count=50
+craft(small key, door handle) Q=0.011394592646027296, Count=50
+craft(paper3, door handle) Q=0.0, Count=50
+move(Back to the operating room) Q=0.0, Count=50
+move(To the upper cabinet) Q=0.0, Count=50
+move(To the lower cabinet) Q=0.0, Count=50
+Action: craft(drill bit, small key)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 26
+
+Step: 69
+craft(battery, drill bit) Q=0.0, Count=50
+craft(battery, small key) Q=0.0, Count=50
+craft(battery, paper3) Q=0.03298546564906657, Count=50
+craft(battery, door handle) Q=0.0, Count=50
+craft(drill bit, small key) Q=0.0, Count=50
+craft(drill bit, paper3) Q=0.0, Count=50
+craft(drill bit, door handle) Q=0.0, Count=50
+craft(small key, paper3) Q=0.0, Count=50
+craft(small key, door handle) Q=0.0, Count=50
+craft(paper3, door handle) Q=0.0, Count=50
+move(Back to the operating room) Q=0.0, Count=50
+move(To the upper cabinet) Q=0.0, Count=50
+move(To the lower cabinet) Q=0.0, Count=50
+Action: craft(battery, paper3)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 26
+
+Step: 70
+craft(battery, drill bit) Q=0.0, Count=50
+craft(battery, small key) Q=0.0, Count=50
+craft(battery, paper3) Q=0.0, Count=50
+craft(battery, door handle) Q=0.0, Count=50
+craft(drill bit, small key) Q=0.0, Count=50
+craft(drill bit, paper3) Q=0.0, Count=50
+craft(drill bit, door handle) Q=0.0, Count=50
+craft(small key, paper3) Q=0.01023071658804329, Count=50
+craft(small key, door handle) Q=0.0, Count=50
+craft(paper3, door handle) Q=0.0, Count=50
+move(Back to the operating room) Q=0.02599856452266628, Count=50
+move(To the upper cabinet) Q=0.0, Count=50
+move(To the lower cabinet) Q=0.0, Count=50
+Action: move(Back to the operating room)
+Reward: Action executed successfully. Change to another scene: operating room.
+Accumulated_reward: 26
+
+Step: 71
+craft(battery, drill bit) Q=0.0565051497650724, Count=50
+craft(battery, small key) Q=0.027284930386038415, Count=50
+craft(battery, paper3) Q=0.0, Count=50
+craft(battery, door handle) Q=0.0, Count=50
+craft(drill bit, small key) Q=0.012027746069952204, Count=50
+craft(drill bit, paper3) Q=0.014159093367747502, Count=50
+craft(drill bit, door handle) Q=0.012027746069952204, Count=50
+craft(small key, paper3) Q=0.014159093367747502, Count=50
+craft(small key, door handle) Q=0.0, Count=50
+craft(paper3, door handle) Q=0.09561418711734554, Count=50
+move(To the surgical table close-up) Q=0.01023071658804329, Count=50
+move(To the cabinet close-up) Q=0.0, Count=50
+move(To the anatomy poster close-up) Q=0.0, Count=50
+move(To the hallway right) Q=0.10278882655638541, Count=50
+Action: move(To the hallway right)
+Reward: Action executed successfully. Change to another scene: hallway right.
+Accumulated_reward: 26
+
+Step: 72
+craft(battery, drill bit) Q=0.06968521010719815, Count=50
+craft(battery, small key) Q=0.09737834491447046, Count=50
+craft(battery, paper3) Q=0.06881656223647499, Count=50
+craft(battery, door handle) Q=0.044221513290409686, Count=50
+craft(drill bit, small key) Q=0.030621875568972112, Count=50
+craft(drill bit, paper3) Q=0.19008496337999198, Count=50
+craft(drill bit, door handle) Q=0.07478515325601198, Count=50
+craft(small key, paper3) Q=0.022903395403740923, Count=50
+craft(small key, door handle) Q=0.11029330662163156, Count=50
+craft(paper3, door handle) Q=0.10846929136594141, Count=50
+move(To the small cabinet close-up) Q=0.44958047031497916, Count=52
+move(To the large cabinet close-up) Q=0.011626872153815313, Count=49
+move(To the ventilation fan close-up) Q=0.01269793949283138, Count=50
+move(To the operating room door overview) Q=0.0, Count=49
+move(To the operating room) Q=0.01669377972066061, Count=50
+move(To room 805 door view) Q=0.021602607244101832, Count=50
+move(To room 805) Q=0.041539217941757765, Count=50
+move(To the hallway) Q=0.02346757025108296, Count=50
+Action: move(To the small cabinet close-up)
+Reward: Action executed successfully. Change to another scene: small cabinet close-up.
+Accumulated_reward: 26
+
+Step: 73
+click(small cabinet door) Q=0.4787217289076881, Count=50
+apply(battery, small cabinet door) Q=0.4994198698072319, Count=50
+apply(drill bit, small cabinet door) Q=0.48387527944881464, Count=50
+apply(small key, small cabinet door) Q=0.36227300167412013, Count=49
+apply(paper3, small cabinet door) Q=0.5593947412992941, Count=50
+apply(door handle, small cabinet door) Q=1.4675752050325241, Count=55
+craft(battery, drill bit) Q=0.49582063673914484, Count=50
+craft(battery, small key) Q=0.42432414102527904, Count=49
+craft(battery, paper3) Q=0.46392403470228044, Count=50
+craft(battery, door handle) Q=0.6044454408957963, Count=50
+craft(drill bit, small key) Q=0.48055002251540785, Count=50
+craft(drill bit, paper3) Q=0.6077229726134022, Count=50
+craft(drill bit, door handle) Q=0.5537223375360162, Count=50
+craft(small key, paper3) Q=0.4133037767020319, Count=49
+craft(small key, door handle) Q=0.49133562939119446, Count=50
+craft(paper3, door handle) Q=0.5780399895446501, Count=50
+move(Back to the hallway right) Q=0.12331434513774267, Count=48
+Action: apply(door handle, small cabinet door)
+Reward: Action executed successfully. You have successfully applied door handle to small cabinet door.
+Accumulated_reward: 27
+
+Step: 74
+click(small cabinet door) Q=1.425131039504589, Count=55
+apply(battery, small cabinet door) Q=0.5418579541483363, Count=50
+apply(drill bit, small cabinet door) Q=0.4919952514800116, Count=49
+apply(small key, small cabinet door) Q=0.6186760589614158, Count=50
+apply(paper3, small cabinet door) Q=0.5113409191406426, Count=50
+craft(battery, drill bit) Q=0.5692109660034559, Count=50
+craft(battery, small key) Q=0.6250010712413763, Count=50
+craft(battery, paper3) Q=0.4630377383795634, Count=49
+craft(drill bit, small key) Q=0.4354452738533978, Count=49
+craft(drill bit, paper3) Q=0.5182851923205534, Count=50
+craft(small key, paper3) Q=0.5120729820500509, Count=50
+move(Back to the hallway right) Q=0.11959135603375397, Count=48
+Action: click(small cabinet door)
+Reward: Action executed successfully. You have clicked on small cabinet door.
+Accumulated_reward: 28
+
+Step: 75
+click(paper4) Q=1.0203822473344077, Count=53
+apply(battery, paper4) Q=0.47248413411569895, Count=50
+apply(drill bit, paper4) Q=0.4280058978431932, Count=50
+apply(small key, paper4) Q=0.39653708137221355, Count=50
+apply(paper3, paper4) Q=0.3517229545149322, Count=50
+craft(battery, drill bit) Q=0.4679318915094882, Count=50
+craft(battery, small key) Q=0.38899617761430855, Count=50
+craft(battery, paper3) Q=0.33640886368325507, Count=49
+craft(drill bit, small key) Q=0.3837646743010015, Count=50
+craft(drill bit, paper3) Q=0.4057262157510266, Count=50
+craft(small key, paper3) Q=0.40985361492028444, Count=50
+move(Back to the hallway right) Q=0.06893677067815376, Count=48
+Action: click(paper4)
+Reward: Action executed successfully. You have just collected a paper4. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 29
+
+Step: 76
+craft(battery, drill bit) Q=0.03803227592722683, Count=50
+craft(battery, small key) Q=0.0, Count=50
+craft(battery, paper3) Q=0.01023071658804329, Count=50
+craft(battery, paper4) Q=0.01269793949283138, Count=50
+craft(drill bit, small key) Q=0.01669377972066061, Count=50
+craft(drill bit, paper3) Q=0.02273764514211956, Count=50
+craft(drill bit, paper4) Q=0.012027746069952204, Count=50
+craft(small key, paper3) Q=0.0, Count=50
+craft(small key, paper4) Q=0.014159093367747502, Count=50
+craft(paper3, paper4) Q=0.052735093037208455, Count=50
+move(Back to the hallway right) Q=0.0, Count=50
+Action: craft(paper3, paper4)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 29
+
+Step: 77
+craft(battery, drill bit) Q=0.02208165277633633, Count=50
+craft(battery, small key) Q=0.0, Count=50
+craft(battery, paper3) Q=0.0, Count=50
+craft(battery, paper4) Q=0.05093518559020985, Count=50
+craft(drill bit, small key) Q=0.0, Count=50
+craft(drill bit, paper3) Q=0.0, Count=50
+craft(drill bit, paper4) Q=0.0, Count=50
+craft(small key, paper3) Q=0.0, Count=50
+craft(small key, paper4) Q=0.0, Count=50
+craft(paper3, paper4) Q=0.010796270133114115, Count=50
+move(Back to the hallway right) Q=0.04417036532127838, Count=50
+Action: craft(battery, paper4)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 29
+
+Step: 78
+craft(battery, drill bit) Q=0.0, Count=50
+craft(battery, small key) Q=0.0, Count=50
+craft(battery, paper3) Q=0.0, Count=50
+craft(battery, paper4) Q=0.0, Count=50
+craft(drill bit, small key) Q=0.0, Count=50
+craft(drill bit, paper3) Q=0.0, Count=50
+craft(drill bit, paper4) Q=0.0, Count=50
+craft(small key, paper3) Q=0.0, Count=50
+craft(small key, paper4) Q=0.0, Count=50
+craft(paper3, paper4) Q=0.0, Count=50
+move(Back to the hallway right) Q=0.0, Count=50
+Action: craft(drill bit, paper3)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 29
+
+Step: 79
+craft(battery, drill bit) Q=0.014955324501419788, Count=50
+craft(battery, small key) Q=0.0, Count=50
+craft(battery, paper3) Q=0.0, Count=50
+craft(battery, paper4) Q=0.0, Count=50
+craft(drill bit, small key) Q=0.0, Count=50
+craft(drill bit, paper3) Q=0.0, Count=50
+craft(drill bit, paper4) Q=0.0, Count=50
+craft(small key, paper3) Q=0.0, Count=50
+craft(small key, paper4) Q=0.0, Count=50
+craft(paper3, paper4) Q=0.0, Count=50
+move(Back to the hallway right) Q=0.020441022284618995, Count=50
+Action: move(Back to the hallway right)
+Reward: Action executed successfully. Change to another scene: hallway right.
+Accumulated_reward: 29
+
+Step: 80
+craft(battery, drill bit) Q=0.05484411698005413, Count=50
+craft(battery, small key) Q=0.0, Count=50
+craft(battery, paper3) Q=0.0, Count=50
+craft(battery, paper4) Q=0.0, Count=50
+craft(drill bit, small key) Q=0.0, Count=50
+craft(drill bit, paper3) Q=0.01023071658804329, Count=50
+craft(drill bit, paper4) Q=0.0, Count=50
+craft(small key, paper3) Q=0.02962935464655084, Count=50
+craft(small key, paper4) Q=0.0, Count=50
+craft(paper3, paper4) Q=0.036065657840933275, Count=50
+move(To the small cabinet close-up) Q=0.012027746069952204, Count=50
+move(To the large cabinet close-up) Q=0.011394592646027296, Count=50
+move(To the ventilation fan close-up) Q=0.0, Count=50
+move(To the operating room door overview) Q=0.011394592646027296, Count=50
+move(To the operating room) Q=0.015799168155428967, Count=50
+move(To room 805 door view) Q=0.0, Count=50
+move(To room 805) Q=0.14636383488907573, Count=50
+move(To the hallway) Q=0.0, Count=50
+Action: move(To room 805)
+Reward: Action executed successfully. Change to another scene: room 805.
+Accumulated_reward: 29
+
+Step: 81
+craft(battery, drill bit) Q=0.08595909027544407, Count=50
+craft(battery, small key) Q=0.17334160514496352, Count=50
+craft(battery, paper3) Q=0.1459037466197444, Count=50
+craft(battery, paper4) Q=0.14116340349027526, Count=50
+craft(drill bit, small key) Q=0.24467171440432464, Count=50
+craft(drill bit, paper3) Q=0.2563233801826552, Count=50
+craft(drill bit, paper4) Q=0.1320806082267214, Count=50
+craft(small key, paper3) Q=0.10466120951703628, Count=50
+craft(small key, paper4) Q=0.2139943324844802, Count=50
+craft(paper3, paper4) Q=0.24334862446295752, Count=50
+move(To the desk close-up) Q=1.0850969535487889, Count=55
+move(To the left bookshelf close-up) Q=0.02660321701012639, Count=49
+move(To the right bookshelf close-up) Q=0.015260085342022275, Count=49
+move(To the bedside table close-up) Q=0.05814617183887011, Count=49
+move(To the right part of the room) Q=0.0, Count=49
+move(To the hallway right) Q=0.02143324851003313, Count=49
+Action: move(To the desk close-up)
+Reward: Action executed successfully. Change to another scene: desk close-up.
+Accumulated_reward: 29
+
+Step: 82
+click(drawer with code lock) Q=0.8894612354071127, Count=50
+apply(battery, drawer with code lock) Q=0.6487805023044729, Count=49
+apply(drill bit, drawer with code lock) Q=0.8231900947109069, Count=50
+apply(small key, drawer with code lock) Q=0.7555555022673741, Count=49
+apply(paper3, drawer with code lock) Q=1.6370010979742031, Count=54
+apply(paper4, drawer with code lock) Q=1.6797814575026464, Count=54
+craft(battery, drill bit) Q=0.9269731506897713, Count=50
+craft(battery, small key) Q=0.7656264407229836, Count=49
+craft(battery, paper3) Q=0.7173963470737781, Count=49
+craft(battery, paper4) Q=0.8514817578275258, Count=50
+craft(drill bit, small key) Q=0.926284927982312, Count=50
+craft(drill bit, paper3) Q=0.7245455207402174, Count=49
+craft(drill bit, paper4) Q=0.8199812768995486, Count=50
+craft(small key, paper3) Q=0.9084781574460845, Count=50
+craft(small key, paper4) Q=1.0095500563540463, Count=51
+craft(paper3, paper4) Q=0.8480943113805118, Count=50
+move(Back to the room 805) Q=0.1599303566300701, Count=46
+Action: apply(paper4, drawer with code lock)
+Reward: Action executed successfully. You have successfully applied paper4 to drawer with code lock.
+However, the apply of paper4 is not enough, and drawer with code lock is still missing something else ...
+Accumulated_reward: 30
+
+Step: 83
+click(drawer with code lock) Q=0.5305960953748843, Count=49
+apply(battery, drawer with code lock) Q=0.7400261436784136, Count=50
+apply(drill bit, drawer with code lock) Q=0.7034983556129781, Count=50
+apply(small key, drawer with code lock) Q=0.6770832725689072, Count=50
+apply(paper3, drawer with code lock) Q=1.7294971376320882, Count=56
+craft(battery, drill bit) Q=0.5247903074630393, Count=49
+craft(battery, small key) Q=0.5071370003449636, Count=49
+craft(battery, paper3) Q=0.7808618928002136, Count=50
+craft(drill bit, small key) Q=0.6367275416218479, Count=50
+craft(drill bit, paper3) Q=0.8025523672661088, Count=50
+craft(small key, paper3) Q=0.6728413986430146, Count=50
+move(Back to the room 805) Q=0.07114679872816033, Count=47
+Action: apply(paper3, drawer with code lock)
+Reward: Action executed successfully. You have successfully applied paper3 to drawer with code lock.
+Accumulated_reward: 31
+
+Step: 84
+click(drawer with code lock) Q=1.3804459874146846, Count=54
+apply(battery, drawer with code lock) Q=0.5925048870883052, Count=49
+apply(drill bit, drawer with code lock) Q=0.7188719948447907, Count=50
+apply(small key, drawer with code lock) Q=0.7540533974254111, Count=50
+craft(battery, drill bit) Q=0.662222171155211, Count=50
+craft(battery, small key) Q=0.7728546063279801, Count=50
+craft(drill bit, small key) Q=0.6325585515917025, Count=50
+move(Back to the room 805) Q=0.12869662766512371, Count=47
+Action: click(drawer with code lock)
+Reward: Action executed successfully. You have clicked on drawer with code lock.
+Accumulated_reward: 32
+
+Step: 85
+click(lubricant) Q=0.9999999999999998, Count=53
+apply(battery, lubricant) Q=0.3842126771631472, Count=49
+apply(drill bit, lubricant) Q=0.4619983661517694, Count=50
+apply(small key, lubricant) Q=0.4195094340921178, Count=50
+craft(battery, drill bit) Q=0.45913524009253737, Count=50
+craft(battery, small key) Q=0.43031516955178195, Count=50
+craft(drill bit, small key) Q=0.5166644449519537, Count=50
+move(Back to the room 805) Q=0.1147311291288402, Count=48
+Action: click(lubricant)
+Reward: Action executed successfully. You have just collected a lubricant. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 33
+
+Step: 86
+craft(battery, drill bit) Q=0.0, Count=50
+craft(battery, small key) Q=0.0, Count=50
+craft(battery, lubricant) Q=0.0, Count=50
+craft(drill bit, small key) Q=0.0, Count=50
+craft(drill bit, lubricant) Q=0.0, Count=50
+craft(small key, lubricant) Q=0.0, Count=50
+move(Back to the room 805) Q=0.0, Count=50
+Action: craft(drill bit, lubricant)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 33
+
+Step: 87
+craft(battery, drill bit) Q=0.0, Count=50
+craft(battery, small key) Q=0.0, Count=50
+craft(battery, lubricant) Q=0.0, Count=50
+craft(drill bit, small key) Q=0.0, Count=50
+craft(drill bit, lubricant) Q=0.0, Count=50
+craft(small key, lubricant) Q=0.0, Count=50
+move(Back to the room 805) Q=0.03803227592722683, Count=50
+Action: move(Back to the room 805)
+Reward: Action executed successfully. Change to another scene: room 805.
+Accumulated_reward: 33
+
+Step: 88
+craft(battery, drill bit) Q=0.0, Count=50
+craft(battery, small key) Q=0.0, Count=50
+craft(battery, lubricant) Q=0.0, Count=50
+craft(drill bit, small key) Q=0.021602607244101832, Count=50
+craft(drill bit, lubricant) Q=0.026177718651991824, Count=50
+craft(small key, lubricant) Q=0.0, Count=50
+move(To the desk close-up) Q=0.0, Count=50
+move(To the left bookshelf close-up) Q=0.0, Count=50
+move(To the right bookshelf close-up) Q=0.0, Count=50
+move(To the bedside table close-up) Q=0.0, Count=50
+move(To the right part of the room) Q=0.0, Count=50
+move(To the hallway right) Q=0.01269793949283138, Count=50
+Action: craft(drill bit, lubricant)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 33
+
+Step: 89
+craft(battery, drill bit) Q=0.0, Count=50
+craft(battery, small key) Q=0.013407541439587067, Count=50
+craft(battery, lubricant) Q=0.0, Count=50
+craft(drill bit, small key) Q=0.0, Count=50
+craft(drill bit, lubricant) Q=0.0, Count=50
+craft(small key, lubricant) Q=0.0, Count=50
+move(To the desk close-up) Q=0.0, Count=50
+move(To the left bookshelf close-up) Q=0.0, Count=50
+move(To the right bookshelf close-up) Q=0.0, Count=50
+move(To the bedside table close-up) Q=0.0, Count=50
+move(To the right part of the room) Q=0.0, Count=50
+move(To the hallway right) Q=0.01023071658804329, Count=50
+Action: craft(battery, small key)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 33
+
+Step: 90
+craft(battery, drill bit) Q=0.0, Count=50
+craft(battery, small key) Q=0.013407541439587067, Count=50
+craft(battery, lubricant) Q=0.0, Count=50
+craft(drill bit, small key) Q=0.0, Count=50
+craft(drill bit, lubricant) Q=0.0, Count=50
+craft(small key, lubricant) Q=0.0, Count=50
+move(To the desk close-up) Q=0.0, Count=50
+move(To the left bookshelf close-up) Q=0.0, Count=50
+move(To the right bookshelf close-up) Q=0.0, Count=50
+move(To the bedside table close-up) Q=0.0, Count=50
+move(To the right part of the room) Q=0.0, Count=50
+move(To the hallway right) Q=0.14141588249168136, Count=50
+Action: move(To the hallway right)
+Reward: Action executed successfully. Change to another scene: hallway right.
+Accumulated_reward: 33
+
+Step: 91
+craft(battery, drill bit) Q=0.05401039006708484, Count=50
+craft(battery, small key) Q=0.0, Count=50
+craft(battery, lubricant) Q=0.06752816213147823, Count=50
+craft(drill bit, small key) Q=0.021005461793215927, Count=50
+craft(drill bit, lubricant) Q=0.0, Count=50
+craft(small key, lubricant) Q=0.0, Count=50
+move(To the small cabinet close-up) Q=0.0, Count=50
+move(To the large cabinet close-up) Q=0.0, Count=50
+move(To the ventilation fan close-up) Q=0.011394592646027296, Count=50
+move(To the operating room door overview) Q=0.012027746069952204, Count=50
+move(To the operating room) Q=0.0, Count=50
+move(To room 805 door view) Q=0.03292362217409257, Count=50
+move(To room 805) Q=0.0, Count=50
+move(To the hallway) Q=0.12419266250332418, Count=50
+Action: move(To the hallway)
+Reward: Action executed successfully. Change to another scene: hallway.
+Accumulated_reward: 33
+
+Step: 92
+craft(battery, drill bit) Q=0.1619412873938687, Count=50
+craft(battery, small key) Q=0.2123162835895316, Count=50
+craft(battery, lubricant) Q=0.22085398415153695, Count=50
+craft(drill bit, small key) Q=0.2070375316614867, Count=50
+craft(drill bit, lubricant) Q=0.2494710353740826, Count=50
+craft(small key, lubricant) Q=0.10926634483858824, Count=50
+move(To the blocked path close-up) Q=0.077972262776248, Count=49
+move(To the cabinet close-up) Q=0.5910940714871524, Count=52
+move(To the hallway right) Q=0.02466790551308911, Count=49
+Action: move(To the cabinet close-up)
+Reward: Action executed successfully. Change to another scene: cabinet close-up.
+Accumulated_reward: 33
+
+Step: 93
+click(padlock) Q=0.7152027081208511, Count=49
+apply(battery, padlock) Q=0.5791657294342174, Count=49
+apply(drill bit, padlock) Q=0.806211455167064, Count=50
+apply(small key, padlock) Q=0.7100352301414765, Count=50
+apply(lubricant, padlock) Q=1.986259057989154, Count=57
+craft(battery, drill bit) Q=0.8748847504871409, Count=50
+craft(battery, small key) Q=0.6041832174617587, Count=49
+craft(battery, lubricant) Q=0.7490268640796607, Count=50
+craft(drill bit, small key) Q=0.7536183423820949, Count=50
+craft(drill bit, lubricant) Q=0.7976729133806559, Count=50
+craft(small key, lubricant) Q=0.5419694464961502, Count=49
+move(Back to the hallway) Q=0.17929369241341236, Count=47
+Action: apply(lubricant, padlock)
+Reward: Action executed successfully. You have successfully applied lubricant to padlock.
+Accumulated_reward: 34
+
+Step: 94
+click(padlock) Q=1.003520384450889, Count=50
+apply(battery, padlock) Q=1.228409435045967, Count=51
+apply(drill bit, padlock) Q=0.8713490043741097, Count=49
+apply(small key, padlock) Q=2.011311160141795, Count=56
+craft(battery, drill bit) Q=0.6765133261114846, Count=48
+craft(battery, small key) Q=0.7295400033919719, Count=49
+craft(drill bit, small key) Q=0.9766582442430638, Count=50
+move(Back to the hallway) Q=0.3531966449876495, Count=47
+Action: apply(small key, padlock)
+Reward: Action executed successfully. You have successfully applied small key to padlock.
+Accumulated_reward: 35
+
+Step: 95
+click(padlock) Q=1.933860531483715, Count=55
+apply(battery, padlock) Q=1.1300083155339598, Count=50
+apply(drill bit, padlock) Q=1.077944084688824, Count=49
+craft(battery, drill bit) Q=1.1253943751901796, Count=50
+move(Back to the hallway) Q=0.5136851774188034, Count=46
+Action: click(padlock)
+Reward: Action executed successfully. You have clicked on padlock.
+Accumulated_reward: 36
+
+Step: 96
+click(padlock) Q=1.6446855619512772, Count=54
+apply(battery, padlock) Q=0.8523872398262602, Count=50
+apply(drill bit, padlock) Q=0.8331564906352664, Count=49
+craft(battery, drill bit) Q=1.0171653916647765, Count=50
+move(Back to the hallway) Q=0.41851206770935434, Count=47
+Action: click(padlock)
+Reward: Action executed successfully. You have clicked on padlock. You've found a ladder hidden in the clothes.
+Accumulated_reward: 37
+
+Step: 97
+click(ladder) Q=1.0207734200090737, Count=52
+apply(battery, ladder) Q=0.5887380627429035, Count=50
+apply(drill bit, ladder) Q=0.5552031692329711, Count=50
+craft(battery, drill bit) Q=0.5861949654466843, Count=50
+move(Back to the hallway) Q=0.2879459177971362, Count=48
+Action: click(ladder)
+Reward: Action executed successfully. You have just collected a ladder. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 38
+
+Step: 98
+craft(battery, drill bit) Q=0.05052182066765175, Count=50
+craft(battery, ladder) Q=0.03235348291384435, Count=50
+craft(drill bit, ladder) Q=0.022234516772856976, Count=50
+move(Back to the hallway) Q=0.12071010814122483, Count=50
+Action: move(Back to the hallway)
+Reward: Action executed successfully. Change to another scene: hallway.
+Accumulated_reward: 38
+
+Step: 99
+craft(battery, drill bit) Q=0.05874700998738944, Count=50
+craft(battery, ladder) Q=0.1446581048779079, Count=50
+craft(drill bit, ladder) Q=0.10164237187297956, Count=50
+move(To the blocked path close-up) Q=0.011626872153815313, Count=49
+move(To the cabinet close-up) Q=0.0911007794793003, Count=50
+move(To the hallway right) Q=0.2001435356718839, Count=51
+Action: move(To the hallway right)
+Reward: Action executed successfully. Change to another scene: hallway right.
+Accumulated_reward: 38
+
+Step: 100
+craft(battery, drill bit) Q=0.4354413455612504, Count=51
+craft(battery, ladder) Q=0.2709824991784377, Count=50
+craft(drill bit, ladder) Q=0.14373699674778123, Count=49
+move(To the small cabinet close-up) Q=0.18001714416725387, Count=49
+move(To the large cabinet close-up) Q=0.20675820530963085, Count=50
+move(To the ventilation fan close-up) Q=1.3764842670288147, Count=57
+move(To the operating room door overview) Q=0.179964416704503, Count=49
+move(To the operating room) Q=0.10972111675400747, Count=49
+move(To room 805 door view) Q=0.1370295910201897, Count=49
+move(To room 805) Q=0.0, Count=48
+move(To the hallway) Q=0.03448272798806144, Count=49
+Action: move(To the ventilation fan close-up)
+Reward: Action executed successfully. Change to another scene: ventilation fan close-up.
+Accumulated_reward: 38
+

@@ -1,0 +1,1296 @@
+Step: 1
+click(floor tile area) Q=3.3330112813421673, Count=51
+click(piece of trash paper) Q=3.7967042518025695, Count=54
+click(key card) Q=3.1794536396179374, Count=50
+click(belt) Q=3.1574334295093993, Count=50
+click(wrench) Q=3.5930224329026346, Count=53
+move(Explore left side of the basment) Q=1.6879133965543587, Count=42
+Action: click(piece of trash paper)
+Reward: Action executed successfully. You have clicked on piece of trash paper. You look below the white trash paper, and found there's a key beneath it.
+Accumulated_reward: 1
+
+Step: 2
+click(floor tile area) Q=3.182184727302595, Count=51
+click(key card) Q=3.1199898626421323, Count=51
+click(silver key) Q=3.2787207818769737, Count=52
+click(belt) Q=2.837470243684376, Count=49
+click(wrench) Q=3.255888083804047, Count=52
+move(Explore left side of the basment) Q=2.026660302118604, Count=45
+Action: click(silver key)
+Reward: Action executed successfully. You have just collected a silver key. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 2
+
+Step: 3
+click(floor tile area) Q=2.7600955112463876, Count=51
+click(key card) Q=2.8789542798532617, Count=52
+click(belt) Q=2.7602815514273122, Count=51
+click(wrench) Q=2.982960962231595, Count=53
+apply(silver key, floor tile area) Q=2.4174687507592947, Count=50
+apply(silver key, key card) Q=2.2305562073954954, Count=49
+apply(silver key, belt) Q=2.174478871295164, Count=48
+apply(silver key, wrench) Q=2.3321520329781915, Count=49
+move(Explore left side of the basment) Q=1.8944655339671341, Count=47
+Action: click(wrench)
+Reward: Action executed successfully. You have just collected a wrench. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 3
+
+Step: 4
+click(floor tile area) Q=2.1966283905508495, Count=51
+click(key card) Q=2.2338244461764125, Count=52
+click(belt) Q=2.2114169688987366, Count=51
+apply(silver key, floor tile area) Q=1.812791925447798, Count=49
+apply(silver key, key card) Q=1.922476554769539, Count=50
+apply(silver key, belt) Q=1.9359309145898171, Count=50
+apply(wrench, floor tile area) Q=1.8554796595572174, Count=49
+apply(wrench, key card) Q=1.8021660067907375, Count=49
+apply(wrench, belt) Q=1.9596984314951216, Count=50
+craft(silver key, wrench) Q=1.6932497113511804, Count=49
+move(Explore left side of the basment) Q=2.027980201124853, Count=50
+Action: click(key card)
+Reward: Action executed successfully. You have just collected a key card. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 4
+
+Step: 5
+click(floor tile area) Q=1.8491422317674253, Count=53
+click(belt) Q=1.6053065830483608, Count=52
+apply(silver key, floor tile area) Q=1.1063021337604368, Count=49
+apply(silver key, belt) Q=1.1931864621911883, Count=50
+apply(wrench, floor tile area) Q=1.1767143829174784, Count=49
+apply(wrench, belt) Q=1.146023607775544, Count=49
+apply(key card, floor tile area) Q=1.201797719351228, Count=50
+apply(key card, belt) Q=1.0654516413973354, Count=49
+craft(silver key, wrench) Q=1.1505274909300058, Count=49
+craft(silver key, key card) Q=1.0869395932972103, Count=49
+craft(wrench, key card) Q=1.2807239394569092, Count=50
+move(Explore left side of the basment) Q=1.3971160914471312, Count=51
+Action: click(floor tile area)
+Reward: Action executed successfully. You have clicked on floor tile area. You remove the floor tile from the ground, there's soil below it.
+Accumulated_reward: 5
+
+Step: 6
+click(floor tile area) Q=0.8959326020128326, Count=50
+click(belt) Q=1.3038657323301615, Count=52
+apply(silver key, floor tile area) Q=0.6921855444958998, Count=49
+apply(silver key, belt) Q=0.8288141905766683, Count=50
+apply(wrench, floor tile area) Q=0.8674760845644626, Count=50
+apply(wrench, belt) Q=0.8178252385922614, Count=49
+apply(key card, floor tile area) Q=0.718508318036263, Count=49
+apply(key card, belt) Q=0.9454717438521347, Count=50
+craft(silver key, wrench) Q=0.9310110552177554, Count=50
+craft(silver key, key card) Q=0.8705659024162273, Count=50
+craft(wrench, key card) Q=0.7753716489492868, Count=49
+move(Explore left side of the basment) Q=1.2779447125845997, Count=52
+Action: click(belt)
+Reward: Action executed successfully. You have just collected a belt. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 6
+
+Step: 7
+click(floor tile area) Q=0.2679197870633145, Count=50
+apply(silver key, floor tile area) Q=0.24800379344087514, Count=49
+apply(wrench, floor tile area) Q=0.375161045809711, Count=50
+apply(key card, floor tile area) Q=0.24870563154505965, Count=50
+apply(belt, floor tile area) Q=0.24001866737303978, Count=49
+craft(silver key, wrench) Q=0.3455323206884206, Count=50
+craft(silver key, key card) Q=0.2866061604713336, Count=50
+craft(silver key, belt) Q=0.38825767317024446, Count=50
+craft(wrench, key card) Q=0.3292618648131713, Count=50
+craft(wrench, belt) Q=0.2592870438579113, Count=50
+craft(key card, belt) Q=0.22501035902786998, Count=49
+move(Explore left side of the basment) Q=0.8479315615969043, Count=53
+Action: move(Explore left side of the basment)
+Reward: Action executed successfully. Change to another scene: basement leftside.
+Accumulated_reward: 6
+
+Step: 8
+click(water pipe) Q=0.894773356925422, Count=50
+click(rusty cabinate) Q=0.8310012222047296, Count=50
+apply(silver key, water pipe) Q=0.7949642685641157, Count=49
+apply(silver key, rusty cabinate) Q=1.9310462301578755, Count=56
+apply(wrench, water pipe) Q=1.8594257465817055, Count=55
+apply(wrench, rusty cabinate) Q=0.6710691755059331, Count=49
+apply(key card, water pipe) Q=0.9181881741083955, Count=50
+apply(key card, rusty cabinate) Q=0.8231702520328854, Count=49
+apply(belt, water pipe) Q=0.8129192272764901, Count=49
+apply(belt, rusty cabinate) Q=1.0402415257566326, Count=51
+craft(silver key, wrench) Q=0.8647086014686477, Count=50
+craft(silver key, key card) Q=0.7819946279335795, Count=49
+craft(silver key, belt) Q=0.803649370292411, Count=49
+craft(wrench, key card) Q=0.9361384939682696, Count=50
+craft(wrench, belt) Q=0.9357821946010362, Count=50
+craft(key card, belt) Q=0.8947479708236287, Count=50
+move(Explore the machine device set) Q=0.40650878240574695, Count=47
+move(Back to the basement entrance) Q=0.24381234973660587, Count=47
+Action: apply(silver key, rusty cabinate)
+Reward: Action executed successfully. You have successfully applied silver key to rusty cabinate. The cabinate opens, and there's a spade inside.
+Accumulated_reward: 7
+
+Step: 9
+click(water pipe) Q=0.9152735987120071, Count=50
+click(spade) Q=1.6414981564853146, Count=54
+apply(wrench, water pipe) Q=1.88539373143331, Count=55
+apply(wrench, spade) Q=0.8577741731429647, Count=49
+apply(key card, water pipe) Q=1.0325909855559303, Count=50
+apply(key card, spade) Q=1.001599657126085, Count=50
+apply(belt, water pipe) Q=0.936072043972304, Count=50
+apply(belt, spade) Q=1.007088131960001, Count=50
+craft(wrench, key card) Q=1.0126988937494061, Count=50
+craft(wrench, belt) Q=0.9165814130376895, Count=49
+craft(key card, belt) Q=0.8895393954383923, Count=49
+move(Explore the machine device set) Q=0.48285781324412547, Count=47
+move(Back to the basement entrance) Q=0.43504777835495184, Count=47
+Action: apply(wrench, water pipe)
+Reward: Action executed successfully. You have successfully applied wrench to water pipe. The valve is unscrewed from the pipe, and you get a valve handle.
+Accumulated_reward: 8
+
+Step: 10
+click(water pipe) Q=0.9119411404130757, Count=50
+click(valve handle) Q=1.5533321575738768, Count=53
+click(spade) Q=1.5105338120305578, Count=53
+apply(key card, water pipe) Q=0.7825157567851357, Count=49
+apply(key card, valve handle) Q=0.9597532638168681, Count=50
+apply(key card, spade) Q=0.8771431093321916, Count=50
+apply(belt, water pipe) Q=0.9068441812536429, Count=50
+apply(belt, valve handle) Q=0.8479020771222403, Count=50
+apply(belt, spade) Q=0.814138323912543, Count=49
+craft(key card, belt) Q=0.8803408020557774, Count=50
+move(Explore the machine device set) Q=0.5249124187907122, Count=48
+move(Back to the basement entrance) Q=0.5313763690707201, Count=48
+Action: click(valve handle)
+Reward: Action executed successfully. You have just collected a valve handle. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 9
+
+Step: 11
+click(water pipe) Q=0.48375122455248576, Count=49
+click(spade) Q=1.4624968869587847, Count=54
+apply(key card, water pipe) Q=0.6715354228852555, Count=49
+apply(key card, spade) Q=0.7230151746378334, Count=50
+apply(belt, water pipe) Q=0.7155169903776988, Count=50
+apply(belt, spade) Q=0.6337398660844629, Count=49
+apply(valve handle, water pipe) Q=0.7084211051655835, Count=50
+apply(valve handle, spade) Q=0.6979411781741397, Count=50
+craft(key card, belt) Q=0.7478953147533519, Count=50
+craft(key card, valve handle) Q=0.675801813820367, Count=50
+craft(belt, valve handle) Q=0.526474988589259, Count=49
+move(Explore the machine device set) Q=1.090212017330155, Count=52
+move(Back to the basement entrance) Q=0.31525384655946564, Count=48
+Action: click(spade)
+Reward: Action executed successfully. You have just collected a spade. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 10
+
+Step: 12
+click(water pipe) Q=0.3537962453431799, Count=50
+apply(key card, water pipe) Q=0.3190756613458994, Count=50
+apply(belt, water pipe) Q=0.4208862594342021, Count=50
+apply(valve handle, water pipe) Q=0.2694621430775875, Count=49
+apply(spade, water pipe) Q=0.2564395891715588, Count=49
+craft(key card, belt) Q=0.32769241650764247, Count=50
+craft(key card, valve handle) Q=0.28547441597842566, Count=49
+craft(key card, spade) Q=0.5111975947369612, Count=51
+craft(belt, valve handle) Q=0.31282631386201926, Count=49
+craft(belt, spade) Q=0.3680694506673871, Count=50
+craft(valve handle, spade) Q=0.4939059587523175, Count=50
+move(Explore the machine device set) Q=0.8529171459113848, Count=52
+move(Back to the basement entrance) Q=0.561671042024486, Count=51
+Action: move(Explore the machine device set)
+Reward: Action executed successfully. Change to another scene: control machine set.
+Accumulated_reward: 10
+
+Step: 13
+click(distribution box control) Q=1.048169102677024, Count=51
+apply(key card, distribution box control) Q=0.7841288125044334, Count=50
+apply(belt, distribution box control) Q=0.9123853078618108, Count=50
+apply(valve handle, distribution box control) Q=1.9551545577863743, Count=57
+apply(spade, distribution box control) Q=0.5416466656507409, Count=48
+craft(key card, belt) Q=0.757000640440857, Count=49
+craft(key card, valve handle) Q=0.737286570979271, Count=49
+craft(key card, spade) Q=0.7695468256088716, Count=50
+craft(belt, valve handle) Q=0.7748101961419561, Count=50
+craft(belt, spade) Q=0.8754427055294847, Count=50
+craft(valve handle, spade) Q=0.6988415913371354, Count=49
+move(Back to the left side of basement) Q=0.22556298334926675, Count=47
+Action: apply(valve handle, distribution box control)
+Reward: Action executed successfully. You have successfully applied valve handle to distribution box control. The valve handle is assembled to the port.
+Accumulated_reward: 11
+
+Step: 14
+click(distribution box control) Q=0.8439838407261115, Count=49
+click(gear set) Q=0.7286104488953251, Count=48
+apply(key card, distribution box control) Q=1.067750644035959, Count=50
+apply(key card, gear set) Q=0.9926412290476169, Count=50
+apply(belt, distribution box control) Q=0.8473996208286916, Count=49
+apply(belt, gear set) Q=2.1585282120071225, Count=57
+apply(spade, distribution box control) Q=1.0299737506368134, Count=50
+apply(spade, gear set) Q=1.1813118344750329, Count=51
+craft(key card, belt) Q=1.0041496591291115, Count=50
+craft(key card, spade) Q=1.045795259227399, Count=50
+craft(belt, spade) Q=0.8497765108222664, Count=49
+move(Back to the left side of basement) Q=0.5303844287126638, Count=47
+Action: apply(belt, gear set)
+Reward: Action executed successfully. You have successfully applied belt to gear set. The gears are all connect together now, it could work normally now with power.
+Accumulated_reward: 12
+
+Step: 15
+click(distribution box control) Q=2.0826348259021477, Count=54
+apply(key card, distribution box control) Q=1.323533863486908, Count=50
+apply(spade, distribution box control) Q=1.2840900460846711, Count=49
+craft(key card, spade) Q=1.4073906232919393, Count=50
+move(Back to the left side of basement) Q=0.8385006572381992, Count=47
+Action: click(distribution box control)
+Reward: Action executed successfully. You have clicked on distribution box control. The electric box is switeched on, the gear set near it starts to move. you may get the valve handle back and use it else where.
+Accumulated_reward: 13
+
+Step: 16
+click(used valve handle) Q=1.5027344810735213, Count=52
+apply(key card, used valve handle) Q=1.2080309555537923, Count=50
+apply(spade, used valve handle) Q=1.124483493951842, Count=50
+craft(key card, spade) Q=1.1161821229464617, Count=50
+move(Back to the left side of basement) Q=0.9194158831383302, Count=48
+Action: click(used valve handle)
+Reward: Action executed successfully. You have just collected a used valve handle. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 14
+
+Step: 17
+craft(key card, spade) Q=0.8501519447177915, Count=49
+craft(key card, used valve handle) Q=0.7245181571591555, Count=49
+craft(spade, used valve handle) Q=0.8980869392704122, Count=50
+move(Back to the left side of basement) Q=1.2349125532015732, Count=52
+Action: move(Back to the left side of basement)
+Reward: Action executed successfully. Change to another scene: basement leftside.
+Accumulated_reward: 14
+
+Step: 18
+click(water pipe) Q=1.234915895437675, Count=50
+apply(key card, water pipe) Q=1.076223591641585, Count=49
+apply(spade, water pipe) Q=1.058046541540019, Count=49
+apply(used valve handle, water pipe) Q=2.0723282239526775, Count=55
+craft(key card, spade) Q=1.0302640869521045, Count=49
+craft(key card, used valve handle) Q=1.2859354360851682, Count=50
+craft(spade, used valve handle) Q=1.1967925301493492, Count=50
+move(Explore the machine device set) Q=0.7484005556523933, Count=48
+move(Back to the basement entrance) Q=1.1512315233853165, Count=50
+Action: apply(used valve handle, water pipe)
+Reward: Action executed successfully. You have successfully applied used valve handle to water pipe. The handle is assembled back to the pipe. you could take control over it again.
+Accumulated_reward: 15
+
+Step: 19
+click(water pipe) Q=1.5881937199134193, Count=52
+apply(key card, water pipe) Q=1.029033045180143, Count=49
+apply(spade, water pipe) Q=1.2939292529672268, Count=50
+craft(key card, spade) Q=1.322997509952753, Count=50
+move(Explore the machine device set) Q=0.9577907700905555, Count=48
+move(Back to the basement entrance) Q=1.4549577630706547, Count=51
+Action: click(water pipe)
+Reward: Action executed successfully. You have clicked on water pipe. The handle is turned on, water can now pass the pipe valve and enter the huge machine in the room.
+Accumulated_reward: 16
+
+Step: 20
+click(machine control panel) Q=0.716726993967566, Count=49
+apply(key card, machine control panel) Q=0.7496879099240975, Count=50
+apply(spade, machine control panel) Q=0.5329249948917685, Count=49
+craft(key card, spade) Q=0.5853277087216769, Count=49
+move(Explore the machine device set) Q=0.678799029651897, Count=49
+move(Back to the basement entrance) Q=1.497332775287395, Count=54
+Action: move(Back to the basement entrance)
+Reward: Action executed successfully. Change to another scene: basement entrance.
+Accumulated_reward: 16
+
+Step: 21
+click(floor tile area) Q=1.3268034282210555, Count=50
+apply(key card, floor tile area) Q=1.258313772624623, Count=49
+apply(spade, floor tile area) Q=2.1502341562433354, Count=55
+craft(key card, spade) Q=1.4153714207186419, Count=50
+move(Explore left side of the basment) Q=0.5992155837128986, Count=46
+Action: apply(spade, floor tile area)
+Reward: Action executed successfully. You have successfully applied spade to floor tile area. The hard soil is digged by the spade, and a control handle appears beneath the soil.
+Accumulated_reward: 17
+
+Step: 22
+click(control handle) Q=1.9403970002438573, Count=53
+apply(key card, control handle) Q=1.3362283404033621, Count=50
+move(Explore left side of the basment) Q=0.8350205585796455, Count=47
+Action: click(control handle)
+Reward: Action executed successfully. You have just collected a control handle. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 18
+
+Step: 23
+craft(key card, control handle) Q=0.9064896022232712, Count=49
+move(Explore left side of the basment) Q=1.0601034228515176, Count=51
+Action: move(Explore left side of the basment)
+Reward: Action executed successfully. Change to another scene: basement leftside.
+Accumulated_reward: 18
+
+Step: 24
+click(machine control panel) Q=0.9970145422228974, Count=49
+apply(key card, machine control panel) Q=0.9655820541954068, Count=49
+apply(control handle, machine control panel) Q=1.7996098239580034, Count=54
+craft(key card, control handle) Q=1.1002911411823761, Count=49
+move(Explore the machine device set) Q=1.0020474055251427, Count=49
+move(Back to the basement entrance) Q=1.12301380332248, Count=50
+Action: apply(control handle, machine control panel)
+Reward: Action executed successfully. You have successfully applied control handle to machine control panel. The control handle is now asssembled to it. you may finally turn on the machine set now.
+Accumulated_reward: 19
+
+Step: 25
+click(machine control panel) Q=1.2737516992210394, Count=52
+apply(key card, machine control panel) Q=0.821157935058416, Count=49
+move(Explore the machine device set) Q=0.7427968848394538, Count=49
+move(Back to the basement entrance) Q=0.8547641210006561, Count=50
+Action: click(machine control panel)
+Reward: Action executed successfully. You have clicked on machine control panel. The machine is turned on now, there's a huge cracking sound, something happens in the basement ...
+Accumulated_reward: 20
+
+Step: 26
+move(Explore the machine device set) Q=0.2170338120978062, Count=50
+move(Back to the basement entrance) Q=0.24107416341748172, Count=50
+Action: move(Back to the basement entrance)
+Reward: Action executed successfully. Change to another scene: basement entrance.
+Accumulated_reward: 20
+
+Step: 27
+move(Explore left side of the basment) Q=0.2256999649196414, Count=49
+move(Go through the door into hallway) Q=0.510355694664834, Count=51
+Action: move(Go through the door into hallway)
+Reward: Action executed successfully. Change to another scene: hallway behind door.
+Accumulated_reward: 20
+
+Step: 28
+click(iron door) Q=0.6039015761324034, Count=50
+apply(key card, iron door) Q=0.47476131727295345, Count=49
+move(Go into the room it leads to) Q=1.0606316212502331, Count=53
+move(Back to the basement entrance) Q=0.2707782605986262, Count=48
+Action: move(Go into the room it leads to)
+Reward: Action executed successfully. Change to another scene: lab room overview.
+Accumulated_reward: 20
+
+Step: 29
+click(cabin door lock) Q=1.040574799509185, Count=50
+apply(key card, cabin door lock) Q=0.9335873935872822, Count=50
+move(Explore the computer desk) Q=1.573183020022103, Count=53
+move(Explore left wall full of safes) Q=0.7515159229482831, Count=48
+move(Explore the experiment table area) Q=1.3316769939755593, Count=52
+move(Back to the hallway) Q=0.5519646246017184, Count=47
+Action: move(Explore the computer desk)
+Reward: Action executed successfully. Change to another scene: computer desk.
+Accumulated_reward: 20
+
+Step: 30
+click(card reader) Q=1.4712180982226908, Count=49
+click(lighter) Q=2.065306366495787, Count=52
+apply(key card, card reader) Q=2.279181975808953, Count=53
+apply(key card, lighter) Q=1.564770405316239, Count=49
+move(Back to the lab room overview) Q=1.0792086737410762, Count=47
+Action: apply(key card, card reader)
+Reward: Action executed successfully. You have successfully applied key card to card reader. The computer and printer are both on. the printer prints out a code paper.
+Accumulated_reward: 21
+
+Step: 31
+click(printed code paper) Q=1.96099225046626, Count=53
+click(lighter) Q=1.5831592158280385, Count=51
+apply(key card, printed code paper) Q=1.4357238935487238, Count=50
+apply(key card, lighter) Q=1.3511064698339617, Count=49
+move(Back to the lab room overview) Q=0.8825622182776572, Count=47
+Action: click(printed code paper)
+Reward: Action executed successfully. You have just collected a printed code paper. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 22
+
+Step: 32
+click(lighter) Q=1.261626585123557, Count=53
+apply(key card, lighter) Q=0.8093787989386023, Count=50
+apply(printed code paper, lighter) Q=0.7493553056705273, Count=50
+craft(key card, printed code paper) Q=0.762903925362737, Count=49
+move(Back to the lab room overview) Q=0.5288372953654921, Count=48
+Action: click(lighter)
+Reward: Action executed successfully. You have just collected a lighter. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 23
+
+Step: 33
+craft(key card, printed code paper) Q=0.22616028457829832, Count=50
+craft(key card, lighter) Q=0.1471957347681523, Count=49
+craft(printed code paper, lighter) Q=0.3153603056461312, Count=50
+move(Back to the lab room overview) Q=0.4964822915317667, Count=51
+Action: move(Back to the lab room overview)
+Reward: Action executed successfully. Change to another scene: lab room overview.
+Accumulated_reward: 23
+
+Step: 34
+click(cabin door lock) Q=0.19453986670075463, Count=49
+apply(key card, cabin door lock) Q=0.374160956661409, Count=50
+apply(printed code paper, cabin door lock) Q=0.2977016960132949, Count=49
+apply(lighter, cabin door lock) Q=0.4378730219644749, Count=50
+craft(key card, printed code paper) Q=0.36278062956689217, Count=50
+craft(key card, lighter) Q=0.4796948132354029, Count=50
+craft(printed code paper, lighter) Q=0.316242438165686, Count=49
+move(Explore the computer desk) Q=0.28941181843741304, Count=49
+move(Explore left wall full of safes) Q=1.0003374603021873, Count=54
+move(Explore the experiment table area) Q=0.7332783916129999, Count=52
+move(Back to the hallway) Q=0.13035417852005649, Count=48
+Action: move(Explore left wall full of safes)
+Reward: Action executed successfully. Change to another scene: wall of safes.
+Accumulated_reward: 23
+
+Step: 35
+click(safe 1) Q=0.862774594352075, Count=50
+click(safe 2) Q=0.8848052524785005, Count=50
+click(safe 3) Q=0.8053063974765884, Count=49
+apply(key card, safe 1) Q=0.9613141621563616, Count=50
+apply(key card, safe 2) Q=2.43619227122331, Count=59
+apply(key card, safe 3) Q=1.052209832216556, Count=50
+apply(printed code paper, safe 1) Q=1.0284130254560282, Count=50
+apply(printed code paper, safe 2) Q=0.9327533647254287, Count=50
+apply(printed code paper, safe 3) Q=0.8493958598469495, Count=49
+apply(lighter, safe 1) Q=0.7771294216824185, Count=49
+apply(lighter, safe 2) Q=0.7345870743791933, Count=49
+apply(lighter, safe 3) Q=0.9126021070822433, Count=50
+craft(key card, printed code paper) Q=0.8005863760580019, Count=49
+craft(key card, lighter) Q=1.032542264266307, Count=50
+craft(printed code paper, lighter) Q=0.9759434601520619, Count=50
+move(Back to the lab room overview) Q=0.2595219967867394, Count=46
+Action: apply(key card, safe 2)
+Reward: Action executed successfully. You have successfully applied key card to safe 2. The key card is inserted, authorization succeeds.
+Accumulated_reward: 24
+
+Step: 36
+Action: input(7248, safe 2)
+Reward: Action executed successfully. You have given an input 7248 to safe 2. The safe 2 opens, and there's something in it.
+Accumulated_reward: 25
+
+Step: 37
+click(safe 1) Q=0.5576741104073161, Count=50
+click(safe 3) Q=0.5375355569879218, Count=50
+click(measuring cup) Q=1.1499849662769523, Count=53
+apply(printed code paper, safe 1) Q=0.5541309194152579, Count=50
+apply(printed code paper, safe 3) Q=0.5816709464967771, Count=50
+apply(printed code paper, measuring cup) Q=0.4738705218192346, Count=49
+apply(lighter, safe 1) Q=0.6124125722606761, Count=50
+apply(lighter, safe 3) Q=0.5079325845817847, Count=49
+apply(lighter, measuring cup) Q=0.6566554148065866, Count=50
+craft(printed code paper, lighter) Q=0.5554279585795602, Count=50
+move(Back to the lab room overview) Q=0.33008946430280467, Count=49
+Action: click(measuring cup)
+Reward: Action executed successfully. You have just collected a measuring cup. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 26
+
+Step: 38
+click(safe 1) Q=0.01295675520573333, Count=49
+click(safe 3) Q=0.13790655975736898, Count=50
+apply(printed code paper, safe 1) Q=0.049349989492543364, Count=50
+apply(printed code paper, safe 3) Q=0.13143363583986295, Count=50
+apply(lighter, safe 1) Q=0.04904801444653665, Count=50
+apply(lighter, safe 3) Q=0.03354716042617046, Count=50
+apply(measuring cup, safe 1) Q=0.03860652507426386, Count=50
+apply(measuring cup, safe 3) Q=0.022166921721517928, Count=50
+craft(printed code paper, lighter) Q=0.0753535081023761, Count=50
+craft(printed code paper, measuring cup) Q=0.04470596111514511, Count=50
+craft(lighter, measuring cup) Q=0.06683028072694298, Count=50
+move(Back to the lab room overview) Q=0.24603750295721422, Count=51
+Action: move(Back to the lab room overview)
+Reward: Action executed successfully. Change to another scene: lab room overview.
+Accumulated_reward: 26
+
+Step: 39
+click(cabin door lock) Q=0.1965360961163068, Count=50
+apply(printed code paper, cabin door lock) Q=0.16980837106124047, Count=50
+apply(lighter, cabin door lock) Q=0.13549085799642205, Count=49
+apply(measuring cup, cabin door lock) Q=0.34547991434750375, Count=51
+craft(printed code paper, lighter) Q=0.23258656628216562, Count=50
+craft(printed code paper, measuring cup) Q=0.08336480180094934, Count=49
+craft(lighter, measuring cup) Q=0.2670523484147388, Count=50
+move(Explore the computer desk) Q=0.08517587336302374, Count=49
+move(Explore left wall full of safes) Q=0.03774879456643927, Count=49
+move(Explore the experiment table area) Q=0.8176387154206037, Count=53
+move(Back to the hallway) Q=0.14061508335310913, Count=50
+Action: move(Explore the experiment table area)
+Reward: Action executed successfully. Change to another scene: experiment table area.
+Accumulated_reward: 26
+
+Step: 40
+click(cabinate 1) Q=1.1224257019355819, Count=50
+click(experiment table pad) Q=0.8404112954880922, Count=49
+click(water box) Q=1.0754749222052045, Count=50
+click(drawer 1) Q=1.0334077514661326, Count=50
+click(drawer 2) Q=1.7964659746855038, Count=54
+click(blender machine) Q=0.9064360710925106, Count=49
+click(flask) Q=1.6959862443959937, Count=54
+click(solution bottles) Q=1.9685404067114807, Count=55
+apply(printed code paper, cabinate 1) Q=0.9461662188413147, Count=50
+apply(printed code paper, experiment table pad) Q=1.070737560189616, Count=50
+apply(printed code paper, water box) Q=0.8085255360371333, Count=49
+apply(printed code paper, drawer 1) Q=1.021705964548582, Count=50
+apply(printed code paper, drawer 2) Q=0.8584929101359164, Count=49
+apply(printed code paper, blender machine) Q=0.8884214047231649, Count=49
+apply(printed code paper, flask) Q=0.8663341164051227, Count=49
+apply(printed code paper, solution bottles) Q=1.084131059641518, Count=50
+apply(lighter, cabinate 1) Q=1.006353806509267, Count=50
+apply(lighter, experiment table pad) Q=0.8824773065076217, Count=49
+apply(lighter, water box) Q=0.9224601603044011, Count=49
+apply(lighter, drawer 1) Q=0.8334438643020952, Count=49
+apply(lighter, drawer 2) Q=0.9717632490000886, Count=50
+apply(lighter, blender machine) Q=1.0417676123703026, Count=50
+apply(lighter, flask) Q=0.9304775486622587, Count=50
+apply(lighter, solution bottles) Q=0.8797935801597376, Count=49
+apply(measuring cup, cabinate 1) Q=0.9375415372406973, Count=50
+apply(measuring cup, experiment table pad) Q=0.8564234328243561, Count=49
+apply(measuring cup, water box) Q=1.7715474436308192, Count=54
+apply(measuring cup, drawer 1) Q=0.8963064501037143, Count=49
+apply(measuring cup, drawer 2) Q=1.0351080152547014, Count=50
+apply(measuring cup, blender machine) Q=1.0157709116476696, Count=50
+apply(measuring cup, flask) Q=0.9056063768485253, Count=49
+apply(measuring cup, solution bottles) Q=1.0372674234576995, Count=50
+craft(printed code paper, lighter) Q=1.1712356600277587, Count=51
+craft(printed code paper, measuring cup) Q=1.0755505764288678, Count=50
+craft(lighter, measuring cup) Q=0.8010900768024551, Count=49
+move(Back to the lab room overview) Q=0.2669343938588522, Count=46
+Action: click(solution bottles)
+Reward: Action executed successfully. You have just collected a solution bottles. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 27
+
+Step: 41
+click(cabinate 1) Q=0.8812330164973373, Count=50
+click(experiment table pad) Q=0.765207191311967, Count=49
+click(water box) Q=1.0372008961463859, Count=50
+click(drawer 1) Q=0.6965965224651351, Count=49
+click(drawer 2) Q=2.006648729156321, Count=56
+click(blender machine) Q=0.8483217601598205, Count=49
+click(flask) Q=1.7131038735239938, Count=54
+apply(printed code paper, cabinate 1) Q=0.7846581392019324, Count=49
+apply(printed code paper, experiment table pad) Q=0.8684638531754246, Count=49
+apply(printed code paper, water box) Q=0.7310818519445799, Count=49
+apply(printed code paper, drawer 1) Q=0.853308714283276, Count=49
+apply(printed code paper, drawer 2) Q=0.8242296372709377, Count=49
+apply(printed code paper, blender machine) Q=1.0655979483038043, Count=50
+apply(printed code paper, flask) Q=0.7193334119569774, Count=49
+apply(lighter, cabinate 1) Q=0.9491450931864914, Count=50
+apply(lighter, experiment table pad) Q=0.8313615091179811, Count=49
+apply(lighter, water box) Q=0.9335118659351997, Count=50
+apply(lighter, drawer 1) Q=0.9582400395848006, Count=50
+apply(lighter, drawer 2) Q=0.8834402288017555, Count=50
+apply(lighter, blender machine) Q=0.8832358205919283, Count=50
+apply(lighter, flask) Q=0.8774658464297973, Count=50
+apply(measuring cup, cabinate 1) Q=0.8987788762986465, Count=50
+apply(measuring cup, experiment table pad) Q=0.930337028153852, Count=50
+apply(measuring cup, water box) Q=1.8857618081182144, Count=55
+apply(measuring cup, drawer 1) Q=0.8417225337987044, Count=49
+apply(measuring cup, drawer 2) Q=0.9203950862908906, Count=50
+apply(measuring cup, blender machine) Q=0.8732981604333343, Count=49
+apply(measuring cup, flask) Q=0.9621499972874016, Count=50
+apply(solution bottles, cabinate 1) Q=0.7962538093074343, Count=49
+apply(solution bottles, experiment table pad) Q=0.879323824415714, Count=49
+apply(solution bottles, water box) Q=0.9981089038597187, Count=50
+apply(solution bottles, drawer 1) Q=0.9158594060329387, Count=50
+apply(solution bottles, drawer 2) Q=0.8739055054796286, Count=50
+apply(solution bottles, blender machine) Q=2.008570788278721, Count=56
+apply(solution bottles, flask) Q=0.7892425533126616, Count=49
+craft(printed code paper, lighter) Q=0.817781299144404, Count=49
+craft(printed code paper, measuring cup) Q=0.8708544497675239, Count=49
+craft(printed code paper, solution bottles) Q=0.9252564084962146, Count=50
+craft(lighter, measuring cup) Q=0.9332946931106791, Count=50
+craft(lighter, solution bottles) Q=0.8994932303790532, Count=50
+craft(measuring cup, solution bottles) Q=0.9389827994995489, Count=50
+move(Back to the lab room overview) Q=0.1693558981140908, Count=46
+Action: apply(solution bottles, blender machine)
+Reward: Action executed successfully. You have successfully applied solution bottles to blender machine. You blend three solutions together and the machine produces a concentration.
+Accumulated_reward: 28
+
+Step: 42
+click(cabinate 1) Q=0.7919092431235579, Count=48
+click(experiment table pad) Q=0.8797928793599743, Count=49
+click(water box) Q=1.0259595317367796, Count=50
+click(drawer 1) Q=0.9307829474413738, Count=49
+click(drawer 2) Q=1.9609574329501616, Count=55
+click(flask) Q=1.886439858128489, Count=54
+click(concentrated solution) Q=1.6167672909726492, Count=53
+apply(printed code paper, cabinate 1) Q=1.1447122269715386, Count=50
+apply(printed code paper, experiment table pad) Q=1.0300584889530564, Count=50
+apply(printed code paper, water box) Q=1.016926143558167, Count=49
+apply(printed code paper, drawer 1) Q=0.9470629714227022, Count=49
+apply(printed code paper, drawer 2) Q=0.8310933845655109, Count=49
+apply(printed code paper, flask) Q=1.0837308249518018, Count=50
+apply(printed code paper, concentrated solution) Q=1.0281568709432847, Count=50
+apply(lighter, cabinate 1) Q=1.2794164387710323, Count=51
+apply(lighter, experiment table pad) Q=1.0616506400950296, Count=50
+apply(lighter, water box) Q=0.9675933623456865, Count=49
+apply(lighter, drawer 1) Q=1.0932158853856502, Count=50
+apply(lighter, drawer 2) Q=1.152524213322268, Count=50
+apply(lighter, flask) Q=0.9633795499445104, Count=49
+apply(lighter, concentrated solution) Q=1.096690440717255, Count=50
+apply(measuring cup, cabinate 1) Q=1.0130668060923405, Count=49
+apply(measuring cup, experiment table pad) Q=0.8320680864448731, Count=49
+apply(measuring cup, water box) Q=1.8557198487056146, Count=54
+apply(measuring cup, drawer 1) Q=1.1344507286794372, Count=50
+apply(measuring cup, drawer 2) Q=1.0613799224671916, Count=50
+apply(measuring cup, flask) Q=1.163800732461224, Count=50
+apply(measuring cup, concentrated solution) Q=0.9273646641951275, Count=49
+craft(printed code paper, lighter) Q=1.1222693581253418, Count=50
+craft(printed code paper, measuring cup) Q=1.0655593831110033, Count=50
+craft(lighter, measuring cup) Q=1.04802458394525, Count=50
+move(Back to the lab room overview) Q=0.15227640275793164, Count=45
+Action: click(drawer 2)
+Reward: Action executed successfully. You have clicked on drawer 2. The drawer 2 is now open, there's something inside it.
+Accumulated_reward: 29
+
+Step: 43
+click(cabinate 1) Q=0.8168507426921364, Count=49
+click(experiment table pad) Q=0.9660647014348929, Count=50
+click(water box) Q=1.020139849017461, Count=50
+click(drawer 1) Q=0.824675719192456, Count=49
+click(flask) Q=1.8389396922354453, Count=55
+click(iron hoop) Q=1.7399321532379803, Count=54
+click(concentrated solution) Q=1.6772230902156346, Count=53
+apply(printed code paper, cabinate 1) Q=0.9572593145625055, Count=50
+apply(printed code paper, experiment table pad) Q=1.0626243985899593, Count=50
+apply(printed code paper, water box) Q=0.9054527893459425, Count=49
+apply(printed code paper, drawer 1) Q=0.9733842236220318, Count=50
+apply(printed code paper, flask) Q=0.907692181388651, Count=49
+apply(printed code paper, iron hoop) Q=0.8840815692225223, Count=49
+apply(printed code paper, concentrated solution) Q=0.7936944340925638, Count=49
+apply(lighter, cabinate 1) Q=0.8676208431314468, Count=49
+apply(lighter, experiment table pad) Q=0.8239498014601802, Count=49
+apply(lighter, water box) Q=1.0248349673099568, Count=50
+apply(lighter, drawer 1) Q=0.9727386579747461, Count=50
+apply(lighter, flask) Q=1.1132062401079013, Count=51
+apply(lighter, iron hoop) Q=0.9050265687910223, Count=49
+apply(lighter, concentrated solution) Q=0.9830549937498981, Count=50
+apply(measuring cup, cabinate 1) Q=0.8805134544349721, Count=49
+apply(measuring cup, experiment table pad) Q=0.9464067943688139, Count=50
+apply(measuring cup, water box) Q=1.7378460904684228, Count=54
+apply(measuring cup, drawer 1) Q=1.0117116388894973, Count=50
+apply(measuring cup, flask) Q=0.9942594019632216, Count=50
+apply(measuring cup, iron hoop) Q=1.1203051491288138, Count=50
+apply(measuring cup, concentrated solution) Q=0.8963247206487254, Count=49
+craft(printed code paper, lighter) Q=1.0343145933470281, Count=50
+craft(printed code paper, measuring cup) Q=0.8331837132917188, Count=49
+craft(lighter, measuring cup) Q=0.9254168970007137, Count=49
+move(Back to the lab room overview) Q=0.23469902026182576, Count=46
+Action: click(flask)
+Reward: Action executed successfully. You have just collected a flask. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 30
+
+Step: 44
+click(cabinate 1) Q=0.8305436661905079, Count=50
+click(experiment table pad) Q=0.7752114321495854, Count=50
+click(water box) Q=0.8440161792464919, Count=50
+click(drawer 1) Q=0.6873780789573831, Count=50
+click(iron hoop) Q=1.5371782307780153, Count=54
+click(concentrated solution) Q=1.599028960731993, Count=54
+apply(printed code paper, cabinate 1) Q=0.5514008124570827, Count=49
+apply(printed code paper, experiment table pad) Q=0.7643875176970688, Count=50
+apply(printed code paper, water box) Q=0.6712744293185837, Count=49
+apply(printed code paper, drawer 1) Q=0.6926768934760767, Count=50
+apply(printed code paper, iron hoop) Q=0.585944839227684, Count=49
+apply(printed code paper, concentrated solution) Q=0.7429744188239866, Count=50
+apply(lighter, cabinate 1) Q=0.7956076110489391, Count=50
+apply(lighter, experiment table pad) Q=0.6870903345204074, Count=50
+apply(lighter, water box) Q=0.697443929669658, Count=50
+apply(lighter, drawer 1) Q=0.6456422534999765, Count=49
+apply(lighter, iron hoop) Q=0.6534023223556402, Count=49
+apply(lighter, concentrated solution) Q=0.6135139611025308, Count=49
+apply(measuring cup, cabinate 1) Q=0.5977664966861905, Count=49
+apply(measuring cup, experiment table pad) Q=0.734948344569936, Count=50
+apply(measuring cup, water box) Q=1.6769186424851843, Count=55
+apply(measuring cup, drawer 1) Q=0.6863979833182625, Count=50
+apply(measuring cup, iron hoop) Q=0.6723293308934299, Count=49
+apply(measuring cup, concentrated solution) Q=0.5670256968279073, Count=49
+apply(flask, cabinate 1) Q=0.7324710988457248, Count=50
+apply(flask, experiment table pad) Q=0.7137204009318421, Count=50
+apply(flask, water box) Q=0.8774120415689024, Count=51
+apply(flask, drawer 1) Q=0.711709330985856, Count=50
+apply(flask, iron hoop) Q=0.7929474088017517, Count=50
+apply(flask, concentrated solution) Q=0.8652477977864172, Count=51
+craft(printed code paper, lighter) Q=0.7958657508896463, Count=50
+craft(printed code paper, measuring cup) Q=0.662087113549643, Count=49
+craft(printed code paper, flask) Q=0.6145449353145315, Count=49
+craft(lighter, measuring cup) Q=0.7895341040319392, Count=50
+craft(lighter, flask) Q=0.7732619837620003, Count=50
+craft(measuring cup, flask) Q=0.5820026428190633, Count=49
+move(Back to the lab room overview) Q=0.062460734774459264, Count=47
+Action: apply(measuring cup, water box)
+Reward: Action executed successfully. You have successfully applied measuring cup to water box. The measuring cup is now filled with some water.
+Accumulated_reward: 31
+
+Step: 45
+click(cabinate 1) Q=0.8435756858930689, Count=50
+click(experiment table pad) Q=0.9192628221281622, Count=50
+click(drawer 1) Q=0.849255734608775, Count=50
+click(iron hoop) Q=1.6487637853864503, Count=54
+click(concentrated solution) Q=1.654021742928671, Count=54
+apply(printed code paper, cabinate 1) Q=0.8944910848335385, Count=50
+apply(printed code paper, experiment table pad) Q=0.8519024862265244, Count=50
+apply(printed code paper, drawer 1) Q=0.7899223811916276, Count=50
+apply(printed code paper, iron hoop) Q=0.9716299721450706, Count=50
+apply(printed code paper, concentrated solution) Q=0.7756144802646215, Count=49
+apply(lighter, cabinate 1) Q=0.7946055132533945, Count=50
+apply(lighter, experiment table pad) Q=0.7780608922828616, Count=49
+apply(lighter, drawer 1) Q=0.9105850292521148, Count=50
+apply(lighter, iron hoop) Q=0.7073585076057968, Count=49
+apply(lighter, concentrated solution) Q=0.6747726295410318, Count=49
+apply(measuring cup, cabinate 1) Q=1.0727545688890356, Count=51
+apply(measuring cup, experiment table pad) Q=0.8590198765615322, Count=50
+apply(measuring cup, drawer 1) Q=0.7050569465934957, Count=49
+apply(measuring cup, iron hoop) Q=0.7415617986161027, Count=49
+apply(measuring cup, concentrated solution) Q=0.6822760420799517, Count=49
+apply(flask, cabinate 1) Q=0.7906020185717552, Count=49
+apply(flask, experiment table pad) Q=0.7528434343609195, Count=49
+apply(flask, drawer 1) Q=0.7086201183552797, Count=49
+apply(flask, iron hoop) Q=0.6952738937348271, Count=49
+apply(flask, concentrated solution) Q=0.8149630600386004, Count=50
+craft(printed code paper, lighter) Q=0.7762545750549393, Count=49
+craft(printed code paper, measuring cup) Q=0.8794777604342826, Count=50
+craft(printed code paper, flask) Q=0.958480169276595, Count=50
+craft(lighter, measuring cup) Q=0.9071017109685016, Count=50
+craft(lighter, flask) Q=0.8593534827909601, Count=50
+craft(measuring cup, flask) Q=1.7368701145346466, Count=55
+move(Back to the lab room overview) Q=0.49950143155002935, Count=48
+Action: craft(measuring cup, flask)
+Reward: Action executed successfully. You have successfully crafted A measuring cup about 100ml, with some water in it now. and An normal flask that could be used as container for chemical reaction. It's empty currently. together.
+You get a new item: An flask with some water in it, could dilute chemicals further added into it.. It is put into your bag.
+Accumulated_reward: 32
+
+Step: 46
+click(cabinate 1) Q=0.8311440746789186, Count=50
+click(experiment table pad) Q=0.659124630886293, Count=49
+click(drawer 1) Q=0.6709623205660387, Count=50
+click(iron hoop) Q=1.4125847016873954, Count=54
+click(concentrated solution) Q=1.646082577260532, Count=55
+apply(printed code paper, cabinate 1) Q=0.5312459306428127, Count=49
+apply(printed code paper, experiment table pad) Q=0.5850024472155426, Count=49
+apply(printed code paper, drawer 1) Q=0.6689389298598057, Count=49
+apply(printed code paper, iron hoop) Q=0.7366385387592833, Count=50
+apply(printed code paper, concentrated solution) Q=0.7236832700360127, Count=50
+apply(lighter, cabinate 1) Q=0.6912273386918972, Count=50
+apply(lighter, experiment table pad) Q=0.7219886757601133, Count=50
+apply(lighter, drawer 1) Q=0.6678506526161372, Count=49
+apply(lighter, iron hoop) Q=0.6006991968813012, Count=49
+apply(lighter, concentrated solution) Q=0.9661930751545227, Count=51
+apply(flask, cabinate 1) Q=0.8355427067182472, Count=50
+apply(flask, experiment table pad) Q=0.5250738156174128, Count=49
+apply(flask, drawer 1) Q=0.700039780858556, Count=50
+apply(flask, iron hoop) Q=0.7736407817280301, Count=50
+apply(flask, concentrated solution) Q=0.7977770305628268, Count=50
+craft(printed code paper, lighter) Q=0.6641052348686123, Count=49
+craft(printed code paper, flask) Q=0.7135497764746551, Count=50
+craft(lighter, flask) Q=0.7049992581606539, Count=50
+move(Back to the lab room overview) Q=0.27661038234939783, Count=48
+Action: click(concentrated solution)
+Reward: Action executed successfully. You have just collected a concentrated solution. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 33
+
+Step: 47
+click(cabinate 1) Q=0.8976844192951066, Count=50
+click(experiment table pad) Q=0.9629498333207775, Count=50
+click(drawer 1) Q=0.7719614175483669, Count=49
+click(iron hoop) Q=1.8593202913642206, Count=55
+apply(printed code paper, cabinate 1) Q=0.9040656954496387, Count=50
+apply(printed code paper, experiment table pad) Q=0.8068700768977787, Count=50
+apply(printed code paper, drawer 1) Q=0.9275633115856488, Count=50
+apply(printed code paper, iron hoop) Q=0.8457617894782815, Count=50
+apply(lighter, cabinate 1) Q=0.6498825826840384, Count=49
+apply(lighter, experiment table pad) Q=0.7967260578477667, Count=50
+apply(lighter, drawer 1) Q=0.603040824612425, Count=49
+apply(lighter, iron hoop) Q=0.801960595270255, Count=50
+apply(flask, cabinate 1) Q=0.8324800726449688, Count=50
+apply(flask, experiment table pad) Q=0.7800445190408984, Count=49
+apply(flask, drawer 1) Q=0.8204930722697601, Count=50
+apply(flask, iron hoop) Q=0.9910852406605243, Count=50
+apply(concentrated solution, cabinate 1) Q=0.7941610375956061, Count=49
+apply(concentrated solution, experiment table pad) Q=0.9397946656485503, Count=50
+apply(concentrated solution, drawer 1) Q=0.9051955033114374, Count=50
+apply(concentrated solution, iron hoop) Q=0.786901268075024, Count=49
+craft(printed code paper, lighter) Q=0.7746638018610315, Count=49
+craft(printed code paper, flask) Q=0.6745191384851426, Count=49
+craft(printed code paper, concentrated solution) Q=0.7432446315695567, Count=49
+craft(lighter, flask) Q=0.650047790873041, Count=49
+craft(lighter, concentrated solution) Q=0.8050086276398414, Count=49
+craft(flask, concentrated solution) Q=2.1377620801106465, Count=57
+move(Back to the lab room overview) Q=0.7023888362684881, Count=49
+Action: craft(flask, concentrated solution)
+Reward: Action executed successfully. You have successfully crafted A concentrated chemical solution, need to be diluted to use. and An flask with some water in it, could dilute chemicals further added into it. together.
+You get a new item: An flask with diluted solution in it. It's ready to be used for experiment now.. It is put into your bag.
+Accumulated_reward: 34
+
+Step: 48
+click(cabinate 1) Q=1.0644709971283204, Count=49
+click(experiment table pad) Q=1.2053523492803158, Count=50
+click(drawer 1) Q=0.8431130395494991, Count=48
+click(iron hoop) Q=2.62628442108752, Count=59
+apply(printed code paper, cabinate 1) Q=0.9121882968717343, Count=49
+apply(printed code paper, experiment table pad) Q=1.1041944621847815, Count=50
+apply(printed code paper, drawer 1) Q=1.0990023980505876, Count=49
+apply(printed code paper, iron hoop) Q=0.9848538640925871, Count=49
+apply(lighter, cabinate 1) Q=1.0936092300487152, Count=49
+apply(lighter, experiment table pad) Q=1.0168833440327663, Count=49
+apply(lighter, drawer 1) Q=1.130970482302321, Count=50
+apply(lighter, iron hoop) Q=1.2869002125128974, Count=50
+apply(flask, cabinate 1) Q=1.065280072495626, Count=49
+apply(flask, experiment table pad) Q=1.875622734619219, Count=54
+apply(flask, drawer 1) Q=1.3859287344846527, Count=51
+apply(flask, iron hoop) Q=1.2963702163740771, Count=51
+craft(printed code paper, lighter) Q=1.141701071668582, Count=50
+craft(printed code paper, flask) Q=1.1597464689379828, Count=50
+craft(lighter, flask) Q=0.9541797858652314, Count=49
+move(Back to the lab room overview) Q=0.16361100148667945, Count=45
+Action: click(iron hoop)
+Reward: Action executed successfully. You have just collected a iron hoop. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 35
+
+Step: 49
+Action: input(9750, cabinate 1)
+Reward: Action executed successfully. You have given an input 9750 to cabinate 1. The cabinate opens and there's an alcohol burner inside.
+Accumulated_reward: 36
+
+Step: 50
+click(experiment table pad) Q=0.8563509828114979, Count=50
+click(drawer 1) Q=0.862825070299665, Count=50
+click(alcohol burner) Q=1.9132632272000087, Count=56
+apply(printed code paper, experiment table pad) Q=0.7598222170771471, Count=49
+apply(printed code paper, drawer 1) Q=0.8157021244887046, Count=50
+apply(printed code paper, alcohol burner) Q=0.8563943174196994, Count=50
+apply(lighter, experiment table pad) Q=0.664506033778719, Count=49
+apply(lighter, drawer 1) Q=0.5176946931082396, Count=48
+apply(lighter, alcohol burner) Q=0.8146851754683206, Count=50
+apply(flask, experiment table pad) Q=1.5944265470809194, Count=54
+apply(flask, drawer 1) Q=0.9127370827683794, Count=50
+apply(flask, alcohol burner) Q=0.7204779053484359, Count=49
+apply(iron hoop, experiment table pad) Q=0.9369255795185298, Count=51
+apply(iron hoop, drawer 1) Q=0.7607026841813342, Count=49
+apply(iron hoop, alcohol burner) Q=0.9362343520106579, Count=51
+craft(printed code paper, lighter) Q=0.8881091881848924, Count=50
+craft(printed code paper, flask) Q=0.6609013777527675, Count=49
+craft(printed code paper, iron hoop) Q=0.7780837190296376, Count=50
+craft(lighter, flask) Q=0.7233891906948768, Count=49
+craft(lighter, iron hoop) Q=0.9060128162647934, Count=50
+craft(flask, iron hoop) Q=0.7553305100831151, Count=49
+move(Back to the lab room overview) Q=0.26921747852009564, Count=47
+Action: click(alcohol burner)
+Reward: Action executed successfully. You have just collected a alcohol burner. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 37
+
+Step: 51
+click(experiment table pad) Q=0.771704393483303, Count=49
+click(drawer 1) Q=0.9708009442151733, Count=50
+apply(printed code paper, experiment table pad) Q=0.878216503752752, Count=50
+apply(printed code paper, drawer 1) Q=0.8547595791124427, Count=50
+apply(lighter, experiment table pad) Q=1.1352748603620235, Count=51
+apply(lighter, drawer 1) Q=0.7640165231065215, Count=49
+apply(flask, experiment table pad) Q=1.830950199023015, Count=55
+apply(flask, drawer 1) Q=0.7297082246370361, Count=49
+apply(iron hoop, experiment table pad) Q=0.8110612010138288, Count=49
+apply(iron hoop, drawer 1) Q=0.8129116512570288, Count=49
+apply(alcohol burner, experiment table pad) Q=0.7654957355243597, Count=49
+apply(alcohol burner, drawer 1) Q=0.8504381072931645, Count=50
+craft(printed code paper, lighter) Q=1.0021932740076158, Count=50
+craft(printed code paper, flask) Q=0.6861035591016675, Count=49
+craft(printed code paper, iron hoop) Q=0.8052556913435833, Count=49
+craft(printed code paper, alcohol burner) Q=0.7371238873521712, Count=49
+craft(lighter, flask) Q=0.8278926199572104, Count=50
+craft(lighter, iron hoop) Q=0.7415740494135803, Count=49
+craft(lighter, alcohol burner) Q=1.956745173923404, Count=56
+craft(flask, iron hoop) Q=0.780276106495799, Count=49
+craft(flask, alcohol burner) Q=0.9977592609800646, Count=51
+craft(iron hoop, alcohol burner) Q=0.8988302867911226, Count=50
+move(Back to the lab room overview) Q=0.5392560191249322, Count=48
+Action: craft(lighter, alcohol burner)
+Reward: Action executed successfully. You have successfully crafted A normal lighter that could give fire. On it there writes 'IX VII L', the roman numerals seem like password hint. and An alcohol burner, could be used to heat chemicals in experiments, not lighted currently. together.
+You get a new item: An alcohol burner, now with the fire lighted and burning, ready to be used.. It is put into your bag.
+Accumulated_reward: 38
+
+Step: 52
+click(experiment table pad) Q=0.8700444120053472, Count=49
+click(drawer 1) Q=0.8705315186682903, Count=50
+apply(printed code paper, experiment table pad) Q=0.940429543699536, Count=50
+apply(printed code paper, drawer 1) Q=0.8481772436150117, Count=49
+apply(flask, experiment table pad) Q=1.7068594605829388, Count=54
+apply(flask, drawer 1) Q=0.9820083494373123, Count=50
+apply(iron hoop, experiment table pad) Q=0.7759250059958847, Count=49
+apply(iron hoop, drawer 1) Q=1.028192420536678, Count=50
+apply(alcohol burner, experiment table pad) Q=2.1429766317370804, Count=57
+apply(alcohol burner, drawer 1) Q=0.9332209252980851, Count=50
+craft(printed code paper, flask) Q=0.7269690417986684, Count=49
+craft(printed code paper, iron hoop) Q=0.7872748737113315, Count=49
+craft(printed code paper, alcohol burner) Q=1.0358386147667744, Count=50
+craft(flask, iron hoop) Q=0.8628009006212489, Count=49
+craft(flask, alcohol burner) Q=0.8904668993666408, Count=50
+craft(iron hoop, alcohol burner) Q=0.836661554144481, Count=49
+move(Back to the lab room overview) Q=0.1493995512424948, Count=46
+Action: apply(alcohol burner, experiment table pad)
+Reward: Action executed successfully. You have successfully applied alcohol burner to experiment table pad.
+However, the apply of alcohol burner is not enough, and experiment table pad is still missing something else ...
+Accumulated_reward: 39
+
+Step: 53
+click(experiment table pad) Q=0.895600941549591, Count=50
+click(drawer 1) Q=1.3363463372248798, Count=52
+apply(printed code paper, experiment table pad) Q=0.9853626135171354, Count=50
+apply(printed code paper, drawer 1) Q=0.8114198792014953, Count=49
+apply(flask, experiment table pad) Q=2.2460395165550606, Count=58
+apply(flask, drawer 1) Q=0.8042422015455843, Count=49
+apply(iron hoop, experiment table pad) Q=0.9355349721540216, Count=50
+apply(iron hoop, drawer 1) Q=0.8827722901811323, Count=49
+craft(printed code paper, flask) Q=0.7127803168009597, Count=48
+craft(printed code paper, iron hoop) Q=0.8978596176748274, Count=50
+craft(flask, iron hoop) Q=0.667429742928624, Count=48
+move(Back to the lab room overview) Q=0.3866735641959431, Count=47
+Action: apply(flask, experiment table pad)
+Reward: Action executed successfully. You have successfully applied flask to experiment table pad. The solution is heated, producing a kind of strong acid.
+Accumulated_reward: 40
+
+Step: 54
+click(drawer 1) Q=1.3283336748158716, Count=49
+click(strong acid) Q=2.6309366610335108, Count=58
+apply(printed code paper, drawer 1) Q=1.656706208962341, Count=51
+apply(printed code paper, strong acid) Q=1.4254704953331447, Count=50
+apply(iron hoop, drawer 1) Q=1.4336597822502135, Count=50
+apply(iron hoop, strong acid) Q=1.0164122207956958, Count=48
+craft(printed code paper, iron hoop) Q=1.178595410475575, Count=49
+move(Back to the lab room overview) Q=0.5855259974117623, Count=45
+Action: click(strong acid)
+Reward: Action executed successfully. You have just collected a strong acid. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 41
+
+Step: 55
+Action: input(7509, drawer 1)
+Reward: Action executed successfully. You have given an input 7509 to drawer 1. The drawer 1 is now open, there's a piece of paper inside it.
+Accumulated_reward: 42
+
+Step: 56
+click(frequency list) Q=1.2268078615574605, Count=53
+apply(printed code paper, frequency list) Q=0.4891678969333979, Count=49
+apply(iron hoop, frequency list) Q=0.6628086580606347, Count=49
+apply(strong acid, frequency list) Q=0.6642775237874066, Count=49
+craft(printed code paper, iron hoop) Q=0.7476457144995354, Count=50
+craft(printed code paper, strong acid) Q=0.8792606278143482, Count=51
+craft(iron hoop, strong acid) Q=0.7186884227509437, Count=50
+move(Back to the lab room overview) Q=0.6481628420556008, Count=49
+Action: click(frequency list)
+Reward: Action executed successfully. You have just collected a frequency list. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 43
+
+Step: 57
+craft(printed code paper, iron hoop) Q=0.31008782960382897, Count=50
+craft(printed code paper, strong acid) Q=0.25579973441560333, Count=50
+craft(printed code paper, frequency list) Q=0.14324624887806203, Count=50
+craft(iron hoop, strong acid) Q=0.20250548530306234, Count=50
+craft(iron hoop, frequency list) Q=0.15789191177867462, Count=50
+craft(strong acid, frequency list) Q=0.20231728505271176, Count=50
+move(Back to the lab room overview) Q=0.30046359000672795, Count=50
+Action: craft(printed code paper, iron hoop)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 43
+
+Step: 58
+craft(printed code paper, iron hoop) Q=0.1534467280808559, Count=50
+craft(printed code paper, strong acid) Q=0.2005847551094992, Count=50
+craft(printed code paper, frequency list) Q=0.16944851218643256, Count=50
+craft(iron hoop, strong acid) Q=0.20860316667494777, Count=50
+craft(iron hoop, frequency list) Q=0.26382294737256906, Count=50
+craft(strong acid, frequency list) Q=0.11352977860415525, Count=49
+move(Back to the lab room overview) Q=0.4680557634543251, Count=51
+Action: move(Back to the lab room overview)
+Reward: Action executed successfully. Change to another scene: lab room overview.
+Accumulated_reward: 43
+
+Step: 59
+click(cabin door lock) Q=0.43398424936912483, Count=50
+apply(printed code paper, cabin door lock) Q=0.49322325578327997, Count=50
+apply(iron hoop, cabin door lock) Q=0.41868140675208226, Count=50
+apply(strong acid, cabin door lock) Q=1.3321762029142938, Count=55
+apply(frequency list, cabin door lock) Q=0.42950879665835623, Count=50
+craft(printed code paper, iron hoop) Q=0.412251390495786, Count=50
+craft(printed code paper, strong acid) Q=0.3728697109691905, Count=49
+craft(printed code paper, frequency list) Q=0.37904507151857736, Count=50
+craft(iron hoop, strong acid) Q=0.41523556050129745, Count=50
+craft(iron hoop, frequency list) Q=0.2682876533350891, Count=49
+craft(strong acid, frequency list) Q=0.42880781708160476, Count=50
+move(Explore the computer desk) Q=0.1791295687033016, Count=49
+move(Explore left wall full of safes) Q=0.6903900239914704, Count=51
+move(Explore the experiment table area) Q=0.3268926249271151, Count=49
+move(Back to the hallway) Q=0.10070255369751163, Count=48
+Action: apply(strong acid, cabin door lock)
+Reward: Action executed successfully. You have successfully applied strong acid to cabin door lock. The cabin door lock is break open, you can get into the cabin room now.
+Accumulated_reward: 44
+
+Step: 60
+craft(printed code paper, iron hoop) Q=0.26947181407288706, Count=50
+craft(printed code paper, frequency list) Q=0.2777600558204514, Count=50
+craft(iron hoop, frequency list) Q=0.1781879510722682, Count=50
+move(Explore the computer desk) Q=0.15686986112554638, Count=50
+move(Explore left wall full of safes) Q=0.43445137765570274, Count=51
+move(Explore the experiment table area) Q=0.12477794280296722, Count=49
+move(Go inside the cabin room) Q=0.4569412111707437, Count=51
+move(Back to the hallway) Q=0.09180264104496032, Count=49
+Action: move(Go inside the cabin room)
+Reward: Action executed successfully. Change to another scene: cabin room.
+Accumulated_reward: 44
+
+Step: 61
+click(recorder) Q=0.6324288170493155, Count=51
+click(blue tool box) Q=1.4232336142573463, Count=55
+click(grinding wheel) Q=0.4051101362602487, Count=49
+click(mechanical case) Q=0.5153436640118589, Count=50
+apply(printed code paper, recorder) Q=0.5891509961500186, Count=50
+apply(printed code paper, blue tool box) Q=0.46713758715936543, Count=50
+apply(printed code paper, grinding wheel) Q=0.5593863106485814, Count=50
+apply(printed code paper, mechanical case) Q=0.46800163798587774, Count=50
+apply(iron hoop, recorder) Q=0.4849659703680984, Count=50
+apply(iron hoop, blue tool box) Q=0.4175431028431409, Count=49
+apply(iron hoop, grinding wheel) Q=0.5237990948215163, Count=50
+apply(iron hoop, mechanical case) Q=0.5328310534345747, Count=50
+apply(frequency list, recorder) Q=0.5440956997346051, Count=50
+apply(frequency list, blue tool box) Q=0.39333334085959304, Count=49
+apply(frequency list, grinding wheel) Q=0.4523254888593963, Count=50
+apply(frequency list, mechanical case) Q=0.49417971869567956, Count=50
+craft(printed code paper, iron hoop) Q=0.49209333161167096, Count=50
+craft(printed code paper, frequency list) Q=0.41910869925412875, Count=49
+craft(iron hoop, frequency list) Q=0.3358977710714394, Count=49
+move(Back to the lab room overview) Q=0.2381571680879564, Count=49
+Action: click(blue tool box)
+Reward: Action executed successfully. You have clicked on blue tool box. The tool box opens, and there's a metal plate inside it.
+Accumulated_reward: 45
+
+Step: 62
+click(recorder) Q=0.447729473463752, Count=50
+click(grinding wheel) Q=0.39616733400468224, Count=49
+click(mechanical case) Q=0.4252141573733438, Count=50
+click(metal plate) Q=1.3848569396575419, Count=55
+apply(printed code paper, recorder) Q=0.4910808640157557, Count=50
+apply(printed code paper, grinding wheel) Q=0.44613316124146474, Count=50
+apply(printed code paper, mechanical case) Q=0.43774683504564404, Count=50
+apply(printed code paper, metal plate) Q=0.4142239410517427, Count=49
+apply(iron hoop, recorder) Q=0.4089250961081666, Count=49
+apply(iron hoop, grinding wheel) Q=0.5167556352857077, Count=50
+apply(iron hoop, mechanical case) Q=0.5199899039751436, Count=50
+apply(iron hoop, metal plate) Q=0.47300113648222836, Count=50
+apply(frequency list, recorder) Q=0.5263244443090409, Count=50
+apply(frequency list, grinding wheel) Q=0.5778623864272345, Count=50
+apply(frequency list, mechanical case) Q=0.4363683696242406, Count=50
+apply(frequency list, metal plate) Q=0.4265997603571865, Count=50
+craft(printed code paper, iron hoop) Q=0.5256257942633231, Count=50
+craft(printed code paper, frequency list) Q=0.5367230892447596, Count=50
+craft(iron hoop, frequency list) Q=0.37863932511262843, Count=49
+move(Back to the lab room overview) Q=0.2200833624992029, Count=49
+Action: click(metal plate)
+Reward: Action executed successfully. You have just collected a metal plate. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 46
+
+Step: 63
+click(recorder) Q=0.5391572195887973, Count=50
+click(grinding wheel) Q=0.30375780429871035, Count=49
+click(mechanical case) Q=0.5751758330957617, Count=50
+apply(printed code paper, recorder) Q=0.5154774177869874, Count=50
+apply(printed code paper, grinding wheel) Q=0.5272536759202541, Count=50
+apply(printed code paper, mechanical case) Q=0.622828451438304, Count=51
+apply(iron hoop, recorder) Q=0.5501880197225671, Count=50
+apply(iron hoop, grinding wheel) Q=0.4112725433254657, Count=49
+apply(iron hoop, mechanical case) Q=0.35603550951875435, Count=49
+apply(frequency list, recorder) Q=0.4473279863106327, Count=50
+apply(frequency list, grinding wheel) Q=0.43937641781568715, Count=50
+apply(frequency list, mechanical case) Q=0.48620017355966394, Count=50
+apply(metal plate, recorder) Q=0.5245550413495182, Count=50
+apply(metal plate, grinding wheel) Q=1.4824125302707558, Count=56
+apply(metal plate, mechanical case) Q=0.38207241707146034, Count=49
+craft(printed code paper, iron hoop) Q=0.488502333901003, Count=50
+craft(printed code paper, frequency list) Q=0.6613787368249243, Count=51
+craft(printed code paper, metal plate) Q=0.3254303773783076, Count=49
+craft(iron hoop, frequency list) Q=0.5282583461055583, Count=50
+craft(iron hoop, metal plate) Q=0.24299706659475193, Count=49
+craft(frequency list, metal plate) Q=0.45078988818951876, Count=50
+move(Back to the lab room overview) Q=0.20951115274788812, Count=48
+Action: apply(metal plate, grinding wheel)
+Reward: Action executed successfully. You have successfully applied metal plate to grinding wheel. The metal plate is polished, and it's now ready to be used.
+Accumulated_reward: 47
+
+Step: 64
+click(recorder) Q=0.4424367144808763, Count=49
+click(mechanical case) Q=0.3890988382071763, Count=49
+apply(printed code paper, recorder) Q=0.4883762091856446, Count=50
+apply(printed code paper, mechanical case) Q=0.6016480036948292, Count=50
+apply(iron hoop, recorder) Q=0.4361347422662772, Count=49
+apply(iron hoop, mechanical case) Q=0.45007152867262534, Count=50
+apply(frequency list, recorder) Q=0.5504519731337809, Count=50
+apply(frequency list, mechanical case) Q=0.511628542886328, Count=50
+apply(metal plate, recorder) Q=0.5301609806702257, Count=50
+apply(metal plate, mechanical case) Q=1.4011212128196124, Count=55
+craft(printed code paper, iron hoop) Q=0.5132875713942462, Count=50
+craft(printed code paper, frequency list) Q=0.37399896217164585, Count=49
+craft(printed code paper, metal plate) Q=0.5137610349689465, Count=50
+craft(iron hoop, frequency list) Q=0.6247232781268337, Count=51
+craft(iron hoop, metal plate) Q=0.54858142874334, Count=50
+craft(frequency list, metal plate) Q=0.5610307828885339, Count=50
+move(Back to the lab room overview) Q=0.17691610050707532, Count=48
+Action: apply(metal plate, mechanical case)
+Reward: Action executed successfully. You have successfully applied metal plate to mechanical case. The mechanical case opens, and there's a safe key inside it.
+Accumulated_reward: 48
+
+Step: 65
+click(recorder) Q=0.4282692661714417, Count=50
+click(safe key) Q=1.0687474568311839, Count=53
+apply(printed code paper, recorder) Q=0.45403930122343483, Count=50
+apply(printed code paper, safe key) Q=0.5398305166963918, Count=50
+apply(iron hoop, recorder) Q=0.47566427807276956, Count=50
+apply(iron hoop, safe key) Q=0.4891362928225639, Count=50
+apply(frequency list, recorder) Q=0.33353690019401916, Count=49
+apply(frequency list, safe key) Q=0.5036186106668434, Count=50
+craft(printed code paper, iron hoop) Q=0.5617413775478821, Count=50
+craft(printed code paper, frequency list) Q=0.29169084514836086, Count=49
+craft(iron hoop, frequency list) Q=0.4167666517742779, Count=50
+move(Back to the lab room overview) Q=0.28161547968282974, Count=49
+Action: click(safe key)
+Reward: Action executed successfully. You have just collected a safe key. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 49
+
+Step: 66
+click(recorder) Q=0.10105826419328165, Count=50
+apply(printed code paper, recorder) Q=0.06354458315764268, Count=50
+apply(iron hoop, recorder) Q=0.012027746069952204, Count=50
+apply(frequency list, recorder) Q=0.03854212435420439, Count=50
+apply(safe key, recorder) Q=0.11127249596956862, Count=50
+craft(printed code paper, iron hoop) Q=0.04503898276407556, Count=50
+craft(printed code paper, frequency list) Q=0.08749614604691457, Count=50
+craft(printed code paper, safe key) Q=0.08712211973491746, Count=50
+craft(iron hoop, frequency list) Q=0.08525328332773793, Count=50
+craft(iron hoop, safe key) Q=0.08764268947661984, Count=50
+craft(frequency list, safe key) Q=0.043541037445080644, Count=50
+move(Back to the lab room overview) Q=0.1486854280351261, Count=50
+Action: move(Back to the lab room overview)
+Reward: Action executed successfully. Change to another scene: lab room overview.
+Accumulated_reward: 49
+
+Step: 67
+craft(printed code paper, iron hoop) Q=0.2640458182249976, Count=50
+craft(printed code paper, frequency list) Q=0.1786027046839001, Count=49
+craft(printed code paper, safe key) Q=0.2852116143090238, Count=50
+craft(iron hoop, frequency list) Q=0.25584053499371645, Count=50
+craft(iron hoop, safe key) Q=0.19079253693131132, Count=50
+craft(frequency list, safe key) Q=0.20094356456447393, Count=50
+move(Explore the computer desk) Q=0.13263150946913949, Count=49
+move(Explore left wall full of safes) Q=0.9773427406595427, Count=54
+move(Explore the experiment table area) Q=0.11389764326129262, Count=49
+move(Go inside the cabin room) Q=0.24428810015222574, Count=50
+move(Back to the hallway) Q=0.022009096937160282, Count=49
+Action: move(Explore left wall full of safes)
+Reward: Action executed successfully. Change to another scene: wall of safes.
+Accumulated_reward: 49
+
+Step: 68
+click(safe 1) Q=1.0035101918651042, Count=49
+click(safe 3) Q=0.9889363369091924, Count=49
+apply(printed code paper, safe 1) Q=1.0121453750892784, Count=49
+apply(printed code paper, safe 3) Q=1.0077742513716483, Count=50
+apply(iron hoop, safe 1) Q=1.0512391083429218, Count=50
+apply(iron hoop, safe 3) Q=2.0868821052654916, Count=56
+apply(frequency list, safe 1) Q=1.1815765829743434, Count=50
+apply(frequency list, safe 3) Q=0.9141353787887498, Count=49
+apply(safe key, safe 1) Q=2.0943912278845094, Count=56
+apply(safe key, safe 3) Q=1.0401807311652906, Count=50
+craft(printed code paper, iron hoop) Q=1.202361508895911, Count=50
+craft(printed code paper, frequency list) Q=1.0499927632855173, Count=50
+craft(printed code paper, safe key) Q=0.8335863691917047, Count=48
+craft(iron hoop, frequency list) Q=1.1463511519092486, Count=50
+craft(iron hoop, safe key) Q=0.9834031491975724, Count=49
+craft(frequency list, safe key) Q=1.1683496703014309, Count=50
+move(Back to the lab room overview) Q=0.17435449641417794, Count=45
+Action: apply(safe key, safe 1)
+Reward: Action executed successfully. You have successfully applied safe key to safe 1. The safe 1 opens, and there's something in it.
+Accumulated_reward: 50
+
+Step: 69
+click(safe 3) Q=1.101644471774221, Count=50
+click(sound list) Q=1.7236122823724707, Count=54
+apply(printed code paper, safe 3) Q=1.1285303739275698, Count=50
+apply(printed code paper, sound list) Q=1.174694965797798, Count=50
+apply(iron hoop, safe 3) Q=2.025306805152025, Count=55
+apply(iron hoop, sound list) Q=0.9739457611706888, Count=49
+apply(frequency list, safe 3) Q=1.0363126473719997, Count=49
+apply(frequency list, sound list) Q=1.0300159926100654, Count=49
+craft(printed code paper, iron hoop) Q=0.889444357279801, Count=49
+craft(printed code paper, frequency list) Q=1.0266026866355233, Count=49
+craft(iron hoop, frequency list) Q=1.0311159878436134, Count=50
+move(Back to the lab room overview) Q=0.3723568099854217, Count=46
+Action: apply(iron hoop, safe 3)
+Reward: Action executed successfully. You have successfully applied iron hoop to safe 3. The safe 3 opens, and there's something in it.
+Accumulated_reward: 51
+
+Step: 70
+click(sound list) Q=1.4859652152449796, Count=52
+click(cable) Q=1.6968845539643078, Count=53
+apply(printed code paper, sound list) Q=0.9901500476691169, Count=49
+apply(printed code paper, cable) Q=1.066955344471904, Count=50
+apply(frequency list, sound list) Q=1.074669420322105, Count=50
+apply(frequency list, cable) Q=1.0872542875972715, Count=50
+craft(printed code paper, frequency list) Q=1.031491044002122, Count=50
+move(Back to the lab room overview) Q=0.40850557557898715, Count=46
+Action: click(cable)
+Reward: Action executed successfully. You have just collected a cable. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 52
+
+Step: 71
+click(sound list) Q=1.1734437223045204, Count=53
+apply(printed code paper, sound list) Q=0.5438924324032601, Count=50
+apply(frequency list, sound list) Q=0.5211889892338457, Count=49
+apply(cable, sound list) Q=0.5529237380896642, Count=50
+craft(printed code paper, frequency list) Q=0.5295667414175367, Count=50
+craft(printed code paper, cable) Q=0.5135113602297103, Count=50
+craft(frequency list, cable) Q=0.6080997555447822, Count=50
+move(Back to the lab room overview) Q=0.24497424288793732, Count=48
+Action: click(sound list)
+Reward: Action executed successfully. You have just collected a sound list. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 53
+
+Step: 72
+craft(printed code paper, frequency list) Q=0.17259396176363456, Count=50
+craft(printed code paper, cable) Q=0.3698358266410009, Count=51
+craft(printed code paper, sound list) Q=0.062610890145048, Count=50
+craft(frequency list, cable) Q=0.06388142772952204, Count=49
+craft(frequency list, sound list) Q=0.05531530716555751, Count=49
+craft(cable, sound list) Q=0.0599641476695119, Count=49
+move(Back to the lab room overview) Q=0.49704530975321876, Count=52
+Action: move(Back to the lab room overview)
+Reward: Action executed successfully. Change to another scene: lab room overview.
+Accumulated_reward: 53
+
+Step: 73
+craft(printed code paper, frequency list) Q=0.3310155212961917, Count=50
+craft(printed code paper, cable) Q=0.4840376446598824, Count=50
+craft(printed code paper, sound list) Q=0.4451550832188843, Count=50
+craft(frequency list, cable) Q=0.5074935623204722, Count=50
+craft(frequency list, sound list) Q=0.23301343664316101, Count=49
+craft(cable, sound list) Q=0.4431030427600765, Count=50
+move(Explore the computer desk) Q=0.11095799051968747, Count=48
+move(Explore left wall full of safes) Q=0.25440748710134353, Count=49
+move(Explore the experiment table area) Q=0.07914215480613636, Count=48
+move(Go inside the cabin room) Q=1.7201592256738212, Count=58
+move(Back to the hallway) Q=0.047914946721485094, Count=48
+Action: move(Go inside the cabin room)
+Reward: Action executed successfully. Change to another scene: cabin room.
+Accumulated_reward: 53
+
+Step: 74
+click(recorder) Q=1.4808845907443593, Count=49
+apply(printed code paper, recorder) Q=1.8744537649834783, Count=50
+apply(frequency list, recorder) Q=1.5537920172633095, Count=49
+apply(cable, recorder) Q=3.709874999999998, Count=63
+apply(sound list, recorder) Q=1.7048201325990415, Count=50
+craft(printed code paper, frequency list) Q=1.4830764413435573, Count=49
+craft(printed code paper, cable) Q=1.5129944102077424, Count=49
+craft(printed code paper, sound list) Q=1.8127585563547821, Count=50
+craft(frequency list, cable) Q=1.6517388604624852, Count=49
+craft(frequency list, sound list) Q=1.5498435243735054, Count=49
+craft(cable, sound list) Q=1.6803572736250887, Count=50
+move(Back to the lab room overview) Q=0.3407632970561514, Count=43
+Action: apply(cable, recorder)
+Reward: Action executed successfully. You have successfully applied cable to recorder. The recorder is connected with the waveform detector now.
+Accumulated_reward: 54
+
+Step: 75
+Action: input(crow, waveform detector)
+Reward: Action executed successfully. You have given an input crow to waveform detector. The detector screen shows input is correct.
+Accumulated_reward: 55
+
+Step: 76
+Action: input(130, waveform detector)
+Reward: Action executed successfully. You have given an input 130 to waveform detector. The detector screen shows input is correct.
+Accumulated_reward: 56
+
+Step: 77
+Action: input(2463, iron door)
+Reward: Action executed successfully. You have given an input 2463 to iron door. The iron door opens, you can escpae from it now. game end!
+Accumulated_reward: 57

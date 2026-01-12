@@ -1,0 +1,1861 @@
+Step: 1
+click(telephone cabinet) Q=1.6637246465078734, Count=54
+click(left door to the study) Q=1.001050400017417, Count=49
+click(right door to the exit) Q=0.994901885164825, Count=49
+move(To the dining room and kitchen) Q=0.8139960768434629, Count=49
+move(To the bedroom) Q=0.9153393913849914, Count=49
+Action: click(telephone cabinet)
+Reward: Action executed successfully. You have clicked on telephone cabinet. You can see telephone cabinet now.
+Accumulated_reward: 1
+
+Step: 2
+click(left door to the study) Q=0.7357362770306515, Count=49
+click(right door to the exit) Q=0.8232410557936111, Count=50
+move(To the dining room and kitchen) Q=0.7755803315577355, Count=49
+move(To the bedroom) Q=0.6898974252914176, Count=49
+move(To the telephone cabinet close-up) Q=1.3113284737864095, Count=53
+Action: move(To the telephone cabinet close-up)
+Reward: Action executed successfully. Change to another scene: telephone cabinet close-up.
+Accumulated_reward: 1
+
+Step: 3
+click(drawer) Q=1.3679490562542844, Count=50
+click(telephone) Q=1.3744805075723765, Count=49
+click(hairpin) Q=2.270031301474174, Count=55
+move(Back to the living room) Q=0.7796513771697116, Count=46
+Action: click(hairpin)
+Reward: Action executed successfully. You have just collected a hairpin. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 2
+
+Step: 4
+click(drawer) Q=1.0579348746420294, Count=50
+click(telephone) Q=1.096291769951833, Count=50
+apply(hairpin, drawer) Q=1.9774255004976653, Count=55
+apply(hairpin, telephone) Q=0.9662744004244945, Count=49
+move(Back to the living room) Q=0.4552284249372336, Count=46
+Action: apply(hairpin, drawer)
+Reward: Action executed successfully. You have successfully applied hairpin to drawer. The drawer unlocks, revealing the carving knife.
+Accumulated_reward: 3
+
+Step: 5
+click(telephone) Q=0.9647166394196707, Count=50
+click(carving knife) Q=1.3352042509859112, Count=52
+move(Back to the living room) Q=0.7082155807574099, Count=48
+Action: click(carving knife)
+Reward: Action executed successfully. You have just collected a carving knife. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 4
+
+Step: 6
+click(telephone) Q=0.27038641980862393, Count=49
+apply(carving knife, telephone) Q=0.2804787908939427, Count=50
+move(Back to the living room) Q=0.45599853310542354, Count=51
+Action: move(Back to the living room)
+Reward: Action executed successfully. Change to another scene: living room.
+Accumulated_reward: 4
+
+Step: 7
+click(left door to the study) Q=0.47457565055131906, Count=49
+click(right door to the exit) Q=0.5851855821096379, Count=50
+apply(carving knife, left door to the study) Q=0.406008694304509, Count=49
+apply(carving knife, right door to the exit) Q=0.5775785490858961, Count=50
+move(To the dining room and kitchen) Q=0.4424573881530368, Count=49
+move(To the bedroom) Q=1.1405513559798217, Count=54
+move(To the telephone cabinet close-up) Q=0.2926541950244022, Count=49
+Action: move(To the bedroom)
+Reward: Action executed successfully. Change to another scene: bedroom.
+Accumulated_reward: 4
+
+Step: 8
+click(bathroom door) Q=1.1168671944533308, Count=51
+click(hammer handle) Q=1.4312735654525102, Count=52
+apply(carving knife, bathroom door) Q=0.8119829653384425, Count=49
+apply(carving knife, hammer handle) Q=0.8683319799810522, Count=49
+move(To the living room) Q=0.41845264062934334, Count=47
+move(To the toolbox close-up) Q=0.6060413559953037, Count=48
+move(To the cardboard box close-up) Q=1.6880209113342413, Count=54
+Action: move(To the cardboard box close-up)
+Reward: Action executed successfully. Change to another scene: cardboard box close-up.
+Accumulated_reward: 4
+
+Step: 9
+click(cardboard box) Q=1.451617981309858, Count=48
+apply(carving knife, cardboard box) Q=2.4923853556833317, Count=55
+move(Back to the bedroom) Q=1.1709938626824903, Count=47
+Action: apply(carving knife, cardboard box)
+Reward: Action executed successfully. You have successfully applied carving knife to cardboard box. The cardboard box is now open.
+Accumulated_reward: 5
+
+Step: 10
+click(door handle) Q=2.0510197938739294, Count=53
+move(Back to the bedroom) Q=1.0935124089380701, Count=47
+Action: click(door handle)
+Reward: Action executed successfully. You have just collected a door handle. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 6
+
+Step: 11
+move(Back to the bedroom) Q=1.320414845667274, Count=50
+Action: move(Back to the bedroom)
+Reward: Action executed successfully. Change to another scene: bedroom.
+Accumulated_reward: 6
+
+Step: 12
+click(bathroom door) Q=1.139418478838066, Count=49
+click(hammer handle) Q=1.5728088801311597, Count=52
+apply(door handle, bathroom door) Q=2.1403560484892097, Count=55
+apply(door handle, hammer handle) Q=1.1961536170072233, Count=50
+move(To the living room) Q=0.779614065767469, Count=47
+move(To the toolbox close-up) Q=0.8002685231325999, Count=48
+move(To the cardboard box close-up) Q=1.1669598646452155, Count=49
+Action: apply(door handle, bathroom door)
+Reward: Action executed successfully. You have successfully applied door handle to bathroom door. The door now has a handle and can be opened.
+Accumulated_reward: 7
+
+Step: 13
+click(bathroom door) Q=1.6995052469482161, Count=53
+click(hammer handle) Q=1.5746032565678394, Count=52
+move(To the living room) Q=0.8404154839672802, Count=48
+move(To the toolbox close-up) Q=0.9517654156171613, Count=48
+move(To the cardboard box close-up) Q=1.0124303404206287, Count=49
+Action: click(bathroom door)
+Reward: Action executed successfully. You have clicked on bathroom door. The door is now open.
+Accumulated_reward: 8
+
+Step: 14
+click(hammer handle) Q=1.249091920293944, Count=53
+move(To the living room) Q=0.5544005434420833, Count=48
+move(To the toolbox close-up) Q=0.6623978641568964, Count=49
+move(To the cardboard box close-up) Q=0.7391660052718043, Count=50
+move(To the bathroom) Q=0.745785535384567, Count=50
+Action: click(hammer handle)
+Reward: Action executed successfully. You have just collected a hammer handle. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 9
+
+Step: 15
+move(To the living room) Q=0.26162650952289457, Count=50
+move(To the toolbox close-up) Q=0.08485046054909189, Count=49
+move(To the cardboard box close-up) Q=0.22424438361519058, Count=50
+move(To the bathroom) Q=0.47889941997899516, Count=51
+Action: move(To the bathroom)
+Reward: Action executed successfully. Change to another scene: bathroom.
+Accumulated_reward: 9
+
+Step: 16
+click(plunger) Q=1.0209785305549919, Count=53
+apply(hammer handle, plunger) Q=0.451652998083025, Count=50
+move(To the bedroom) Q=0.280099535545835, Count=49
+move(To the mirror close-up) Q=0.3185668446365235, Count=49
+move(To the ventilation fan close-up) Q=0.3380192509877829, Count=49
+Action: click(plunger)
+Reward: Action executed successfully. You have just collected a plunger. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 10
+
+Step: 17
+craft(hammer handle, plunger) Q=0.0, Count=50
+move(To the bedroom) Q=0.027967089551536508, Count=50
+move(To the mirror close-up) Q=0.0, Count=50
+move(To the ventilation fan close-up) Q=0.0, Count=50
+Action: move(To the bedroom)
+Reward: Action executed successfully. Change to another scene: bedroom.
+Accumulated_reward: 10
+
+Step: 18
+craft(hammer handle, plunger) Q=0.036996479801921084, Count=50
+move(To the living room) Q=0.09371540836143741, Count=50
+move(To the toolbox close-up) Q=0.011394592646027296, Count=50
+move(To the cardboard box close-up) Q=0.0, Count=50
+move(To the bathroom) Q=0.01023071658804329, Count=50
+Action: move(To the living room)
+Reward: Action executed successfully. Change to another scene: living room.
+Accumulated_reward: 10
+
+Step: 19
+click(left door to the study) Q=0.0857132111806577, Count=50
+click(right door to the exit) Q=0.12800454221390406, Count=50
+apply(hammer handle, left door to the study) Q=0.19556524700613073, Count=50
+apply(hammer handle, right door to the exit) Q=0.1778074957596234, Count=50
+apply(plunger, left door to the study) Q=0.09251802038903412, Count=50
+apply(plunger, right door to the exit) Q=0.06292649422079057, Count=49
+craft(hammer handle, plunger) Q=0.15221318590096894, Count=50
+move(To the dining room and kitchen) Q=0.5022829074349056, Count=52
+move(To the bedroom) Q=0.0, Count=49
+move(To the telephone cabinet close-up) Q=0.08194993633573346, Count=50
+Action: move(To the dining room and kitchen)
+Reward: Action executed successfully. Change to another scene: dining room and kitchen.
+Accumulated_reward: 10
+
+Step: 20
+craft(hammer handle, plunger) Q=0.42322147809650146, Count=49
+move(To the living room) Q=0.14886387731081166, Count=48
+move(To the dining table close-up) Q=0.5686926546435731, Count=50
+move(To the cabinet above stove close-up) Q=0.6204155922163102, Count=51
+move(To the left cabinet close-up) Q=0.2397773887617975, Count=49
+move(To the right cabinet close-up) Q=0.6602475723403146, Count=51
+move(To the sink close-up) Q=0.9097177063300537, Count=52
+move(To the cabinet above sink close-up) Q=0.5126053069070534, Count=50
+Action: move(To the sink close-up)
+Reward: Action executed successfully. Change to another scene: sink close-up.
+Accumulated_reward: 10
+
+Step: 21
+click(trash bin) Q=0.8895779977917561, Count=50
+click(cabinet_under_sink) Q=0.9000343803666107, Count=50
+click(garbage) Q=0.8450804961412176, Count=50
+apply(hammer handle, trash bin) Q=0.7658682624624575, Count=49
+apply(hammer handle, cabinet_under_sink) Q=0.904183502423255, Count=50
+apply(hammer handle, garbage) Q=0.8976404080522261, Count=50
+apply(plunger, trash bin) Q=0.7233981774016921, Count=49
+apply(plunger, cabinet_under_sink) Q=0.6530737849367343, Count=49
+apply(plunger, garbage) Q=1.8705693795538763, Count=56
+craft(hammer handle, plunger) Q=0.7537270120218698, Count=50
+move(Back to the dining room and kitchen) Q=0.3366451383893631, Count=47
+Action: apply(plunger, garbage)
+Reward: Action executed successfully. You have successfully applied plunger to garbage. The garbage has been cleared, revealing something shiny at the bottom.
+Accumulated_reward: 11
+
+Step: 22
+click(trash bin) Q=0.9171764150797646, Count=50
+click(cabinet_under_sink) Q=0.9482913808997864, Count=50
+click(garbage) Q=1.6304061849340166, Count=54
+apply(hammer handle, trash bin) Q=0.9150687992557222, Count=50
+apply(hammer handle, cabinet_under_sink) Q=0.9122514856889593, Count=49
+apply(hammer handle, garbage) Q=0.8668154013687727, Count=49
+move(Back to the dining room and kitchen) Q=0.5698455586622164, Count=48
+Action: click(garbage)
+Reward: Action executed successfully. You have clicked on garbage. You've cleared the garbage and found a key at the bottom of the sink.
+Accumulated_reward: 12
+
+Step: 23
+click(trash bin) Q=0.6217978725358653, Count=49
+click(cabinet_under_sink) Q=0.6926648308559787, Count=50
+click(study key) Q=1.217681454039426, Count=53
+apply(hammer handle, trash bin) Q=0.6161146350800888, Count=49
+apply(hammer handle, cabinet_under_sink) Q=0.7762729930933044, Count=50
+apply(hammer handle, study key) Q=0.8179331529054211, Count=50
+move(Back to the dining room and kitchen) Q=0.5933411034445605, Count=49
+Action: click(study key)
+Reward: Action executed successfully. You have just collected a study key. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 13
+
+Step: 24
+click(trash bin) Q=0.17387929778333627, Count=50
+click(cabinet_under_sink) Q=0.24014653744486408, Count=50
+apply(hammer handle, trash bin) Q=0.24252716239744063, Count=50
+apply(hammer handle, cabinet_under_sink) Q=0.09280447194875735, Count=49
+apply(study key, trash bin) Q=0.13873569476905828, Count=50
+apply(study key, cabinet_under_sink) Q=0.18895097355828647, Count=50
+craft(hammer handle, study key) Q=0.1921509089842113, Count=50
+move(Back to the dining room and kitchen) Q=0.3472112239846066, Count=51
+Action: move(Back to the dining room and kitchen)
+Reward: Action executed successfully. Change to another scene: dining room and kitchen.
+Accumulated_reward: 13
+
+Step: 25
+craft(hammer handle, study key) Q=0.4024151950718978, Count=50
+move(To the living room) Q=0.4800188423472026, Count=50
+move(To the dining table close-up) Q=0.4895318258261395, Count=50
+move(To the cabinet above stove close-up) Q=0.5089524554253664, Count=51
+move(To the left cabinet close-up) Q=0.18827082338412032, Count=49
+move(To the right cabinet close-up) Q=0.5153166210718558, Count=50
+move(To the sink close-up) Q=0.2110533988607742, Count=49
+move(To the cabinet above sink close-up) Q=0.594971275165289, Count=51
+Action: move(To the cabinet above sink close-up)
+Reward: Action executed successfully. Change to another scene: cabinet above sink close-up.
+Accumulated_reward: 13
+
+Step: 26
+click(clutter_left) Q=0.6115174991375802, Count=50
+click(shard_2) Q=1.1728181437275118, Count=53
+apply(hammer handle, clutter_left) Q=0.5362778337177727, Count=49
+apply(hammer handle, shard_2) Q=0.5673444583809988, Count=50
+apply(study key, clutter_left) Q=0.5417811356332315, Count=49
+apply(study key, shard_2) Q=0.5645890795849244, Count=50
+craft(hammer handle, study key) Q=0.6880352472227307, Count=50
+move(Back to the dining room and kitchen) Q=0.46287510595925346, Count=49
+Action: click(shard_2)
+Reward: Action executed successfully. You have just collected a shard_2. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 14
+
+Step: 27
+click(clutter_left) Q=0.16158530608915977, Count=50
+apply(hammer handle, clutter_left) Q=0.06083338426825498, Count=49
+apply(study key, clutter_left) Q=0.11773167035089499, Count=50
+apply(shard_2, clutter_left) Q=0.13348102552550783, Count=50
+craft(hammer handle, study key) Q=0.07203701763993339, Count=50
+craft(hammer handle, shard_2) Q=0.16320825199431743, Count=50
+craft(study key, shard_2) Q=0.07189350723525609, Count=50
+move(Back to the dining room and kitchen) Q=0.2501715885458871, Count=51
+Action: move(Back to the dining room and kitchen)
+Reward: Action executed successfully. Change to another scene: dining room and kitchen.
+Accumulated_reward: 14
+
+Step: 28
+craft(hammer handle, study key) Q=0.22342571944248246, Count=50
+craft(hammer handle, shard_2) Q=0.2109279974596488, Count=50
+craft(study key, shard_2) Q=0.2868015673555252, Count=50
+move(To the living room) Q=0.46536262232835585, Count=51
+move(To the dining table close-up) Q=0.3935757347313092, Count=51
+move(To the cabinet above stove close-up) Q=0.35495797483834085, Count=50
+move(To the left cabinet close-up) Q=0.06309174236788398, Count=49
+move(To the right cabinet close-up) Q=0.4491126835241749, Count=51
+move(To the sink close-up) Q=0.05982957011054852, Count=49
+move(To the cabinet above sink close-up) Q=0.08431603013824567, Count=49
+Action: move(To the living room)
+Reward: Action executed successfully. Change to another scene: living room.
+Accumulated_reward: 14
+
+Step: 29
+click(left door to the study) Q=0.49334172630550094, Count=50
+click(right door to the exit) Q=0.5108249151777756, Count=50
+apply(hammer handle, left door to the study) Q=0.4250196331879442, Count=50
+apply(hammer handle, right door to the exit) Q=0.4158916838103681, Count=50
+apply(study key, left door to the study) Q=1.4485781017074792, Count=56
+apply(study key, right door to the exit) Q=0.3774183601422108, Count=49
+apply(shard_2, left door to the study) Q=0.4542727779299443, Count=50
+apply(shard_2, right door to the exit) Q=0.42191616330859605, Count=50
+craft(hammer handle, study key) Q=0.47514899420138934, Count=50
+craft(hammer handle, shard_2) Q=0.43616555125707385, Count=50
+craft(study key, shard_2) Q=0.38196151548403934, Count=49
+move(To the dining room and kitchen) Q=0.23926005656400684, Count=49
+move(To the bedroom) Q=0.14491850031307493, Count=48
+move(To the telephone cabinet close-up) Q=0.21595228408048567, Count=49
+Action: apply(study key, left door to the study)
+Reward: Action executed successfully. You have successfully applied study key to left door to the study. The door is now unlocked now.
+Accumulated_reward: 15
+
+Step: 30
+click(left door to the study) Q=1.1486266549852147, Count=54
+click(right door to the exit) Q=0.4395013097762441, Count=50
+apply(hammer handle, left door to the study) Q=0.48116665629930394, Count=50
+apply(hammer handle, right door to the exit) Q=0.3914422744487084, Count=50
+apply(shard_2, left door to the study) Q=0.315137623301271, Count=49
+apply(shard_2, right door to the exit) Q=0.5609946340874971, Count=51
+craft(hammer handle, shard_2) Q=0.4953422341638929, Count=50
+move(To the dining room and kitchen) Q=0.1880690285518602, Count=48
+move(To the bedroom) Q=0.18557933504308, Count=49
+move(To the telephone cabinet close-up) Q=0.3332874338327626, Count=49
+Action: click(left door to the study)
+Reward: Action executed successfully. You have clicked on left door to the study. The door to the study is open, and you can enter the study.
+Accumulated_reward: 16
+
+Step: 31
+click(right door to the exit) Q=0.17098599331776182, Count=50
+apply(hammer handle, right door to the exit) Q=0.1918349295512416, Count=50
+apply(shard_2, right door to the exit) Q=0.16593696399777288, Count=50
+craft(hammer handle, shard_2) Q=0.19885158230104205, Count=50
+move(To the dining room and kitchen) Q=0.27239384439933545, Count=50
+move(To the bedroom) Q=0.1012292375548278, Count=50
+move(To the telephone cabinet close-up) Q=0.06330735819239612, Count=49
+move(To the study after unlocking) Q=0.30677575183613937, Count=51
+Action: move(To the study after unlocking)
+Reward: Action executed successfully. Change to another scene: study.
+Accumulated_reward: 16
+
+Step: 32
+craft(hammer handle, shard_2) Q=0.2520689194815756, Count=49
+move(Back to the living room) Q=0.18168620805016222, Count=49
+move(To the photo close-up) Q=0.7108092593763451, Count=52
+move(To the desk close-up) Q=0.21168893960771284, Count=49
+move(To the locker close-up) Q=0.4954677564937154, Count=51
+move(To the wall close-up) Q=0.25841548502074474, Count=50
+Action: move(To the photo close-up)
+Reward: Action executed successfully. Change to another scene: photo close-up.
+Accumulated_reward: 16
+
+Step: 33
+click(photo_1) Q=0.6426455288630926, Count=50
+click(photo_2) Q=0.6816366693878574, Count=50
+click(photo_3) Q=1.4576217757427763, Count=54
+apply(hammer handle, photo_1) Q=0.6114919419348683, Count=50
+apply(hammer handle, photo_2) Q=0.6284018028272669, Count=50
+apply(hammer handle, photo_3) Q=0.516360654608131, Count=49
+apply(shard_2, photo_1) Q=0.6759122259217283, Count=50
+apply(shard_2, photo_2) Q=0.592816187045198, Count=49
+apply(shard_2, photo_3) Q=0.6186095802778497, Count=50
+craft(hammer handle, shard_2) Q=0.7120027169086606, Count=50
+move(Back to the wall close-up) Q=0.3443575822175928, Count=48
+Action: click(photo_3)
+Reward: Action executed successfully. You have clicked on photo_3. You found a piece of broken mirror hidden behind this photo.
+Accumulated_reward: 17
+
+Step: 34
+click(photo_1) Q=0.4241265902643903, Count=49
+click(photo_2) Q=0.43856801271873747, Count=50
+click(shard_3) Q=1.0113476812616478, Count=53
+apply(hammer handle, photo_1) Q=0.535349019359754, Count=50
+apply(hammer handle, photo_2) Q=0.4505140758234257, Count=50
+apply(hammer handle, shard_3) Q=0.5264099378011313, Count=50
+apply(shard_2, photo_1) Q=0.5387862714594892, Count=50
+apply(shard_2, photo_2) Q=0.3792432199581622, Count=49
+apply(shard_2, shard_3) Q=0.4727324282871138, Count=50
+craft(hammer handle, shard_2) Q=0.4896571223334188, Count=50
+move(Back to the wall close-up) Q=0.28138251688853777, Count=49
+Action: click(shard_3)
+Reward: Action executed successfully. You have just collected a shard_3. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 18
+
+Step: 35
+click(photo_1) Q=0.010796270133114115, Count=50
+click(photo_2) Q=0.01023071658804329, Count=50
+apply(hammer handle, photo_1) Q=0.010796270133114115, Count=50
+apply(hammer handle, photo_2) Q=0.01023071658804329, Count=50
+apply(shard_2, photo_1) Q=0.03625140168311236, Count=50
+apply(shard_2, photo_2) Q=0.0, Count=50
+apply(shard_3, photo_1) Q=0.0, Count=50
+apply(shard_3, photo_2) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.01269793949283138, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+move(Back to the wall close-up) Q=0.03614703171836353, Count=50
+Action: apply(shard_2, photo_1)
+Reward: Nothing happens after you apply the tool. Just an old photo, nothing of interest.
+Accumulated_reward: 18
+
+Step: 36
+click(photo_1) Q=0.022166921721517928, Count=50
+click(photo_2) Q=0.039195069046761774, Count=50
+apply(hammer handle, photo_1) Q=0.013407541439587067, Count=50
+apply(hammer handle, photo_2) Q=0.0, Count=50
+apply(shard_2, photo_1) Q=0.0, Count=50
+apply(shard_2, photo_2) Q=0.020441022284618995, Count=50
+apply(shard_3, photo_1) Q=0.0, Count=50
+apply(shard_3, photo_2) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.01023071658804329, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+move(Back to the wall close-up) Q=0.011394592646027296, Count=50
+Action: click(photo_2)
+Reward: Nothing happens after clicking on photo_2. Nothing unusual with this one.
+Accumulated_reward: 18
+
+Step: 37
+click(photo_1) Q=0.0, Count=50
+click(photo_2) Q=0.012027746069952204, Count=50
+apply(hammer handle, photo_1) Q=0.013407541439587067, Count=50
+apply(hammer handle, photo_2) Q=0.0, Count=50
+apply(shard_2, photo_1) Q=0.0, Count=50
+apply(shard_2, photo_2) Q=0.0, Count=50
+apply(shard_3, photo_1) Q=0.010796270133114115, Count=50
+apply(shard_3, photo_2) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.01023071658804329, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.010796270133114115, Count=50
+move(Back to the wall close-up) Q=0.05110194523949925, Count=50
+Action: move(Back to the wall close-up)
+Reward: Action executed successfully. Change to another scene: wall close-up.
+Accumulated_reward: 18
+
+Step: 38
+click(study wall) Q=0.011394592646027296, Count=50
+apply(hammer handle, study wall) Q=0.02469605009922908, Count=50
+apply(shard_2, study wall) Q=0.02477249199394975, Count=50
+apply(shard_3, study wall) Q=0.09308475951985473, Count=50
+craft(hammer handle, shard_2) Q=0.07047155383887284, Count=50
+craft(hammer handle, shard_3) Q=0.07991766334715206, Count=50
+craft(shard_2, shard_3) Q=0.04686976561314243, Count=50
+move(Back to the study) Q=0.13886410263078577, Count=50
+move(To the photo close-up) Q=0.0, Count=50
+Action: move(Back to the study)
+Reward: Action executed successfully. Change to another scene: study.
+Accumulated_reward: 18
+
+Step: 39
+craft(hammer handle, shard_2) Q=0.034279803512668156, Count=50
+craft(hammer handle, shard_3) Q=0.08584797953747919, Count=50
+craft(shard_2, shard_3) Q=0.08017268908899966, Count=50
+move(Back to the living room) Q=0.04983777003109904, Count=50
+move(To the photo close-up) Q=0.023872059611092095, Count=49
+move(To the desk close-up) Q=0.040803713756843954, Count=50
+move(To the locker close-up) Q=0.3924552336571501, Count=52
+move(To the wall close-up) Q=0.026852593080888713, Count=49
+Action: move(To the locker close-up)
+Reward: Action executed successfully. Change to another scene: locker close-up.
+Accumulated_reward: 18
+
+Step: 40
+click(locked locker door) Q=0.337295658710376, Count=50
+click(open locker doors) Q=0.3895400307770129, Count=50
+click(shard_4) Q=0.9999999999999997, Count=54
+apply(hammer handle, locked locker door) Q=0.28833817405917267, Count=50
+apply(hammer handle, open locker doors) Q=0.3081154804078502, Count=50
+apply(hammer handle, shard_4) Q=0.27786155667065354, Count=49
+apply(shard_2, locked locker door) Q=0.37979912299160823, Count=50
+apply(shard_2, open locker doors) Q=0.35996456539997135, Count=50
+apply(shard_2, shard_4) Q=0.2730663659806664, Count=49
+apply(shard_3, locked locker door) Q=0.3351140608812757, Count=50
+apply(shard_3, open locker doors) Q=0.4284902014737134, Count=50
+apply(shard_3, shard_4) Q=0.3290152477048758, Count=50
+craft(hammer handle, shard_2) Q=0.3334799358816613, Count=50
+craft(hammer handle, shard_3) Q=0.32784023344464824, Count=50
+craft(shard_2, shard_3) Q=0.4033658566107146, Count=50
+move(Back to the study) Q=0.05736313065159974, Count=48
+Action: click(shard_4)
+Reward: Action executed successfully. You have just collected a shard_4. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 19
+
+Step: 41
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.01023071658804329, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: click(open locker doors)
+Reward: Nothing happens after clicking on open locker doors. The lockers are empty. there's nothing useful inside.
+Accumulated_reward: 19
+
+Step: 42
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.010796270133114115, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: apply(shard_2, locked locker door)
+Reward: locked locker door indeed needs a tool to apply but the current tool is wrong. You should try other tools or gather other clues first.
+Nothing happens after you apply the tool. You need a key to unlock this door.
+Accumulated_reward: 19
+
+Step: 43
+click(locked locker door) Q=0.0, Count=50
+click(open locker doors) Q=0.0, Count=50
+apply(hammer handle, locked locker door) Q=0.0, Count=50
+apply(hammer handle, open locker doors) Q=0.0, Count=50
+apply(shard_2, locked locker door) Q=0.0, Count=50
+apply(shard_2, open locker doors) Q=0.0, Count=50
+apply(shard_3, locked locker door) Q=0.0, Count=50
+apply(shard_3, open locker doors) Q=0.0, Count=50
+apply(shard_4, locked locker door) Q=0.0, Count=50
+apply(shard_4, open locker doors) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the study) Q=0.0, Count=50
+Action: move(Back to the study)
+Reward: Action executed successfully. Change to another scene: study.
+Accumulated_reward: 19
+
+Step: 44
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.034349589262983066, Count=50
+craft(hammer handle, shard_4) Q=0.01269793949283138, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+move(Back to the living room) Q=0.07136655181391328, Count=50
+move(To the photo close-up) Q=0.0, Count=50
+move(To the desk close-up) Q=0.0, Count=50
+move(To the locker close-up) Q=0.0, Count=50
+move(To the wall close-up) Q=0.0, Count=50
+Action: move(Back to the living room)
+Reward: Action executed successfully. Change to another scene: living room.
+Accumulated_reward: 19
+
+Step: 45
+click(right door to the exit) Q=0.01023071658804329, Count=50
+apply(hammer handle, right door to the exit) Q=0.0269672139871839, Count=50
+apply(shard_2, right door to the exit) Q=0.06485636702556047, Count=50
+apply(shard_3, right door to the exit) Q=0.03179027878745782, Count=50
+apply(shard_4, right door to the exit) Q=0.051848090814998124, Count=50
+craft(hammer handle, shard_2) Q=0.1200953352805861, Count=50
+craft(hammer handle, shard_3) Q=0.013407541439587067, Count=50
+craft(hammer handle, shard_4) Q=0.03424727386163512, Count=50
+craft(shard_2, shard_3) Q=0.046195070757541944, Count=50
+craft(shard_2, shard_4) Q=0.02599856452266628, Count=50
+craft(shard_3, shard_4) Q=0.03622869736548312, Count=50
+move(To the dining room and kitchen) Q=0.13991090814148838, Count=50
+move(To the bedroom) Q=0.08976615005915, Count=50
+move(To the telephone cabinet close-up) Q=0.044424240270244886, Count=50
+move(To the study after unlocking) Q=0.0, Count=50
+Action: move(To the dining room and kitchen)
+Reward: Action executed successfully. Change to another scene: dining room and kitchen.
+Accumulated_reward: 19
+
+Step: 46
+craft(hammer handle, shard_2) Q=0.16524549327460178, Count=50
+craft(hammer handle, shard_3) Q=0.17610894140169672, Count=50
+craft(hammer handle, shard_4) Q=0.1038702758300573, Count=50
+craft(shard_2, shard_3) Q=0.08703580181167128, Count=50
+craft(shard_2, shard_4) Q=0.08068482848340912, Count=50
+craft(shard_3, shard_4) Q=0.09060946197425093, Count=50
+move(To the living room) Q=0.022042529610588384, Count=49
+move(To the dining table close-up) Q=0.3049454947524057, Count=51
+move(To the cabinet above stove close-up) Q=0.37113025403120153, Count=51
+move(To the left cabinet close-up) Q=0.03524652051743723, Count=49
+move(To the right cabinet close-up) Q=0.3534824719335128, Count=51
+move(To the sink close-up) Q=0.010439293989715864, Count=49
+move(To the cabinet above sink close-up) Q=0.12559530499322183, Count=50
+Action: move(To the cabinet above stove close-up)
+Reward: Action executed successfully. Change to another scene: cabinet above stove close-up.
+Accumulated_reward: 19
+
+Step: 47
+click(food and spices) Q=0.44509977748986324, Count=50
+click(pot) Q=0.34921623551420083, Count=50
+click(flashlight) Q=0.9999999999999998, Count=53
+apply(hammer handle, food and spices) Q=0.3092240426664925, Count=50
+apply(hammer handle, pot) Q=0.3377404724993546, Count=50
+apply(hammer handle, flashlight) Q=0.28564636030031726, Count=50
+apply(shard_2, food and spices) Q=0.24470992021583693, Count=49
+apply(shard_2, pot) Q=0.3424805365421172, Count=50
+apply(shard_2, flashlight) Q=0.3456842470368599, Count=50
+apply(shard_3, food and spices) Q=0.4064067149176934, Count=50
+apply(shard_3, pot) Q=0.30754327806440246, Count=50
+apply(shard_3, flashlight) Q=0.283326156739104, Count=50
+apply(shard_4, food and spices) Q=0.38569177494993556, Count=50
+apply(shard_4, pot) Q=0.3428588029290621, Count=50
+apply(shard_4, flashlight) Q=0.2814458945627246, Count=50
+craft(hammer handle, shard_2) Q=0.26885928731364833, Count=49
+craft(hammer handle, shard_3) Q=0.3278569199879505, Count=50
+craft(hammer handle, shard_4) Q=0.2961438140460262, Count=50
+craft(shard_2, shard_3) Q=0.28148807698749234, Count=50
+craft(shard_2, shard_4) Q=0.308880912264317, Count=50
+craft(shard_3, shard_4) Q=0.3017330220998529, Count=50
+move(Back to the dining room and kitchen) Q=0.10333379696937792, Count=49
+Action: click(flashlight)
+Reward: Action executed successfully. You have just collected a flashlight. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 20
+
+Step: 48
+click(food and spices) Q=0.043250746141575695, Count=50
+click(pot) Q=0.02406443607232195, Count=50
+apply(hammer handle, food and spices) Q=0.0, Count=50
+apply(hammer handle, pot) Q=0.023363906136402702, Count=50
+apply(shard_2, food and spices) Q=0.0, Count=50
+apply(shard_2, pot) Q=0.0368605782634126, Count=50
+apply(shard_3, food and spices) Q=0.022234516772856972, Count=50
+apply(shard_3, pot) Q=0.0269672139871839, Count=50
+apply(shard_4, food and spices) Q=0.02558087500507969, Count=50
+apply(shard_4, pot) Q=0.01269793949283138, Count=50
+apply(flashlight, food and spices) Q=0.01669377972066061, Count=50
+apply(flashlight, pot) Q=0.045398286814595006, Count=50
+craft(hammer handle, shard_2) Q=0.014159093367747502, Count=50
+craft(hammer handle, shard_3) Q=0.012027746069952204, Count=50
+craft(hammer handle, shard_4) Q=0.034279803512668156, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.011394592646027296, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_2, flashlight) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.024361689347408913, Count=50
+craft(shard_3, flashlight) Q=0.0, Count=50
+craft(shard_4, flashlight) Q=0.0, Count=50
+move(Back to the dining room and kitchen) Q=0.10544333179511743, Count=50
+Action: move(Back to the dining room and kitchen)
+Reward: Action executed successfully. Change to another scene: dining room and kitchen.
+Accumulated_reward: 20
+
+Step: 49
+craft(hammer handle, shard_2) Q=0.05401387012544179, Count=50
+craft(hammer handle, shard_3) Q=0.05346497505490233, Count=50
+craft(hammer handle, shard_4) Q=0.026316910984952174, Count=50
+craft(hammer handle, flashlight) Q=0.15119669314044692, Count=50
+craft(shard_2, shard_3) Q=0.09734051921220645, Count=50
+craft(shard_2, shard_4) Q=0.07261125316909654, Count=50
+craft(shard_2, flashlight) Q=0.05733062262518206, Count=50
+craft(shard_3, shard_4) Q=0.08860496560870813, Count=50
+craft(shard_3, flashlight) Q=0.07582377631369852, Count=50
+craft(shard_4, flashlight) Q=0.014159093367747502, Count=50
+move(To the living room) Q=0.0, Count=49
+move(To the dining table close-up) Q=0.2649460599977666, Count=51
+move(To the cabinet above stove close-up) Q=0.0, Count=49
+move(To the left cabinet close-up) Q=0.03160103864348571, Count=50
+move(To the right cabinet close-up) Q=0.2846086714631388, Count=51
+move(To the sink close-up) Q=0.04493784462575923, Count=50
+move(To the cabinet above sink close-up) Q=0.012027746069952204, Count=50
+Action: move(To the right cabinet close-up)
+Reward: Action executed successfully. Change to another scene: right cabinet close-up.
+Accumulated_reward: 20
+
+Step: 50
+click(empty bottom cabinet) Q=0.2630812309761791, Count=49
+click(battery) Q=1.2657009625075737, Count=55
+apply(hammer handle, empty bottom cabinet) Q=0.24319700999346808, Count=49
+apply(hammer handle, battery) Q=0.43895908826605373, Count=50
+apply(shard_2, empty bottom cabinet) Q=0.4732754143568386, Count=50
+apply(shard_2, battery) Q=0.32251084279521675, Count=50
+apply(shard_3, empty bottom cabinet) Q=0.36642867870281015, Count=50
+apply(shard_3, battery) Q=0.3479230582627234, Count=50
+apply(shard_4, empty bottom cabinet) Q=0.4771611474005504, Count=50
+apply(shard_4, battery) Q=0.42224340054498366, Count=50
+apply(flashlight, empty bottom cabinet) Q=0.33392369090593854, Count=50
+apply(flashlight, battery) Q=0.24128089188617646, Count=49
+craft(hammer handle, shard_2) Q=0.4263243149828991, Count=50
+craft(hammer handle, shard_3) Q=0.38357927788728613, Count=50
+craft(hammer handle, shard_4) Q=0.35452575744076736, Count=50
+craft(hammer handle, flashlight) Q=0.3763044757423602, Count=50
+craft(shard_2, shard_3) Q=0.43289328136914546, Count=50
+craft(shard_2, shard_4) Q=0.4850797132353209, Count=50
+craft(shard_2, flashlight) Q=0.4278280223166134, Count=50
+craft(shard_3, shard_4) Q=0.36354145889323924, Count=50
+craft(shard_3, flashlight) Q=0.3509267298203578, Count=50
+craft(shard_4, flashlight) Q=0.4151767590499704, Count=50
+move(Back to the dining room and kitchen) Q=0.03004133169656817, Count=48
+Action: click(battery)
+Reward: Action executed successfully. You have just collected a battery. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 21
+
+Step: 51
+click(empty bottom cabinet) Q=0.3722574421824276, Count=50
+apply(hammer handle, empty bottom cabinet) Q=0.3463440908835186, Count=50
+apply(shard_2, empty bottom cabinet) Q=0.34543413040544424, Count=50
+apply(shard_3, empty bottom cabinet) Q=0.36941150983507226, Count=50
+apply(shard_4, empty bottom cabinet) Q=0.4444185097778526, Count=50
+apply(flashlight, empty bottom cabinet) Q=0.3425816510140938, Count=50
+apply(battery, empty bottom cabinet) Q=0.32566507851814686, Count=50
+craft(hammer handle, shard_2) Q=0.39885393993225865, Count=50
+craft(hammer handle, shard_3) Q=0.36185602911945564, Count=50
+craft(hammer handle, shard_4) Q=0.40110555882479226, Count=50
+craft(hammer handle, flashlight) Q=0.3894846449554476, Count=50
+craft(hammer handle, battery) Q=0.38650269032828055, Count=50
+craft(shard_2, shard_3) Q=0.2605127922881143, Count=49
+craft(shard_2, shard_4) Q=0.3793722526567314, Count=50
+craft(shard_2, flashlight) Q=0.2642074275251758, Count=49
+craft(shard_2, battery) Q=0.4121110059655752, Count=50
+craft(shard_3, shard_4) Q=0.3081253984348409, Count=50
+craft(shard_3, flashlight) Q=0.33775670519359885, Count=50
+craft(shard_3, battery) Q=0.3100813577928464, Count=50
+craft(shard_4, flashlight) Q=0.25817740606967243, Count=49
+craft(shard_4, battery) Q=0.39177706208547586, Count=50
+craft(flashlight, battery) Q=0.9999999999999998, Count=53
+move(Back to the dining room and kitchen) Q=0.4085114606981231, Count=50
+Action: craft(flashlight, battery)
+Reward: Action executed successfully. You have successfully crafted A single battery is found here, seems still usable. and A flashlight is here, but it currently is out of power. together.
+You get a new item: The flashlight now has a battery and is ready to use.. It is put into your bag.
+Accumulated_reward: 22
+
+Step: 52
+click(empty bottom cabinet) Q=0.0, Count=50
+apply(hammer handle, empty bottom cabinet) Q=0.012027746069952204, Count=50
+apply(shard_2, empty bottom cabinet) Q=0.013407541439587067, Count=50
+apply(shard_3, empty bottom cabinet) Q=0.01269793949283138, Count=50
+apply(shard_4, empty bottom cabinet) Q=0.0, Count=50
+apply(flashlight, empty bottom cabinet) Q=0.013407541439587067, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.015799168155428967, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_2, flashlight) Q=0.01023071658804329, Count=50
+craft(shard_3, shard_4) Q=0.022166921721517928, Count=50
+craft(shard_3, flashlight) Q=0.01269793949283138, Count=50
+craft(shard_4, flashlight) Q=0.013407541439587067, Count=50
+move(Back to the dining room and kitchen) Q=0.01764255650353473, Count=50
+Action: craft(shard_3, shard_4)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 22
+
+Step: 53
+click(empty bottom cabinet) Q=0.010796270133114115, Count=50
+apply(hammer handle, empty bottom cabinet) Q=0.0, Count=50
+apply(shard_2, empty bottom cabinet) Q=0.0, Count=50
+apply(shard_3, empty bottom cabinet) Q=0.021005461793215927, Count=50
+apply(shard_4, empty bottom cabinet) Q=0.0, Count=50
+apply(flashlight, empty bottom cabinet) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.024361689347408913, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_2, flashlight) Q=0.028458346094336607, Count=50
+craft(shard_3, shard_4) Q=0.035702396358926004, Count=50
+craft(shard_3, flashlight) Q=0.0, Count=50
+craft(shard_4, flashlight) Q=0.012027746069952204, Count=50
+move(Back to the dining room and kitchen) Q=0.044114768148240405, Count=50
+Action: move(Back to the dining room and kitchen)
+Reward: Action executed successfully. Change to another scene: dining room and kitchen.
+Accumulated_reward: 22
+
+Step: 54
+craft(hammer handle, shard_2) Q=0.04213402025001596, Count=50
+craft(hammer handle, shard_3) Q=0.026153848840350484, Count=50
+craft(hammer handle, shard_4) Q=0.037490640199822664, Count=50
+craft(hammer handle, flashlight) Q=0.0315502775172747, Count=50
+craft(shard_2, shard_3) Q=0.015799168155428967, Count=50
+craft(shard_2, shard_4) Q=0.03941238729246887, Count=50
+craft(shard_2, flashlight) Q=0.054610820293369264, Count=50
+craft(shard_3, shard_4) Q=0.025156365745022405, Count=50
+craft(shard_3, flashlight) Q=0.01764255650353473, Count=50
+craft(shard_4, flashlight) Q=0.0, Count=50
+move(To the living room) Q=0.0, Count=50
+move(To the dining table close-up) Q=0.26692796589987744, Count=51
+move(To the cabinet above stove close-up) Q=0.0, Count=50
+move(To the left cabinet close-up) Q=0.01269793949283138, Count=50
+move(To the right cabinet close-up) Q=0.0, Count=49
+move(To the sink close-up) Q=0.0, Count=50
+move(To the cabinet above sink close-up) Q=0.011394592646027296, Count=50
+Action: move(To the dining table close-up)
+Reward: Action executed successfully. Change to another scene: dining table close-up.
+Accumulated_reward: 22
+
+Step: 55
+click(pizza slice) Q=0.2848994512802103, Count=50
+click(newspaper) Q=0.28993223645969896, Count=50
+click(spoiled oatmeal) Q=0.21554802429382966, Count=50
+click(shard_1) Q=0.9999999999999997, Count=54
+apply(hammer handle, pizza slice) Q=0.25493814106488166, Count=50
+apply(hammer handle, newspaper) Q=0.2437486883754526, Count=50
+apply(hammer handle, spoiled oatmeal) Q=0.1830445324245651, Count=49
+apply(hammer handle, shard_1) Q=0.18055657700370054, Count=50
+apply(shard_2, pizza slice) Q=0.18161983920332664, Count=50
+apply(shard_2, newspaper) Q=0.20291203114574355, Count=50
+apply(shard_2, spoiled oatmeal) Q=0.21863028020879954, Count=50
+apply(shard_2, shard_1) Q=0.295694241942842, Count=50
+apply(shard_3, pizza slice) Q=0.20902383870408822, Count=50
+apply(shard_3, newspaper) Q=0.18063347610174915, Count=50
+apply(shard_3, spoiled oatmeal) Q=0.21348178491840025, Count=50
+apply(shard_3, shard_1) Q=0.19768238803296026, Count=50
+apply(shard_4, pizza slice) Q=0.2088384539861467, Count=50
+apply(shard_4, newspaper) Q=0.19045181940987627, Count=50
+apply(shard_4, spoiled oatmeal) Q=0.2808467191016877, Count=50
+apply(shard_4, shard_1) Q=0.2675861453351372, Count=50
+apply(flashlight, pizza slice) Q=0.23130263267046142, Count=50
+apply(flashlight, newspaper) Q=0.31561336865255785, Count=50
+apply(flashlight, spoiled oatmeal) Q=0.20963275896482697, Count=50
+apply(flashlight, shard_1) Q=0.2262998102378459, Count=50
+craft(hammer handle, shard_2) Q=0.18865125213952366, Count=50
+craft(hammer handle, shard_3) Q=0.18009721008076046, Count=49
+craft(hammer handle, shard_4) Q=0.3517540440103422, Count=50
+craft(hammer handle, flashlight) Q=0.20365837852440555, Count=50
+craft(shard_2, shard_3) Q=0.21432715543981892, Count=50
+craft(shard_2, shard_4) Q=0.1905096380504432, Count=50
+craft(shard_2, flashlight) Q=0.26788452865354145, Count=50
+craft(shard_3, shard_4) Q=0.27784908528811497, Count=50
+craft(shard_3, flashlight) Q=0.16989975735507895, Count=49
+craft(shard_4, flashlight) Q=0.25893298754843014, Count=50
+move(Back to the dining room and kitchen) Q=0.0, Count=49
+Action: click(shard_1)
+Reward: Action executed successfully. You have just collected a shard_1. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 23
+
+Step: 56
+click(pizza slice) Q=0.0, Count=50
+click(newspaper) Q=0.0, Count=50
+click(spoiled oatmeal) Q=0.0, Count=50
+apply(hammer handle, pizza slice) Q=0.0, Count=50
+apply(hammer handle, newspaper) Q=0.0, Count=50
+apply(hammer handle, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_2, pizza slice) Q=0.0, Count=50
+apply(shard_2, newspaper) Q=0.0, Count=50
+apply(shard_2, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_3, pizza slice) Q=0.0, Count=50
+apply(shard_3, newspaper) Q=0.0, Count=50
+apply(shard_3, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_4, pizza slice) Q=0.0, Count=50
+apply(shard_4, newspaper) Q=0.0, Count=50
+apply(shard_4, spoiled oatmeal) Q=0.0, Count=50
+apply(flashlight, pizza slice) Q=0.0, Count=50
+apply(flashlight, newspaper) Q=0.0, Count=50
+apply(flashlight, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_1, pizza slice) Q=0.0, Count=50
+apply(shard_1, newspaper) Q=0.0, Count=50
+apply(shard_1, spoiled oatmeal) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_2, flashlight) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+craft(shard_3, flashlight) Q=0.0, Count=50
+craft(shard_3, shard_1) Q=0.0, Count=50
+craft(shard_4, flashlight) Q=0.0, Count=50
+craft(shard_4, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+move(Back to the dining room and kitchen) Q=0.0, Count=50
+Action: apply(shard_1, spoiled oatmeal)
+Reward: Nothing happens after you apply the tool. It's a bowl of spoiled oatmeal. no use for this.
+Accumulated_reward: 23
+
+Step: 57
+click(pizza slice) Q=0.0, Count=50
+click(newspaper) Q=0.0, Count=50
+click(spoiled oatmeal) Q=0.0, Count=50
+apply(hammer handle, pizza slice) Q=0.0, Count=50
+apply(hammer handle, newspaper) Q=0.0, Count=50
+apply(hammer handle, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_2, pizza slice) Q=0.0, Count=50
+apply(shard_2, newspaper) Q=0.0, Count=50
+apply(shard_2, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_3, pizza slice) Q=0.0, Count=50
+apply(shard_3, newspaper) Q=0.0, Count=50
+apply(shard_3, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_4, pizza slice) Q=0.0, Count=50
+apply(shard_4, newspaper) Q=0.0, Count=50
+apply(shard_4, spoiled oatmeal) Q=0.0, Count=50
+apply(flashlight, pizza slice) Q=0.0, Count=50
+apply(flashlight, newspaper) Q=0.0, Count=50
+apply(flashlight, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_1, pizza slice) Q=0.0, Count=50
+apply(shard_1, newspaper) Q=0.0, Count=50
+apply(shard_1, spoiled oatmeal) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_2, flashlight) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+craft(shard_3, flashlight) Q=0.0, Count=50
+craft(shard_3, shard_1) Q=0.012027746069952204, Count=50
+craft(shard_4, flashlight) Q=0.0, Count=50
+craft(shard_4, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+move(Back to the dining room and kitchen) Q=0.0, Count=50
+Action: craft(shard_3, shard_1)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 58
+click(pizza slice) Q=0.0, Count=50
+click(newspaper) Q=0.0, Count=50
+click(spoiled oatmeal) Q=0.0, Count=50
+apply(hammer handle, pizza slice) Q=0.0, Count=50
+apply(hammer handle, newspaper) Q=0.0, Count=50
+apply(hammer handle, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_2, pizza slice) Q=0.0, Count=50
+apply(shard_2, newspaper) Q=0.0, Count=50
+apply(shard_2, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_3, pizza slice) Q=0.0, Count=50
+apply(shard_3, newspaper) Q=0.0, Count=50
+apply(shard_3, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_4, pizza slice) Q=0.0, Count=50
+apply(shard_4, newspaper) Q=0.0, Count=50
+apply(shard_4, spoiled oatmeal) Q=0.0, Count=50
+apply(flashlight, pizza slice) Q=0.0, Count=50
+apply(flashlight, newspaper) Q=0.0, Count=50
+apply(flashlight, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_1, pizza slice) Q=0.0, Count=50
+apply(shard_1, newspaper) Q=0.0, Count=50
+apply(shard_1, spoiled oatmeal) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_2, flashlight) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+craft(shard_3, flashlight) Q=0.0, Count=50
+craft(shard_3, shard_1) Q=0.0, Count=50
+craft(shard_4, flashlight) Q=0.0, Count=50
+craft(shard_4, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+move(Back to the dining room and kitchen) Q=0.0, Count=50
+Action: apply(hammer handle, spoiled oatmeal)
+Reward: Nothing happens after you apply the tool. It's a bowl of spoiled oatmeal. no use for this.
+Accumulated_reward: 23
+
+Step: 59
+click(pizza slice) Q=0.0, Count=50
+click(newspaper) Q=0.0, Count=50
+click(spoiled oatmeal) Q=0.0, Count=50
+apply(hammer handle, pizza slice) Q=0.0, Count=50
+apply(hammer handle, newspaper) Q=0.0, Count=50
+apply(hammer handle, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_2, pizza slice) Q=0.0, Count=50
+apply(shard_2, newspaper) Q=0.0, Count=50
+apply(shard_2, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_3, pizza slice) Q=0.0, Count=50
+apply(shard_3, newspaper) Q=0.0, Count=50
+apply(shard_3, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_4, pizza slice) Q=0.0, Count=50
+apply(shard_4, newspaper) Q=0.0, Count=50
+apply(shard_4, spoiled oatmeal) Q=0.0, Count=50
+apply(flashlight, pizza slice) Q=0.0, Count=50
+apply(flashlight, newspaper) Q=0.0, Count=50
+apply(flashlight, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_1, pizza slice) Q=0.0, Count=50
+apply(shard_1, newspaper) Q=0.0, Count=50
+apply(shard_1, spoiled oatmeal) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_2, flashlight) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+craft(shard_3, flashlight) Q=0.0, Count=50
+craft(shard_3, shard_1) Q=0.0, Count=50
+craft(shard_4, flashlight) Q=0.0, Count=50
+craft(shard_4, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+move(Back to the dining room and kitchen) Q=0.0, Count=50
+Action: apply(hammer handle, pizza slice)
+Reward: Nothing happens after you apply the tool. Just a cold slice of pizza. nothing useful here.
+Accumulated_reward: 23
+
+Step: 60
+click(pizza slice) Q=0.0, Count=50
+click(newspaper) Q=0.0, Count=50
+click(spoiled oatmeal) Q=0.0, Count=50
+apply(hammer handle, pizza slice) Q=0.0, Count=50
+apply(hammer handle, newspaper) Q=0.0, Count=50
+apply(hammer handle, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_2, pizza slice) Q=0.0, Count=50
+apply(shard_2, newspaper) Q=0.0, Count=50
+apply(shard_2, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_3, pizza slice) Q=0.0, Count=50
+apply(shard_3, newspaper) Q=0.0, Count=50
+apply(shard_3, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_4, pizza slice) Q=0.0, Count=50
+apply(shard_4, newspaper) Q=0.0, Count=50
+apply(shard_4, spoiled oatmeal) Q=0.0, Count=50
+apply(flashlight, pizza slice) Q=0.0, Count=50
+apply(flashlight, newspaper) Q=0.0, Count=50
+apply(flashlight, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_1, pizza slice) Q=0.0, Count=50
+apply(shard_1, newspaper) Q=0.0, Count=50
+apply(shard_1, spoiled oatmeal) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_2, flashlight) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+craft(shard_3, flashlight) Q=0.0, Count=50
+craft(shard_3, shard_1) Q=0.0, Count=50
+craft(shard_4, flashlight) Q=0.0, Count=50
+craft(shard_4, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+move(Back to the dining room and kitchen) Q=0.0, Count=50
+Action: apply(shard_3, spoiled oatmeal)
+Reward: Nothing happens after you apply the tool. It's a bowl of spoiled oatmeal. no use for this.
+Accumulated_reward: 23
+
+Step: 61
+click(pizza slice) Q=0.0, Count=50
+click(newspaper) Q=0.0, Count=50
+click(spoiled oatmeal) Q=0.0, Count=50
+apply(hammer handle, pizza slice) Q=0.0, Count=50
+apply(hammer handle, newspaper) Q=0.0, Count=50
+apply(hammer handle, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_2, pizza slice) Q=0.0, Count=50
+apply(shard_2, newspaper) Q=0.0, Count=50
+apply(shard_2, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_3, pizza slice) Q=0.0, Count=50
+apply(shard_3, newspaper) Q=0.0, Count=50
+apply(shard_3, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_4, pizza slice) Q=0.0, Count=50
+apply(shard_4, newspaper) Q=0.0, Count=50
+apply(shard_4, spoiled oatmeal) Q=0.0, Count=50
+apply(flashlight, pizza slice) Q=0.0, Count=50
+apply(flashlight, newspaper) Q=0.0, Count=50
+apply(flashlight, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_1, pizza slice) Q=0.0, Count=50
+apply(shard_1, newspaper) Q=0.0, Count=50
+apply(shard_1, spoiled oatmeal) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_2, flashlight) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+craft(shard_3, flashlight) Q=0.0, Count=50
+craft(shard_3, shard_1) Q=0.0, Count=50
+craft(shard_4, flashlight) Q=0.0, Count=50
+craft(shard_4, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+move(Back to the dining room and kitchen) Q=0.0, Count=50
+Action: craft(shard_2, shard_4)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 62
+click(pizza slice) Q=0.0, Count=50
+click(newspaper) Q=0.0, Count=50
+click(spoiled oatmeal) Q=0.0, Count=50
+apply(hammer handle, pizza slice) Q=0.0, Count=50
+apply(hammer handle, newspaper) Q=0.0, Count=50
+apply(hammer handle, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_2, pizza slice) Q=0.0, Count=50
+apply(shard_2, newspaper) Q=0.0, Count=50
+apply(shard_2, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_3, pizza slice) Q=0.0, Count=50
+apply(shard_3, newspaper) Q=0.0, Count=50
+apply(shard_3, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_4, pizza slice) Q=0.0, Count=50
+apply(shard_4, newspaper) Q=0.0, Count=50
+apply(shard_4, spoiled oatmeal) Q=0.0, Count=50
+apply(flashlight, pizza slice) Q=0.0, Count=50
+apply(flashlight, newspaper) Q=0.0, Count=50
+apply(flashlight, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_1, pizza slice) Q=0.0, Count=50
+apply(shard_1, newspaper) Q=0.0, Count=50
+apply(shard_1, spoiled oatmeal) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_2, flashlight) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+craft(shard_3, flashlight) Q=0.0, Count=50
+craft(shard_3, shard_1) Q=0.0, Count=50
+craft(shard_4, flashlight) Q=0.0, Count=50
+craft(shard_4, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+move(Back to the dining room and kitchen) Q=0.0, Count=50
+Action: craft(shard_3, shard_1)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 63
+click(pizza slice) Q=0.0, Count=50
+click(newspaper) Q=0.0, Count=50
+click(spoiled oatmeal) Q=0.0, Count=50
+apply(hammer handle, pizza slice) Q=0.0, Count=50
+apply(hammer handle, newspaper) Q=0.0, Count=50
+apply(hammer handle, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_2, pizza slice) Q=0.0, Count=50
+apply(shard_2, newspaper) Q=0.0, Count=50
+apply(shard_2, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_3, pizza slice) Q=0.0, Count=50
+apply(shard_3, newspaper) Q=0.0, Count=50
+apply(shard_3, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_4, pizza slice) Q=0.0, Count=50
+apply(shard_4, newspaper) Q=0.0, Count=50
+apply(shard_4, spoiled oatmeal) Q=0.011394592646027296, Count=50
+apply(flashlight, pizza slice) Q=0.0, Count=50
+apply(flashlight, newspaper) Q=0.0, Count=50
+apply(flashlight, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_1, pizza slice) Q=0.0, Count=50
+apply(shard_1, newspaper) Q=0.0, Count=50
+apply(shard_1, spoiled oatmeal) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_2, flashlight) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+craft(shard_3, flashlight) Q=0.0, Count=50
+craft(shard_3, shard_1) Q=0.0, Count=50
+craft(shard_4, flashlight) Q=0.0, Count=50
+craft(shard_4, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+move(Back to the dining room and kitchen) Q=0.0, Count=50
+Action: apply(shard_4, spoiled oatmeal)
+Reward: Nothing happens after you apply the tool. It's a bowl of spoiled oatmeal. no use for this.
+Accumulated_reward: 23
+
+Step: 64
+click(pizza slice) Q=0.0, Count=50
+click(newspaper) Q=0.0, Count=50
+click(spoiled oatmeal) Q=0.0, Count=50
+apply(hammer handle, pizza slice) Q=0.0, Count=50
+apply(hammer handle, newspaper) Q=0.0, Count=50
+apply(hammer handle, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_2, pizza slice) Q=0.0, Count=50
+apply(shard_2, newspaper) Q=0.0, Count=50
+apply(shard_2, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_3, pizza slice) Q=0.0, Count=50
+apply(shard_3, newspaper) Q=0.0, Count=50
+apply(shard_3, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_4, pizza slice) Q=0.0, Count=50
+apply(shard_4, newspaper) Q=0.0, Count=50
+apply(shard_4, spoiled oatmeal) Q=0.0, Count=50
+apply(flashlight, pizza slice) Q=0.0, Count=50
+apply(flashlight, newspaper) Q=0.0, Count=50
+apply(flashlight, spoiled oatmeal) Q=0.0, Count=50
+apply(shard_1, pizza slice) Q=0.0, Count=50
+apply(shard_1, newspaper) Q=0.0, Count=50
+apply(shard_1, spoiled oatmeal) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_2, flashlight) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+craft(shard_3, flashlight) Q=0.0, Count=50
+craft(shard_3, shard_1) Q=0.0, Count=50
+craft(shard_4, flashlight) Q=0.0, Count=50
+craft(shard_4, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+move(Back to the dining room and kitchen) Q=0.0, Count=50
+Action: move(Back to the dining room and kitchen)
+Reward: Action executed successfully. Change to another scene: dining room and kitchen.
+Accumulated_reward: 23
+
+Step: 65
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_2, flashlight) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+craft(shard_3, flashlight) Q=0.0, Count=50
+craft(shard_3, shard_1) Q=0.0, Count=50
+craft(shard_4, flashlight) Q=0.0, Count=50
+craft(shard_4, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+move(To the living room) Q=0.0, Count=50
+move(To the dining table close-up) Q=0.0, Count=50
+move(To the cabinet above stove close-up) Q=0.0, Count=50
+move(To the left cabinet close-up) Q=0.0, Count=50
+move(To the right cabinet close-up) Q=0.0, Count=50
+move(To the sink close-up) Q=0.0, Count=50
+move(To the cabinet above sink close-up) Q=0.0, Count=50
+Action: craft(hammer handle, shard_1)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 66
+craft(hammer handle, shard_2) Q=0.010796270133114115, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_2, flashlight) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+craft(shard_3, flashlight) Q=0.04207330955665243, Count=50
+craft(shard_3, shard_1) Q=0.0, Count=50
+craft(shard_4, flashlight) Q=0.0, Count=50
+craft(shard_4, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+move(To the living room) Q=0.0, Count=50
+move(To the dining table close-up) Q=0.0, Count=50
+move(To the cabinet above stove close-up) Q=0.0, Count=50
+move(To the left cabinet close-up) Q=0.0, Count=50
+move(To the right cabinet close-up) Q=0.0, Count=50
+move(To the sink close-up) Q=0.0, Count=50
+move(To the cabinet above sink close-up) Q=0.0, Count=50
+Action: craft(shard_3, flashlight)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 67
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_2, flashlight) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+craft(shard_3, flashlight) Q=0.0, Count=50
+craft(shard_3, shard_1) Q=0.0, Count=50
+craft(shard_4, flashlight) Q=0.0, Count=50
+craft(shard_4, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+move(To the living room) Q=0.0, Count=50
+move(To the dining table close-up) Q=0.0, Count=50
+move(To the cabinet above stove close-up) Q=0.0, Count=50
+move(To the left cabinet close-up) Q=0.0, Count=50
+move(To the right cabinet close-up) Q=0.0, Count=50
+move(To the sink close-up) Q=0.0, Count=50
+move(To the cabinet above sink close-up) Q=0.0, Count=50
+Action: craft(shard_2, shard_4)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 68
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_2, flashlight) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+craft(shard_3, flashlight) Q=0.0, Count=50
+craft(shard_3, shard_1) Q=0.0, Count=50
+craft(shard_4, flashlight) Q=0.0, Count=50
+craft(shard_4, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+move(To the living room) Q=0.0, Count=50
+move(To the dining table close-up) Q=0.0, Count=50
+move(To the cabinet above stove close-up) Q=0.0, Count=50
+move(To the left cabinet close-up) Q=0.0, Count=50
+move(To the right cabinet close-up) Q=0.0, Count=50
+move(To the sink close-up) Q=0.0, Count=50
+move(To the cabinet above sink close-up) Q=0.0, Count=50
+Action: craft(shard_3, flashlight)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 23
+
+Step: 69
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.0, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.0, Count=50
+craft(shard_2, flashlight) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+craft(shard_3, flashlight) Q=0.0, Count=50
+craft(shard_3, shard_1) Q=0.0, Count=50
+craft(shard_4, flashlight) Q=0.0, Count=50
+craft(shard_4, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.0, Count=50
+move(To the living room) Q=0.0, Count=50
+move(To the dining table close-up) Q=0.0, Count=50
+move(To the cabinet above stove close-up) Q=0.0, Count=50
+move(To the left cabinet close-up) Q=0.0, Count=50
+move(To the right cabinet close-up) Q=0.0, Count=50
+move(To the sink close-up) Q=0.0, Count=50
+move(To the cabinet above sink close-up) Q=0.0, Count=50
+Action: move(To the living room)
+Reward: Action executed successfully. Change to another scene: living room.
+Accumulated_reward: 23
+
+Step: 70
+click(right door to the exit) Q=0.01269793949283138, Count=50
+apply(hammer handle, right door to the exit) Q=0.011394592646027296, Count=50
+apply(shard_2, right door to the exit) Q=0.0, Count=50
+apply(shard_3, right door to the exit) Q=0.02208165277633633, Count=50
+apply(shard_4, right door to the exit) Q=0.0, Count=50
+apply(flashlight, right door to the exit) Q=0.0, Count=50
+apply(shard_1, right door to the exit) Q=0.0, Count=50
+craft(hammer handle, shard_2) Q=0.0, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.01023071658804329, Count=50
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, shard_1) Q=0.0, Count=50
+craft(shard_2, shard_3) Q=0.0, Count=50
+craft(shard_2, shard_4) Q=0.01023071658804329, Count=50
+craft(shard_2, flashlight) Q=0.0, Count=50
+craft(shard_2, shard_1) Q=0.0215698405055186, Count=50
+craft(shard_3, shard_4) Q=0.0, Count=50
+craft(shard_3, flashlight) Q=0.0, Count=50
+craft(shard_3, shard_1) Q=0.012027746069952204, Count=50
+craft(shard_4, flashlight) Q=0.01669377972066061, Count=50
+craft(shard_4, shard_1) Q=0.0, Count=50
+craft(flashlight, shard_1) Q=0.01023071658804329, Count=50
+move(To the dining room and kitchen) Q=0.0, Count=50
+move(To the bedroom) Q=0.03584552630780114, Count=50
+move(To the telephone cabinet close-up) Q=0.0, Count=50
+move(To the study after unlocking) Q=0.0, Count=50
+Action: move(To the bedroom)
+Reward: Action executed successfully. Change to another scene: bedroom.
+Accumulated_reward: 23
+
+Step: 71
+craft(hammer handle, shard_2) Q=0.04919612594274364, Count=50
+craft(hammer handle, shard_3) Q=0.0, Count=50
+craft(hammer handle, shard_4) Q=0.07731040657103738, Count=50
+craft(hammer handle, flashlight) Q=0.17159590854473283, Count=50
+craft(hammer handle, shard_1) Q=0.03689531450835519, Count=50
+craft(shard_2, shard_3) Q=0.10584258048796066, Count=50
+craft(shard_2, shard_4) Q=0.06835073058105132, Count=50
+craft(shard_2, flashlight) Q=0.04560390112554636, Count=50
+craft(shard_2, shard_1) Q=0.0473260331531815, Count=50
+craft(shard_3, shard_4) Q=0.12276764912062163, Count=50
+craft(shard_3, flashlight) Q=0.06467715534699313, Count=50
+craft(shard_3, shard_1) Q=0.03699967002666499, Count=50
+craft(shard_4, flashlight) Q=0.01023071658804329, Count=50
+craft(shard_4, shard_1) Q=0.04826528734097585, Count=50
+craft(flashlight, shard_1) Q=0.05459467767041551, Count=50
+move(To the living room) Q=0.0, Count=50
+move(To the toolbox close-up) Q=0.0, Count=49
+move(To the cardboard box close-up) Q=0.010796270133114115, Count=50
+move(To the bathroom) Q=0.29162390578672526, Count=51
+Action: move(To the bathroom)
+Reward: Action executed successfully. Change to another scene: bathroom.
+Accumulated_reward: 23
+
+Step: 72
+craft(hammer handle, shard_2) Q=0.2977871965272645, Count=50
+craft(hammer handle, shard_3) Q=0.3031370512809529, Count=50
+craft(hammer handle, shard_4) Q=0.12190971369949205, Count=49
+craft(hammer handle, flashlight) Q=0.2871132943416355, Count=50
+craft(hammer handle, shard_1) Q=0.4424820108035631, Count=50
+craft(shard_2, shard_3) Q=0.3707243336953886, Count=50
+craft(shard_2, shard_4) Q=0.30654145402987143, Count=50
+craft(shard_2, flashlight) Q=0.43393559717167574, Count=50
+craft(shard_2, shard_1) Q=0.43183931045931523, Count=50
+craft(shard_3, shard_4) Q=0.2777274028759396, Count=49
+craft(shard_3, flashlight) Q=0.3313222851551888, Count=50
+craft(shard_3, shard_1) Q=0.3534408287667482, Count=50
+craft(shard_4, flashlight) Q=0.44799106652480636, Count=50
+craft(shard_4, shard_1) Q=0.38491334293948193, Count=50
+craft(flashlight, shard_1) Q=0.45395092224782585, Count=50
+move(To the bedroom) Q=0.0, Count=48
+move(To the mirror close-up) Q=1.3679500868143915, Count=56
+move(To the ventilation fan close-up) Q=0.035978253660693085, Count=48
+Action: move(To the mirror close-up)
+Reward: Action executed successfully. Change to another scene: mirror close-up.
+Accumulated_reward: 23
+
+Step: 73
+click(mirror) Q=1.0746615491324305, Count=47
+apply(hammer handle, mirror) Q=1.5819482962729918, Count=50
+apply(shard_2, mirror) Q=2.382366821682885, Count=55
+apply(shard_3, mirror) Q=2.479702265801367, Count=55
+apply(shard_4, mirror) Q=2.45910155000026, Count=55
+apply(flashlight, mirror) Q=1.5706285521196657, Count=50
+apply(shard_1, mirror) Q=2.5643261179319072, Count=56
+craft(hammer handle, shard_2) Q=1.3853849647013539, Count=49
+craft(hammer handle, shard_3) Q=1.4971730356896356, Count=50
+craft(hammer handle, shard_4) Q=1.465277605831186, Count=49
+craft(hammer handle, flashlight) Q=1.2169342763851583, Count=48
+craft(hammer handle, shard_1) Q=1.5127253127568079, Count=50
+craft(shard_2, shard_3) Q=1.251769646690522, Count=48
+craft(shard_2, shard_4) Q=1.4195961353695323, Count=49
+craft(shard_2, flashlight) Q=1.5654104224360073, Count=50
+craft(shard_2, shard_1) Q=1.5357009569562357, Count=50
+craft(shard_3, shard_4) Q=1.301765654892961, Count=49
+craft(shard_3, flashlight) Q=1.5430097320741973, Count=50
+craft(shard_3, shard_1) Q=1.3293614727147696, Count=49
+craft(shard_4, flashlight) Q=1.3206053478790558, Count=49
+craft(shard_4, shard_1) Q=1.4718044489560194, Count=49
+craft(flashlight, shard_1) Q=1.354456800515694, Count=49
+move(Back to the bathroom) Q=0.31071924943115775, Count=44
+Action: apply(shard_1, mirror)
+Reward: Action executed successfully. You have successfully applied shard_1 to mirror.
+However, the apply of shard_1 is not enough, and mirror is still missing something else ...
+Accumulated_reward: 24
+
+Step: 74
+click(mirror) Q=1.5284138692534053, Count=49
+apply(hammer handle, mirror) Q=1.4260529209185226, Count=49
+apply(shard_2, mirror) Q=2.548763923356224, Count=55
+apply(shard_3, mirror) Q=2.417702104477561, Count=55
+apply(shard_4, mirror) Q=2.452389500718919, Count=55
+apply(flashlight, mirror) Q=1.5338060649732712, Count=50
+craft(hammer handle, shard_2) Q=1.6518445565948374, Count=50
+craft(hammer handle, shard_3) Q=1.3754034818951446, Count=49
+craft(hammer handle, shard_4) Q=1.7330355290162314, Count=51
+craft(hammer handle, flashlight) Q=1.4034139078704155, Count=49
+craft(shard_2, shard_3) Q=1.1520511962574194, Count=48
+craft(shard_2, shard_4) Q=1.5404573383259101, Count=50
+craft(shard_2, flashlight) Q=1.33375276798479, Count=48
+craft(shard_3, shard_4) Q=1.4271463909389137, Count=49
+craft(shard_3, flashlight) Q=1.4121029123319786, Count=49
+craft(shard_4, flashlight) Q=1.3781799450131706, Count=49
+move(Back to the bathroom) Q=0.5274280876160974, Count=45
+Action: apply(shard_2, mirror)
+Reward: Action executed successfully. You have successfully applied shard_2 to mirror.
+However, the apply of shard_2 is not enough, and mirror is still missing something else ...
+Accumulated_reward: 25
+
+Step: 75
+click(mirror) Q=1.665845742900871, Count=51
+apply(hammer handle, mirror) Q=1.4310091015552397, Count=50
+apply(shard_3, mirror) Q=2.46184806044078, Count=56
+apply(shard_4, mirror) Q=2.255179304231485, Count=55
+apply(flashlight, mirror) Q=1.2368906308651002, Count=49
+craft(hammer handle, shard_3) Q=1.320716986420014, Count=49
+craft(hammer handle, shard_4) Q=1.206997748549532, Count=49
+craft(hammer handle, flashlight) Q=1.2536872492571356, Count=49
+craft(shard_3, shard_4) Q=1.249973426540533, Count=49
+craft(shard_3, flashlight) Q=1.0633199716506898, Count=48
+craft(shard_4, flashlight) Q=1.4461302369482798, Count=50
+move(Back to the bathroom) Q=0.45323764656701915, Count=45
+Action: apply(shard_3, mirror)
+Reward: Action executed successfully. You have successfully applied shard_3 to mirror.
+However, the apply of shard_3 is not enough, and mirror is still missing something else ...
+Accumulated_reward: 26
+
+Step: 76
+click(mirror) Q=1.2989583818495087, Count=49
+apply(hammer handle, mirror) Q=1.3044312097511273, Count=49
+apply(shard_4, mirror) Q=2.7928032629667436, Count=59
+apply(flashlight, mirror) Q=1.2661807589426666, Count=49
+craft(hammer handle, shard_4) Q=1.5044050471976604, Count=50
+craft(hammer handle, flashlight) Q=1.351727947637595, Count=49
+craft(shard_4, flashlight) Q=1.4634232979418291, Count=50
+move(Back to the bathroom) Q=0.46452866330539416, Count=45
+Action: apply(shard_4, mirror)
+Reward: Action executed successfully. You have successfully applied shard_4 to mirror. The mirror is now complete. it reflects a vague message saying 'cs546'
+Accumulated_reward: 27
+
+Step: 77
+Action: input(cs546, toolbox)
+Reward: Action executed successfully. You have given an input cs546 to toolbox. The toolbox is now open.
+Accumulated_reward: 28
+
+Step: 78
+click(screwdriver) Q=1.4847135346444043, Count=53
+click(fuse) Q=1.5620956071445065, Count=53
+apply(hammer handle, screwdriver) Q=1.0593534431231593, Count=50
+apply(hammer handle, fuse) Q=0.98256946587972, Count=50
+apply(flashlight, screwdriver) Q=0.884110207193261, Count=49
+apply(flashlight, fuse) Q=0.9592700497667286, Count=49
+craft(hammer handle, flashlight) Q=1.1200634927607285, Count=50
+move(Back to the bedroom) Q=0.36155715030443364, Count=46
+Action: click(fuse)
+Reward: Action executed successfully. You have just collected a fuse. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 29
+
+Step: 79
+click(screwdriver) Q=0.9999999999999998, Count=53
+apply(hammer handle, screwdriver) Q=0.40012766197114946, Count=49
+apply(flashlight, screwdriver) Q=0.46511064749275083, Count=50
+apply(fuse, screwdriver) Q=0.4730054941852317, Count=50
+craft(hammer handle, flashlight) Q=0.46973249105143555, Count=50
+craft(hammer handle, fuse) Q=0.5069274542625539, Count=50
+craft(flashlight, fuse) Q=0.5160069742757611, Count=50
+move(Back to the bedroom) Q=0.16210417691362833, Count=48
+Action: click(screwdriver)
+Reward: Action executed successfully. You have just collected a screwdriver. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 30
+
+Step: 80
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, fuse) Q=0.0, Count=50
+craft(hammer handle, screwdriver) Q=0.011394592646027296, Count=50
+craft(flashlight, fuse) Q=0.0, Count=50
+craft(flashlight, screwdriver) Q=0.02273764514211956, Count=50
+craft(fuse, screwdriver) Q=0.0, Count=50
+move(Back to the bedroom) Q=0.012027746069952204, Count=50
+Action: craft(flashlight, screwdriver)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 30
+
+Step: 81
+craft(hammer handle, flashlight) Q=0.01023071658804329, Count=50
+craft(hammer handle, fuse) Q=0.0, Count=50
+craft(hammer handle, screwdriver) Q=0.0, Count=50
+craft(flashlight, fuse) Q=0.034142865084382724, Count=50
+craft(flashlight, screwdriver) Q=0.013407541439587067, Count=50
+craft(fuse, screwdriver) Q=0.022763935069651096, Count=50
+move(Back to the bedroom) Q=0.021602607244101832, Count=50
+Action: craft(flashlight, fuse)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 30
+
+Step: 82
+craft(hammer handle, flashlight) Q=0.04016020802975407, Count=50
+craft(hammer handle, fuse) Q=0.03497838988827527, Count=50
+craft(hammer handle, screwdriver) Q=0.011394592646027296, Count=50
+craft(flashlight, fuse) Q=0.0375497439444293, Count=50
+craft(flashlight, screwdriver) Q=0.0, Count=50
+craft(fuse, screwdriver) Q=0.0, Count=50
+move(Back to the bedroom) Q=0.04137040583988192, Count=50
+Action: move(Back to the bedroom)
+Reward: Action executed successfully. Change to another scene: bedroom.
+Accumulated_reward: 30
+
+Step: 83
+craft(hammer handle, flashlight) Q=0.011394592646027296, Count=50
+craft(hammer handle, fuse) Q=0.07610693170214342, Count=50
+craft(hammer handle, screwdriver) Q=0.06097040399445966, Count=50
+craft(flashlight, fuse) Q=0.07527648929922254, Count=50
+craft(flashlight, screwdriver) Q=0.022903395403740923, Count=50
+craft(fuse, screwdriver) Q=0.010796270133114115, Count=50
+move(To the living room) Q=0.015799168155428967, Count=50
+move(To the toolbox close-up) Q=0.02678028518000196, Count=50
+move(To the cardboard box close-up) Q=0.0, Count=50
+move(To the bathroom) Q=0.10259491920539376, Count=50
+Action: move(To the bathroom)
+Reward: Action executed successfully. Change to another scene: bathroom.
+Accumulated_reward: 30
+
+Step: 84
+craft(hammer handle, flashlight) Q=0.13149452910676457, Count=50
+craft(hammer handle, fuse) Q=0.20536878609574277, Count=50
+craft(hammer handle, screwdriver) Q=0.270313244938848, Count=50
+craft(flashlight, fuse) Q=0.1340128364004316, Count=50
+craft(flashlight, screwdriver) Q=0.11132352124158777, Count=50
+craft(fuse, screwdriver) Q=0.25701460582037683, Count=50
+move(To the bedroom) Q=0.04228332183877124, Count=49
+move(To the mirror close-up) Q=0.047171456245635554, Count=49
+move(To the ventilation fan close-up) Q=0.536145255198496, Count=52
+Action: move(To the ventilation fan close-up)
+Reward: Action executed successfully. Change to another scene: ventilation fan close-up.
+Accumulated_reward: 30
+
+Step: 85
+click(ventilation fan) Q=0.5870614068415151, Count=49
+apply(hammer handle, ventilation fan) Q=0.5943888890134498, Count=50
+apply(flashlight, ventilation fan) Q=0.6769007568010472, Count=50
+apply(fuse, ventilation fan) Q=0.60018316067871, Count=50
+apply(screwdriver, ventilation fan) Q=1.4663147724844938, Count=55
+craft(hammer handle, flashlight) Q=0.6645816611522332, Count=50
+craft(hammer handle, fuse) Q=0.5495939755319612, Count=49
+craft(hammer handle, screwdriver) Q=0.6278353952239024, Count=50
+craft(flashlight, fuse) Q=0.6752782492309058, Count=50
+craft(flashlight, screwdriver) Q=0.6522265055699312, Count=50
+craft(fuse, screwdriver) Q=0.6473073340029194, Count=50
+move(Back to the bathroom) Q=0.10152864437882575, Count=47
+Action: apply(screwdriver, ventilation fan)
+Reward: Action executed successfully. You have successfully applied screwdriver to ventilation fan. You have used the screwdriver to open the fan and found a key inside.
+Accumulated_reward: 31
+
+Step: 86
+click(locker key) Q=0.9999999999999998, Count=53
+apply(hammer handle, locker key) Q=0.452116736919034, Count=50
+apply(flashlight, locker key) Q=0.540132455381931, Count=50
+apply(fuse, locker key) Q=0.44604924877362845, Count=49
+craft(hammer handle, flashlight) Q=0.48383493535517424, Count=50
+craft(hammer handle, fuse) Q=0.5771604464179767, Count=50
+craft(flashlight, fuse) Q=0.4720006368908255, Count=50
+move(Back to the bathroom) Q=0.2539946064880556, Count=48
+Action: click(locker key)
+Reward: Action executed successfully. You have just collected a locker key. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 32
+
+Step: 87
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, fuse) Q=0.0, Count=50
+craft(hammer handle, locker key) Q=0.0, Count=50
+craft(flashlight, fuse) Q=0.0, Count=50
+craft(flashlight, locker key) Q=0.0, Count=50
+craft(fuse, locker key) Q=0.0, Count=50
+move(Back to the bathroom) Q=0.0, Count=50
+Action: craft(fuse, locker key)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 32
+
+Step: 88
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, fuse) Q=0.0, Count=50
+craft(hammer handle, locker key) Q=0.0, Count=50
+craft(flashlight, fuse) Q=0.0, Count=50
+craft(flashlight, locker key) Q=0.0, Count=50
+craft(fuse, locker key) Q=0.0, Count=50
+move(Back to the bathroom) Q=0.01023071658804329, Count=50
+Action: move(Back to the bathroom)
+Reward: Action executed successfully. Change to another scene: bathroom.
+Accumulated_reward: 32
+
+Step: 89
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, fuse) Q=0.0, Count=50
+craft(hammer handle, locker key) Q=0.0, Count=50
+craft(flashlight, fuse) Q=0.0, Count=50
+craft(flashlight, locker key) Q=0.0, Count=50
+craft(fuse, locker key) Q=0.014955324501419788, Count=50
+move(To the bedroom) Q=0.0, Count=50
+move(To the mirror close-up) Q=0.0, Count=50
+move(To the ventilation fan close-up) Q=0.0, Count=50
+Action: craft(fuse, locker key)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 32
+
+Step: 90
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, fuse) Q=0.0, Count=50
+craft(hammer handle, locker key) Q=0.0, Count=50
+craft(flashlight, fuse) Q=0.0, Count=50
+craft(flashlight, locker key) Q=0.0, Count=50
+craft(fuse, locker key) Q=0.0, Count=50
+move(To the bedroom) Q=0.0, Count=50
+move(To the mirror close-up) Q=0.0, Count=50
+move(To the ventilation fan close-up) Q=0.0, Count=50
+Action: craft(hammer handle, flashlight)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 32
+
+Step: 91
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, fuse) Q=0.0, Count=50
+craft(hammer handle, locker key) Q=0.0, Count=50
+craft(flashlight, fuse) Q=0.0, Count=50
+craft(flashlight, locker key) Q=0.0, Count=50
+craft(fuse, locker key) Q=0.0, Count=50
+move(To the bedroom) Q=0.0, Count=50
+move(To the mirror close-up) Q=0.0, Count=50
+move(To the ventilation fan close-up) Q=0.0, Count=50
+Action: move(To the ventilation fan close-up)
+Reward: Action executed successfully. Change to another scene: ventilation fan close-up.
+Accumulated_reward: 32
+
+Step: 92
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, fuse) Q=0.0, Count=50
+craft(hammer handle, locker key) Q=0.0, Count=50
+craft(flashlight, fuse) Q=0.0, Count=50
+craft(flashlight, locker key) Q=0.0, Count=50
+craft(fuse, locker key) Q=0.0, Count=50
+move(Back to the bathroom) Q=0.0, Count=50
+Action: craft(hammer handle, fuse)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 32
+
+Step: 93
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, fuse) Q=0.0, Count=50
+craft(hammer handle, locker key) Q=0.0, Count=50
+craft(flashlight, fuse) Q=0.0, Count=50
+craft(flashlight, locker key) Q=0.0, Count=50
+craft(fuse, locker key) Q=0.0, Count=50
+move(Back to the bathroom) Q=0.0, Count=50
+Action: craft(fuse, locker key)
+Reward: Nothing happens after crafting these two things together. Please try other actions to take.
+Accumulated_reward: 32
+
+Step: 94
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, fuse) Q=0.0, Count=50
+craft(hammer handle, locker key) Q=0.0, Count=50
+craft(flashlight, fuse) Q=0.0, Count=50
+craft(flashlight, locker key) Q=0.0, Count=50
+craft(fuse, locker key) Q=0.0, Count=50
+move(Back to the bathroom) Q=0.0, Count=50
+Action: move(Back to the bathroom)
+Reward: Action executed successfully. Change to another scene: bathroom.
+Accumulated_reward: 32
+
+Step: 95
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, fuse) Q=0.0, Count=50
+craft(hammer handle, locker key) Q=0.0, Count=50
+craft(flashlight, fuse) Q=0.0, Count=50
+craft(flashlight, locker key) Q=0.0, Count=50
+craft(fuse, locker key) Q=0.0, Count=50
+move(To the bedroom) Q=0.014159093367747502, Count=50
+move(To the mirror close-up) Q=0.0, Count=50
+move(To the ventilation fan close-up) Q=0.0, Count=50
+Action: move(To the bedroom)
+Reward: Action executed successfully. Change to another scene: bedroom.
+Accumulated_reward: 32
+
+Step: 96
+craft(hammer handle, flashlight) Q=0.0, Count=50
+craft(hammer handle, fuse) Q=0.0, Count=50
+craft(hammer handle, locker key) Q=0.014159093367747502, Count=50
+craft(flashlight, fuse) Q=0.0, Count=50
+craft(flashlight, locker key) Q=0.010796270133114115, Count=50
+craft(fuse, locker key) Q=0.0, Count=50
+move(To the living room) Q=0.022903395403740923, Count=50
+move(To the toolbox close-up) Q=0.0, Count=50
+move(To the cardboard box close-up) Q=0.0, Count=50
+move(To the bathroom) Q=0.0, Count=50
+Action: move(To the living room)
+Reward: Action executed successfully. Change to another scene: living room.
+Accumulated_reward: 32
+
+Step: 97
+click(right door to the exit) Q=0.03733320087495375, Count=50
+apply(hammer handle, right door to the exit) Q=0.015799168155428967, Count=50
+apply(flashlight, right door to the exit) Q=0.013407541439587067, Count=50
+apply(fuse, right door to the exit) Q=0.031004525229642838, Count=50
+apply(locker key, right door to the exit) Q=0.02599856452266628, Count=50
+craft(hammer handle, flashlight) Q=0.04437721774215069, Count=50
+craft(hammer handle, fuse) Q=0.022234516772856972, Count=50
+craft(hammer handle, locker key) Q=0.01269793949283138, Count=50
+craft(flashlight, fuse) Q=0.021602607244101832, Count=50
+craft(flashlight, locker key) Q=0.03492125988128712, Count=50
+craft(fuse, locker key) Q=0.05225669975318443, Count=50
+move(To the dining room and kitchen) Q=0.0, Count=50
+move(To the bedroom) Q=0.0, Count=49
+move(To the telephone cabinet close-up) Q=0.02361160732194079, Count=50
+move(To the study after unlocking) Q=0.18311182993588865, Count=51
+Action: move(To the study after unlocking)
+Reward: Action executed successfully. Change to another scene: study.
+Accumulated_reward: 32
+
+Step: 98
+craft(hammer handle, flashlight) Q=0.2821648895279385, Count=50
+craft(hammer handle, fuse) Q=0.18784015558006265, Count=50
+craft(hammer handle, locker key) Q=0.08682241904207219, Count=49
+craft(flashlight, fuse) Q=0.256151512033443, Count=50
+craft(flashlight, locker key) Q=0.21177718762168263, Count=50
+craft(fuse, locker key) Q=0.15889309576152844, Count=50
+move(Back to the living room) Q=0.057218263388261775, Count=49
+move(To the photo close-up) Q=0.010439293989715864, Count=49
+move(To the desk close-up) Q=0.5045345871803502, Count=52
+move(To the locker close-up) Q=0.5055068706293793, Count=52
+move(To the wall close-up) Q=0.023262990709839542, Count=49
+Action: move(To the locker close-up)
+Reward: Action executed successfully. Change to another scene: locker close-up.
+Accumulated_reward: 32
+
+Step: 99
+click(locked locker door) Q=0.48848313055155806, Count=50
+click(open locker doors) Q=0.5099114211726877, Count=50
+apply(hammer handle, locked locker door) Q=0.4813025221194309, Count=50
+apply(hammer handle, open locker doors) Q=0.5947186955887684, Count=50
+apply(flashlight, locked locker door) Q=0.504232872777765, Count=50
+apply(flashlight, open locker doors) Q=0.588642680427899, Count=50
+apply(fuse, locked locker door) Q=0.4220049017655774, Count=49
+apply(fuse, open locker doors) Q=0.5119467857960613, Count=50
+apply(locker key, locked locker door) Q=1.616000985785485, Count=56
+apply(locker key, open locker doors) Q=0.5012027449581288, Count=50
+craft(hammer handle, flashlight) Q=0.43800259429030153, Count=49
+craft(hammer handle, fuse) Q=0.4166517678686906, Count=49
+craft(hammer handle, locker key) Q=0.33863713801965617, Count=49
+craft(flashlight, fuse) Q=0.6157135568433336, Count=50
+craft(flashlight, locker key) Q=0.5407212061501666, Count=50
+craft(fuse, locker key) Q=0.5301873241298694, Count=50
+move(Back to the study) Q=0.10558772706132827, Count=48
+Action: apply(locker key, locked locker door)
+Reward: Action executed successfully. You have successfully applied locker key to locked locker door. The locker door is now open, revealing a hammerhead inside.
+Accumulated_reward: 33
+
+Step: 100
+click(open locker doors) Q=0.7075768215677763, Count=50
+click(hammer) Q=1.6166357501888735, Count=55
+apply(hammer handle, open locker doors) Q=0.7613182454522218, Count=50
+apply(hammer handle, hammer) Q=0.5948141457239087, Count=50
+apply(flashlight, open locker doors) Q=0.5935888049084673, Count=49
+apply(flashlight, hammer) Q=0.5901886101743501, Count=49
+apply(fuse, open locker doors) Q=0.6788556597267064, Count=50
+apply(fuse, hammer) Q=0.719794501063942, Count=50
+craft(hammer handle, flashlight) Q=0.6175868109282965, Count=50
+craft(hammer handle, fuse) Q=0.7166888856688273, Count=50
+craft(flashlight, fuse) Q=0.6616687575756933, Count=50
+move(Back to the study) Q=0.22052890196578517, Count=47
+Action: click(hammer)
+Reward: Action executed successfully. You have just collected a hammer. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Accumulated_reward: 34
+

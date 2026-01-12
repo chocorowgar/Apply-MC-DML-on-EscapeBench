@@ -1,0 +1,379 @@
+Step: 1
+proposed_subtask_user_prompt: Current State: {'Scenes': ['warehouse outside', 'garbage disposal place', 'crane overview', 'warehouse door corner'], 'Map of Scenes (edge list)': [('warehouse outside', 'garbage disposal place'), ('warehouse outside', 'crane overview'), ('warehouse outside', 'warehouse door corner')], 'tools_in_bag': 'empty', 'Current Location': 'warehouse outside', 'Interactable items in each scene': {'Interactable items in scene warehouse outside': {'dagger inserted in sign': "There's a dagger inserted in a red hydrant sign. Too high to reach it with hands.", 'wet shipping list': 'a wet shipping list with title "consignment notes" on it'}, 'Interactable items in scene garbage disposal place': "Hasn't explore yet", 'Interactable items in scene crane overview': "Hasn't explore yet", 'Interactable items in scene warehouse door corner': "Hasn't explore yet"}}
+Your previous actions and reward: empty
+Considering the Current State, your previous actions and reward, propose the next subtask, and how to achieve the subtask, the next subtask should be small.
+You can perform one of the following actions:
+- click(<interactable item>): Click an <interactable item> to examine it or interact with it. For example, you can examine a door handle that is marked as interactable. You cannot click tools in bag.
+- apply(<applicable tool>, <interactable item>): Apply an <applicable tool> in your bag to an <interactable item>. For example, you can apply a key in your bag to an interactable locked door to open it.
+- move(<interactable scene>): Move to a nearby <interactable item> to further explore. For example, you can move to the living room to explore more interactable items there.
+- craft(<applicable tool>, <applicable tool>): Use one <applicable tool> in bag to another <applicable tool> in bag to craft something new. For example, you can use a battery in bag to a controller in bag to craft a new charged controller.
+**Note** If you decide to move to another scene, you have to plan the path from your current scene to destination scene based on Map of Scenes (edge list).
+Proposed_subtask: Subtask: Find out what information or useful material can be obtained from the wet shipping list.
+
+How to achieve: Examine the list closely.
+
+Action: click(wet shipping list)
+click(dagger inserted in sign) Q=1.2674411680468922, Count=2, prob=0.010404688092314991
+click(wet shipping list) Q=2.180669196493311, Count=157, prob=0.5680767215122833
+move(Go to the garbage disposal place) Q=0, Count=0, prob=0.0035510966905140844
+move(Explore the crane in the front) Q=1.9991268246537421, Count=54, prob=0.20898374685244384
+move(Go to the door in left corner) Q=0.6770654915480093, Count=37, prob=0.20898374685244384
+Action: click(wet shipping list)
+Reward: Action executed successfully. You have just collected a wet shipping list. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Updated memory: {'Scenes': ['warehouse outside', 'garbage disposal place', 'crane overview', 'warehouse door corner'], 'Map of Scenes (edge list)': [('warehouse outside', 'garbage disposal place'), ('warehouse outside', 'crane overview'), ('warehouse outside', 'warehouse door corner')], 'tools_in_bag': {'wet shipping list': 'a wet shipping list with title "consignment notes" on it'}, 'Current Location': 'warehouse outside', 'Interactable items in each scene': {'Interactable items in scene warehouse outside': {'dagger inserted in sign': "There's a dagger inserted in a red hydrant sign. Too high to reach it with hands."}, 'Interactable items in scene garbage disposal place': "Hasn't explore yet", 'Interactable items in scene crane overview': "Hasn't explore yet", 'Interactable items in scene warehouse door corner': "Hasn't explore yet"}}
+click(wet shipping list) move(Go to the garbage disposal place) click(diagram) click(green garbage bin) click(hammer) apply(wet shipping list, green garbage bin) Accumulated_reward: 1
+
+Step: 2
+proposed_subtask_user_prompt: Current State: {'Scenes': ['warehouse outside', 'garbage disposal place', 'crane overview', 'warehouse door corner'], 'Map of Scenes (edge list)': [('warehouse outside', 'garbage disposal place'), ('warehouse outside', 'crane overview'), ('warehouse outside', 'warehouse door corner')], 'tools_in_bag': {'wet shipping list': 'a wet shipping list with title "consignment notes" on it'}, 'Current Location': 'warehouse outside', 'Interactable items in each scene': {'Interactable items in scene warehouse outside': {'dagger inserted in sign': "There's a dagger inserted in a red hydrant sign. Too high to reach it with hands."}, 'Interactable items in scene garbage disposal place': "Hasn't explore yet", 'Interactable items in scene crane overview': "Hasn't explore yet", 'Interactable items in scene warehouse door corner': "Hasn't explore yet"}}
+Your previous actions and reward: [t-1: click(wet shipping list): Action executed successfully. You have just collected a wet shipping list. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.]
+Considering the Current State, your previous actions and reward, propose the next subtask, and how to achieve the subtask, the next subtask should be small.
+You can perform one of the following actions:
+- click(<interactable item>): Click an <interactable item> to examine it or interact with it. For example, you can examine a door handle that is marked as interactable. You cannot click tools in bag.
+- apply(<applicable tool>, <interactable item>): Apply an <applicable tool> in your bag to an <interactable item>. For example, you can apply a key in your bag to an interactable locked door to open it.
+- move(<interactable scene>): Move to a nearby <interactable item> to further explore. For example, you can move to the living room to explore more interactable items there.
+- craft(<applicable tool>, <applicable tool>): Use one <applicable tool> in bag to another <applicable tool> in bag to craft something new. For example, you can use a battery in bag to a controller in bag to craft a new charged controller.
+**Note** If you decide to move to another scene, you have to plan the path from your current scene to destination scene based on Map of Scenes (edge list).
+Proposed_subtask: Next Subtask: Examine the “dagger inserted in sign” to understand its state and see if there’s a way to retrieve it.
+
+Plan & Action: Click the dagger to inspect it more closely.
+
+Proposed game command: click(dagger inserted in sign)
+click(dagger inserted in sign) Q=1.0245852157236601, Count=173, prob=0.7056967494353719
+apply(wet shipping list, dagger inserted in sign) Q=0.43098432971401185, Count=5, prob=0.02805552691598298
+move(Go to the garbage disposal place) Q=0, Count=0, prob=0.0038930217305293492
+move(Explore the crane in the front) Q=1.4363755654094932, Count=72, prob=0.2596113358715955
+move(Go to the door in left corner) Q=0, Count=0, prob=0.002743366046520168
+Action: move(Explore the crane in the front)
+Reward: Action executed successfully. Change to another scene: crane overview.
+Updated memory: {'Scenes': ['warehouse outside', 'garbage disposal place', 'crane overview', 'warehouse door corner'], 'Map of Scenes (edge list)': [('warehouse outside', 'garbage disposal place'), ('warehouse outside', 'crane overview'), ('warehouse outside', 'warehouse door corner')], 'tools_in_bag': {'wet shipping list': 'a wet shipping list with title "consignment notes" on it'}, 'Current Location': 'crane overview', 'Interactable items in each scene': {'Interactable items in scene warehouse outside': {'dagger inserted in sign': "There's a dagger inserted in a red hydrant sign. Too high to reach it with hands."}, 'Interactable items in scene garbage disposal place': "Hasn't explore yet", 'Interactable items in scene crane overview': {'silver key': 'a silver little key with a square tail'}, 'Interactable items in scene warehouse door corner': "Hasn't explore yet"}}
+click(dagger inserted in sign) apply(wet shipping list, dagger inserted in sign) apply(wet shipping list, dagger inserted in sign) move(Go to the garbage disposal place) click(diagram) click(hammer) Accumulated_reward: 1
+
+Step: 3
+proposed_subtask_user_prompt: Current State: {'Scenes': ['warehouse outside', 'garbage disposal place', 'crane overview', 'warehouse door corner'], 'Map of Scenes (edge list)': [('warehouse outside', 'garbage disposal place'), ('warehouse outside', 'crane overview'), ('warehouse outside', 'warehouse door corner')], 'tools_in_bag': {'wet shipping list': 'a wet shipping list with title "consignment notes" on it'}, 'Current Location': 'crane overview', 'Interactable items in each scene': {'Interactable items in scene warehouse outside': {'dagger inserted in sign': "There's a dagger inserted in a red hydrant sign. Too high to reach it with hands."}, 'Interactable items in scene garbage disposal place': "Hasn't explore yet", 'Interactable items in scene crane overview': {'silver key': 'a silver little key with a square tail'}, 'Interactable items in scene warehouse door corner': "Hasn't explore yet"}}
+Your previous actions and reward: [t-2: click(wet shipping list): Action executed successfully. You have just collected a wet shipping list. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.; t-1: move(Explore the crane in the front): Action executed successfully. Change to another scene: crane overview.]
+Considering the Current State, your previous actions and reward, propose the next subtask, and how to achieve the subtask, the next subtask should be small.
+You can perform one of the following actions:
+- click(<interactable item>): Click an <interactable item> to examine it or interact with it. For example, you can examine a door handle that is marked as interactable. You cannot click tools in bag.
+- apply(<applicable tool>, <interactable item>): Apply an <applicable tool> in your bag to an <interactable item>. For example, you can apply a key in your bag to an interactable locked door to open it.
+- move(<interactable scene>): Move to a nearby <interactable item> to further explore. For example, you can move to the living room to explore more interactable items there.
+- craft(<applicable tool>, <applicable tool>): Use one <applicable tool> in bag to another <applicable tool> in bag to craft something new. For example, you can use a battery in bag to a controller in bag to craft a new charged controller.
+**Note** If you decide to move to another scene, you have to plan the path from your current scene to destination scene based on Map of Scenes (edge list).
+Proposed_subtask: Subtask: Obtain the silver key observed in the crane overview.
+
+Plan to achieve the subtask:
+1. Examine / pick up the key.
+
+Concrete next action:
+click(silver key)
+click(silver key) Q=1.4349901729709325, Count=89, prob=0.5761168847658291
+apply(wet shipping list, silver key) Q=1.2425219343242238, Count=31, prob=0.21194155761708544
+move(Back to the warehouse outside) Q=1.0074223794637425, Count=30, prob=0.21194155761708544
+Action: click(silver key)
+Reward: Action executed successfully. You have just collected a silver key. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Updated memory: {'Scenes': ['warehouse outside', 'garbage disposal place', 'crane overview', 'warehouse door corner'], 'Map of Scenes (edge list)': [('warehouse outside', 'garbage disposal place'), ('warehouse outside', 'crane overview'), ('warehouse outside', 'warehouse door corner')], 'tools_in_bag': {'wet shipping list': 'a wet shipping list with title "consignment notes" on it', 'silver key': 'a silver little key with a square tail'}, 'Current Location': 'crane overview', 'Interactable items in each scene': {'Interactable items in scene warehouse outside': {'dagger inserted in sign': "There's a dagger inserted in a red hydrant sign. Too high to reach it with hands."}, 'Interactable items in scene garbage disposal place': "Hasn't explore yet", 'Interactable items in scene crane overview': 'Explored, no interactable items remaining', 'Interactable items in scene warehouse door corner': "Hasn't explore yet"}}
+click(silver key) move(Back to the warehouse outside) move(Explore the crane in the front) move(Back to the warehouse outside) move(Explore the crane in the front) move(Back to the warehouse outside) move(Explore the crane in the front) Accumulated_reward: 2
+
+Step: 4
+proposed_subtask_user_prompt: Current State: {'Scenes': ['warehouse outside', 'garbage disposal place', 'crane overview', 'warehouse door corner'], 'Map of Scenes (edge list)': [('warehouse outside', 'garbage disposal place'), ('warehouse outside', 'crane overview'), ('warehouse outside', 'warehouse door corner')], 'tools_in_bag': {'wet shipping list': 'a wet shipping list with title "consignment notes" on it', 'silver key': 'a silver little key with a square tail'}, 'Current Location': 'crane overview', 'Interactable items in each scene': {'Interactable items in scene warehouse outside': {'dagger inserted in sign': "There's a dagger inserted in a red hydrant sign. Too high to reach it with hands."}, 'Interactable items in scene garbage disposal place': "Hasn't explore yet", 'Interactable items in scene crane overview': 'Explored, no interactable items remaining', 'Interactable items in scene warehouse door corner': "Hasn't explore yet"}}
+Your previous actions and reward: [t-3: click(wet shipping list): Action executed successfully. You have just collected a wet shipping list. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.; t-2: move(Explore the crane in the front): Action executed successfully. Change to another scene: crane overview.; t-1: click(silver key): Action executed successfully. You have just collected a silver key. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.]
+Considering the Current State, your previous actions and reward, propose the next subtask, and how to achieve the subtask, the next subtask should be small.
+You can perform one of the following actions:
+- click(<interactable item>): Click an <interactable item> to examine it or interact with it. For example, you can examine a door handle that is marked as interactable. You cannot click tools in bag.
+- apply(<applicable tool>, <interactable item>): Apply an <applicable tool> in your bag to an <interactable item>. For example, you can apply a key in your bag to an interactable locked door to open it.
+- move(<interactable scene>): Move to a nearby <interactable item> to further explore. For example, you can move to the living room to explore more interactable items there.
+- craft(<applicable tool>, <applicable tool>): Use one <applicable tool> in bag to another <applicable tool> in bag to craft something new. For example, you can use a battery in bag to a controller in bag to craft a new charged controller.
+**Note** If you decide to move to another scene, you have to plan the path from your current scene to destination scene based on Map of Scenes (edge list).
+Proposed_subtask: Subtask: Reach and explore the “warehouse door corner” scene to discover its interactable items.
+
+Plan to achieve it:
+1. From the current scene “crane overview”, move back to “warehouse outside” (they are directly connected).
+2. From “warehouse outside”, move to the adjacent scene “warehouse door corner”.
+3. Once there, examine the new scene for interactable items.
+
+Immediate next action:  
+move(warehouse outside)
+craft(wet shipping list, silver key) Q=0, Count=0, prob=0.009239363223728841
+move(Back to the warehouse outside) Q=0.7361564577663005, Count=100, prob=0.9907606367762712
+Action: move(Back to the warehouse outside)
+Reward: Action executed successfully. Change to another scene: warehouse outside.
+Updated memory: {'Scenes': ['warehouse outside', 'garbage disposal place', 'crane overview', 'warehouse door corner'], 'Map of Scenes (edge list)': [('warehouse outside', 'garbage disposal place'), ('warehouse outside', 'crane overview'), ('warehouse outside', 'warehouse door corner')], 'tools_in_bag': {'wet shipping list': 'a wet shipping list with title "consignment notes" on it', 'silver key': 'a silver little key with a square tail'}, 'Current Location': 'warehouse outside', 'Interactable items in each scene': {'Interactable items in scene warehouse outside': {'dagger inserted in sign': "There's a dagger inserted in a red hydrant sign. Too high to reach it with hands."}, 'Interactable items in scene garbage disposal place': "Hasn't explore yet", 'Interactable items in scene crane overview': 'Explored, no interactable items remaining', 'Interactable items in scene warehouse door corner': "Hasn't explore yet"}}
+move(Back to the warehouse outside) move(Go to the door in left corner) apply(silver key, warehouse door) apply(silver key, warehouse door) click(electric box) click(electric box) click(electric box) click(electric box) Accumulated_reward: 2
+
+Step: 5
+proposed_subtask_user_prompt: Current State: {'Scenes': ['warehouse outside', 'garbage disposal place', 'crane overview', 'warehouse door corner'], 'Map of Scenes (edge list)': [('warehouse outside', 'garbage disposal place'), ('warehouse outside', 'crane overview'), ('warehouse outside', 'warehouse door corner')], 'tools_in_bag': {'wet shipping list': 'a wet shipping list with title "consignment notes" on it', 'silver key': 'a silver little key with a square tail'}, 'Current Location': 'warehouse outside', 'Interactable items in each scene': {'Interactable items in scene warehouse outside': {'dagger inserted in sign': "There's a dagger inserted in a red hydrant sign. Too high to reach it with hands."}, 'Interactable items in scene garbage disposal place': "Hasn't explore yet", 'Interactable items in scene crane overview': 'Explored, no interactable items remaining', 'Interactable items in scene warehouse door corner': "Hasn't explore yet"}}
+Your previous actions and reward: [t-4: click(wet shipping list): Action executed successfully. You have just collected a wet shipping list. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.; t-3: move(Explore the crane in the front): Action executed successfully. Change to another scene: crane overview.; t-2: click(silver key): Action executed successfully. You have just collected a silver key. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.; t-1: move(Back to the warehouse outside): Action executed successfully. Change to another scene: warehouse outside.]
+Considering the Current State, your previous actions and reward, propose the next subtask, and how to achieve the subtask, the next subtask should be small.
+You can perform one of the following actions:
+- click(<interactable item>): Click an <interactable item> to examine it or interact with it. For example, you can examine a door handle that is marked as interactable. You cannot click tools in bag.
+- apply(<applicable tool>, <interactable item>): Apply an <applicable tool> in your bag to an <interactable item>. For example, you can apply a key in your bag to an interactable locked door to open it.
+- move(<interactable scene>): Move to a nearby <interactable item> to further explore. For example, you can move to the living room to explore more interactable items there.
+- craft(<applicable tool>, <applicable tool>): Use one <applicable tool> in bag to another <applicable tool> in bag to craft something new. For example, you can use a battery in bag to a controller in bag to craft a new charged controller.
+**Note** If you decide to move to another scene, you have to plan the path from your current scene to destination scene based on Map of Scenes (edge list).
+Proposed_subtask: Sub-task  
+Explore the “warehouse door corner” area to discover what interactable items are there (there may be a door that matches the silver key).
+
+Plan to achieve it  
+From “warehouse outside”, the map allows a direct move to “warehouse door corner”, so simply go there and look around.
+
+Action  
+move(warehouse door corner)
+click(dagger inserted in sign) Q=0.2542777950833116, Count=6, prob=0.021424106059474167
+apply(wet shipping list, dagger inserted in sign) Q=0.6043588049828635, Count=3, prob=0.010908221155958372
+apply(silver key, dagger inserted in sign) Q=0.5015721066622858, Count=10, prob=0.034450266712075656
+craft(wet shipping list, silver key) Q=0.3398531773248114, Count=5, prob=0.019876074847089243
+move(Go to the garbage disposal place) Q=1.1038700552896499, Count=69, prob=0.17495289030653624
+move(Explore the crane in the front) Q=0.3705640362797278, Count=8, prob=0.028919518258823627
+move(Go to the door in left corner) Q=0.774477092730644, Count=249, prob=0.7094689226600427
+Action: move(Go to the garbage disposal place)
+Reward: Action executed successfully. Change to another scene: garbage disposal place.
+Updated memory: {'Scenes': ['warehouse outside', 'garbage disposal place', 'crane overview', 'warehouse door corner'], 'Map of Scenes (edge list)': [('warehouse outside', 'garbage disposal place'), ('warehouse outside', 'crane overview'), ('warehouse outside', 'warehouse door corner')], 'tools_in_bag': {'wet shipping list': 'a wet shipping list with title "consignment notes" on it', 'silver key': 'a silver little key with a square tail'}, 'Current Location': 'garbage disposal place', 'Interactable items in each scene': {'Interactable items in scene warehouse outside': {'dagger inserted in sign': "There's a dagger inserted in a red hydrant sign. Too high to reach it with hands."}, 'Interactable items in scene garbage disposal place': {'green garbage bin': 'The lid of the garbage bin is closed and locked.', 'hammer': 'a hammer with a wooden handle and a metal silver head', 'diagram': 'a diagram with a circuit on it, showing how electric swtiches are connected - "A03 crane, A09 exit door, A12 card reader, A13 office door"'}, 'Interactable items in scene crane overview': 'Explored, no interactable items remaining', 'Interactable items in scene warehouse door corner': "Hasn't explore yet"}}
+move(Go to the door in left corner) apply(silver key, warehouse door) apply(silver key, warehouse door) apply(silver key, warehouse door) apply(silver key, warehouse door) apply(silver key, warehouse door) apply(silver key, warehouse door) apply(silver key, warehouse door) apply(silver key, warehouse door) apply(silver key, warehouse door) apply(silver key, warehouse door) apply(silver key, warehouse door) apply(silver key, warehouse door) apply(silver key, warehouse door) apply(silver key, warehouse door) Accumulated_reward: 2
+
+Step: 6
+proposed_subtask_user_prompt: Current State: {'Scenes': ['warehouse outside', 'garbage disposal place', 'crane overview', 'warehouse door corner'], 'Map of Scenes (edge list)': [('warehouse outside', 'garbage disposal place'), ('warehouse outside', 'crane overview'), ('warehouse outside', 'warehouse door corner')], 'tools_in_bag': {'wet shipping list': 'a wet shipping list with title "consignment notes" on it', 'silver key': 'a silver little key with a square tail'}, 'Current Location': 'garbage disposal place', 'Interactable items in each scene': {'Interactable items in scene warehouse outside': {'dagger inserted in sign': "There's a dagger inserted in a red hydrant sign. Too high to reach it with hands."}, 'Interactable items in scene garbage disposal place': {'green garbage bin': 'The lid of the garbage bin is closed and locked.', 'hammer': 'a hammer with a wooden handle and a metal silver head', 'diagram': 'a diagram with a circuit on it, showing how electric swtiches are connected - "A03 crane, A09 exit door, A12 card reader, A13 office door"'}, 'Interactable items in scene crane overview': 'Explored, no interactable items remaining', 'Interactable items in scene warehouse door corner': "Hasn't explore yet"}}
+Your previous actions and reward: [t-5: click(wet shipping list): Action executed successfully. You have just collected a wet shipping list. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.; t-4: move(Explore the crane in the front): Action executed successfully. Change to another scene: crane overview.; t-3: click(silver key): Action executed successfully. You have just collected a silver key. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.; t-2: move(Back to the warehouse outside): Action executed successfully. Change to another scene: warehouse outside.; t-1: move(Go to the garbage disposal place): Action executed successfully. Change to another scene: garbage disposal place.]
+Considering the Current State, your previous actions and reward, propose the next subtask, and how to achieve the subtask, the next subtask should be small.
+You can perform one of the following actions:
+- click(<interactable item>): Click an <interactable item> to examine it or interact with it. For example, you can examine a door handle that is marked as interactable. You cannot click tools in bag.
+- apply(<applicable tool>, <interactable item>): Apply an <applicable tool> in your bag to an <interactable item>. For example, you can apply a key in your bag to an interactable locked door to open it.
+- move(<interactable scene>): Move to a nearby <interactable item> to further explore. For example, you can move to the living room to explore more interactable items there.
+- craft(<applicable tool>, <applicable tool>): Use one <applicable tool> in bag to another <applicable tool> in bag to craft something new. For example, you can use a battery in bag to a controller in bag to craft a new charged controller.
+**Note** If you decide to move to another scene, you have to plan the path from your current scene to destination scene based on Map of Scenes (edge list).
+Proposed_subtask: Subtask: Unlock and open the green garbage bin.
+
+How to achieve it: apply(silver key, green garbage bin)
+click(green garbage bin) Q=0, Count=0, prob=0.002536721554240061
+click(hammer) Q=1.5929281858707598, Count=69, prob=0.09283953016040891
+click(diagram) Q=1.340840107473505, Count=59, prob=0.09283953016040891
+apply(wet shipping list, green garbage bin) Q=0.9202533404710582, Count=48, prob=0.09283953016040891
+apply(wet shipping list, hammer) Q=0.9211451948867163, Count=48, prob=0.09283953016040891
+apply(wet shipping list, diagram) Q=0, Count=0, prob=0.002383029364773616
+apply(silver key, green garbage bin) Q=0.9411928784567141, Count=133, prob=0.252364007797715
+apply(silver key, hammer) Q=0.890503368162308, Count=48, prob=0.09283953016040891
+apply(silver key, diagram) Q=1.0449227215774544, Count=51, prob=0.09283953016040891
+craft(wet shipping list, silver key) Q=0.9336604273103548, Count=49, prob=0.09283953016040891
+move(Back to the warehouse outside) Q=0.7364561391054592, Count=45, prob=0.09283953016040891
+Action: click(hammer)
+Reward: Action executed successfully. You have just collected a hammer. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Updated memory: {'Scenes': ['warehouse outside', 'garbage disposal place', 'crane overview', 'warehouse door corner'], 'Map of Scenes (edge list)': [('warehouse outside', 'garbage disposal place'), ('warehouse outside', 'crane overview'), ('warehouse outside', 'warehouse door corner')], 'tools_in_bag': {'wet shipping list': 'a wet shipping list with title "consignment notes" on it', 'silver key': 'a silver little key with a square tail', 'hammer': 'a hammer with a wooden handle and a metal silver head'}, 'Current Location': 'garbage disposal place', 'Interactable items in each scene': {'Interactable items in scene warehouse outside': {'dagger inserted in sign': "There's a dagger inserted in a red hydrant sign. Too high to reach it with hands."}, 'Interactable items in scene garbage disposal place': {'green garbage bin': 'The lid of the garbage bin is closed and locked.', 'diagram': 'a diagram with a circuit on it, showing how electric swtiches are connected - "A03 crane, A09 exit door, A12 card reader, A13 office door"'}, 'Interactable items in scene crane overview': 'Explored, no interactable items remaining', 'Interactable items in scene warehouse door corner': "Hasn't explore yet"}}
+apply(silver key, green garbage bin) apply(silver key, green garbage bin) click(green garbage bin) apply(silver key, green garbage bin) click(green garbage bin) apply(silver key, green garbage bin) apply(silver key, green garbage bin) Accumulated_reward: 3
+
+Step: 7
+proposed_subtask_user_prompt: Current State: {'Scenes': ['warehouse outside', 'garbage disposal place', 'crane overview', 'warehouse door corner'], 'Map of Scenes (edge list)': [('warehouse outside', 'garbage disposal place'), ('warehouse outside', 'crane overview'), ('warehouse outside', 'warehouse door corner')], 'tools_in_bag': {'wet shipping list': 'a wet shipping list with title "consignment notes" on it', 'silver key': 'a silver little key with a square tail', 'hammer': 'a hammer with a wooden handle and a metal silver head'}, 'Current Location': 'garbage disposal place', 'Interactable items in each scene': {'Interactable items in scene warehouse outside': {'dagger inserted in sign': "There's a dagger inserted in a red hydrant sign. Too high to reach it with hands."}, 'Interactable items in scene garbage disposal place': {'green garbage bin': 'The lid of the garbage bin is closed and locked.', 'diagram': 'a diagram with a circuit on it, showing how electric swtiches are connected - "A03 crane, A09 exit door, A12 card reader, A13 office door"'}, 'Interactable items in scene crane overview': 'Explored, no interactable items remaining', 'Interactable items in scene warehouse door corner': "Hasn't explore yet"}}
+Your previous actions and reward: [t-6: click(wet shipping list): Action executed successfully. You have just collected a wet shipping list. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.; t-5: move(Explore the crane in the front): Action executed successfully. Change to another scene: crane overview.; t-4: click(silver key): Action executed successfully. You have just collected a silver key. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.; t-3: move(Back to the warehouse outside): Action executed successfully. Change to another scene: warehouse outside.; t-2: move(Go to the garbage disposal place): Action executed successfully. Change to another scene: garbage disposal place.; t-1: click(hammer): Action executed successfully. You have just collected a hammer. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.]
+Considering the Current State, your previous actions and reward, propose the next subtask, and how to achieve the subtask, the next subtask should be small.
+You can perform one of the following actions:
+- click(<interactable item>): Click an <interactable item> to examine it or interact with it. For example, you can examine a door handle that is marked as interactable. You cannot click tools in bag.
+- apply(<applicable tool>, <interactable item>): Apply an <applicable tool> in your bag to an <interactable item>. For example, you can apply a key in your bag to an interactable locked door to open it.
+- move(<interactable scene>): Move to a nearby <interactable item> to further explore. For example, you can move to the living room to explore more interactable items there.
+- craft(<applicable tool>, <applicable tool>): Use one <applicable tool> in bag to another <applicable tool> in bag to craft something new. For example, you can use a battery in bag to a controller in bag to craft a new charged controller.
+**Note** If you decide to move to another scene, you have to plan the path from your current scene to destination scene based on Map of Scenes (edge list).
+Proposed_subtask: Proposed next subtask:
+Try to unlock and open the green garbage bin to see what’s inside.
+
+How to achieve this subtask:
+Use the small silver key you found on the locked bin; it may fit the lock.
+
+Action to execute:
+apply(silver key, green garbage bin)
+click(green garbage bin) Q=0.5133420832795047, Count=1, prob=0.0023393490734840744
+click(diagram) Q=1.069586232366278, Count=63, prob=0.07844303691195945
+apply(wet shipping list, green garbage bin) Q=0.43039046746861337, Count=45, prob=0.07844303691195945
+apply(wet shipping list, diagram) Q=0.5538357294319874, Count=47, prob=0.07844303691195945
+apply(silver key, green garbage bin) Q=0.5369255997452262, Count=128, prob=0.21323028180692147
+apply(silver key, diagram) Q=0.5074828424138662, Count=46, prob=0.07844303691195945
+apply(hammer, green garbage bin) Q=0.5673645819491242, Count=48, prob=0.07844303691195945
+apply(hammer, diagram) Q=0.4797644332507197, Count=46, prob=0.07844303691195945
+craft(wet shipping list, silver key) Q=0.4002029598597643, Count=44, prob=0.07844303691195945
+craft(wet shipping list, hammer) Q=0.6509010069966763, Count=49, prob=0.07844303691195945
+craft(silver key, hammer) Q=0.27720312689920695, Count=41, prob=0.07844303691195945
+move(Back to the warehouse outside) Q=0.3203887068562942, Count=42, prob=0.07844303691195945
+Action: click(diagram)
+Reward: Action executed successfully. You have just collected a diagram. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.
+Updated memory: {'Scenes': ['warehouse outside', 'garbage disposal place', 'crane overview', 'warehouse door corner'], 'Map of Scenes (edge list)': [('warehouse outside', 'garbage disposal place'), ('warehouse outside', 'crane overview'), ('warehouse outside', 'warehouse door corner')], 'tools_in_bag': {'wet shipping list': 'a wet shipping list with title "consignment notes" on it', 'silver key': 'a silver little key with a square tail', 'hammer': 'a hammer with a wooden handle and a metal silver head', 'diagram': 'a diagram with a circuit on it, showing how electric swtiches are connected - "A03 crane, A09 exit door, A12 card reader, A13 office door"'}, 'Current Location': 'garbage disposal place', 'Interactable items in each scene': {'Interactable items in scene warehouse outside': {'dagger inserted in sign': "There's a dagger inserted in a red hydrant sign. Too high to reach it with hands."}, 'Interactable items in scene garbage disposal place': {'green garbage bin': 'The lid of the garbage bin is closed and locked.'}, 'Interactable items in scene crane overview': 'Explored, no interactable items remaining', 'Interactable items in scene warehouse door corner': "Hasn't explore yet"}}
+apply(silver key, green garbage bin) apply(silver key, green garbage bin) apply(silver key, green garbage bin) apply(silver key, green garbage bin) click(green garbage bin) apply(silver key, green garbage bin) Accumulated_reward: 4
+
+Step: 8
+proposed_subtask_user_prompt: Current State: {'Scenes': ['warehouse outside', 'garbage disposal place', 'crane overview', 'warehouse door corner'], 'Map of Scenes (edge list)': [('warehouse outside', 'garbage disposal place'), ('warehouse outside', 'crane overview'), ('warehouse outside', 'warehouse door corner')], 'tools_in_bag': {'wet shipping list': 'a wet shipping list with title "consignment notes" on it', 'silver key': 'a silver little key with a square tail', 'hammer': 'a hammer with a wooden handle and a metal silver head', 'diagram': 'a diagram with a circuit on it, showing how electric swtiches are connected - "A03 crane, A09 exit door, A12 card reader, A13 office door"'}, 'Current Location': 'garbage disposal place', 'Interactable items in each scene': {'Interactable items in scene warehouse outside': {'dagger inserted in sign': "There's a dagger inserted in a red hydrant sign. Too high to reach it with hands."}, 'Interactable items in scene garbage disposal place': {'green garbage bin': 'The lid of the garbage bin is closed and locked.'}, 'Interactable items in scene crane overview': 'Explored, no interactable items remaining', 'Interactable items in scene warehouse door corner': "Hasn't explore yet"}}
+Your previous actions and reward: [t-7: click(wet shipping list): Action executed successfully. You have just collected a wet shipping list. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.; t-6: move(Explore the crane in the front): Action executed successfully. Change to another scene: crane overview.; t-5: click(silver key): Action executed successfully. You have just collected a silver key. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.; t-4: move(Back to the warehouse outside): Action executed successfully. Change to another scene: warehouse outside.; t-3: move(Go to the garbage disposal place): Action executed successfully. Change to another scene: garbage disposal place.; t-2: click(hammer): Action executed successfully. You have just collected a hammer. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.; t-1: click(diagram): Action executed successfully. You have just collected a diagram. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.]
+Considering the Current State, your previous actions and reward, propose the next subtask, and how to achieve the subtask, the next subtask should be small.
+You can perform one of the following actions:
+- click(<interactable item>): Click an <interactable item> to examine it or interact with it. For example, you can examine a door handle that is marked as interactable. You cannot click tools in bag.
+- apply(<applicable tool>, <interactable item>): Apply an <applicable tool> in your bag to an <interactable item>. For example, you can apply a key in your bag to an interactable locked door to open it.
+- move(<interactable scene>): Move to a nearby <interactable item> to further explore. For example, you can move to the living room to explore more interactable items there.
+- craft(<applicable tool>, <applicable tool>): Use one <applicable tool> in bag to another <applicable tool> in bag to craft something new. For example, you can use a battery in bag to a controller in bag to craft a new charged controller.
+**Note** If you decide to move to another scene, you have to plan the path from your current scene to destination scene based on Map of Scenes (edge list).
+Proposed_subtask: Next sub-task  
+Unlock and open the garbage bin; it’s currently the only interactable object here and may hide something useful.
+
+How to achieve it  
+The bin is “closed and locked”, and you just picked up a small “silver key”. Try the key first before resorting to force.
+
+Action to execute  
+apply(silver key, green garbage bin)
+click(green garbage bin) Q=0.0, Count=1, prob=0.0031226274432312215
+apply(wet shipping list, green garbage bin) Q=0.17701925650106634, Count=3, prob=0.004776341021344426
+apply(silver key, green garbage bin) Q=0.018018565036137326, Count=138, prob=0.23013699836683726
+apply(hammer, green garbage bin) Q=0.021005461793215927, Count=50, prob=0.08466267035206523
+apply(diagram, green garbage bin) Q=0.06091241419937719, Count=51, prob=0.08466267035206523
+craft(wet shipping list, silver key) Q=0.058538001458536396, Count=51, prob=0.08466267035206523
+craft(wet shipping list, hammer) Q=0.038429400612660564, Count=51, prob=0.08466267035206523
+craft(wet shipping list, diagram) Q=0.02469605009922908, Count=50, prob=0.08466267035206523
+craft(silver key, hammer) Q=0.04798769808123842, Count=51, prob=0.08466267035206523
+craft(silver key, diagram) Q=0.07697957516362591, Count=52, prob=0.08466267035206523
+craft(hammer, diagram) Q=0.037535404083392204, Count=51, prob=0.08466267035206523
+move(Back to the warehouse outside) Q=0.03678738629085056, Count=51, prob=0.08466267035206523
+Action: apply(wet shipping list, green garbage bin)
+Reward: green garbage bin indeed needs a tool to apply but the current tool is wrong. You should try other tools or gather other clues first.
+Nothing happens after you apply the tool. You need a key to open the black lid of the bin
+Updated memory: {'Scenes': ['warehouse outside', 'garbage disposal place', 'crane overview', 'warehouse door corner'], 'Map of Scenes (edge list)': [('warehouse outside', 'garbage disposal place'), ('warehouse outside', 'crane overview'), ('warehouse outside', 'warehouse door corner')], 'tools_in_bag': {'wet shipping list': 'a wet shipping list with title "consignment notes" on it', 'silver key': 'a silver little key with a square tail', 'hammer': 'a hammer with a wooden handle and a metal silver head', 'diagram': 'a diagram with a circuit on it, showing how electric swtiches are connected - "A03 crane, A09 exit door, A12 card reader, A13 office door"'}, 'Current Location': 'garbage disposal place', 'Interactable items in each scene': {'Interactable items in scene warehouse outside': {'dagger inserted in sign': "There's a dagger inserted in a red hydrant sign. Too high to reach it with hands."}, 'Interactable items in scene garbage disposal place': {'green garbage bin': 'The lid of the garbage bin is closed and locked.'}, 'Interactable items in scene crane overview': 'Explored, no interactable items remaining', 'Interactable items in scene warehouse door corner': "Hasn't explore yet"}}
+apply(silver key, green garbage bin) apply(silver key, green garbage bin) click(green garbage bin) apply(silver key, green garbage bin) apply(silver key, green garbage bin) apply(silver key, green garbage bin) apply(silver key, green garbage bin) Accumulated_reward: 4
+
+Step: 9
+proposed_subtask_user_prompt: Current State: {'Scenes': ['warehouse outside', 'garbage disposal place', 'crane overview', 'warehouse door corner'], 'Map of Scenes (edge list)': [('warehouse outside', 'garbage disposal place'), ('warehouse outside', 'crane overview'), ('warehouse outside', 'warehouse door corner')], 'tools_in_bag': {'wet shipping list': 'a wet shipping list with title "consignment notes" on it', 'silver key': 'a silver little key with a square tail', 'hammer': 'a hammer with a wooden handle and a metal silver head', 'diagram': 'a diagram with a circuit on it, showing how electric swtiches are connected - "A03 crane, A09 exit door, A12 card reader, A13 office door"'}, 'Current Location': 'garbage disposal place', 'Interactable items in each scene': {'Interactable items in scene warehouse outside': {'dagger inserted in sign': "There's a dagger inserted in a red hydrant sign. Too high to reach it with hands."}, 'Interactable items in scene garbage disposal place': {'green garbage bin': 'The lid of the garbage bin is closed and locked.'}, 'Interactable items in scene crane overview': 'Explored, no interactable items remaining', 'Interactable items in scene warehouse door corner': "Hasn't explore yet"}}
+Your previous actions and reward: [t-8: click(wet shipping list): Action executed successfully. You have just collected a wet shipping list. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.; t-7: move(Explore the crane in the front): Action executed successfully. Change to another scene: crane overview.; t-6: click(silver key): Action executed successfully. You have just collected a silver key. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.; t-5: move(Back to the warehouse outside): Action executed successfully. Change to another scene: warehouse outside.; t-4: move(Go to the garbage disposal place): Action executed successfully. Change to another scene: garbage disposal place.; t-3: click(hammer): Action executed successfully. You have just collected a hammer. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.; t-2: click(diagram): Action executed successfully. You have just collected a diagram. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.; t-1: apply(wet shipping list, green garbage bin): green garbage bin indeed needs a tool to apply but the current tool is wrong. You should try other tools or gather other clues first.
+Nothing happens after you apply the tool. You need a key to open the black lid of the bin]
+Considering the Current State, your previous actions and reward, propose the next subtask, and how to achieve the subtask, the next subtask should be small.
+You can perform one of the following actions:
+- click(<interactable item>): Click an <interactable item> to examine it or interact with it. For example, you can examine a door handle that is marked as interactable. You cannot click tools in bag.
+- apply(<applicable tool>, <interactable item>): Apply an <applicable tool> in your bag to an <interactable item>. For example, you can apply a key in your bag to an interactable locked door to open it.
+- move(<interactable scene>): Move to a nearby <interactable item> to further explore. For example, you can move to the living room to explore more interactable items there.
+- craft(<applicable tool>, <applicable tool>): Use one <applicable tool> in bag to another <applicable tool> in bag to craft something new. For example, you can use a battery in bag to a controller in bag to craft a new charged controller.
+**Note** If you decide to move to another scene, you have to plan the path from your current scene to destination scene based on Map of Scenes (edge list).
+Proposed_subtask: Subtask: Try to unlock and open the locked bin.  
+Plan: Use the silver key from the bag on the green garbage bin; it may fit the lock.
+
+Proposed action: apply(silver key, green garbage bin)
+click(green garbage bin) Q=0.0, Count=1, prob=0.002288899560875717
+apply(wet shipping list, green garbage bin) Q=0.0, Count=2, prob=0.0037268790252945033
+apply(silver key, green garbage bin) Q=0.043988440045725406, Count=140, prob=0.23057384063611733
+apply(hammer, green garbage bin) Q=0.04088568316877672, Count=51, prob=0.08482337564196804
+apply(diagram, green garbage bin) Q=0.013407541439587067, Count=50, prob=0.08482337564196804
+craft(wet shipping list, silver key) Q=0.03770279196033675, Count=51, prob=0.08482337564196804
+craft(wet shipping list, hammer) Q=0.020594417327914838, Count=51, prob=0.08482337564196804
+craft(wet shipping list, diagram) Q=0.012027746069952204, Count=50, prob=0.08482337564196804
+craft(silver key, hammer) Q=0.03660377941310826, Count=51, prob=0.08482337564196804
+craft(silver key, diagram) Q=0.0383591415193845, Count=51, prob=0.08482337564196804
+craft(hammer, diagram) Q=0.03113281276582696, Count=51, prob=0.08482337564196804
+move(Back to the warehouse outside) Q=0.05552259412962717, Count=51, prob=0.08482337564196804
+Action: apply(silver key, green garbage bin)
+Reward: green garbage bin indeed needs a tool to apply but the current tool is wrong. You should try other tools or gather other clues first.
+Nothing happens after you apply the tool. You need a key to open the black lid of the bin
+Updated memory: {'Scenes': ['warehouse outside', 'garbage disposal place', 'crane overview', 'warehouse door corner'], 'Map of Scenes (edge list)': [('warehouse outside', 'garbage disposal place'), ('warehouse outside', 'crane overview'), ('warehouse outside', 'warehouse door corner')], 'tools_in_bag': {'wet shipping list': 'a wet shipping list with title "consignment notes" on it', 'silver key': 'a silver little key with a square tail', 'hammer': 'a hammer with a wooden handle and a metal silver head', 'diagram': 'a diagram with a circuit on it, showing how electric swtiches are connected - "A03 crane, A09 exit door, A12 card reader, A13 office door"'}, 'Current Location': 'garbage disposal place', 'Interactable items in each scene': {'Interactable items in scene warehouse outside': {'dagger inserted in sign': "There's a dagger inserted in a red hydrant sign. Too high to reach it with hands."}, 'Interactable items in scene garbage disposal place': {'green garbage bin': 'The lid of the garbage bin is closed and locked.'}, 'Interactable items in scene crane overview': 'Explored, no interactable items remaining', 'Interactable items in scene warehouse door corner': "Hasn't explore yet"}}
+apply(silver key, green garbage bin) apply(silver key, green garbage bin) click(green garbage bin) apply(silver key, green garbage bin) apply(silver key, green garbage bin) apply(hammer, green garbage bin) Accumulated_reward: 4
+
+Step: 10
+proposed_subtask_user_prompt: Current State: {'Scenes': ['warehouse outside', 'garbage disposal place', 'crane overview', 'warehouse door corner'], 'Map of Scenes (edge list)': [('warehouse outside', 'garbage disposal place'), ('warehouse outside', 'crane overview'), ('warehouse outside', 'warehouse door corner')], 'tools_in_bag': {'wet shipping list': 'a wet shipping list with title "consignment notes" on it', 'silver key': 'a silver little key with a square tail', 'hammer': 'a hammer with a wooden handle and a metal silver head', 'diagram': 'a diagram with a circuit on it, showing how electric swtiches are connected - "A03 crane, A09 exit door, A12 card reader, A13 office door"'}, 'Current Location': 'garbage disposal place', 'Interactable items in each scene': {'Interactable items in scene warehouse outside': {'dagger inserted in sign': "There's a dagger inserted in a red hydrant sign. Too high to reach it with hands."}, 'Interactable items in scene garbage disposal place': {'green garbage bin': 'The lid of the garbage bin is closed and locked.'}, 'Interactable items in scene crane overview': 'Explored, no interactable items remaining', 'Interactable items in scene warehouse door corner': "Hasn't explore yet"}}
+Your previous actions and reward: [t-9: click(wet shipping list): Action executed successfully. You have just collected a wet shipping list. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.; t-8: move(Explore the crane in the front): Action executed successfully. Change to another scene: crane overview.; t-7: click(silver key): Action executed successfully. You have just collected a silver key. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.; t-6: move(Back to the warehouse outside): Action executed successfully. Change to another scene: warehouse outside.; t-5: move(Go to the garbage disposal place): Action executed successfully. Change to another scene: garbage disposal place.; t-4: click(hammer): Action executed successfully. You have just collected a hammer. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.; t-3: click(diagram): Action executed successfully. You have just collected a diagram. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.; t-2: apply(wet shipping list, green garbage bin): green garbage bin indeed needs a tool to apply but the current tool is wrong. You should try other tools or gather other clues first.
+Nothing happens after you apply the tool. You need a key to open the black lid of the bin; t-1: apply(silver key, green garbage bin): green garbage bin indeed needs a tool to apply but the current tool is wrong. You should try other tools or gather other clues first.
+Nothing happens after you apply the tool. You need a key to open the black lid of the bin]
+Considering the Current State, your previous actions and reward, propose the next subtask, and how to achieve the subtask, the next subtask should be small.
+You can perform one of the following actions:
+- click(<interactable item>): Click an <interactable item> to examine it or interact with it. For example, you can examine a door handle that is marked as interactable. You cannot click tools in bag.
+- apply(<applicable tool>, <interactable item>): Apply an <applicable tool> in your bag to an <interactable item>. For example, you can apply a key in your bag to an interactable locked door to open it.
+- move(<interactable scene>): Move to a nearby <interactable item> to further explore. For example, you can move to the living room to explore more interactable items there.
+- craft(<applicable tool>, <applicable tool>): Use one <applicable tool> in bag to another <applicable tool> in bag to craft something new. For example, you can use a battery in bag to a controller in bag to craft a new charged controller.
+**Note** If you decide to move to another scene, you have to plan the path from your current scene to destination scene based on Map of Scenes (edge list).
+Proposed_subtask: Next subtask: Reach and explore the “warehouse door corner” scene to look for new items (possibly a key that fits the garbage-bin lock).
+
+Plan to achieve it:
+1. Move from “garbage disposal place” to “warehouse outside”.
+2. From “warehouse outside”, move to “warehouse door corner”.
+3. Once there, click each newly listed interactable item to inspect it.
+
+Immediate action: move(warehouse outside)
+click(green garbage bin) Q=0.0, Count=1, prob=0.003481793933002623
+apply(wet shipping list, green garbage bin) Q=0.0, Count=4, prob=0.008146168214404599
+apply(silver key, green garbage bin) Q=0.011687540366745899, Count=64, prob=0.11245438344793
+apply(hammer, green garbage bin) Q=0.09666595047249973, Count=67, prob=0.11245438344793
+apply(diagram, green garbage bin) Q=0.08127676703439655, Count=67, prob=0.11245438344793
+craft(wet shipping list, silver key) Q=0.0, Count=1, prob=0.0020088203494297912
+craft(wet shipping list, hammer) Q=0.0, Count=1, prob=0.0020088203494297912
+craft(wet shipping list, diagram) Q=0.037733282100809194, Count=65, prob=0.11245438344793
+craft(silver key, hammer) Q=0.1311325684616765, Count=68, prob=0.11245438344793
+craft(silver key, diagram) Q=0.07048411674693826, Count=66, prob=0.11245438344793
+craft(hammer, diagram) Q=0.0, Count=2, prob=0.003945389409079383
+move(Back to the warehouse outside) Q=0.20698929016579842, Count=194, prob=0.3056827070570738
+Action: move(Back to the warehouse outside)
+Reward: Action executed successfully. Change to another scene: warehouse outside.
+Updated memory: {'Scenes': ['warehouse outside', 'garbage disposal place', 'crane overview', 'warehouse door corner'], 'Map of Scenes (edge list)': [('warehouse outside', 'garbage disposal place'), ('warehouse outside', 'crane overview'), ('warehouse outside', 'warehouse door corner')], 'tools_in_bag': {'wet shipping list': 'a wet shipping list with title "consignment notes" on it', 'silver key': 'a silver little key with a square tail', 'hammer': 'a hammer with a wooden handle and a metal silver head', 'diagram': 'a diagram with a circuit on it, showing how electric swtiches are connected - "A03 crane, A09 exit door, A12 card reader, A13 office door"'}, 'Current Location': 'warehouse outside', 'Interactable items in each scene': {'Interactable items in scene warehouse outside': {'dagger inserted in sign': "There's a dagger inserted in a red hydrant sign. Too high to reach it with hands."}, 'Interactable items in scene garbage disposal place': {'green garbage bin': 'The lid of the garbage bin is closed and locked.'}, 'Interactable items in scene crane overview': 'Explored, no interactable items remaining', 'Interactable items in scene warehouse door corner': "Hasn't explore yet"}}
+move(Back to the warehouse outside) move(Go to the door in left corner) click(electric box) click(warehouse door) click(electric box) Accumulated_reward: 4
+
+Step: 11
+proposed_subtask_user_prompt: Current State: {'Scenes': ['warehouse outside', 'garbage disposal place', 'crane overview', 'warehouse door corner'], 'Map of Scenes (edge list)': [('warehouse outside', 'garbage disposal place'), ('warehouse outside', 'crane overview'), ('warehouse outside', 'warehouse door corner')], 'tools_in_bag': {'wet shipping list': 'a wet shipping list with title "consignment notes" on it', 'silver key': 'a silver little key with a square tail', 'hammer': 'a hammer with a wooden handle and a metal silver head', 'diagram': 'a diagram with a circuit on it, showing how electric swtiches are connected - "A03 crane, A09 exit door, A12 card reader, A13 office door"'}, 'Current Location': 'warehouse outside', 'Interactable items in each scene': {'Interactable items in scene warehouse outside': {'dagger inserted in sign': "There's a dagger inserted in a red hydrant sign. Too high to reach it with hands."}, 'Interactable items in scene garbage disposal place': {'green garbage bin': 'The lid of the garbage bin is closed and locked.'}, 'Interactable items in scene crane overview': 'Explored, no interactable items remaining', 'Interactable items in scene warehouse door corner': "Hasn't explore yet"}}
+Your previous actions and reward: [t-10: click(wet shipping list): Action executed successfully. You have just collected a wet shipping list. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.; t-9: move(Explore the crane in the front): Action executed successfully. Change to another scene: crane overview.; t-8: click(silver key): Action executed successfully. You have just collected a silver key. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.; t-7: move(Back to the warehouse outside): Action executed successfully. Change to another scene: warehouse outside.; t-6: move(Go to the garbage disposal place): Action executed successfully. Change to another scene: garbage disposal place.; t-5: click(hammer): Action executed successfully. You have just collected a hammer. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.; t-4: click(diagram): Action executed successfully. You have just collected a diagram. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.; t-3: apply(wet shipping list, green garbage bin): green garbage bin indeed needs a tool to apply but the current tool is wrong. You should try other tools or gather other clues first.
+Nothing happens after you apply the tool. You need a key to open the black lid of the bin; t-2: apply(silver key, green garbage bin): green garbage bin indeed needs a tool to apply but the current tool is wrong. You should try other tools or gather other clues first.
+Nothing happens after you apply the tool. You need a key to open the black lid of the bin; t-1: move(Back to the warehouse outside): Action executed successfully. Change to another scene: warehouse outside.]
+Considering the Current State, your previous actions and reward, propose the next subtask, and how to achieve the subtask, the next subtask should be small.
+You can perform one of the following actions:
+- click(<interactable item>): Click an <interactable item> to examine it or interact with it. For example, you can examine a door handle that is marked as interactable. You cannot click tools in bag.
+- apply(<applicable tool>, <interactable item>): Apply an <applicable tool> in your bag to an <interactable item>. For example, you can apply a key in your bag to an interactable locked door to open it.
+- move(<interactable scene>): Move to a nearby <interactable item> to further explore. For example, you can move to the living room to explore more interactable items there.
+- craft(<applicable tool>, <applicable tool>): Use one <applicable tool> in bag to another <applicable tool> in bag to craft something new. For example, you can use a battery in bag to a controller in bag to craft a new charged controller.
+**Note** If you decide to move to another scene, you have to plan the path from your current scene to destination scene based on Map of Scenes (edge list).
+Proposed_subtask: Next sub-task: Explore the “warehouse door corner” scene to discover any interactable objects or clues there.
+
+How to achieve it:
+1. From your current location “warehouse outside”, take the direct path listed in the map to the connected scene “warehouse door corner”.
+
+Planned action now:
+move(warehouse door corner)
+click(dagger inserted in sign) Q=0.18488665532921683, Count=22, prob=0.030699404825194006
+apply(wet shipping list, dagger inserted in sign) Q=0.14238984972388302, Count=38, prob=0.05455684947294439
+apply(silver key, dagger inserted in sign) Q=0.16945693054831398, Count=22, prob=0.03147656395837202
+apply(hammer, dagger inserted in sign) Q=0.31098099108428484, Count=29, prob=0.037496337727367574
+apply(diagram, dagger inserted in sign) Q=0.14304424621092937, Count=25, prob=0.03566761975728828
+craft(wet shipping list, silver key) Q=0.019630081946365178, Count=29, prob=0.04356452914856006
+craft(wet shipping list, hammer) Q=0.19998736061693723, Count=31, prob=0.042488917091437844
+craft(wet shipping list, diagram) Q=0.049068834639314426, Count=24, prob=0.03566761975728828
+craft(silver key, hammer) Q=0.07118827869290853, Count=41, prob=0.06029464341932886
+craft(silver key, diagram) Q=0.16177596704703245, Count=37, prob=0.05189608052672098
+craft(hammer, diagram) Q=0.10500636907951352, Count=58, prob=0.0834496342808328
+move(Go to the garbage disposal place) Q=0.05903378218073414, Count=213, prob=0.31395299132818627
+move(Explore the crane in the front) Q=0.10932605096265094, Count=55, prob=0.07937974759175163
+move(Go to the door in left corner) Q=0.2821547407568721, Count=76, prob=0.09940906111472698
+Action: apply(hammer, dagger inserted in sign)
+Reward: dagger inserted in sign indeed needs a tool to apply but the current tool is wrong. You should try other tools or gather other clues first.
+Nothing happens after you apply the tool. You may try to use something to get it down
+Updated memory: {'Scenes': ['warehouse outside', 'garbage disposal place', 'crane overview', 'warehouse door corner'], 'Map of Scenes (edge list)': [('warehouse outside', 'garbage disposal place'), ('warehouse outside', 'crane overview'), ('warehouse outside', 'warehouse door corner')], 'tools_in_bag': {'wet shipping list': 'a wet shipping list with title "consignment notes" on it', 'silver key': 'a silver little key with a square tail', 'hammer': 'a hammer with a wooden handle and a metal silver head', 'diagram': 'a diagram with a circuit on it, showing how electric swtiches are connected - "A03 crane, A09 exit door, A12 card reader, A13 office door"'}, 'Current Location': 'warehouse outside', 'Interactable items in each scene': {'Interactable items in scene warehouse outside': {'dagger inserted in sign': "There's a dagger inserted in a red hydrant sign. Too high to reach it with hands."}, 'Interactable items in scene garbage disposal place': {'green garbage bin': 'The lid of the garbage bin is closed and locked.'}, 'Interactable items in scene crane overview': 'Explored, no interactable items remaining', 'Interactable items in scene warehouse door corner': "Hasn't explore yet"}}
+move(Go to the garbage disposal place) move(Back to the warehouse outside) move(Go to the garbage disposal place) move(Back to the warehouse outside) move(Go to the garbage disposal place) move(Back to the warehouse outside) move(Go to the garbage disposal place) Accumulated_reward: 4
+
+Step: 12
+proposed_subtask_user_prompt: Current State: {'Scenes': ['warehouse outside', 'garbage disposal place', 'crane overview', 'warehouse door corner'], 'Map of Scenes (edge list)': [('warehouse outside', 'garbage disposal place'), ('warehouse outside', 'crane overview'), ('warehouse outside', 'warehouse door corner')], 'tools_in_bag': {'wet shipping list': 'a wet shipping list with title "consignment notes" on it', 'silver key': 'a silver little key with a square tail', 'hammer': 'a hammer with a wooden handle and a metal silver head', 'diagram': 'a diagram with a circuit on it, showing how electric swtiches are connected - "A03 crane, A09 exit door, A12 card reader, A13 office door"'}, 'Current Location': 'warehouse outside', 'Interactable items in each scene': {'Interactable items in scene warehouse outside': {'dagger inserted in sign': "There's a dagger inserted in a red hydrant sign. Too high to reach it with hands."}, 'Interactable items in scene garbage disposal place': {'green garbage bin': 'The lid of the garbage bin is closed and locked.'}, 'Interactable items in scene crane overview': 'Explored, no interactable items remaining', 'Interactable items in scene warehouse door corner': "Hasn't explore yet"}}
+Your previous actions and reward: [t-10: move(Explore the crane in the front): Action executed successfully. Change to another scene: crane overview.; t-9: click(silver key): Action executed successfully. You have just collected a silver key. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.; t-8: move(Back to the warehouse outside): Action executed successfully. Change to another scene: warehouse outside.; t-7: move(Go to the garbage disposal place): Action executed successfully. Change to another scene: garbage disposal place.; t-6: click(hammer): Action executed successfully. You have just collected a hammer. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.; t-5: click(diagram): Action executed successfully. You have just collected a diagram. It is put into your bag. You may craft something new with it and other things in the bag, or apply it in the future.; t-4: apply(wet shipping list, green garbage bin): green garbage bin indeed needs a tool to apply but the current tool is wrong. You should try other tools or gather other clues first.
+Nothing happens after you apply the tool. You need a key to open the black lid of the bin; t-3: apply(silver key, green garbage bin): green garbage bin indeed needs a tool to apply but the current tool is wrong. You should try other tools or gather other clues first.
+Nothing happens after you apply the tool. You need a key to open the black lid of the bin; t-2: move(Back to the warehouse outside): Action executed successfully. Change to another scene: warehouse outside.; t-1: apply(hammer, dagger inserted in sign): dagger inserted in sign indeed needs a tool to apply but the current tool is wrong. You should try other tools or gather other clues first.
+Nothing happens after you apply the tool. You may try to use something to get it down]
+Considering the Current State, your previous actions and reward, propose the next subtask, and how to achieve the subtask, the next subtask should be small.
+You can perform one of the following actions:
+- click(<interactable item>): Click an <interactable item> to examine it or interact with it. For example, you can examine a door handle that is marked as interactable. You cannot click tools in bag.
+- apply(<applicable tool>, <interactable item>): Apply an <applicable tool> in your bag to an <interactable item>. For example, you can apply a key in your bag to an interactable locked door to open it.
+- move(<interactable scene>): Move to a nearby <interactable item> to further explore. For example, you can move to the living room to explore more interactable items there.
+- craft(<applicable tool>, <applicable tool>): Use one <applicable tool> in bag to another <applicable tool> in bag to craft something new. For example, you can use a battery in bag to a controller in bag to craft a new charged controller.
+**Note** If you decide to move to another scene, you have to plan the path from your current scene to destination scene based on Map of Scenes (edge list).
+Proposed_subtask: Next subtask: Explore the “warehouse door corner” scene to discover new interactable items that may help with the dagger or locked bin later.
+
+How to achieve:
+1. From the current location “warehouse outside”, take the direct path to the adjacent scene “warehouse door corner”.
+
+Planned action:  
+move(warehouse door corner)
+click(dagger inserted in sign) Q=0.30378767495171016, Count=15, prob=0.020314979236846917
+apply(wet shipping list, dagger inserted in sign) Q=0.11272979609271247, Count=23, prob=0.033493738381620966
+apply(silver key, dagger inserted in sign) Q=0.15238554388992853, Count=15, prob=0.021356550495176218
+apply(hammer, dagger inserted in sign) Q=0.09181418991488226, Count=20, prob=0.028828327785355278
+apply(diagram, dagger inserted in sign) Q=0.11016833293729096, Count=16, prob=0.024200142156452494
+craft(wet shipping list, silver key) Q=0.061666746992531066, Count=23, prob=0.03434163640556539
+craft(wet shipping list, hammer) Q=0.22791655382695838, Count=25, prob=0.033493738381620966
+craft(wet shipping list, diagram) Q=0.06763060248980066, Count=20, prob=0.030306387757597832
+craft(silver key, hammer) Q=0.06676112709587313, Count=35, prob=0.05123170134723903
+craft(silver key, diagram) Q=0.05834082836174283, Count=35, prob=0.05123170134723903
+craft(hammer, diagram) Q=0.11987271937122758, Count=55, prob=0.07836352703712018
+move(Go to the garbage disposal place) Q=0.03408542215127607, Count=219, prob=0.3258243962525049
+move(Explore the crane in the front) Q=0.06273937319127429, Count=80, prob=0.11690464502825534
+move(Go to the door in left corner) Q=0.32464710192173735, Count=119, prob=0.15010852838740546
+Action: move(Go to the door in left corner)
+Reward: Action executed successfully. Change to another scene: warehouse door corner.
+Updated memory: {'Scenes': ['warehouse outside', 'garbage disposal place', 'crane overview', 'warehouse door corner'], 'Map of Scenes (edge list)': [('warehouse outside', 'garbage disposal place'), ('warehouse outside', 'crane overview'), ('warehouse outside', 'warehouse door corner')], 'tools_in_bag': {'wet shipping list': 'a wet shipping list with title "consignment notes" on it', 'silver key': 'a silver little key with a square tail', 'hammer': 'a hammer with a wooden handle and a metal silver head', 'diagram': 'a diagram with a circuit on it, showing how electric swtiches are connected - "A03 crane, A09 exit door, A12 card reader, A13 office door"'}, 'Current Location': 'warehouse door corner', 'Interactable items in each scene': {'Interactable items in scene warehouse outside': {'dagger inserted in sign': "There's a dagger inserted in a red hydrant sign. Too high to reach it with hands."}, 'Interactable items in scene garbage disposal place': {'green garbage bin': 'The lid of the garbage bin is closed and locked.'}, 'Interactable items in scene crane overview': 'Explored, no interactable items remaining', 'Interactable items in scene warehouse door corner': {'electric box': 'a blue iron box with a yellow voltage sign on it', 'warehouse door': 'a rusty iron door in green color, with lock on it. The door is locked.'}}}
+move(Go to the garbage disposal place) move(Back to the warehouse outside) move(Go to the garbage disposal place) move(Back to the warehouse outside) move(Go to the garbage disposal place) move(Back to the warehouse outside) move(Go to the garbage disposal place) move(Back to the warehouse outside) Accumulated_reward: 4
+
